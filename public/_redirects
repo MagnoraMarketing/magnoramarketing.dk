@@ -1,0 +1,30 @@
+# =====================================================================
+# nexusmarketing.dk  ->  SEO redirect-only (host-scoped, 301 permanent)
+# These rules only match requests whose HOST is nexusmarketing.dk, so
+# magnoramarketing.dk is never affected. (Netlify full-URL redirect
+# syntax; ignored by Vercel, which uses vercel.json — keep both in sync.)
+# =====================================================================
+https://nexusmarketing.dk/forside/                                                 https://magnoramarketing.dk/                        301!
+https://nexusmarketing.dk/arbejd-hjemmefra-freelance/                              https://magnoramarketing.dk/jobs/arbejd-hjemmefra   301!
+https://nexusmarketing.dk/nexusmarketing-freelance-moedebooker/                    https://magnoramarketing.dk/jobs/arbejd-hjemmefra   301!
+https://nexusmarketing.dk/moedebooker-inden-for-solceller-og-vedvarende-energi/    https://magnoramarketing.dk/jobs/solenergi          301!
+https://nexusmarketing.dk/privat-strom-salg/                                       https://magnoramarketing.dk/jobs/energi-salg        301!
+https://nexusmarketing.dk/samarbejde-med-nexusmarketing/                           https://magnoramarketing.dk/samarbejdspartner       301!
+https://nexusmarketing.dk/om-nexusmarketing/                                       https://magnoramarketing.dk/om-os                   301!
+https://nexusmarketing.dk/moedebooker-hjemmeside-seo-og-marketing/                 https://magnoramarketing.dk/jobs/webudvikling-salg  301!
+https://nexusmarketing.dk/kontakt-nexusmarketing/                                  https://magnoramarketing.dk/kontakt                 301!
+https://nexusmarketing.dk/freelance-modebooker-pension/                            https://magnoramarketing.dk/jobs/pensionsordning    301!
+https://nexusmarketing.dk/freelancere/                                             https://magnoramarketing.dk/freelance-telemarketing 301!
+https://nexusmarketing.dk/hvorfor-outsource/                                       https://magnoramarketing.dk/hvorfor-os              301!
+https://nexusmarketing.dk/*                                                        https://magnoramarketing.dk/                        301!
+https://www.nexusmarketing.dk/*                                                    https://magnoramarketing.dk/                        301!
+
+# =====================================================================
+# magnoramarketing.dk (and any other host): render the SPA normally.
+# Static assets and pre-rendered pages are served directly; everything
+# else falls through to the SPA entry so React Router can handle it.
+# =====================================================================
+/sitemap.xml  /sitemap.xml  200
+/robots.txt   /robots.txt   200
+/llms.txt     /llms.txt     200
+/*            /index.html   200

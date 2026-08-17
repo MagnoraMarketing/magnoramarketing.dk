@@ -1,0 +1,95 @@
+# Magnora Marketing
+
+> Magnora Marketing er en dansk B2B-vækstpartner, der hjælper virksomheder med at vokse gennem telesalg, mødebooking, leadgenerering, webudvikling og AI-integration. Vi kombinerer erfarne salgskonsulenter med moderne digitale løsninger og leverer målbare resultater for danske virksomheder.
+
+- Sprog: Dansk (primær), engelsk, spansk
+- Markedsområde: Danmark
+- Kontakt: https://magnoramarketing.dk/kontakt
+
+## Hovedsider
+- [Forside](https://magnoramarketing.dk/): Magnora Marketing – vækstpartner inden for telesalg, mødebooking, leadgenerering, webudvikling og AI.
+- [Hvorfor Magnora](https://magnoramarketing.dk/hvorfor-os): Din langsigtede vækstpartner inden for telesalg, mødebooking, webudvikling og AI-løsninger – vi er med hele vejen.
+- [Om os](https://magnoramarketing.dk/om-os): Om Magnora Marketing – team, tilgang og værdier.
+- [Kontakt](https://magnoramarketing.dk/kontakt): Kom i kontakt med Magnora Marketing for en uforpligtende snak.
+- [Blog](https://magnoramarketing.dk/blog): Artikler og guides om telesalg, mødebooking, leadgenerering, SaaS og AI.
+
+## Ydelser & priser
+- [Ydelser](https://magnoramarketing.dk/ydelser): Overblik over vores B2B-ydelser: telesalg, mødebooking, leadgenerering og digitale løsninger.
+- [Priser](https://magnoramarketing.dk/priser): Priser og pakker for telesalg, mødebooking og leadgenerering.
+- [Mødebooking – priser](https://magnoramarketing.dk/modebooking-priser): Priser og modeller for professionel B2B-mødebooking.
+- [Leadgenerering](https://magnoramarketing.dk/leadgenerering): Kvalificerede B2B-leads via outbound, SEO, LinkedIn og ABM.
+- [Samarbejdspartner](https://magnoramarketing.dk/samarbejdspartner): Bliv samarbejdspartner og få en dedikeret vækstpartner til salg og digitale løsninger.
+
+## Digitale løsninger
+- [Webudvikling](https://magnoramarketing.dk/digital/webudvikling): Skræddersyet webudvikling der kombinerer teknik og kommerciel indsigt.
+- [Hjemmesider](https://magnoramarketing.dk/digital/hjemmesider): Prisvenlige, konverteringsstærke hjemmesider til danske virksomheder.
+- [API & SaaS](https://magnoramarketing.dk/digital/api-saas): Udvikling af API- og SaaS-løsninger til B2B.
+- [AI-integration](https://magnoramarketing.dk/digital/ai-integration): AI-integration der skaber målbare resultater i salg og drift.
+- [AI-widget](https://magnoramarketing.dk/digital/ai-widget): AI-chatwidget til din hjemmeside – svarer kunder døgnet rundt.
+- [AI-reception](https://magnoramarketing.dk/digital/ai-reception): AI-reception der håndterer opkald og henvendelser automatisk.
+
+## Job & karriere
+- [Freelance telemarketing](https://magnoramarketing.dk/freelance-telemarketing): Freelanceopgaver inden for telemarketing og mødebooking.
+- [Arbejd hjemmefra](https://magnoramarketing.dk/jobs/arbejd-hjemmefra): Fleksible hjemmearbejdspladser som freelance mødebooker.
+- [Mødebooker – forsikring (hjemmefra)](https://magnoramarketing.dk/jobs/forsikring-hjemmefra): Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere – attraktiv løn, provision uden loft og fuld frihed.
+- [AI-konsulent (hjemmefra)](https://magnoramarketing.dk/jobs/ai-konsulent): Bliv AI-konsulent og kontakt virksomheder om AI-løsninger, der sparer tid. Fremtidssikret job 100% hjemmefra med attraktiv løn og henvendelsesformular.
+- [Webudvikling & salg](https://magnoramarketing.dk/jobs/webudvikling-salg): Salgsopgaver inden for hjemmesider, SEO og marketing.
+- [LED-belysning](https://magnoramarketing.dk/jobs/led-belysning): Mødebooking- og salgsopgaver inden for LED-belysning.
+- [Energi-salg](https://magnoramarketing.dk/jobs/energi-salg): Salgsopgaver inden for privat strøm og energi.
+- [Kaffe-service](https://magnoramarketing.dk/jobs/kaffe-service): Mødebooking- og salgsopgaver inden for kaffeservice.
+- [Solenergi](https://magnoramarketing.dk/jobs/solenergi): Mødebooking inden for solceller og vedvarende energi.
+- [Måtte-service](https://magnoramarketing.dk/jobs/matte-service): Mødebooking- og salgsopgaver inden for måtteservice.
+- [Pensionsordning](https://magnoramarketing.dk/jobs/pensionsordning): Freelance mødebooking inden for pension.
+- [Inkasso](https://magnoramarketing.dk/jobs/inkasso): Freelanceopgaver inden for inkasso.
+
+## Blog
+- [SaaS-løsninger i 2026: Hvad B2B virksomheder bør vide](https://magnoramarketing.dk/blog/saas-loesninger-2026)
+- [AI Automation i Salg: Sådan bruger du det rigtigt i 2026](https://magnoramarketing.dk/blog/ai-automation-2026)
+- [Effektiv Mødebooking i 2026: Strategier der virker](https://magnoramarketing.dk/blog/modebooking-2026)
+- [Telesalg i 2026: Teknikker og strategier for moderne sælgere](https://magnoramarketing.dk/blog/telesalg-2026)
+- [Outbound Sales 2026: Byg en salgsmaskine der skalerer](https://magnoramarketing.dk/blog/outbound-sales-2026)
+- [Hvorfor SaaS i 2026? Fordele for B2B virksomheder](https://magnoramarketing.dk/blog/hvorfor-saas-2026)
+- [SaaS vs. On-Premise: Hvad passer til din virksomhed i 2026?](https://magnoramarketing.dk/blog/saas-vs-on-premise)
+- [De 10 bedste SaaS-tools til B2B virksomheder i 2026](https://magnoramarketing.dk/blog/bedste-saas-tools-2026)
+- [SaaS Integration i 2026: Sådan forbinder du dine platforme](https://magnoramarketing.dk/blog/saas-integration-2026)
+- [SaaS Sikkerhed & GDPR: Hvad du skal vide i 2026](https://magnoramarketing.dk/blog/saas-security-gdpr)
+- [Hvorfor vælge Magnora Marketing til webudvikling?](https://magnoramarketing.dk/blog/hvorfor-magnora-webudvikling)
+- [Hjemmeside til Vækst i 2026: Hvad B2B-kunder forventer](https://magnoramarketing.dk/blog/hjemmeside-til-vaekst-2026)
+- [10 tips til bedre websitekonvertering for B2B virksomheder](https://magnoramarketing.dk/blog/websitekonvertering-tips)
+- [Hvorfor vælge Magnora Marketing til AI-integration?](https://magnoramarketing.dk/blog/hvorfor-magnora-ai-integration)
+- [AI Integration ROI i 2026: Hvornår betaler det sig?](https://magnoramarketing.dk/blog/ai-integration-roi-2026)
+- [Hvorfor vælge Magnora Marketing til telesalg?](https://magnoramarketing.dk/blog/hvorfor-magnora-telesalg)
+- [Hvorfor vælge Magnora Marketing til mødebooking?](https://magnoramarketing.dk/blog/hvorfor-magnora-moedebooking)
+- [Outsourcing af Telesalg i 2026: Fordele, faldgruber og krav](https://magnoramarketing.dk/blog/outsourcing-telesalg-2026)
+- [B2B Salgsstrategi i 2026: 5 fundamenter der skaber vækst](https://magnoramarketing.dk/blog/b2b-salg-strategi-2026)
+- [Mødebooking Scripts 2026: Konkrete eksempler der virker](https://magnoramarketing.dk/blog/moedebooking-scripts-2026)
+- [Leadgenerering Strategier 2026: 5 metoder der virker](https://magnoramarketing.dk/blog/leadgenerering-strategier-2026)
+- [Hvad er BANT? Framework til kvalificering af B2B leads i 2026](https://magnoramarketing.dk/blog/hvad-er-bant-2026)
+- [Vækstpartner Guide: Hvornår skal du hyre en ekstern partner?](https://magnoramarketing.dk/blog/vaekst-partner-guide)
+- [Fra Startup til Vækst i 2026: 3 skaleringsmodeller](https://magnoramarketing.dk/blog/startup-til-vaekst-2026)
+- [Cold Calling vs. Inbound: Hvad virker bedst i 2026?](https://magnoramarketing.dk/blog/cold-calling-vs-inbound)
+- [Hvorfor samarbejde med Magnora Marketing? 8 grunde til at vælge os](https://magnoramarketing.dk/blog/hvorfor-samarbejde-magnora)
+- [Idéudvikling med Magnora Marketing: Fra koncept til markedsklar løsning](https://magnoramarketing.dk/blog/ideudvikling-med-magnora)
+- [Fra idé til salg: Sådan tager Magnora din forretningsidé til markedet](https://magnoramarketing.dk/blog/fra-ide-til-salg)
+- [Mødebooking-partner: Derfor skal du samarbejde med Magnora Marketing](https://magnoramarketing.dk/blog/moedebooking-partner-magnora)
+- [Outsource din mødebooking: 7 fordele ved at samarbejde med Magnora](https://magnoramarketing.dk/blog/outsource-moedebooking-fordele)
+- [Telesalg-partner: Hvorfor Magnora Marketing skaber resultater](https://magnoramarketing.dk/blog/telesalg-partner-magnora)
+- [B2B telesalg-samarbejde: Sådan booster Magnora din pipeline](https://magnoramarketing.dk/blog/b2b-telesalg-samarbejde)
+- [Én vækstpartner til idéudvikling, mødebooking og telesalg](https://magnoramarketing.dk/blog/vaekstpartner-ide-moedebooking-telesalg)
+- [Sådan foregår et samarbejde med Magnora Marketing – trin for trin](https://magnoramarketing.dk/blog/saadan-foregaar-samarbejdet)
+- [Hvorfor outsource dit salg og din mødebooking til Magnora?](https://magnoramarketing.dk/blog/hvorfor-outsource-salg-og-moedebooking)
+- [Fremtidens AI-løsninger: Sådan forandrer kunstig intelligens danske virksomheder](https://magnoramarketing.dk/blog/fremtidens-ai-loesninger-2026)
+- [AI-agenter: Den næste bølge af automatisering for virksomheder](https://magnoramarketing.dk/blog/ai-agenter-automatisering-2026)
+- [Sådan sparer AI din virksomhed for hundredvis af timer om året](https://magnoramarketing.dk/blog/ai-sparer-tid-virksomhed)
+- [AI-kundeservice døgnet rundt: Fremtidens support er allerede her](https://magnoramarketing.dk/blog/ai-kundeservice-doegnet-rundt)
+- [Fra ChatGPT til forretningsværdi: Sådan bruger virksomheder generativ AI](https://magnoramarketing.dk/blog/generativ-ai-forretningsvaerdi)
+- [AI-reception og AI-telefonassistenter: Aldrig gå glip af et opkald igen](https://magnoramarketing.dk/blog/ai-reception-telefonassistent)
+- [Derfor skal din virksomhed tage stilling til AI nu – ikke om to år](https://magnoramarketing.dk/blog/hvorfor-ai-nu-2026)
+- [AI i salg og mødebooking: Fremtidens vækstmotor](https://magnoramarketing.dk/blog/ai-salg-moedebooking-fremtid)
+- [De 7 mest værdifulde AI-løsninger for små og mellemstore virksomheder](https://magnoramarketing.dk/blog/bedste-ai-loesninger-smv)
+- [Bliv AI-konsulent: Karrieren i front af fremtidens teknologi](https://magnoramarketing.dk/blog/bliv-ai-konsulent-karriere)
+- [100 bud: Sådan kan AI hjælpe jer i opgaveløsningen](https://magnoramarketing.dk/blog/100-bud-ai-opgaveloesning)
+
+## Yderligere ressourcer
+- [Sitemap](https://magnoramarketing.dk/sitemap.xml): Fuld oversigt over alle sider
+- [Kontakt](https://magnoramarketing.dk/kontakt): Book en uforpligtende snak
