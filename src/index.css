@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-sky-50 text-slate-600;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-slate-900 tracking-tight;
+  }
+
+  h1 { @apply text-4xl md:text-5xl lg:text-6xl leading-[1.1]; }
+  h2 { @apply text-3xl md:text-4xl leading-[1.15]; }
+  h3 { @apply text-xl md:text-2xl leading-snug; }
+
+  p { @apply leading-relaxed; }
+}
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-semibold rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 text-sm;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:from-blue-700 hover:to-indigo-700 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:-translate-y-px focus:ring-blue-500;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-slate-700 border border-slate-200 hover:border-blue-300 hover:text-blue-600 hover:bg-blue-50 shadow-sm focus:ring-blue-500;
+  }
+
+  /* Sections */
+  .section {
+    @apply py-20 md:py-28;
+  }
+
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-2xl border border-blue-100/60 shadow-sm hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300 hover:-translate-y-0.5;
+  }
+
+  /* Gradient text util */
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent;
+  }
+
+  /* Section label above headings */
+  .section-label {
+    @apply text-xs font-bold text-blue-600 uppercase tracking-[0.15em] mb-3 block;
+  }
+
+  /* Pill badge */
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-100;
+  }
+}
+
+/* Hero gradient background */
+.bg-hero-gradient {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%);
+}
+
+/* Subtle dot grid */
+.bg-dot-pattern {
+  background-image: radial-gradient(circle, rgba(59,130,246,0.15) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.stagger-1 { animation-delay: 0.08s; }
+.stagger-2 { animation-delay: 0.16s; }
+.stagger-3 { animation-delay: 0.24s; }
+.stagger-4 { animation-delay: 0.32s; }
+.stagger-5 { animation-delay: 0.40s; }
+
+/* Glow ring for accent elements */
+.glow-blue {
+  box-shadow: 0 0 0 1px rgba(59,130,246,0.2), 0 4px 24px -4px rgba(59,130,246,0.3);
+}
+
+/* Home hero visual (HeroVisual.tsx) — all motion gated behind
+   prefers-reduced-motion: no-preference so reduced-motion users
+   get a fully static scene. */
+@keyframes hvFloat {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, -12px, 0); }
+}
+
+@keyframes hvFloatX {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(6px, -9px, 0); }
+}
+
+@keyframes hvPulse {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+
+@keyframes hvDraw {
+  from { stroke-dashoffset: 400; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hv-float      { animation: hvFloat 9s ease-in-out infinite; }
+  .hv-float-slow { animation: hvFloat 13s ease-in-out infinite; animation-delay: -4s; }
+  .hv-float-x    { animation: hvFloatX 11s ease-in-out infinite; animation-delay: -2s; }
+  .hv-pulse      { animation: hvPulse 3.5s ease-in-out infinite; }
+  .hv-draw {
+    stroke-dasharray: 400;
+    animation: hvDraw 2.4s cubic-bezier(0.22, 1, 0.36, 1) 0.4s both;
+  }
+}
