@@ -5,6 +5,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import ContactForm from '../../components/ContactForm';
 
 export default function WebsitesPage() {
   const features = [
@@ -396,6 +397,19 @@ export default function WebsitesPage() {
         { question: "Hvad er retargeting?", answer: "Retargeting viser annoncer til besøgende der allerede har besøgt din hjemmeside. Vi kan integrere tracking til dette formål." },
         { question: "Kan I hjælpe med billeder og tekst?", answer: "Ja – vi samarbejder med tekstforfattere og fotografer og kan levere en komplet løsning inkl. professionelt indhold." },
       ]} />
+
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-xl">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">Klar til din nye hjemmeside?</h2>
+            <p className="text-gray-500 text-sm">Beskriv kort opgaven – vi svarer inden for én hverdag.</p>
+          </div>
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <ContactForm compact presetTopic="Webudvikling" sourceLabel="Hjemmesider-siden" />
+          </div>
+        </div>
+      </section>
+
       <CTASection
         title="Få en professionel hjemmeside der konverterer"
         subtitle="Magnora Marketing bygger moderne, hurtige hjemmesider der tiltrækker kunder og genererer leads."

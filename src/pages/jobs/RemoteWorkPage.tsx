@@ -4,6 +4,7 @@ import { CheckCircle, ArrowRight, Clock, PiggyBank, Home, Laptop, Globe, Users }
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
+import ContactForm from '../../components/ContactForm';
 
 export default function RemoteWorkPage() {
   return (
@@ -21,7 +22,7 @@ export default function RemoteWorkPage() {
         ctaText="Se ledige stillinger"
         ctaLink="/freelance-telemarketing"
         secondaryCtaText="Kontakt os"
-        secondaryCtaLink="/kontakt"
+        secondaryCtaLink="#ansog"
         backgroundImage="/heroes/hero-jobs.jpg"
       />
 
@@ -138,9 +139,9 @@ export default function RemoteWorkPage() {
                 <Link to="/freelance-telemarketing" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                   Se alle ledige stillinger <ArrowRight size={16} className="ml-2" />
                 </Link>
-                <Link to="/kontakt" className="inline-flex items-center border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+                <a href="#ansog" className="inline-flex items-center border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
                   Kontakt Magnora Marketing direkte <ArrowRight size={16} className="ml-2" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -181,6 +182,20 @@ export default function RemoteWorkPage() {
         </div>
       </section>
 
+      <section id="ansog" className="py-20 bg-white scroll-mt-24">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Send din henvendelse – Arbejd hjemmefra</h2>
+            <p className="text-lg text-gray-600">
+              Fortæl os hvilket produkt eller hvilken branche der har din interesse, og upload evt. dit CV. Vi vender tilbage inden for 1-2 hverdage.
+            </p>
+          </div>
+          <div className="bg-gray-50 border border-gray-100 rounded-3xl p-6 md:p-10 shadow-sm">
+            <ContactForm presetTopic="Job henvendelse" sourceLabel="Jobside: Arbejd hjemmefra (oversigt)" />
+          </div>
+        </div>
+      </section>
+
       <FAQSection faqs={[
         { question: 'Kan jeg arbejde remote som sælger hos Magnora Marketing?', answer: 'Ja – alle Magnora Marketing\'s freelance salgsstillinger kan udføres 100% hjemmefra. Du behøver kun en telefon, computer og stabilt internet.' },
         { question: 'Hvad er provisionssatsen?', answer: 'Provisionen varierer afhængigt af produkt og kampagne. Du får altid en klar aftale om løn og provision inden opstart.' },
@@ -207,9 +222,9 @@ export default function RemoteWorkPage() {
             <Link to="/freelance-telemarketing" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               Se alle ledige stillinger <ArrowRight className="ml-2" size={18} />
             </Link>
-            <Link to="/kontakt" className="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+            <a href="#ansog" className="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
               Kontakt Magnora Marketing
-            </Link>
+            </a>
           </div>
         </div>
       </section>

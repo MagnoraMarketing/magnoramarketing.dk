@@ -6,6 +6,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import AiSolutionsSection from '../../components/AiSolutionsSection';
+import ContactForm from '../../components/ContactForm';
 
 export default function AiIntegrationPage() {
   const [activeWorkflow, setActiveWorkflow] = useState(0);
@@ -503,6 +504,18 @@ export default function AiIntegrationPage() {
       </section>
 
       <AiSolutionsSection variant="dark" />
+
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-xl">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">Spørgsmål om AI-integration?</h2>
+            <p className="text-gray-500 text-sm">Beskriv kort opgaven eller formålet – vi svarer inden for én hverdag.</p>
+          </div>
+          <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6 md:p-8">
+            <ContactForm compact presetTopic="AI-løsninger" sourceLabel="AI-integration-siden" />
+          </div>
+        </div>
+      </section>
 
       <FAQSection faqs={[
         { question: 'Hvad kan AI gøre for min virksomhed?', answer: 'AI kan automatisere gentagne opgaver, besvare kundehenvendelser døgnet rundt, kvalificere leads automatisk og give dybdegående indsigt i data – alt mens dine medarbejdere fokuserer på det der skaber mest værdi.' },

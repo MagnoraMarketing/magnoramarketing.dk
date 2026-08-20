@@ -5,6 +5,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import ContactForm from '../../components/ContactForm';
 
 export default function ApiSaasPage() {
   const features = [
@@ -189,6 +190,19 @@ export default function ApiSaasPage() {
         { question: "Hvad koster et API-projekt?", answer: "Prisen afhænger af scope og kompleksitet. Kontakt os for et uforpligtende estimat baseret på dine behov." },
         { question: "Kan I hjælpe med dokumentation?", answer: "Ja – vi leverer altid teknisk dokumentation og API-dokumentation som del af projektet." },
       ]} />
+
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-xl">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">Har du et API- eller SaaS-projekt?</h2>
+            <p className="text-gray-500 text-sm">Beskriv kort opgaven – vi svarer inden for én hverdag.</p>
+          </div>
+          <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6 md:p-8">
+            <ContactForm compact presetTopic="Webudvikling" sourceLabel="API & SaaS-siden" />
+          </div>
+        </div>
+      </section>
+
       <CTASection
         title="Lad Magnora Marketing bygge din næste API eller SaaS-løsning"
         subtitle="Skalerbare digitale platforme og integrationer der driver din forretning fremad."

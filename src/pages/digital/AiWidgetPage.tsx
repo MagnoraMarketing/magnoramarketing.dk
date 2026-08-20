@@ -5,6 +5,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import ContactForm from '../../components/ContactForm';
 
 export default function AiWidgetPage() {
   const capabilities = [
@@ -268,6 +269,18 @@ export default function AiWidgetPage() {
                 <div className="text-white/70 text-sm font-medium">{s.label}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-xl">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">Spørgsmål om AI-chatwidget?</h2>
+            <p className="text-gray-500 text-sm">Beskriv kort formålet med widgetten – vi svarer inden for én hverdag.</p>
+          </div>
+          <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6 md:p-8">
+            <ContactForm compact presetTopic="AI-løsninger" sourceLabel="AI-widget-siden" />
           </div>
         </div>
       </section>
