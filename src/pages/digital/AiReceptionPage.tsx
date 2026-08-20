@@ -5,6 +5,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import ContactForm from '../../components/ContactForm';
 
 export default function AiReceptionPage() {
   const features = [
@@ -212,6 +213,18 @@ export default function AiReceptionPage() {
             <Link to="/kontakt" className="btn btn-primary">
               Kom i gang med AI-receptionist <ArrowRight size={16} className="ml-2" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4 max-w-xl">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">Vil du høre mere om AI-reception?</h2>
+            <p className="text-gray-500 text-sm">Beskriv kort jeres opkaldsmængde og formål – vi svarer inden for én hverdag.</p>
+          </div>
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 shadow-sm">
+            <ContactForm compact presetTopic="AI-løsninger" sourceLabel="AI-reception-siden" />
           </div>
         </div>
       </section>

@@ -8,6 +8,7 @@ import {
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
+import ContactForm from '../../components/ContactForm';
 import { jobListings } from '../../data/jobListings';
 
 export default function InsuranceBrokerPage() {
@@ -30,7 +31,7 @@ export default function InsuranceBrokerPage() {
         title="Mødebooking hjemmefra for Danmarks bedste forsikringsmæglere"
         subtitle="Lav mødebooking for landets førende forsikringsmæglere – 100% hjemmefra, med attraktiv løn, provision uden loft og fuld frihed over din egen arbejdsdag."
         ctaText="Ansøg – helt uforpligtende"
-        ctaLink="/kontakt"
+        ctaLink="#ansog"
         secondaryCtaText="Se alle ledige stillinger"
         secondaryCtaLink="/freelance-telemarketing"
         backgroundImage="/heroes/hero-home.jpg"
@@ -150,12 +151,12 @@ export default function InsuranceBrokerPage() {
                     </div>
                   ))}
                 </div>
-                <Link
-                  to="/kontakt"
+                <a
+                  href="#ansog"
                   className="mt-8 inline-flex items-center justify-center w-full bg-white text-blue-700 px-6 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-colors"
                 >
                   Hør mere om lønnen <ArrowRight size={16} className="ml-2" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -248,9 +249,9 @@ export default function InsuranceBrokerPage() {
                   </li>
                 ))}
               </ol>
-              <Link to="/kontakt" className="mt-8 inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <a href="#ansog" className="mt-8 inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Ansøg nu – uforpligtende <ArrowRight size={16} className="ml-2" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -447,6 +448,24 @@ export default function InsuranceBrokerPage() {
         </div>
       </section>
 
+      {/* Application form */}
+      <section id="ansog" className="py-20 bg-slate-50 scroll-mt-24">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <div className="text-center mb-10">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-widest mb-5">
+              <Umbrella size={14} /> Ansøg nu
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Send din ansøgning</h2>
+            <p className="text-lg text-slate-600">
+              Ingen lang ansøgning nødvendig – udfyld formularen, upload evt. dit CV, og vi vender tilbage inden for 1-2 hverdage.
+            </p>
+          </div>
+          <div className="bg-white border border-slate-100 rounded-3xl p-6 md:p-10 shadow-sm">
+            <ContactForm presetTopic="Job henvendelse" sourceLabel="Jobside: Forsikring hjemmefra" />
+          </div>
+        </div>
+      </section>
+
       <FAQSection faqs={[
         { question: 'Hvad går jobbet som mødebooker for forsikring ud på?', answer: 'Du ringer til relevante kontakter og booker uforpligtende møder mellem interesserede kunder og forsikringsmæglere. Du arbejder ud fra ringelister og scripts, som vi leverer, og bliver belønnet for hvert kvalificeret møde.' },
         { question: 'Hvad er forskellen på mødebooking og salg?', answer: 'Som mødebooker sælger du ikke selv forsikringen – du booker mødet mellem kunden og forsikringsmægleren. Selve rådgivningen og salget står mægleren for. Dit fokus er alene at skabe kvalificerede møder.' },
@@ -472,9 +491,9 @@ export default function InsuranceBrokerPage() {
             tjen uden loft. Ansøgningen er kort og helt uforpligtende.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/kontakt" className="inline-flex items-center justify-center bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+            <a href="#ansog" className="inline-flex items-center justify-center bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
               Ansøg nu <ArrowRight className="ml-2" size={18} />
-            </Link>
+            </a>
             <Link to="/freelance-telemarketing" className="inline-flex items-center justify-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-colors">
               Se alle ledige stillinger
             </Link>

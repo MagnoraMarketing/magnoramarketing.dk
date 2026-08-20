@@ -4,6 +4,7 @@ import { CheckCircle, ArrowRight, Clock, PiggyBank, Home, Zap, Sun, Lightbulb } 
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
+import ContactForm from '../../components/ContactForm';
 
 export default function LedLightingPage() {
   return (
@@ -19,7 +20,7 @@ export default function LedLightingPage() {
         title="Freelance Sælger – LED & Energieffektivisering til Erhverv"
         subtitle="Sælg energibesparende LED-løsninger til danske virksomheder og offentlige institutioner. Arbejd hjemmefra med frihed, stærk provision og et produkt der sælger sig selv."
         ctaText="Søg stillingen"
-        ctaLink="/kontakt"
+        ctaLink="#ansog"
         secondaryCtaText="Se alle stillinger"
         secondaryCtaLink="/freelance-telemarketing"
         backgroundImage="/heroes/hero-energi.jpg"
@@ -69,9 +70,9 @@ export default function LedLightingPage() {
                 ))}
               </div>
               <div className="mt-6">
-                <Link to="/kontakt" className="w-full inline-flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                <a href="#ansog" className="w-full inline-flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                   Send din ansøgning <ArrowRight size={16} className="ml-2" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -147,10 +148,24 @@ export default function LedLightingPage() {
             <div>
               <h2 className="text-2xl font-bold mb-6">Sådan søger du</h2>
               <p className="text-gray-600 mb-6">Send os en kort besked om dig selv og din salgserfaring. Ingen formel ansøgning – bare skriv til os, så vender vi tilbage inden for 2 hverdage.</p>
-              <Link to="/kontakt" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <a href="#ansog" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Kontakt Magnora Marketing nu <ArrowRight size={16} className="ml-2" />
-              </Link>
+              </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ansog" className="py-20 bg-white scroll-mt-24">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Send din ansøgning – LED Belysning</h2>
+            <p className="text-lg text-gray-600">
+              Udfyld formularen, upload evt. dit CV, og fortæl kort om din erfaring. Vi vender tilbage inden for 1-2 hverdage.
+            </p>
+          </div>
+          <div className="bg-gray-50 border border-gray-100 rounded-3xl p-6 md:p-10 shadow-sm">
+            <ContactForm presetTopic="Job henvendelse" sourceLabel="Jobside: LED Belysning" />
           </div>
         </div>
       </section>
@@ -177,9 +192,9 @@ export default function LedLightingPage() {
           <h2 className="text-3xl font-bold mb-6">Klar til at sælge grøn energi?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">Kontakt Magnora Marketing og kom i gang med et produkt der skaber reel forskel – for kunden og for klimaet.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+            <a href="#ansog" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               Send ansøgning <ArrowRight className="ml-2" size={18} />
-            </Link>
+            </a>
             <Link to="/freelance-telemarketing" className="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
               Se alle ledige stillinger
             </Link>
