@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Phone, Users, Target, BarChart3, CheckCircle, ArrowRight, MessageSquare, Building, Award, Sparkles, Code, Globe, CalendarCheck } from 'lucide-react';
+import { Phone, Users, Target, CheckCircle, ArrowRight, MessageSquare, Building, Award, Sparkles, Code, Globe, CalendarCheck } from 'lucide-react';
 import AiSolutionsSection from '../components/AiSolutionsSection';
 import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
