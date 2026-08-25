@@ -149,11 +149,11 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
       {faqs && faqs.length > 0 && <FAQSection faqs={faqs} />}
 
       <CTASection
-        title={ctaTitle}
-        subtitle={ctaSubtitle}
-        primaryText={ctaPrimaryText}
+        title={finalCtaTitle}
+        subtitle={finalCtaSubtitle}
+        primaryText={finalCtaPrimaryText}
         primaryLink={ctaPrimaryLink}
-        secondaryText={ctaSecondaryText}
+        secondaryText={finalCtaSecondaryText}
         secondaryLink={ctaSecondaryLink}
       />
     </>

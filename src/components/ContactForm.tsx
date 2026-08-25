@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Send, CheckCircle, AlertCircle, Briefcase, CalendarCheck, Code, Sparkles, MessageSquare, Loader2 } from 'lucide-react';
 
 const WEB3FORMS_ACCESS_KEY = 'd8d905cb-7893-4172-85f2-bcc211e5bb97';
 
 export const FORM_TOPICS = [
-  { value: 'Job henvendelse', label: 'Job henvendelse', icon: Briefcase },
-  { value: 'Pris på Mødebooking / Telesalg', label: 'Mødebooking / Telesalg', icon: CalendarCheck },
-  { value: 'Webudvikling', label: 'Webudvikling', icon: Code },
-  { value: 'AI-løsninger', label: 'AI-løsninger', icon: Sparkles },
-  { value: 'Andet', label: 'Andet', icon: MessageSquare },
+  { value: 'Job henvendelse', labelKey: 'contactForm.topics.job', icon: Briefcase },
+  { value: 'Pris på Mødebooking / Telesalg', labelKey: 'contactForm.topics.meetingBooking', icon: CalendarCheck },
+  { value: 'Webudvikling', labelKey: 'contactForm.topics.webDevelopment', icon: Code },
+  { value: 'AI-løsninger', labelKey: 'contactForm.topics.aiSolutions', icon: Sparkles },
+  { value: 'Andet', labelKey: 'contactForm.topics.other', icon: MessageSquare },
 ] as const;
 
 export type FormTopic = (typeof FORM_TOPICS)[number]['value'];
@@ -26,6 +27,7 @@ const inputClass =
   'w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-800 bg-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:border-blue-400 transition-colors';
 
 const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) => {
+  const { t } = useTranslation();
   const [topic, setTopic] = useState<FormTopic>(presetTopic ?? 'Pris på Mødebooking / Telesalg');
   const [status, setStatus] = useState<Status>('idle');
 
@@ -75,16 +77,16 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
         <div className="w-16 h-16 rounded-full bg-green-50 flex items-center justify-center mx-auto mb-5">
           <CheckCircle size={32} className="text-green-500" />
         </div>
-        <h3 className="text-xl font-bold text-slate-800 mb-2">Tak for din henvendelse!</h3>
+        <h3 className="text-xl font-bold text-slate-800 mb-2">{t('contactForm.success.title')}</h3>
         <p className="text-slate-500 text-sm max-w-sm mx-auto mb-6">
-          Vi har modtaget din besked og vender tilbage inden for én hverdag på den e-mail, du har oplyst.
+          {t('contactForm.success.body')}
         </p>
         <button
           type="button"
           onClick={() => setStatus('idle')}
           className="text-blue-600 font-semibold text-sm hover:text-blue-700 transition-colors"
         >
-          Send en ny henvendelse
+          {t('contactForm.success.newRequest')}
         </button>
       </div>
     );
@@ -98,9 +100,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
       {/* Topic selector (hidden when preset) */}
       {!presetTopic && (
         <div>
-          <label className="block text-sm font-semibold text-slate-700 mb-2.5">Hvad drejer din henvendelse sig om? *</label>
+          <label className="block text-sm font-semibold text-slate-700 mb-2.5">{t('contactForm.topicQuestion')}</label>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-            {FORM_TOPICS.map(({ value, label, icon: Icon }) => (
+            {FORM_TOPICS.map(({ value, labelKey, icon: Icon }) => (
               <button
                 key={value}
                 type="button"
@@ -113,7 +115,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
                 }`}
               >
                 <Icon size={18} className={topic === value ? 'text-blue-600' : 'text-slate-400'} />
-                {label}
+                {t(labelKey)}
               </button>
             ))}
           </div>
@@ -122,27 +124,27 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label htmlFor="cf-name" className="block text-sm font-semibold text-slate-700 mb-1.5">Navn *</label>
-          <input id="cf-name" name="name" type="text" required placeholder="Dit fulde navn" className={inputClass} />
+          <label htmlFor="cf-name" className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.fields.name')}</label>
+          <input id="cf-name" name="name" type="text" required placeholder={t('contactForm.placeholders.name')} className={inputClass} />
         </div>
         <div>
-          <label htmlFor="cf-email" className="block text-sm font-semibold text-slate-700 mb-1.5">E-mail *</label>
-          <input id="cf-email" name="email" type="email" required placeholder="din@email.dk" className={inputClass} />
+          <label htmlFor="cf-email" className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.fields.email')}</label>
+          <input id="cf-email" name="email" type="email" required placeholder={t('contactForm.placeholders.email')} className={inputClass} />
         </div>
         <div>
-          <label htmlFor="cf-phone" className="block text-sm font-semibold text-slate-700 mb-1.5">Telefon</label>
-          <input id="cf-phone" name="phone" type="tel" placeholder="+45 12 34 56 78" className={inputClass} />
+          <label htmlFor="cf-phone" className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.fields.phone')}</label>
+          <input id="cf-phone" name="phone" type="tel" placeholder={t('contactForm.placeholders.phone')} className={inputClass} />
         </div>
         <div>
           <label htmlFor="cf-company" className="block text-sm font-semibold text-slate-700 mb-1.5">
-            Virksomhed{isJob ? '' : ' *'}
+            {isJob ? t('contactForm.fields.companyOptional') : t('contactForm.fields.companyRequired')}
           </label>
-          <input id="cf-company" name="company" type="text" required={!isJob} placeholder={isJob ? 'Valgfrit' : 'Din virksomhed'} className={inputClass} />
+          <input id="cf-company" name="company" type="text" required={!isJob} placeholder={isJob ? t('contactForm.placeholders.companyOptional') : t('contactForm.placeholders.companyRequired')} className={inputClass} />
         </div>
       </div>
 
       <div>
-        <label htmlFor="cf-message" className="block text-sm font-semibold text-slate-700 mb-1.5">Besked *</label>
+        <label htmlFor="cf-message" className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.fields.message')}</label>
         <textarea
           id="cf-message"
           name="message"
@@ -150,8 +152,8 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
           rows={5}
           placeholder={
             isJob
-              ? 'Fortæl kort om dig selv, din erfaring og hvilken type opgaver du søger…'
-              : 'Fortæl kort om din virksomhed, dine behov og hvad du gerne vil opnå…'
+              ? t('contactForm.placeholders.messageJob')
+              : t('contactForm.placeholders.messageDefault')
           }
           className={inputClass}
         />
@@ -160,7 +162,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
       {status === 'error' && (
         <div className="flex items-start gap-3 bg-red-50 border border-red-100 text-red-700 rounded-xl px-4 py-3 text-sm">
           <AlertCircle size={18} className="mt-0.5 flex-shrink-0" />
-          <span>Noget gik galt – din besked blev ikke sendt. Prøv igen, eller skriv direkte til <a href="mailto:mail@magnoramarketing.dk" className="underline font-semibold">mail@magnoramarketing.dk</a>.</span>
+          <span dangerouslySetInnerHTML={{ __html: t('contactForm.error') }} />
         </div>
       )}
 
@@ -170,14 +172,14 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
         className="btn btn-primary w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {status === 'sending' ? (
-          <><Loader2 size={16} className="animate-spin" /> Sender…</>
+          <><Loader2 size={16} className="animate-spin" /> {t('contactForm.submit.sending')}</>
         ) : (
-          <>Send henvendelse <Send size={16} /></>
+          <>{t('contactForm.submit.send')} <Send size={16} /></>
         )}
       </button>
 
       <p className="text-xs text-slate-400">
-        Vi behandler dine oplysninger fortroligt og i overensstemmelse med GDPR. Du hører fra os inden for én hverdag.
+        {t('contactForm.gdprNote')}
       </p>
     </form>
   );
