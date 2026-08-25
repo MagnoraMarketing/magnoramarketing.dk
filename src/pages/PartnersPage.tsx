@@ -46,18 +46,18 @@ const PartnersPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Bliv Samarbejdspartner | Magnora Marketing – Telesalg, Mødebooking og AI"
-        description="Start et samarbejde med Magnora Marketing – din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-udviklingsopgaver. Målbare resultater."
+        title={t('partners.seo.title')}
+        description={t('partners.seo.description')}
         canonical="/samarbejdspartner"
-        keywords="Magnora Marketing samarbejdspartner, outsource salg, mødebooking partner, B2B salg, telemarketing bureau"
+        keywords={t('partners.seo.keywords')}
       />
 
       <HeroSection
-        title="Lad Magnora Marketing Drive Dit Salg"
-        subtitle="Bliv samarbejdspartner og få adgang til et dedikeret salgsteam der leverer kvalificerede møder, varme leads og dokumenterede resultater – uden ansættelsesbyrden."
-        ctaText="Start samarbejde"
+        title={t('partners.hero.title')}
+        subtitle={t('partners.hero.subtitle')}
+        ctaText={t('partners.hero.cta')}
         ctaLink="#kontakt-formular"
-        secondaryCtaText="Se priser"
+        secondaryCtaText={t('partners.hero.secondaryCta')}
         secondaryCtaLink="/priser"
         backgroundImage="/heroes/hero-partner.jpg"
       />
@@ -65,9 +65,9 @@ const PartnersPage: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Hvorfor vælge Magnora Marketing som salgspartner?</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('partners.benefits.title')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Magnora Marketing kombinerer menneskelig salgskraft med datadrevne metoder for at levere resultater der gør en reel forskel for din bundlinje.
+              {t('partners.benefits.subtitle')}
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -85,7 +85,7 @@ const PartnersPage: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Sådan starter samarbejdet</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('partners.process.title')}</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
@@ -102,8 +102,8 @@ const PartnersPage: React.FC = () => {
       <section id="kontakt-formular" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center mb-10">
-            <h2 className="text-3xl font-bold mb-4">Bliv samarbejdspartner</h2>
-            <p className="text-lg text-gray-600">Fortæl os om din virksomhed og dine mål – vi vender tilbage inden for én hverdag med et konkret oplæg til mødebooking eller telesalg.</p>
+            <h2 className="text-3xl font-bold mb-4">{t('partners.contactSection.title')}</h2>
+            <p className="text-lg text-gray-600">{t('partners.contactSection.subtitle')}</p>
           </div>
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg border border-slate-100 p-8">
             <ContactForm presetTopic="Pris på Mødebooking / Telesalg" sourceLabel="Samarbejdspartner-siden" />
