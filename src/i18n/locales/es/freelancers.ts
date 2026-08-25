@@ -1,0 +1,97 @@
+export default {
+  seo: {
+    title: 'Puestos de Comercial y Reservador de Reuniones Freelance | Magnora Marketing',
+    description: 'Conviértete en comercial freelance o reservador de reuniones en Magnora Marketing. Trabaja desde casa, fija tus propios horarios y gana bien con comisiones atractivas. Consulta aquí todas las vacantes.',
+    keywords: 'comercial freelance, reservador de reuniones freelance, trabajar desde casa, empleo de telemarketing, vacantes Magnora Marketing, comercial B2B',
+  },
+  hero: {
+    title: 'Tu Carrera como Comercial Freelance Empieza Aquí',
+    subtitle: 'Magnora Marketing ofrece oportunidades freelance flexibles en ventas B2B y reserva de reuniones. Fija tus propios horarios, trabaja desde casa y construye una carrera en tus propios términos.',
+    cta: 'Ver vacantes',
+    secondaryCta: 'Contáctanos',
+  },
+  benefits: {
+    title: 'Lo Que Obtienes en Magnora Marketing',
+    subtitle: 'Magnora Marketing ofrece algo poco habitual: la libertad de ser freelance combinada con una sólida base profesional.',
+    items: [
+      { title: 'Día a día flexible', description: 'Tú decides cuándo trabajas. Adapta tu jornada laboral a tu vida, no al revés.' },
+      { title: 'Ingresos sólidos', description: 'Retribución base competitiva combinada con atractivas bonificaciones por resultados. Cuanto mejor rindas, más ganarás.' },
+      { title: 'Comunidad sólida', description: 'Incluso como freelance nunca estás solo. Formas parte de una sólida red de Magnora Marketing con apoyo mutuo e impulso compartido.' },
+      { title: 'Desarrollo profesional', description: 'Formación estructurada, coaching continuo y la posibilidad de asumir más responsabilidad y avanzar en el puesto.' },
+    ],
+  },
+  workFromHome: {
+    title: 'Trabaja Desde Casa con Magnora Marketing',
+    intro: 'Como comercial freelance o reservador de reuniones en Magnora Marketing, tienes total flexibilidad para trabajar desde tu propia casa. Tienes acceso a sistemas de ventas modernos, apoyo continuo y una red sólida, sin necesidad de acudir a una oficina.',
+    imageAlt: 'Comercial freelance trabajando desde casa con Magnora Marketing',
+    benefits: [
+      { title: 'Oficina en casa', description: 'Trabaja de forma eficiente desde tu propia casa con todas las herramientas digitales necesarias. Sin tiempo de desplazamiento, sin comidas caras.' },
+      { title: 'Tus propios horarios', description: 'Organiza tu día como más te convenga: ideal para estudiantes, padres y madres, y cualquiera con una vida activa fuera del trabajo.' },
+      { title: 'Salario orientado a resultados', description: 'Salario base fijo más comisión. Tus resultados se reflejan directamente en tu nómina.' },
+    ],
+    checklist: [
+      'Sin transporte ni desplazamientos',
+      'Mejor equilibrio entre trabajo y vida personal',
+      'Total flexibilidad en la organización del trabajo',
+      'Comisión y bonificación además del salario base',
+      'Parte de la sólida comunidad de ventas de Magnora Marketing',
+      'Incorporación exhaustiva y apoyo continuo',
+      'Desarrollo profesional y personal',
+      'Eventos sociales y celebraciones conjuntas',
+    ],
+  },
+  jobs: {
+    title: 'Vacantes en Magnora Marketing',
+    subtitle: 'Buscamos continuamente comerciales y reservadores de reuniones freelance capacitados y motivados. Consulta las vacantes actuales a continuación.',
+    badge: 'Disponible',
+    readMore: 'Leer más',
+  },
+  midCta: {
+    title: '¿Estás listo para empezar en Magnora Marketing?',
+    subtitle: 'Envíanos un mensaje o llámanos: tendremos una conversación sin compromiso sobre las oportunidades que mejor se adapten a ti.',
+    cta: 'Contáctanos hoy',
+  },
+  info: {
+    section1: {
+      title: 'Conviértete en Comercial Freelance en Magnora Marketing – Una Carrera Flexible en Telemarketing B2B',
+      p1: 'Como comercial freelance o reservador de reuniones en Magnora Marketing, obtienes la rara combinación de libertad y una sólida base profesional. Trabajas 100% desde casa en tus propios términos: sin desplazamientos, sin horarios fijos de oficina y sin límite en tus ingresos. Magnora Marketing te proporciona leads, guiones, materiales de campaña y acceso al CRM desde el primer día, para que puedas centrarte en lo que mejor haces: generar resultados. Nuestros freelance colaboran en proyectos que abarcan desde SaaS y desarrollo web hasta energía, servicios de café y asesoramiento en pensiones.',
+      p2: 'La formación en Magnora Marketing es estructurada y exhaustiva: pasas por un proceso de incorporación con formación de producto, técnica de ventas y revisión de guiones antes de empezar. Durante el camino, tienes acceso a coaching y apoyo continuos de responsables de ventas experimentados, y formas parte de una sólida red de freelance de Magnora Marketing que comparte experiencias y motivación. La comisión es competitiva y refleja directamente tus resultados: cuanto más vendas, más ganarás.',
+      list: [
+        'Trabaja desde casa con total flexibilidad sobre tu jornada laboral',
+        'Incorporación exhaustiva y apoyo profesional continuo',
+        'Retribución base competitiva más bonificación por resultados',
+        'Amplia variedad de productos y sectores entre los que elegir',
+      ],
+    },
+    section2: {
+      title: 'Telemarketing y Reserva de Reuniones en Modalidad Freelance – Oportunidades de Carrera con Magnora Marketing',
+      p1: 'Magnora Marketing está en constante crecimiento y busca continuamente comerciales y reservadores de reuniones freelance capacitados y motivados para nuestros proyectos en toda Dinamarca. Ya seas estudiante, padre o madre, comercial experimentado o nuevo en el sector, hay un lugar para ti en Magnora Marketing. Tú eliges el producto y el sector que mejor se adapte a tu perfil e intereses, y Magnora Marketing se encarga del resto. Muchos de nuestros freelance utilizan la colaboración como un ingreso adicional estable o como punto de partida para una carrera completa en ventas B2B y telemarketing.',
+      p2: 'Toma el control de tu carrera y contacta con Magnora Marketing en mail@magnoramarketing.dk. Tendremos una conversación sin compromiso sobre las oportunidades que mejor se adapten a tu situación, y empezaremos rápidamente con un proceso de incorporación adaptado a ti.',
+    },
+  },
+  faq: {
+    items: [
+      { question: '¿Cuánto gana un comercial freelance en Magnora Marketing?', answer: 'La retribución consiste en unos honorarios base fijos más comisión sobre tus resultados. Cuanto más vendas, más ganarás; no hay límite.' },
+      { question: '¿Necesito experiencia para solicitarlo?', answer: 'La experiencia es una ventaja, pero no un requisito. Magnora Marketing te forma a fondo y te ofrece apoyo y coaching continuos.' },
+      { question: '¿Puedo trabajar a tiempo parcial?', answer: 'Sí, tú decides tus propios horarios y puedes trabajar desde unas pocas horas a la semana hasta a tiempo completo.' },
+      { question: '¿Qué ocurre si tengo dudas durante el trabajo?', answer: 'Siempre tienes acceso al apoyo de los responsables de ventas experimentados de Magnora Marketing, que pueden ayudarte con orientación, guiones y dudas sobre productos.' },
+      { question: '¿Qué productos vende un freelance?', answer: 'Magnora Marketing cuenta con freelance en muchos sectores: desarrollo web, energía, paneles solares, servicios de café, pensiones, gestión de cobros y más. Tú eliges el producto que mejor te convenga.' },
+      { question: '¿Existe la posibilidad de contratación fija?', answer: 'La colaboración empieza en modalidad freelance. Los freelance con buen desempeño pueden, con el tiempo, hablar con Magnora Marketing sobre otras formas de colaboración.' },
+      { question: '¿Qué ocurre durante el periodo de formación?', answer: 'Pasas por un proceso de incorporación con formación de producto, técnica de ventas y revisión de guiones. Suele durar entre 1 y 3 días.' },
+      { question: '¿Puedo vender varios productos a la vez?', answer: 'Normalmente empiezas con un producto. Una vez que adquieras práctica, puedes incorporar más productos si lo deseas.' },
+      { question: '¿Cuál es el mínimo que puedo ganar?', answer: 'Depende del nivel de actividad y del producto. Establecemos expectativas realistas al inicio y somos transparentes sobre la retribución.' },
+      { question: '¿Tenéis una comunidad para freelance?', answer: 'Sí, pasas a formar parte de la red de freelance de Magnora Marketing con acceso a intercambio de experiencias y actividades conjuntas de motivación.' },
+      { question: '¿Puedo trabajar desde el extranjero?', answer: 'Sí, siempre que tengas una conexión a internet estable y puedas comunicarte profesionalmente en danés, puedes trabajar desde cualquier parte del mundo.' },
+      { question: '¿Qué es lo más importante para tener éxito como freelance en Magnora Marketing?', answer: 'Perseverancia, estructura y una mentalidad positiva. El telemarketing exige saber gestionar los rechazos y mantener la motivación.' },
+      { question: '¿Cuándo recibo mi primer pago?', answer: 'Los pagos suelen realizarse mensualmente a mes vencido. Recibirás un resumen de las ventas y actividades verificadas.' },
+      { question: '¿Hay un periodo de prueba?', answer: 'Las primeras 2-4 semanas suelen considerarse un periodo de prueba mutuo, para que ambas partes puedan evaluar la colaboración.' },
+      { question: '¿Cuáles son los horarios de trabajo habituales?', answer: 'La mayoría de los freelance llaman dentro del horario de oficina habitual en Dinamarca (8:00-17:00), pero tú decides dentro de esa franja.' },
+    ],
+  },
+  finalCta: {
+    title: 'Toma el control de tu carrera – conviértete en comercial freelance en Magnora Marketing',
+    subtitle: 'Horarios flexibles, comisión competitiva y proyectos interesantes. Todo lo que necesitas para triunfar como freelance.',
+    primaryText: 'Solicítalo ahora',
+    secondaryText: 'Ver vacantes',
+  },
+};
