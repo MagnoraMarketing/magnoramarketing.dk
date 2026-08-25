@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { TrendingUp, BarChart3, HeartHandshake, ArrowRight } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
@@ -8,32 +9,39 @@ import CTASection from '../components/CTASection';
 import AiSolutionsSection from '../components/AiSolutionsSection';
 import ContactForm from '../components/ContactForm';
 
+interface BenefitItem {
+  title: string;
+  description: string;
+}
+
+interface ProcessStep {
+  title: string;
+  description: string;
+}
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 const PartnersPage: React.FC = () => {
+  const { t } = useTranslation();
 
-  const benefits = [
-    {
-      icon: <TrendingUp size={40} className="text-blue-600" />,
-      title: 'Skalér dit salg',
-      description: 'Magnora Marketing leverer kvalificerede møder og varme leads direkte til dit salgsteam – så I kan skalere uden at ansætte.'
-    },
-    {
-      icon: <BarChart3 size={40} className="text-blue-600" />,
-      title: 'Klar ROI-rapportering',
-      description: 'Du får løbende adgang til performance-data, mødestatistik og ROI-beregning i klare, handlingsrettede rapporter.'
-    },
-    {
-      icon: <HeartHandshake size={40} className="text-blue-600" />,
-      title: 'Tilpasset til dig',
-      description: 'Vi skræddersyr vores løsning til din branche, målgruppe og budget. Ingen standardpakker – kun præcis det du har brug for.'
-    }
+  const benefitIcons = [
+    <TrendingUp size={40} className="text-blue-600" />,
+    <BarChart3 size={40} className="text-blue-600" />,
+    <HeartHandshake size={40} className="text-blue-600" />,
   ];
+  const benefits = (t('partners.benefits.items', { returnObjects: true }) as BenefitItem[]).map((item, i) => ({
+    ...item,
+    icon: benefitIcons[i],
+  }));
 
-  const processSteps = [
-    { number: '01', title: 'Opstartsmøde', description: 'Vi starter med et grundigt møde for at forstå din virksomhed, dine produkter og din ideelle kunde.' },
-    { number: '02', title: 'Strategi & Opsætning', description: 'Vi udvikler en skræddersyet strategi med klare KPI\'er, målsætninger og kommunikationsplaner.' },
-    { number: '03', title: 'Kampagnestart', description: 'Vores team briefes grundigt og går i gang med telemarketing eller mødebooking med løbende feedback og justering.' },
-    { number: '04', title: 'Opfølgning & Optimering', description: 'Vi evaluerer resultater løbende og optimerer indsatsen kontinuerligt for at sikre den bedste ROI for dig.' }
-  ];
+  const processNumbers = ['01', '02', '03', '04'];
+  const processSteps = (t('partners.process.steps', { returnObjects: true }) as ProcessStep[]).map((step, i) => ({
+    ...step,
+    number: processNumbers[i],
+  }));
 
   return (
     <>
