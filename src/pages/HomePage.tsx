@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Users, Code, ArrowRight, Briefcase, BarChart3, CheckCircle, TrendingUp, HeartHandshake, MessageSquare, Target, Zap, Bot, Cpu, Clock } from 'lucide-react';
+import { Phone, Users, Code, ArrowRight, Briefcase, BarChart3, CheckCircle, TrendingUp, MessageSquare, Target, Zap, Bot, Cpu, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import HeroSection from '../components/HeroSection';
 import HeroVisual from '../components/HeroVisual';
