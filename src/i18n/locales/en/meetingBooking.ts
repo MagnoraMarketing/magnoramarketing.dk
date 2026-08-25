@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Meeting Booking | Magnora Marketing – Your Growth Partner in Telesales and AI',
+    description: "Magnora Marketing's professional meeting booking secures qualified sales meetings. Your growth partner in telesales, meeting booking, web development, lead generation and AI.",
+    keywords: 'meeting booking pricing, B2B sales meetings, Magnora Marketing meeting booking, qualified meetings, meeting booking service',
+  },
+  hero: {
+    title: 'Professional Meeting Booking with Magnora Marketing',
+    subtitle: 'We deliver qualified sales meetings with the right decision-makers – so your sales force can close more deals and spend time on what generates revenue.',
+    cta: 'See pricing',
+    secondaryCta: 'Contact us',
+  },
+  features: {
+    title: "Magnora Marketing's Approach to Meeting Booking",
+    subtitle: 'We take a methodical approach to meeting booking – from lead research and qualification to confirmed meetings in your calendar.',
+    items: [
+      { title: 'Qualified meetings', description: 'Every meeting is thoroughly screened and qualified before booking. No wasted time – only meetings with real business potential.' },
+      { title: 'The right decision-makers', description: 'We make sure you meet the right key people with budget and decision-making authority.' },
+      { title: 'Clear reporting', description: 'Full transparency with ongoing reporting on booked meetings, meeting quality and campaign status.' },
+      { title: 'Guaranteed quality', description: "Cancelled or unfulfilled meetings are replaced – we hold ourselves accountable for delivering." },
+    ],
+  },
+  process: {
+    title: "How Magnora Marketing's meeting booking works",
+    steps: [
+      { title: 'Briefing and strategy', desc: 'We get to know your business and your ideal customers, and develop a targeted communication strategy.' },
+      { title: 'Lead identification', desc: 'We identify and screen relevant companies and key people within your target audience.' },
+      { title: 'Qualified contact', desc: 'We make first contact and qualify interest, budget and decision-making authority.' },
+      { title: 'Meeting booked', desc: 'The qualified meeting is booked in your calendar – confirmed and ready to take place.' },
+    ],
+    cta: 'Get started with Magnora Marketing',
+    includesTitle: "What does Magnora Marketing's meeting booking include?",
+    includesItems: [
+      'Full lead research and target audience segmentation',
+      'Tailored scripts and communication strategies',
+      'BANT qualification of every lead',
+      'Booking and calendar coordination',
+      'Double meeting confirmation (email + SMS)',
+      'Meeting notes and briefing material for you',
+      'Ongoing optimisation and feedback loop',
+      'Monthly performance reporting',
+    ],
+  },
+  midCta: {
+    title: 'Let Magnora Marketing fill your meeting book',
+    subtitle: 'Contact us and get a tailored quote for meeting booking suited to your industry and growth goals.',
+    cta: 'See pricing and models',
+  },
+  info: {
+    section1: {
+      title: 'Professional B2B Meeting Booking – Qualified Sales Meetings with the Right Decision-Makers',
+      p1: "Magnora Marketing's professional meeting booking service is designed to fill your calendar with qualified sales meetings with decision-makers who actually have the budget, need and authority to make a decision. Our experienced meeting bookers work methodically and in a structured way: we identify and screen relevant companies, contact the key people with a tailored message, and book the meeting directly in your calendar – confirmed, briefed and ready to go. Cancelled meetings are automatically replaced, so you never lose momentum.",
+      p2: "B2B meeting booking with Magnora Marketing is far more than just making phone calls. We develop a complete communication strategy with industry-tailored scripts, carry out BANT qualification of every lead and ensure double meeting confirmation via email and SMS. You receive ongoing reports with meeting status, meeting quality and campaign performance – and always have full transparency into what's happening in your sales pipeline.",
+      list: [
+        'Full lead research and target audience segmentation',
+        'BANT qualification of every meeting before booking',
+        'Double meeting confirmation (email + SMS)',
+        'Meeting notes and briefing material for your sales force',
+      ],
+    },
+    section2: {
+      title: 'Meeting Booking Pricing and Models – No Cure No Pay or Fixed Package',
+      p1: "Magnora Marketing offers flexible pricing models for professional meeting booking that suit your business's size and needs. With our No Cure No Pay model you pay solely for completed, qualified meetings – you define the quality criteria yourself and pay nothing for cancelled or unserious meetings. The package solution offers a lower unit price and more predictable costs, and is best suited for businesses with a continuous need for meeting booking.",
+      p2: 'Contact Magnora Marketing at mail@magnoramarketing.dk for a no-obligation quote for meeting booking tailored to your industry, your target audience and your growth goals. The first qualified meetings can typically be delivered within 2-3 weeks after the onboarding briefing.',
+    },
+  },
+  faq: {
+    items: [
+      { question: 'What is meeting booking?', answer: 'Meeting booking is the process of identifying and contacting potential customers and booking qualified sales meetings directly in your calendar – so your sales team can focus on closing deals.' },
+      { question: 'Who books the meetings?', answer: "Magnora Marketing's experienced meeting bookers contact decision-makers within your target audience, present your solution and book meetings directly in your calendar." },
+      { question: 'What happens if a meeting is cancelled?', answer: 'We handle cancellations and rebookings and ensure your calendar is always filled with qualified meetings.' },
+      { question: 'Can you book meetings within specific industries?', answer: 'Yes – we have experience with meeting booking in more than 16 industries and tailor our approach to your target audience.' },
+      { question: 'What is a typical success rate for meeting booking?', answer: 'It depends on the industry and target audience, but our clients typically experience a meeting rate of 10-20% of qualified contacts.' },
+      { question: 'What is a decision-maker?', answer: 'A decision-maker is the person within a company who has the authority to approve a purchase – typically a director, manager or executive.' },
+      { question: 'Can you book meetings across all of Scandinavia?', answer: 'We focus primarily on the Danish market, but can also support meeting booking in Sweden and Norway.' },
+      { question: 'What happens if a potential customer says no?', answer: 'We record the feedback, update the database and may follow up at a later point with new information.' },
+      { question: 'Can we see who has been contacted?', answer: 'Yes – you receive ongoing updates and have full access to the activity log and contact history.' },
+      { question: 'How do you handle GDPR during calls?', answer: 'We follow all GDPR rules for B2B communication and registration, including proper handling of opt-out and data retention.' },
+      { question: 'How many calls do you make per day?', answer: 'The activity level is agreed individually based on the scope and budget of the campaign.' },
+      { question: 'Can we set requirements for meeting times?', answer: 'Yes – you can specify preferences for when meetings may be booked, e.g. mornings only or specific weekdays.' },
+      { question: 'What is pre-qualification?', answer: 'Pre-qualification means we screen potential customers before meeting booking to ensure they meet your criteria for a good customer.' },
+      { question: 'Can we see a demo of the process?', answer: 'Yes – contact us for a walkthrough of our meeting booking process and examples of campaigns.' },
+      { question: 'What is the fastest way to get started?', answer: 'Fill in the contact form, and we will set up an introductory meeting within 2 business days.' },
+    ],
+  },
+  finalCta: {
+    title: 'Book your first meeting booking session with Magnora Marketing today',
+    subtitle: 'We are ready to help your business fill the calendar with qualified sales meetings.',
+    primaryText: 'Contact us now',
+    secondaryText: 'See pricing',
+  },
+};
