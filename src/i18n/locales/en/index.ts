@@ -19,6 +19,7 @@ import contactForm from './contactForm';
 import cookieConsent from './cookieConsent';
 import faqSection from './faqSection';
 import blogPage from './blogPage';
+import blogPost from './blogPost';
 
 export default {
   ...common,
@@ -42,4 +43,5 @@ export default {
   ...cookieConsent,
   ...faqSection,
   blogPage,
+  blogPost,
 };
