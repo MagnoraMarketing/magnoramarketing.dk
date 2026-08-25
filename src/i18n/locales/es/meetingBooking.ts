@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Reserva de Reuniones | Magnora Marketing – Tu Socio de Crecimiento en Televentas e IA',
+    description: 'La reserva de reuniones profesional de Magnora Marketing garantiza reuniones de venta cualificadas. Tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads e IA.',
+    keywords: 'precios reserva de reuniones, reuniones de venta B2B, reserva de reuniones Magnora Marketing, reuniones cualificadas, servicio de reserva de reuniones',
+  },
+  hero: {
+    title: 'Reserva de Reuniones Profesional con Magnora Marketing',
+    subtitle: 'Entregamos reuniones de venta cualificadas con los responsables de decisión adecuados, para que tu fuerza de ventas pueda cerrar más acuerdos y dedicar tiempo a lo que genera ingresos.',
+    cta: 'Ver precios',
+    secondaryCta: 'Contáctanos',
+  },
+  features: {
+    title: 'El Enfoque de Magnora Marketing para la Reserva de Reuniones',
+    subtitle: 'Abordamos la reserva de reuniones de forma metódica: desde la investigación y cualificación de leads hasta reuniones confirmadas en tu agenda.',
+    items: [
+      { title: 'Reuniones cualificadas', description: 'Cada reunión se filtra y cualifica a fondo antes de reservarla. Sin pérdida de tiempo: solo reuniones con verdadero potencial comercial.' },
+      { title: 'Los responsables de decisión adecuados', description: 'Nos aseguramos de que te reúnas con las personas clave que tienen presupuesto y capacidad de decisión.' },
+      { title: 'Informes claros', description: 'Total transparencia con informes continuos sobre reuniones reservadas, calidad de las reuniones y estado de la campaña.' },
+      { title: 'Calidad garantizada', description: 'Las reuniones canceladas o incumplidas se sustituyen; nos hacemos responsables de cumplir lo prometido.' },
+    ],
+  },
+  process: {
+    title: 'Cómo funciona la reserva de reuniones de Magnora Marketing',
+    steps: [
+      { title: 'Briefing y estrategia', desc: 'Conocemos tu empresa y tus clientes ideales, y desarrollamos una estrategia de comunicación dirigida.' },
+      { title: 'Identificación de leads', desc: 'Identificamos y filtramos las empresas y personas clave relevantes dentro de tu público objetivo.' },
+      { title: 'Contacto cualificado', desc: 'Realizamos el primer contacto y cualificamos el interés, el presupuesto y la capacidad de decisión.' },
+      { title: 'Reunión reservada', desc: 'La reunión cualificada se reserva en tu agenda: confirmada y lista para celebrarse.' },
+    ],
+    cta: 'Empieza con Magnora Marketing',
+    includesTitle: '¿Qué incluye la reserva de reuniones de Magnora Marketing?',
+    includesItems: [
+      'Investigación completa de leads y segmentación del público objetivo',
+      'Guiones y estrategias de comunicación a medida',
+      'Cualificación BANT de cada lead',
+      'Reserva y coordinación de agenda',
+      'Doble confirmación de la reunión (email + SMS)',
+      'Notas de la reunión y material de briefing para ti',
+      'Optimización continua y bucle de retroalimentación',
+      'Informe mensual de rendimiento',
+    ],
+  },
+  midCta: {
+    title: 'Deja que Magnora Marketing llene tu agenda de reuniones',
+    subtitle: 'Contáctanos y consigue un presupuesto a medida para la reserva de reuniones adaptado a tu sector y tus objetivos de crecimiento.',
+    cta: 'Ver precios y modelos',
+  },
+  info: {
+    section1: {
+      title: 'Reserva de Reuniones B2B Profesional – Reuniones de Venta Cualificadas con los Responsables de Decisión Adecuados',
+      p1: 'El servicio profesional de reserva de reuniones de Magnora Marketing está diseñado para llenar tu agenda de reuniones de venta cualificadas con los responsables de decisión que realmente tienen el presupuesto, la necesidad y la capacidad de decidir. Nuestros experimentados reservadores de reuniones trabajan de forma metódica y estructurada: identificamos y filtramos las empresas relevantes, contactamos a las personas clave con un mensaje a medida y reservamos la reunión directamente en tu agenda, confirmada, informada y lista para celebrarse. Las reuniones canceladas se sustituyen automáticamente, para que nunca pierdas impulso.',
+      p2: 'La reserva de reuniones B2B con Magnora Marketing es mucho más que hacer llamadas telefónicas. Desarrollamos una estrategia de comunicación completa con guiones adaptados al sector, realizamos la cualificación BANT de cada lead y garantizamos la doble confirmación de la reunión por email y SMS. Recibes informes continuos con el estado de las reuniones, la calidad de las reuniones y el rendimiento de la campaña, y siempre tienes total transparencia sobre lo que ocurre en tu pipeline de ventas.',
+      list: [
+        'Investigación completa de leads y segmentación del público objetivo',
+        'Cualificación BANT de cada reunión antes de reservarla',
+        'Doble confirmación de la reunión (email + SMS)',
+        'Notas de la reunión y material de briefing para tu fuerza de ventas',
+      ],
+    },
+    section2: {
+      title: 'Precios y Modelos de Reserva de Reuniones – No Cure No Pay o Paquete Fijo',
+      p1: 'Magnora Marketing ofrece modelos de precios flexibles para la reserva de reuniones profesional que se adaptan al tamaño y las necesidades de tu empresa. Con nuestro modelo No Cure No Pay pagas exclusivamente por reuniones completadas y cualificadas: tú mismo defines los criterios de calidad y no pagas por reuniones canceladas o poco serias. La solución de paquete ofrece un precio unitario más bajo y costes más predecibles, y es la mejor opción para empresas con una necesidad continua de reserva de reuniones.',
+      p2: 'Contacta con Magnora Marketing en mail@magnoramarketing.dk para un presupuesto sin compromiso de reserva de reuniones adaptado a tu sector, tu público objetivo y tus objetivos de crecimiento. Las primeras reuniones cualificadas suelen entregarse en un plazo de 2 a 3 semanas tras el briefing de inicio.',
+    },
+  },
+  faq: {
+    items: [
+      { question: '¿Qué es la reserva de reuniones?', answer: 'La reserva de reuniones es el proceso de identificar y contactar a clientes potenciales y reservar reuniones de venta cualificadas directamente en tu agenda, para que tu equipo de ventas pueda centrarse en cerrar acuerdos.' },
+      { question: '¿Quién reserva las reuniones?', answer: 'Los experimentados reservadores de reuniones de Magnora Marketing contactan a los responsables de decisión dentro de tu público objetivo, presentan tu solución y reservan reuniones directamente en tu agenda.' },
+      { question: '¿Qué ocurre si se cancela una reunión?', answer: 'Gestionamos las cancelaciones y las nuevas reservas, y garantizamos que tu agenda esté siempre llena de reuniones cualificadas.' },
+      { question: '¿Podéis reservar reuniones en sectores específicos?', answer: 'Sí, tenemos experiencia en reserva de reuniones en más de 16 sectores y adaptamos nuestro enfoque a tu público objetivo.' },
+      { question: '¿Cuál es una tasa de éxito típica en la reserva de reuniones?', answer: 'Depende del sector y del público objetivo, pero nuestros clientes suelen experimentar una tasa de reuniones del 10-20% de los contactos cualificados.' },
+      { question: '¿Qué es un responsable de decisión?', answer: 'Un responsable de decisión es la persona dentro de una empresa con autoridad para aprobar una compra, normalmente un director, jefe o gerente.' },
+      { question: '¿Podéis reservar reuniones en toda Escandinavia?', answer: 'Nos centramos principalmente en el mercado danés, pero también podemos apoyar la reserva de reuniones en Suecia y Noruega.' },
+      { question: '¿Qué ocurre si un cliente potencial dice que no?', answer: 'Registramos la respuesta, actualizamos la base de datos y, en su caso, volvemos a contactar más adelante con nueva información.' },
+      { question: '¿Podemos ver a quién se ha contactado?', answer: 'Sí, recibes actualizaciones continuas y tienes acceso completo al registro de actividad y al historial de contactos.' },
+      { question: '¿Cómo gestionáis el RGPD en las llamadas?', answer: 'Seguimos todas las normas del RGPD para la comunicación y el registro B2B, incluida la correcta gestión de las bajas voluntarias y la conservación de datos.' },
+      { question: '¿Cuántas llamadas hacéis al día?', answer: 'El nivel de actividad se acuerda de forma individual según el alcance y el presupuesto de la campaña.' },
+      { question: '¿Podemos establecer requisitos para los horarios de las reuniones?', answer: 'Sí, puedes indicar preferencias sobre cuándo se pueden reservar las reuniones, por ejemplo, solo por las mañanas o días concretos de la semana.' },
+      { question: '¿Qué es una precualificación?', answer: 'La precualificación significa que filtramos a los clientes potenciales antes de la reserva de reuniones para garantizar que cumplen tus criterios de buen cliente.' },
+      { question: '¿Podemos ver una demostración del proceso?', answer: 'Sí, contáctanos para una explicación de nuestro proceso de reserva de reuniones y ejemplos de campañas.' },
+      { question: '¿Cuál es la forma más rápida de empezar?', answer: 'Rellena el formulario de contacto y organizaremos una reunión inicial en un plazo de 2 días laborables.' },
+    ],
+  },
+  finalCta: {
+    title: 'Reserva hoy tu primera sesión de reserva de reuniones con Magnora Marketing',
+    subtitle: 'Estamos listos para ayudar a tu empresa a llenar la agenda de reuniones de venta cualificadas.',
+    primaryText: 'Contáctanos ahora',
+    secondaryText: 'Ver precios',
+  },
+};
