@@ -34,6 +34,7 @@ import cookieConsent from './cookieConsent';
 import faqSection from './faqSection';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
+import blogPosts from './blogPosts-group2';
 
 export default {
   ...common,
@@ -72,4 +73,5 @@ export default {
   ...faqSection,
   blogPage,
   blogPost,
+  blogPosts,
 };
