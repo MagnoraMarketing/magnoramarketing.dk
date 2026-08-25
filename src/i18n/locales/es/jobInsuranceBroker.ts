@@ -1,0 +1,165 @@
+export default {
+  seo: {
+    title: 'Reserva de Reuniones desde Casa para los Mejores Corredores de Seguros de Dinamarca | Magnora Marketing',
+    description: 'Conviértete en agente de reservas y agenda reuniones 100% desde casa para los corredores de seguros líderes del país. Salario atractivo, comisión sin límite y libertad total sobre tu jornada. Solicita el empleo de agente de reservas hoy.',
+    keywords: 'reserva de reuniones desde casa, agente de reservas seguros, empleo reserva de reuniones seguros, agente de reservas corredor de seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, reserva de reuniones freelance, empleo reserva de reuniones Dinamarca, salario atractivo trabajo remoto, reserva de reuniones remota seguros',
+  },
+  breadcrumbs: {
+    home: 'Inicio',
+    jobSeekers: 'Empleo',
+    current: 'Seguros – trabajo desde casa',
+  },
+  hero: {
+    title: 'Reserva de reuniones desde casa para los mejores corredores de seguros de Dinamarca',
+    subtitle: 'Agenda reuniones para los corredores de seguros líderes del país: 100% desde casa, con salario atractivo, comisión sin límite y libertad total sobre tu propia jornada.',
+    cta: 'Solicita ahora – sin compromiso',
+    secondaryCta: 'Ver todas las vacantes',
+  },
+  statBand: {
+    items: [
+      { stat: '100%', label: 'Remoto' },
+      { stat: 'Sin límite', label: 'en tu comisión' },
+      { stat: 'Horario', label: 'flexible' },
+      { stat: '2 días', label: 'para empezar' },
+    ],
+  },
+  intro: {
+    badge: 'Agente de reservas · Seguros',
+    title: 'Uno de los empleos remotos más atractivos de Dinamarca',
+    text: 'Como agente de reservas para seguros, ayudas a los mejores corredores de seguros del país a conectar con empresas y clientes particulares que buscan una solución de seguro mejor y más económica. Trabajas 100% desde casa, estableces tus propias condiciones y se te recompensa por tus resultados con uno de los salarios más atractivos del mercado.',
+    cards: [
+      { title: 'Salario atractivo', desc: 'Honorario base fijo más comisión sin límite. Cuantas más reuniones cualificadas agendes, más ganas: tu esfuerzo determina tus ingresos.' },
+      { title: 'Libertad total', desc: 'Trabaja desde tu sofá, tu casa de vacaciones o incluso desde otro país. Sin desplazamientos, sin horarios fijos de reuniones: tú organizas tu día.' },
+      { title: 'Los mejores corredores de Dinamarca', desc: 'Representas a algunos de los corredores de seguros más reconocidos del país. Un producto sólido del que puedes estar orgulloso al agendar reuniones.' },
+    ],
+  },
+  salary: {
+    badge: 'Salario y comisión',
+    title: 'Un salario que está a la altura de tu esfuerzo',
+    text: 'Creemos que los buenos agentes de reservas deben ser recompensados en consecuencia. Por eso combinamos un salario base seguro con uno de los modelos de comisión más competitivos del mercado, completamente sin límite. No hay tope para lo que puedes ganar.',
+    list: [
+      'Honorario base fijo desde el primer día',
+      'Comisión por cada reunión cualificada, sin límite',
+      'Programas de bonificaciones y concursos para los mejores agentes',
+      'Pagos mensuales y transparentes',
+    ],
+    earnings: {
+      label: 'Tus ingresos',
+      value: 'Sin límite',
+      sub: 'Salario base + comisión por reunión agendada',
+      rows: [
+        'Cuantas más reuniones, mayor salario',
+        'Salario base fijo y seguro como cimiento',
+        'Bonificación extra para los mejores agentes',
+      ],
+      cta: 'Más información sobre el salario',
+    },
+  },
+  freedom: {
+    title: 'Libertad para vivir la vida a tu manera',
+    text: 'Olvídate de los desplazamientos, los relojes de fichar y los horarios fijos de reuniones. Como agente de reservas remoto para seguros, decides tú cuándo y desde dónde trabajas.',
+    cards: [
+      { title: 'Trabaja desde donde quieras', desc: 'Desde casa, tu casa de vacaciones o el extranjero: todo lo que necesitas es un teléfono, un ordenador y una conexión a internet estable.' },
+      { title: 'Tus propios horarios', desc: 'Organiza tu día en torno a tu familia, tus estudios o tu tiempo libre. A tiempo completo o como atractivo ingreso adicional: tú eliges.' },
+      { title: 'Una comunidad sólida', desc: 'Aunque trabajes desde casa, nunca estás solo. Reuniones online, apoyo entre compañeros y una red de agentes experimentados están a tu disposición.' },
+      { title: 'Todo te lo entregamos nosotros', desc: 'Leads, guiones, listas de llamadas y acceso al CRM: recibes todo lo que necesitas para empezar con buen pie.' },
+    ],
+  },
+  testimonial: {
+    quote: '«Agendo reuniones para corredores de seguros desde la mesa de mi cocina, recojo a mis hijos a las 15:00 y gano más de lo que ganaba en mi antiguo trabajo de oficina. La libertad y el salario son sencillamente difíciles de superar.»',
+    author: 'Agente de reservas freelance en Magnora Marketing',
+    role: 'Trabaja desde casa · Seguros',
+  },
+  requirements: {
+    title: 'Lo que buscamos',
+    list: [
+      'Eres extrovertido y se te da bien hablar con la gente por teléfono',
+      'Hablas y escribes danés con fluidez',
+      'Tienes autodisciplina y puedes trabajar de forma independiente desde casa',
+      'Estás orientado a resultados y motivado para alcanzar tus metas',
+      'Experiencia en ventas, reserva de reuniones o atención al cliente es una ventaja, pero no un requisito',
+      'Dispones de teléfono, ordenador y conexión a internet estable',
+    ],
+  },
+  process: {
+    title: 'Cómo empezar',
+    steps: [
+      { title: 'Envíanos un mensaje', desc: 'Sin necesidad de una solicitud extensa: cuéntanos brevemente quién eres y por qué te interesa.' },
+      { title: 'Una breve charla inicial', desc: 'Te respondemos en un plazo de 2 días laborables para concretar una charla sin compromiso sobre las posibilidades.' },
+      { title: 'Incorporación y formación', desc: 'Recibes formación sobre el producto, guiones y acceso a los sistemas: listo para agendar reuniones en pocos días.' },
+      { title: 'Agenda reuniones y gana', desc: 'Agendas reuniones cualificadas para los corredores de seguros y recibes una recompensa por cada una de ellas.' },
+    ],
+    cta: 'Solicita ahora – sin compromiso',
+  },
+  seoBlock1: {
+    title: 'Trabaja desde casa como agente de reservas para corredores de seguros: libertad y salario atractivo',
+    p1: '¿Sueñas con un empleo remoto flexible con un salario que esté a la altura de tu esfuerzo? Como agente de reservas freelance para seguros en Magnora Marketing, trabajas 100% desde casa y agendas reuniones cualificadas para algunos de los corredores de seguros más reconocidos de Dinamarca. Ayudas a empresas y clientes particulares a conectar con los asesores adecuados para conseguir una solución de seguro mejor, más económica y más transparente, y se te recompensa por cada reunión cualificada que agendes.',
+    p2: 'El puesto de agente de reservas en el sector de seguros es ideal para quien busca libertad y flexibilidad en su día a día. Decides tú mismo cuándo y desde dónde trabajas, y recibes un salario base fijo y seguro combinado con comisión sin límite. No hay desplazamientos, ni horarios de oficina fijos, ni tope en tus ingresos: solo tus propias metas y ambiciones marcan el límite. Magnora Marketing te proporciona leads, listas de llamadas, guiones y acceso al CRM, para que puedas centrarte en lo que mejor sabes hacer: crear buenas conversaciones y agendar reuniones valiosas.',
+    list: [
+      '100% remoto: trabaja cuándo y desde dónde quieras',
+      'Salario atractivo: honorario base fijo + comisión sin límite',
+      'Representa a los mejores corredores de seguros de Dinamarca',
+      'Leads, guiones y CRM proporcionados desde el primer día',
+      'Horario flexible: a tiempo completo o como ingreso adicional',
+    ],
+  },
+  seoBlock2: {
+    title: 'Por qué la reserva de reuniones para seguros es uno de los mejores empleos remotos del país',
+    p1: 'Los seguros son un producto que casi todos los daneses y todas las empresas necesitan, y un mercado en el que un buen corredor de seguros puede ahorrarles a los clientes cantidades considerables. Eso hace que tu papel como agente de reservas sea a la vez significativo y muy demandado. Llamas a contactos relevantes de nuestras listas de llamadas, explicas brevemente las ventajas de una revisión sin compromiso con un corredor de seguros, y agendas una reunión para quienes muestran interés. Sencillo, concreto y orientado a resultados.',
+    p2: 'Debido a la alta demanda de buenos corredores de seguros, hay muchas oportunidades para agendar numerosas reuniones y, por tanto, ganar bien. La combinación de un producto sólido, contactos receptivos y un generoso modelo de comisiones convierte este puesto en uno de los empleos remotos más atractivos que puedes encontrar en Dinamarca ahora mismo. Ya sea que busques un empleo remoto a tiempo completo o un ingreso adicional flexible junto con tus estudios o tu familia, el puesto te da la libertad de organizar tu trabajo como mejor te convenga.',
+    p3: 'Contacta con Magnora Marketing hoy y descubre más sobre cómo empezar como agente de reservas remoto para seguros. Estamos deseando saber de ti.',
+  },
+  whatIs: {
+    title: '¿Qué es la reserva de reuniones en el sector de seguros?',
+    text: 'La reserva de reuniones en el sector de seguros consiste en crear la conexión entre un cliente interesado y un corredor de seguros profesional. Como agente de reservas, llamas a empresas y particulares, mantienes una conversación amena y de confianza sobre sus seguros actuales, y agendas una reunión sin compromiso con un corredor para quienes quieran saber más. Tú no vendes el seguro directamente: tu único objetivo es agendar la reunión cualificada. Eso convierte la reserva de reuniones en uno de los empleos remotos más sencillos y orientados a resultados que puedes conseguir.',
+    steps: [
+      { title: 'Llama', desc: 'Llamas a contactos de nuestras listas de llamadas e inicias una buena conversación basada en nuestros guiones probados.' },
+      { title: 'Cualifica', desc: 'Identificas brevemente la necesidad y determinas si el cliente es relevante para un corredor de seguros.' },
+      { title: 'Agenda la reunión', desc: 'Agendas una reunión sin compromiso en el calendario del corredor, y recibes una recompensa por cada reunión cualificada.' },
+    ],
+  },
+  regional: {
+    title: 'Reserva de reuniones desde casa, en toda Dinamarca',
+    p1: 'Como el puesto de agente de reservas es 100% remoto, no importa en qué parte del país vivas. Colaboramos con agentes de reservas freelance de toda Dinamarca, y puedes agendar reuniones para corredores de seguros vivas en una gran ciudad o en el campo. Solo necesitas un teléfono, un ordenador y una conexión a internet estable.',
+    p2: 'Recibimos solicitudes constantes de agentes de reservas de ciudades como Copenhague, Aarhus, Odense, Aalborg, Esbjerg, Randers, Kolding, Vejle, Horsens y Roskilde, pero puedes postularte sin importar dónde vivas. Ya busques "empleo de reserva de reuniones desde casa", "agente de reservas corredor de seguros" o "trabajar desde casa seguros", has llegado al lugar correcto.',
+    cities: ['Copenhague', 'Aarhus', 'Odense', 'Aalborg', 'Esbjerg', 'Randers', 'Kolding', 'Vejle', 'Horsens', 'Roskilde', 'Herning', 'Silkeborg', 'Toda Dinamarca'],
+  },
+  career: {
+    title: 'Por qué la reserva de reuniones es una vía profesional atractiva',
+    text: 'La reserva de reuniones es una de las competencias más demandadas en las ventas B2B modernas. Los buenos agentes de reservas son oro puro para cualquier corredor de seguros, porque llenan la agenda de reuniones cualificadas y generan ingresos directos. Como agente de reservas, desarrollas sólidas habilidades de comunicación y ventas que te servirán durante toda tu carrera, y se te recompensa por tu esfuerzo aquí y ahora con comisión sin límite.',
+    cards: [
+      { title: 'Competencia demandada', desc: 'La reserva de reuniones es una habilidad demandada en todos los sectores: una inversión en tu futuro profesional.' },
+      { title: 'Ingresos sin límite', desc: 'Cuanto mejor se te dé agendar reuniones, más reuniones agendarás y más ganarás.' },
+      { title: 'Contacto humano', desc: 'Hablas con personas durante todo el día y las ayudas a acceder al asesoramiento adecuado.' },
+      { title: 'Socios sólidos', desc: 'Agendas reuniones para algunos de los corredores de seguros más reconocidos del país.' },
+    ],
+  },
+  relatedJobs: {
+    title: 'Otros empleos de reserva de reuniones y ventas desde casa',
+    text: 'Los seguros son solo uno de los muchos sectores en los que puedes agendar reuniones en Magnora Marketing. Descubre más empleos remotos disponibles.',
+    seeAll: 'Ver todas las vacantes',
+  },
+  faq: {
+    title: 'Preguntas frecuentes sobre el empleo',
+    items: [
+      { question: '¿En qué consiste el trabajo de agente de reservas para seguros?', answer: 'Llamas a contactos relevantes y agendas reuniones sin compromiso entre clientes interesados y corredores de seguros. Trabajas a partir de listas de llamadas y guiones que te proporcionamos, y recibes una recompensa por cada reunión cualificada.' },
+      { question: '¿Cuál es la diferencia entre reserva de reuniones y ventas?', answer: 'Como agente de reservas, no vendes el seguro directamente: agendas la reunión entre el cliente y el corredor de seguros. El asesoramiento y la venta en sí corren a cargo del corredor. Tu único objetivo es crear reuniones cualificadas.' },
+      { question: '¿Puedo hacer reserva de reuniones desde casa sin importar en qué parte de Dinamarca viva?', answer: 'Sí. El trabajo es 100% remoto y por teléfono, así que puedes vivir en cualquier lugar de Dinamarca, desde Copenhague y Aarhus hasta las ciudades más pequeñas. Solo necesitas un teléfono, un ordenador y una conexión a internet estable.' },
+      { question: '¿De verdad puedo trabajar 100% desde casa?', answer: 'Sí, todo el puesto se realiza en remoto. Solo necesitas un teléfono, un ordenador y una conexión a internet estable. Sin desplazamientos ni asistencia presencial.' },
+      { question: '¿Cuál es el salario?', answer: 'Recibes un salario base fijo combinado con comisión sin límite por reunión agendada. Acordamos el modelo exacto contigo antes de empezar, pero tu esfuerzo determina cuánto puedes ganar.' },
+      { question: '¿Tengo que buscar yo mismo a los clientes?', answer: 'No. Te proporcionamos listas de llamadas, leads, guiones y acceso al CRM. Tú te centras en las conversaciones y en agendar las reuniones.' },
+      { question: '¿Requiere experiencia en seguros o ventas?', answer: 'No. La experiencia en ventas, reserva de reuniones o atención al cliente es una ventaja, pero no un requisito. Te damos una formación completa sobre el producto para que estés listo desde el principio.' },
+      { question: '¿Puedo tenerlo como trabajo adicional junto con estudios u otro empleo?', answer: 'Sí, muchos de nuestros agentes de reservas trabajan de forma flexible y lo usan como un atractivo ingreso adicional junto con estudios, familia u otro trabajo.' },
+      { question: '¿Qué horario hay?', answer: 'Tú planificas tu propio día. Los mejores resultados suelen obtenerse dentro del horario laboral danés habitual (de 8:00 a 17:00), cuando es más fácil contactar con los clientes.' },
+      { question: '¿Cuándo se paga la comisión?', answer: 'La comisión se paga mensualmente y se basa en tus reuniones cualificadas verificadas.' },
+      { question: '¿Qué tan rápido puedo empezar?', answer: 'Tras una breve charla inicial y la incorporación, la mayoría está lista para agendar reuniones en pocos días.' },
+      { question: '¿Cómo me postulo?', answer: 'Envíanos un breve mensaje a través de la página de contacto, sin necesidad de una solicitud extensa. Te respondemos en un plazo de 2 días laborables.' },
+    ],
+  },
+  finalCta: {
+    title: '¿Listo para la libertad y un salario que esté a la altura de tu esfuerzo?',
+    text: 'Conviértete en agente de reservas para los mejores corredores de seguros de Dinamarca: trabaja desde casa, establece tus propias condiciones y gana sin límite. La solicitud es breve y completamente sin compromiso.',
+    cta: 'Solicita ahora',
+    secondaryCta: 'Ver todas las vacantes',
+  },
+};

@@ -17,7 +17,7 @@ export default function ApiSaasPage() {
     { icon: <Lock size={36} className="text-blue-600" /> }
   ];
 
-  const useCases: string[] = t('digitalApiSaas.useCases', { returnObjects: true });
+  const useCases = t('digitalApiSaas.useCases', { returnObjects: true }) as string[];
 
   return (
     <>

@@ -11,112 +11,34 @@ import CTASection from '../components/CTASection';
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
   const services = [
-    {
-      icon: <Phone size={40} className="text-blue-600" />,
-      title: 'Telemarketing',
-      description: 'Skarpt målrettet B2B telemarketing der åbner døre, skaber dialog og driver reelle forretningsresultater for din virksomhed.',
-      features: [
-        'Direkte kontakt til relevante beslutningstagere',
-        'Kvalificering og prioritering af kundeemner',
-        'Løbende opdatering af prospektdatabaser',
-        'Opfølgning på markedsføringskampagner',
-        'Kundetilfredshedsundersøgelser og feedback',
-        'Detaljeret resultatrapportering'
-      ]
-    },
-    {
-      icon: <Users size={40} className="text-blue-600" />,
-      title: 'Mødebooking',
-      description: 'Vi fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere – så dit team kan lukke flere aftaler.',
-      features: [
-        'Identifikation og screening af nøglepersoner',
-        'Grundig forhåndskvalificering af emner',
-        'Booking af fysiske møder og digitale demos',
-        'Effektiv kalender- og tidsstyring',
-        'Automatiske mødebekræftelser og påmindelser',
-        'Struktureret opfølgning og feedbackloop'
-      ]
-    },
-    {
-      icon: <Code size={40} className="text-blue-600" />,
-      title: 'Webudvikling',
-      description: 'Moderne og konverteringsoptimerede webløsninger der repræsenterer din virksomhed professionelt og genererer leads døgnet rundt.',
-      features: [
-        'Skræddersyede webapplikationer',
-        'Mobilvenligt responsivt design',
-        'Webshops og e-handelsplatforme',
-        'API-integrationer og systemkoblinger',
-        'Brugervenlige CMS-løsninger',
-        'Løbende support og vedligeholdelse'
-      ]
-    },
-    {
-      icon: <BarChart3 size={40} className="text-blue-600" />,
-      title: 'Leadgenerering',
-      description: 'Struktureret og datadrevet leadgenerering der leverer varme, salgsklar emner direkte til dit CRM-system.',
-      features: [
-        'Flerkanalsstrategi for leadgenerering',
-        'Lead scoring og kvalitetssikring',
-        'Segmentering efter branche og købspotentiale',
-        'Dybdegående lead-profilering',
-        'Løbende performanceanalyse og optimering',
-        'Sømløs CRM-integration'
-      ]
-    }
+    { icon: <Phone size={40} className="text-blue-600" /> },
+    { icon: <Users size={40} className="text-blue-600" /> },
+    { icon: <Code size={40} className="text-blue-600" /> },
+    { icon: <BarChart3 size={40} className="text-blue-600" /> },
   ];
+  const serviceItems = t('home.services.items', { returnObjects: true }) as { title: string; description: string; features: string[] }[];
 
-  const businessBenefits = [
-    'Telemarketing og struktureret leadgenerering',
-    'Kvalificerede salgsmøder med beslutningstagere',
-    'Proaktiv kundepleje og systematisk opfølgning',
-    'Markedsanalyser og konkurrentkortlægning',
-    'Opdatering og berigelse af salgsdatabaser',
-    'Strategisk rådgivning om salgsoptimering'
-  ];
+  const businessBenefits = t('home.growth.benefits', { returnObjects: true }) as string[];
 
-  const freelanceBenefits = [
-    'Selvbestemte arbejdstider og hjemmekontor',
-    'Konkurrencedygtig grundløn og resultatbonus',
-    'Solid oplæring og løbende faglig sparring',
-    'Tæt support fra erfarne salgsledere',
-    'Moderne digitale arbejdsværktøjer',
-    'Varierede og engagerende projekter'
-  ];
+  const industries = t('home.industriesSection.items', { returnObjects: true }) as { name: string; description: string }[];
 
-  const industries = [
-    { name: 'SaaS & Cloud-løsninger', description: 'Salgsmøder med tech-beslutningstagere og IT-chefer' },
-    { name: 'IT-konsulenter', description: 'Kvalificerede møder med virksomhedsledere' },
-    { name: 'Forretningsudvikling', description: 'B2B-møder med C-level og direktionsniveau' },
-    { name: 'Marketing & Kommunikation', description: 'Møder med CMO\'er og marketingdirektører' },
-    { name: 'Digitale bureauer', description: 'Møder med virksomheder der vil vækste online' },
-    { name: 'Finans & Revision', description: 'Professionelle møder med CFO\'er og regnskabschefer' },
-    { name: 'HR & Rekruttering', description: 'Møder med personalechefer og HR-direktører' },
-    { name: 'Transport & Logistik', description: 'Salgsmøder med indkøbs- og driftschefer' },
-    { name: 'LED & Energieffektivisering', description: 'Møder om energibesparende løsninger til erhverv' },
-    { name: 'Strøm & Energioptimering', description: 'B2B og B2C møder om lavere energiomkostninger' },
-    { name: 'Kaffeservice til erhverv', description: 'Møder med facility managers og indkøbsansvarlige' },
-    { name: 'Solenergi & Vedvarende energi', description: 'Møder om grøn omstilling og bæredygtig drift' },
-    { name: 'Måtte- og rengøringsservice', description: 'Møder om arbejdsmiljø og hygiejneløsninger' },
-    { name: 'Pensionsrådgivning', description: 'Møder med private og erhvervskunder om pensionsplanlægning' },
-    { name: 'Inkasso & Kreditorstyring', description: 'Møder om effektiv og professionel gældinddrivelse' },
-    { name: 'Servicevirksomheder generelt', description: 'B2B møder på tværs af serviceerhverv' }
-  ];
+  const faqs = t('home.faqs', { returnObjects: true }) as { question: string; answer: string }[];
 
   return (
     <>
       <SEO
-        title="Magnora Marketing | Vækstpartner inden for Telesalg, Mødebooking, Webudvikling og AI"
-        description="Magnora Marketing er din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-udviklingsopgaver. Vi leverer dokumenterede resultater med fleksible modeller."
+        title={t('home.seo.title')}
+        description={t('home.seo.description')}
         canonical="/"
-        keywords="Magnora Marketing, vækstpartner, telesalg, mødebooking, webudvikling, leadgenerering, AI, AI-udvikling, salgspartner Danmark"
+        keywords={t('home.seo.keywords')}
       />
 
       <HeroSection
         title={t('home.hero.title')}
         subtitle={t('home.hero.subtitle')}
-        ctaText="Bliv samarbejdspartner"
+        ctaText={t('home.hero.ctaPrimary')}
         ctaLink="/samarbejdspartner"
-        secondaryCtaText="Start din karriere"
+        secondaryCtaText={t('home.hero.ctaSecondary')}
         secondaryCtaLink="/freelance-telemarketing"
         visual={<HeroVisual />}
       />
@@ -124,7 +46,7 @@ const HomePage: React.FC = () => {
       <section className="section bg-gray-50">
         <div className="container">
           <div className="text-center mb-4">
-            <span className="section-label">Sådan arbejder vi</span>
+            <span className="section-label">{t('home.process.label')}</span>
             <h2 className="text-3xl font-bold mb-4">{t('home.process.title')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-2">
               {t('home.process.subtitle')}
@@ -217,8 +139,8 @@ const HomePage: React.FC = () => {
             {services.map((service, index) => (
               <div key={index} className="card p-6 flex flex-col items-center text-center fade-in" style={{ animationDelay: `${index * 0.2}s` }}>
                 <div className="mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-                <p className="text-gray-600">{service.description}</p>
+                <h3 className="text-xl font-semibold mb-3">{serviceItems[index]?.title}</h3>
+                <p className="text-gray-600">{serviceItems[index]?.description}</p>
               </div>
             ))}
           </div>

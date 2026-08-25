@@ -17,7 +17,7 @@ export default function WebsitesPage() {
     { icon: <TrendingUp size={36} className="text-blue-600" /> }
   ];
 
-  const included: string[] = t('digitalWebsites.included.items', { returnObjects: true });
+  const included = t('digitalWebsites.included.items', { returnObjects: true }) as string[];
 
   const siteTypes = [0, 1, 2, 3, 4, 5];
 
