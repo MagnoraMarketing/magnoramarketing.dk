@@ -1,26 +1,47 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { CheckCircle, ArrowRight, Clock, PiggyBank, Home, Zap, Sun, Lightbulb } from 'lucide-react';
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 
 export default function LedLightingPage() {
+  const { t } = useTranslation();
+
+  const tasks = t('jobLedLighting.about.tasks', { returnObjects: true }) as string[];
+  const keyFactRows = t('jobLedLighting.keyFacts.rows', { returnObjects: true }) as { label: string; value: string }[];
+  const whyLedSellsItems = t('jobLedLighting.whyLedSells.items', { returnObjects: true }) as { title: string; desc: string }[];
+  const benefitsItems = t('jobLedLighting.benefits.items', { returnObjects: true }) as { title: string; desc: string }[];
+  const requirementsItems = t('jobLedLighting.requirements.items', { returnObjects: true }) as string[];
+  const faqItems = t('jobLedLighting.faqs', { returnObjects: true }) as { question: string; answer: string }[];
+
+  const whyLedSellsIcons = [
+    <Zap size={36} className="text-yellow-500" />,
+    <Clock size={36} className="text-yellow-500" />,
+    <Sun size={36} className="text-yellow-500" />,
+  ];
+  const benefitsIcons = [
+    <Home size={40} className="text-blue-600" />,
+    <PiggyBank size={40} className="text-blue-600" />,
+    <Lightbulb size={40} className="text-blue-600" />,
+  ];
+
   return (
     <>
       <SEO
-        title="Freelance Sælger LED & Energieffektivisering | Magnora Marketing"
-        description="Bliv freelance sælger af LED-belysning og energieffektivisering til erhverv hos Magnora Marketing. Arbejd hjemmefra med fleksible tider og attraktiv provision."
+        title={t('jobLedLighting.seo.title')}
+        description={t('jobLedLighting.seo.description')}
         canonical="/jobs/led-belysning"
-        keywords="freelance sælger LED, sælg energieffektivisering, LED belysning salg, erhvervsbelysning sælger, Magnora Marketing LED stilling"
+        keywords={t('jobLedLighting.seo.keywords')}
       />
 
       <HeroSection
-        title="Freelance Sælger – LED & Energieffektivisering til Erhverv"
-        subtitle="Sælg energibesparende LED-løsninger til danske virksomheder og offentlige institutioner. Arbejd hjemmefra med frihed, stærk provision og et produkt der sælger sig selv."
-        ctaText="Søg stillingen"
+        title={t('jobLedLighting.hero.title')}
+        subtitle={t('jobLedLighting.hero.subtitle')}
+        ctaText={t('jobLedLighting.hero.ctaText')}
         ctaLink="/kontakt"
-        secondaryCtaText="Se alle stillinger"
+        secondaryCtaText={t('jobLedLighting.hero.secondaryCtaText')}
         secondaryCtaLink="/freelance-telemarketing"
         backgroundImage="/heroes/hero-energi.jpg"
       />
@@ -29,21 +50,15 @@ export default function LedLightingPage() {
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Hvad går jobbet ud på?</h2>
+              <h2 className="text-3xl font-bold mb-6">{t('jobLedLighting.about.heading')}</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Som freelance sælger inden for LED og energieffektivisering kontakter du virksomheder, produktionshaller, detailbutikker og offentlige institutioner med et budskab der resonerer: spar penge og reducer CO₂-udledning ved at skifte til moderne LED-belysning.
+                {t('jobLedLighting.about.paragraph1')}
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Magnora Marketing leverer scripts, tilbudsskabeloner og produktviden. Du fokuserer på dialogen med kunden og på at booke møder eller lukke salget direkte.
+                {t('jobLedLighting.about.paragraph2')}
               </p>
               <ul className="space-y-3">
-                {[
-                  'Opsøgende telefonsalg til erhvervskunder',
-                  'Booking af energigennemgange og tilbudsmøder',
-                  'Præsentation af besparelsespotentiale og ROI',
-                  'Opfølgning på tilbud og interesserede emner',
-                  'Rapportering af aktivitet og salgsresultater'
-                ].map((item, i) => (
+                {tasks.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle className="text-green-500 flex-shrink-0 mt-0.5" size={18} />
                     <span className="text-gray-700">{item}</span>
@@ -52,16 +67,9 @@ export default function LedLightingPage() {
               </ul>
             </div>
             <div className="bg-yellow-50 rounded-2xl p-8 border border-yellow-100">
-              <h3 className="text-xl font-bold mb-6 text-yellow-800">Stillingens nøglefakta</h3>
+              <h3 className="text-xl font-bold mb-6 text-yellow-800">{t('jobLedLighting.keyFacts.heading')}</h3>
               <div className="space-y-4">
-                {[
-                  { label: 'Ansættelsesform', value: 'Freelance / selvstændig' },
-                  { label: 'Arbejdssted', value: 'Hjemmefra – hele Danmark' },
-                  { label: 'Arbejdstid', value: 'Fleksibel – du bestemmer selv' },
-                  { label: 'Løn', value: 'Attraktiv provisionsløn' },
-                  { label: 'Produkt', value: 'LED-belysning & energieffektivisering' },
-                  { label: 'Opstart', value: 'Hurtigst muligt' }
-                ].map((row, i) => (
+                {keyFactRows.map((row, i) => (
                   <div key={i} className="flex justify-between items-center py-2 border-b border-yellow-100 last:border-0">
                     <span className="text-gray-600 text-sm">{row.label}</span>
                     <span className="font-semibold text-gray-900 text-sm">{row.value}</span>
@@ -70,7 +78,7 @@ export default function LedLightingPage() {
               </div>
               <div className="mt-6">
                 <Link to="/kontakt" className="w-full inline-flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                  Send din ansøgning <ArrowRight size={16} className="ml-2" />
+                  {t('jobLedLighting.keyFacts.applyButton')} <ArrowRight size={16} className="ml-2" />
                 </Link>
               </div>
             </div>
@@ -81,19 +89,15 @@ export default function LedLightingPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Hvorfor LED sælger sig selv</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('jobLedLighting.whyLedSells.heading')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Energipriser er høje og virksomheder søger besparelser. LED-belysning er en af de hurtigste og mest konkrete investeringer en virksomhed kan gøre.
+              {t('jobLedLighting.whyLedSells.subtitle')}
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { icon: <Zap size={36} className="text-yellow-500" />, title: 'Op til 80% energibesparelse', desc: 'Moderne LED-armaturer bruger markant mindre strøm end ældre belysning – og virksomheder mærker det direkte på elregningen.' },
-              { icon: <Clock size={36} className="text-yellow-500" />, title: 'Tilbagebetalingstid på 1-3 år', desc: 'De fleste erhvervskunder ser fuld tilbagebetaling inden for 1-3 år, og herefter er besparelsen ren gevinst.' },
-              { icon: <Sun size={36} className="text-yellow-500" />, title: 'Grøn profil og ESG', desc: 'Virksomheder under pres for at reducere CO₂ ser LED-skiftet som et konkret og synligt skridt mod bæredygtighed.' }
-            ].map((item, i) => (
+            {whyLedSellsItems.map((item, i) => (
               <div key={i} className="bg-white rounded-xl p-6 shadow-sm text-center">
-                <div className="flex justify-center mb-4">{item.icon}</div>
+                <div className="flex justify-center mb-4">{whyLedSellsIcons[i]}</div>
                 <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>
@@ -105,16 +109,12 @@ export default function LedLightingPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Hvad du får hos Magnora Marketing</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('jobLedLighting.benefits.heading')}</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              { icon: <Home size={40} className="text-blue-600" />, title: 'Arbejd hjemmefra', desc: 'Fuld frihed til at arbejde fra dit eget hjem. Ingen transport – bare telefon, computer og drive.' },
-              { icon: <PiggyBank size={40} className="text-blue-600" />, title: 'Stærk provision', desc: 'Fast grundhonorar plus provision på hvert salg. Jo flere aftaler du lukker, jo mere tjener du.' },
-              { icon: <Lightbulb size={40} className="text-blue-600" />, title: 'Oplæring og materialer', desc: 'Vi oplærer dig i produkterne og besparelsesargumenterne. Du får scripts, tilbudsskabeloner og løbende sparring.' }
-            ].map((item, i) => (
+            {benefitsItems.map((item, i) => (
               <div key={i} className="text-center p-8 bg-gray-50 rounded-xl">
-                <div className="flex justify-center mb-4">{item.icon}</div>
+                <div className="flex justify-center mb-4">{benefitsIcons[i]}</div>
                 <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
                 <p className="text-gray-600">{item.desc}</p>
               </div>
@@ -127,16 +127,9 @@ export default function LedLightingPage() {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-2xl font-bold mb-6">Det kigger vi efter</h2>
+              <h2 className="text-2xl font-bold mb-6">{t('jobLedLighting.requirements.heading')}</h2>
               <ul className="space-y-3">
-                {[
-                  'Erfaring med telefonsalg eller kundekontakt',
-                  'Evne til at forklare besparelser og ROI enkelt',
-                  'Selvdisciplin og resultatorienteret indstilling',
-                  'Gode kommunikationsevner på dansk',
-                  'Teknisk baggrund inden for el eller energi er en fordel – ikke et krav',
-                  'Motivation for grøn omstilling'
-                ].map((item, i) => (
+                {requirementsItems.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle className="text-green-500 flex-shrink-0 mt-0.5" size={18} />
                     <span className="text-gray-700">{item}</span>
@@ -145,43 +138,28 @@ export default function LedLightingPage() {
               </ul>
             </div>
             <div>
-              <h2 className="text-2xl font-bold mb-6">Sådan søger du</h2>
-              <p className="text-gray-600 mb-6">Send os en kort besked om dig selv og din salgserfaring. Ingen formel ansøgning – bare skriv til os, så vender vi tilbage inden for 2 hverdage.</p>
+              <h2 className="text-2xl font-bold mb-6">{t('jobLedLighting.howToApply.heading')}</h2>
+              <p className="text-gray-600 mb-6">{t('jobLedLighting.howToApply.paragraph1')}</p>
               <Link to="/kontakt" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Kontakt Magnora Marketing nu <ArrowRight size={16} className="ml-2" />
+                {t('jobLedLighting.howToApply.ctaText')} <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <FAQSection faqs={[
-        { question: 'Hvad sælger jeg som mødebooker inden for LED?', answer: 'Du kontakter erhvervskunder og booker møder med energieffektive belysningsløsninger fra en anerkendt LED-leverandør.' },
-        { question: 'Behøver jeg viden om LED-teknik?', answer: 'Nej – Magnora Marketing giver dig al den produktviden du har brug for. Det vigtigste er dine salgskompetencer og din motivation.' },
-        { question: 'Hvem er målgruppen?', answer: 'Primært erhvervskunder som kontorer, produktionsvirksomheder og detail – alle der kan spare betydeligt på energiregningen med LED-belysning.' },
-        { question: 'Hvad er provisionsniveauet?', answer: 'Du modtager fast grundhonorar plus provision pr. booket møde der gennemføres.' },
-        { question: "Er der opkaldslister klar fra dag ét?", answer: "Ja – Magnora Marketing leverer opkaldslister og kampagnematerialer, så du kan starte med det samme." },
-        { question: "Kan jeg se et eksempel på et script?", answer: "Ja – du modtager et gennemprøvet salgsskript ved opstart som du kan tilpasse din stil." },
-        { question: "Hvad sker der ved et succes-salg eller booket møde?", answer: "Du registrerer resultatet i vores system, og provisionen beregnes automatisk og udbetales månedligt." },
-        { question: "Er der løbende coaching?", answer: "Ja – Magnora Marketing's salgsledere holder regelmæssige coaching-sessioner og giver feedback på din salgsstil." },
-        { question: "Kan jeg prøve stillingen i en kortere periode?", answer: "Ja – de første 2-4 uger betragtes som en gensidig prøveperiode." },
-        { question: "Hvad er den gennemsnitlige indkomst for en aktiv freelancer?", answer: "Det afhænger af aktivitet og produkt. Aktive freelancere med gode resultater kan tjene et solidt supplement eller en fuld indkomst." },
-        { question: "Kan jeg arbejde for Magnora Marketing og for andre bureauer?", answer: "Som freelancer er du fri til at arbejde for andre, så længe der ikke er konkurrencekonflikt med Magnora Marketing's kunder." },
-        { question: "Er der skriftlige kontrakter?", answer: "Ja – alle samarbejder formaliseres med en klar freelance-aftale der beskriver vilkår, provision og forventninger." },
-        { question: "Hvad sker der, hvis jeg ikke trives med produktet?", answer: "Vi kan diskutere om du er bedre egnet til et andet produkt i Magnora Marketing's portfolio." },
-        { question: "Hvad er Magnora Marketing's forventninger til mig som freelancer?", answer: "Vi forventer selvdisciplin, professionel optræden og løbende kommunikation om aktivitet og resultater." },
-      ]} />
+      <FAQSection faqs={faqItems} />
 
       <section className="bg-blue-600 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Klar til at sælge grøn energi?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">Kontakt Magnora Marketing og kom i gang med et produkt der skaber reel forskel – for kunden og for klimaet.</p>
+          <h2 className="text-3xl font-bold mb-6">{t('jobLedLighting.finalCta.heading')}</h2>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">{t('jobLedLighting.finalCta.subtitle')}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Send ansøgning <ArrowRight className="ml-2" size={18} />
+              {t('jobLedLighting.finalCta.primaryCta')} <ArrowRight className="ml-2" size={18} />
             </Link>
             <Link to="/freelance-telemarketing" className="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
-              Se alle ledige stillinger
+              {t('jobLedLighting.finalCta.secondaryCta')}
             </Link>
           </div>
         </div>

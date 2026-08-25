@@ -1,5 +1,5 @@
 # Robots.txt for Magnora Marketing
-# Updated: 2026-07-26
+# Updated: 2026-08-25
 
 # Default rules for all crawlers
 User-agent: *

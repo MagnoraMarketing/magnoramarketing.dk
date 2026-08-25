@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Calendar, Clock, ArrowRight, Mail, Sparkles } from 'lucide-react';
 import SEO from './SEO';
 import FAQSection from './FAQSection';
@@ -49,14 +50,19 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
   intro,
   sections,
   faqs,
-  ctaTitle = 'Klar til at samarbejde med Magnora Marketing?',
-  ctaSubtitle = 'Book en gratis og uforpligtende samtale om idéudvikling, mødebooking eller telesalg. Vi vender tilbage inden for én hverdag.',
+  ctaTitle,
+  ctaSubtitle,
   jobCta,
-  ctaPrimaryText = 'Kontakt Magnora Marketing',
+  ctaPrimaryText,
   ctaPrimaryLink = '/kontakt',
-  ctaSecondaryText = 'Se vores ydelser',
+  ctaSecondaryText,
   ctaSecondaryLink = '/ydelser',
 }) => {
+  const { t } = useTranslation();
+  const finalCtaTitle = ctaTitle ?? t('blogArticle.ctaTitle');
+  const finalCtaSubtitle = ctaSubtitle ?? t('blogArticle.ctaSubtitle');
+  const finalCtaPrimaryText = ctaPrimaryText ?? t('blogArticle.ctaPrimaryText');
+  const finalCtaSecondaryText = ctaSecondaryText ?? t('blogArticle.ctaSecondaryText');
   return (
     <>
       <SEO
@@ -68,8 +74,8 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
         articlePublishedTime={new Date(date).toISOString()}
         author="Magnora Marketing"
         breadcrumbs={[
-          { name: 'Forside', url: '/' },
-          { name: 'Blog', url: '/blog' },
+          { name: t('blogArticle.breadcrumbHome'), url: '/' },
+          { name: t('blogArticle.breadcrumbBlog'), url: '/blog' },
           { name: title, url: canonical },
         ]}
       />
@@ -80,7 +86,7 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
           <span className="inline-block bg-blue-500/30 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-4">{category}</span>
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{title}</h1>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-blue-100/80 text-sm">
-            <span className="flex items-center gap-2"><span>Af Magnora Marketing-teamet</span></span>
+            <span className="flex items-center gap-2"><span>{t('blogArticle.byline')}</span></span>
             <span className="flex items-center gap-2"><Calendar size={15} /> {displayDate}</span>
             <span className="flex items-center gap-2"><Clock size={15} /> {readTime}</span>
           </div>
@@ -119,7 +125,7 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
         {jobCta ? (
           <div className="mt-12 rounded-2xl border border-violet-200 bg-gradient-to-br from-violet-50 to-indigo-50 p-8">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold uppercase tracking-widest mb-4">
-              <Sparkles size={13} /> Ledig stilling
+              <Sparkles size={13} /> {t('blogArticle.jobBadge')}
             </span>
             <h2 className="text-2xl font-bold text-slate-900 mb-2">{jobCta.heading}</h2>
             <p className="text-slate-600 mb-6 max-w-2xl">{jobCta.body}</p>
@@ -129,13 +135,12 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
           </div>
         ) : (
           <div className="mt-12 rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 to-indigo-50 p-8">
-            <h2 className="text-2xl font-bold text-slate-900 mb-2">Lad os tage en uforpligtende snak</h2>
+            <h2 className="text-2xl font-bold text-slate-900 mb-2">{t('blogArticle.contactBox.heading')}</h2>
             <p className="text-slate-600 mb-6 max-w-2xl">
-              Fortæl os om din idé, din virksomhed og dine mål via vores kontaktformular. Vi vender tilbage inden for én
-              hverdag med et konkret bud på, hvordan Magnora Marketing kan hjælpe dig videre – helt uden forpligtelser.
+              {t('blogArticle.contactBox.body')}
             </p>
             <Link to="/kontakt" className="btn btn-primary inline-flex items-center gap-2 px-7 py-3.5">
-              <Mail size={17} /> Gå til kontaktformularen <ArrowRight size={16} />
+              <Mail size={17} /> {t('blogArticle.contactBox.linkText')} <ArrowRight size={16} />
             </Link>
           </div>
         )}
@@ -144,11 +149,11 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
       {faqs && faqs.length > 0 && <FAQSection faqs={faqs} />}
 
       <CTASection
-        title={ctaTitle}
-        subtitle={ctaSubtitle}
-        primaryText={ctaPrimaryText}
+        title={finalCtaTitle}
+        subtitle={finalCtaSubtitle}
+        primaryText={finalCtaPrimaryText}
         primaryLink={ctaPrimaryLink}
-        secondaryText={ctaSecondaryText}
+        secondaryText={finalCtaSecondaryText}
         secondaryLink={ctaSecondaryLink}
       />
     </>

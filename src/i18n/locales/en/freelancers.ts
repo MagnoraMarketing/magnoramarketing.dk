@@ -1,0 +1,97 @@
+export default {
+  seo: {
+    title: 'Freelance Sales & Meeting Booker Positions | Magnora Marketing',
+    description: 'Become a freelance salesperson or meeting booker at Magnora Marketing. Work from home, set your own hours and earn well with attractive commission. See all open positions here.',
+    keywords: 'freelance salesperson, freelance meeting booker, work from home, telemarketing job, Magnora Marketing positions, B2B salesperson',
+  },
+  hero: {
+    title: 'Your Career as a Freelance Salesperson Starts Here',
+    subtitle: 'Magnora Marketing offers flexible freelance opportunities in B2B sales and meeting booking. Set your own hours, work from home and build a career on your own terms.',
+    cta: 'See open positions',
+    secondaryCta: 'Contact us',
+  },
+  benefits: {
+    title: 'What You Get at Magnora Marketing',
+    subtitle: 'Magnora Marketing offers something rare: the freedom of freelancing combined with a strong professional foundation.',
+    items: [
+      { title: 'Flexible everyday life', description: 'You decide when you work. Fit your working day around your life – not the other way around.' },
+      { title: 'Strong earnings', description: 'Competitive base pay combined with attractive performance bonuses. The better you perform, the more you earn.' },
+      { title: 'Strong community', description: "Even as a freelancer you're never alone. You're part of a strong Magnora Marketing network with support and shared drive." },
+      { title: 'Professional development', description: 'Structured training, ongoing coaching and the opportunity to take on more responsibility and advance in the role.' },
+    ],
+  },
+  workFromHome: {
+    title: 'Work From Home with Magnora Marketing',
+    intro: 'As a freelance salesperson or meeting booker at Magnora Marketing, you have full flexibility to work from your own home. You get access to modern sales systems, ongoing support and a strong network – without having to show up at an office.',
+    imageAlt: 'Freelance salesperson working from home with Magnora Marketing',
+    benefits: [
+      { title: 'Home office', description: 'Work efficiently from your own home with all the necessary digital tools. No commute time, no expensive lunches.' },
+      { title: 'Your own hours', description: 'Arrange your day the way that suits you – ideal for students, parents and anyone with an active life alongside work.' },
+      { title: 'Performance-driven pay', description: 'Fixed base salary plus commission. Your results are reflected directly in your paycheck.' },
+    ],
+    checklist: [
+      'No transport or commuting',
+      'Better work-life balance',
+      'Full flexibility in organising your work',
+      'Commission and bonus on top of the base salary',
+      "Part of Magnora Marketing's strong sales community",
+      'Thorough onboarding and ongoing support',
+      'Professional and personal development',
+      'Social events and shared celebrations',
+    ],
+  },
+  jobs: {
+    title: 'Open Positions at Magnora Marketing',
+    subtitle: 'We are continuously looking for skilled and motivated freelance salespeople and meeting bookers. See the current positions below.',
+    badge: 'Open',
+    readMore: 'Read more',
+  },
+  midCta: {
+    title: 'Ready to get started at Magnora Marketing?',
+    subtitle: 'Send us a message or give us a call – we\'ll have a no-obligation chat about the opportunities that suit you best.',
+    cta: 'Contact us today',
+  },
+  info: {
+    section1: {
+      title: 'Become a Freelance Salesperson at Magnora Marketing – A Flexible Career in B2B Telemarketing',
+      p1: "As a freelance salesperson or meeting booker at Magnora Marketing, you get the rare combination of freedom and a strong professional foundation. You work 100% from home on your own terms – no commuting, no fixed office hours and no cap on your earnings. Magnora Marketing provides leads, scripts, campaign materials and CRM access from day one, so you can focus on what you do best: creating results. Our freelancers work on projects spanning everything from SaaS and web development to energy, coffee services and pension advisory.",
+      p2: "Training at Magnora Marketing is structured and thorough – you go through an onboarding process with product training, sales technique and a review of scripts before you start. Along the way, you have access to ongoing coaching and support from experienced sales managers, and you're part of a strong Magnora Marketing network of freelancers who share experiences and motivation. Commission is competitive and directly reflects your results – the more you sell, the more you earn.",
+      list: [
+        'Work from home with full flexibility over your working day',
+        'Thorough onboarding and ongoing professional support',
+        'Competitive base pay plus performance bonus',
+        'A wide range of products and industries to choose from',
+      ],
+    },
+    section2: {
+      title: 'Freelance Telemarketing and Meeting Booking – Career Opportunities with Magnora Marketing',
+      p1: "Magnora Marketing is in constant growth and is continuously looking for skilled and motivated freelance salespeople and meeting bookers for our projects across Denmark. Whether you're a student, a parent, an experienced salesperson or new to the industry, there's a place for you at Magnora Marketing. You choose the product and industry that best suits your background and interests – and Magnora Marketing delivers the rest. Many of our freelancers use the partnership as a steady side income or as a starting point for a full career in B2B sales and telemarketing.",
+      p2: 'Take control of your career and contact Magnora Marketing at mail@magnoramarketing.dk. We\'ll have a no-obligation chat about the opportunities that best suit your situation, and quickly get started with an onboarding process tailored to you.',
+    },
+  },
+  faq: {
+    items: [
+      { question: 'What does a freelance salesperson earn at Magnora Marketing?', answer: 'Pay consists of a fixed base fee plus commission on your results. The more you sell, the more you earn – there is no cap.' },
+      { question: 'Do I need experience to apply?', answer: 'Experience is an advantage but not a requirement. Magnora Marketing trains you thoroughly and provides ongoing support and coaching.' },
+      { question: 'Can I work part-time?', answer: 'Yes – you decide your own working hours and can work anywhere from a few hours a week to full-time.' },
+      { question: 'What happens if I have questions while working?', answer: "You always have access to support from Magnora Marketing's experienced sales managers, who can help with coaching, scripts and product questions." },
+      { question: 'What products do freelancers sell?', answer: 'Magnora Marketing has freelancers across many industries – web development, energy, solar panels, coffee services, pensions, debt collection and more. You choose the product that suits you best.' },
+      { question: 'Is there an opportunity for permanent employment?', answer: 'The partnership starts as freelance. Skilled freelancers may eventually discuss other forms of collaboration with Magnora Marketing.' },
+      { question: 'What happens during the training period?', answer: 'You go through an onboarding process with product training, sales technique and a review of scripts. This typically takes 1-3 days.' },
+      { question: 'Can I sell several products at once?', answer: 'You normally start with one product. Once you have gained experience, you can potentially take on additional products.' },
+      { question: 'What is the minimum I can earn?', answer: 'It depends on activity level and product. We set realistic expectations at the start and are transparent about pay.' },
+      { question: 'Do you have a community for freelancers?', answer: "Yes – you become part of Magnora Marketing's network of freelancers with access to shared experiences and joint motivational activities." },
+      { question: 'Can I work from abroad?', answer: 'Yes – as long as you have a stable internet connection and can communicate professionally in Danish, you can work from anywhere in the world.' },
+      { question: 'What is most important for succeeding as a freelancer at Magnora Marketing?', answer: 'Persistence, structure and a positive mindset. Telemarketing requires being able to handle rejection and stay motivated.' },
+      { question: 'When do I receive my first payment?', answer: 'Payments are typically made monthly in arrears. You receive a statement of verified sales and activities.' },
+      { question: 'Is there a trial period?', answer: 'The first 2-4 weeks are typically considered a mutual trial period, so both parties can evaluate the partnership.' },
+      { question: 'What are the typical working hours?', answer: 'Most freelancers call within normal Danish office hours (8am-5pm), but you decide for yourself within that window.' },
+    ],
+  },
+  finalCta: {
+    title: 'Take control of your career – become a freelance salesperson at Magnora Marketing',
+    subtitle: 'Flexible hours, competitive commission and exciting projects. Everything you need to succeed as a freelancer.',
+    primaryText: 'Apply now',
+    secondaryText: 'See open positions',
+  },
+};

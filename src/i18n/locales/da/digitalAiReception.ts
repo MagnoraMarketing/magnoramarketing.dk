@@ -1,0 +1,112 @@
+export default {
+  seo: {
+    title: 'AI Receptionist & Voice Agent | Automatisk Telefonpasning på Dansk | Magnora Marketing',
+    description: 'Magnora Marketing\'s AI-receptionist besvarer alle opkald, booker møder og router henvendelser automatisk – 24/7 på naturligt dansk. Aldrig optaget. ✓ GDPR-kompatibel ✓ Gratis demo',
+    keywords: 'AI receptionist, voice agent, AI telefon, automatisk telefonpasning, AI mødebooking, virtuel receptionist dansk',
+  },
+  hero: {
+    title: 'AI-receptionist der besvarer alle opkald og booker møder automatisk',
+    subtitle: 'Magnora Marketing\'s voice AI håndterer telefonhenvendelser på naturligt dansk – kvalificerer kalderen, booker møder og ruter videre, 24/7 uden ventetid.',
+    ctaText: 'Book en gratis demo',
+    secondaryCtaText: 'Se AI-widget',
+  },
+  problem: {
+    label: 'Problemet',
+    title: 'Mistede opkald = mistede kunder',
+    paragraph1: 'Studier viser at 62% af virksomheders telefonopkald aldrig besvares. Kunder der ringer og ikke får svar, ringer videre til konkurrenten. En enkelt mistet henvendelse kan koste jer en kunde til seks cifre.',
+    paragraph2Html: 'Med Magnora Marketing\'s AI-receptionist besvares <strong class="text-slate-800">alle opkald</strong> – uanset tidspunkt, uanset belastning. AI\'en håndterer det meste selv, og ruter kun de komplekse henvendelser til jer.',
+    points: [
+      'Nul mistede opkald – AI\'en besvarer altid',
+      'Automatisk booking direkte i jeres kalender',
+      'Arbejder 24/7 inkl. weekender og helligdage',
+      'Markant billigere end en deltidsreceptionist',
+      'Klar til brug inden for 5 hverdage',
+    ],
+  },
+  simulatedCall: {
+    label: 'Aktivt opkald · Magnora Marketing AI Reception',
+    status: 'Forbundet',
+    aiLabel: 'AI:',
+    callerLabel: 'Kalder:',
+    lines: [
+      { speaker: 'ai', text: 'Tak for dit opkald til Magnora Marketing. Hvad kan jeg hjælpe dig med?' },
+      { speaker: 'caller', text: 'Jeg vil gerne høre om jeres mødebooking-løsning' },
+      { speaker: 'ai', text: 'Selvfølgelig! Må jeg spørge – hvor mange møder ønsker du booket om måneden?' },
+      { speaker: 'caller', text: 'Cirka 15-20 møder' },
+      { speaker: 'ai', text: 'Perfekt. Jeg booker et møde for dig med én af vores specialister. Passer mandag kl. 10 dig?' },
+    ],
+    footerNote: 'Møde booket automatisk · Kalenderinvitation sendt',
+  },
+  features: {
+    label: 'Funktioner',
+    title: 'En AI-receptionist der gør det hele',
+    subtitle: 'Fra simpel telefonpasning til avanceret opkaldsrouting og automatisk mødebooking – alt i én løsning.',
+    items: [
+      {
+        title: 'Naturlig stemmesamtale på dansk',
+        description: 'Magnora Marketing\'s AI-receptionist taler flydende dansk med naturlig prosodi og forstår kontekst, dialekter og branchejargon – ligesom en erfaren medarbejder.',
+      },
+      {
+        title: 'Aldrig optaget – altid tilgængelig',
+        description: 'AI-receptionisten besvarer alle opkald øjeblikkeligt, 24/7/365. Ingen ventetid, ingen spildte leads, ingen mistede kunder.',
+      },
+      {
+        title: 'Automatisk mødebooking via telefon',
+        description: 'Kalderen booker et møde direkte under opkaldet. AI\'en finder ledige tider, bekræfter bookingen og sender en kalenderinvitation.',
+      },
+      {
+        title: 'Intelligent opkaldsrouting',
+        description: 'AI\'en identificerer formålet med opkaldet og ruter det til den rette afdeling, kollega eller salgsperson – eller håndterer det selv.',
+      },
+      {
+        title: 'SMS og e-mail opfølgning',
+        description: 'Efter hvert opkald sender AI-receptionisten automatisk en opsummering, et link til booking eller relevante dokumenter til kalderen.',
+      },
+      {
+        title: 'Fuld opkaldslogning og analyse',
+        description: 'Alle samtaler transskriberes og analyseres. Du får indsigt i, hvad kunderne ringer om, og hvilke henvendelser der konverterer bedst.',
+      },
+    ],
+  },
+  comparison: {
+    label: 'Sammenligning',
+    title: 'AI-receptionist vs. menneskelig receptionist',
+    headerAi: 'Magnora Marketing AI-receptionist',
+    headerHuman: 'Menneskelig receptionist',
+    rows: [
+      { feature: 'Tilgængelighed', ai: '24/7/365', human: 'Man-fre 8-16' },
+      { feature: 'Samtidige opkald', ai: 'Ubegrænset', human: '1 ad gangen' },
+      { feature: 'Responstid', ai: '< 1 sekund', human: '10-30 sekunder' },
+      { feature: 'Mødebooking', ai: '✓ Automatisk', human: '✓ Manuel' },
+      { feature: 'Månedlig omkostning', ai: 'Fra kr. 1.500', human: 'Kr. 25.000+' },
+      { feature: 'Oplæringstid', ai: '3-5 dage', human: '4-8 uger' },
+    ],
+    ctaText: 'Kom i gang med AI-receptionist',
+  },
+  faq: {
+    title: 'Ofte stillede spørgsmål om AI-receptionist',
+    items: [
+      { question: 'Hvad er en AI-receptionist?', answer: 'En AI-receptionist er en stemmebaseret AI der besvarer telefonopkald, håndterer henvendelser og booker møder – automatisk og på naturligt dansk.' },
+      { question: 'Lyder AI-receptionisten menneskelig?', answer: 'Ja – moderne AI-stemmer er meget naturtro. De fleste kaldere opdager ikke umiddelbart at de taler med en AI, medmindre de spørger direkte.' },
+      { question: 'Hvad sker der med komplekse henvendelser?', answer: 'AI\'en eskalerer automatisk til et menneske ved komplekse eller følsomme henvendelser. Opkaldet viderestilles eller der sendes en notifikation til den rette medarbejder.' },
+      { question: 'Kan AI-receptionisten booke møder direkte?', answer: 'Ja – via integration med Google Calendar og Outlook kan AI\'en finde ledige tider og bekræfte bookingen under selve opkaldet.' },
+      { question: 'Hvilke sprog taler AI-receptionisten?', answer: 'Primært dansk, men løsningen kan konfigureres til dansk, engelsk, tysk og andre sprog afhængigt af jeres behov.' },
+      { question: 'Hvad koster en AI-receptionist?', answer: 'Prisen afhænger af opkaldsvolumen og integrationer. Kontakt Magnora Marketing for et tilpasset tilbud – typisk markant billigere end en deltidsansat receptionist.' },
+      { question: 'Kan AI-receptionisten integreres med vores telefonsystem?', answer: 'Ja – vi integrerer med alle gængse VOIP-systemer, Microsoft Teams, 3CX, RingCentral og traditionelle telefonlinjer.' },
+      { question: 'Er løsningen GDPR-kompatibel?', answer: 'Ja – samtaler håndteres i overensstemmelse med GDPR. Optagelser opbevares sikkert og slettes efter den aftalte periode.' },
+      { question: 'Kan jeg lytte til opkaldene efterfølgende?', answer: 'Ja – alle opkald transskriberes og kan gennemlyttes. Du modtager daglige eller ugentlige opsummeringer.' },
+      { question: 'Hvordan trænes AI\'en til vores virksomhed?', answer: 'Vi onboarder AI-receptionisten med jeres produktinformation, FAQs, prisstruktur og tone-of-voice, så den svarer præcist og på brand.' },
+      { question: 'Kan den håndtere flere opkald samtidigt?', answer: 'Ja – AI-receptionisten kan besvare ubegrænset mange samtidige opkald uden ventetid eller busy-signal.' },
+      { question: 'Hvad sker der uden for åbningstid?', answer: 'AI-receptionisten arbejder 24/7. Uden for åbningstid kan den tage imod beskeder, booke møder og sende automatiske svar.' },
+      { question: 'Sender AI\'en opkaldsoversigter?', answer: 'Ja – efter hvert opkald sendes en transskription og opsummering til den relevante medarbejder via e-mail eller Slack.' },
+      { question: 'Kan eksisterende kunder genkende sig i systemet?', answer: 'Ja – via CRM-integration kan AI\'en genkende kendte kunder baseret på telefonnummer og tilpasse samtalen derefter.' },
+      { question: 'Hvornår er AI-receptionist ikke egnet?', answer: 'AI-receptionisten er ikke ideel til meget komplekse rådgivende samtaler eller krisesituationer – her eskalerer den til et menneske.' },
+    ],
+  },
+  ctaSection: {
+    title: 'Lad AI besvare jeres telefon fra i morgen',
+    subtitle: 'Book en gratis demo og se Magnora Marketing\'s AI-receptionist i aktion. Klar til brug inden for 5 hverdage.',
+    primaryText: 'Book gratis demo',
+    secondaryText: 'Se AI-widget',
+  },
+};

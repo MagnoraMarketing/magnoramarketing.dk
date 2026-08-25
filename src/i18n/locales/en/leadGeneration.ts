@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Lead Generation | Magnora Marketing – Warm B2B Leads for Your Sales Team',
+    description: "Magnora Marketing's data-driven lead generation delivers sales-ready B2B leads straight into your CRM. We combine a multi-channel approach with precise segmentation to maximise your sales pipeline.",
+    keywords: 'lead generation, B2B leads, Magnora Marketing lead generation, sales pipeline, warm leads, lead scoring',
+  },
+  hero: {
+    title: 'Data-Driven Lead Generation with Magnora Marketing',
+    subtitle: 'Magnora Marketing delivers sales-ready B2B leads straight to your sales team – screened, qualified and ready for contact. Save time, boost your hit rate and scale your growth.',
+    cta: 'Get leads now',
+    secondaryCta: 'See pricing',
+  },
+  process: {
+    title: "Magnora Marketing's Lead Generation Process",
+    subtitle: 'Our structured, data-driven approach ensures a constant flow of high-quality leads for your sales team.',
+    items: [
+      { title: 'Precise Segmentation', desc: 'We identify your ideal customer profile and segment the target audience precisely by industry, size, geography and decision-making role.' },
+      { title: 'Lead Research & Scoring', desc: 'We research, validate and score every lead based on buying signals and fit with your solution – only the best prospects are delivered.' },
+      { title: 'Activation & Delivery', desc: 'Qualified leads are activated through targeted outreach campaigns and delivered directly to your CRM – ready for follow-up.' },
+    ],
+  },
+  why: {
+    title: 'Why Choose Magnora Marketing for Lead Generation?',
+    subtitle: "Lead generation isn't about quantity – it's about quality. Magnora Marketing delivers leads that convert, because we invest time in understanding your business and your customers' needs.",
+    items: [
+      'Focus on quality – not just volume',
+      'Multi-channel strategy: phone, email, LinkedIn and more',
+      'Leads delivered straight to your CRM system',
+      'Ongoing optimisation based on conversion data',
+      'Fully transparent reporting and lead overview',
+      'Scalable effort tailored to your growth goals',
+    ],
+    cta: 'Start lead generation with Magnora Marketing',
+    deliverTitle: 'What Magnora Marketing delivers',
+    deliverItems: [
+      'Validated and up-to-date contact data',
+      'Lead profiling with company info and decision-making role',
+      'Prioritisation score based on buying intent',
+      'Segmentation by industry and target audience',
+      'Ready CRM integration with your systems',
+      'Weekly lead report with status and pipeline overview',
+    ],
+  },
+  midCta: {
+    title: 'Ready for a stronger sales pipeline?',
+    subtitle: 'Contact Magnora Marketing and find out how we can deliver warm, sales-ready B2B leads for your business.',
+    cta: 'Contact us today',
+  },
+  info: {
+    section1: {
+      title: 'Professional B2B Lead Generation – From Cold Database to Warm, Sales-Ready Prospects',
+      p1: "Magnora Marketing's data-driven lead generation is the foundation of a strong sales pipeline. We work in a structured way to identify your ideal customer profile, segment the target audience precisely by industry, company size, geography and decision-making role, and then deliver validated, qualified leads straight to your CRM system. Every lead is reviewed, validated and scored based on buying signals and fit with your solution – only the best prospects reach your sales team.",
+      p2: "Magnora Marketing's multi-channel lead generation strategy combines phone outreach, email campaigns and LinkedIn outreach with AI-driven solutions to maximise reach and conversion rate. We deliver weekly lead reports with status and pipeline overview, and continuously optimise the effort based on conversion data. Integration with HubSpot, Salesforce, Pipedrive and other CRM systems ensures a smooth lead flow straight into your existing sales system.",
+      list: [
+        'Precise target audience segmentation by ICP criteria',
+        'Lead scoring and prioritisation based on buying signals',
+        'Multi-channel strategy: phone, email and LinkedIn',
+        'CRM integration with HubSpot, Salesforce and Pipedrive',
+      ],
+    },
+    section2: {
+      title: 'Lead Generation That Converts – Quality Over Quantity',
+      p1: "Magnora Marketing's approach to lead generation is about quality over quantity. We invest time in understanding your business, your customers and your competitive situation, and use this insight to identify the leads that actually convert. Our lead profiling includes company information, decision-making role and a prioritisation score based on buying intent – so your sales team always starts with the warmest prospects and spends minimum time to achieve maximum results.",
+      p2: 'Contact Magnora Marketing at mail@magnoramarketing.dk to hear more about our lead generation solutions and get a no-obligation quote tailored to your business needs and growth goals.',
+    },
+  },
+  faq: {
+    items: [
+      { question: 'What is lead generation?', answer: 'Lead generation is the process of identifying and attracting potential customers (leads) for your business through targeted marketing activities and outbound sales.' },
+      { question: 'What is the difference between a cold and a warm lead?', answer: 'A cold lead is a potential customer who has not yet shown interest. A warm lead has shown interest and is ready to be contacted by your sales team.' },
+      { question: 'Can you integrate leads directly into our CRM?', answer: 'Yes – Magnora Marketing delivers leads in the format that suits your CRM system, making the lead flow as smooth as possible.' },
+      { question: 'What is lead scoring?', answer: "Lead scoring is a method of ranking leads based on their likelihood to convert, based on behaviour, demographics and engagement level." },
+      { question: 'How many leads can we expect?', answer: 'It depends on the industry, budget and campaign length. We set realistic goals and report on results on an ongoing basis.' },
+      { question: 'What is the difference between lead generation and meeting booking?', answer: 'Lead generation identifies and qualifies potential customers. Meeting booking is the next step – booking a meeting with the identified leads.' },
+      { question: 'Can you integrate with HubSpot or Salesforce?', answer: 'Yes – we have experience integrating with the most popular CRM systems, including HubSpot, Salesforce and Pipedrive.' },
+      { question: 'What is a "cold list"?', answer: 'A cold list is a database of potential customers who have not yet had contact with your business. We use targeted lists for effective outreach.' },
+      { question: 'Can you build a new database for us?', answer: 'Yes – we can build and enrich sales databases based on your desired target audience, industry and geography.' },
+      { question: 'What does a lead cost?', answer: 'The price per lead depends on industry, complexity and quality requirements. Contact us for a specific price calculation.' },
+      { question: 'What does a "warm" lead look like in practice?', answer: 'A warm lead has shown concrete interest – e.g. by downloading material, responding positively to a call or requesting more information.' },
+      { question: 'Can you help with content to attract leads?', answer: 'Through our digital services we can help with landing pages, whitepapers and other lead magnets.' },
+      { question: 'What is the conversion rate on your leads?', answer: 'Conversion rate varies by industry and product, but our leads are always quality-assured to maximise your sales team\'s time.' },
+      { question: 'Can you segment leads by company size?', answer: 'Yes – we can filter and segment leads by revenue, number of employees, geography, industry and much more.' },
+      { question: 'What is a lead nurturing strategy?', answer: 'Lead nurturing is the process of nurturing leads over time with relevant content and follow-up until they are ready to buy.' },
+    ],
+  },
+  finalCta: {
+    title: 'Start your lead generation with Magnora Marketing today',
+    subtitle: 'Structured, data-driven lead generation that delivers sales-ready prospects straight to your CRM.',
+    primaryText: 'Contact us',
+    secondaryText: 'See pricing',
+  },
+};

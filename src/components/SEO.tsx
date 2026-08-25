@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 
 interface SEOProps {
   title: string;
@@ -26,6 +27,9 @@ const SEO: React.FC<SEOProps> = ({
   author,
   breadcrumbs
 }) => {
+  const { i18n } = useTranslation();
+  const ogLocaleMap: Record<string, string> = { da: 'da_DK', en: 'en_US', es: 'es_ES' };
+  const ogLocale = ogLocaleMap[i18n.language] || 'da_DK';
   const domain = 'https://magnoramarketing.dk';
   const fullCanonical = canonical ? `${domain}${canonical}` : domain;
 
@@ -141,7 +145,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content={title} />
       <meta property="og:site_name" content="Magnora Marketing" />
-      <meta property="og:locale" content="da_DK" />
+      <meta property="og:locale" content={ogLocale} />
 
       {/* Article Specific Tags */}
       {ogType === 'article' && articlePublishedTime && (
@@ -163,7 +167,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="twitter:site" content="@MagnoraMarketing" />
 
       {/* Language and Mobile Tags */}
-      <html lang="da" />
+      <html lang={i18n.language} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
