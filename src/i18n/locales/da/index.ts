@@ -31,6 +31,7 @@ import blogArticle from './blogArticle';
 import ctaSection from './ctaSection';
 import contactForm from './contactForm';
 import cookieConsent from './cookieConsent';
+import trialWidget from './trialWidget';
 import faqSection from './faqSection';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
@@ -88,6 +89,7 @@ export default {
   ...ctaSection,
   ...contactForm,
   ...cookieConsent,
+  ...trialWidget,
   ...faqSection,
   blogPage,
   blogPost,
