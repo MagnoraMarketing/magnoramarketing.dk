@@ -34,15 +34,23 @@ import cookieConsent from './cookieConsent';
 import faqSection from './faqSection';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
+import blogPostsGroup0 from './blogPosts-group0';
 import blogPostsGroup1 from './blogPosts-group1';
 import blogPostsGroup2 from './blogPosts-group2';
 import blogPostsGroup3 from './blogPosts-group3';
+import blogPostsGroup4 from './blogPosts-group4';
+import blogPostsGroup5 from './blogPosts-group5';
+import blogPostsGroup6 from './blogPosts-group6';
 import blogPostsGroup7 from './blogPosts-group7';
 
 const blogPosts = {
+  ...blogPostsGroup0,
   ...blogPostsGroup1,
   ...blogPostsGroup2,
   ...blogPostsGroup3,
+  ...blogPostsGroup4,
+  ...blogPostsGroup5,
+  ...blogPostsGroup6,
   ...blogPostsGroup7,
 };
 
