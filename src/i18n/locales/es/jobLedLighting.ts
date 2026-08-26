@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Comercial Freelance LED y Eficiencia Energética | Magnora Marketing',
+    description: 'Conviértete en comercial freelance de iluminación LED y eficiencia energética para empresas en Magnora Marketing. Trabaja desde casa con horarios flexibles y una comisión atractiva.',
+    keywords: 'comercial freelance LED, vender eficiencia energética, ventas iluminación LED, comercial iluminación empresarial, puesto LED Magnora Marketing',
+  },
+  hero: {
+    title: 'Comercial Freelance – LED y Eficiencia Energética para Empresas',
+    subtitle: 'Vende soluciones LED de ahorro energético a empresas danesas e instituciones públicas. Trabaja desde casa con libertad, una comisión atractiva y un producto que se vende solo.',
+    ctaText: 'Solicitar el puesto',
+    secondaryCtaText: 'Ver todos los puestos',
+  },
+  about: {
+    heading: '¿En qué consiste el trabajo?',
+    paragraph1: 'Como comercial freelance en LED y eficiencia energética, contactas con empresas, naves de producción, tiendas y instituciones públicas con un mensaje que resuena: ahorra dinero y reduce las emisiones de CO₂ cambiando a iluminación LED moderna.',
+    paragraph2: 'Magnora Marketing aporta guiones, plantillas de presupuesto y conocimiento del producto. Tú te centras en el diálogo con el cliente y en reservar reuniones o cerrar la venta directamente.',
+    tasks: [
+      'Venta telefónica proactiva a clientes empresariales',
+      'Reserva de auditorías energéticas y reuniones de presupuesto',
+      'Presentación del potencial de ahorro y del ROI',
+      'Seguimiento de presupuestos y clientes potenciales interesados',
+      'Reporte de actividad y resultados de venta',
+    ],
+  },
+  keyFacts: {
+    heading: 'Datos clave del puesto',
+    rows: [
+      { label: 'Tipo de contrato', value: 'Freelance / autónomo' },
+      { label: 'Lugar de trabajo', value: 'Desde casa – toda Dinamarca' },
+      { label: 'Horario', value: 'Flexible – tú decides' },
+      { label: 'Retribución', value: 'Retribución por comisión atractiva' },
+      { label: 'Producto', value: 'Iluminación LED y eficiencia energética' },
+      { label: 'Incorporación', value: 'Lo antes posible' },
+    ],
+    applyButton: 'Enviar tu candidatura',
+  },
+  whyLedSells: {
+    heading: 'Por qué el LED se vende solo',
+    subtitle: 'Los precios de la energía son altos y las empresas buscan ahorrar. La iluminación LED es una de las inversiones más rápidas y concretas que puede hacer una empresa.',
+    items: [
+      { title: 'Hasta un 80% de ahorro energético', desc: 'Las luminarias LED modernas consumen mucha menos electricidad que la iluminación antigua – y las empresas lo notan directamente en la factura de la luz.' },
+      { title: 'Periodo de amortización de 1 a 3 años', desc: 'La mayoría de los clientes empresariales recuperan la inversión por completo en 1 a 3 años, y a partir de ahí el ahorro es beneficio puro.' },
+      { title: 'Perfil verde y ESG', desc: 'Las empresas presionadas para reducir el CO₂ ven el cambio a LED como un paso concreto y visible hacia la sostenibilidad.' },
+    ],
+  },
+  benefits: {
+    heading: 'Lo que obtienes en Magnora Marketing',
+    items: [
+      { title: 'Trabaja desde casa', desc: 'Total libertad para trabajar desde tu propia casa. Sin desplazamientos – solo teléfono, ordenador y determinación.' },
+      { title: 'Comisión atractiva', desc: 'Retribución base fija más comisión por cada venta. Cuantos más acuerdos cierres, más ganas.' },
+      { title: 'Formación y materiales', desc: 'Te formamos en los productos y en los argumentos de ahorro. Recibes guiones, plantillas de presupuesto y acompañamiento continuo.' },
+    ],
+  },
+  requirements: {
+    heading: 'Lo que buscamos',
+    items: [
+      'Experiencia en venta telefónica o atención al cliente',
+      'Capacidad para explicar el ahorro y el ROI de forma sencilla',
+      'Autodisciplina y actitud orientada a resultados',
+      'Buenas habilidades de comunicación en danés',
+      'Se valora experiencia técnica en electricidad o energía – no es un requisito',
+      'Motivación por la transición verde',
+    ],
+  },
+  howToApply: {
+    heading: 'Cómo solicitar el puesto',
+    paragraph1: 'Envíanos un breve mensaje sobre ti y tu experiencia en ventas. Sin solicitud formal – simplemente escríbenos y te responderemos en un plazo de 2 días laborables.',
+    ctaText: 'Contacta con Magnora Marketing ahora',
+  },
+  faqs: [
+    { question: '¿Qué vendo como reservador de reuniones en LED?', answer: 'Contactas con clientes empresariales y reservas reuniones sobre soluciones de iluminación energéticamente eficientes de un proveedor de LED reconocido.' },
+    { question: '¿Necesito conocimientos técnicos sobre LED?', answer: 'No – Magnora Marketing te da todo el conocimiento del producto que necesitas. Lo más importante son tus habilidades de venta y tu motivación.' },
+    { question: '¿Cuál es el público objetivo?', answer: 'Principalmente clientes empresariales como oficinas, empresas de producción y comercio minorista – cualquiera que pueda ahorrar significativamente en su factura energética con iluminación LED.' },
+    { question: '¿Cuál es el nivel de comisión?', answer: 'Recibes una retribución base fija más comisión por cada reunión reservada que se lleve a cabo.' },
+    { question: '¿Hay listas de contactos listas desde el primer día?', answer: 'Sí – Magnora Marketing proporciona listas de contactos y materiales de campaña para que puedas empezar de inmediato.' },
+    { question: '¿Puedo ver un ejemplo de guion?', answer: 'Sí – recibes un guion de ventas probado al empezar, que puedes adaptar a tu propio estilo.' },
+    { question: '¿Qué ocurre tras una venta o una reunión reservada con éxito?', answer: 'Registras el resultado en nuestro sistema y la comisión se calcula automáticamente y se paga mensualmente.' },
+    { question: '¿Hay formación continua?', answer: 'Sí – los responsables comerciales de Magnora Marketing organizan sesiones de formación periódicas y te dan feedback sobre tu estilo de venta.' },
+    { question: '¿Puedo probar el puesto durante un periodo más corto?', answer: 'Sí – las primeras 2-4 semanas se consideran un periodo de prueba mutuo.' },
+    { question: '¿Cuál es el ingreso medio de un freelance activo?', answer: 'Depende de la actividad y del producto. Los freelance activos con buenos resultados pueden obtener un complemento sólido o un ingreso completo.' },
+    { question: '¿Puedo trabajar para Magnora Marketing y para otras agencias?', answer: 'Como freelance, eres libre de trabajar para otros, siempre que no haya un conflicto de competencia con los clientes de Magnora Marketing.' },
+    { question: '¿Hay contratos por escrito?', answer: 'Sí – toda colaboración se formaliza con un acuerdo freelance claro que describe las condiciones, la comisión y las expectativas.' },
+    { question: '¿Qué pasa si no me siento a gusto con el producto?', answer: 'Podemos hablar sobre si encajas mejor con otro producto del portafolio de Magnora Marketing.' },
+    { question: '¿Qué espera Magnora Marketing de mí como freelance?', answer: 'Esperamos autodisciplina, un comportamiento profesional y comunicación continua sobre actividad y resultados.' },
+  ],
+  finalCta: {
+    heading: '¿Listo para vender energía verde?',
+    subtitle: 'Contacta con Magnora Marketing y empieza con un producto que marca una diferencia real – para el cliente y para el clima.',
+    primaryCta: 'Enviar candidatura',
+    secondaryCta: 'Ver todos los puestos disponibles',
+  },
+};

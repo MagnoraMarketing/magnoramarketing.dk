@@ -1,0 +1,165 @@
+export default {
+  seo: {
+    title: 'Remote Meeting Booking for Denmark\'s Best Insurance Brokers | Magnora Marketing',
+    description: 'Become a meeting booker and book meetings 100% remotely for the country\'s leading insurance brokers. Attractive salary, uncapped commission, and full freedom over your workday. Apply for the meeting booking job today.',
+    keywords: 'meeting booking from home, meeting booker insurance, meeting booking insurance job, meeting booker insurance broker, insurance broker job remote, work from home insurance, freelance meeting booking, meeting booking job Denmark, attractive remote work salary, remote meeting booking insurance',
+  },
+  breadcrumbs: {
+    home: 'Home',
+    jobSeekers: 'Job seekers',
+    current: 'Insurance – work from home',
+  },
+  hero: {
+    title: 'Remote meeting booking for Denmark\'s best insurance brokers',
+    subtitle: 'Book meetings for the country\'s leading insurance brokers – 100% remote, with an attractive salary, uncapped commission, and full freedom over your own workday.',
+    cta: 'Apply – completely non-binding',
+    secondaryCta: 'View all open positions',
+  },
+  statBand: {
+    items: [
+      { stat: '100%', label: 'Remote' },
+      { stat: 'No cap', label: 'on your commission' },
+      { stat: 'Flexible', label: 'working hours' },
+      { stat: '2 days', label: 'to get started' },
+    ],
+  },
+  intro: {
+    badge: 'Meeting booker · Insurance',
+    title: 'One of Denmark\'s most attractive remote jobs',
+    text: 'As a meeting booker for insurance, you help the country\'s best insurance brokers connect with companies and private customers looking for a better, more affordable insurance solution. You work 100% from home, set your own terms – and are rewarded for your results with one of the market\'s most attractive salaries.',
+    cards: [
+      { title: 'Attractive salary', desc: 'A fixed base fee plus uncapped commission. The more qualified meetings you book, the more you earn – your effort determines your income.' },
+      { title: 'Full freedom', desc: 'Work from your sofa, your summer house, or another country. No commuting, no fixed meeting times – you structure your own day.' },
+      { title: 'Denmark\'s best brokers', desc: 'You represent some of the country\'s most respected insurance brokers. A strong product you can be proud to book meetings for.' },
+    ],
+  },
+  salary: {
+    badge: 'Salary & commission',
+    title: 'A salary that matches your effort',
+    text: 'We believe skilled meeting bookers should be rewarded accordingly. That\'s why we combine a secure base salary with one of the market\'s most competitive commission models – completely uncapped. There is no limit to how much you can earn.',
+    list: [
+      'A fixed base fee from day one',
+      'Commission on every qualified meeting – no cap',
+      'Bonus programs and competitions for top bookers',
+      'Monthly, transparent payouts',
+    ],
+    earnings: {
+      label: 'Your earnings',
+      value: 'No cap',
+      sub: 'Base salary + commission per booked meeting',
+      rows: [
+        'The more meetings, the higher your pay',
+        'Secure fixed base salary as your foundation',
+        'Extra bonus for top bookers',
+      ],
+      cta: 'Learn more about the salary',
+    },
+  },
+  freedom: {
+    title: 'Freedom to live life your way',
+    text: 'Forget commuting, time clocks, and fixed meeting times. As a remote meeting booker for insurance, you decide for yourself when and where you work.',
+    cards: [
+      { title: 'Work from wherever you want', desc: 'From home, your summer house, or abroad – all you need is a phone, a computer, and a stable internet connection.' },
+      { title: 'Your own hours', desc: 'Plan your day around family, studies, or free time. Full-time or as an attractive side income – you choose.' },
+      { title: 'A strong community', desc: 'Even though you work from home, you\'re never alone. Online meetings, coaching, and a network of experienced bookers are ready for you.' },
+      { title: 'Everything delivered to you', desc: 'Leads, scripts, call lists, and CRM access – you get everything you need for a great start.' },
+    ],
+  },
+  testimonial: {
+    quote: '"I book meetings for insurance brokers from my kitchen table, pick up my kids at 3 pm – and earn more than I did at my old office job. The freedom and the pay are simply hard to beat."',
+    author: 'Freelance meeting booker at Magnora Marketing',
+    role: 'Works from home · Insurance',
+  },
+  requirements: {
+    title: 'What we look for',
+    list: [
+      'You are outgoing and good at talking to people on the phone',
+      'You speak and write fluent Danish',
+      'You are self-disciplined and can work independently from home',
+      'You are results-driven and motivated to reach your goals',
+      'Experience with sales, meeting booking, or customer service is an advantage – but not a requirement',
+      'You have a phone, a computer, and a stable internet connection',
+    ],
+  },
+  process: {
+    title: 'How to get started',
+    steps: [
+      { title: 'Send us a message', desc: 'No lengthy application needed – just briefly tell us who you are and why you\'re interested.' },
+      { title: 'A short introductory chat', desc: 'We get back to you within 2 business days to arrange a no-obligation chat about the opportunities.' },
+      { title: 'Onboarding & training', desc: 'You get product training, scripts, and access to the systems – ready to book meetings in just a few days.' },
+      { title: 'Book meetings & earn', desc: 'You book qualified meetings for the insurance brokers and are rewarded for every single one.' },
+    ],
+    cta: 'Apply now – non-binding',
+  },
+  seoBlock1: {
+    title: 'Work from home as a meeting booker for insurance brokers – freedom and an attractive salary',
+    p1: 'Do you dream of a flexible remote job with a salary that matches your effort? As a freelance meeting booker for insurance at Magnora Marketing, you work 100% from home and book qualified meetings for some of Denmark\'s best and most respected insurance brokers. You help companies and private customers connect with the right advisors, so they can get a better, cheaper, and more transparent insurance solution – and you are rewarded for every single qualified meeting you book.',
+    p2: 'The meeting booker role within insurance is ideal for someone who wants freedom and flexibility in their day-to-day life. You decide for yourself when and where you work, and you get a secure fixed base salary combined with uncapped commission. There\'s no commuting, no fixed office hours, and no cap on your earnings – only your own goals and ambitions set the limit. Magnora Marketing provides leads, call lists, scripts, and CRM access, so you can focus on what you\'re good at: having great conversations and booking valuable meetings.',
+    list: [
+      '100% remote – work whenever and wherever you want',
+      'Attractive salary: fixed base fee + uncapped commission',
+      'Represent Denmark\'s best insurance brokers',
+      'Leads, scripts, and CRM provided from day one',
+      'Flexible hours – full-time or as a side income',
+    ],
+  },
+  seoBlock2: {
+    title: 'Why meeting booking for insurance is one of the country\'s best remote jobs',
+    p1: 'Insurance is a product that almost every Dane and every company needs – and a market where a good insurance broker can save customers significant amounts. That makes your role as a meeting booker both meaningful and in demand. You call relevant contacts from our call lists, briefly explain the benefits of a no-obligation review with an insurance broker, and book a meeting for those who are interested. Simple, concrete, and results-driven.',
+    p2: 'Because demand for skilled insurance brokers is high, there\'s plenty of opportunity to book many meetings – and earn well as a result. The combination of a strong product, warm leads, and a generous commission model makes this one of the most attractive remote jobs you can find in Denmark right now. Whether you\'re looking for a full-time remote job or a flexible side income alongside studies or family, the role gives you the freedom to organize your work however suits you best.',
+    p3: 'Contact Magnora Marketing today to find out more about how to get started as a remote meeting booker for insurance. We look forward to hearing from you.',
+  },
+  whatIs: {
+    title: 'What is meeting booking within insurance?',
+    text: 'Meeting booking within insurance is about creating the connection between an interested customer and a professional insurance broker. As a meeting booker, you call companies and individuals, have a good and trustworthy conversation about their current insurance, and book a no-obligation meeting with a broker for those who want to hear more. You don\'t sell the insurance yourself – your focus is solely on booking the qualified meeting. That makes meeting booking one of the most straightforward and results-driven remote jobs you can get.',
+    steps: [
+      { title: 'Make the call', desc: 'You call contacts from our call lists and start a good conversation based on our proven scripts.' },
+      { title: 'Qualify', desc: 'You briefly uncover the need and find out whether the customer is relevant for an insurance broker.' },
+      { title: 'Book the meeting', desc: 'You book a no-obligation meeting in the broker\'s calendar – and are rewarded for every qualified meeting.' },
+    ],
+  },
+  regional: {
+    title: 'Remote meeting booking – throughout Denmark',
+    p1: 'Because the meeting booker job is 100% remote, it doesn\'t matter where in the country you live. We work with freelance meeting bookers from all over Denmark – and you can book meetings for insurance brokers whether you live in a big city or in the countryside. All you need is a phone, a computer, and a stable internet connection.',
+    p2: 'We regularly hear from meeting bookers in cities including Copenhagen, Aarhus, Odense, Aalborg, Esbjerg, Randers, Kolding, Vejle, Horsens, and Roskilde – but you can apply no matter where you live. Whether you\'re searching for "meeting booking job from home", "insurance broker meeting booker", or "work from home insurance", you\'ve come to the right place.',
+    cities: ['Copenhagen', 'Aarhus', 'Odense', 'Aalborg', 'Esbjerg', 'Randers', 'Kolding', 'Vejle', 'Horsens', 'Roskilde', 'Herning', 'Silkeborg', 'All of Denmark'],
+  },
+  career: {
+    title: 'Why meeting booking is an attractive career path',
+    text: 'Meeting booking is one of the most in-demand skills in modern B2B sales. Skilled meeting bookers are worth their weight in gold to any insurance broker, because they fill the calendar with qualified meetings and drive direct revenue. As a meeting booker, you build strong communication and sales skills that serve you throughout your career – and you\'re rewarded for your effort here and now through uncapped commission.',
+    cards: [
+      { title: 'In-demand skill', desc: 'Meeting booking is a skill in demand across every industry – an investment in your future career.' },
+      { title: 'Uncapped earnings', desc: 'The better you get at meeting booking, the more meetings you book – and the more you earn.' },
+      { title: 'Human connection', desc: 'You talk to people all day and help guide them to the right advice.' },
+      { title: 'Strong partners', desc: 'You book meetings for some of the country\'s most respected insurance brokers.' },
+    ],
+  },
+  relatedJobs: {
+    title: 'Other meeting booking & sales jobs from home',
+    text: 'Insurance is just one of many industries you can book meetings for at Magnora Marketing. See more open remote jobs.',
+    seeAll: 'View all open positions',
+  },
+  faq: {
+    title: 'Frequently asked questions about the job',
+    items: [
+      { question: 'What does the job as a meeting booker for insurance involve?', answer: 'You call relevant contacts and book no-obligation meetings between interested customers and insurance brokers. You work from call lists and scripts that we provide, and you\'re rewarded for every qualified meeting.' },
+      { question: 'What is the difference between meeting booking and sales?', answer: 'As a meeting booker, you don\'t sell the insurance yourself – you book the meeting between the customer and the insurance broker. The actual advice and sale is handled by the broker. Your focus is solely on creating qualified meetings.' },
+      { question: 'Can I do meeting booking from home no matter where in Denmark I live?', answer: 'Yes. The job is 100% remote and over the phone, so you can live anywhere in Denmark – from Copenhagen and Aarhus to the smallest towns. You only need a phone, a computer, and a stable internet connection.' },
+      { question: 'Can I really work 100% from home?', answer: 'Yes – the entire role is done remotely. You only need a phone, a computer, and a stable internet connection. No commuting and no fixed attendance.' },
+      { question: 'What is the salary?', answer: 'You receive a fixed base salary combined with uncapped commission per booked meeting. We agree on the exact model with you before you start – but your effort determines how much you can earn.' },
+      { question: 'Do I need to find the customers myself?', answer: 'No. We provide call lists, leads, scripts, and CRM access. You focus on the conversations and on booking the meetings.' },
+      { question: 'Does it require experience with insurance or sales?', answer: 'No. Experience with sales, meeting booking, or customer service is an advantage but not a requirement. We give you thorough product training so you\'re ready from the start.' },
+      { question: 'Can I do this as a side job alongside studies or other work?', answer: 'Yes – many of our meeting bookers work flexibly and use it as an attractive side income alongside studies, family, or other work.' },
+      { question: 'What working hours are there?', answer: 'You plan your own day. The best results are typically achieved within normal Danish office hours (8 am–5 pm), when customers are easiest to reach.' },
+      { question: 'When is commission paid out?', answer: 'Commission is paid out monthly and is based on your verified, qualified meetings.' },
+      { question: 'How quickly can I get started?', answer: 'After a short introductory chat and onboarding, most people are ready to book meetings within a few days.' },
+      { question: 'How do I apply?', answer: 'Send us a short message via the contact page – no lengthy application needed. We get back to you within 2 business days.' },
+    ],
+  },
+  finalCta: {
+    title: 'Ready for freedom and a salary that matches your effort?',
+    text: 'Become a meeting booker for Denmark\'s best insurance brokers – work from home, set your own terms, and earn without a cap. The application is short and completely non-binding.',
+    cta: 'Apply now',
+    secondaryCta: 'View all open positions',
+  },
+};

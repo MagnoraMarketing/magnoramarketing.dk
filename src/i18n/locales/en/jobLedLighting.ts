@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Freelance Sales Rep – LED & Energy Efficiency | Magnora Marketing',
+    description: 'Become a freelance sales rep of LED lighting and energy efficiency for businesses at Magnora Marketing. Work from home with flexible hours and attractive commission.',
+    keywords: 'freelance LED sales rep, sell energy efficiency, LED lighting sales, commercial lighting sales rep, Magnora Marketing LED position',
+  },
+  hero: {
+    title: 'Freelance Sales Rep – LED & Energy Efficiency for Businesses',
+    subtitle: 'Sell energy-saving LED solutions to Danish companies and public institutions. Work from home with freedom, strong commission and a product that sells itself.',
+    ctaText: 'Apply for the position',
+    secondaryCtaText: 'See all positions',
+  },
+  about: {
+    heading: 'What does the job involve?',
+    paragraph1: 'As a freelance sales rep in LED and energy efficiency, you contact companies, production facilities, retail stores and public institutions with a message that resonates: save money and reduce CO₂ emissions by switching to modern LED lighting.',
+    paragraph2: 'Magnora Marketing provides scripts, quote templates and product knowledge. You focus on the dialogue with the customer and on booking meetings or closing the sale directly.',
+    tasks: [
+      'Outbound phone sales to business customers',
+      'Booking energy assessments and quote meetings',
+      'Presenting savings potential and ROI',
+      'Following up on quotes and interested prospects',
+      'Reporting activity and sales results',
+    ],
+  },
+  keyFacts: {
+    heading: 'Key facts about the position',
+    rows: [
+      { label: 'Employment type', value: 'Freelance / self-employed' },
+      { label: 'Workplace', value: 'From home – anywhere in Denmark' },
+      { label: 'Working hours', value: 'Flexible – you decide' },
+      { label: 'Pay', value: 'Attractive commission-based pay' },
+      { label: 'Product', value: 'LED lighting & energy efficiency' },
+      { label: 'Start date', value: 'As soon as possible' },
+    ],
+    applyButton: 'Send your application',
+  },
+  whyLedSells: {
+    heading: 'Why LED sells itself',
+    subtitle: 'Energy prices are high and companies are looking for savings. LED lighting is one of the fastest and most tangible investments a company can make.',
+    items: [
+      { title: 'Up to 80% energy savings', desc: 'Modern LED fixtures use significantly less electricity than older lighting – and companies notice it directly on their power bill.' },
+      { title: 'Payback period of 1-3 years', desc: 'Most business customers see full payback within 1-3 years, after which the savings are pure gain.' },
+      { title: 'Green profile and ESG', desc: 'Companies under pressure to reduce CO₂ see the LED switch as a concrete and visible step toward sustainability.' },
+    ],
+  },
+  benefits: {
+    heading: 'What you get at Magnora Marketing',
+    items: [
+      { title: 'Work from home', desc: 'Full freedom to work from your own home. No commuting – just a phone, a computer and drive.' },
+      { title: 'Strong commission', desc: 'Fixed base pay plus commission on every sale. The more deals you close, the more you earn.' },
+      { title: 'Training and materials', desc: 'We train you in the products and the savings arguments. You get scripts, quote templates and ongoing coaching.' },
+    ],
+  },
+  requirements: {
+    heading: "What we're looking for",
+    items: [
+      'Experience with phone sales or customer contact',
+      'Ability to explain savings and ROI simply',
+      'Self-discipline and a results-driven mindset',
+      'Good communication skills in Danish',
+      'A technical background in electrical work or energy is an advantage – not a requirement',
+      'Motivation for the green transition',
+    ],
+  },
+  howToApply: {
+    heading: 'How to apply',
+    paragraph1: "Send us a short message about yourself and your sales experience. No formal application – just write to us, and we'll get back to you within 2 business days.",
+    ctaText: 'Contact Magnora Marketing now',
+  },
+  faqs: [
+    { question: 'What do I sell as a meeting booker within LED?', answer: 'You contact business customers and book meetings about energy-efficient lighting solutions from a recognized LED supplier.' },
+    { question: 'Do I need knowledge of LED technology?', answer: "No – Magnora Marketing gives you all the product knowledge you need. What matters most is your sales skills and motivation." },
+    { question: 'Who is the target audience?', answer: 'Primarily business customers such as offices, manufacturing companies and retail – anyone who can save significantly on their energy bill with LED lighting.' },
+    { question: 'What is the commission level?', answer: 'You receive a fixed base pay plus commission per booked meeting that takes place.' },
+    { question: 'Are call lists ready from day one?', answer: 'Yes – Magnora Marketing provides call lists and campaign materials so you can start right away.' },
+    { question: 'Can I see an example of a script?', answer: 'Yes – you receive a proven sales script at the start, which you can adapt to your own style.' },
+    { question: 'What happens after a successful sale or booked meeting?', answer: 'You log the result in our system, and the commission is calculated automatically and paid out monthly.' },
+    { question: 'Is there ongoing coaching?', answer: "Yes – Magnora Marketing's sales managers hold regular coaching sessions and give feedback on your sales style." },
+    { question: 'Can I try the position for a shorter period?', answer: 'Yes – the first 2-4 weeks are considered a mutual trial period.' },
+    { question: 'What is the average income for an active freelancer?', answer: 'It depends on activity and product. Active freelancers with good results can earn a solid supplement or a full income.' },
+    { question: 'Can I work for Magnora Marketing and for other agencies?', answer: "As a freelancer, you're free to work for others, as long as there's no competitive conflict with Magnora Marketing's customers." },
+    { question: 'Are there written contracts?', answer: 'Yes – every collaboration is formalized with a clear freelance agreement describing terms, commission and expectations.' },
+    { question: "What happens if I don't enjoy the product?", answer: "We can discuss whether you're better suited to another product in Magnora Marketing's portfolio." },
+    { question: "What does Magnora Marketing expect from me as a freelancer?", answer: 'We expect self-discipline, professional conduct and ongoing communication about activity and results.' },
+  ],
+  finalCta: {
+    heading: 'Ready to sell green energy?',
+    subtitle: 'Contact Magnora Marketing and get started with a product that creates a real difference – for the customer and for the climate.',
+    primaryCta: 'Send application',
+    secondaryCta: 'See all open positions',
+  },
+};

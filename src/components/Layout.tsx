@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import CookieConsent from './CookieConsent';
+import TrialWidget from './TrialWidget';
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -38,6 +39,7 @@ const Layout: React.FC = () => {
         <Outlet />
       </main>
       <Footer />
+      <TrialWidget liftForCookieBanner={showCookieConsent} />
       {showCookieConsent && (
         <CookieConsent onAccept={handleAcceptCookies} />
       )}

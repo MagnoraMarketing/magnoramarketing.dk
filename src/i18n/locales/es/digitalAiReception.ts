@@ -1,0 +1,112 @@
+export default {
+  seo: {
+    title: 'Recepcionista IA y Agente de Voz | Atención Telefónica Automática en Danés | Magnora Marketing',
+    description: 'La recepcionista IA de Magnora Marketing responde todas las llamadas, reserva reuniones y enruta consultas automáticamente – 24/7 en danés natural. Nunca comunica. ✓ Cumple con el RGPD ✓ Demo gratuita',
+    keywords: 'recepcionista IA, agente de voz, IA telefónica, atención telefónica automática, reserva de reuniones IA, recepcionista virtual danesa',
+  },
+  hero: {
+    title: 'Recepcionista IA que responde todas las llamadas y reserva reuniones automáticamente',
+    subtitle: 'La IA de voz de Magnora Marketing gestiona las consultas telefónicas en danés natural – cualifica a quien llama, reserva reuniones y enruta las llamadas, 24/7 sin tiempo de espera.',
+    ctaText: 'Reservar una demo gratuita',
+    secondaryCtaText: 'Ver widget de IA',
+  },
+  problem: {
+    label: 'El problema',
+    title: 'Llamadas perdidas = clientes perdidos',
+    paragraph1: 'Los estudios muestran que el 62% de las llamadas telefónicas empresariales nunca se responden. Los clientes que llaman y no obtienen respuesta simplemente llaman a la competencia. Una sola consulta perdida puede costarle un cliente de seis cifras.',
+    paragraph2Html: 'Con la recepcionista IA de Magnora Marketing se responden <strong class="text-slate-800">todas las llamadas</strong> – sin importar la hora ni el volumen. La IA gestiona la mayoría por sí misma y solo deriva las consultas complejas al equipo.',
+    points: [
+      'Cero llamadas perdidas – la IA siempre responde',
+      'Reserva automática directamente en su calendario',
+      'Funciona 24/7, incluidos fines de semana y festivos',
+      'Considerablemente más económica que una recepcionista a tiempo parcial',
+      'Lista para usar en un plazo de 5 días laborables',
+    ],
+  },
+  simulatedCall: {
+    label: 'Llamada activa · Magnora Marketing AI Reception',
+    status: 'Conectado',
+    aiLabel: 'IA:',
+    callerLabel: 'Llamante:',
+    lines: [
+      { speaker: 'ai', text: 'Gracias por llamar a Magnora Marketing. ¿En qué puedo ayudarle hoy?' },
+      { speaker: 'caller', text: 'Me gustaría saber más sobre su solución de reserva de reuniones' },
+      { speaker: 'ai', text: '¡Por supuesto! ¿Puedo preguntar cuántas reuniones desea reservar al mes?' },
+      { speaker: 'caller', text: 'Unas 15-20 reuniones' },
+      { speaker: 'ai', text: 'Perfecto. Le reservaré una reunión con uno de nuestros especialistas. ¿Le viene bien el lunes a las 10?' },
+    ],
+    footerNote: 'Reunión reservada automáticamente · Invitación de calendario enviada',
+  },
+  features: {
+    label: 'Funcionalidades',
+    title: 'Una recepcionista IA que lo hace todo',
+    subtitle: 'Desde la atención telefónica sencilla hasta el enrutamiento avanzado de llamadas y la reserva automática de reuniones – todo en una sola solución.',
+    items: [
+      {
+        title: 'Conversación de voz natural en danés',
+        description: 'La recepcionista IA de Magnora Marketing habla danés con fluidez y prosodia natural, y entiende el contexto, los dialectos y la jerga del sector – como un empleado con experiencia.',
+      },
+      {
+        title: 'Nunca comunica – siempre disponible',
+        description: 'La recepcionista IA responde todas las llamadas al instante, 24/7/365. Sin tiempos de espera, sin leads perdidos, sin clientes perdidos.',
+      },
+      {
+        title: 'Reserva automática de reuniones por teléfono',
+        description: 'Quien llama reserva una reunión directamente durante la llamada. La IA encuentra horarios disponibles, confirma la reserva y envía una invitación de calendario.',
+      },
+      {
+        title: 'Enrutamiento inteligente de llamadas',
+        description: 'La IA identifica el motivo de la llamada y la deriva al departamento, compañero o comercial adecuado – o la gestiona ella misma.',
+      },
+      {
+        title: 'Seguimiento por SMS y correo electrónico',
+        description: 'Tras cada llamada, la recepcionista IA envía automáticamente un resumen, un enlace de reserva o los documentos relevantes a quien llamó.',
+      },
+      {
+        title: 'Registro y análisis completo de llamadas',
+        description: 'Todas las conversaciones se transcriben y analizan. Obtiene información sobre los motivos de las llamadas de sus clientes y qué consultas convierten mejor.',
+      },
+    ],
+  },
+  comparison: {
+    label: 'Comparación',
+    title: 'Recepcionista IA frente a recepcionista humana',
+    headerAi: 'Recepcionista IA de Magnora Marketing',
+    headerHuman: 'Recepcionista humana',
+    rows: [
+      { feature: 'Disponibilidad', ai: '24/7/365', human: 'Lun-vie 8-16h' },
+      { feature: 'Llamadas simultáneas', ai: 'Ilimitadas', human: '1 a la vez' },
+      { feature: 'Tiempo de respuesta', ai: '< 1 segundo', human: '10-30 segundos' },
+      { feature: 'Reserva de reuniones', ai: '✓ Automática', human: '✓ Manual' },
+      { feature: 'Coste mensual', ai: 'Desde 1.500 DKK', human: '25.000 DKK+' },
+      { feature: 'Tiempo de formación', ai: '3-5 días', human: '4-8 semanas' },
+    ],
+    ctaText: 'Empezar con la recepcionista IA',
+  },
+  faq: {
+    title: 'Preguntas frecuentes sobre la recepcionista IA',
+    items: [
+      { question: '¿Qué es una recepcionista IA?', answer: 'Una recepcionista IA es una inteligencia artificial basada en voz que responde llamadas telefónicas, gestiona consultas y reserva reuniones – de forma automática y en danés natural.' },
+      { question: '¿Suena humana la recepcionista IA?', answer: 'Sí – las voces de IA modernas son muy realistas. La mayoría de quienes llaman no notan de inmediato que hablan con una IA, a menos que pregunten directamente.' },
+      { question: '¿Qué ocurre con las consultas complejas?', answer: 'La IA escala automáticamente a una persona las consultas complejas o sensibles. La llamada se reenvía o se envía una notificación al empleado adecuado.' },
+      { question: '¿Puede la recepcionista IA reservar reuniones directamente?', answer: 'Sí – mediante la integración con Google Calendar y Outlook, la IA puede encontrar horarios disponibles y confirmar la reserva durante la propia llamada.' },
+      { question: '¿Qué idiomas habla la recepcionista IA?', answer: 'Principalmente danés, pero la solución puede configurarse en danés, inglés, alemán y otros idiomas según sus necesidades.' },
+      { question: '¿Cuánto cuesta una recepcionista IA?', answer: 'El precio depende del volumen de llamadas y las integraciones. Contacte con Magnora Marketing para un presupuesto a medida – normalmente mucho más económico que una recepcionista a tiempo parcial.' },
+      { question: '¿Puede integrarse la recepcionista IA con nuestro sistema telefónico?', answer: 'Sí – nos integramos con todos los sistemas VOIP habituales, Microsoft Teams, 3CX, RingCentral y líneas telefónicas tradicionales.' },
+      { question: '¿Cumple la solución con el RGPD?', answer: 'Sí – las llamadas se gestionan conforme al RGPD. Las grabaciones se almacenan de forma segura y se eliminan tras el período acordado.' },
+      { question: '¿Puedo escuchar las llamadas posteriormente?', answer: 'Sí – todas las llamadas se transcriben y pueden revisarse. Recibirá resúmenes diarios o semanales.' },
+      { question: '¿Cómo se entrena la IA para nuestra empresa?', answer: 'Incorporamos la recepcionista IA con la información de sus productos, preguntas frecuentes, estructura de precios y tono de voz, para que responda con precisión y acorde a su marca.' },
+      { question: '¿Puede gestionar varias llamadas a la vez?', answer: 'Sí – la recepcionista IA puede responder un número ilimitado de llamadas simultáneas sin tiempo de espera ni señal de ocupado.' },
+      { question: '¿Qué ocurre fuera del horario de apertura?', answer: 'La recepcionista IA trabaja 24/7. Fuera del horario de apertura puede tomar mensajes, reservar reuniones y enviar respuestas automáticas.' },
+      { question: '¿Envía la IA resúmenes de llamadas?', answer: 'Sí – tras cada llamada se envía una transcripción y un resumen al empleado correspondiente por correo electrónico o Slack.' },
+      { question: '¿Puede reconocer a clientes existentes?', answer: 'Sí – mediante la integración con el CRM, la IA puede reconocer a clientes conocidos por su número de teléfono y adaptar la conversación en consecuencia.' },
+      { question: '¿Cuándo no es adecuada una recepcionista IA?', answer: 'La recepcionista IA no es ideal para conversaciones de asesoramiento muy complejas o situaciones de crisis – en esos casos escala a una persona.' },
+    ],
+  },
+  ctaSection: {
+    title: 'Deje que la IA responda su teléfono desde mañana',
+    subtitle: 'Reserve una demo gratuita y vea la recepcionista IA de Magnora Marketing en acción. Lista para usar en un plazo de 5 días laborables.',
+    primaryText: 'Reservar demo gratuita',
+    secondaryText: 'Ver widget de IA',
+  },
+};

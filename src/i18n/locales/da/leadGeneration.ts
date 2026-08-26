@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Leadgenerering | Magnora Marketing – Varme B2B Leads til dit Salgsteam',
+    description: "Magnora Marketing's datadrevne leadgenerering leverer salgsklar B2B leads direkte til dit CRM. Vi kombinerer multi-kanal tilgang med præcis segmentering for at maksimere din salgspipeline.",
+    keywords: 'leadgenerering, B2B leads, Magnora Marketing leadgenerering, salgspipeline, varme leads, lead scoring',
+  },
+  hero: {
+    title: 'Datadrevet Leadgenerering med Magnora Marketing',
+    subtitle: 'Magnora Marketing leverer salgsklar B2B leads direkte til dit salgsteam – screenet, kvalificeret og klar til kontakt. Spar tid, øg hitrate og skalér din vækst.',
+    cta: 'Få leads nu',
+    secondaryCta: 'Se priser',
+  },
+  process: {
+    title: "Magnora Marketing's Leadgenereringsproces",
+    subtitle: 'Vores strukturerede og datadrevne tilgang sikrer en konstant strøm af høj-kvalitets leads til dit salgsteam.',
+    items: [
+      { title: 'Præcis Segmentering', desc: 'Vi identificerer din ideelle kundeprofil og segmenterer målgruppen præcist efter branche, størrelse, geografi og beslutningsrolle.' },
+      { title: 'Lead Research & Scoring', desc: 'Vi researcher, validerer og scorer hvert lead baseret på købssignaler og fit med din løsning – kun de bedste emner leveres.' },
+      { title: 'Aktivering & Levering', desc: 'Kvalificerede leads aktiveres via målrettede outreach-kampagner og leveres direkte til dit CRM – klar til opfølgning.' },
+    ],
+  },
+  why: {
+    title: 'Hvorfor vælge Magnora Marketing til Leadgenerering?',
+    subtitle: 'Leadgenerering handler ikke om kvantitet – det handler om kvalitet. Magnora Marketing leverer leads der konverterer, fordi vi investerer tid i at forstå din forretning og dine kunders behov.',
+    items: [
+      'Fokus på kvalitet – ikke kun volumen',
+      'Flerkanalsstrategi: telefon, email, LinkedIn og mere',
+      'Leads leveret direkte til dit CRM-system',
+      'Løbende optimering baseret på konverteringsdata',
+      'Fuldt transparent rapportering og lead-oversigt',
+      'Skalerbar indsats tilpasset dine vækstmål',
+    ],
+    cta: 'Start leadgenerering med Magnora Marketing',
+    deliverTitle: 'Hvad Magnora Marketing leverer',
+    deliverItems: [
+      'Validerede og opdaterede kontaktdata',
+      'Lead-profiling med virksomhedsinfo og beslutningsrolle',
+      'Prioriteringsscore baseret på købsintention',
+      'Segmentering efter branche og målgruppe',
+      'Klar CRM-integration med dine systemer',
+      'Ugentlig lead-rapport med status og pipeline-oversigt',
+    ],
+  },
+  midCta: {
+    title: 'Klar til en stærkere salgspipeline?',
+    subtitle: 'Kontakt Magnora Marketing og find ud af, hvordan vi kan levere varme, salgsklar B2B leads til din virksomhed.',
+    cta: 'Kontakt os i dag',
+  },
+  info: {
+    section1: {
+      title: 'Professionel B2B Leadgenerering – Fra Kold Database til Varme, Salgsklar Emner',
+      p1: "Magnora Marketing's datadrevne leadgenerering er fundamentet for en stærk salgspipeline. Vi arbejder struktureret med at identificere din ideelle kundeprofil, segmentere målgruppen præcist efter branche, virksomhedsstørrelse, geografi og beslutningsrolle, og leverer herefter validerede, kvalificerede leads direkte til dit CRM-system. Hvert lead er gennemgået, valideret og scoret baseret på købssignaler og fit med din løsning – kun de bedste emner rammer dit salgsteam.",
+      p2: "Magnora Marketing's flerkanalsstrategi for leadgenerering kombinerer telefonisk opsøgning, emailkampagner og LinkedIn-outreach med AI-drevne løsninger for at maksimere reach og konverteringsrate. Vi leverer ugentlige lead-rapporter med status og pipeline-oversigt, og optimerer løbende indsatsen baseret på konverteringsdata. Integration med HubSpot, Salesforce, Pipedrive og andre CRM-systemer sikrer et gnidningsfrit leadflow direkte ind i dit eksisterende salgssystem.",
+      list: [
+        'Præcis målgruppesegmentering efter ICP-kriterier',
+        'Lead scoring og prioritering baseret på købssignaler',
+        'Flerkanalsstrategi: telefon, email og LinkedIn',
+        'CRM-integration med HubSpot, Salesforce og Pipedrive',
+      ],
+    },
+    section2: {
+      title: 'Leadgenerering der Konverterer – Kvalitet Frem for Kvantitet',
+      p1: "Magnora Marketing's tilgang til leadgenerering handler om kvalitet frem for kvantitet. Vi investerer tid i at forstå din forretning, dine kunder og din konkurrencesituation, og bruger denne indsigt til at identificere de leads der faktisk konverterer. Vores lead-profiling inkluderer virksomhedsinfo, beslutningsrolle og en prioriteringsscore baseret på købsintention – så dit salgsteam altid starter med de varmeste emner og bruger minimum tid på at nå maksimale resultater.",
+      p2: 'Kontakt Magnora Marketing på mail@magnoramarketing.dk for at høre mere om vores leadgenererings-løsninger og få et uforpligtende tilbud tilpasset din virksomheds behov og vækstmål.',
+    },
+  },
+  faq: {
+    items: [
+      { question: 'Hvad er leadgenerering?', answer: 'Leadgenerering er processen med at identificere og tiltrække potentielle kunder (leads) til din virksomhed gennem målrettede marketingaktiviteter og opsøgende salg.' },
+      { question: 'Hvad er forskellen på et koldt og varmt lead?', answer: 'Et koldt lead er en potentiel kunde der endnu ikke har vist interesse. Et varmt lead har vist interesse og er klar til at blive kontaktet af dit salgsteam.' },
+      { question: 'Kan I integrere leads direkte i vores CRM?', answer: 'Ja – Magnora Marketing leverer leads i det format der passer til dit CRM-system, så leadflow er så gnidningsfrit som muligt.' },
+      { question: 'Hvad er lead scoring?', answer: 'Lead scoring er en metode til at rangere leads baseret på deres sandsynlighed for at konvertere, baseret på adfærd, demografi og engagementniveau.' },
+      { question: 'Hvor mange leads kan vi forvente?', answer: 'Det afhænger af branche, budget og kampagnelængde. Vi sætter realistiske mål og rapporterer løbende på resultater.' },
+      { question: 'Hvad er forskellen på leadgenerering og mødebooking?', answer: 'Leadgenerering identificerer og kvalificerer potentielle kunder. Mødebooking er næste skridt – at booke et møde med de identificerede leads.' },
+      { question: 'Kan I integrere med HubSpot eller Salesforce?', answer: 'Ja – vi har erfaring med integration til de mest populære CRM-systemer inkl. HubSpot, Salesforce og Pipedrive.' },
+      { question: "Hvad er en 'kold liste'?", answer: 'En kold liste er en database af potentielle kunder som endnu ikke har haft kontakt med din virksomhed. Vi bruger målrettede lister til effektiv opsøgning.' },
+      { question: 'Kan I bygge en ny database til os?', answer: 'Ja – vi kan opbygge og berige salgsdatabaser baseret på jeres ønskede målgruppe, branche og geografi.' },
+      { question: 'Hvad koster et lead?', answer: 'Prisen per lead afhænger af branche, kompleksitet og kvalitetskrav. Kontakt os for en specifik prisberegning.' },
+      { question: "Hvad er et 'varmt' lead i praksis?", answer: 'Et varmt lead har vist konkret interesse – f.eks. ved at downloade materiale, besvare et opkald positivt eller anmode om mere information.' },
+      { question: 'Kan I hjælpe med indhold til at tiltrække leads?', answer: 'Via vores digitale tjenester kan vi hjælpe med landingssider, whitepapers og andre leadmagneter.' },
+      { question: 'Hvad er conversion rate på jeres leads?', answer: 'Conversion rate varierer per branche og produkt, men vores leads er altid kvalitetssikrede for at maksimere din salgsstyrkes tid.' },
+      { question: 'Kan I segmentere leads efter virksomhedsstørrelse?', answer: 'Ja – vi kan filtrere og segmentere leads efter omsætning, medarbejderantal, geografi, branche og meget mere.' },
+      { question: 'Hvad er en lead nurturing-strategi?', answer: 'Lead nurturing er processen med at pleje leads over tid med relevant indhold og opfølgning, indtil de er klar til at købe.' },
+    ],
+  },
+  finalCta: {
+    title: 'Start din leadgenerering med Magnora Marketing i dag',
+    subtitle: 'Struktureret, datadrevet leadgenerering der leverer salgsklar emner direkte til dit CRM.',
+    primaryText: 'Kontakt os',
+    secondaryText: 'Se priser',
+  },
+};

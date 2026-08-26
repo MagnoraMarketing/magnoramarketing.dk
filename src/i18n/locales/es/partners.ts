@@ -1,0 +1,85 @@
+export default {
+  seo: {
+    title: 'Conviértete en Socio | Magnora Marketing – Televentas, Reserva de Reuniones e IA',
+    description: 'Inicia una colaboración con Magnora Marketing, tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads y proyectos de desarrollo de IA. Resultados medibles.',
+    keywords: 'socio Magnora Marketing, externalizar ventas, socio de reserva de reuniones, ventas B2B, agencia de telemarketing',
+  },
+  hero: {
+    title: 'Deja que Magnora Marketing Impulse tus Ventas',
+    subtitle: 'Conviértete en socio y accede a un equipo de ventas dedicado que entrega reuniones cualificadas, leads cálidos y resultados demostrados, sin la carga de contratar personal.',
+    cta: 'Iniciar colaboración',
+    secondaryCta: 'Ver precios',
+  },
+  benefits: {
+    title: '¿Por qué elegir Magnora Marketing como socio de ventas?',
+    subtitle: 'Magnora Marketing combina la fuerza de ventas humana con métodos basados en datos para ofrecer resultados que marcan una diferencia real en tu cuenta de resultados.',
+    items: [
+      { title: 'Escala tus ventas', description: 'Magnora Marketing entrega reuniones cualificadas y leads cálidos directamente a tu equipo de ventas, para que puedas escalar sin contratar.' },
+      { title: 'Informes de ROI claros', description: 'Obtienes acceso continuo a datos de rendimiento, estadísticas de reuniones y cálculo de ROI en informes claros y accionables.' },
+      { title: 'Adaptado a ti', description: 'Adaptamos nuestra solución a tu sector, tu público objetivo y tu presupuesto. Sin paquetes estándar, solo exactamente lo que necesitas.' },
+    ],
+  },
+  process: {
+    title: 'Así comienza la colaboración',
+    steps: [
+      { title: 'Reunión inicial', description: 'Comenzamos con una reunión exhaustiva para entender tu empresa, tus productos y tu cliente ideal.' },
+      { title: 'Estrategia y configuración', description: 'Desarrollamos una estrategia a medida con KPIs claros, objetivos y planes de comunicación.' },
+      { title: 'Inicio de campaña', description: 'Nuestro equipo recibe un briefing exhaustivo y comienza con el telemarketing o la reserva de reuniones, con feedback y ajustes continuos.' },
+      { title: 'Seguimiento y optimización', description: 'Evaluamos los resultados de forma continua y optimizamos el esfuerzo constantemente para garantizarte el mejor ROI.' },
+    ],
+  },
+  contactSection: {
+    title: 'Conviértete en socio',
+    subtitle: 'Cuéntanos sobre tu empresa y tus objetivos: te responderemos en el plazo de un día laborable con una propuesta concreta de reserva de reuniones o televentas.',
+  },
+  midCta: {
+    title: '¿Listo para colaborar con Magnora Marketing?',
+    subtitle: 'Da el primer paso hacia más crecimiento. Contáctanos y descubre qué puede hacer Magnora Marketing por tu empresa.',
+    cta: 'Empezar ahora',
+  },
+  info: {
+    section1: {
+      title: 'Externalización de Ventas y Reserva de Reuniones – Conviértete en Socio de Magnora Marketing',
+      p1: 'Convertirse en socio de Magnora Marketing es la decisión estratégica para las empresas B2B que quieren crecer rápida y eficazmente sin crear ni dotar de personal a un gran equipo de ventas interno. Magnora Marketing actúa como tu fuerza de ventas extendida, con consultores de ventas experimentados que representan a tu empresa de forma profesional y comprometida ante clientes potenciales. Adaptamos la campaña por completo a tu sector, tu público objetivo y tu producto o servicio específico, y ofrecemos informes continuos que muestran exactamente qué resultados da el esfuerzo.',
+      p2: 'La colaboración con Magnora Marketing comienza con una reunión inicial exhaustiva en la que conocemos tu empresa y tus clientes. A continuación, desarrollamos una estrategia dirigida con KPIs claros, planes de comunicación y un plan realista de lanzamiento y escalado. La mayoría de nuestros socios pueden esperar los primeros resultados en un plazo de 2 a 3 semanas tras el inicio de la campaña, y muchos ven un ROI positivo ya en el primer trimestre.',
+      list: [
+        'Escala las ventas sin costosas contrataciones fijas',
+        'Estrategia a medida con KPIs y objetivos claros',
+        'Informes de rendimiento semanales y mensuales',
+        'Acuerdos flexibles con plazos de preaviso razonables',
+      ],
+    },
+    section2: {
+      title: 'Magnora Marketing es Más que un Call Center – Somos tu Socio Estratégico de Ventas',
+      p1: 'Magnora Marketing se diferencia fundamentalmente de los call centers tradicionales al centrarse en la calidad frente al volumen. Somos un socio estratégico de ventas con un profundo conocimiento del sector, estrategias de comunicación dirigidas y un enfoque constante en maximizar el ROI de nuestros socios. Nuestro equipo de profesionales de ventas experimentados trabaja de forma dedicada en tu campaña y ajusta continuamente el enfoque basándose en datos, feedback y evolución del mercado.',
+      p2: 'Contacta con Magnora Marketing hoy mismo en mail@magnoramarketing.dk. Ofrecemos un periodo piloto sin compromiso a precio reducido para nuevos socios, para que puedas evaluar los resultados y la forma de colaborar antes de un lanzamiento completo.',
+    },
+  },
+  faqExtra: [
+    { question: '¿Cuánto cuesta colaborar con Magnora Marketing?', answer: 'El precio depende de tu sector, el alcance de la tarea y el modelo elegido. Ofrecemos tanto No Cure No Pay como soluciones de paquete fijo. Contáctanos para un presupuesto a medida.' },
+    { question: '¿Cuándo podéis empezar?', answer: 'Normalmente podemos iniciar el esfuerzo activo en un plazo de 1 a 2 semanas tras un briefing de inicio exhaustivo.' },
+    { question: '¿Con qué sectores trabajáis?', answer: 'Trabajamos con una amplia gama de sectores B2B, desde TI y SaaS hasta energía, facility management, finanzas y consultoría.' },
+    { question: '¿Cuál es el periodo mínimo de colaboración?', answer: 'Recomendamos un mínimo de 3 meses para ver resultados sólidos, pero somos flexibles y nos adaptamos a tu situación.' },
+    { question: '¿Qué implica una colaboración con Magnora Marketing?', answer: 'Como socio, obtienes acceso al equipo de profesionales de ventas experimentados de Magnora Marketing, que trabajan de forma dedicada para generar leads y reservar reuniones para tu empresa.' },
+    { question: '¿Podemos definir nosotros mismos el público objetivo?', answer: 'Sí, adaptamos las campañas según el público objetivo, el sector, el tamaño de empresa y la geografía que desees.' },
+    { question: '¿Cuál es la duración mínima de una colaboración?', answer: 'Recomendamos un mínimo de 3 meses para obtener resultados óptimos, pero ofrecemos soluciones flexibles.' },
+    { question: '¿Tenemos acceso a informes?', answer: 'Sí, recibes informes semanales y mensuales con todas las actividades, reuniones reservadas y resultados.' },
+    { question: '¿Trabajáis con acuerdos de confidencialidad (NDA)?', answer: 'Por supuesto, todas las colaboraciones están protegidas por acuerdos de confidencialidad.' },
+    { question: '¿Cuál es un proceso de incorporación típico?', answer: 'Comenzamos con un briefing, definimos el público objetivo y los KPIs, elaboramos un guion y un periodo de prueba, y después pasamos a la operativa completa.' },
+    { question: '¿Podemos ver nuestros leads en tiempo real?', answer: 'Sí, podemos dar acceso a un panel en vivo o entregar informes semanales según tu preferencia.' },
+    { question: '¿Qué ocurre si los resultados no cumplen las expectativas?', answer: 'Celebramos reuniones de optimización continuas y ajustamos el enfoque basándonos en datos. La transparencia y la honestidad son fundamentales en nuestra colaboración.' },
+    { question: '¿Podemos detener la colaboración si no funciona?', answer: 'Sí, tenemos plazos de preaviso razonables y no queremos vincular a clientes que no perciben valor.' },
+    { question: '¿Trabajáis con acuerdos de exclusividad?', answer: 'Podemos ofrecer exclusividad dentro de un sector y una región determinados, según el alcance de la colaboración.' },
+    { question: '¿Podéis trabajar con nuestro equipo de ventas actual?', answer: 'Por supuesto, muchos clientes utilizan Magnora Marketing como complemento de su equipo de ventas interno, no como sustituto.' },
+    { question: '¿Cuál es vuestra experiencia con empresas SaaS?', answer: 'Tenemos amplia experiencia en reserva de reuniones y generación de leads para empresas SaaS, incluidos responsables de decisión tecnológica y directores de TI.' },
+    { question: '¿Podéis ayudar a validar un nuevo público objetivo?', answer: 'Sí, el telemarketing y la reserva de reuniones son ideales para probar nuevos públicos objetivo de forma rápida y basada en datos.' },
+    { question: '¿Ofrecéis proyectos piloto?', answer: 'Sí, a menudo ofrecemos un periodo piloto más corto para que puedas evaluar los resultados y la forma de colaborar antes de un lanzamiento completo.' },
+    { question: '¿Qué diferencia a Magnora Marketing de un call center tradicional?', answer: 'Magnora Marketing no es un call center: somos un socio estratégico de ventas centrado en la calidad, la segmentación y los resultados demostrados, no en el volumen.' },
+  ],
+  finalCta: {
+    title: 'Conviértete en socio: empieza a crecer hoy',
+    subtitle: 'Deja que Magnora Marketing llene tu calendario con reuniones de venta cualificadas y leads cálidos, para que tu equipo pueda centrarse en cerrar acuerdos.',
+    primaryText: 'Contáctanos',
+    secondaryText: 'Ver precios y paquetes',
+  },
+};

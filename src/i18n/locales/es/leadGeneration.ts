@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Generación de Leads | Magnora Marketing – Leads B2B Cualificados para tu Equipo de Ventas',
+    description: 'La generación de leads basada en datos de Magnora Marketing entrega leads B2B listos para la venta directamente a tu CRM. Combinamos un enfoque multicanal con una segmentación precisa para maximizar tu pipeline de ventas.',
+    keywords: 'generación de leads, leads B2B, generación de leads Magnora Marketing, pipeline de ventas, leads cualificados, lead scoring',
+  },
+  hero: {
+    title: 'Generación de Leads Basada en Datos con Magnora Marketing',
+    subtitle: 'Magnora Marketing entrega leads B2B listos para la venta directamente a tu equipo comercial: filtrados, cualificados y listos para el contacto. Ahorra tiempo, aumenta tu tasa de éxito y escala tu crecimiento.',
+    cta: 'Consigue leads ahora',
+    secondaryCta: 'Ver precios',
+  },
+  process: {
+    title: 'El Proceso de Generación de Leads de Magnora Marketing',
+    subtitle: 'Nuestro enfoque estructurado y basado en datos garantiza un flujo constante de leads de alta calidad para tu equipo de ventas.',
+    items: [
+      { title: 'Segmentación Precisa', desc: 'Identificamos tu perfil de cliente ideal y segmentamos el público objetivo con precisión por sector, tamaño, ubicación geográfica y rol en la decisión de compra.' },
+      { title: 'Investigación y Puntuación de Leads', desc: 'Investigamos, validamos y puntuamos cada lead según señales de compra y ajuste con tu solución; solo se entregan los mejores candidatos.' },
+      { title: 'Activación y Entrega', desc: 'Los leads cualificados se activan mediante campañas de outreach dirigidas y se entregan directamente en tu CRM, listos para el seguimiento.' },
+    ],
+  },
+  why: {
+    title: '¿Por Qué Elegir a Magnora Marketing para la Generación de Leads?',
+    subtitle: 'La generación de leads no se trata de cantidad, sino de calidad. Magnora Marketing entrega leads que convierten porque invertimos tiempo en entender tu negocio y las necesidades de tus clientes.',
+    items: [
+      'Enfoque en la calidad, no solo en el volumen',
+      'Estrategia multicanal: teléfono, email, LinkedIn y más',
+      'Leads entregados directamente en tu sistema CRM',
+      'Optimización continua basada en datos de conversión',
+      'Informes totalmente transparentes y visión general de los leads',
+      'Esfuerzo escalable adaptado a tus objetivos de crecimiento',
+    ],
+    cta: 'Inicia la generación de leads con Magnora Marketing',
+    deliverTitle: 'Lo que entrega Magnora Marketing',
+    deliverItems: [
+      'Datos de contacto validados y actualizados',
+      'Perfil de lead con información de la empresa y rol en la decisión',
+      'Puntuación de prioridad basada en la intención de compra',
+      'Segmentación por sector y público objetivo',
+      'Integración CRM lista con tus sistemas',
+      'Informe semanal de leads con estado y visión general del pipeline',
+    ],
+  },
+  midCta: {
+    title: '¿Listo para un pipeline de ventas más sólido?',
+    subtitle: 'Contacta con Magnora Marketing y descubre cómo podemos entregar leads B2B cualificados y listos para la venta a tu empresa.',
+    cta: 'Contáctanos hoy',
+  },
+  info: {
+    section1: {
+      title: 'Generación de Leads B2B Profesional – De Base de Datos Fría a Candidatos Cualificados y Listos para la Venta',
+      p1: 'La generación de leads basada en datos de Magnora Marketing es la base de un pipeline de ventas sólido. Trabajamos de forma estructurada para identificar tu perfil de cliente ideal, segmentar el público objetivo con precisión por sector, tamaño de empresa, ubicación geográfica y rol en la decisión de compra, y entregamos leads validados y cualificados directamente en tu sistema CRM. Cada lead se revisa, valida y puntúa en función de las señales de compra y el ajuste con tu solución: solo los mejores candidatos llegan a tu equipo de ventas.',
+      p2: 'La estrategia multicanal de generación de leads de Magnora Marketing combina la prospección telefónica, las campañas de email y el outreach en LinkedIn con soluciones basadas en IA para maximizar el alcance y la tasa de conversión. Entregamos informes semanales de leads con estado y visión general del pipeline, y optimizamos continuamente el esfuerzo en función de los datos de conversión. La integración con HubSpot, Salesforce, Pipedrive y otros sistemas CRM garantiza un flujo de leads fluido directamente en tu sistema de ventas existente.',
+      list: [
+        'Segmentación precisa del público objetivo según criterios ICP',
+        'Puntuación y priorización de leads basada en señales de compra',
+        'Estrategia multicanal: teléfono, email y LinkedIn',
+        'Integración CRM con HubSpot, Salesforce y Pipedrive',
+      ],
+    },
+    section2: {
+      title: 'Generación de Leads que Convierte – Calidad Antes que Cantidad',
+      p1: 'El enfoque de Magnora Marketing para la generación de leads se basa en la calidad antes que la cantidad. Invertimos tiempo en entender tu negocio, tus clientes y tu situación competitiva, y usamos esta información para identificar los leads que realmente convierten. Nuestro perfil de leads incluye información de la empresa, rol en la decisión de compra y una puntuación de prioridad basada en la intención de compra, de modo que tu equipo de ventas siempre empieza con los candidatos más cualificados e invierte el mínimo tiempo para lograr el máximo resultado.',
+      p2: 'Contacta con Magnora Marketing en mail@magnoramarketing.dk para conocer más sobre nuestras soluciones de generación de leads y recibir un presupuesto sin compromiso adaptado a las necesidades y objetivos de crecimiento de tu empresa.',
+    },
+  },
+  faq: {
+    items: [
+      { question: '¿Qué es la generación de leads?', answer: 'La generación de leads es el proceso de identificar y atraer clientes potenciales (leads) para tu empresa a través de actividades de marketing dirigidas y ventas proactivas.' },
+      { question: '¿Cuál es la diferencia entre un lead frío y uno cualificado?', answer: 'Un lead frío es un cliente potencial que aún no ha mostrado interés. Un lead cualificado ha mostrado interés y está listo para ser contactado por tu equipo de ventas.' },
+      { question: '¿Podéis integrar los leads directamente en nuestro CRM?', answer: 'Sí, Magnora Marketing entrega los leads en el formato que se adapta a tu sistema CRM, para que el flujo de leads sea lo más fluido posible.' },
+      { question: '¿Qué es el lead scoring?', answer: 'El lead scoring es un método para clasificar los leads según su probabilidad de conversión, basándose en el comportamiento, los datos demográficos y el nivel de interacción.' },
+      { question: '¿Cuántos leads podemos esperar?', answer: 'Depende del sector, el presupuesto y la duración de la campaña. Establecemos objetivos realistas e informamos continuamente sobre los resultados.' },
+      { question: '¿Cuál es la diferencia entre la generación de leads y la reserva de reuniones?', answer: 'La generación de leads identifica y cualifica a los clientes potenciales. La reserva de reuniones es el siguiente paso: agendar una reunión con los leads identificados.' },
+      { question: '¿Podéis integraros con HubSpot o Salesforce?', answer: 'Sí, tenemos experiencia integrándonos con los sistemas CRM más populares, incluidos HubSpot, Salesforce y Pipedrive.' },
+      { question: '¿Qué es una "lista fría"?', answer: 'Una lista fría es una base de datos de clientes potenciales que aún no han tenido contacto con tu empresa. Usamos listas dirigidas para una prospección eficaz.' },
+      { question: '¿Podéis crear una nueva base de datos para nosotros?', answer: 'Sí, podemos construir y enriquecer bases de datos de ventas según el público objetivo, sector y ubicación geográfica deseados.' },
+      { question: '¿Cuánto cuesta un lead?', answer: 'El precio por lead depende del sector, la complejidad y los requisitos de calidad. Contáctanos para un cálculo de precio específico.' },
+      { question: '¿Cómo es un lead "cualificado" en la práctica?', answer: 'Un lead cualificado ha mostrado un interés concreto, por ejemplo, descargando material, respondiendo positivamente a una llamada o solicitando más información.' },
+      { question: '¿Podéis ayudar con contenido para atraer leads?', answer: 'A través de nuestros servicios digitales podemos ayudar con páginas de aterrizaje, whitepapers y otros imanes de leads.' },
+      { question: '¿Cuál es la tasa de conversión de vuestros leads?', answer: 'La tasa de conversión varía según el sector y el producto, pero nuestros leads siempre tienen la calidad garantizada para maximizar el tiempo de tu equipo de ventas.' },
+      { question: '¿Podéis segmentar los leads por tamaño de empresa?', answer: 'Sí, podemos filtrar y segmentar los leads por facturación, número de empleados, ubicación geográfica, sector y mucho más.' },
+      { question: '¿Qué es una estrategia de lead nurturing?', answer: 'El lead nurturing es el proceso de cultivar los leads a lo largo del tiempo con contenido relevante y seguimiento, hasta que estén listos para comprar.' },
+    ],
+  },
+  finalCta: {
+    title: 'Empieza hoy tu generación de leads con Magnora Marketing',
+    subtitle: 'Generación de leads estructurada y basada en datos que entrega candidatos listos para la venta directamente en tu CRM.',
+    primaryText: 'Contáctanos',
+    secondaryText: 'Ver precios',
+  },
+};

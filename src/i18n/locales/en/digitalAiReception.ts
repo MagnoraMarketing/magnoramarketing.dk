@@ -1,0 +1,112 @@
+export default {
+  seo: {
+    title: 'AI Receptionist & Voice Agent | Automatic Phone Answering in Danish | Magnora Marketing',
+    description: "Magnora Marketing's AI receptionist answers every call, books meetings and routes inquiries automatically – 24/7 in natural Danish. Never busy. ✓ GDPR-compliant ✓ Free demo",
+    keywords: 'AI receptionist, voice agent, AI phone, automatic phone answering, AI meeting booking, virtual receptionist Danish',
+  },
+  hero: {
+    title: 'AI receptionist that answers every call and books meetings automatically',
+    subtitle: "Magnora Marketing's voice AI handles phone inquiries in natural Danish – qualifying callers, booking meetings and routing calls, 24/7 with no wait time.",
+    ctaText: 'Book a free demo',
+    secondaryCtaText: 'See AI widget',
+  },
+  problem: {
+    label: 'The problem',
+    title: 'Missed calls = lost customers',
+    paragraph1: "Studies show that 62% of business phone calls are never answered. Customers who call and get no answer simply call your competitor instead. A single missed inquiry can cost you a six-figure customer.",
+    paragraph2Html: "With Magnora Marketing's AI receptionist, <strong class=\"text-slate-800\">every call</strong> gets answered – regardless of time of day or call volume. The AI handles most of it itself, and only routes complex inquiries to you.",
+    points: [
+      'Zero missed calls – the AI always answers',
+      'Automatic booking directly in your calendar',
+      'Works 24/7 including weekends and holidays',
+      'Significantly cheaper than a part-time receptionist',
+      'Ready to use within 5 business days',
+    ],
+  },
+  simulatedCall: {
+    label: 'Active call · Magnora Marketing AI Reception',
+    status: 'Connected',
+    aiLabel: 'AI:',
+    callerLabel: 'Caller:',
+    lines: [
+      { speaker: 'ai', text: 'Thank you for calling Magnora Marketing. How can I help you today?' },
+      { speaker: 'caller', text: "I'd like to hear more about your meeting booking solution" },
+      { speaker: 'ai', text: 'Of course! May I ask – how many meetings would you like booked per month?' },
+      { speaker: 'caller', text: 'Around 15-20 meetings' },
+      { speaker: 'ai', text: "Perfect. I'll book a meeting for you with one of our specialists. Does Monday at 10am work for you?" },
+    ],
+    footerNote: 'Meeting booked automatically · Calendar invite sent',
+  },
+  features: {
+    label: 'Features',
+    title: 'An AI receptionist that does it all',
+    subtitle: 'From simple call answering to advanced call routing and automatic meeting booking – all in one solution.',
+    items: [
+      {
+        title: 'Natural voice conversation in Danish',
+        description: "Magnora Marketing's AI receptionist speaks fluent Danish with natural prosody and understands context, dialects and industry jargon – just like an experienced employee.",
+      },
+      {
+        title: 'Never busy – always available',
+        description: 'The AI receptionist answers every call instantly, 24/7/365. No wait time, no wasted leads, no lost customers.',
+      },
+      {
+        title: 'Automatic meeting booking over the phone',
+        description: "The caller books a meeting directly during the call. The AI finds available slots, confirms the booking and sends a calendar invite.",
+      },
+      {
+        title: 'Intelligent call routing',
+        description: 'The AI identifies the purpose of the call and routes it to the right department, colleague or salesperson – or handles it itself.',
+      },
+      {
+        title: 'SMS and email follow-up',
+        description: 'After every call, the AI receptionist automatically sends a summary, a booking link or relevant documents to the caller.',
+      },
+      {
+        title: 'Full call logging and analytics',
+        description: 'Every conversation is transcribed and analyzed. You get insight into what customers are calling about and which inquiries convert best.',
+      },
+    ],
+  },
+  comparison: {
+    label: 'Comparison',
+    title: 'AI receptionist vs. human receptionist',
+    headerAi: 'Magnora Marketing AI Receptionist',
+    headerHuman: 'Human receptionist',
+    rows: [
+      { feature: 'Availability', ai: '24/7/365', human: 'Mon-Fri 8am-4pm' },
+      { feature: 'Simultaneous calls', ai: 'Unlimited', human: '1 at a time' },
+      { feature: 'Response time', ai: '< 1 second', human: '10-30 seconds' },
+      { feature: 'Meeting booking', ai: '✓ Automatic', human: '✓ Manual' },
+      { feature: 'Monthly cost', ai: 'From DKK 1,500', human: 'DKK 25,000+' },
+      { feature: 'Onboarding time', ai: '3-5 days', human: '4-8 weeks' },
+    ],
+    ctaText: 'Get started with an AI receptionist',
+  },
+  faq: {
+    title: 'Frequently asked questions about AI receptionist',
+    items: [
+      { question: 'What is an AI receptionist?', answer: 'An AI receptionist is a voice-based AI that answers phone calls, handles inquiries and books meetings – automatically and in natural Danish.' },
+      { question: 'Does the AI receptionist sound human?', answer: "Yes – modern AI voices are highly lifelike. Most callers don't immediately notice they're talking to an AI unless they ask directly." },
+      { question: 'What happens with complex inquiries?', answer: 'The AI automatically escalates complex or sensitive inquiries to a human. The call is forwarded or a notification is sent to the right employee.' },
+      { question: 'Can the AI receptionist book meetings directly?', answer: 'Yes – through integration with Google Calendar and Outlook, the AI can find available slots and confirm the booking during the call itself.' },
+      { question: 'What languages does the AI receptionist speak?', answer: 'Primarily Danish, but the solution can be configured for Danish, English, German and other languages depending on your needs.' },
+      { question: 'What does an AI receptionist cost?', answer: 'The price depends on call volume and integrations. Contact Magnora Marketing for a tailored quote – typically significantly cheaper than a part-time receptionist.' },
+      { question: 'Can the AI receptionist integrate with our phone system?', answer: 'Yes – we integrate with all common VOIP systems, Microsoft Teams, 3CX, RingCentral and traditional phone lines.' },
+      { question: 'Is the solution GDPR-compliant?', answer: 'Yes – calls are handled in accordance with GDPR. Recordings are stored securely and deleted after the agreed retention period.' },
+      { question: 'Can I listen to the calls afterwards?', answer: 'Yes – every call is transcribed and can be reviewed. You receive daily or weekly summaries.' },
+      { question: 'How is the AI trained for our business?', answer: 'We onboard the AI receptionist with your product information, FAQs, pricing structure and tone of voice, so it answers accurately and on-brand.' },
+      { question: 'Can it handle multiple calls at once?', answer: 'Yes – the AI receptionist can answer an unlimited number of simultaneous calls with no wait time or busy signal.' },
+      { question: 'What happens outside opening hours?', answer: 'The AI receptionist works 24/7. Outside opening hours it can take messages, book meetings and send automatic replies.' },
+      { question: 'Does the AI send call summaries?', answer: 'Yes – after every call, a transcript and summary is sent to the relevant employee via email or Slack.' },
+      { question: 'Can it recognize returning customers?', answer: 'Yes – through CRM integration, the AI can recognize known customers based on phone number and tailor the conversation accordingly.' },
+      { question: 'When is an AI receptionist not suitable?', answer: 'The AI receptionist is not ideal for highly complex advisory conversations or crisis situations – in those cases it escalates to a human.' },
+    ],
+  },
+  ctaSection: {
+    title: 'Let AI answer your phone starting tomorrow',
+    subtitle: "Book a free demo and see Magnora Marketing's AI receptionist in action. Ready to use within 5 business days.",
+    primaryText: 'Book free demo',
+    secondaryText: 'See AI widget',
+  },
+};

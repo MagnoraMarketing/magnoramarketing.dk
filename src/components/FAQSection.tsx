@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import { ChevronDown } from 'lucide-react';
 
 interface FAQItem {
@@ -12,8 +13,10 @@ interface FAQSectionProps {
   title?: string;
 }
 
-const FAQSection: React.FC<FAQSectionProps> = ({ faqs, title = 'Ofte stillede spørgsmål' }) => {
+const FAQSection: React.FC<FAQSectionProps> = ({ faqs, title }) => {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const finalTitle = title ?? t('faqSection.defaultTitle');
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -35,9 +38,9 @@ const FAQSection: React.FC<FAQSectionProps> = ({ faqs, title = 'Ofte stillede sp
       </Helmet>
       <div className="container">
         <div className="text-center mb-12">
-          <span className="section-label">FAQ</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>
-          <p className="text-slate-500 max-w-xl mx-auto">Find svar på de mest stillede spørgsmål herunder.</p>
+          <span className="section-label">{t('faqSection.label')}</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{finalTitle}</h2>
+          <p className="text-slate-500 max-w-xl mx-auto">{t('faqSection.subtitle')}</p>
         </div>
         <div className="max-w-3xl mx-auto space-y-3">
           {faqs.map((faq, index) => (

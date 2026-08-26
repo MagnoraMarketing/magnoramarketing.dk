@@ -1,0 +1,97 @@
+export default {
+  seo: {
+    title: 'Freelance Sælger & Mødebooker Stillinger | Magnora Marketing',
+    description: 'Bliv freelance sælger eller mødebooker hos Magnora Marketing. Arbejd hjemmefra, sæt dine egne tider og tjen godt med attraktiv provision. Se alle ledige stillinger her.',
+    keywords: 'freelance sælger, freelance mødebooker, arbejd hjemmefra, telemarketing job, Magnora Marketing stillinger, B2B sælger',
+  },
+  hero: {
+    title: 'Din Karriere som Freelance Sælger starter her',
+    subtitle: 'Magnora Marketing tilbyder fleksible freelance-muligheder inden for B2B salg og mødebooking. Sæt dine egne tider, arbejd hjemmefra og byg en karriere på dine egne præmisser.',
+    cta: 'Se ledige stillinger',
+    secondaryCta: 'Kontakt os',
+  },
+  benefits: {
+    title: 'Hvad du får hos Magnora Marketing',
+    subtitle: 'Magnora Marketing tilbyder noget sjældent: friheden som freelancer kombineret med et stærkt professionelt fundament.',
+    items: [
+      { title: 'Fleksibel hverdag', description: 'Du bestemmer selv hvornår du arbejder. Tilpas din arbejdsdag til dit liv – ikke omvendt.' },
+      { title: 'Stærk indtjening', description: 'Konkurrencedygtig grundaflønning kombineret med attraktive resultatbonusser. Jo bedre du performer, jo mere tjener du.' },
+      { title: 'Stærkt fællesskab', description: 'Selv som freelancer er du aldrig alene. Du er en del af et stærkt Magnora Marketing-netværk med sparring og fælles drive.' },
+      { title: 'Faglig udvikling', description: 'Struktureret oplæring, løbende coaching og mulighed for at tage mere ansvar og avancere i rollen.' },
+    ],
+  },
+  workFromHome: {
+    title: 'Arbejd hjemmefra med Magnora Marketing',
+    intro: 'Som freelance sælger eller mødebooker hos Magnora Marketing har du fuld fleksibilitet til at arbejde fra dit eget hjem. Du får adgang til moderne salgssystemer, løbende sparring og et stærkt netværk – uden at skulle møde ind på et kontor.',
+    imageAlt: 'Freelance sælger arbejder hjemmefra med Magnora Marketing',
+    benefits: [
+      { title: 'Hjemmekontor', description: 'Arbejd effektivt fra dit eget hjem med alle nødvendige digitale redskaber. Ingen transporttid, ingen dyre frokoster.' },
+      { title: 'Egne arbejdstider', description: 'Tilrettelæg din dag som det passer dig – ideelt for studerende, forældre og alle med et aktivt liv ved siden af arbejdet.' },
+      { title: 'Resultatdrevet løn', description: 'Fast grundløn plus provision. Dine resultater afspejler sig direkte i din lønseddel.' },
+    ],
+    checklist: [
+      'Ingen transport og pendling',
+      'Bedre balance mellem arbejde og privatliv',
+      'Fuld fleksibilitet i arbejdstilrettelæggelsen',
+      'Provision og bonus oveni grundlønnen',
+      "Del af Magnora Marketing's stærke salgsfællesskab",
+      'Grundig onboarding og løbende support',
+      'Professionel og personlig udvikling',
+      'Sociale events og fælles fejringer',
+    ],
+  },
+  jobs: {
+    title: 'Ledige Stillinger hos Magnora Marketing',
+    subtitle: 'Vi søger løbende dygtige og motiverede freelance sælgere og mødebookere. Se de aktuelle stillinger herunder.',
+    badge: 'Ledig',
+    readMore: 'Læs mere',
+  },
+  midCta: {
+    title: 'Er du klar til at starte hos Magnora Marketing?',
+    subtitle: 'Send os en besked eller ring – vi tager en uforpligtende snak om de muligheder der passer bedst til dig.',
+    cta: 'Kontakt os i dag',
+  },
+  info: {
+    section1: {
+      title: 'Bliv Freelance Sælger hos Magnora Marketing – Fleksibel Karriere inden for B2B Telemarketing',
+      p1: 'Som freelance sælger eller mødebooker hos Magnora Marketing får du den sjældne kombination af frihed og et stærkt professionelt fundament. Du arbejder 100% hjemmefra på dine egne præmisser – ingen pendling, ingen faste kontortider og ingen loft på din indtjening. Magnora Marketing leverer leads, scripts, kampagnematerialer og CRM-adgang fra dag ét, så du kan fokusere på det du er bedst til: at skabe resultater. Vores freelancere er tilknyttet projekter inden for alt fra SaaS og webudvikling til energi, kaffeservice og pensionsrådgivning.',
+      p2: "Oplæringen hos Magnora Marketing er struktureret og grundig – du gennemgår et onboarding-forløb med produkttræning, salgsteknik og gennemgang af scripts inden du begynder. Undervejs har du adgang til løbende coaching og sparring fra erfarne salgsledere, og du er en del af et stærkt Magnora Marketing-netværk af freelancere der deler erfaringer og motivation. Provisionen er konkurrencedygtig og afspejler direkte dine resultater – jo mere du sælger, jo mere tjener du.",
+      list: [
+        'Arbejd hjemmefra med fuld fleksibilitet over din arbejdsdag',
+        'Grundig onboarding og løbende faglig sparring',
+        'Konkurrencedygtig grundaflønning plus resultatbonus',
+        'Bredt udvalg af produkter og brancher at vælge imellem',
+      ],
+    },
+    section2: {
+      title: 'Freelance Telemarketing og Mødebooking – Karrieremuligheder med Magnora Marketing',
+      p1: 'Magnora Marketing er i konstant vækst og søger løbende dygtige og motiverede freelance sælgere og mødebookere til vores projekter i hele Danmark. Uanset om du er studerende, forælder, erfaren sælger eller nystartet i branchen, er der plads til dig hos Magnora Marketing. Du vælger selv det produkt og den branche der passer bedst til din baggrund og interesse – og Magnora Marketing leverer resten. Mange af vores freelancere bruger samarbejdet som en fast biindtægt eller som udgangspunkt for en fuld karriere inden for B2B salg og telemarketing.',
+      p2: 'Tag styringen over din karriere og kontakt Magnora Marketing på mail@magnoramarketing.dk. Vi tager en uforpligtende snak om de muligheder der passer bedst til din situation, og kommer hurtigt i gang med et onboarding-forløb tilpasset dig.',
+    },
+  },
+  faq: {
+    items: [
+      { question: 'Hvad tjener man som freelance sælger hos Magnora Marketing?', answer: 'Lønnen består af et fast grundhonorar plus provision på dine resultater. Jo mere du sælger, jo mere tjener du – der er intet loft.' },
+      { question: 'Skal jeg have erfaring for at søge?', answer: 'Erfaring er en fordel, men ikke et krav. Magnora Marketing oplærer dig grundigt og giver dig løbende sparring og support.' },
+      { question: 'Kan jeg arbejde deltid?', answer: 'Ja – du bestemmer selv dine arbejdstider og kan arbejde alt fra få timer om ugen til fuld tid.' },
+      { question: 'Hvad sker der, hvis jeg har spørgsmål under arbejdet?', answer: "Du har altid adgang til support fra Magnora Marketing's erfarne salgsledere, der kan hjælpe med sparring, scripts og produktspørgsmål." },
+      { question: 'Hvilke produkter sælger man?', answer: 'Magnora Marketing har freelancere inden for mange brancher – webudvikling, energi, solceller, kaffeservice, pension, inkasso og mere. Du vælger det produkt, der passer bedst til dig.' },
+      { question: 'Er der mulighed for fast ansættelse?', answer: 'Samarbejdet starter som freelance. Dygtige freelancere kan på sigt diskutere andre samarbejdsformer med Magnora Marketing.' },
+      { question: 'Hvad sker der i oplæringsperioden?', answer: 'Du gennemgår et onboarding-forløb med produkttræning, salgsteknik og gennemgang af scripts. Typisk tager det 1-3 dage.' },
+      { question: 'Kan jeg sælge flere produkter på én gang?', answer: 'Normalt starter du med ét produkt. Når du har opnået rutine, kan du eventuelt tage flere produkter ind.' },
+      { question: 'Hvad er det laveste jeg kan tjene?', answer: 'Det afhænger af aktivitetsniveau og produkt. Vi sætter realistiske forventninger ved opstart og er transparente om løn.' },
+      { question: 'Har I et fællesskab for freelancere?', answer: "Ja – du bliver en del af Magnora Marketing's netværk af freelancere og har adgang til erfaringsudveksling og fælles motivationsaktiviteter." },
+      { question: 'Kan jeg arbejde fra udlandet?', answer: 'Ja – så længe du har stabilt internet og kan kommunikere professionelt på dansk, kan du arbejde fra hele verden.' },
+      { question: 'Hvad er det vigtigste for at lykkes som freelancer hos Magnora Marketing?', answer: 'Vedholdenhed, struktur og positivt mindset. Telemarketing kræver at man kan håndtere afvisninger og bevare motivationen.' },
+      { question: 'Hvornår modtager jeg min første udbetaling?', answer: 'Udbetalinger sker typisk månedligt bagud. Du modtager en opgørelse over verificerede salg og aktiviteter.' },
+      { question: 'Er der en prøveperiode?', answer: 'De første 2-4 uger betragtes typisk som en gensidig prøveperiode, så begge parter kan vurdere samarbejdet.' },
+      { question: 'Hvad er de typiske arbejdstider?', answer: 'De fleste freelancere ringer inden for normal dansk kontortid (8-17), men du bestemmer selv inden for dette vindue.' },
+    ],
+  },
+  finalCta: {
+    title: 'Tag styringen over din karriere – bliv freelance sælger hos Magnora Marketing',
+    subtitle: 'Fleksible arbejdstider, konkurrencedygtig provision og spændende projekter. Alt hvad du behøver for at lykkes som freelancer.',
+    primaryText: 'Søg nu',
+    secondaryText: 'Se ledige stillinger',
+  },
+};

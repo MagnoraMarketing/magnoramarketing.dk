@@ -1,0 +1,92 @@
+export default {
+  seo: {
+    title: 'Mødebooking | Magnora Marketing – Din Vækstpartner inden for Telesalg og AI',
+    description: "Magnora Marketing's professionelle mødebooking sikrer kvalificerede salgsmøder. Din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI.",
+    keywords: 'mødebooking priser, B2B salgsmøder, Magnora Marketing mødebooking, kvalificerede møder, mødebooking service',
+  },
+  hero: {
+    title: 'Professionel Mødebooking med Magnora Marketing',
+    subtitle: 'Vi leverer kvalificerede salgsmøder med de rette beslutningstagere – så din salgsstyrke kan lukke flere aftaler og bruge tid på det der skaber omsætning.',
+    cta: 'Se priser',
+    secondaryCta: 'Kontakt os',
+  },
+  features: {
+    title: "Magnora Marketing's Tilgang til Mødebooking",
+    subtitle: 'Vi går metodisk til mødebooking – fra lead-research og kvalificering til bekræftede møder i din kalender.',
+    items: [
+      { title: 'Kvalificerede møder', description: 'Hvert møde er grundigt screenet og kvalificeret inden booking. Ingen spildt tid – kun møder med reel forretningspotentiale.' },
+      { title: 'Rette beslutningstagere', description: 'Vi sikrer at du møder de rette nøglepersoner med budget og beslutningskompetence.' },
+      { title: 'Klar rapportering', description: 'Fuld transparens med løbende rapportering på bookede møder, mødekvalitet og kampagnestatus.' },
+      { title: 'Garanteret kvalitet', description: 'Aflyste eller ikke-opfyldte møder erstattes – vi holder os selv ansvarlige for at levere.' },
+    ],
+  },
+  process: {
+    title: "Sådan fungerer Magnora Marketing's mødebooking",
+    steps: [
+      { title: 'Briefing og strategi', desc: 'Vi lærer din virksomhed og dine ideelle kunder at kende, og udvikler en målrettet kommunikationsstrategi.' },
+      { title: 'Lead-identifikation', desc: 'Vi identificerer og screener relevante virksomheder og nøglepersoner i din målgruppe.' },
+      { title: 'Kvalificeret kontakt', desc: 'Vi tager første kontakt og kvalificerer interesse, budget og beslutningskompetence.' },
+      { title: 'Møde booket', desc: 'Det kvalificerede møde bookes i din kalender – bekræftet og klar til at gennemføre.' },
+    ],
+    cta: 'Kom i gang med Magnora Marketing',
+    includesTitle: "Hvad inkluderer Magnora Marketing's mødebooking?",
+    includesItems: [
+      'Fuld lead-research og målgruppesegmentering',
+      'Skræddersyede scripts og kommunikationsstrategier',
+      'BANT-kvalificering af hvert lead',
+      'Booking og kalenderkoordinering',
+      'Dobbelt mødebekræftelse (email + SMS)',
+      'Mødenoter og briefing-materiale til dig',
+      'Løbende optimering og feedback-loop',
+      'Månedlig performance-rapportering',
+    ],
+  },
+  midCta: {
+    title: 'Lad Magnora Marketing fylde din mødebog',
+    subtitle: 'Kontakt os og få et skræddersyet tilbud på mødebooking tilpasset din branche og dine vækstmål.',
+    cta: 'Se priser og modeller',
+  },
+  info: {
+    section1: {
+      title: 'Professionel B2B Mødebooking – Kvalificerede Salgsmøder med de Rette Beslutningstagere',
+      p1: "Magnora Marketing's professionelle mødebooking-service er designet til at fylde din kalender med kvalificerede salgsmøder hos de beslutningstagere der faktisk har budget, behov og kompetence til at træffe en beslutning. Vores erfarne mødebookere arbejder metodisk og struktureret: vi identificerer og screener relevante virksomheder, kontakter nøglepersonerne med et skræddersyet budskab og booker mødet direkte i din kalender – bekræftet, briefet og klar til gennemførelse. Aflyste møder erstattes automatisk, så du aldrig mister momentum.",
+      p2: 'B2B mødebooking med Magnora Marketing er langt mere end blot at lave telefonopkald. Vi udvikler en komplet kommunikationsstrategi med branchetilpassede scripts, gennemfører BANT-kvalificering af hvert lead og sikrer dobbelt mødebekræftelse via email og SMS. Du modtager løbende rapporter med mødestatus, mødekvalitet og kampagneperformance – og har altid fuld transparens over hvad der sker i din salgspipeline.',
+      list: [
+        'Fuld lead-research og målgruppesegmentering',
+        'BANT-kvalificering af hvert møde inden booking',
+        'Dobbelt mødebekræftelse (email + SMS)',
+        'Mødenoter og briefing-materiale til din salgsstyrke',
+      ],
+    },
+    section2: {
+      title: 'Mødebooking Priser og Modeller – No Cure No Pay eller Fast Pakke',
+      p1: 'Magnora Marketing tilbyder fleksible prismodeller for professionel mødebooking der passer til din virksomheds størrelse og behov. Med vores No Cure No Pay-model betaler du udelukkende for gennemførte, kvalificerede møder – du definerer selv kvalitetskriterierne og betaler ikke for aflyste eller useriøse møder. Pakkeløsningen giver en lavere enhedspris og mere forudsigelige omkostninger, og er bedst egnet til virksomheder med et kontinuerligt behov for mødebooking.',
+      p2: 'Kontakt Magnora Marketing på mail@magnoramarketing.dk for et uforpligtende tilbud på mødebooking tilpasset din branche, din målgruppe og dine vækstmål. De første kvalificerede møder kan typisk leveres inden for 2-3 uger efter opstartsbriefing.',
+    },
+  },
+  faq: {
+    items: [
+      { question: 'Hvad er mødebooking?', answer: 'Mødebooking er processen med at identificere og kontakte potentielle kunder og booke kvalificerede salgsmøder direkte i din kalender – så dit salgsteam kan fokusere på at lukke aftaler.' },
+      { question: 'Hvem booker møderne?', answer: "Magnora Marketing's erfarne mødebookere kontakter beslutningstagere i din målgruppe, præsenterer din løsning og booker møder direkte i din kalender." },
+      { question: 'Hvad sker der, hvis et møde aflyses?', answer: 'Vi håndterer afbud og ombookinger og sikrer at din kalender altid er fyldt med kvalificerede møder.' },
+      { question: 'Kan I booke møder inden for specifikke brancher?', answer: 'Ja – vi har erfaring med mødebooking i over 16 brancher og tilpasser vores tilgang til din målgruppe.' },
+      { question: 'Hvad er en typisk succesrate for mødebooking?', answer: 'Det afhænger af branche og målgruppe, men vores kunder oplever typisk en møderate på 10-20% af kvalificerede kontakter.' },
+      { question: 'Hvad er en beslutningstager?', answer: 'En beslutningstager er den person i en virksomhed der har myndighed til at godkende et køb – typisk en direktør, chef eller manager.' },
+      { question: 'Kan I booke møder i hele Skandinavien?', answer: 'Vi fokuserer primært på det danske marked, men kan også understøtte mødebooking i Sverige og Norge.' },
+      { question: 'Hvad sker der, hvis en potentiel kunde siger nej?', answer: 'Vi registrerer feedbacken, opdaterer databasen og vender eventuelt tilbage på et senere tidspunkt med ny information.' },
+      { question: 'Kan vi se hvem der er kontaktet?', answer: 'Ja – du modtager løbende opdateringer og har fuld adgang til aktivitetslog og kontakthistorik.' },
+      { question: 'Hvordan håndterer I GDPR ved opkald?', answer: 'Vi følger alle GDPR-regler for B2B kommunikation og registrering, inkl. korrekt håndtering af opt-out og dataopbevaring.' },
+      { question: 'Hvor mange opkald laver I per dag?', answer: 'Aktivitetsniveauet aftales individuelt baseret på kampagnens omfang og budget.' },
+      { question: 'Kan vi stille krav til mødetidspunkter?', answer: 'Ja – du kan angive præferencer for hvornår møder må bookes, f.eks. kun om morgenen eller bestemte ugedage.' },
+      { question: 'Hvad er en pre-kvalificering?', answer: 'Pre-kvalificering betyder at vi screener potentielle kunder inden mødebooking for at sikre de opfylder dine kriterier for en god kunde.' },
+      { question: 'Kan vi se en demo af processen?', answer: 'Ja – kontakt os for en gennemgang af vores mødebookingproces og eksempler på kampagner.' },
+      { question: 'Hvad er den hurtigste måde at komme i gang?', answer: 'Udfyld kontaktformularen, og vi sætter et afklaringsmøde op inden for 2 hverdage.' },
+    ],
+  },
+  finalCta: {
+    title: 'Book dit første mødebookingmøde med Magnora Marketing i dag',
+    subtitle: 'Vi er klar til at hjælpe din virksomhed med at fylde kalenderen med kvalificerede salgsmøder.',
+    primaryText: 'Kontakt os nu',
+    secondaryText: 'Se priser',
+  },
+};
