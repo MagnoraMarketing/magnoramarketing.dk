@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Hvorfor Os? | Din Langsigtede Vækstpartner – Telesalg, Webudvikling & AI',
-    description: 'Magnora Marketing er din langsigtede vækstpartner – uanset om samarbejdet er inden for telemarketing, webudvikling eller AI. Vi er skarpe på hjemmesider, AI-udvikling og telesalg, og vi er med hele vejen, hvis du ønsker det.',
+    title: 'Hvorfor Magnora? Din Langsigtede Vækstpartner',
+    description: 'Magnora Marketing er din langsigtede vækstpartner inden for telesalg, webudvikling og AI – skarpe på resultater og med dig hele vejen.',
     keywords: 'hvorfor Magnora Marketing, langsigtet samarbejde, vækstpartner, telesalg, webudvikling, AI-udvikling, AI-løsninger, hjemmesider, mødebooking, B2B salgspartner',
   },
   hero: {

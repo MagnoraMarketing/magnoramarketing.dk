@@ -10,7 +10,7 @@ export default function SaaSSecurityGDPR() {
       <SEO
         title={t('blogPosts.SaaSSecurityGDPR.seoTitle')}
         description={t('blogPosts.SaaSSecurityGDPR.seoDescription')}
-        canonical="/blog/saas-security-gdpr-2026"
+        canonical="/blog/saas-security-gdpr"
         keywords={t('blogPosts.SaaSSecurityGDPR.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

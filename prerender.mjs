@@ -121,6 +121,18 @@ for (const route of routes) {
   }
 }
 
+// Static 404 page. Vercel serves dist/404.html with a real 404 status for any
+// URL that has no pre-rendered file (see vercel.json), so unknown URLs are never
+// indexed as soft-404 copies of the homepage.
+{
+  const { appHtml, head } = render('/404');
+  const html = template
+    .replace(/<title>[\s\S]*?<\/title>\s*/, '')
+    .replace('<!--app-head-->', () => head)
+    .replace('<!--app-html-->', () => appHtml);
+  fs.writeFileSync(path.join(distDir, '404.html'), html);
+}
+
 console.log(
   `\n✓ Pre-rendered ${ok} routes to static HTML` +
     (failed ? ` (${failed} skipped — served via client rendering fallback)` : '')

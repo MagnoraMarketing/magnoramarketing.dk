@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'Kontakt Magnora Marketing | Få et uforpligtende tilbud',
-    description: 'Kontakt os for en uforpligtende snak om, hvordan vi kan hjælpe din virksomhed med professionel telemarketing, mødebooking eller digital udvikling. ✓ Gratis rådgivning ✓ Skræddersyede løsninger',
+    description: 'Kontakt os for en uforpligtende snak om telemarketing, mødebooking eller digital udvikling til din virksomhed. ✓ Gratis rådgivning ✓ Skræddersyet',
     keywords: 'kontakt, telemarketing bureau, mødebooking bureau, digital udvikling, B2B salg, rådgivning',
   },
   hero: {

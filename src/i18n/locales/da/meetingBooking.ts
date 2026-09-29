@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Mødebooking | Magnora Marketing – Din Vækstpartner inden for Telesalg og AI',
-    description: "Magnora Marketing's professionelle mødebooking sikrer kvalificerede salgsmøder. Din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI.",
+    title: 'Mødebooking for B2B – Kvalificerede Møder | Magnora',
+    description: 'Professionel B2B mødebooking med erfarne konsulenter. Vi fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere.',
     keywords: 'mødebooking priser, B2B salgsmøder, Magnora Marketing mødebooking, kvalificerede møder, mødebooking service',
   },
   hero: {

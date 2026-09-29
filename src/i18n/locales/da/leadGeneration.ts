@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Leadgenerering | Magnora Marketing – Varme B2B Leads til dit Salgsteam',
-    description: "Magnora Marketing's datadrevne leadgenerering leverer salgsklar B2B leads direkte til dit CRM. Vi kombinerer multi-kanal tilgang med præcis segmentering for at maksimere din salgspipeline.",
+    title: 'B2B Leadgenerering – Varme Leads | Magnora Marketing',
+    description: 'Datadrevet B2B leadgenerering, der leverer salgsklare leads direkte til dit CRM. Multikanal og præcis segmentering, der fylder din pipeline.',
     keywords: 'leadgenerering, B2B leads, Magnora Marketing leadgenerering, salgspipeline, varme leads, lead scoring',
   },
   hero: {

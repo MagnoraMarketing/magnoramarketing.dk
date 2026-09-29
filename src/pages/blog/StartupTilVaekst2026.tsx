@@ -16,7 +16,7 @@ export default function StartupTilVaekst2026() {
       <SEO
         title={t('blogPosts.StartupTilVaekst2026.seoTitle')}
         description={t('blogPosts.StartupTilVaekst2026.seoDescription')}
-        canonical="/blog/startup-til-vaekekst-2026"
+        canonical="/blog/startup-til-vaekst-2026"
         keywords={t('blogPosts.StartupTilVaekst2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

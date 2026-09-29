@@ -10,7 +10,7 @@ export default function HvadErBANT2026() {
       <SEO
         title={t('blogPosts.HvadErBANT2026.seoTitle')}
         description={t('blogPosts.HvadErBANT2026.seoDescription')}
-        canonical="/blog/hvad-er-bant-kvalificering"
+        canonical="/blog/hvad-er-bant-2026"
         keywords={t('blogPosts.HvadErBANT2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

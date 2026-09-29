@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'Freelance Sælger Pensionsrådgivning | Magnora Marketing',
-    description: 'Bliv freelance sælger inden for pensionsrådgivning hos Magnora Marketing. Hjælp private og erhvervskunder med pensionsplanlægning – hjemmefra med god provision.',
+    description: 'Bliv freelance sælger inden for pensionsrådgivning. Hjælp private og erhvervskunder med pensionsplanlægning – hjemmefra med god provision.',
     keywords: 'freelance sælger pension, pensionsrådgivning salg, pension sælger job, finansiel rådgivning freelance, Magnora Marketing pension stilling',
   },
   hero: {

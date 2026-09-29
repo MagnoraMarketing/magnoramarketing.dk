@@ -1,7 +1,7 @@
 export default {
   SaadanForegaarSamarbejdet: {
-    seoTitle: 'Sådan foregår et samarbejde med Magnora Marketing – trin for trin',
-    seoDescription: 'Fra første uforpligtende snak til de første kvalificerede møder: Se præcis hvordan et samarbejde med Magnora Marketing forløber – enkelt, hurtigt og transparent.',
+    seoTitle: 'Sådan foregår samarbejdet – trin for trin | Magnora',
+    seoDescription: 'Fra første uforpligtende snak til de første kvalificerede møder: Se præcis hvordan et samarbejde med Magnora forløber – enkelt, hurtigt og transparent.',
     keywords: 'samarbejde proces Magnora, sådan foregår mødebooking samarbejde, onboarding telesalg, opstart vækstpartner, kom i gang Magnora Marketing',
     category: 'Samarbejde & Vækst',
     title: 'Sådan foregår et samarbejde med Magnora Marketing – trin for trin',
@@ -51,8 +51,8 @@ export default {
     ctaSubtitle: 'Udfyld kontaktformularen, så starter vi med en gratis og uforpligtende samtale om dine mål.',
   },
   OutsourceMoedebookingFordele: {
-    seoTitle: 'Outsource din mødebooking: 7 fordele ved at samarbejde med Magnora Marketing',
-    seoDescription: 'Skal du outsource din mødebooking eller ansætte internt? Se de 7 største fordele ved at lade Magnora Marketing stå for din B2B mødebooking – hurtigere opstart, lavere risiko og flere kvalificerede møder.',
+    seoTitle: 'Outsource mødebooking: 7 fordele | Magnora Marketing',
+    seoDescription: 'Outsource mødebookingen eller ansæt internt? Se 7 fordele ved at lade Magnora stå for din B2B mødebooking – hurtig opstart, lav risiko og flere møder.',
     keywords: 'outsource mødebooking, ekstern mødebooking, fordele mødebooking, B2B mødebooking outsourcing, mødebooking vs internt team',
     category: 'Mødebooking',
     title: 'Outsource din mødebooking: 7 fordele ved at samarbejde med Magnora Marketing',
@@ -114,8 +114,8 @@ export default {
     ctaSubtitle: 'Kontakt Magnora Marketing via formularen for en uforpligtende vurdering af, hvad ekstern mødebooking kan betyde for din virksomhed.',
   },
   FremtidensAiLoesninger2026: {
-    seoTitle: 'Fremtidens AI-løsninger: Sådan forandrer kunstig intelligens danske virksomheder | Magnora Marketing',
-    seoDescription: 'Få indblik i fremtidens AI-løsninger, og se hvordan kunstig intelligens allerede nu forandrer måden danske virksomheder arbejder, sælger og servicerer kunder på i 2026.',
+    seoTitle: 'Fremtidens AI-løsninger for danske virksomheder',
+    seoDescription: 'Se hvordan kunstig intelligens allerede forandrer måden, danske virksomheder arbejder, sælger og servicerer kunder på i 2026.',
     keywords: 'fremtidens AI-løsninger, kunstig intelligens virksomheder, AI 2026, AI trends Danmark, AI automatisering, AI transformation',
     category: 'AI Integration',
     title: 'Fremtidens AI-løsninger: Sådan forandrer kunstig intelligens danske virksomheder',
@@ -176,8 +176,8 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   HvorforMagnoraMoedebooking: {
-    seoTitle: 'Hvorfor vælge Magnora Marketing til mødebooking? | Magnora Marketing Blog',
-    seoDescription: 'Magnora Marketing leverer kvalificeret B2B mødebooking med erfarne konsulenter og gennemprøvede metoder. Forstå hvad der adskiller vores mødebooking fra andre udbydere.',
+    seoTitle: 'Hvorfor vælge Magnora Marketing til mødebooking?',
+    seoDescription: 'Kvalificeret B2B mødebooking med erfarne konsulenter og gennemprøvede metoder. Se hvad der adskiller vores mødebooking fra andre udbydere.',
     keywords: 'Magnora Marketing mødebooking, B2B mødebooking partner, outsourcing mødebooking, bookede møder B2B, mødebooking Danmark',
     category: 'Mødebooking',
     title: 'Hvorfor vælge Magnora Marketing til mødebooking?',
@@ -209,8 +209,8 @@ export default {
     ctaSecondaryText: 'Se vores mødebookingydelser',
   },
   HvorforMagnoraWebudvikling: {
-    seoTitle: 'Hvorfor vælge Magnora Marketing som partner til webudvikling? | Magnora Marketing Blog',
-    seoDescription: 'Forstå hvad der adskiller Magnora Marketing fra andre webudviklere. Forretningsorienteret webudvikling der konverterer besøgende til kunder – ikke blot smukke hjemmesider.',
+    seoTitle: 'Hvorfor vælge Magnora til webudvikling?',
+    seoDescription: 'Forretningsorienteret webudvikling, der gør besøgende til kunder – ikke blot smukke hjemmesider. Se hvad der adskiller Magnora fra andre webudviklere.',
     keywords: 'Magnora Marketing webudvikling, webudvikler B2B, hjemmeside der konverterer, professionel webudvikling Danmark, webbureau vækst',
     category: 'Webudvikling',
     title: 'Hvorfor vælge Magnora Marketing som partner til webudvikling?',
@@ -244,8 +244,8 @@ export default {
     ctaSecondaryText: 'Se vores webudviklingsydelser',
   },
   SaaSSecurityGDPR: {
-    seoTitle: 'SaaS og GDPR i 2026: Hvad skal din virksomhed vide? | Magnora Marketing Blog',
-    seoDescription: 'Komplet guide til SaaS og GDPR-compliance i 2026. Lær om databehandleraftaler, datalokalitet, tredjelandsoverførsler og hvad du skal kræve af dine SaaS-leverandører.',
+    seoTitle: 'SaaS og GDPR i 2026: Det skal du vide | Magnora',
+    seoDescription: 'Guide til SaaS og GDPR i 2026: databehandleraftaler, datalokalitet, tredjelandsoverførsler og hvad du skal kræve af dine SaaS-leverandører.',
     keywords: 'SaaS GDPR 2026, cloud GDPR compliance, databehandleraftale SaaS, GDPR krav virksomhed, persondatabeskyttelse cloud',
     category: 'SaaS & Cloud',
     title: 'SaaS og GDPR i 2026: Hvad skal din virksomhed vide?',

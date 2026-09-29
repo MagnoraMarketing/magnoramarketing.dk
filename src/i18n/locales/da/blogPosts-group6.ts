@@ -1,8 +1,8 @@
 export default {
   IdeudviklingMedMagnora: {
-    seoTitle: 'Idéudvikling med Magnora Marketing: Fra koncept til markedsklar løsning | Magnora Marketing',
+    seoTitle: 'Idéudvikling: Fra koncept til markedsklar løsning',
     seoDescription:
-      'Har du en idé, men mangler vejen til markedet? Magnora Marketing hjælper med idéudvikling, konceptudvikling og opbygning af den løsning, der skal sælges – og står klar med salgskraften bagefter.',
+      'Har du en idé, men mangler vejen til markedet? Vi hjælper med idé- og konceptudvikling, bygger løsningen – og står klar med salgskraften bagefter.',
     keywords: 'idéudvikling, konceptudvikling, fra idé til marked, forretningsudvikling, produktudvikling B2B, Magnora Marketing idéfase',
     category: 'Idéudvikling',
     title: 'Idéudvikling med Magnora Marketing: Fra koncept til markedsklar løsning',
@@ -74,9 +74,9 @@ export default {
     ctaSubtitle: 'Har du en idé, der skal ud på markedet? Kontakt os via formularen, så tager vi en uforpligtende snak om vejen fra idé til salg.',
   },
   LeadgenerseringStrategier2026: {
-    seoTitle: '5 leadgenereringsstrategier der virker i 2026 | Magnora Marketing Blog',
+    seoTitle: '5 leadgenereringsstrategier der virker i 2026',
     seoDescription:
-      'De 5 mest effektive B2B leadgenereringsstrategier i 2026. Fra content marketing og SEO til outbound prospektering og account-based marketing – find den rigtige strategi for din virksomhed.',
+      'De 5 mest effektive B2B-strategier til leadgenerering i 2026 – fra content og SEO til outbound og account-based marketing. Find den rigtige for dig.',
     keywords: 'leadgenerering 2026, B2B lead generation strategier, lead generering tips, inbound outbound leads, B2B marketing strategi',
     category: 'Leadgenerering',
     title: '5 leadgenereringsstrategier der virker i 2026',
@@ -107,9 +107,9 @@ export default {
     ctaSecondaryText: 'Se vores salgsydelser',
   },
   MoedebookingScripts2026: {
-    seoTitle: 'De bedste mødebooking-scripts til B2B salg i 2026 | Magnora Marketing Blog',
+    seoTitle: 'Mødebooking-scripts til B2B salg i 2026 | Magnora',
     seoDescription:
-      'Konkrete og effektive mødebooking-scripts til B2B cold calling i 2026. Lær strukturen bag de bedste scripts og hvordan du tilpasser dem til din målgruppe og branche.',
+      'Konkrete mødebooking-scripts til B2B cold calling i 2026. Lær strukturen bag de bedste scripts, og tilpas dem til din målgruppe og branche.',
     keywords: 'mødebooking scripts 2026, cold calling script B2B, telefonscript mødebooking, salgscript opkald, B2B cold call guide',
     category: 'Mødebooking',
     title: 'De bedste mødebooking-scripts til B2B salg i 2026',
@@ -151,9 +151,9 @@ export default {
     ctaSecondaryText: 'Se vores mødebookingydelser',
   },
   TelesalgPartnerMagnora: {
-    seoTitle: 'Telesalg-partner: Hvorfor Magnora Marketing skaber resultater for din virksomhed',
+    seoTitle: 'Telesalg-partner: Derfor skaber Magnora resultater',
     seoDescription:
-      'Magnora Marketing leverer resultatorienteret B2B telesalg med erfarne sælgere, skræddersyede scripts og fuld transparens. Se hvorfor vi er den telesalgspartner, der skaber reelle salgsresultater.',
+      'Resultatorienteret B2B telesalg med erfarne sælgere, skræddersyede scripts og fuld gennemsigtighed. Se hvorfor vi skaber reelle salgsresultater.',
     keywords: 'telesalg partner, B2B telesalg, professionelt telesalg, telefonsalg virksomhed, outsource telesalg, telesalg Danmark',
     category: 'Telesalg',
     title: 'Telesalg-partner: Hvorfor Magnora Marketing skaber resultater for din virksomhed',
@@ -220,9 +220,9 @@ export default {
     ctaSubtitle: 'Kontakt Magnora Marketing via formularen og hør, hvordan vores telesalg kan skabe kvalificerede møder og reel pipeline for din virksomhed.',
   },
   VaekstPartnerGuide: {
-    seoTitle: 'Hvad er en vækstpartner – og hvad bør du kræve af din? | Magnora Marketing Blog',
+    seoTitle: 'Hvad er en vækstpartner – og hvad bør du kræve?',
     seoDescription:
-      'Forstå hvad en vækstpartner er, hvad der adskiller en god fra en dårlig, og hvilke konkrete krav du bør stille til en vækstpartner der reelt driver din virksomheds vækst.',
+      'Hvad er en vækstpartner, hvad adskiller en god fra en dårlig, og hvilke konkrete krav bør du stille til en partner, der skal drive din vækst?',
     keywords: 'vækstpartner virksomhed, vækst konsulent B2B, ekstern vækstpartner, valg af vækstpartner, salgsvækst partner',
     category: 'Vækst',
     title: 'Hvad er en vækstpartner – og hvad bør du kræve af din?',

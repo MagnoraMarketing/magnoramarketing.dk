@@ -1,8 +1,8 @@
 export default {
   HvorforOutsourceSalgMoedebooking: {
-    seoTitle: 'Hvorfor outsource dit salg og din mødebooking til Magnora Marketing?',
+    seoTitle: 'Hvorfor outsource salg og mødebooking? | Magnora',
     seoDescription:
-      'Skal du bygge et internt salgsteam eller outsource? Se hvornår det giver mening at outsource telesalg og mødebooking til Magnora Marketing – og hvilke fordele det giver din vækst.',
+      'Internt salgsteam eller outsourcing? Se hvornår det giver mening at outsource telesalg og mødebooking – og hvilke fordele det giver din vækst.',
     keywords:
       'outsource salg, outsource telesalg, outsource mødebooking, salgsoutsourcing Danmark, internt salgsteam vs outsourcing, B2B salg partner',
     category: 'Samarbejde & Vækst',
@@ -78,9 +78,9 @@ export default {
   },
 
   AiAgenterAutomatisering2026: {
-    seoTitle: 'AI-agenter: Den næste bølge af automatisering for virksomheder | Magnora Marketing',
+    seoTitle: 'AI-agenter: Næste bølge af automatisering | Magnora',
     seoDescription:
-      'AI-agenter kan selvstændigt udføre opgaver på tværs af dine systemer. Få indblik i, hvordan autonome AI-agenter bliver fremtidens digitale medarbejdere for danske virksomheder.',
+      'AI-agenter udfører selvstændigt opgaver på tværs af dine systemer. Se hvordan de bliver fremtidens digitale medarbejdere i danske virksomheder.',
     keywords: 'AI-agenter, autonome AI, AI automatisering, digitale medarbejdere, AI workflow, agentic AI virksomhed',
     category: 'AI Integration',
     title: 'AI-agenter: Den næste bølge af automatisering for virksomheder',
@@ -153,9 +153,9 @@ export default {
   },
 
   HvorforMagnoraTelesalg: {
-    seoTitle: 'Hvorfor vælge Magnora Marketing som telesalgspartner? | Magnora Marketing Blog',
+    seoTitle: 'Hvorfor vælge Magnora Marketing som telesalgspartner?',
     seoDescription:
-      'Magnora Marketing leverer resultatorienteret B2B telesalg med erfarne sælgere, dokumenterede processer og fuld transparens. Lær hvad der adskiller os fra andre telesalgspartnere.',
+      'Resultatorienteret B2B telesalg med erfarne sælgere, dokumenterede processer og fuld gennemsigtighed. Se hvad der adskiller os fra andre.',
     keywords: 'Magnora Marketing telesalg, telesalg partner B2B, outsourcing telesalg Danmark, B2B telesalg resultater, telefonsalg virksomhed',
     category: 'Telesalg',
     title: 'Hvorfor vælge Magnora Marketing som telesalgspartner?',
@@ -187,9 +187,9 @@ export default {
   },
 
   WebsitekonverteringTips: {
-    seoTitle: '10 tips til at øge din hjemmesides konverteringsrate i 2026 | Magnora Marketing Blog',
+    seoTitle: '10 tips til højere konverteringsrate i 2026 | Magnora',
     seoDescription:
-      '10 konkrete og dokumenterede tips til at øge din B2B hjemmesides konverteringsrate i 2026. Fra value proposition og social proof til CTA-optimering og sidehastighed.',
+      '10 dokumenterede tips til at øge din B2B-hjemmesides konverteringsrate i 2026 – fra value proposition og social proof til CTA og sidehastighed.',
     keywords: 'konverteringsoptimering hjemmeside 2026, øge konverteringsrate B2B, CRO tips, hjemmeside konvertering, lead generering hjemmeside',
     category: 'Webudvikling',
     title: '10 tips til at øge din hjemmesides konverteringsrate i 2026',
@@ -223,9 +223,9 @@ export default {
   },
 
   ColdCallingVsInbound: {
-    seoTitle: 'Cold calling vs. inbound i 2026: Hvad virker bedst for B2B? | Magnora Marketing Blog',
+    seoTitle: 'Cold Calling vs. Inbound i 2026: Hvad virker for B2B?',
     seoDescription:
-      'En grundig sammenligning af cold calling og inbound marketing for B2B virksomheder i 2026. Fordele, ulemper, timing og hvornår du bør kombinere begge tilgange for maksimalt udbytte.',
+      'Cold calling eller inbound marketing? Se fordele, ulemper og timing for B2B i 2026 – og hvornår du bør kombinere begge for maksimalt udbytte.',
     keywords: 'cold calling vs inbound 2026, B2B salg strategi, outbound vs inbound marketing, cold calling effektivitet, inbound leads B2B',
     category: 'Salg & Strategi',
     title: 'Cold calling vs. inbound i 2026: Hvad virker bedst for B2B?',

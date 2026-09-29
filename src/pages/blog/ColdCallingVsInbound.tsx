@@ -10,7 +10,7 @@ export default function ColdCallingVsInbound() {
       <SEO
         title={t('blogPosts.ColdCallingVsInbound.seoTitle')}
         description={t('blogPosts.ColdCallingVsInbound.seoDescription')}
-        canonical="/blog/cold-calling-vs-inbound-2026"
+        canonical="/blog/cold-calling-vs-inbound"
         keywords={t('blogPosts.ColdCallingVsInbound.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

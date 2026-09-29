@@ -10,7 +10,7 @@ export default function SaaSVsOnPremise() {
       <SEO
         title={t('blogPosts.SaaSVsOnPremise.seoTitle')}
         description={t('blogPosts.SaaSVsOnPremise.seoDescription')}
-        canonical="/blog/saas-vs-on-premise-2026"
+        canonical="/blog/saas-vs-on-premise"
         keywords={t('blogPosts.SaaSVsOnPremise.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

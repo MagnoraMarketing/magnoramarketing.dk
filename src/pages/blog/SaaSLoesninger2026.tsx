@@ -10,7 +10,7 @@ export default function SaaSLoesninger2026() {
       <SEO
         title={t('blogPosts.SaaSLoesninger2026.seoTitle')}
         description={t('blogPosts.SaaSLoesninger2026.seoDescription')}
-        canonical="/blog/digital-omstilling-telemarketing"
+        canonical="/blog/saas-loesninger-2026"
         keywords={t('blogPosts.SaaSLoesninger2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

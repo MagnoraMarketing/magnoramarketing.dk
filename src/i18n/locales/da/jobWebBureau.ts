@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Freelance Sælger til Web Bureau | Magnora Marketing – Sælg Webudvikling og Digitale Løsninger',
-    description: 'Bliv freelance sælger for web bureau ydelser hos Magnora Marketing. Sælg webudvikling, SEO og digitale løsninger hjemmefra med fleksible tider og attraktiv provision.',
+    title: 'Freelance Sælger – Webudvikling & SEO | Magnora',
+    description: 'Bliv freelance sælger af webudvikling, SEO og digitale løsninger hos Magnora Marketing. Arbejd hjemmefra med fleksible tider og god provision.',
     keywords: 'freelance sælger web bureau, sælg webudvikling, digitalt bureau sælger, freelance digital salg, Magnora Marketing web bureau stilling',
   },
   hero: {

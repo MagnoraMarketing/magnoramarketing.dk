@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Mødebooking Hjemmefra for Danmarks Bedste Forsikringsmæglere | Magnora Marketing',
-    description: 'Bliv mødebooker og lav mødebooking 100% hjemmefra for landets førende forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag. Søg om mødebooking-jobbet i dag.',
+    title: 'Mødebooker Hjemmefra – Forsikring | Magnora Marketing',
+    description: 'Bliv mødebooker 100% hjemmefra for landets førende forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag.',
     keywords: 'mødebooking hjemmefra, mødebooker forsikring, mødebooking forsikring job, mødebooker forsikringsmægler, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, freelance mødebooking, mødebooking job Danmark, attraktiv løn hjemmearbejde, remote mødebooking forsikring',
   },
   breadcrumbs: {

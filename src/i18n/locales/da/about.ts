@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Om Magnora Marketing | Vækstpartner inden for Telesalg, Mødebooking og AI',
-    description: 'Lær mere om Magnora Marketing – din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-udviklingsopgaver. Stærkt team og dokumenterede resultater.',
+    title: 'Om Os – Vækstpartner i Telesalg & AI | Magnora',
+    description: 'Mød Magnora Marketing – vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI. Stærkt team og dokumenterede resultater.',
     keywords: 'Magnora Marketing, om os, B2B salg, vækstpartner, mødebooking, digital udvikling, salgspartner',
   },
   hero: {

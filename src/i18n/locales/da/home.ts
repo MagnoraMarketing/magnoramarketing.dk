@@ -14,8 +14,8 @@ export default {
     years: 'Års erfaring',
   },
   seo: {
-    title: 'Magnora Marketing | Vækstpartner inden for Telesalg, Mødebooking, Webudvikling og AI',
-    description: 'Magnora Marketing er din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-udviklingsopgaver. Vi leverer dokumenterede resultater med fleksible modeller.',
+    title: 'Telesalg, Mødebooking, Web & AI | Magnora Marketing',
+    description: 'Magnora Marketing er din vækstpartner inden for telesalg, mødebooking, leadgenerering, webudvikling og AI. Dokumenterede resultater og fleksible modeller.',
     keywords: 'Magnora Marketing, vækstpartner, telesalg, mødebooking, webudvikling, leadgenerering, AI, AI-udvikling, salgspartner Danmark',
   },
   process: {

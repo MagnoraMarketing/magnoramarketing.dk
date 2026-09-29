@@ -10,7 +10,7 @@ export default function WebsitekonverteringTips() {
       <SEO
         title={t('blogPosts.WebsitekonverteringTips.seoTitle')}
         description={t('blogPosts.WebsitekonverteringTips.seoDescription')}
-        canonical="/blog/website-konvertering-tips-2026"
+        canonical="/blog/websitekonvertering-tips"
         keywords={t('blogPosts.WebsitekonverteringTips.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Freelance Sælger Solenergi & Vedvarende Energi | Magnora Marketing',
-    description: 'Bliv freelance sælger af solenergi og vedvarende energiløsninger hos Magnora Marketing. Sælg solceller til erhverv og private – fleksibelt hjemmearbejde med stærk provision.',
+    title: 'Freelance Sælger – Solenergi | Magnora Marketing',
+    description: 'Bliv freelance sælger af solceller og vedvarende energi til erhverv og private. Fleksibelt hjemmearbejde med stærk provision.',
     keywords: 'freelance sælger solenergi, sælg solceller, solenergi job, vedvarende energi salg, Magnora Marketing solcelle stilling',
   },
   hero: {

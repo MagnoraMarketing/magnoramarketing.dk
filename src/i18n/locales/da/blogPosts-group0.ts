@@ -1,7 +1,7 @@
 export default {
   B2BTelesalgSamarbejde: {
-    seoTitle: 'B2B telesalg-samarbejde: Sådan booster Magnora din pipeline | Magnora Marketing',
-    seoDescription: 'Sådan ser et B2B telesalg-samarbejde med Magnora Marketing ud – fra onboarding og prospektering til kvalificerede møder og en pipeline, der vokser. Konkret, transparent og resultatorienteret.',
+    seoTitle: 'B2B telesalg-samarbejde: Sådan booster vi din pipeline',
+    seoDescription: 'Sådan ser et B2B telesalg-samarbejde med Magnora ud – fra onboarding og prospektering til kvalificerede møder og en pipeline, der vokser.',
     keywords: 'B2B telesalg samarbejde, telesalg proces, pipeline B2B, prospektering, kvalificerede leads, telesalg resultater',
     category: 'Telesalg',
     title: 'B2B telesalg-samarbejde: Sådan booster Magnora din pipeline',
@@ -51,8 +51,8 @@ export default {
     ctaSubtitle: 'Kontakt Magnora Marketing via formularen og hør, hvordan et B2B telesalg-samarbejde kan booste din pipeline.',
   },
   AiReceptionTelefonassistent: {
-    seoTitle: 'AI-reception og AI-telefonassistenter: Aldrig gå glip af et opkald igen | Magnora Marketing',
-    seoDescription: 'En AI-reception besvarer opkald, svarer på spørgsmål og booker aftaler – døgnet rundt. Se hvordan AI-telefonassistenter sikrer, at din virksomhed aldrig misser et opkald igen.',
+    seoTitle: 'AI-reception: Gå aldrig glip af et opkald | Magnora',
+    seoDescription: 'En AI-reception besvarer opkald, svarer på spørgsmål og booker aftaler døgnet rundt. Se hvordan AI-telefonassistenter sikrer, at du aldrig misser et kald.',
     keywords: 'AI-reception, AI telefonassistent, AI telefonpasning, virtuel receptionist, AI opkald, telefon automatisering virksomhed',
     category: 'AI Integration',
     title: 'AI-reception og AI-telefonassistenter: Aldrig gå glip af et opkald igen',
@@ -110,8 +110,8 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   BedsteAiLoesningerSMV: {
-    seoTitle: 'De 7 mest værdifulde AI-løsninger for små og mellemstore virksomheder | Magnora Marketing',
-    seoDescription: 'Hvilke AI-løsninger giver mest værdi for SMV\'er? Her er de 7 mest værdifulde AI-løsninger, der sparer tid, sænker omkostninger og skaber vækst for små og mellemstore virksomheder.',
+    seoTitle: '7 AI-løsninger med mest værdi for SMV\'er | Magnora',
+    seoDescription: 'Hvilke AI-løsninger giver mest værdi for SMV\'er? Her er 7 løsninger, der sparer tid, sænker omkostninger og skaber vækst i mindre virksomheder.',
     keywords: 'AI løsninger SMV, bedste AI værktøjer, AI små virksomheder, AI mellemstore virksomheder, AI produktivitet, AI vækst SMV',
     category: 'AI Integration',
     title: 'De 7 mest værdifulde AI-løsninger for små og mellemstore virksomheder',
@@ -171,8 +171,8 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   Telesalg2026: {
-    seoTitle: 'Telesalg i 2026: Teknikker og strategier for moderne sælgere | Magnora Marketing Blog',
-    seoDescription: 'Telesalg er forandret. Lær de teknikker og strategier der virker i det moderne B2B salgslandskab – fra salgsscripts og indvendingsbehandling til freelance karriere inden for telesalg.',
+    seoTitle: 'Telesalg i 2026: Teknikker og strategier der virker',
+    seoDescription: 'Telesalg har forandret sig. Lær de teknikker, der virker i moderne B2B-salg – fra salgsscripts og indvendingsbehandling til freelancekarriere.',
     keywords: 'telesalg teknikker, B2B telesalg 2026, salgsscripts, indvendingsbehandling, freelance telesalg, telemarketing strategier',
     category: 'Telesalg & Salgsscripts',
     title: 'Telesalg i 2026: Teknikker og strategier for moderne sælgere',
@@ -207,8 +207,8 @@ export default {
     ctaSecondaryText: 'Se freelance muligheder',
   },
   Modebooking2026: {
-    seoTitle: 'Effektiv Mødebooking i 2026: Strategier der virker | Magnora Marketing Blog',
-    seoDescription: 'Få de bedste metoder til professionel B2B mødebooking i 2026 – fra BANT-kvalificering og salgsscripts til opfølgning og no-show reduktion. Konkrete strategier fra Magnora Marketing.',
+    seoTitle: 'Effektiv Mødebooking i 2026: Strategier der virker',
+    seoDescription: 'De bedste metoder til B2B mødebooking i 2026 – fra BANT-kvalificering og salgsscripts til opfølgning og færre no-shows. Konkrete strategier.',
     keywords: 'mødebooking strategi, B2B mødebooking, salgsscripts mødebooking, BANT kvalificering, no-show reduktion',
     category: 'Mødebooking',
     title: 'Effektiv Mødebooking i 2026: Strategier der virker',
@@ -243,8 +243,8 @@ export default {
     ctaSecondaryText: 'Se mødebooking priser',
   },
   HvadErBANT2026: {
-    seoTitle: 'BANT-kvalificering: Sådan sorterer du de bedste leads fra | Magnora Marketing Blog',
-    seoDescription: 'En komplet guide til BANT-kvalificering af B2B leads i 2026. Lær at bruge Budget, Authority, Need og Timeline til at prioritere de rigtige prospects og øge din salgseffektivitet.',
+    seoTitle: 'Hvad er BANT? Kvalificér B2B-leads | Magnora',
+    seoDescription: 'Guide til BANT-kvalificering af B2B-leads: Brug Budget, Authority, Need og Timeline til at prioritere de rigtige prospects og sælge mere effektivt.',
     keywords: 'BANT kvalificering, lead kvalificering B2B, BANT metode salg, salg leads prioritering, B2B lead scoring',
     category: 'Salg & Strategi',
     title: 'BANT-kvalificering: Sådan sorterer du de bedste leads fra',

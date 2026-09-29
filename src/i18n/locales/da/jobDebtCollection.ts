@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Freelance Sælger Inkasso & Kreditorstyring | Magnora Marketing',
-    description: 'Bliv freelance sælger inden for inkasso og kreditorstyring hos Magnora Marketing. Sælg professionel gældinddrivelse til erhvervskunder – hjemmefra med god provision.',
+    title: 'Freelance Sælger – Inkasso | Magnora Marketing',
+    description: 'Bliv freelance sælger inden for inkasso og kreditorstyring. Sælg professionel gældsinddrivelse til erhvervskunder – hjemmefra med god provision.',
     keywords: 'freelance sælger inkasso, kreditorstyring salg, inkasso sælger job, gældinddrivelse B2B, Magnora Marketing inkasso stilling',
   },
   hero: {

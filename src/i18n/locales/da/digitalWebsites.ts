@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Hjemmesider | Magnora Marketing – Professionelle Webløsninger der Konverterer',
-    description: 'Magnora Marketing designer og udvikler professionelle hjemmesider der er SEO-optimerede, hurtige og konverteringsvenlige. Skræddersyet til din virksomhed og dine mål.',
+    title: 'Professionelle Hjemmesider der Konverterer | Magnora',
+    description: 'Vi designer og udvikler hurtige, SEO-optimerede og konverteringsstærke hjemmesider – skræddersyet til din virksomhed og dine mål.',
     keywords: 'hjemmeside, webdesign, SEO hjemmeside, konverteringsoptimering, Magnora Marketing digital, professionel hjemmeside',
   },
   hero: {

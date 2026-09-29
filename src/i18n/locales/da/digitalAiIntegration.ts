@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'AI Integration til Danske Virksomheder | Magnora Marketing – Automatisering og Kunstig Intelligens',
-    description: 'Magnora Marketing integrerer AI i din forretning med løsninger som AIbooking.dk og Leadgenie.dk. Automatiser leadgenerering, booking og kundeservice – GDPR-compliant og skræddersyet til dansk erhvervsliv.',
+    title: 'AI-integration til Danske Virksomheder | Magnora',
+    description: 'Vi integrerer AI i din forretning med løsninger som AIbooking.dk og Leadgenie.dk. Automatiser leads, booking og kundeservice – GDPR-compliant.',
     keywords: 'AI integration Danmark, kunstig intelligens virksomhed, AIbooking, Leadgenie, automatisering, AI chatbot dansk, leadgenerering AI, Magnora Marketing digital',
   },
   hero: {

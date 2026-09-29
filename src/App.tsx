@@ -9,7 +9,7 @@ import OutsourcingPage from './pages/OutsourcingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import BlogPage from './pages/BlogPage';
-import BlogPost from './pages/BlogPost';
+import NotFoundPage from './pages/NotFoundPage';
 import Layout from './components/Layout';
 import ContactSubmissions from './pages/admin/ContactSubmissions';
 
@@ -133,7 +133,6 @@ export function AppRoutes() {
           <Route path="/om-os" element={<AboutPage />} />
           <Route path="/kontakt" element={<ContactPage />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/:slug" element={<BlogPost />} />
 
           {/* Blog Posts */}
           <Route path="/blog/saas-loesninger-2026" element={<SaaSLoesninger2026 />} />
@@ -218,6 +217,9 @@ export function AppRoutes() {
 
           {/* Lead Generation Page */}
           <Route path="/leadgenerering" element={<LeadGenerationPage />} />
+
+          {/* Unknown URLs (incl. unknown blog slugs) get a noindex 404 page */}
+          <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
   );
