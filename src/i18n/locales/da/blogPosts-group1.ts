@@ -1,8 +1,8 @@
 export default {
   FraIdeTilSalg: {
-    seoTitle: 'Fra idé til salg: Sådan tager Magnora din forretningsidé til markedet | Magnora Marketing',
+    seoTitle: 'Fra idé til salg: Tag din forretningsidé til markedet',
     seoDescription:
-      'Mange gode idéer når aldrig markedet. Se hvordan Magnora Marketing tager dig hele vejen fra idé og koncept til digital løsning, mødebooking og betalende kunder – med én samlet partner.',
+      'Mange gode idéer når aldrig markedet. Se hvordan Magnora tager dig fra idé og koncept til digital løsning, mødebooking og betalende kunder.',
     keywords: 'fra idé til salg, go-to-market, forretningsidé til marked, produktlancering B2B, mødebooking ny løsning, telesalg lancering',
     category: 'Idéudvikling',
     title: 'Fra idé til salg: Sådan tager Magnora din forretningsidé til markedet',
@@ -69,9 +69,9 @@ export default {
     ctaSubtitle: 'Lad ikke din idé blive i hovedet. Kontakt os via formularen, så bygger vi vejen fra idé til betalende kunder sammen.',
   },
   AiSparerTidVirksomhed: {
-    seoTitle: 'Sådan sparer AI din virksomhed for hundredvis af timer om året | Magnora Marketing',
+    seoTitle: 'Sådan sparer AI jer hundredvis af timer om året',
     seoDescription:
-      'AI-løsninger kan automatisere tidskrævende opgaver og frigøre hundredvis af arbejdstimer om året. Se de konkrete områder, hvor kunstig intelligens sparer din virksomhed tid.',
+      'AI kan automatisere tidskrævende opgaver og frigøre hundredvis af timer om året. Se de konkrete områder, hvor AI sparer din virksomhed tid.',
     keywords: 'AI sparer tid, AI automatisering opgaver, spar tid med AI, effektivisering AI, AI produktivitet virksomhed',
     category: 'AI Integration',
     title: 'Sådan sparer AI din virksomhed for hundredvis af timer om året',
@@ -144,9 +144,9 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   BlivAiKonsulentKarriere: {
-    seoTitle: 'Bliv AI-konsulent: Karrieren i front af fremtidens teknologi | Magnora Marketing',
+    seoTitle: 'Bliv AI-konsulent: Fremtidens karriere | Magnora',
     seoDescription:
-      'Drømmer du om et fremtidssikret job hjemmefra? Bliv AI-konsulent og hjælp virksomheder med at forstå fremtidens AI-løsninger. Se hvad jobbet indebærer, og hvordan du søger.',
+      'Drømmer du om et fremtidssikret job hjemmefra? Bliv AI-konsulent og hjælp virksomheder med AI-løsninger. Se hvad jobbet indebærer, og hvordan du søger.',
     keywords: 'bliv AI-konsulent, AI-konsulent job, AI karriere, job hjemmefra AI, fremtidssikret job, AI salg job Danmark',
     category: 'AI Integration',
     title: 'Bliv AI-konsulent: Karrieren i front af fremtidens teknologi',
@@ -220,9 +220,9 @@ export default {
     ctaSecondaryText: 'Kontakt Magnora Marketing',
   },
   AIAutomation2026: {
-    seoTitle: 'AI Automation i Salg: Sådan bruger du det rigtigt i 2026 | Magnora Marketing Blog',
+    seoTitle: 'AI i Salg: Sådan bruger du det rigtigt i 2026 | Magnora',
     seoDescription:
-      'Kunstig intelligens forandrer salgsindsatsen. Lær hvordan du implementerer AI i din salgsproces og øger konverteringsraten markant med konkrete eksempler fra dansk erhvervsliv.',
+      'Kunstig intelligens forandrer salget. Lær at bruge AI i din salgsproces og øg konverteringsraten – med konkrete eksempler fra dansk erhvervsliv.',
     keywords: 'AI telemarketing, kunstig intelligens salg, AI automation B2B, lead scoring AI, chatbot salg Danmark',
     category: 'AI & Teknologi',
     title: 'AI Automation i Salg: Sådan bruger du det rigtigt i 2026',
@@ -272,9 +272,9 @@ export default {
     ctaSecondaryText: 'Se AI-integration',
   },
   B2BSalgStrategi2026: {
-    seoTitle: 'B2B salgsstrategi i 2026: Sådan vinder du flere kunder | Magnora Marketing Blog',
+    seoTitle: 'B2B Salgsstrategi 2026: Vind flere kunder | Magnora',
     seoDescription:
-      'En komplet guide til effektiv B2B salgsstrategi i 2026. Fra ICP-definition og prospektering til pipeline-management og closing – lær hvad de mest succesrige B2B salgsteams gør anderledes.',
+      'Komplet guide til B2B salgsstrategi i 2026 – fra ICP og prospektering til pipeline og closing. Se hvad de bedste B2B-salgsteams gør anderledes.',
     keywords: 'B2B salgsstrategi 2026, B2B salg tips, vinde flere kunder B2B, salgsprocesser B2B, pipeline management B2B',
     category: 'Salg & Strategi',
     title: 'B2B salgsstrategi i 2026: Sådan vinder du flere kunder',
@@ -320,9 +320,9 @@ export default {
     ctaSecondaryText: 'Se vores salgsydelser',
   },
   SaaSVsOnPremise: {
-    seoTitle: 'SaaS vs. On-Premise i 2026: Hvad passer til din virksomhed? | Magnora Marketing Blog',
+    seoTitle: 'SaaS vs. On-Premise i 2026: Hvad passer til jer?',
     seoDescription:
-      'Grundig sammenligning af SaaS og on-premise løsninger i 2026. Forstå fordele, ulemper og total cost of ownership for begge modeller, og træf den rigtige beslutning for din virksomhed.',
+      'Sammenligning af SaaS og on-premise i 2026: fordele, ulemper og total cost of ownership – så du træffer den rigtige beslutning for din virksomhed.',
     keywords: 'SaaS vs on-premise 2026, cloud vs lokal software, SaaS fordele ulemper, on-premise TCO, software beslutning virksomhed',
     category: 'SaaS & Cloud',
     title: 'SaaS vs. On-Premise i 2026: Hvad passer til din virksomhed?',

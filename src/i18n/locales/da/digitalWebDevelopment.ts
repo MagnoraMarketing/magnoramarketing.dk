@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Unik Webudvikling & AI | Magnora Marketing – Skræddersyede Webløsninger til Vækst',
-    description: 'Magnora Marketing bygger unikke, AI-drevne webapplikationer og hjemmesider til danske virksomheder – uanset omfang. Fra landingsside til SaaS-platform. Moderne teknologi, ekstrem performance og indbygget AI. Start dit projekt i dag.',
+    title: 'Webudvikling & AI til Virksomheder | Magnora Marketing',
+    description: 'Vi bygger AI-drevne webapplikationer og hjemmesider til danske virksomheder – fra landingsside til SaaS-platform. Moderne teknologi og høj performance.',
     keywords: 'webudvikling, unik webudvikling, AI webudvikling, skræddersyet hjemmeside, webapplikation, React, Next.js, TypeScript, AI integration hjemmeside, webshop, SaaS udvikling, Magnora Marketing digital',
   },
   hero: {

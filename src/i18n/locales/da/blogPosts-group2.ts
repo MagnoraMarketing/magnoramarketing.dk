@@ -1,7 +1,7 @@
 export default {
   MoedebookingPartnerMagnora: {
-    seoTitle: 'Mødebooking-partner: Derfor skal du samarbejde med Magnora Marketing',
-    seoDescription: 'Magnora Marketing fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere. Se hvorfor vi er den mødebooking-partner, der leverer konsistent høj mødekvalitet og dokumenterede resultater.',
+    seoTitle: 'Mødebooking-partner: Derfor skal du vælge Magnora',
+    seoDescription: 'Vi fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere. Se hvorfor vi er mødebooking-partneren med dokumenterede resultater.',
     keywords: 'mødebooking partner, professionel mødebooking, B2B mødebooking, salgsmøder beslutningstagere, outsource mødebooking, mødebooking Danmark',
     category: 'Mødebooking',
     title: 'Mødebooking-partner: Derfor skal du samarbejde med Magnora Marketing',
@@ -32,8 +32,8 @@ export default {
     ctaSubtitle: 'Kontakt Magnora Marketing via formularen og hør, hvordan vi kan booke møder med de rette beslutningstagere for din virksomhed.',
   },
   HvorforAiNu2026: {
-    seoTitle: 'Derfor skal din virksomhed tage stilling til AI nu – ikke om to år | Magnora Marketing',
-    seoDescription: 'AI-udviklingen accelererer, og forspringet til konkurrenterne vokser hver måned. Se hvorfor din virksomhed skal tage stilling til kunstig intelligens nu – ikke om to år.',
+    seoTitle: 'Derfor skal I tage stilling til AI nu | Magnora',
+    seoDescription: 'AI-udviklingen accelererer, og forspringet til konkurrenterne vokser hver måned. Se hvorfor din virksomhed skal tage stilling til AI nu – ikke om to år.',
     keywords: 'hvorfor AI nu, AI konkurrenceevne, AI beslutning virksomhed, kunstig intelligens 2026, AI forspring, AI strategi',
     category: 'AI Integration',
     title: 'Derfor skal din virksomhed tage stilling til AI nu – ikke om to år',
@@ -70,8 +70,8 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   SaaSLoesninger2026: {
-    seoTitle: 'SaaS-løsninger i 2026: Hvad B2B virksomheder bør vide | Magnora Marketing Blog',
-    seoDescription: 'En gennemgang af de vigtigste SaaS-trends i 2026 og hvordan B2B virksomheder kan drage fordel af cloud-platforme, AI-integrerede løsninger og vertical SaaS. Magnora Marketing hjælper med implementering.',
+    seoTitle: 'SaaS-løsninger i 2026: Det bør B2B vide | Magnora',
+    seoDescription: 'De vigtigste SaaS-trends i 2026, og hvordan B2B-virksomheder kan udnytte cloud-platforme, AI-integrerede løsninger og vertical SaaS.',
     keywords: 'SaaS løsninger 2026, cloud platforme B2B, vertical SaaS, AI SaaS integration, SaaS Danmark virksomheder',
     category: 'Digital Omstilling',
     title: 'SaaS-løsninger i 2026: Hvad B2B virksomheder bør vide',
@@ -100,8 +100,8 @@ export default {
     ctaSecondaryText: 'Se digitale løsninger',
   },
   HjemmesideTilVaekst2026: {
-    seoTitle: 'En professionel hjemmeside er dit vigtigste salgsværktøj i 2026 | Magnora Marketing Blog',
-    seoDescription: 'Forstå hvorfor din hjemmeside er dit vigtigste salgsaktiv i 2026, og hvad der adskiller en hjemmeside der genererer leads fra en der ikke gør. Praktiske råd til B2B virksomheder.',
+    seoTitle: 'Hjemmesiden er dit vigtigste salgsværktøj i 2026',
+    seoDescription: 'Derfor er hjemmesiden dit vigtigste salgsaktiv i 2026 – og hvad der adskiller en side, der skaber leads, fra en der ikke gør. Råd til B2B.',
     keywords: 'professionel hjemmeside B2B 2026, hjemmeside der genererer leads, hjemmeside salgsværktøj, webudvikling vækst, konverterende hjemmeside',
     category: 'Webudvikling',
     title: 'En professionel hjemmeside er dit vigtigste salgsværktøj i 2026',
@@ -134,8 +134,8 @@ export default {
     ctaSecondaryText: 'Se vores webudviklingsydelser',
   },
   OutsourcingTelesalg2026: {
-    seoTitle: 'Outsourcing af telesalg i 2026: Fordele, faldgruber og hvad du bør kræve | Magnora Marketing Blog',
-    seoDescription: 'Alt du behøver vide om outsourcing af telesalg i 2026. Fordele, typiske faldgruber og en konkret guide til hvad du bør kræve af en telesalgspartner for at sikre succes.',
+    seoTitle: 'Outsourcing af telesalg 2026: Fordele og faldgruber',
+    seoDescription: 'Alt om outsourcing af telesalg i 2026: fordele, typiske faldgruber og en konkret guide til, hvad du bør kræve af en telesalgspartner.',
     keywords: 'outsourcing telesalg 2026, telesalg fordele faldgruber, ekstern salgstjeneste, telesalg partner krav, B2B outsourcing salg',
     category: 'Telesalg',
     title: 'Outsourcing af telesalg i 2026: Fordele, faldgruber og hvad du bør kræve',
@@ -170,8 +170,8 @@ export default {
     ctaSecondaryText: 'Se vores telesalgsydelser',
   },
   SaaSIntegration2026: {
-    seoTitle: 'Sådan integrerer du SaaS-platforme og sparer 10 timer om ugen | Magnora Marketing Blog',
-    seoDescription: 'Lær hvordan du integrerer dine SaaS-platforme effektivt og eliminerer manuelle opgaver. Praktiske strategier og værktøjer der sparer tid og øger datakvaliteten i din B2B virksomhed.',
+    seoTitle: 'SaaS-integration: Spar 10 timer om ugen | Magnora',
+    seoDescription: 'Integrér dine SaaS-platforme og fjern manuelle opgaver. Praktiske strategier og værktøjer, der sparer tid og øger datakvaliteten i din B2B-virksomhed.',
     keywords: 'SaaS integration 2026, automatisering B2B, Zapier integration, API integration virksomhed, SaaS workflow automatisering',
     category: 'SaaS & Cloud',
     title: 'Sådan integrerer du SaaS-platforme og sparer 10 timer om ugen',

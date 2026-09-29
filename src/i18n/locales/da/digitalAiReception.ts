@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'AI Receptionist & Voice Agent | Automatisk Telefonpasning på Dansk | Magnora Marketing',
-    description: 'Magnora Marketing\'s AI-receptionist besvarer alle opkald, booker møder og router henvendelser automatisk – 24/7 på naturligt dansk. Aldrig optaget. ✓ GDPR-kompatibel ✓ Gratis demo',
+    title: 'AI-receptionist – Telefonpasning på Dansk | Magnora',
+    description: 'AI-receptionisten besvarer alle opkald, booker møder og viderestiller automatisk – 24/7 på naturligt dansk. Aldrig optaget. ✓ GDPR ✓ Gratis demo',
     keywords: 'AI receptionist, voice agent, AI telefon, automatisk telefonpasning, AI mødebooking, virtuel receptionist dansk',
   },
   hero: {

@@ -1,8 +1,8 @@
 export default {
   AiIntegrationROI2026: {
-    seoTitle: 'AI-integration i din virksomhed: Hvad er ROI og hvornår betaler det sig? | Magnora Marketing Blog',
+    seoTitle: 'AI-integration: Hvornår betaler det sig? | Magnora',
     seoDescription:
-      'Forstå den reelle ROI ved AI-integration for B2B virksomheder i 2026. Hvornår er investeringen berettiget, og hvilke AI-initiativer giver hurtigst og størst afkast?',
+      'Forstå den reelle ROI ved AI-integration i 2026: Hvornår er investeringen berettiget, og hvilke AI-initiativer giver hurtigst og størst afkast?',
     keywords: 'AI integration ROI 2026, AI investering virksomhed, AI besparelse B2B, kunstig intelligens afkast, AI business case',
     category: 'AI & Integration',
     title: 'AI-integration i din virksomhed: Hvad er ROI og hvornår betaler det sig?',
@@ -34,9 +34,9 @@ export default {
     ctaSecondaryText: 'Se vores AI-løsninger',
   },
   AiKundeserviceDoegnetRundt: {
-    seoTitle: 'AI-kundeservice døgnet rundt: Fremtidens support er allerede her | Magnora Marketing',
+    seoTitle: 'AI-kundeservice døgnet rundt | Magnora Marketing',
     seoDescription:
-      'AI-kundeservice svarer dine kunder øjeblikkeligt – 24 timer i døgnet, 7 dage om ugen. Se hvordan AI-chat og AI-support løfter kundeoplevelsen og aflaster dit team.',
+      'AI-kundeservice svarer dine kunder med det samme – 24/7. Se hvordan AI-chat og AI-support løfter kundeoplevelsen og aflaster dit team.',
     keywords: 'AI kundeservice, AI chat support, AI chatbot virksomhed, kundeservice automatisering, AI support 24/7',
     category: 'AI Integration',
     title: 'AI-kundeservice døgnet rundt: Fremtidens support er allerede her',
@@ -111,9 +111,9 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   GenerativAiForretningsvaerdi: {
-    seoTitle: 'Fra ChatGPT til forretningsværdi: Sådan bruger virksomheder generativ AI | Magnora Marketing',
+    seoTitle: 'Generativ AI: Fra ChatGPT til forretningsværdi',
     seoDescription:
-      'Generativ AI som ChatGPT er blevet allemandseje – men hvordan skaber virksomheder reel forretningsværdi med det? Se de konkrete anvendelser, der driver vækst i 2026.',
+      'Generativ AI som ChatGPT er blevet allemandseje – men hvordan skaber virksomheder reel værdi med det? Se de konkrete anvendelser, der driver vækst.',
     keywords: 'generativ AI, ChatGPT virksomhed, generativ AI forretning, AI content, AI produktivitet, generativ kunstig intelligens',
     category: 'AI Integration',
     title: 'Fra ChatGPT til forretningsværdi: Sådan bruger virksomheder generativ AI',
@@ -189,9 +189,9 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   HvorforMagnoraAiIntegration: {
-    seoTitle: 'Hvorfor vælge Magnora Marketing som AI-integrationspartner? | Magnora Marketing Blog',
+    seoTitle: 'Hvorfor vælge Magnora som AI-integrationspartner?',
     seoDescription:
-      'Magnora Marketing kombinerer teknisk AI-ekspertise med forretningsmæssig forståelse for at levere AI-integrationer der skaber reel ROI. Lær hvad der adskiller os fra andre AI-bureauer.',
+      'Vi kombinerer teknisk AI-ekspertise med forretningsforståelse og leverer AI-integrationer med reel ROI. Se hvad der adskiller os fra andre AI-bureauer.',
     keywords: 'Magnora Marketing AI integration, AI bureau Danmark, AI implementering B2B, AI automatisering virksomhed, kunstig intelligens integration',
     category: 'AI & Integration',
     title: 'Hvorfor vælge Magnora Marketing som AI-integrationspartner?',
@@ -225,7 +225,7 @@ export default {
     ctaSecondaryText: 'Se vores AI-løsninger',
   },
   HvorforSaaS2026: {
-    seoTitle: 'Hvorfor din virksomhed bør vælge SaaS-løsninger i 2026 | Magnora Marketing Blog',
+    seoTitle: 'Hvorfor vælge SaaS-løsninger i 2026? | Magnora',
     seoDescription:
       'Forstå fordelene ved SaaS i 2026. Fra lavere IT-omkostninger til skalerbarhed og AI-integration – lær hvorfor SaaS er det rigtige valg for din B2B virksomhed.',
     keywords: 'hvorfor SaaS 2026, SaaS fordele virksomhed, cloud løsninger B2B, SaaS skalerbarhed, SaaS Danmark',
@@ -261,9 +261,9 @@ export default {
     ctaSecondaryText: 'Se vores digitale løsninger',
   },
   HvorforSamarbejdeMagnora: {
-    seoTitle: 'Hvorfor samarbejde med Magnora Marketing? 8 grunde til at vælge os | Magnora Marketing',
+    seoTitle: '8 grunde til at samarbejde med Magnora Marketing',
     seoDescription:
-      'Magnora Marketing er din vækstpartner inden for idéudvikling, mødebooking og telesalg. Se de 8 vigtigste grunde til at samarbejde med os – dokumenterede resultater, fuld transparens og fleksible modeller.',
+      'Din vækstpartner inden for idéudvikling, mødebooking og telesalg. Se 8 grunde til at vælge os – dokumenterede resultater, gennemsigtighed og fleksibilitet.',
     keywords: 'samarbejde Magnora Marketing, vækstpartner Danmark, idéudvikling, mødebooking, telesalg, B2B salgspartner, outsource salg',
     category: 'Samarbejde & Vækst',
     title: 'Hvorfor samarbejde med Magnora Marketing? 8 grunde til at vælge os som vækstpartner',

@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'API & SaaS Udvikling | Magnora Marketing – Systemintegration og Platforme',
+    title: 'API & SaaS Udvikling | Magnora Marketing',
     description: 'Magnora Marketing udvikler robuste API-løsninger og SaaS-platforme der binder dine systemer sammen. Skalerbar arkitektur og sikker datahåndtering.',
     keywords: 'API udvikling, SaaS platform, systemintegration, REST API, GraphQL, Magnora Marketing digital',
   },

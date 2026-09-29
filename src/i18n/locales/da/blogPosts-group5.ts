@@ -1,8 +1,8 @@
 export default {
   VaekstpartnerIdeMoedeTelesalg: {
-    seoTitle: 'Én vækstpartner til idéudvikling, mødebooking og telesalg | Magnora Marketing',
+    seoTitle: 'Én vækstpartner til idé, mødebooking og telesalg',
     seoDescription:
-      'Hvorfor jonglere med flere leverandører? Magnora Marketing samler idéudvikling, mødebooking og telesalg hos én vækstpartner – for mere sammenhæng, hurtigere resultater og ét sted, hvor ansvaret ligger.',
+      'Hvorfor jonglere med flere leverandører? Magnora samler idéudvikling, mødebooking og telesalg hos én partner – mere sammenhæng, hurtigere resultater.',
     keywords: 'vækstpartner, idéudvikling mødebooking telesalg, samlet salgspartner, B2B vækstpartner Danmark, outsource salg og udvikling',
     category: 'Samarbejde & Vækst',
     title: 'Én vækstpartner til idéudvikling, mødebooking og telesalg',
@@ -54,9 +54,9 @@ export default {
     ],
   },
   AiSalgMoedebookingFremtid: {
-    seoTitle: 'AI i salg og mødebooking: Fremtidens vækstmotor | Magnora Marketing',
+    seoTitle: 'AI i salg og mødebooking: Fremtidens vækstmotor',
     seoDescription:
-      'AI forandrer B2B-salg og mødebooking – fra lead scoring til automatisk opfølgning. Se hvordan kunstig intelligens bliver fremtidens vækstmotor for danske virksomheder.',
+      'AI forandrer B2B-salg og mødebooking – fra lead scoring til automatisk opfølgning. Se hvorfor AI bliver fremtidens vækstmotor for danske virksomheder.',
     keywords: 'AI i salg, AI mødebooking, AI lead scoring, AI salgsautomatisering, kunstig intelligens B2B salg, AI vækst',
     category: 'AI Integration',
     title: 'AI i salg og mødebooking: Fremtidens vækstmotor',
@@ -118,9 +118,9 @@ export default {
     ctaSecondaryText: 'Se AI-konsulent jobbet',
   },
   OutboundSales2026: {
-    seoTitle: 'Outbound Sales 2026: Byg en salgsmaskine der skalerer | Magnora Marketing Blog',
+    seoTitle: 'Outbound Sales 2026: Byg en salgsmaskine der skalerer',
     seoDescription:
-      'En komplet guide til at bygge og optimere din outbound salgsmotor i 2026. Datadrevet targeting, personalisering og menneskelig salgskraft kombineret for maksimal ROI.',
+      'Guide til at bygge og optimere din outbound-salgsmotor i 2026: datadrevet targeting, personalisering og menneskelig salgskraft for maksimal ROI.',
     keywords: 'outbound salg 2026, B2B salgsstrategier, telemarketing teknikker, salgsmaskine, leadgenerering outbound',
     category: 'Salgsstrategier',
     h1: 'Outbound Sales 2026: Byg en salgsmaskine der skalerer',
@@ -168,9 +168,9 @@ export default {
     },
   },
   StartupTilVaekst2026: {
-    seoTitle: 'Fra startup til vækst: Sådan skalerer du dit salg uden at ansætte | Magnora Marketing Blog',
+    seoTitle: 'Fra startup til vækst: Skalér salget uden at ansætte',
     seoDescription:
-      'En praktisk guide til at skalere B2B salget i en startup eller vækstvirksomhed uden at opbygge et stort internt salgsteam. Lær om outsourcing, automatisering og smarte salgsstrukturer.',
+      'Praktisk guide til at skalere B2B-salget i en startup uden et stort internt salgsteam – med outsourcing, automatisering og smarte salgsstrukturer.',
     keywords: 'startup skalering salg, vækst startup B2B, skalere salg uden ansætte, outsourcing salg startup, salgsvækst strategi',
     category: 'Startup & Vækst',
     h1: 'Fra startup til vækst: Sådan skalerer du dit salg uden at ansætte',
@@ -225,9 +225,9 @@ export default {
     },
   },
   BedsteSaaSTools2026: {
-    seoTitle: 'De 10 bedste SaaS-tools til B2B virksomheder i 2026 | Magnora Marketing Blog',
+    seoTitle: 'De 10 bedste SaaS-tools til B2B i 2026 | Magnora',
     seoDescription:
-      'Gennemgang af de 10 mest effektive SaaS-tools til B2B virksomheder i 2026 – fra CRM og marketing automation til projektstyring og AI-drevet analyse. Spar tid og øg omsætningen.',
+      'De 10 mest effektive SaaS-tools til B2B i 2026 – fra CRM og marketing automation til projektstyring og AI-analyse. Spar tid og øg omsætningen.',
     keywords: 'bedste SaaS tools 2026, B2B software anbefalinger, CRM SaaS 2026, marketing automation tools, SaaS produktivitet virksomhed',
     category: 'SaaS & Cloud',
     h1: 'De 10 bedste SaaS-tools til B2B virksomheder i 2026',
@@ -256,9 +256,9 @@ export default {
     },
   },
   HundredeBudAiOpgaveloesning: {
-    seoTitle: '100 bud: Sådan kan AI hjælpe jer i opgaveløsningen | Magnora Marketing',
+    seoTitle: '100 bud: Sådan kan AI hjælpe jer i opgaveløsningen',
     seoDescription:
-      'Fra oversættelse af tekster til input i en svær sag: Her er 100 konkrete bud på, hvordan AI kan hjælpe jer i opgaveløsningen og spare tid i hverdagen. En praktisk idékatalog for virksomheder.',
+      '100 konkrete bud på, hvordan AI kan hjælpe jer i opgaveløsningen – fra oversættelse af tekster til sparring i svære sager. Et praktisk idékatalog.',
     keywords: 'AI opgaveløsning, AI brugsmuligheder, sådan kan AI hjælpe, AI eksempler virksomhed, AI use cases, AI oversættelse tekst, AI hjælp sagsbehandling, kunstig intelligens opgaver',
     category: 'AI Integration',
     title: '100 bud: Sådan kan AI hjælpe jer i opgaveløsningen',

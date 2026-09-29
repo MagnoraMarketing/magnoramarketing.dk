@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'AI Voice Widget til Hjemmesider | Tale, Chat & Automatisk Booking | Magnora Marketing',
-    description: 'AI voice widget der taler dansk: besvarer kundehenvendelser og booker møder direkte i din kalender – 24/7. Opsætning på under 5 minutter, fra 999 kr/md. ✓ GDPR ✓ Tale & tekst ✓ Flersproget',
+    title: 'AI Voice Widget til Hjemmesider – Tale & Chat | Magnora',
+    description: 'AI voice widget, der taler dansk, besvarer henvendelser og booker møder i din kalender 24/7. Klar på 5 minutter, fra 999 kr/md. ✓ GDPR ✓ Flersproget',
     keywords: 'AI voice widget, AI widget, talebaseret chatbot, automatisk booking, AI receptionist hjemmeside, AI chat dansk, voice bot dansk',
   },
   hero: {

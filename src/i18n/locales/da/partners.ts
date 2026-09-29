@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Bliv Samarbejdspartner | Magnora Marketing – Telesalg, Mødebooking og AI',
-    description: 'Start et samarbejde med Magnora Marketing – din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-udviklingsopgaver. Målbare resultater.',
+    title: 'Bliv Samarbejdspartner | Magnora Marketing',
+    description: 'Start et samarbejde med Magnora Marketing – vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI. Målbare resultater.',
     keywords: 'Magnora Marketing samarbejdspartner, outsource salg, mødebooking partner, B2B salg, telemarketing bureau',
   },
   hero: {

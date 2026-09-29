@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Freelance Sælger Kaffeservice til Erhverv | Magnora Marketing',
+    title: 'Freelance Sælger – Kaffeservice | Magnora Marketing',
     description: 'Bliv freelance sælger af kaffeservice og kaffemaskiner til erhverv hos Magnora Marketing. Arbejd hjemmefra og sælg et produkt alle kontoransatte elsker.',
     keywords: 'freelance sælger kaffeservice, kaffemaskin salg erhverv, kaffe B2B sælger, Magnora Marketing kaffe stilling, kaffesalg job',
   },

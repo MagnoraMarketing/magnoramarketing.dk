@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Freelance Remote Salg – Arbejd Hjemmefra | Magnora Marketing',
+    title: 'Freelance Salg – Arbejd Hjemmefra | Magnora Marketing',
     description: 'Bliv freelance sælger og arbejd 100% remote hos Magnora Marketing. Vælg dit eget produkt, sæt dine egne tider og byg en karriere hjemmefra med stærk provision.',
     keywords: 'freelance remote salg, arbejd hjemmefra sælger, remote job Danmark, hjemmekontor salg, Magnora Marketing remote stilling',
   },

@@ -1,7 +1,7 @@
 export default {
   seo: {
-    title: 'Freelance Sælger & Mødebooker Stillinger | Magnora Marketing',
-    description: 'Bliv freelance sælger eller mødebooker hos Magnora Marketing. Arbejd hjemmefra, sæt dine egne tider og tjen godt med attraktiv provision. Se alle ledige stillinger her.',
+    title: 'Freelance Sælger & Mødebooker Job | Magnora Marketing',
+    description: 'Bliv freelance sælger eller mødebooker. Arbejd hjemmefra, sæt dine egne tider og tjen godt med attraktiv provision. Se alle ledige stillinger.',
     keywords: 'freelance sælger, freelance mødebooker, arbejd hjemmefra, telemarketing job, Magnora Marketing stillinger, B2B sælger',
   },
   hero: {

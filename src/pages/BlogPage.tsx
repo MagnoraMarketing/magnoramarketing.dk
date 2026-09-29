@@ -139,10 +139,10 @@ const BlogPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Blog | Magnora Marketing – Indsigt om B2B Salg, Mødebooking og Vækst"
-        description="Magnora Marketing's blog med praktiske guides, tips og trends inden for B2B salg, mødebooking, telemarketing, leadgenerering og digital vækst for erhvervsvirksomheder."
+        title={t('blogPage.seo.title')}
+        description={t('blogPage.seo.description')}
         canonical="/blog"
-        keywords="Magnora Marketing blog, B2B salg tips, mødebooking guide, telemarketing artikler, salgsstrategi 2026"
+        keywords={t('blogPage.seo.keywords')}
       />
 
       <section className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
