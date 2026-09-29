@@ -80,7 +80,7 @@ export default function HvorforMagnoraMoedebooking() {
         primaryText={t('blogPosts.HvorforMagnoraMoedebooking.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.HvorforMagnoraMoedebooking.ctaSecondaryText')}
-        secondaryLink="/moedebooking"
+        secondaryLink="/modebooking-priser"
       />
     </>
   );

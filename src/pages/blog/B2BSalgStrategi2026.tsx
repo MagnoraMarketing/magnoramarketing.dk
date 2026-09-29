@@ -83,7 +83,7 @@ export default function B2BSalgStrategi2026() {
         primaryText={t('blogPosts.B2BSalgStrategi2026.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.B2BSalgStrategi2026.ctaSecondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );

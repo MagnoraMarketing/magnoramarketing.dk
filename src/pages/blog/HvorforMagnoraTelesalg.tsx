@@ -77,7 +77,7 @@ export default function HvorforMagnoraTelesalg() {
         primaryText={t('blogPosts.HvorforMagnoraTelesalg.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.HvorforMagnoraTelesalg.ctaSecondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );

@@ -177,6 +177,16 @@
       "permanent": true
     },
     {
+      "source": "/telesalg",
+      "destination": "https://magnoramarketing.dk/ydelser",
+      "permanent": true
+    },
+    {
+      "source": "/moedebooking",
+      "destination": "https://magnoramarketing.dk/modebooking-priser",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [
         {

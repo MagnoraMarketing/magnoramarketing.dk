@@ -48,7 +48,7 @@ export default function StartupTilVaekst2026() {
         primaryText={t('blogPosts.StartupTilVaekst2026.cta.primaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.StartupTilVaekst2026.cta.secondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );
