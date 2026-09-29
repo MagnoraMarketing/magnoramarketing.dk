@@ -97,7 +97,7 @@ export default function MoedebookingScripts2026() {
         primaryText={t('blogPosts.MoedebookingScripts2026.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.MoedebookingScripts2026.ctaSecondaryText')}
-        secondaryLink="/moedebooking"
+        secondaryLink="/modebooking-priser"
       />
     </>
   );

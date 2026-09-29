@@ -83,7 +83,7 @@ export default function OutsourcingTelesalg2026() {
         primaryText={t('blogPosts.OutsourcingTelesalg2026.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.OutsourcingTelesalg2026.ctaSecondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );

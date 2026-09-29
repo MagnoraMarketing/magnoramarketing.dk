@@ -87,7 +87,7 @@ export default function ColdCallingVsInbound() {
         primaryText={t('blogPosts.ColdCallingVsInbound.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.ColdCallingVsInbound.ctaSecondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );

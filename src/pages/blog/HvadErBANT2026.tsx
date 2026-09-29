@@ -88,7 +88,7 @@ export default function HvadErBANT2026() {
         primaryText={t('blogPosts.HvadErBANT2026.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.HvadErBANT2026.ctaSecondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );

@@ -80,7 +80,7 @@ export default function LeadgenerseringStrategier2026() {
         primaryText={t('blogPosts.LeadgenerseringStrategier2026.ctaPrimaryText')}
         primaryLink="/kontakt"
         secondaryText={t('blogPosts.LeadgenerseringStrategier2026.ctaSecondaryText')}
-        secondaryLink="/telesalg"
+        secondaryLink="/ydelser"
       />
     </>
   );
