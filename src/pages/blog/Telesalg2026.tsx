@@ -11,7 +11,7 @@ export default function Telesalg2026() {
       <SEO
         title={t('blogPosts.Telesalg2026.seoTitle')}
         description={t('blogPosts.Telesalg2026.seoDescription')}
-        canonical="/blog/salgsscripts-der-virker"
+        canonical="/blog/telesalg-2026"
         keywords={t('blogPosts.Telesalg2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

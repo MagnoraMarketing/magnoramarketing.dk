@@ -11,7 +11,7 @@ export default function Modebooking2026() {
       <SEO
         title={t('blogPosts.Modebooking2026.seoTitle')}
         description={t('blogPosts.Modebooking2026.seoDescription')}
-        canonical="/blog/modebooking-best-practices"
+        canonical="/blog/modebooking-2026"
         keywords={t('blogPosts.Modebooking2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

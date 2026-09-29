@@ -1,13 +1,38 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execFileSync } from 'child_process';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const domain = 'https://magnoramarketing.dk';
 
-// Get current date for pages that update frequently
+// Get current date (fallback lastmod when git history is unavailable)
 const currentDate = new Date().toISOString();
+
+// Real <lastmod> per page: the last git commit touching the page's component
+// (resolved via the route -> element -> import mapping in src/App.tsx). A lastmod
+// that changes on every build is ignored by Google, so we avoid that.
+const appSrc = fs.readFileSync(path.join(__dirname, 'src', 'App.tsx'), 'utf-8');
+const importPaths = Object.fromEntries(
+  [...appSrc.matchAll(/import (\w+) from '\.\/([^']+)';/g)].map(([, name, rel]) => [name, rel])
+);
+const routeComponents = Object.fromEntries(
+  [...appSrc.matchAll(/<Route (?:path="([^"]+)"|index) element={<(\w+) \/>}/g)].map(([, p, name]) => [p || '/', name])
+);
+function gitLastmod(routePath) {
+  const rel = importPaths[routeComponents[routePath]];
+  if (!rel) return null;
+  try {
+    const out = execFileSync('git', ['log', '-1', '--format=%cI', '--', `src/${rel}.tsx`], {
+      cwd: __dirname,
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).toString().trim();
+    return out ? new Date(out).toISOString() : null;
+  } catch {
+    return null;
+  }
+}
 
 // Blog posts [slug, publish date, title] — keep in sync with src/pages/BlogPage.tsx
 const blogPosts = [
@@ -101,7 +126,7 @@ const contentPages = [
 
 // Full sitemap page list (content pages + blog posts)
 const pages = [
-  ...contentPages.map(p => ({ path: p.path, priority: p.priority, changefreq: p.changefreq, lastmod: currentDate })),
+  ...contentPages.map(p => ({ path: p.path, priority: p.priority, changefreq: p.changefreq, lastmod: gitLastmod(p.path) || currentDate })),
   ...blogPosts.map(([slug, date]) => ({
     path: `/blog/${slug}`,
     priority: '0.7',
@@ -125,6 +150,9 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 </urlset>`;
 
 // Generate robots.txt — spec-compliant, one record group per user-agent.
+// Note: Googlebot/Bingbot ignore Crawl-delay, and duplicate query-string URLs are
+// handled by the canonical tag on every page, so query strings are NOT blocked
+// (blocking them would stop Google from seeing the canonical, e.g. on ?utm_ links).
 const robots = `# Robots.txt for Magnora Marketing
 # Updated: ${new Date().toISOString().split('T')[0]}
 
@@ -132,21 +160,11 @@ const robots = `# Robots.txt for Magnora Marketing
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /system/
-Disallow: /temp/
 Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
-# Avoid indexing of query-parameter / tracking URLs (duplicate content)
-Disallow: /*?
-Crawl-delay: 1
 
-# Search engines (explicit full access)
+# Search engines
 User-agent: Googlebot
-Allow: /
-Disallow: /admin/
-Disallow: /api/
-
+User-agent: Googlebot-Image
 User-agent: Bingbot
 Allow: /
 Disallow: /admin/
@@ -160,27 +178,30 @@ User-agent: ChatGPT-User
 User-agent: PerplexityBot
 User-agent: Perplexity-User
 User-agent: ClaudeBot
-User-agent: Claude-Web
-User-agent: anthropic-ai
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: Google-Extended
+User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: CCBot
 Allow: /
 Disallow: /admin/
+Disallow: /api/
 
 # Aggressive SEO/backlink scrapers — throttle to protect the server
 User-agent: SemrushBot
 User-agent: AhrefsBot
 Crawl-delay: 5
+Disallow: /admin/
 
 User-agent: MJ12bot
 Crawl-delay: 10
+Disallow: /admin/
 
 # Unwanted crawlers
-User-agent: baiduspider
+User-agent: Baiduspider
 Disallow: /
 
-# Sitemap & AI content guide
 Sitemap: ${domain}/sitemap.xml
 `;
 
@@ -236,4 +257,4 @@ console.log('  ✓ Sitemap URLs in sync with App.tsx routes & prerender list');
 console.log('  ✓ Spec-compliant robots.txt (one group per user-agent)');
 console.log('  ✓ AI/LLM crawlers explicitly welcomed (GPTBot, ClaudeBot, PerplexityBot, …)');
 console.log('  ✓ llms.txt content guide for AI answer engines');
-console.log('  ✓ Query-parameter / duplicate-content blocking\n');
+console.log('  ✓ Duplicate query-string URLs handled via canonical tags\n');

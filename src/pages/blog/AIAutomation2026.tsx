@@ -10,7 +10,7 @@ export default function AIAutomation2026() {
       <SEO
         title={t('blogPosts.AIAutomation2026.seoTitle')}
         description={t('blogPosts.AIAutomation2026.seoDescription')}
-        canonical="/blog/ai-telemarketing-fremtiden"
+        canonical="/blog/ai-automation-2026"
         keywords={t('blogPosts.AIAutomation2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">

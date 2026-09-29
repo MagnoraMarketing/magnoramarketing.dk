@@ -13,7 +13,15 @@ interface SEOProps {
   articleModifiedTime?: string;
   author?: string;
   breadcrumbs?: Array<{ name: string; url: string }>;
+  /** Keep the page out of search results (e.g. 404 and admin pages). */
+  noindex?: boolean;
 }
+
+// Google Search Console HTML-tag verification. Set VITE_GOOGLE_SITE_VERIFICATION
+// (the `content` value of the tag Search Console gives you) in the Vercel project's
+// environment variables; the tag is then rendered on every page, including the
+// pre-rendered static HTML.
+const googleSiteVerification = import.meta.env.VITE_GOOGLE_SITE_VERIFICATION as string | undefined;
 
 const SEO: React.FC<SEOProps> = ({
   title,
@@ -25,7 +33,8 @@ const SEO: React.FC<SEOProps> = ({
   articlePublishedTime,
   articleModifiedTime,
   author,
-  breadcrumbs
+  breadcrumbs,
+  noindex = false
 }) => {
   const { i18n } = useTranslation();
   const ogLocaleMap: Record<string, string> = { da: 'da_DK', en: 'en_US', es: 'es_ES' };
@@ -36,6 +45,7 @@ const SEO: React.FC<SEOProps> = ({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
+    "@id": `${domain}/#organization`,
     "name": "Magnora Marketing",
     "url": domain,
     "logo": `${domain}/logo.png`,
@@ -79,13 +89,11 @@ const SEO: React.FC<SEOProps> = ({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${domain}/#website`,
     "name": "Magnora Marketing",
     "url": domain,
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": `${domain}/search?q={search_term_string}`,
-      "query-input": "required name=search_term_string"
-    }
+    "inLanguage": "da-DK",
+    "publisher": { "@id": `${domain}/#organization` }
   };
 
   const breadcrumbSchema = breadcrumbs ? {
@@ -104,6 +112,8 @@ const SEO: React.FC<SEOProps> = ({
     "@type": "Article",
     "headline": title,
     "description": description,
+    "mainEntityOfPage": { "@type": "WebPage", "@id": fullCanonical },
+    "inLanguage": "da-DK",
     "image": ogImage,
     "datePublished": articlePublishedTime,
     "dateModified": articleModifiedTime || articlePublishedTime,
@@ -113,6 +123,7 @@ const SEO: React.FC<SEOProps> = ({
     },
     "publisher": {
       "@type": "Organization",
+      "@id": `${domain}/#organization`,
       "name": "Magnora Marketing",
       "logo": {
         "@type": "ImageObject",
@@ -127,8 +138,14 @@ const SEO: React.FC<SEOProps> = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
-      <link rel="canonical" href={fullCanonical} />
-      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+      {!noindex && <link rel="canonical" href={fullCanonical} />}
+      {!noindex && <link rel="alternate" hrefLang="da" href={fullCanonical} />}
+      {!noindex && <link rel="alternate" hrefLang="x-default" href={fullCanonical} />}
+      <meta
+        name="robots"
+        content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
+      />
+      {googleSiteVerification && <meta name="google-site-verification" content={googleSiteVerification} />}
       <meta name="author" content={author || "Magnora Marketing"} />
       <meta name="publisher" content="Magnora Marketing" />
       <meta name="language" content="Danish" />
@@ -166,10 +183,8 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="twitter:image:alt" content={title} />
       <meta name="twitter:site" content="@MagnoraMarketing" />
 
-      {/* Language and Mobile Tags */}
+      {/* Language (viewport is already set once in index.html) */}
       <html lang={i18n.language} />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
       {/* Structured Data (JSON-LD) */}
       <script type="application/ld+json">

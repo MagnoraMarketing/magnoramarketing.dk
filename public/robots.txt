@@ -1,25 +1,15 @@
 # Robots.txt for Magnora Marketing
-# Updated: 2026-08-26
+# Updated: 2026-09-29
 
 # Default rules for all crawlers
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /system/
-Disallow: /temp/
 Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
-# Avoid indexing of query-parameter / tracking URLs (duplicate content)
-Disallow: /*?
-Crawl-delay: 1
 
-# Search engines (explicit full access)
+# Search engines
 User-agent: Googlebot
-Allow: /
-Disallow: /admin/
-Disallow: /api/
-
+User-agent: Googlebot-Image
 User-agent: Bingbot
 Allow: /
 Disallow: /admin/
@@ -33,25 +23,28 @@ User-agent: ChatGPT-User
 User-agent: PerplexityBot
 User-agent: Perplexity-User
 User-agent: ClaudeBot
-User-agent: Claude-Web
-User-agent: anthropic-ai
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: Google-Extended
+User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: CCBot
 Allow: /
 Disallow: /admin/
+Disallow: /api/
 
 # Aggressive SEO/backlink scrapers — throttle to protect the server
 User-agent: SemrushBot
 User-agent: AhrefsBot
 Crawl-delay: 5
+Disallow: /admin/
 
 User-agent: MJ12bot
 Crawl-delay: 10
+Disallow: /admin/
 
 # Unwanted crawlers
-User-agent: baiduspider
+User-agent: Baiduspider
 Disallow: /
 
-# Sitemap & AI content guide
 Sitemap: https://magnoramarketing.dk/sitemap.xml

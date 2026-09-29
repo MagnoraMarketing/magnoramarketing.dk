@@ -13,7 +13,7 @@ export default function OutboundSales2026() {
       <SEO
         title={t('blogPosts.OutboundSales2026.seoTitle')}
         description={t('blogPosts.OutboundSales2026.seoDescription')}
-        canonical="/blog/effektive-telemarketing-strategier-2025"
+        canonical="/blog/outbound-sales-2026"
         keywords={t('blogPosts.OutboundSales2026.keywords')}
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
