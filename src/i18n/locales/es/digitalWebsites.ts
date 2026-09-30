@@ -63,12 +63,12 @@ export default {
   ],
   budget: {
     label: 'Páginas web económicas',
-    heading: 'Diseños de sector ya elaborados – desde solo 1.500 DKK',
+    heading: 'Diseños de sector ya elaborados – desde solo 200 €',
     subtitle: '¿Tienes un presupuesto reducido? Elige un diseño profesional ya elaborado que se adapte a tu sector – y hazlo tuyo con tus propias imágenes, textos y colores. Online rápido, sin necesitar un gran presupuesto.',
-    badgePrice: '<span class="font-semibold text-gray-900">Desde solo 1.500 DKK</span> por página web',
+    badgePrice: '<span class="font-semibold text-gray-900">Desde solo 200 €</span> por página web',
     badgeImages: '<span class="font-semibold text-gray-900">Personaliza con tus propias imágenes</span> y texto',
     badgeFast: '<span class="font-semibold text-gray-900">Online rápido</span> – listo en pocos días',
-    priceTag: 'Desde 1.500 DKK',
+    priceTag: 'Desde 200 €',
     items: [
       { branche: 'Jardinería y paisajismo', desc: 'Diseño verde y acogedor con espacio para galería de proyectos y formulario de presupuesto.' },
       { branche: 'Artesanos y oficios', desc: 'Diseño que genera confianza con servicios, referencias y contacto rápido.' },
@@ -80,7 +80,7 @@ export default {
     imageAltTemplate: 'Diseño de página web económico para el sector {{branche}}',
     customizeNote: 'Personaliza con tus propias imágenes',
     noIndustry: '¿No ves tu sector? Creamos un diseño económico para cualquier sector.',
-    cta: 'Solicita tu página web desde 1.500 DKK',
+    cta: 'Solicita tu página web desde 200 €',
   },
   showcase: {
     label: 'Referencias',

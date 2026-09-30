@@ -111,7 +111,7 @@ export default {
     { question: 'What makes a good customer reference?', answer: 'We give you access to a portfolio and case studies you can use to convince skeptical customers of the quality.' },
     { question: 'Can I see the product before I sell it?', answer: "Yes – you get a thorough walkthrough and demo of all Magnora Marketing's web products before you start selling them." },
     { question: 'Are there upsell opportunities?', answer: 'Yes – customers who buy a website can be sold maintenance, SEO, AI integration and other ongoing services.' },
-    { question: 'What is the average order value?', answer: 'It varies by product and customer. A simple website can start from DKK 10,000, while larger projects can be DKK 50,000+.' },
+    { question: 'What is the average order value?', answer: 'It varies by product and customer. A simple website can start from €1,400, while larger projects can be €6,700+.' },
     { question: 'Can I specialize in one type of customer?', answer: 'Yes – many sales reps choose to focus on a specific industry or company size to become experts.' },
     { question: 'What is the commission per sale?', answer: 'Commission is agreed individually and depends on the product type and sale price. You receive a clear commission structure at the start.' },
   ],

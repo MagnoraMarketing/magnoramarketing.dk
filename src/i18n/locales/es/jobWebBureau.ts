@@ -111,7 +111,7 @@ export default {
     { question: '¿Qué es una buena referencia de cliente?', answer: 'Te damos acceso a un portafolio y a casos de éxito que puedes usar para convencer a clientes escépticos de la calidad.' },
     { question: '¿Puedo ver el producto antes de venderlo?', answer: 'Sí – recibes una explicación detallada y una demo de todos los productos web de Magnora Marketing antes de empezar a venderlos.' },
     { question: '¿Hay oportunidades de venta cruzada?', answer: 'Sí – a los clientes que compran un sitio web se les puede vender mantenimiento, SEO, integración de IA y otros servicios continuos.' },
-    { question: '¿Cuál es el valor medio de pedido?', answer: 'Varía según el producto y el cliente. Un sitio web sencillo puede empezar desde 10.000 DKK, mientras que proyectos más grandes pueden superar los 50.000 DKK.' },
+    { question: '¿Cuál es el valor medio de pedido?', answer: 'Varía según el producto y el cliente. Un sitio web sencillo puede empezar desde 1.400 €, mientras que proyectos más grandes pueden superar los 6.700 €.' },
     { question: '¿Puedo especializarme en un tipo de cliente?', answer: 'Sí – muchos comerciales eligen centrarse en un sector o tamaño de empresa específico para convertirse en expertos.' },
     { question: '¿Cuál es la comisión por venta?', answer: 'La comisión se acuerda de forma individual y depende del tipo de producto y del precio de venta. Recibes una estructura de comisiones clara al empezar.' },
   ],

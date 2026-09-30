@@ -339,7 +339,7 @@ export default {
     s2Heading: 'Total Cost of Ownership: What does it really cost?',
     s2Sub1Heading: 'On-premise: high starting costs, ongoing maintenance',
     s2Sub1Body1:
-      'With on-premise software, the initial investments are typically high: software licenses, server infrastructure, implementation consultants and internal IT time. On top of that comes ongoing maintenance, security updates, backup systems and any upgrades. For a mid-sized company, total cost of ownership over 5 years can easily run into millions of kroner.',
+      'With on-premise software, the initial investments are typically high: software licenses, server infrastructure, implementation consultants and internal IT time. On top of that comes ongoing maintenance, security updates, backup systems and any upgrades. For a mid-sized company, total cost of ownership over 5 years can easily run into hundreds of thousands of euros.',
     s2Sub1Body2:
       'The hidden cost of on-premise is internal IT time spent. Every update, every security issue and every integration requires qualified IT staff. At many companies, IT operations and maintenance eat up a large share of the IT budget that could otherwise be spent on innovation and new projects.',
     s2Sub2Heading: 'SaaS: predictable subscription costs',

@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'Widget de Voz IA para Sitios Web | Voz, Chat y Reserva Automática | Magnora Marketing',
-    description: 'Widget de voz IA que habla danés: responde consultas de clientes y reserva reuniones directamente en su calendario – 24/7. Configuración en menos de 5 minutos, desde 999 DKK/mes. ✓ RGPD ✓ Voz y texto ✓ Multilingüe',
+    description: 'Widget de voz IA que habla danés: responde consultas de clientes y reserva reuniones directamente en su calendario – 24/7. Configuración en menos de 5 minutos, desde 140 €/mes. ✓ RGPD ✓ Voz y texto ✓ Multilingüe',
     keywords: 'widget de voz IA, widget IA, chatbot por voz, reserva automática, recepcionista IA sitio web, chat IA en danés, bot de voz danés',
   },
   hero: {
@@ -73,7 +73,7 @@ export default {
   },
   roi: {
     title: 'ROI típico de un widget de voz IA',
-    descriptionHtml: 'Una recepcionista a tiempo parcial suele costar entre 15.000 y 20.000 DKK/mes. Con el widget de voz IA por <strong class="text-white">999 DKK/mes</strong>, obtiene la misma funcionalidad – pero las 24 horas del día, los 7 días de la semana.',
+    descriptionHtml: 'Una recepcionista a tiempo parcial suele costar entre 2.000 y 2.700 €/mes. Con el widget de voz IA por <strong class="text-white">140 €/mes</strong>, obtiene la misma funcionalidad – pero las 24 horas del día, los 7 días de la semana.',
     stats: [
       { value: '95%', label: 'Ahorro frente a recepcionista' },
       { value: '0 seg', label: 'Tiempo de espera para clientes' },
@@ -87,7 +87,7 @@ export default {
     { question: '¿Pueden los clientes hablar y escribir al widget?', answer: 'Sí – el widget admite tanto voz como chat de texto. El cliente elige, y la IA responde de la misma manera independientemente del formato de entrada.' },
     { question: '¿Qué requiere la instalación del widget?', answer: 'Recibirá un sencillo fragmento de código JavaScript que insertará en su sitio web. Es compatible con WordPress, Shopify, Wix y todas las demás plataformas – no se requieren conocimientos técnicos y la configuración tarda menos de 5 minutos.' },
     { question: '¿Cómo llegan las reservas a mi calendario?', answer: 'El widget se sincroniza directamente con Google Calendar, Outlook y otros sistemas de calendario. Las reuniones se registran automáticamente, usted recibe una confirmación y el cliente obtiene un comprobante – sin dobles reservas ni registro manual.' },
-    { question: '¿Cuánto cuesta un widget de voz IA?', answer: 'Desde 999 DKK/mes – y solo paga por el tiempo de conversación activo, no por tiempos de espera ni pausas. En comparación, una recepcionista a tiempo parcial suele costar entre 15.000 y 20.000 DKK/mes, por lo que el ahorro puede llegar al 95%.' },
+    { question: '¿Cuánto cuesta un widget de voz IA?', answer: 'Desde 140 €/mes – y solo paga por el tiempo de conversación activo, no por tiempos de espera ni pausas. En comparación, una recepcionista a tiempo parcial suele costar entre 2.000 y 2.700 €/mes, por lo que el ahorro puede llegar al 95%.' },
     { question: '¿Con qué rapidez puedo empezar?', answer: 'Desde el pedido hasta un widget activo en su sitio web pasan menos de 5 minutos. No se necesitan desarrolladores.' },
     { question: '¿Cómo se entrena la IA para mi negocio?', answer: 'El asistente IA se configura con el conocimiento de su negocio, sus servicios y su horario de apertura, para que dé respuestas que encajen exactamente con su empresa.' },
     { question: '¿Cumple el widget con el RGPD?', answer: 'Sí – todos los datos se procesan de forma segura y conforme al RGPD, y usted tiene control total sobre los datos de sus clientes.' },

@@ -48,7 +48,7 @@ export default {
   },
   comparison: {
     title: 'In-House Salesperson vs. Magnora Marketing as a Sales Partner',
-    p1: 'Hiring a dedicated salesperson typically costs DKK 400,000-600,000 a year including salary, bonus, pension, workspace and training. And it takes 3-6 months to recruit and onboard.',
+    p1: 'Hiring a dedicated salesperson typically costs €54,000-80,000 a year including salary, bonus, pension, workspace and training. And it takes 3-6 months to recruit and onboard.',
     p2: 'With Magnora Marketing you only pay for the actual effort – and you can get started within weeks. You avoid the recruitment risk, sick days and severance costs.',
     items: [
       'No recruitment costs',

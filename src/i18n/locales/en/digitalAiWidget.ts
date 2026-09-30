@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'AI Voice Widget for Websites | Voice, Chat & Automatic Booking | Magnora Marketing',
-    description: 'AI voice widget that speaks Danish: answers customer inquiries and books meetings directly in your calendar – 24/7. Setup in under 5 minutes, from DKK 999/month. ✓ GDPR ✓ Voice & text ✓ Multilingual',
+    description: 'AI voice widget that speaks Danish: answers customer inquiries and books meetings directly in your calendar – 24/7. Setup in under 5 minutes, from €140/month. ✓ GDPR ✓ Voice & text ✓ Multilingual',
     keywords: 'AI voice widget, AI widget, voice-based chatbot, automatic booking, AI receptionist website, AI chat Danish, voice bot Danish',
   },
   hero: {
@@ -73,7 +73,7 @@ export default {
   },
   roi: {
     title: 'Typical ROI of an AI voice widget',
-    descriptionHtml: 'A part-time receptionist typically costs DKK 15,000-20,000/month. With the AI voice widget at <strong class="text-white">DKK 999/month</strong>, you get the same functionality – but 24 hours a day, 7 days a week.',
+    descriptionHtml: 'A part-time receptionist typically costs €2,000-2,700/month. With the AI voice widget at <strong class="text-white">€140/month</strong>, you get the same functionality – but 24 hours a day, 7 days a week.',
     stats: [
       { value: '95%', label: 'Savings vs. receptionist' },
       { value: '0 sec', label: 'Wait time for customers' },
@@ -87,7 +87,7 @@ export default {
     { question: 'Can customers both speak and type to the widget?', answer: 'Yes – the widget supports both voice and text chat. The customer chooses, and the AI responds the same way regardless of input method.' },
     { question: 'What does installing the widget require?', answer: "You get a simple JavaScript snippet that you add to your website. It's compatible with WordPress, Shopify, Wix and all other platforms – no technical knowledge required, and setup takes under 5 minutes." },
     { question: 'How do bookings end up in my calendar?', answer: 'The widget syncs directly with Google Calendar, Outlook and other calendar systems. Meetings are recorded automatically, you receive a confirmation, and the customer gets a receipt – with no double bookings or manual registration.' },
-    { question: 'What does an AI voice widget cost?', answer: 'From DKK 999/month – and you only pay for active talk time, not wait time or pauses. By comparison, a part-time receptionist typically costs DKK 15,000-20,000/month, so the savings can reach up to 95%.' },
+    { question: 'What does an AI voice widget cost?', answer: 'From €140/month – and you only pay for active talk time, not wait time or pauses. By comparison, a part-time receptionist typically costs €2,000-2,700/month, so the savings can reach up to 95%.' },
     { question: 'How fast can I get started?', answer: 'From order to a live widget on your website takes under 5 minutes. No developers required.' },
     { question: 'How is the AI trained for my business?', answer: 'The AI assistant is set up with knowledge of your business, your services and your opening hours, so it gives answers that fit your business precisely.' },
     { question: 'Is the widget GDPR-compliant?', answer: 'Yes – all data is processed securely and in accordance with GDPR, and you have full control over your customers\' data.' },

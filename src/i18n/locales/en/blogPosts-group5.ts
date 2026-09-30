@@ -182,7 +182,7 @@ export default {
         heading: 'The challenge: From founder-led sales to scaled sales',
         body: [
           'Most startups begin with founder-led sales: the founder personally sells to the first customers through their network, LinkedIn and direct outreach. Founder-led sales works well in the early stages – the founder is the most convincing sales rep because she understands the product most deeply and cares about it the most. But founder-led sales does not scale.',
-          "The classic answer is to hire sales reps. But that is risky and expensive: an experienced B2B sales rep costs DKK 50,000-80,000 a month in total package, takes 3-6 months to recruit and another 3-6 months to train. In the meantime you pay full salary. And if they don't perform, ending the employment relationship is costly.",
+          "The classic answer is to hire sales reps. But that is risky and expensive: an experienced B2B sales rep costs €6,700-11,000 a month in total package, takes 3-6 months to recruit and another 3-6 months to train. In the meantime you pay full salary. And if they don't perform, ending the employment relationship is costly.",
           'By 2026, outsourcing and automation have matured to a point where many startups can scale sales far more flexibly and capital-efficiently than by hiring.',
         ],
       },
