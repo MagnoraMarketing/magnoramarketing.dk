@@ -1,0 +1,761 @@
+[
+  {
+    "slug": "100-bud-ai-opgaveloesning",
+    "category": "ai",
+    "date": "2026-07-26",
+    "title": "100 bud: Sådan kan AI hjælpe jer i opgaveløsningen",
+    "description": "100 konkrete bud på, hvordan AI kan hjælpe jer i opgaveløsningen – fra oversættelse af tekster til sparring i svære sager. Et praktisk idékatalog.",
+    "readMin": 7,
+    "related": [
+      "ai-sparer-tid-virksomhed",
+      "bedste-ai-loesninger-smv",
+      "ai-agenter-automatisering-2026"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "bliv-ai-konsulent-karriere",
+    "category": "ai",
+    "date": "2026-07-25",
+    "title": "Bliv AI-konsulent: Karrieren i front af fremtidens teknologi",
+    "description": "Drømmer du om et fremtidssikret job hjemmefra? Bliv AI-konsulent og hjælp virksomheder med AI-løsninger. Se hvad jobbet indebærer, og hvordan du søger.",
+    "readMin": 3,
+    "related": [
+      "fremtidens-ai-loesninger-2026",
+      "hvorfor-ai-nu-2026",
+      "generativ-ai-forretningsvaerdi"
+    ],
+    "services": [
+      "/jobs/ai-konsulent"
+    ]
+  },
+  {
+    "slug": "bedste-ai-loesninger-smv",
+    "category": "ai",
+    "date": "2026-07-24",
+    "title": "De 7 mest værdifulde AI-løsninger for små og mellemstore virksomheder",
+    "description": "Hvilke AI-løsninger giver mest værdi for SMV'er? Her er 7 løsninger, der sparer tid, sænker omkostninger og skaber vækst i mindre virksomheder.",
+    "readMin": 3,
+    "related": [
+      "ai-reception-telefonassistent",
+      "ai-kundeservice-doegnet-rundt",
+      "ai-integration-roi-2026"
+    ],
+    "services": [
+      "/digital/ai-integration",
+      "/digital/ai-widget"
+    ]
+  },
+  {
+    "slug": "ai-salg-moedebooking-fremtid",
+    "category": "ai",
+    "date": "2026-07-22",
+    "title": "AI i salg og mødebooking: Fremtidens vækstmotor",
+    "description": "AI forandrer B2B-salg og mødebooking – fra lead scoring til automatisk opfølgning. Se hvorfor AI bliver fremtidens vækstmotor for danske virksomheder.",
+    "readMin": 3,
+    "related": [
+      "ai-automation-2026",
+      "modebooking-2026",
+      "ai-agenter-automatisering-2026"
+    ],
+    "services": [
+      "/digital/ai-integration",
+      "/modebooking-priser"
+    ]
+  },
+  {
+    "slug": "hvorfor-ai-nu-2026",
+    "category": "ai",
+    "date": "2026-07-20",
+    "title": "Derfor skal din virksomhed tage stilling til AI nu – ikke om to år",
+    "description": "AI-udviklingen accelererer, og forspringet til konkurrenterne vokser hver måned. Se hvorfor din virksomhed skal tage stilling til AI nu – ikke om to år.",
+    "readMin": 3,
+    "related": [
+      "fremtidens-ai-loesninger-2026",
+      "ai-integration-roi-2026",
+      "bedste-ai-loesninger-smv"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "ai-reception-telefonassistent",
+    "category": "ai",
+    "date": "2026-07-18",
+    "title": "AI-reception og AI-telefonassistenter: Aldrig gå glip af et opkald igen",
+    "description": "En AI-reception besvarer opkald, svarer på spørgsmål og booker aftaler døgnet rundt. Se hvordan AI-telefonassistenter sikrer, at du aldrig misser et kald.",
+    "readMin": 3,
+    "related": [
+      "ai-kundeservice-doegnet-rundt",
+      "bedste-ai-loesninger-smv",
+      "ai-sparer-tid-virksomhed"
+    ],
+    "services": [
+      "/digital/ai-reception"
+    ]
+  },
+  {
+    "slug": "generativ-ai-forretningsvaerdi",
+    "category": "ai",
+    "date": "2026-07-16",
+    "title": "Fra ChatGPT til forretningsværdi: Sådan bruger virksomheder generativ AI",
+    "description": "Generativ AI som ChatGPT er blevet allemandseje – men hvordan skaber virksomheder reel værdi med det? Se de konkrete anvendelser, der driver vækst.",
+    "readMin": 3,
+    "related": [
+      "ai-agenter-automatisering-2026",
+      "100-bud-ai-opgaveloesning",
+      "ai-automation-2026"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "ai-kundeservice-doegnet-rundt",
+    "category": "ai",
+    "date": "2026-07-15",
+    "title": "AI-kundeservice døgnet rundt: Fremtidens support er allerede her",
+    "description": "AI-kundeservice svarer dine kunder med det samme – 24/7. Se hvordan AI-chat og AI-support løfter kundeoplevelsen og aflaster dit team.",
+    "readMin": 3,
+    "related": [
+      "ai-reception-telefonassistent",
+      "websitekonvertering-tips",
+      "bedste-ai-loesninger-smv"
+    ],
+    "services": [
+      "/digital/ai-widget",
+      "/digital/ai-reception"
+    ]
+  },
+  {
+    "slug": "ai-sparer-tid-virksomhed",
+    "category": "ai",
+    "date": "2026-07-14",
+    "title": "Sådan sparer AI din virksomhed for hundredvis af timer om året",
+    "description": "AI kan automatisere tidskrævende opgaver og frigøre hundredvis af timer om året. Se de konkrete områder, hvor AI sparer din virksomhed tid.",
+    "readMin": 3,
+    "related": [
+      "100-bud-ai-opgaveloesning",
+      "ai-agenter-automatisering-2026",
+      "ai-integration-roi-2026"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "ai-agenter-automatisering-2026",
+    "category": "ai",
+    "date": "2026-07-13",
+    "title": "AI-agenter: Den næste bølge af automatisering for virksomheder",
+    "description": "AI-agenter udfører selvstændigt opgaver på tværs af dine systemer. Se hvordan de bliver fremtidens digitale medarbejdere i danske virksomheder.",
+    "readMin": 3,
+    "related": [
+      "generativ-ai-forretningsvaerdi",
+      "saas-integration-2026",
+      "ai-sparer-tid-virksomhed"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "fremtidens-ai-loesninger-2026",
+    "category": "ai",
+    "date": "2026-07-12",
+    "title": "Fremtidens AI-løsninger: Sådan forandrer kunstig intelligens danske virksomheder",
+    "description": "Se hvordan kunstig intelligens allerede forandrer måden, danske virksomheder arbejder, sælger og servicerer kunder på i 2026.",
+    "readMin": 3,
+    "related": [
+      "hvorfor-ai-nu-2026",
+      "ai-agenter-automatisering-2026",
+      "bliv-ai-konsulent-karriere"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "hvorfor-outsource-salg-og-moedebooking",
+    "category": "samarbejde",
+    "date": "2026-07-10",
+    "title": "Hvorfor outsource dit salg og din mødebooking til Magnora Marketing?",
+    "description": "Internt salgsteam eller outsourcing? Se hvornår det giver mening at outsource telesalg og mødebooking – og hvilke fordele det giver din vækst.",
+    "readMin": 3,
+    "related": [
+      "outsource-moedebooking-fordele",
+      "outsourcing-telesalg-2026",
+      "startup-til-vaekst-2026"
+    ],
+    "services": [
+      "/modebooking-priser",
+      "/hvorfor-os"
+    ]
+  },
+  {
+    "slug": "saadan-foregaar-samarbejdet",
+    "category": "samarbejde",
+    "date": "2026-07-09",
+    "title": "Sådan foregår et samarbejde med Magnora Marketing – trin for trin",
+    "description": "Fra første uforpligtende snak til de første kvalificerede møder: Se præcis hvordan et samarbejde med Magnora forløber – enkelt, hurtigt og transparent.",
+    "readMin": 3,
+    "related": [
+      "hvorfor-samarbejde-magnora",
+      "vaekst-partner-guide",
+      "outsourcing-telesalg-2026"
+    ],
+    "services": [
+      "/priser",
+      "/hvorfor-os"
+    ]
+  },
+  {
+    "slug": "vaekstpartner-ide-moedebooking-telesalg",
+    "category": "samarbejde",
+    "date": "2026-07-08",
+    "title": "Én vækstpartner til idéudvikling, mødebooking og telesalg",
+    "description": "Hvorfor jonglere med flere leverandører? Magnora samler idéudvikling, mødebooking og telesalg hos én partner – mere sammenhæng, hurtigere resultater.",
+    "readMin": 3,
+    "related": [
+      "vaekst-partner-guide",
+      "ideudvikling-med-magnora",
+      "hvorfor-samarbejde-magnora"
+    ],
+    "services": [
+      "/hvorfor-os",
+      "/ydelser"
+    ]
+  },
+  {
+    "slug": "b2b-telesalg-samarbejde",
+    "category": "samarbejde",
+    "date": "2026-07-07",
+    "title": "B2B telesalg-samarbejde: Sådan booster Magnora din pipeline",
+    "description": "Sådan ser et B2B telesalg-samarbejde med Magnora ud – fra onboarding og prospektering til kvalificerede møder og en pipeline, der vokser.",
+    "readMin": 3,
+    "related": [
+      "telesalg-partner-magnora",
+      "cold-calling-vs-inbound",
+      "b2b-salg-strategi-2026"
+    ],
+    "services": [
+      "/ydelser",
+      "/leadgenerering"
+    ]
+  },
+  {
+    "slug": "telesalg-partner-magnora",
+    "category": "samarbejde",
+    "date": "2026-07-06",
+    "title": "Telesalg-partner: Hvorfor Magnora Marketing skaber resultater for din virksomhed",
+    "description": "Resultatorienteret B2B telesalg med erfarne sælgere, skræddersyede scripts og fuld gennemsigtighed. Se hvorfor vi skaber reelle salgsresultater.",
+    "readMin": 3,
+    "related": [
+      "telesalg-2026",
+      "outsourcing-telesalg-2026",
+      "b2b-telesalg-samarbejde"
+    ],
+    "services": [
+      "/ydelser",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "outsource-moedebooking-fordele",
+    "category": "samarbejde",
+    "date": "2026-07-05",
+    "title": "Outsource din mødebooking: 7 fordele ved at samarbejde med Magnora Marketing",
+    "description": "Outsource mødebookingen eller ansæt internt? Se 7 fordele ved at lade Magnora stå for din B2B mødebooking – hurtig opstart, lav risiko og flere møder.",
+    "readMin": 3,
+    "related": [
+      "moedebooking-partner-magnora",
+      "outsourcing-telesalg-2026",
+      "hvorfor-magnora-moedebooking"
+    ],
+    "services": [
+      "/modebooking-priser",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "moedebooking-partner-magnora",
+    "category": "samarbejde",
+    "date": "2026-07-04",
+    "title": "Mødebooking-partner: Derfor skal du samarbejde med Magnora Marketing",
+    "description": "Vi fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere. Se hvorfor vi er mødebooking-partneren med dokumenterede resultater.",
+    "readMin": 3,
+    "related": [
+      "modebooking-2026",
+      "moedebooking-scripts-2026",
+      "outsource-moedebooking-fordele"
+    ],
+    "services": [
+      "/modebooking-priser"
+    ]
+  },
+  {
+    "slug": "fra-ide-til-salg",
+    "category": "samarbejde",
+    "date": "2026-07-03",
+    "title": "Fra idé til salg: Sådan tager Magnora din forretningsidé til markedet",
+    "description": "Mange gode idéer når aldrig markedet. Se hvordan Magnora tager dig fra idé og koncept til digital løsning, mødebooking og betalende kunder.",
+    "readMin": 3,
+    "related": [
+      "ideudvikling-med-magnora",
+      "b2b-salg-strategi-2026",
+      "outbound-sales-2026"
+    ],
+    "services": [
+      "/ydelser",
+      "/leadgenerering"
+    ]
+  },
+  {
+    "slug": "ideudvikling-med-magnora",
+    "category": "samarbejde",
+    "date": "2026-07-02",
+    "title": "Idéudvikling med Magnora Marketing: Fra koncept til markedsklar løsning",
+    "description": "Har du en idé, men mangler vejen til markedet? Vi hjælper med idé- og konceptudvikling, bygger løsningen – og står klar med salgskraften bagefter.",
+    "readMin": 3,
+    "related": [
+      "fra-ide-til-salg",
+      "startup-til-vaekst-2026",
+      "vaekstpartner-ide-moedebooking-telesalg"
+    ],
+    "services": [
+      "/ydelser",
+      "/digital/webudvikling"
+    ]
+  },
+  {
+    "slug": "hvorfor-samarbejde-magnora",
+    "category": "samarbejde",
+    "date": "2026-07-01",
+    "title": "Hvorfor samarbejde med Magnora Marketing? 8 grunde til at vælge os som vækstpartner",
+    "description": "Din vækstpartner inden for idéudvikling, mødebooking og telesalg. Se 8 grunde til at vælge os – dokumenterede resultater, gennemsigtighed og fleksibilitet.",
+    "readMin": 3,
+    "related": [
+      "saadan-foregaar-samarbejdet",
+      "vaekst-partner-guide",
+      "hvorfor-outsource-salg-og-moedebooking"
+    ],
+    "services": [
+      "/hvorfor-os",
+      "/ydelser"
+    ]
+  },
+  {
+    "slug": "cold-calling-vs-inbound",
+    "category": "telesalg",
+    "date": "2026-06-29",
+    "title": "Cold calling vs. inbound i 2026: Hvad virker bedst for B2B?",
+    "description": "Cold calling eller inbound marketing? Se fordele, ulemper og timing for B2B i 2026 – og hvornår du bør kombinere begge for maksimalt udbytte.",
+    "readMin": 4,
+    "related": [
+      "outbound-sales-2026",
+      "leadgenerering-strategier-2026",
+      "websitekonvertering-tips"
+    ],
+    "services": [
+      "/leadgenerering",
+      "/ydelser"
+    ]
+  },
+  {
+    "slug": "startup-til-vaekst-2026",
+    "category": "telesalg",
+    "date": "2026-06-26",
+    "title": "Fra startup til vækst: Sådan skalerer du dit salg uden at ansætte",
+    "description": "Praktisk guide til at skalere B2B-salget i en startup uden et stort internt salgsteam – med outsourcing, automatisering og smarte salgsstrukturer.",
+    "readMin": 3,
+    "related": [
+      "outbound-sales-2026",
+      "vaekst-partner-guide",
+      "b2b-salg-strategi-2026"
+    ],
+    "services": [
+      "/leadgenerering",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "vaekst-partner-guide",
+    "category": "telesalg",
+    "date": "2026-06-23",
+    "title": "Hvad er en vækstpartner – og hvad bør du kræve af din?",
+    "description": "Hvad er en vækstpartner, hvad adskiller en god fra en dårlig, og hvilke konkrete krav bør du stille til en partner, der skal drive din vækst?",
+    "readMin": 3,
+    "related": [
+      "hvorfor-samarbejde-magnora",
+      "outsourcing-telesalg-2026",
+      "startup-til-vaekst-2026"
+    ],
+    "services": [
+      "/hvorfor-os"
+    ]
+  },
+  {
+    "slug": "hvad-er-bant-2026",
+    "category": "telesalg",
+    "date": "2026-06-20",
+    "title": "BANT-kvalificering: Sådan sorterer du de bedste leads fra",
+    "description": "Guide til BANT-kvalificering af B2B-leads: Brug Budget, Authority, Need og Timeline til at prioritere de rigtige prospects og sælge mere effektivt.",
+    "readMin": 4,
+    "related": [
+      "leadgenerering-strategier-2026",
+      "moedebooking-scripts-2026",
+      "b2b-salg-strategi-2026"
+    ],
+    "services": [
+      "/leadgenerering",
+      "/modebooking-priser"
+    ]
+  },
+  {
+    "slug": "leadgenerering-strategier-2026",
+    "category": "telesalg",
+    "date": "2026-06-15",
+    "title": "5 leadgenereringsstrategier der virker i 2026",
+    "description": "De 5 mest effektive B2B-strategier til leadgenerering i 2026 – fra content og SEO til outbound og account-based marketing. Find den rigtige for dig.",
+    "readMin": 4,
+    "related": [
+      "outbound-sales-2026",
+      "hvad-er-bant-2026",
+      "websitekonvertering-tips"
+    ],
+    "services": [
+      "/leadgenerering"
+    ]
+  },
+  {
+    "slug": "moedebooking-scripts-2026",
+    "category": "telesalg",
+    "date": "2026-06-10",
+    "title": "De bedste mødebooking-scripts til B2B salg i 2026",
+    "description": "Konkrete mødebooking-scripts til B2B cold calling i 2026. Lær strukturen bag de bedste scripts, og tilpas dem til din målgruppe og branche.",
+    "readMin": 4,
+    "related": [
+      "modebooking-2026",
+      "hvad-er-bant-2026",
+      "telesalg-2026"
+    ],
+    "services": [
+      "/modebooking-priser"
+    ]
+  },
+  {
+    "slug": "b2b-salg-strategi-2026",
+    "category": "telesalg",
+    "date": "2026-06-05",
+    "title": "B2B salgsstrategi i 2026: Sådan vinder du flere kunder",
+    "description": "Komplet guide til B2B salgsstrategi i 2026 – fra ICP og prospektering til pipeline og closing. Se hvad de bedste B2B-salgsteams gør anderledes.",
+    "readMin": 3,
+    "related": [
+      "leadgenerering-strategier-2026",
+      "hvad-er-bant-2026",
+      "outbound-sales-2026"
+    ],
+    "services": [
+      "/leadgenerering",
+      "/ydelser"
+    ]
+  },
+  {
+    "slug": "outsourcing-telesalg-2026",
+    "category": "telesalg",
+    "date": "2026-06-01",
+    "title": "Outsourcing af telesalg i 2026: Fordele, faldgruber og hvad du bør kræve",
+    "description": "Alt om outsourcing af telesalg i 2026: fordele, typiske faldgruber og en konkret guide til, hvad du bør kræve af en telesalgspartner.",
+    "readMin": 3,
+    "related": [
+      "telesalg-2026",
+      "hvorfor-outsource-salg-og-moedebooking",
+      "hvorfor-magnora-telesalg"
+    ],
+    "services": [
+      "/ydelser",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "hvorfor-magnora-moedebooking",
+    "category": "telesalg",
+    "date": "2026-05-25",
+    "title": "Hvorfor vælge Magnora Marketing til mødebooking?",
+    "description": "Kvalificeret B2B mødebooking med erfarne konsulenter og gennemprøvede metoder. Se hvad der adskiller vores mødebooking fra andre udbydere.",
+    "readMin": 4,
+    "related": [
+      "modebooking-2026",
+      "moedebooking-partner-magnora",
+      "moedebooking-scripts-2026"
+    ],
+    "services": [
+      "/modebooking-priser"
+    ]
+  },
+  {
+    "slug": "hvorfor-magnora-telesalg",
+    "category": "telesalg",
+    "date": "2026-05-20",
+    "title": "Hvorfor vælge Magnora Marketing som telesalgspartner?",
+    "description": "Resultatorienteret B2B telesalg med erfarne sælgere, dokumenterede processer og fuld gennemsigtighed. Se hvad der adskiller os fra andre.",
+    "readMin": 3,
+    "related": [
+      "telesalg-2026",
+      "outsourcing-telesalg-2026",
+      "telesalg-partner-magnora"
+    ],
+    "services": [
+      "/ydelser",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "websitekonvertering-tips",
+    "category": "webudvikling",
+    "date": "2026-05-15",
+    "title": "10 tips til at øge din hjemmesides konverteringsrate i 2026",
+    "description": "10 dokumenterede tips til at øge din B2B-hjemmesides konverteringsrate i 2026 – fra value proposition og social proof til CTA og sidehastighed.",
+    "readMin": 4,
+    "related": [
+      "hjemmeside-til-vaekst-2026",
+      "cold-calling-vs-inbound",
+      "ai-kundeservice-doegnet-rundt"
+    ],
+    "services": [
+      "/digital/hjemmesider",
+      "/digital/ai-widget"
+    ]
+  },
+  {
+    "slug": "ai-integration-roi-2026",
+    "category": "ai",
+    "date": "2026-05-10",
+    "title": "AI-integration i din virksomhed: Hvad er ROI og hvornår betaler det sig?",
+    "description": "Forstå den reelle ROI ved AI-integration i 2026: Hvornår er investeringen berettiget, og hvilke AI-initiativer giver hurtigst og størst afkast?",
+    "readMin": 3,
+    "related": [
+      "hvorfor-ai-nu-2026",
+      "ai-sparer-tid-virksomhed",
+      "hvorfor-magnora-ai-integration"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "hjemmeside-til-vaekst-2026",
+    "category": "webudvikling",
+    "date": "2026-05-05",
+    "title": "En professionel hjemmeside er dit vigtigste salgsværktøj i 2026",
+    "description": "Derfor er hjemmesiden dit vigtigste salgsaktiv i 2026 – og hvad der adskiller en side, der skaber leads, fra en der ikke gør. Råd til B2B.",
+    "readMin": 3,
+    "related": [
+      "websitekonvertering-tips",
+      "hvorfor-magnora-webudvikling",
+      "leadgenerering-strategier-2026"
+    ],
+    "services": [
+      "/digital/hjemmesider"
+    ]
+  },
+  {
+    "slug": "hvorfor-magnora-ai-integration",
+    "category": "ai",
+    "date": "2026-05-01",
+    "title": "Hvorfor vælge Magnora Marketing som AI-integrationspartner?",
+    "description": "Vi kombinerer teknisk AI-ekspertise med forretningsforståelse og leverer AI-integrationer med reel ROI. Se hvad der adskiller os fra andre AI-bureauer.",
+    "readMin": 4,
+    "related": [
+      "ai-integration-roi-2026",
+      "ai-automation-2026",
+      "bedste-ai-loesninger-smv"
+    ],
+    "services": [
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "hvorfor-magnora-webudvikling",
+    "category": "webudvikling",
+    "date": "2026-04-25",
+    "title": "Hvorfor vælge Magnora Marketing som partner til webudvikling?",
+    "description": "Forretningsorienteret webudvikling, der gør besøgende til kunder – ikke blot smukke hjemmesider. Se hvad der adskiller Magnora fra andre webudviklere.",
+    "readMin": 4,
+    "related": [
+      "hjemmeside-til-vaekst-2026",
+      "websitekonvertering-tips",
+      "saas-loesninger-2026"
+    ],
+    "services": [
+      "/digital/webudvikling",
+      "/digital/hjemmesider"
+    ]
+  },
+  {
+    "slug": "saas-security-gdpr",
+    "category": "webudvikling",
+    "date": "2026-04-20",
+    "title": "SaaS og GDPR i 2026: Hvad skal din virksomhed vide?",
+    "description": "Guide til SaaS og GDPR i 2026: databehandleraftaler, datalokalitet, tredjelandsoverførsler og hvad du skal kræve af dine SaaS-leverandører.",
+    "readMin": 4,
+    "related": [
+      "saas-vs-on-premise",
+      "saas-integration-2026",
+      "hvorfor-saas-2026"
+    ],
+    "services": [
+      "/digital/api-saas"
+    ]
+  },
+  {
+    "slug": "saas-integration-2026",
+    "category": "webudvikling",
+    "date": "2026-04-15",
+    "title": "Sådan integrerer du SaaS-platforme og sparer 10 timer om ugen",
+    "description": "Integrér dine SaaS-platforme og fjern manuelle opgaver. Praktiske strategier og værktøjer, der sparer tid og øger datakvaliteten i din B2B-virksomhed.",
+    "readMin": 4,
+    "related": [
+      "bedste-saas-tools-2026",
+      "ai-agenter-automatisering-2026",
+      "saas-security-gdpr"
+    ],
+    "services": [
+      "/digital/api-saas",
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "bedste-saas-tools-2026",
+    "category": "webudvikling",
+    "date": "2026-04-10",
+    "title": "De 10 bedste SaaS-tools til B2B virksomheder i 2026",
+    "description": "De 10 mest effektive SaaS-tools til B2B i 2026 – fra CRM og marketing automation til projektstyring og AI-analyse. Spar tid og øg omsætningen.",
+    "readMin": 4,
+    "related": [
+      "saas-integration-2026",
+      "saas-loesninger-2026",
+      "ai-sparer-tid-virksomhed"
+    ],
+    "services": [
+      "/digital/api-saas"
+    ]
+  },
+  {
+    "slug": "saas-vs-on-premise",
+    "category": "webudvikling",
+    "date": "2026-04-05",
+    "title": "SaaS vs. On-Premise i 2026: Hvad passer til din virksomhed?",
+    "description": "Sammenligning af SaaS og on-premise i 2026: fordele, ulemper og total cost of ownership – så du træffer den rigtige beslutning for din virksomhed.",
+    "readMin": 4,
+    "related": [
+      "hvorfor-saas-2026",
+      "saas-security-gdpr",
+      "saas-integration-2026"
+    ],
+    "services": [
+      "/digital/api-saas"
+    ]
+  },
+  {
+    "slug": "hvorfor-saas-2026",
+    "category": "webudvikling",
+    "date": "2026-04-01",
+    "title": "Hvorfor din virksomhed bør vælge SaaS-løsninger i 2026",
+    "description": "Forstå fordelene ved SaaS i 2026. Fra lavere IT-omkostninger til skalerbarhed og AI-integration – lær hvorfor SaaS er det rigtige valg for din B2B virksomhed.",
+    "readMin": 4,
+    "related": [
+      "saas-vs-on-premise",
+      "saas-loesninger-2026",
+      "saas-security-gdpr"
+    ],
+    "services": [
+      "/digital/api-saas"
+    ]
+  },
+  {
+    "slug": "outbound-sales-2026",
+    "category": "telesalg",
+    "date": "2026-03-20",
+    "title": "Outbound Sales 2026: Byg en salgsmaskine der skalerer",
+    "description": "Guide til at bygge og optimere din outbound-salgsmotor i 2026: datadrevet targeting, personalisering og menneskelig salgskraft for maksimal ROI.",
+    "readMin": 3,
+    "related": [
+      "leadgenerering-strategier-2026",
+      "cold-calling-vs-inbound",
+      "b2b-salg-strategi-2026"
+    ],
+    "services": [
+      "/leadgenerering"
+    ]
+  },
+  {
+    "slug": "telesalg-2026",
+    "category": "telesalg",
+    "date": "2026-03-05",
+    "title": "Telesalg i 2026: Teknikker og strategier for moderne sælgere",
+    "description": "Telesalg har forandret sig. Lær de teknikker, der virker i moderne B2B-salg – fra salgsscripts og indvendingsbehandling til freelancekarriere.",
+    "readMin": 3,
+    "related": [
+      "cold-calling-vs-inbound",
+      "moedebooking-scripts-2026",
+      "outsourcing-telesalg-2026"
+    ],
+    "services": [
+      "/ydelser",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "modebooking-2026",
+    "category": "telesalg",
+    "date": "2026-02-20",
+    "title": "Effektiv Mødebooking i 2026: Strategier der virker",
+    "description": "De bedste metoder til B2B mødebooking i 2026 – fra BANT-kvalificering og salgsscripts til opfølgning og færre no-shows. Konkrete strategier.",
+    "readMin": 3,
+    "related": [
+      "moedebooking-scripts-2026",
+      "hvad-er-bant-2026",
+      "ai-salg-moedebooking-fremtid"
+    ],
+    "services": [
+      "/modebooking-priser"
+    ]
+  },
+  {
+    "slug": "ai-automation-2026",
+    "category": "ai",
+    "date": "2026-02-01",
+    "title": "AI Automation i Salg: Sådan bruger du det rigtigt i 2026",
+    "description": "Kunstig intelligens forandrer salget. Lær at bruge AI i din salgsproces og øg konverteringsraten – med konkrete eksempler fra dansk erhvervsliv.",
+    "readMin": 3,
+    "related": [
+      "ai-salg-moedebooking-fremtid",
+      "generativ-ai-forretningsvaerdi",
+      "hvorfor-magnora-ai-integration"
+    ],
+    "services": [
+      "/digital/ai-integration",
+      "/leadgenerering"
+    ]
+  },
+  {
+    "slug": "saas-loesninger-2026",
+    "category": "webudvikling",
+    "date": "2026-01-15",
+    "title": "SaaS-løsninger i 2026: Hvad B2B virksomheder bør vide",
+    "description": "De vigtigste SaaS-trends i 2026, og hvordan B2B-virksomheder kan udnytte cloud-platforme, AI-integrerede løsninger og vertical SaaS.",
+    "readMin": 3,
+    "related": [
+      "hvorfor-saas-2026",
+      "bedste-saas-tools-2026",
+      "saas-vs-on-premise"
+    ],
+    "services": [
+      "/digital/api-saas"
+    ]
+  }
+]

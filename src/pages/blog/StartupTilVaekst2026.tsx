@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../../components/SEO';
 import CTASection from '../../components/CTASection';
+import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta } from '../../components/BlogPostParts';
 
 interface Section {
   heading: string;
@@ -21,9 +22,10 @@ export default function StartupTilVaekst2026() {
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
         <div className="container mx-auto px-4 max-w-4xl">
+          <BlogBreadcrumbs />
           <span className="inline-block bg-blue-500 bg-opacity-40 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-4">{t('blogPosts.StartupTilVaekst2026.category')}</span>
           <h1 className="text-4xl font-bold text-white mb-4">{t('blogPosts.StartupTilVaekst2026.h1')}</h1>
-          <p className="text-gray-300">{t('blogPosts.StartupTilVaekst2026.meta')}</p>
+          <BlogPostMeta />
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-4 py-16">
@@ -42,6 +44,7 @@ export default function StartupTilVaekst2026() {
           </React.Fragment>
         ))}
       </div>
+      <BlogPostFooter />
       <CTASection
         title={t('blogPosts.StartupTilVaekst2026.cta.title')}
         subtitle={t('blogPosts.StartupTilVaekst2026.cta.subtitle')}

@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import { ServiceArticles } from '../components/BlogPostParts';
 
 interface ProcessItem {
   title: string;
@@ -152,6 +153,8 @@ const LeadGenerationPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/leadgenerering" />
 
       <FAQSection faqs={faqItems} />
       <CTASection

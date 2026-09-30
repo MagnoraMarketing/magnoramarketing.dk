@@ -34,55 +34,24 @@ function gitLastmod(routePath) {
   }
 }
 
-// Blog posts [slug, publish date, title] — keep in sync with src/pages/BlogPage.tsx
-const blogPosts = [
-  ['saas-loesninger-2026', '2026-01-15', 'SaaS-løsninger i 2026: Hvad B2B virksomheder bør vide'],
-  ['ai-automation-2026', '2026-02-01', 'AI Automation i Salg: Sådan bruger du det rigtigt i 2026'],
-  ['modebooking-2026', '2026-02-20', 'Effektiv Mødebooking i 2026: Strategier der virker'],
-  ['telesalg-2026', '2026-03-05', 'Telesalg i 2026: Teknikker og strategier for moderne sælgere'],
-  ['outbound-sales-2026', '2026-03-20', 'Outbound Sales 2026: Byg en salgsmaskine der skalerer'],
-  ['hvorfor-saas-2026', '2026-04-01', 'Hvorfor SaaS i 2026? Fordele for B2B virksomheder'],
-  ['saas-vs-on-premise', '2026-04-05', 'SaaS vs. On-Premise: Hvad passer til din virksomhed i 2026?'],
-  ['bedste-saas-tools-2026', '2026-04-10', 'De 10 bedste SaaS-tools til B2B virksomheder i 2026'],
-  ['saas-integration-2026', '2026-04-15', 'SaaS Integration i 2026: Sådan forbinder du dine platforme'],
-  ['saas-security-gdpr', '2026-04-20', 'SaaS Sikkerhed & GDPR: Hvad du skal vide i 2026'],
-  ['hvorfor-magnora-webudvikling', '2026-04-25', 'Hvorfor vælge Magnora Marketing til webudvikling?'],
-  ['hjemmeside-til-vaekst-2026', '2026-05-05', 'Hjemmeside til Vækst i 2026: Hvad B2B-kunder forventer'],
-  ['websitekonvertering-tips', '2026-05-15', '10 tips til bedre websitekonvertering for B2B virksomheder'],
-  ['hvorfor-magnora-ai-integration', '2026-05-01', 'Hvorfor vælge Magnora Marketing til AI-integration?'],
-  ['ai-integration-roi-2026', '2026-05-10', 'AI Integration ROI i 2026: Hvornår betaler det sig?'],
-  ['hvorfor-magnora-telesalg', '2026-05-20', 'Hvorfor vælge Magnora Marketing til telesalg?'],
-  ['hvorfor-magnora-moedebooking', '2026-05-25', 'Hvorfor vælge Magnora Marketing til mødebooking?'],
-  ['outsourcing-telesalg-2026', '2026-06-01', 'Outsourcing af Telesalg i 2026: Fordele, faldgruber og krav'],
-  ['b2b-salg-strategi-2026', '2026-06-05', 'B2B Salgsstrategi i 2026: 5 fundamenter der skaber vækst'],
-  ['moedebooking-scripts-2026', '2026-06-10', 'Mødebooking Scripts 2026: Konkrete eksempler der virker'],
-  ['leadgenerering-strategier-2026', '2026-06-15', 'Leadgenerering Strategier 2026: 5 metoder der virker'],
-  ['hvad-er-bant-2026', '2026-06-20', 'Hvad er BANT? Framework til kvalificering af B2B leads i 2026'],
-  ['vaekst-partner-guide', '2026-06-23', 'Vækstpartner Guide: Hvornår skal du hyre en ekstern partner?'],
-  ['startup-til-vaekst-2026', '2026-06-26', 'Fra Startup til Vækst i 2026: 3 skaleringsmodeller'],
-  ['cold-calling-vs-inbound', '2026-06-29', 'Cold Calling vs. Inbound: Hvad virker bedst i 2026?'],
-  ['hvorfor-samarbejde-magnora', '2026-07-01', 'Hvorfor samarbejde med Magnora Marketing? 8 grunde til at vælge os'],
-  ['ideudvikling-med-magnora', '2026-07-02', 'Idéudvikling med Magnora Marketing: Fra koncept til markedsklar løsning'],
-  ['fra-ide-til-salg', '2026-07-03', 'Fra idé til salg: Sådan tager Magnora din forretningsidé til markedet'],
-  ['moedebooking-partner-magnora', '2026-07-04', 'Mødebooking-partner: Derfor skal du samarbejde med Magnora Marketing'],
-  ['outsource-moedebooking-fordele', '2026-07-05', 'Outsource din mødebooking: 7 fordele ved at samarbejde med Magnora'],
-  ['telesalg-partner-magnora', '2026-07-06', 'Telesalg-partner: Hvorfor Magnora Marketing skaber resultater'],
-  ['b2b-telesalg-samarbejde', '2026-07-07', 'B2B telesalg-samarbejde: Sådan booster Magnora din pipeline'],
-  ['vaekstpartner-ide-moedebooking-telesalg', '2026-07-08', 'Én vækstpartner til idéudvikling, mødebooking og telesalg'],
-  ['saadan-foregaar-samarbejdet', '2026-07-09', 'Sådan foregår et samarbejde med Magnora Marketing – trin for trin'],
-  ['hvorfor-outsource-salg-og-moedebooking', '2026-07-10', 'Hvorfor outsource dit salg og din mødebooking til Magnora?'],
-  ['fremtidens-ai-loesninger-2026', '2026-07-12', 'Fremtidens AI-løsninger: Sådan forandrer kunstig intelligens danske virksomheder'],
-  ['ai-agenter-automatisering-2026', '2026-07-13', 'AI-agenter: Den næste bølge af automatisering for virksomheder'],
-  ['ai-sparer-tid-virksomhed', '2026-07-14', 'Sådan sparer AI din virksomhed for hundredvis af timer om året'],
-  ['ai-kundeservice-doegnet-rundt', '2026-07-15', 'AI-kundeservice døgnet rundt: Fremtidens support er allerede her'],
-  ['generativ-ai-forretningsvaerdi', '2026-07-16', 'Fra ChatGPT til forretningsværdi: Sådan bruger virksomheder generativ AI'],
-  ['ai-reception-telefonassistent', '2026-07-18', 'AI-reception og AI-telefonassistenter: Aldrig gå glip af et opkald igen'],
-  ['hvorfor-ai-nu-2026', '2026-07-20', 'Derfor skal din virksomhed tage stilling til AI nu – ikke om to år'],
-  ['ai-salg-moedebooking-fremtid', '2026-07-22', 'AI i salg og mødebooking: Fremtidens vækstmotor'],
-  ['bedste-ai-loesninger-smv', '2026-07-24', 'De 7 mest værdifulde AI-løsninger for små og mellemstore virksomheder'],
-  ['bliv-ai-konsulent-karriere', '2026-07-25', 'Bliv AI-konsulent: Karrieren i front af fremtidens teknologi'],
-  ['100-bud-ai-opgaveloesning', '2026-07-26', '100 bud: Sådan kan AI hjælpe jer i opgaveløsningen'],
-];
+// Blog posts come from the central registry (src/data/blogPosts.json), which also
+// drives the article pages and the pre-render list, so a new post only needs a
+// route in src/App.tsx plus one registry entry to be pre-rendered and listed here.
+const blogPosts = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'blogPosts.json'), 'utf-8'));
+
+// Fail the build if the registry and the routes drift apart: a post in the sitemap
+// without a route would be a 404, a routed post outside the registry an orphan.
+{
+  const routedSlugs = new Set([...appSrc.matchAll(/<Route path="\/blog\/([^"]+)" element=/g)].map(m => m[1]));
+  const registrySlugs = new Set(blogPosts.map(p => p.slug));
+  const missingRoute = [...registrySlugs].filter(s => !routedSlugs.has(s));
+  const missingEntry = [...routedSlugs].filter(s => !registrySlugs.has(s));
+  const badRelated = blogPosts.flatMap(p => p.related.filter(r => !registrySlugs.has(r)).map(r => `${p.slug} -> ${r}`));
+  if (missingRoute.length || missingEntry.length || badRelated.length) {
+    console.error('✗ Blog registry out of sync with src/App.tsx', { missingRoute, missingEntry, badRelated });
+    process.exit(1);
+  }
+}
 
 // Content pages with metadata. `group` and `title`/`desc` power llms.txt;
 // `priority`/`changefreq` power sitemap.xml. Paths must stay in sync with the
@@ -127,11 +96,11 @@ const contentPages = [
 // Full sitemap page list (content pages + blog posts)
 const pages = [
   ...contentPages.map(p => ({ path: p.path, priority: p.priority, changefreq: p.changefreq, lastmod: gitLastmod(p.path) || currentDate })),
-  ...blogPosts.map(([slug, date]) => ({
-    path: `/blog/${slug}`,
+  ...blogPosts.map(post => ({
+    path: `/blog/${post.slug}`,
     priority: '0.7',
     changefreq: 'monthly',
-    lastmod: new Date(date).toISOString()
+    lastmod: post.modified || post.date
   })),
 ];
 
@@ -218,7 +187,7 @@ const llmsSections = groupOrder.map(group => {
 }).join('\n\n');
 
 const llmsBlog = blogPosts
-  .map(([slug, , title]) => `- [${title}](${domain}/blog/${slug})`)
+  .map(post => `- [${post.title}](${domain}/blog/${post.slug}): ${post.description}`)
   .join('\n');
 
 const llms = `# Magnora Marketing

@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import SEO from '../../components/SEO';
 import CTASection from '../../components/CTASection';
+import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta } from '../../components/BlogPostParts';
 
 export default function Modebooking2026() {
   const { t } = useTranslation();
@@ -16,9 +17,10 @@ export default function Modebooking2026() {
       />
       <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
         <div className="container mx-auto px-4 max-w-4xl">
+          <BlogBreadcrumbs />
           <span className="inline-block bg-blue-500 bg-opacity-40 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-4">{t('blogPosts.Modebooking2026.category')}</span>
           <h1 className="text-4xl font-bold text-white mb-4">{t('blogPosts.Modebooking2026.title')}</h1>
-          <p className="text-gray-300">{t('blogPosts.Modebooking2026.meta', { date: '15. februar 2026' })}</p>
+          <BlogPostMeta />
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-4 py-16">
@@ -76,6 +78,7 @@ export default function Modebooking2026() {
           {t('blogPosts.Modebooking2026.p11')}
         </p>
       </div>
+      <BlogPostFooter />
       <CTASection
         title={t('blogPosts.Modebooking2026.ctaTitle')}
         subtitle={t('blogPosts.Modebooking2026.ctaSubtitle')}

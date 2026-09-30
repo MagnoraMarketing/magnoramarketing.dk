@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
+import { blogCategoryImage, blogCategoryOrder, getBlogPostByPath } from '../data/blog';
 
 interface SEOProps {
   title: string;
@@ -28,19 +29,34 @@ const SEO: React.FC<SEOProps> = ({
   description,
   canonical,
   keywords,
-  ogImage = 'https://magnoramarketing.dk/og-image.png',
-  ogType = 'website',
-  articlePublishedTime,
-  articleModifiedTime,
+  ogImage: ogImageProp,
+  ogType: ogTypeProp,
+  articlePublishedTime: publishedProp,
+  articleModifiedTime: modifiedProp,
   author,
-  breadcrumbs,
+  breadcrumbs: breadcrumbsProp,
   noindex = false
 }) => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const ogLocaleMap: Record<string, string> = { da: 'da_DK', en: 'en_US', es: 'es_ES' };
   const ogLocale = ogLocaleMap[i18n.language] || 'da_DK';
   const domain = 'https://magnoramarketing.dk';
   const fullCanonical = canonical ? `${domain}${canonical}` : domain;
+
+  // Blog posts are recognised from their canonical path, so every article gets
+  // og:type=article, dates, a topic image, breadcrumbs and BlogPosting data from
+  // the central registry (src/data/blogPosts.json) – no per-page wiring needed.
+  const blogPost = getBlogPostByPath(canonical);
+  const ogType = ogTypeProp ?? (blogPost ? 'article' : 'website');
+  const ogImage = ogImageProp ?? (blogPost ? `${domain}${blogCategoryImage[blogPost.category]}` : `${domain}/og-image.png`);
+  const articlePublishedTime = publishedProp ?? (blogPost ? blogPost.date : undefined);
+  const articleModifiedTime = modifiedProp ?? (blogPost ? blogPost.modified ?? blogPost.date : undefined);
+  const blogCategories = t('blogPage.categories', { returnObjects: true }) as Array<{ label: string }>;
+  const breadcrumbs = breadcrumbsProp ?? (blogPost ? [
+    { name: t('blogArticle.breadcrumbHome'), url: '/' },
+    { name: t('blogArticle.breadcrumbBlog'), url: '/blog' },
+    { name: blogPost.title, url: canonical! },
+  ] : undefined);
 
   const organizationSchema = {
     "@context": "https://schema.org",
@@ -109,17 +125,25 @@ const SEO: React.FC<SEOProps> = ({
 
   const articleSchema = ogType === 'article' && articlePublishedTime ? {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": title,
+    "@type": blogPost ? "BlogPosting" : "Article",
+    "headline": blogPost?.title ?? title,
     "description": description,
     "mainEntityOfPage": { "@type": "WebPage", "@id": fullCanonical },
     "inLanguage": "da-DK",
-    "image": ogImage,
+    "image": { "@type": "ImageObject", "url": ogImage, "width": blogPost ? 1600 : 1200, "height": blogPost ? 900 : 630 },
     "datePublished": articlePublishedTime,
     "dateModified": articleModifiedTime || articlePublishedTime,
-    "author": {
-      "@type": "Person",
-      "name": author || "Magnora Marketing"
+    ...(blogPost && {
+      "articleSection": blogCategories[blogCategoryOrder.indexOf(blogPost.category)]?.label,
+      "isPartOf": { "@type": "Blog", "@id": `${domain}/blog#blog`, "name": "Magnora Marketing Blog", "url": `${domain}/blog` },
+    }),
+    // The articles are written by the company's team (no individual bylines), so
+    // the author is the organization itself, linked to the About page.
+    "author": author && author !== "Magnora Marketing" ? { "@type": "Person", "name": author } : {
+      "@type": "Organization",
+      "@id": `${domain}/#organization`,
+      "name": "Magnora Marketing",
+      "url": `${domain}/om-os`
     },
     "publisher": {
       "@type": "Organization",
@@ -158,8 +182,8 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={fullCanonical} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
+      <meta property="og:image:width" content={blogPost ? '1600' : '1200'} />
+      <meta property="og:image:height" content={blogPost ? '900' : '630'} />
       <meta property="og:image:alt" content={title} />
       <meta property="og:site_name" content="Magnora Marketing" />
       <meta property="og:locale" content={ogLocale} />
@@ -171,8 +195,8 @@ const SEO: React.FC<SEOProps> = ({
       {ogType === 'article' && articleModifiedTime && (
         <meta property="article:modified_time" content={articleModifiedTime} />
       )}
-      {ogType === 'article' && author && (
-        <meta property="article:author" content={author} />
+      {ogType === 'article' && (
+        <meta property="article:author" content={author || 'Magnora Marketing'} />
       )}
 
       {/* Twitter Card Tags */}

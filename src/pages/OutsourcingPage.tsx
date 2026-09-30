@@ -7,6 +7,7 @@ import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
 import ContactForm from '../components/ContactForm';
+import { ServiceArticles } from '../components/BlogPostParts';
 
 interface TextItem {
   title: string;
@@ -239,6 +240,8 @@ const OutsourcingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/hvorfor-os" />
 
       <FAQSection faqs={faqItems} />
       <CTASection

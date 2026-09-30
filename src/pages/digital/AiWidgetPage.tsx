@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function AiWidgetPage() {
   const { t } = useTranslation();
@@ -212,6 +213,8 @@ export default function AiWidgetPage() {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/digital/ai-widget" />
 
       <FAQSection faqs={faqs} title={t('digitalAiWidget.faqTitle')} />
 
