@@ -6,7 +6,6 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
-import BookingAudioDemo from '../components/BookingAudioDemo';
 import AiSolutionsSection from '../components/AiSolutionsSection';
 import ContactForm from '../components/ContactForm';
 
@@ -155,8 +154,6 @@ const PartnersPage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      <BookingAudioDemo variant="partners" />
 
       <AiSolutionsSection />
 

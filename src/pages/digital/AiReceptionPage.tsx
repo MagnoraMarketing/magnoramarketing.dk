@@ -6,7 +6,6 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
-import BookingAudioDemo from '../../components/BookingAudioDemo';
 import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function AiReceptionPage() {
@@ -96,8 +95,6 @@ export default function AiReceptionPage() {
           </div>
         </div>
       </section>
-
-      <BookingAudioDemo variant="aiReception" />
 
       {/* Features */}
       <section className="section bg-sky-50">

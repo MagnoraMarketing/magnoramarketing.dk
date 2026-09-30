@@ -10,7 +10,6 @@ import {
   latestPosts,
   postsForService,
 } from '../data/blog';
-import BookingAudioDemo, { BookingAudioVariant } from './BookingAudioDemo';
 
 // Shared building blocks for every blog article (both the BlogArticle template and
 // the older hand-built article pages). They look the post up from the current URL
@@ -23,17 +22,6 @@ const useCategoryLabel = () => {
   const { t } = useTranslation();
   const categories = t('blogPage.categories', { returnObjects: true }) as Array<{ label: string }>;
   return (post: BlogPostEntry) => categories[blogCategoryOrder.indexOf(post.category)]?.label ?? '';
-};
-
-/** Which booking audio example (if any) fits a post. Pure SaaS/tech posts get none. */
-const audioVariantFor = (post: BlogPostEntry): BookingAudioVariant | null => {
-  if (post.category === 'ai') return 'blogAi';
-  if (post.category === 'webudvikling') {
-    const webServices = ['/digital/ai-widget', '/digital/hjemmesider', '/digital/webudvikling', '/digital/ai-integration'];
-    return post.services.some(s => webServices.includes(s)) ? 'blogWeb' : null;
-  }
-  const isBooking = /booking/.test(post.slug) || post.services.includes('/modebooking-priser');
-  return isBooking ? 'blogBooking' : 'blogSales';
 };
 
 const useFormatDate = () => {
@@ -111,12 +99,9 @@ export const BlogPostFooter: React.FC = () => {
   if (!post) return null;
   const related = post.related.map(getBlogPost).filter((p): p is BlogPostEntry => Boolean(p));
   const serviceLabels = t('blogArticle.services', { returnObjects: true }) as Record<string, string>;
-  const audioVariant = audioVariantFor(post);
 
   return (
     <aside className="max-w-4xl mx-auto px-4 pb-16">
-      {audioVariant && <BookingAudioDemo variant={audioVariant} layout="inline" className="!mt-0" />}
-
       <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 mb-10">
         <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-2">{t('blogArticle.authorHeading')}</p>
         <p className="text-lg font-bold text-slate-900 mb-2">{t('blogArticle.authorName')}</p>

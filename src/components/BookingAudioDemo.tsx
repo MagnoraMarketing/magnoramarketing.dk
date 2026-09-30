@@ -9,29 +9,10 @@ export const BOOKING_AUDIO_SRC = '/audio/ai-booking-eksempel-haandvaerker.mp3';
 const FALLBACK_DURATION = 270;
 
 /** Page-specific copy lives under bookingAudio.variants.<variant> in the locales. */
-export type BookingAudioVariant =
-  | 'home'
-  | 'services'
-  | 'aiReception'
-  | 'aiIntegration'
-  | 'aiWidget'
-  | 'meetingBooking'
-  | 'leadGeneration'
-  | 'pricing'
-  | 'outsourcing'
-  | 'websites'
-  | 'partners'
-  | 'about'
-  | 'contact'
-  | 'blogAi'
-  | 'blogBooking'
-  | 'blogSales'
-  | 'blogWeb';
+export type BookingAudioVariant = 'aiWidget';
 
 interface BookingAudioDemoProps {
   variant: BookingAudioVariant;
-  /** "section" = full-width page section, "inline" = compact card inside an article. */
-  layout?: 'section' | 'inline';
   className?: string;
 }
 
@@ -60,7 +41,7 @@ const formatTime = (s: number) => {
 
 const SPEEDS = [1, 1.25, 1.5];
 
-const AudioPlayer: React.FC<{ compact?: boolean }> = ({ compact }) => {
+const AudioPlayer: React.FC = () => {
   const { t } = useTranslation();
   const audioRef = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
@@ -159,7 +140,7 @@ const AudioPlayer: React.FC<{ compact?: boolean }> = ({ compact }) => {
         aria-valuetext={`${formatTime(current)} / ${formatTime(duration)}`}
         onClick={onWaveClick}
         onKeyDown={onWaveKey}
-        className={`flex items-center gap-[3px] cursor-pointer select-none rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 ${compact ? 'h-12' : 'h-16'}`}
+        className={`flex items-center gap-[3px] cursor-pointer select-none rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 h-16`}
       >
         {BARS.map((h, i) => {
           const played = i / BARS.length < progress;
@@ -216,7 +197,7 @@ const AudioPlayer: React.FC<{ compact?: boolean }> = ({ compact }) => {
   );
 };
 
-const BookingAudioDemo: React.FC<BookingAudioDemoProps> = ({ variant, layout = 'section', className = '' }) => {
+const BookingAudioDemo: React.FC<BookingAudioDemoProps> = ({ variant, className = '' }) => {
   const { t } = useTranslation();
   const copy = t(`bookingAudio.variants.${variant}`, { returnObjects: true }) as VariantCopy;
 
@@ -229,37 +210,6 @@ const BookingAudioDemo: React.FC<BookingAudioDemoProps> = ({ variant, layout = '
       <meta itemProp="inLanguage" content="da" />
     </>
   );
-
-  if (layout === 'inline') {
-    return (
-      <aside
-        itemScope
-        itemType="https://schema.org/AudioObject"
-        className={`relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 p-6 sm:p-8 my-12 ${className}`}
-      >
-        {schema}
-        <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-blue-500/25 blur-3xl" aria-hidden="true" />
-        <div className="relative">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-400/15 text-blue-200 text-xs font-semibold uppercase tracking-widest mb-4">
-            <Headphones size={13} /> {copy.label}
-          </span>
-          <h2 className="text-2xl font-bold text-white mb-2 leading-snug">{copy.title}</h2>
-          <p itemProp="description" className="text-blue-100/75 mb-6 leading-relaxed">{copy.subtitle}</p>
-          <AudioPlayer compact />
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-5">
-            {copy.highlights.slice(0, 3).map((h, i) => (
-              <span key={i} className="inline-flex items-center gap-1.5 text-sm text-blue-100/85">
-                <CheckCircle size={14} className="text-cyan-300" /> {h}
-              </span>
-            ))}
-            <Link to={copy.ctaLink} className="ml-auto inline-flex items-center gap-1.5 text-sm font-semibold text-cyan-300 hover:text-white">
-              {copy.ctaText} <ArrowRight size={15} />
-            </Link>
-          </div>
-        </div>
-      </aside>
-    );
-  }
 
   return (
     <section

@@ -127,6 +127,8 @@ export default function AiWidgetPage() {
         </div>
       </section>
 
+      <BookingAudioDemo variant="aiWidget" />
+
       {/* How it works */}
       <section className="section bg-sky-50">
         <div className="container">
@@ -214,8 +216,6 @@ export default function AiWidgetPage() {
           </div>
         </div>
       </section>
-
-      <BookingAudioDemo variant="aiWidget" />
 
       <ServiceArticles servicePath="/digital/ai-widget" />
 
