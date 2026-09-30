@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
+import JobApplicationSection from '../../components/JobApplicationSection';
 
 export default function RemoteWorkPage() {
   const { t } = useTranslation();
@@ -183,6 +184,9 @@ export default function RemoteWorkPage() {
           </div>
         </div>
       </section>
+
+      <JobApplicationSection />
+
 
       <FAQSection faqs={faqs} />
 

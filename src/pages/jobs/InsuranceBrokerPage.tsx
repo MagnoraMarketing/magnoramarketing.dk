@@ -10,6 +10,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import { jobListings } from '../../data/jobListings';
+import JobApplicationSection from '../../components/JobApplicationSection';
 
 export default function InsuranceBrokerPage() {
   const { t } = useTranslation();
@@ -394,6 +395,9 @@ export default function InsuranceBrokerPage() {
           </div>
         </div>
       </section>
+
+      <JobApplicationSection />
+
 
       <FAQSection faqs={faqItems} title={t('jobInsuranceBroker.faq.title')} />
 

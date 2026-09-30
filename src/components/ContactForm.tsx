@@ -4,10 +4,13 @@ import { Send, CheckCircle, AlertCircle, Briefcase, CalendarCheck, Code, Sparkle
 
 const WEB3FORMS_ACCESS_KEY = 'd8d905cb-7893-4172-85f2-bcc211e5bb97';
 
-// Optional CV / project-description upload, sent to Web3Forms as a multipart
-// attachment. Attachments need a Web3Forms Pro plan; if Web3Forms rejects the
-// file, the enquiry is re-sent without it so no lead is ever lost.
-const MAX_FILE_SIZE = 5 * 1024 * 1024;
+// Enquiries go to our own Vercel Function (/api/contact), which emails them via
+// Resend with the optional CV / project description as a real attachment.
+// If that endpoint is unavailable (not configured yet, local dev), the form
+// falls back to Web3Forms; Web3Forms only accepts attachments on its Pro plan,
+// so there the enquiry is re-sent without the file rather than lost.
+// 4 MB keeps the upload under Vercel's 4.5 MB request-body limit.
+const MAX_FILE_SIZE = 4 * 1024 * 1024;
 const ALLOWED_EXTENSIONS = ['pdf', 'doc', 'docx', 'odt', 'rtf', 'txt', 'png', 'jpg', 'jpeg'];
 const FILE_ACCEPT = ALLOWED_EXTENSIONS.map(ext => `.${ext}`).join(',');
 
@@ -36,6 +39,8 @@ interface ContactFormProps {
 }
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
+type AttachmentType = 'cv' | 'project';
+const ATTACHMENT_TYPE_LABEL: Record<AttachmentType, string> = { cv: 'CV / ansøgning', project: 'Projektbeskrivelse' };
 
 const inputClass =
   'w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-800 bg-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:border-blue-400 transition-colors';
@@ -50,6 +55,13 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const isJob = topic === 'Job henvendelse';
+  // Job pages always take a CV; other scoped forms a project description. The
+  // general contact form (no preset topic) lets the visitor choose.
+  const [attachmentType, setAttachmentType] = useState<AttachmentType>(isJob ? 'cv' : 'project');
+  const chooseTopic = (value: FormTopic) => {
+    setTopic(value);
+    setAttachmentType(value === 'Job henvendelse' ? 'cv' : 'project');
+  };
 
   const clearFile = () => {
     if (fileInputRef.current) fileInputRef.current.value = '';
@@ -96,6 +108,24 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
       ...(sourceLabel ? { 'Sendt fra side': sourceLabel } : {}),
     };
 
+    const sendViaApi = async () => {
+      const body = new FormData();
+      body.append('topic', topic);
+      body.append('name', String(data.get('name') ?? ''));
+      body.append('email', String(data.get('email') ?? ''));
+      body.append('phone', String(data.get('phone') || '—'));
+      body.append('company', String(data.get('company') || '—'));
+      body.append('message', String(data.get('message') ?? ''));
+      if (sourceLabel) body.append('source', sourceLabel);
+      if (hasFile) {
+        body.append('attachment_type', ATTACHMENT_TYPE_LABEL[attachmentType]);
+        body.append('attachment', file, file.name);
+      }
+      const res = await fetch('/api/contact', { method: 'POST', headers: { Accept: 'application/json' }, body });
+      if (!res.ok) return false;
+      return Boolean((await res.json().catch(() => ({}))).success);
+    };
+
     const sendJson = async (body: Record<string, string>) => {
       const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
@@ -121,14 +151,16 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
     setStatus('sending');
     setFileNotAttached(false);
     try {
-      let ok: boolean;
+      let ok = await sendViaApi().catch(() => false);
       let attached = true;
-      if (hasFile) {
+      if (ok) {
+        // Delivered by our own endpoint, attachment included.
+      } else if (hasFile) {
         ok = await sendWithFile(file).catch(() => false);
         if (!ok) {
           // Attachment rejected (e.g. plan limits): deliver the enquiry anyway.
           attached = false;
-          ok = await sendJson({ ...fields, 'Vedhæftet fil': `${file.name} – kunne ikke vedhæftes, bed afsenderen sende den på mail` });
+          ok = await sendJson({ ...fields, 'Vedhæftet fil': `${ATTACHMENT_TYPE_LABEL[attachmentType]}: ${file.name} – kunne ikke vedhæftes, bed afsenderen sende den på mail` });
         }
       } else {
         ok = await sendJson(fields);
@@ -187,7 +219,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
               <button
                 key={value}
                 type="button"
-                onClick={() => setTopic(value)}
+                onClick={() => chooseTopic(value)}
                 aria-pressed={topic === value}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl border text-sm font-medium text-left transition-all ${
                   topic === value
@@ -241,9 +273,37 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
       </div>
 
       <div>
-        <label htmlFor="cf-attachment" className="block text-sm font-semibold text-slate-700 mb-1.5">
-          {isJob ? t('contactForm.file.labelJob') : t('contactForm.file.labelProject')}
-        </label>
+        {presetTopic ? (
+          <label htmlFor="cf-attachment" className="block text-sm font-semibold text-slate-700 mb-1.5">
+            {attachmentType === 'cv' ? t('contactForm.file.labelJob') : t('contactForm.file.labelProject')}
+          </label>
+        ) : (
+          <fieldset className="mb-2">
+            <legend className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.file.labelChoice')}</legend>
+            <div className="flex flex-wrap gap-2">
+              {(['cv', 'project'] as const).map(type => (
+                <label
+                  key={type}
+                  className={`cursor-pointer px-3.5 py-1.5 rounded-lg border text-sm font-medium transition-colors ${
+                    attachmentType === type
+                      ? 'border-blue-600 bg-blue-50 text-blue-700'
+                      : 'border-slate-200 bg-white text-slate-600 hover:border-blue-300'
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="attachment_type_choice"
+                    value={type}
+                    checked={attachmentType === type}
+                    onChange={() => setAttachmentType(type)}
+                    className="sr-only"
+                  />
+                  {type === 'cv' ? t('contactForm.file.typeCv') : t('contactForm.file.typeProject')}
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        )}
         <div className="flex items-center gap-3 border border-dashed border-slate-300 rounded-xl px-4 py-3 bg-slate-50">
           <Paperclip size={18} className="text-slate-400 flex-shrink-0" />
           <input
@@ -263,7 +323,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
           )}
         </div>
         <p id="cf-attachment-hint" className={`text-xs mt-1.5 ${fileError ? 'text-red-600' : 'text-slate-400'}`}>
-          {fileError ? t(`contactForm.file.${fileError}`) : isJob ? t('contactForm.file.hintJob') : t('contactForm.file.hintProject')}
+          {fileError ? t(`contactForm.file.${fileError}`) : attachmentType === 'cv' ? t('contactForm.file.hintJob') : t('contactForm.file.hintProject')}
         </p>
       </div>
 
