@@ -237,6 +237,10 @@ const HomePage: React.FC = () => {
               <img
                 src="/heroes/hero-home.jpg"
                 alt="Vækst og succes for B2B virksomheder med Magnora Marketing"
+                width={1600}
+                height={900}
+                loading="lazy"
+                decoding="async"
                 className="rounded-lg shadow-lg object-cover w-full h-[500px]"
               />
               <div className="absolute -bottom-6 -left-6 bg-blue-600 text-white p-6 rounded-lg shadow-lg max-w-xs">

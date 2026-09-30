@@ -41,6 +41,21 @@
 
     <div id="root"><!--app-html--></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script src="//code.tidio.co/xmsugj0rpf1hbhwnlqpnaxzonr8zml01.js" async></script>
+    <!-- Tidio chat: loaded on the first real interaction (scroll, tap, click, key)
+         instead of on page load, so it does not slow down rendering or use up
+         the resources crawlers fetch. -->
+    <script>
+      (function () {
+        var events = ['scroll', 'pointerdown', 'keydown', 'touchstart'];
+        function loadTidio() {
+          events.forEach(function (e) { window.removeEventListener(e, loadTidio); });
+          var s = document.createElement('script');
+          s.src = 'https://code.tidio.co/xmsugj0rpf1hbhwnlqpnaxzonr8zml01.js';
+          s.async = true;
+          document.body.appendChild(s);
+        }
+        events.forEach(function (e) { window.addEventListener(e, loadTidio, { once: true, passive: true }); });
+      })();
+    </script>
   </body>
 </html>
