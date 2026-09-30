@@ -8,7 +8,7 @@ interface CookieConsentProps {
 const CookieConsent: React.FC<CookieConsentProps> = ({ onAccept }) => {
   const { t } = useTranslation();
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-gray-900 text-white p-4 z-50">
+    <div className="fixed bottom-16 md:bottom-0 left-0 right-0 bg-gray-900 text-white p-4 z-50">
       <div className="container mx-auto px-4 md:flex md:items-center md:justify-between">
         <div className="mb-4 md:mb-0 md:mr-8">
           <p>

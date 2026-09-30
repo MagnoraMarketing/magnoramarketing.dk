@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Phone, Menu, X, ChevronDown } from 'lucide-react';
+import { Phone, Menu, X, ChevronDown, Home, Briefcase, Newspaper, MessageSquare } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { jobListings } from '../data/jobListings';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -73,9 +73,22 @@ const Navbar: React.FC = () => {
     { path: '/leadgenerering', title: 'Leadgenerering' }
   ];
 
+  const bottomNavItems = [
+    { path: '/', label: t('nav.home'), icon: Home, end: true },
+    { path: '/ydelser', label: t('nav.services'), icon: Briefcase, end: false },
+    { path: '/blog', label: t('nav.blog'), icon: Newspaper, end: false },
+    { path: '/kontakt', label: t('nav.contact'), icon: MessageSquare, end: false }
+  ];
+
+  const bottomNavItemClass = (active: boolean) =>
+    `flex flex-1 flex-col items-center justify-center gap-1 py-2 text-xs font-medium transition-colors ${
+      active ? 'text-blue-600' : 'text-slate-600 hover:text-blue-600'
+    }`;
+
   const dropdownClass = 'absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 px-2 z-50';
 
   return (
+    <>
     <header
       ref={navRef}
       className={`fixed w-full z-50 transition-all duration-300 bg-white/95 backdrop-blur-md border-b border-slate-100 ${
@@ -178,7 +191,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div className={`md:hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-[calc(100dvh-8rem)] overflow-y-auto opacity-100' : 'max-h-0 overflow-hidden opacity-0'}`}>
         <nav className="bg-white border-t border-slate-100 flex flex-col px-4 py-4 gap-1">
           <NavLink to="/" className={navLinkClass} end onClick={toggleMenu}>{t('nav.home')}</NavLink>
           <NavLink to="/ydelser" className={navLinkClass} onClick={toggleMenu}>{t('nav.services')}</NavLink>
@@ -208,6 +221,39 @@ const Navbar: React.FC = () => {
         </nav>
       </div>
     </header>
+
+    {/* Mobile bottom nav — rendered outside the header, whose backdrop-blur would otherwise contain this fixed element */}
+    <nav
+      aria-label="Mobile navigation"
+      className="md:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_12px_rgba(15,23,42,0.06)] pb-[env(safe-area-inset-bottom)]"
+    >
+      <div className="flex items-stretch h-16">
+        {bottomNavItems.map(({ path, label, icon: Icon, end }) => (
+          <NavLink
+            key={path}
+            to={path}
+            end={end}
+            className={({ isActive }) => bottomNavItemClass(isActive && !isMenuOpen)}
+          >
+            <Icon size={22} />
+            <span>{label}</span>
+          </NavLink>
+        ))}
+        <button
+          type="button"
+          onClick={() => {
+            if (!isMenuOpen) window.scrollTo({ top: 0, behavior: 'smooth' });
+            toggleMenu();
+          }}
+          aria-expanded={isMenuOpen}
+          className={bottomNavItemClass(isMenuOpen)}
+        >
+          {isMenuOpen ? <X size={22} /> : <Menu size={22} />}
+          <span>{t('nav.menu')}</span>
+        </button>
+      </div>
+    </nav>
+    </>
   );
 };
 

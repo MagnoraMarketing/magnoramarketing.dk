@@ -10,6 +10,7 @@ export default {
     blog: 'Blog',
     contact: 'Contacto',
     cta: 'Empezar ahora',
+    menu: 'Menú',
   },
   footer: {
     tagline: 'Tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads e integración de IA.',

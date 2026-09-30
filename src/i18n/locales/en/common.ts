@@ -10,6 +10,7 @@ export default {
     blog: 'Blog',
     contact: 'Contact',
     cta: 'Get started',
+    menu: 'Menu',
   },
   footer: {
     tagline: 'Your growth partner in telesales, meeting booking, web development, lead generation and AI integration.',

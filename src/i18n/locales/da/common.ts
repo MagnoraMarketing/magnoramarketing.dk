@@ -10,6 +10,7 @@ export default {
     blog: 'Blog',
     contact: 'Kontakt',
     cta: 'Kom i gang',
+    menu: 'Menu',
   },
   footer: {
     tagline: 'Din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-integration.',
