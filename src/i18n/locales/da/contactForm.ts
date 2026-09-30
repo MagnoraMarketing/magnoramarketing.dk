@@ -31,6 +31,18 @@ export default {
       newRequest: 'Send en ny henvendelse',
     },
     error: 'Noget gik galt – din besked blev ikke sendt. Prøv igen, eller skriv direkte til <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
+    file: {
+      labelJob: 'CV / ansøgning (valgfrit)',
+      labelProject: 'Projektbeskrivelse / brief (valgfrit)',
+      hintJob: 'Upload dit CV eller en kort ansøgning. PDF, Word, tekst eller billede – maks. 5 MB.',
+      hintProject: 'Vedhæft gerne en projekt- eller opgavebeskrivelse, kravspecifikation eller inspiration. PDF, Word, tekst eller billede – maks. 5 MB.',
+      choose: 'Vælg fil',
+      none: 'Ingen fil valgt',
+      remove: 'Fjern fil',
+      tooLarge: 'Filen er for stor – maks. 5 MB. Vælg en mindre fil.',
+      wrongType: 'Filtypen understøttes ikke. Brug PDF, Word (doc/docx), ODT, RTF, TXT, PNG eller JPG.',
+      notAttached: 'Din henvendelse er modtaget, men filen kunne ikke vedhæftes. Send den gerne til <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
+    },
     submit: {
       sending: 'Sender…',
       send: 'Send henvendelse',
