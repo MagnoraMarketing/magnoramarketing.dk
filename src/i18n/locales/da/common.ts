@@ -11,6 +11,14 @@ export default {
     contact: 'Kontakt',
     cta: 'Kom i gang',
   },
+  bottomNav: {
+    jobs: 'Job',
+    remote: 'Hjemmefra',
+    contact: 'Kontakt',
+    partner: 'Partner',
+    pricing: 'Priser',
+    aria: 'Mobilnavigation',
+  },
   footer: {
     tagline: 'Din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI-integration.',
     navigation: 'Navigation',

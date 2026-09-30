@@ -22,7 +22,7 @@ const TrialWidget: React.FC<TrialWidgetProps> = ({ liftForCookieBanner }) => {
     localStorage.setItem(STORAGE_KEY, String(value));
   };
 
-  const position = liftForCookieBanner ? 'bottom-24 right-4 sm:right-6' : 'bottom-6 right-6';
+  const position = liftForCookieBanner ? 'bottom-24 right-4 sm:right-6' : 'bottom-24 right-4 md:bottom-6 md:right-6';
 
   if (minimized) {
     return (

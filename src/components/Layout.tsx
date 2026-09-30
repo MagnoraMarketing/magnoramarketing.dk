@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import CookieConsent from './CookieConsent';
 import TrialWidget from './TrialWidget';
+import MobileBottomNav from './MobileBottomNav';
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -32,13 +33,14 @@ const Layout: React.FC = () => {
   };
   
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen pb-16 md:pb-0">
       <ScrollToTop />
       <Navbar />
       <main className="flex-grow">
         <Outlet />
       </main>
       <Footer />
+      <MobileBottomNav />
       <TrialWidget liftForCookieBanner={showCookieConsent} />
       {showCookieConsent && (
         <CookieConsent onAccept={handleAcceptCookies} />

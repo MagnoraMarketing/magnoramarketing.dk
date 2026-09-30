@@ -11,6 +11,14 @@ export default {
     contact: 'Contact',
     cta: 'Get started',
   },
+  bottomNav: {
+    jobs: 'Jobs',
+    remote: 'Remote',
+    contact: 'Contact',
+    partner: 'Partner',
+    pricing: 'Pricing',
+    aria: 'Mobile navigation',
+  },
   footer: {
     tagline: 'Your growth partner in telesales, meeting booking, web development, lead generation and AI integration.',
     navigation: 'Navigation',
