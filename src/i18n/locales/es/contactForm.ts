@@ -31,6 +31,18 @@ export default {
       newRequest: 'Enviar una nueva consulta',
     },
     error: 'Algo salió mal – tu mensaje no se ha enviado. Inténtalo de nuevo o escríbenos directamente a <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
+    file: {
+      labelJob: 'CV / solicitud (opcional)',
+      labelProject: 'Descripción del proyecto / brief (opcional)',
+      hintJob: 'Sube tu CV o una breve solicitud. PDF, Word, texto o imagen – máx. 5 MB.',
+      hintProject: 'Adjunta si quieres una descripción del proyecto o de la tarea, requisitos o inspiración. PDF, Word, texto o imagen – máx. 5 MB.',
+      choose: 'Elegir archivo',
+      none: 'Ningún archivo seleccionado',
+      remove: 'Quitar archivo',
+      tooLarge: 'El archivo es demasiado grande – máx. 5 MB. Elige un archivo más pequeño.',
+      wrongType: 'Tipo de archivo no admitido. Usa PDF, Word (doc/docx), ODT, RTF, TXT, PNG o JPG.',
+      notAttached: 'Hemos recibido tu mensaje, pero no se pudo adjuntar el archivo. Envíalo a <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
+    },
     submit: {
       sending: 'Enviando…',
       send: 'Enviar consulta',

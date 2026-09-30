@@ -31,6 +31,18 @@ export default {
       newRequest: 'Send a new inquiry',
     },
     error: 'Something went wrong – your message was not sent. Please try again, or email us directly at <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
+    file: {
+      labelJob: 'CV / application (optional)',
+      labelProject: 'Project description / brief (optional)',
+      hintJob: 'Upload your CV or a short application. PDF, Word, text or image – max. 5 MB.',
+      hintProject: 'Feel free to attach a project or task description, requirements or inspiration. PDF, Word, text or image – max. 5 MB.',
+      choose: 'Choose file',
+      none: 'No file chosen',
+      remove: 'Remove file',
+      tooLarge: 'The file is too large – max. 5 MB. Please choose a smaller file.',
+      wrongType: 'File type not supported. Use PDF, Word (doc/docx), ODT, RTF, TXT, PNG or JPG.',
+      notAttached: 'We received your message, but the file could not be attached. Please email it to <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
+    },
     submit: {
       sending: 'Sending…',
       send: 'Send inquiry',
