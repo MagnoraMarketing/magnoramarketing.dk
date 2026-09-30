@@ -339,7 +339,7 @@ export default {
     s2Heading: 'Coste total de propiedad: ¿cuánto cuesta realmente?',
     s2Sub1Heading: 'On-premise: costes iniciales altos, mantenimiento continuo',
     s2Sub1Body1:
-      'Con el software on-premise, las inversiones iniciales suelen ser altas: licencias de software, infraestructura de servidores, consultores de implementación y tiempo del equipo interno de TI. A eso se suman el mantenimiento continuo, las actualizaciones de seguridad, los sistemas de copia de seguridad y las posibles ampliaciones. Para una empresa mediana, el coste total de propiedad a lo largo de 5 años puede alcanzar fácilmente los millones de coronas.',
+      'Con el software on-premise, las inversiones iniciales suelen ser altas: licencias de software, infraestructura de servidores, consultores de implementación y tiempo del equipo interno de TI. A eso se suman el mantenimiento continuo, las actualizaciones de seguridad, los sistemas de copia de seguridad y las posibles ampliaciones. Para una empresa mediana, el coste total de propiedad a lo largo de 5 años puede alcanzar fácilmente cientos de miles de euros.',
     s2Sub1Body2:
       'El coste oculto del on-premise es el tiempo interno de TI. Cada actualización, cada problema de seguridad y cada integración requieren personal de TI cualificado. En muchas empresas, la operación y el mantenimiento de TI se llevan una gran parte del presupuesto tecnológico que, de otro modo, podría destinarse a la innovación y a nuevos proyectos.',
     s2Sub2Heading: 'SaaS: costes de suscripción previsibles',

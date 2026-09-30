@@ -78,7 +78,7 @@ export default {
       { feature: 'Simultaneous calls', ai: 'Unlimited', human: '1 at a time' },
       { feature: 'Response time', ai: '< 1 second', human: '10-30 seconds' },
       { feature: 'Meeting booking', ai: '✓ Automatic', human: '✓ Manual' },
-      { feature: 'Monthly cost', ai: 'From DKK 1,500', human: 'DKK 25,000+' },
+      { feature: 'Monthly cost', ai: 'From €200', human: '€3,400+' },
       { feature: 'Onboarding time', ai: '3-5 days', human: '4-8 weeks' },
     ],
     ctaText: 'Get started with an AI receptionist',

@@ -182,7 +182,7 @@ export default {
         heading: 'El reto: del founder sales a las ventas escaladas',
         body: [
           'La mayoría de las startups empiezan con founder sales: el fundador vende personalmente a los primeros clientes a través de su red, LinkedIn y la prospección directa. El founder sales es eficaz en las primeras etapas, ya que el fundador es el comercial más convincente porque entiende el producto en profundidad y es quien más pasión le pone. Pero el founder sales no es escalable.',
-          'La respuesta clásica es contratar comerciales. Pero es arriesgado y caro: un comercial B2B con experiencia cuesta entre 50.000 y 80.000 coronas al mes en paquete salarial total, se tardan de 3 a 6 meses en reclutarlo y otros 3 a 6 meses en formarlo. Mientras tanto, pagas el salario completo. Y si no rinde, salir de la relación laboral resulta caro.',
+          'La respuesta clásica es contratar comerciales. Pero es arriesgado y caro: un comercial B2B con experiencia cuesta entre 6.700 y 11.000 € al mes en paquete salarial total, se tardan de 3 a 6 meses en reclutarlo y otros 3 a 6 meses en formarlo. Mientras tanto, pagas el salario completo. Y si no rinde, salir de la relación laboral resulta caro.',
           'En 2026, la externalización y la automatización han madurado hasta el punto de que muchas startups pueden escalar las ventas de forma mucho más flexible y eficiente en capital que contratando.',
         ],
       },

@@ -63,12 +63,12 @@ export default {
   ],
   budget: {
     label: 'Budget-friendly websites',
-    heading: 'Ready-made industry designs – from just DKK 1,500',
+    heading: 'Ready-made industry designs – from just €200',
     subtitle: "Working with a smaller budget? Choose a professional, ready-made design that suits your industry – and make it your own with your own images, text and colours. Online fast, without a big budget.",
-    badgePrice: '<span class="font-semibold text-gray-900">From just DKK 1,500</span> per website',
+    badgePrice: '<span class="font-semibold text-gray-900">From just €200</span> per website',
     badgeImages: '<span class="font-semibold text-gray-900">Customise with your own images</span> and text',
     badgeFast: '<span class="font-semibold text-gray-900">Online fast</span> – ready in just days',
-    priceTag: 'From DKK 1,500',
+    priceTag: 'From €200',
     items: [
       { branche: 'Landscaping', desc: 'A green, inviting design with room for a project gallery and quote request form.' },
       { branche: 'Trades & craftsmen', desc: 'A trust-building layout with services, references and quick contact.' },
@@ -80,7 +80,7 @@ export default {
     imageAltTemplate: 'Budget-friendly website design for the {{branche}} industry',
     customizeNote: 'Customise with your own images',
     noIndustry: "Can't see your industry? We create a budget-friendly design for any industry.",
-    cta: 'Order your website from DKK 1,500',
+    cta: 'Order your website from €200',
   },
   showcase: {
     label: 'References',

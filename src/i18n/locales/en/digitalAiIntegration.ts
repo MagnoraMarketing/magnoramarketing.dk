@@ -193,7 +193,7 @@ export default {
     { question: 'Can AI help with customer service?', answer: 'Yes – AI chatbots can automatically answer up to 80% of standard customer inquiries, around the clock, and escalate complex cases to humans.' },
     { question: 'What is prompt engineering?', answer: 'Prompt engineering is the art of formulating instructions for an AI model so that it gives the best and most relevant responses.' },
     { question: 'Are AI solutions secure?', answer: 'Yes – we ensure that all AI integration follows GDPR and data protection legislation. Data is stored and processed responsibly.' },
-    { question: 'What does it cost to integrate AI?', answer: 'The price varies greatly depending on the complexity of the solution. A simple chatbot can cost from a few thousand DKK. An advanced solution can cost more. Contact us for an estimate.' },
+    { question: 'What does it cost to integrate AI?', answer: 'The price varies greatly depending on the complexity of the solution. A simple chatbot can cost from a few hundred euros. An advanced solution can cost more. Contact us for an estimate.' },
     { question: 'Can AI generate content for our website?', answer: 'Yes – we can integrate AI-driven content generation for product descriptions, blogging and SEO-optimised text.' },
     { question: 'What is an AI agent?', answer: 'An AI agent is an autonomous program that can perform tasks, make decisions and interact with systems on behalf of the user.' },
     { question: 'What is the next step if I want AI integrated?', answer: 'Contact us for a no-obligation AI consultation, where we map your processes and identify the best opportunities for AI integration.' },

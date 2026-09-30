@@ -48,7 +48,7 @@ export default {
   },
   comparison: {
     title: 'Comercial Interno vs. Magnora Marketing como Socio de Ventas',
-    p1: 'Contratar a un comercial dedicado suele costar entre 400.000 y 600.000 DKK al año, incluyendo salario, bonificaciones, pensión, puesto de trabajo y formación. Y reclutar e incorporar a alguien lleva de 3 a 6 meses.',
+    p1: 'Contratar a un comercial dedicado suele costar entre 54.000 y 80.000 € al año, incluyendo salario, bonificaciones, pensión, puesto de trabajo y formación. Y reclutar e incorporar a alguien lleva de 3 a 6 meses.',
     p2: 'Con Magnora Marketing solo pagas por el esfuerzo real, y puedes empezar en cuestión de semanas. Te ahorras el riesgo de contratación, las bajas por enfermedad y los costes de despido.',
     items: [
       'Sin costes de contratación',

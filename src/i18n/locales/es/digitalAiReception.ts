@@ -78,7 +78,7 @@ export default {
       { feature: 'Llamadas simultáneas', ai: 'Ilimitadas', human: '1 a la vez' },
       { feature: 'Tiempo de respuesta', ai: '< 1 segundo', human: '10-30 segundos' },
       { feature: 'Reserva de reuniones', ai: '✓ Automática', human: '✓ Manual' },
-      { feature: 'Coste mensual', ai: 'Desde 1.500 DKK', human: '25.000 DKK+' },
+      { feature: 'Coste mensual', ai: 'Desde 200 €', human: '3.400 €+' },
       { feature: 'Tiempo de formación', ai: '3-5 días', human: '4-8 semanas' },
     ],
     ctaText: 'Empezar con la recepcionista IA',
