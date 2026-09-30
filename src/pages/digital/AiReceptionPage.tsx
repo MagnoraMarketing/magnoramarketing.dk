@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function AiReceptionPage() {
   const { t } = useTranslation();
@@ -149,6 +150,8 @@ export default function AiReceptionPage() {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/digital/ai-reception" />
 
       <FAQSection faqs={faqs} title={t('digitalAiReception.faq.title')} />
 

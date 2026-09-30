@@ -7,6 +7,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import AiSolutionsSection from '../../components/AiSolutionsSection';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 interface TextItem {
   title: string;
@@ -403,6 +404,8 @@ export default function AiIntegrationPage() {
       </section>
 
       <AiSolutionsSection variant="dark" />
+
+      <ServiceArticles servicePath="/digital/ai-integration" />
 
       <FAQSection faqs={faqs} />
       <CTASection

@@ -7,6 +7,7 @@ import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
 import ContactForm from '../components/ContactForm';
+import { ServiceArticles } from '../components/BlogPostParts';
 
 interface PricingModel {
   title: string;
@@ -152,6 +153,8 @@ const PricingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/priser" />
 
       <FAQSection faqs={t('pricing.faqExtra', { returnObjects: true }) as FaqItem[]} />
       <CTASection

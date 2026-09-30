@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function WebsitesPage() {
   const { t } = useTranslation();
@@ -331,6 +332,8 @@ export default function WebsitesPage() {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/digital/hjemmesider" />
 
       <FAQSection faqs={t('digitalWebsites.faqs', { returnObjects: true }) as { question: string; answer: string }[]} />
       <CTASection

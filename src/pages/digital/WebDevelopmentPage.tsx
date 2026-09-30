@@ -11,6 +11,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import ContactForm from '../../components/ContactForm';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function WebDevelopmentPage() {
   const { t } = useTranslation();
@@ -384,6 +385,8 @@ export default function WebDevelopmentPage() {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/digital/webudvikling" />
 
       <FAQSection faqs={faqs} />
 

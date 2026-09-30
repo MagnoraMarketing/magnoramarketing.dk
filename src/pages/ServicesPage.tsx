@@ -7,6 +7,7 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import { ServiceArticles } from '../components/BlogPostParts';
 
 interface ServiceItem {
   title: string;
@@ -235,6 +236,7 @@ const ServicesPage: React.FC = () => {
         </div>
       </section>
 
+      <ServiceArticles servicePath="/ydelser" />
 
       <FAQSection faqs={faqs} />
       <CTASection

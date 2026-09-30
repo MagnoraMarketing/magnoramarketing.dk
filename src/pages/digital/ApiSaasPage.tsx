@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function ApiSaasPage() {
   const { t } = useTranslation();
@@ -149,6 +150,8 @@ export default function ApiSaasPage() {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/digital/api-saas" />
 
       <FAQSection faqs={t('digitalApiSaas.faqs', { returnObjects: true }) as { question: string; answer: string }[]} />
       <CTASection

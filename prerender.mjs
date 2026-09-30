@@ -6,7 +6,9 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const distDir = path.join(__dirname, 'dist');
 
 // Routes to pre-render to static HTML. Keep in sync with the content routes in
-// src/App.tsx (redirects, admin and the dynamic /blog/:slug route are excluded).
+// src/App.tsx (redirects and admin are excluded). Blog posts are appended from the
+// central registry, src/data/blogPosts.json.
+const blogPosts = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'blogPosts.json'), 'utf-8'));
 const routes = [
   '/',
   '/ydelser',
@@ -17,54 +19,7 @@ const routes = [
   '/om-os',
   '/kontakt',
   '/blog',
-  // Blog posts
-  '/blog/saas-loesninger-2026',
-  '/blog/ai-automation-2026',
-  '/blog/modebooking-2026',
-  '/blog/telesalg-2026',
-  '/blog/outbound-sales-2026',
-  '/blog/hvorfor-saas-2026',
-  '/blog/saas-vs-on-premise',
-  '/blog/bedste-saas-tools-2026',
-  '/blog/saas-integration-2026',
-  '/blog/saas-security-gdpr',
-  '/blog/hvorfor-magnora-webudvikling',
-  '/blog/hvorfor-magnora-ai-integration',
-  '/blog/hjemmeside-til-vaekst-2026',
-  '/blog/ai-integration-roi-2026',
-  '/blog/websitekonvertering-tips',
-  '/blog/hvorfor-magnora-telesalg',
-  '/blog/hvorfor-magnora-moedebooking',
-  '/blog/outsourcing-telesalg-2026',
-  '/blog/b2b-salg-strategi-2026',
-  '/blog/moedebooking-scripts-2026',
-  '/blog/leadgenerering-strategier-2026',
-  '/blog/hvad-er-bant-2026',
-  '/blog/vaekst-partner-guide',
-  '/blog/startup-til-vaekst-2026',
-  '/blog/cold-calling-vs-inbound',
-  '/blog/hvorfor-samarbejde-magnora',
-  '/blog/ideudvikling-med-magnora',
-  '/blog/fra-ide-til-salg',
-  '/blog/moedebooking-partner-magnora',
-  '/blog/outsource-moedebooking-fordele',
-  '/blog/telesalg-partner-magnora',
-  '/blog/b2b-telesalg-samarbejde',
-  '/blog/vaekstpartner-ide-moedebooking-telesalg',
-  '/blog/saadan-foregaar-samarbejdet',
-  '/blog/hvorfor-outsource-salg-og-moedebooking',
-  // AI blog posts
-  '/blog/fremtidens-ai-loesninger-2026',
-  '/blog/ai-agenter-automatisering-2026',
-  '/blog/ai-sparer-tid-virksomhed',
-  '/blog/ai-kundeservice-doegnet-rundt',
-  '/blog/generativ-ai-forretningsvaerdi',
-  '/blog/ai-reception-telefonassistent',
-  '/blog/hvorfor-ai-nu-2026',
-  '/blog/ai-salg-moedebooking-fremtid',
-  '/blog/bedste-ai-loesninger-smv',
-  '/blog/bliv-ai-konsulent-karriere',
-  '/blog/100-bud-ai-opgaveloesning',
+  // Blog posts: every entry in the blog registry (see below)
   // Job landing pages
   '/jobs/arbejd-hjemmefra',
   '/jobs/webudvikling-salg',
@@ -87,6 +42,7 @@ const routes = [
   // Standalone pages
   '/modebooking-priser',
   '/leadgenerering',
+  ...blogPosts.map(post => `/blog/${post.slug}`),
 ];
 
 const template = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');

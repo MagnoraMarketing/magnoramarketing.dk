@@ -11,6 +11,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import ContactForm from '../../components/ContactForm';
 import { jobListings } from '../../data/jobListings';
+import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function AiConsultantPage() {
   const { t } = useTranslation();
@@ -349,6 +350,8 @@ export default function AiConsultantPage() {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/jobs/ai-konsulent" />
 
       <FAQSection faqs={faqItems} title={t('jobAiConsultant.faq.title')} />
 

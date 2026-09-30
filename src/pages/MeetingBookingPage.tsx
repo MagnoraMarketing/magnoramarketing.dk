@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import { ServiceArticles } from '../components/BlogPostParts';
 
 interface FeatureItem {
   title: string;
@@ -159,6 +160,8 @@ const MeetingBookingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <ServiceArticles servicePath="/modebooking-priser" />
 
       <FAQSection faqs={faqItems} />
       <CTASection

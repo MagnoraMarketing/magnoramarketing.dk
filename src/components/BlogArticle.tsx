@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Calendar, Clock, ArrowRight, Mail, Sparkles } from 'lucide-react';
+import { ArrowRight, Mail, Sparkles } from 'lucide-react';
 import SEO from './SEO';
 import FAQSection from './FAQSection';
 import CTASection from './CTASection';
+import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta } from './BlogPostParts';
 
 export interface ArticleSection {
   heading?: string;
@@ -20,9 +21,10 @@ export interface BlogArticleProps {
   keywords: string;
   category: string;
   title: string;
-  date: string;
-  displayDate: string;
-  readTime: string;
+  /** Publish date, byline and read time now come from src/data/blogPosts.json. */
+  date?: string;
+  displayDate?: string;
+  readTime?: string;
   intro: string;
   sections: ArticleSection[];
   faqs?: { question: string; answer: string }[];
@@ -44,9 +46,6 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
   keywords,
   category,
   title,
-  date,
-  displayDate,
-  readTime,
   intro,
   sections,
   faqs,
@@ -70,26 +69,15 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
         description={seoDescription}
         canonical={canonical}
         keywords={keywords}
-        ogType="article"
-        articlePublishedTime={new Date(date).toISOString()}
-        author="Magnora Marketing"
-        breadcrumbs={[
-          { name: t('blogArticle.breadcrumbHome'), url: '/' },
-          { name: t('blogArticle.breadcrumbBlog'), url: '/blog' },
-          { name: title, url: canonical },
-        ]}
       />
 
       {/* Header */}
       <div className="pt-32 pb-16 bg-gradient-to-b from-slate-900 to-blue-900">
         <div className="container mx-auto px-4 max-w-4xl">
+          <BlogBreadcrumbs />
           <span className="inline-block bg-blue-500/30 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-4">{category}</span>
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{title}</h1>
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-blue-100/80 text-sm">
-            <span className="flex items-center gap-2"><span>{t('blogArticle.byline')}</span></span>
-            <span className="flex items-center gap-2"><Calendar size={15} /> {displayDate}</span>
-            <span className="flex items-center gap-2"><Clock size={15} /> {readTime}</span>
-          </div>
+          <BlogPostMeta />
         </div>
       </div>
 
@@ -145,6 +133,8 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
           </div>
         )}
       </article>
+
+      <BlogPostFooter />
 
       {faqs && faqs.length > 0 && <FAQSection faqs={faqs} />}
 

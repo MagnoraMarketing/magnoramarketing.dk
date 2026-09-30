@@ -7,6 +7,7 @@ import HeroVisual from '../components/HeroVisual';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import { LatestArticles } from '../components/BlogPostParts';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -326,6 +327,8 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <LatestArticles />
 
       <FAQSection faqs={[
         { question: 'Hvad gør Magnora Marketing?', answer: 'Magnora Marketing er en dansk vækstpartner specialiseret i B2B telemarketing, mødebooking, leadgenerering, webudvikling og AI-integration. Vi hjælper virksomheder med at fylde salgspipelinen med kvalificerede møder og leads.' },
