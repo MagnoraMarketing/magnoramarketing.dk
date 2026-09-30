@@ -11,6 +11,14 @@ export default {
     contact: 'Contacto',
     cta: 'Empezar ahora',
   },
+  bottomNav: {
+    jobs: 'Empleos',
+    remote: 'Remoto',
+    contact: 'Contacto',
+    partner: 'Socios',
+    pricing: 'Precios',
+    aria: 'Navegación móvil',
+  },
   footer: {
     tagline: 'Tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads e integración de IA.',
     navigation: 'Navegación',
