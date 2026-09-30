@@ -5,6 +5,7 @@ import { Users, Award, CheckCircle, ArrowRight, Building, Globe, CalendarCheck, 
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 
 interface ValueItem {
   title: string;
@@ -230,6 +231,8 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <BookingAudioDemo variant="about" />
 
       <FAQSection faqs={faqs} />
       <CTASection

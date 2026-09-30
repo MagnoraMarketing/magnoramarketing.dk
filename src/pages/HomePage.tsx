@@ -7,6 +7,7 @@ import HeroVisual from '../components/HeroVisual';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import { LatestArticles } from '../components/BlogPostParts';
 
 const HomePage: React.FC = () => {
@@ -331,6 +332,8 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <BookingAudioDemo variant="home" />
 
       <LatestArticles />
 

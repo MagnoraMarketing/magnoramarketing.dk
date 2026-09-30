@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import BookingAudioDemo from '../../components/BookingAudioDemo';
 import AiSolutionsSection from '../../components/AiSolutionsSection';
 import { ServiceArticles } from '../../components/BlogPostParts';
 
@@ -227,6 +228,8 @@ export default function AiIntegrationPage() {
           </div>
         </div>
       </section>
+
+      <BookingAudioDemo variant="aiIntegration" />
 
       {/* AI Workflow eksempler */}
       <section className="py-16 bg-white">

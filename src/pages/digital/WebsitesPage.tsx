@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import BookingAudioDemo from '../../components/BookingAudioDemo';
 import { ServiceArticles } from '../../components/BlogPostParts';
 
 export default function WebsitesPage() {
@@ -332,6 +333,8 @@ export default function WebsitesPage() {
           </div>
         </div>
       </section>
+
+      <BookingAudioDemo variant="websites" />
 
       <ServiceArticles servicePath="/digital/hjemmesider" />
 

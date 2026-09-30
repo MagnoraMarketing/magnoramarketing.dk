@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Mail, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
 import CTASection from '../components/CTASection';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import FAQSection from '../components/FAQSection';
 import ContactForm from '../components/ContactForm';
 
@@ -151,6 +152,8 @@ const ContactPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <BookingAudioDemo variant="contact" />
 
       <FAQSection faqs={faqs} />
 
