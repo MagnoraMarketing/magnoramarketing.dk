@@ -5,6 +5,7 @@ import { CheckCircle, ArrowRight, Clock, PiggyBank, Home, Zap, Sun, Lightbulb } 
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
+import JobApplicationSection from '../../components/JobApplicationSection';
 
 export default function LedLightingPage() {
   const { t } = useTranslation();
@@ -147,6 +148,9 @@ export default function LedLightingPage() {
           </div>
         </div>
       </section>
+
+      <JobApplicationSection />
+
 
       <FAQSection faqs={faqItems} />
 

@@ -5,6 +5,7 @@ import { CheckCircle, ArrowRight, Clock, PiggyBank, Home, Zap, BarChart3, Shield
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
+import JobApplicationSection from '../../components/JobApplicationSection';
 
 export default function EnergySalesPage() {
   const { t } = useTranslation();
@@ -144,6 +145,9 @@ export default function EnergySalesPage() {
           </div>
         </div>
       </section>
+
+      <JobApplicationSection />
+
 
       <FAQSection faqs={faqItems} />
 
