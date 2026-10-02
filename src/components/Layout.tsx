@@ -12,7 +12,15 @@ const ScrollToTop: React.FC = () => {
   return null;
 };
 
+// Pilot-period widget targets businesses looking to collaborate, not job seekers or the contact page
+const TRIAL_WIDGET_PATHS = ['/', '/samarbejdspartner', '/ydelser', '/priser', '/hvorfor-os', '/modebooking-priser', '/leadgenerering'];
+const showTrialWidgetOn = (pathname: string) => {
+  const path = pathname.replace(/\/+$/, '') || '/';
+  return TRIAL_WIDGET_PATHS.includes(path) || path.startsWith('/digital/');
+};
+
 const Layout: React.FC = () => {
+  const { pathname } = useLocation();
   const [showCookieConsent, setShowCookieConsent] = useState(false);
   
   useEffect(() => {
@@ -41,7 +49,7 @@ const Layout: React.FC = () => {
       </main>
       <Footer />
       <MobileBottomNav />
-      <TrialWidget liftForCookieBanner={showCookieConsent} />
+      {showTrialWidgetOn(pathname) && <TrialWidget liftForCookieBanner={showCookieConsent} />}
       {showCookieConsent && (
         <CookieConsent onAccept={handleAcceptCookies} />
       )}
