@@ -13,7 +13,20 @@ const ScrollToTop: React.FC = () => {
 };
 
 // Pilot-period widget targets businesses looking to collaborate, not job seekers or the contact page
-const TRIAL_WIDGET_PATHS = ['/', '/samarbejdspartner', '/ydelser', '/priser', '/hvorfor-os', '/modebooking-priser', '/leadgenerering'];
+const TRIAL_WIDGET_PATHS = [
+  '/', '/samarbejdspartner', '/ydelser', '/priser', '/hvorfor-os', '/modebooking-priser', '/leadgenerering',
+  // Blog posts in the "Samarbejde & Vækst" category
+  '/blog/hvorfor-samarbejde-magnora',
+  '/blog/ideudvikling-med-magnora',
+  '/blog/fra-ide-til-salg',
+  '/blog/moedebooking-partner-magnora',
+  '/blog/outsource-moedebooking-fordele',
+  '/blog/telesalg-partner-magnora',
+  '/blog/b2b-telesalg-samarbejde',
+  '/blog/vaekstpartner-ide-moedebooking-telesalg',
+  '/blog/saadan-foregaar-samarbejdet',
+  '/blog/hvorfor-outsource-salg-og-moedebooking',
+];
 const showTrialWidgetOn = (pathname: string) => {
   const path = pathname.replace(/\/+$/, '') || '/';
   return TRIAL_WIDGET_PATHS.includes(path) || path.startsWith('/digital/');
