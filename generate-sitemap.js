@@ -73,6 +73,7 @@ const contentPages = [
   // Digital services
   { path: '/digital/webudvikling', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'Webudvikling', desc: 'Skræddersyet webudvikling der kombinerer teknik og kommerciel indsigt.' },
   { path: '/digital/hjemmesider', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'Hjemmesider', desc: 'Prisvenlige, konverteringsstærke hjemmesider til danske virksomheder.' },
+  { path: '/digital/hjemmesider/priser', priority: '0.7', changefreq: 'monthly', group: 'Digitale løsninger', title: 'Priser på hjemmesider', desc: 'Pakker og priser på skræddersyede CMS-hjemmesider – fra 155 kr/md.' },
   { path: '/digital/api-saas', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'API & SaaS', desc: 'Udvikling af API- og SaaS-løsninger til B2B.' },
   { path: '/digital/ai-integration', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'AI-integration', desc: 'AI-integration der skaber målbare resultater i salg og drift.' },
   { path: '/digital/ai-widget', priority: '0.7', changefreq: 'weekly', group: 'Digitale løsninger', title: 'AI-widget', desc: 'AI-chatwidget til din hjemmeside – svarer kunder døgnet rundt.' },

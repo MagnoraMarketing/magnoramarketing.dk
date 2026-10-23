@@ -82,6 +82,7 @@ import AiConsultantPage from './pages/jobs/AiConsultantPage';
 import WebDevelopmentPage from './pages/digital/WebDevelopmentPage';
 import ApiSaasPage from './pages/digital/ApiSaasPage';
 import WebsitesPage from './pages/digital/WebsitesPage';
+import WebsitePricingPage from './pages/digital/WebsitePricingPage';
 import AiIntegrationPage from './pages/digital/AiIntegrationPage';
 import AiWidgetPage from './pages/digital/AiWidgetPage';
 import AiReceptionPage from './pages/digital/AiReceptionPage';
@@ -207,6 +208,7 @@ export function AppRoutes() {
           <Route path="/digital/webudvikling" element={<WebDevelopmentPage />} />
           <Route path="/digital/api-saas" element={<ApiSaasPage />} />
           <Route path="/digital/hjemmesider" element={<WebsitesPage />} />
+          <Route path="/digital/hjemmesider/priser" element={<WebsitePricingPage />} />
           <Route path="/digital/ai-integration" element={<AiIntegrationPage />} />
           <Route path="/digital/ai-widget" element={<AiWidgetPage />} />
           <Route path="/digital/ai-reception" element={<AiReceptionPage />} />

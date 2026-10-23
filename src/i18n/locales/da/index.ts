@@ -13,6 +13,7 @@ import digitalAiIntegration from './digitalAiIntegration';
 import digitalApiSaas from './digitalApiSaas';
 import digitalWebDevelopment from './digitalWebDevelopment';
 import digitalWebsites from './digitalWebsites';
+import digitalWebsitePricing from './digitalWebsitePricing';
 import digitalAiReception from './digitalAiReception';
 import digitalAiWidget from './digitalAiWidget';
 import jobAiConsultant from './jobAiConsultant';
@@ -73,6 +74,7 @@ export default {
   digitalApiSaas,
   digitalWebDevelopment,
   digitalWebsites,
+  digitalWebsitePricing,
   digitalAiReception,
   digitalAiWidget,
   jobAiConsultant,

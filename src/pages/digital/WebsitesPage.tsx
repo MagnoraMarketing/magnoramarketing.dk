@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Monitor, CheckCircle, ArrowRight, Search, TrendingUp, PenTool, Gauge, Leaf, Hammer, Store, ShoppingBag, HardHat, Briefcase, Tag, Image as ImageIcon, ExternalLink } from 'lucide-react';
+import { Monitor, CheckCircle, ArrowRight, Search, TrendingUp, PenTool, Gauge, Leaf, Hammer, Store, ShoppingBag, HardHat, Briefcase, Tag, Image as ImageIcon, ExternalLink, LayoutDashboard, Rocket, Building2, Headphones } from 'lucide-react';
 import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
@@ -53,6 +53,12 @@ export default function WebsitesPage() {
       icon: <Briefcase size={18} />,
       color: 'text-blue-600 bg-blue-50'
     }
+  ];
+
+  const proPackages = [
+    { icon: <Rocket size={22} />, highlight: false },
+    { icon: <Building2 size={22} />, highlight: true },
+    { icon: <LayoutDashboard size={22} />, highlight: false }
   ];
 
   const showcaseSites = [
@@ -245,6 +251,68 @@ export default function WebsitesPage() {
       </section>
 
       <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-10">
+            <span className="inline-block text-sm font-bold tracking-widest text-blue-600 uppercase mb-3">{t('digitalWebsites.pro.label')}</span>
+            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.pro.heading')}</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              {t('digitalWebsites.pro.subtitle')}
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
+                <Tag size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgePrice') }} />
+              </div>
+              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
+                <LayoutDashboard size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgeCms') }} />
+              </div>
+              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
+                <Headphones size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgeSupport') }} />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {proPackages.map((pkg, i) => (
+              <div
+                key={i}
+                className={`relative rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${pkg.highlight ? 'bg-blue-600 text-white border-blue-600 shadow-lg' : 'bg-white border-gray-100 shadow-sm'}`}
+              >
+                {pkg.highlight && (
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-bold text-blue-600 bg-white border border-blue-200 px-3 py-1 rounded-full shadow-sm">
+                    {t('digitalWebsites.pro.popular')}
+                  </span>
+                )}
+                <span className={`w-11 h-11 rounded-lg flex items-center justify-center mb-4 ${pkg.highlight ? 'bg-white/15 text-white' : 'bg-blue-50 text-blue-600'}`}>
+                  {pkg.icon}
+                </span>
+                <h3 className="text-xl font-bold mb-1">{t(`digitalWebsites.pro.items.${i}.name`)}</h3>
+                <p className={`text-sm mb-5 ${pkg.highlight ? 'text-blue-100' : 'text-gray-600'}`}>{t(`digitalWebsites.pro.items.${i}.desc`)}</p>
+                <p className="mb-1">
+                  <span className={`text-sm ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}>{t('digitalWebsites.pro.from')} </span>
+                  <span className="text-3xl font-bold">{t(`digitalWebsites.pro.items.${i}.price`)}</span>
+                  <span className={`text-sm ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}> {t('digitalWebsites.pro.perMonth')}</span>
+                </p>
+                <p className={`text-xs ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}>{t('digitalWebsites.pro.priceNote')}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-gray-600 mb-5">{t('digitalWebsites.pro.ctaLead')}</p>
+            <Link to="/digital/hjemmesider/priser" className="inline-flex items-center bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              {t('digitalWebsites.pro.cta')} <ArrowRight size={16} className="ml-2" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block text-sm font-bold tracking-widest text-blue-600 uppercase mb-3">{t('digitalWebsites.showcase.label')}</span>
