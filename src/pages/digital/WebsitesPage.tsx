@@ -107,80 +107,67 @@ export default function WebsitesPage() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.differentiators.heading')}</h2>
+          <div className="text-center mb-10">
+            <span className="inline-block text-sm font-bold tracking-widest text-blue-600 uppercase mb-3">{t('digitalWebsites.pro.label')}</span>
+            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.pro.heading')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              {t('digitalWebsites.differentiators.subtitle')}
+              {t('digitalWebsites.pro.subtitle')}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {features.map((f, i) => (
-              <div key={i} className="flex gap-5 p-6 bg-gray-50 rounded-xl">
-                <div className="flex-shrink-0">{f.icon}</div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">{t(`digitalWebsites.features.${i}.title`)}</h3>
-                  <p className="text-gray-600">{t(`digitalWebsites.features.${i}.description`)}</p>
-                </div>
+
+          <div className="max-w-4xl mx-auto mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
+                <Tag size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgePrice') }} />
+              </div>
+              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
+                <LayoutDashboard size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgeCms') }} />
+              </div>
+              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
+                <Headphones size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
+                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgeSupport') }} />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {proPackages.map((pkg, i) => (
+              <div
+                key={i}
+                className={`relative rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${pkg.highlight ? 'bg-blue-600 text-white border-blue-600 shadow-lg' : 'bg-white border-gray-100 shadow-sm'}`}
+              >
+                {pkg.highlight && (
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-bold text-blue-600 bg-white border border-blue-200 px-3 py-1 rounded-full shadow-sm">
+                    {t('digitalWebsites.pro.popular')}
+                  </span>
+                )}
+                <span className={`w-11 h-11 rounded-lg flex items-center justify-center mb-4 ${pkg.highlight ? 'bg-white/15 text-white' : 'bg-blue-50 text-blue-600'}`}>
+                  {pkg.icon}
+                </span>
+                <h3 className="text-xl font-bold mb-1">{t(`digitalWebsites.pro.items.${i}.name`)}</h3>
+                <p className={`text-sm mb-5 ${pkg.highlight ? 'text-blue-100' : 'text-gray-600'}`}>{t(`digitalWebsites.pro.items.${i}.desc`)}</p>
+                <p className="mb-1">
+                  <span className={`text-sm ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}>{t('digitalWebsites.pro.from')} </span>
+                  <span className="text-3xl font-bold">{t(`digitalWebsites.pro.items.${i}.price`)}</span>
+                  <span className={`text-sm ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}> {t('digitalWebsites.pro.perMonth')}</span>
+                </p>
+                <p className={`text-xs ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}>{t('digitalWebsites.pro.priceNote')}</p>
               </div>
             ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-gray-600 mb-5">{t('digitalWebsites.pro.ctaLead')}</p>
+            <Link to="/digital/hjemmesider/priser" className="inline-flex items-center bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              {t('digitalWebsites.pro.cta')} <ArrowRight size={16} className="ml-2" />
+            </Link>
           </div>
         </div>
       </section>
 
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6">{t('digitalWebsites.included.heading')}</h2>
-              <p className="text-lg text-gray-600 mb-8">
-                {t('digitalWebsites.included.subtitle')}
-              </p>
-              <ul className="space-y-3">
-                {included.map((item, i) => (
-                  <li key={i} className="flex items-center">
-                    <CheckCircle className="text-green-500 mr-3 flex-shrink-0" size={18} />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-8">
-                <Link to="/kontakt" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                  {t('digitalWebsites.included.cta')} <ArrowRight size={16} className="ml-2" />
-                </Link>
-              </div>
-            </div>
-            <div>
-              <img
-                src="/heroes/hero-webdev.jpg"
-                alt={t('digitalWebsites.included.imageAlt')}
-                className="rounded-xl shadow-lg w-full"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Monitor size={48} className="text-blue-600 mx-auto mb-4" />
-            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.siteTypesSection.heading')}</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              {t('digitalWebsites.siteTypesSection.subtitle')}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {siteTypes.map((_, i) => (
-              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all">
-                <h3 className="text-lg font-semibold mb-2 text-blue-600">{t(`digitalWebsites.siteTypes.${i}.title`)}</h3>
-                <p className="text-gray-600 text-sm">{t(`digitalWebsites.siteTypes.${i}.desc`)}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <span className="inline-block text-sm font-bold tracking-widest text-blue-600 uppercase mb-3">{t('digitalWebsites.budget.label')}</span>
@@ -252,62 +239,75 @@ export default function WebsitesPage() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <span className="inline-block text-sm font-bold tracking-widest text-blue-600 uppercase mb-3">{t('digitalWebsites.pro.label')}</span>
-            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.pro.heading')}</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.differentiators.heading')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              {t('digitalWebsites.pro.subtitle')}
+              {t('digitalWebsites.differentiators.subtitle')}
             </p>
           </div>
-
-          <div className="max-w-4xl mx-auto mb-12">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
-                <Tag size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
-                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgePrice') }} />
-              </div>
-              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
-                <LayoutDashboard size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
-                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgeCms') }} />
-              </div>
-              <div className="flex items-start gap-3 bg-gray-50 border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
-                <Headphones size={20} className="text-blue-600 flex-shrink-0 mt-0.5" />
-                <p className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: t('digitalWebsites.pro.badgeSupport') }} />
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {proPackages.map((pkg, i) => (
-              <div
-                key={i}
-                className={`relative rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${pkg.highlight ? 'bg-blue-600 text-white border-blue-600 shadow-lg' : 'bg-white border-gray-100 shadow-sm'}`}
-              >
-                {pkg.highlight && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-bold text-blue-600 bg-white border border-blue-200 px-3 py-1 rounded-full shadow-sm">
-                    {t('digitalWebsites.pro.popular')}
-                  </span>
-                )}
-                <span className={`w-11 h-11 rounded-lg flex items-center justify-center mb-4 ${pkg.highlight ? 'bg-white/15 text-white' : 'bg-blue-50 text-blue-600'}`}>
-                  {pkg.icon}
-                </span>
-                <h3 className="text-xl font-bold mb-1">{t(`digitalWebsites.pro.items.${i}.name`)}</h3>
-                <p className={`text-sm mb-5 ${pkg.highlight ? 'text-blue-100' : 'text-gray-600'}`}>{t(`digitalWebsites.pro.items.${i}.desc`)}</p>
-                <p className="mb-1">
-                  <span className={`text-sm ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}>{t('digitalWebsites.pro.from')} </span>
-                  <span className="text-3xl font-bold">{t(`digitalWebsites.pro.items.${i}.price`)}</span>
-                  <span className={`text-sm ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}> {t('digitalWebsites.pro.perMonth')}</span>
-                </p>
-                <p className={`text-xs ${pkg.highlight ? 'text-blue-100' : 'text-gray-500'}`}>{t('digitalWebsites.pro.priceNote')}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {features.map((f, i) => (
+              <div key={i} className="flex gap-5 p-6 bg-gray-50 rounded-xl">
+                <div className="flex-shrink-0">{f.icon}</div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">{t(`digitalWebsites.features.${i}.title`)}</h3>
+                  <p className="text-gray-600">{t(`digitalWebsites.features.${i}.description`)}</p>
+                </div>
               </div>
             ))}
           </div>
+        </div>
+      </section>
 
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mb-5">{t('digitalWebsites.pro.ctaLead')}</p>
-            <Link to="/digital/hjemmesider/priser" className="inline-flex items-center bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              {t('digitalWebsites.pro.cta')} <ArrowRight size={16} className="ml-2" />
-            </Link>
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6">{t('digitalWebsites.included.heading')}</h2>
+              <p className="text-lg text-gray-600 mb-8">
+                {t('digitalWebsites.included.subtitle')}
+              </p>
+              <ul className="space-y-3">
+                {included.map((item, i) => (
+                  <li key={i} className="flex items-center">
+                    <CheckCircle className="text-green-500 mr-3 flex-shrink-0" size={18} />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-8">
+                <Link to="/kontakt" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                  {t('digitalWebsites.included.cta')} <ArrowRight size={16} className="ml-2" />
+                </Link>
+              </div>
+            </div>
+            <div>
+              <img
+                src="/heroes/hero-webdev.jpg"
+                alt={t('digitalWebsites.included.imageAlt')}
+                className="rounded-xl shadow-lg w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <Monitor size={48} className="text-blue-600 mx-auto mb-4" />
+            <h2 className="text-3xl font-bold mb-4">{t('digitalWebsites.siteTypesSection.heading')}</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              {t('digitalWebsites.siteTypesSection.subtitle')}
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {siteTypes.map((_, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all">
+                <h3 className="text-lg font-semibold mb-2 text-blue-600">{t(`digitalWebsites.siteTypes.${i}.title`)}</h3>
+                <p className="text-gray-600 text-sm">{t(`digitalWebsites.siteTypes.${i}.desc`)}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
