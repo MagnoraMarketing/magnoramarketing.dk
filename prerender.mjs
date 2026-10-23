@@ -36,6 +36,7 @@ const routes = [
   '/digital/webudvikling',
   '/digital/api-saas',
   '/digital/hjemmesider',
+  '/digital/hjemmesider/priser',
   '/digital/ai-integration',
   '/digital/ai-widget',
   '/digital/ai-reception',

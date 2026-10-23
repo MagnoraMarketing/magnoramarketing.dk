@@ -23,6 +23,7 @@
 ## Digitale løsninger
 - [Webudvikling](https://magnoramarketing.dk/digital/webudvikling): Skræddersyet webudvikling der kombinerer teknik og kommerciel indsigt.
 - [Hjemmesider](https://magnoramarketing.dk/digital/hjemmesider): Prisvenlige, konverteringsstærke hjemmesider til danske virksomheder.
+- [Priser på hjemmesider](https://magnoramarketing.dk/digital/hjemmesider/priser): Pakker og priser på skræddersyede CMS-hjemmesider – fra 155 kr/md.
 - [API & SaaS](https://magnoramarketing.dk/digital/api-saas): Udvikling af API- og SaaS-løsninger til B2B.
 - [AI-integration](https://magnoramarketing.dk/digital/ai-integration): AI-integration der skaber målbare resultater i salg og drift.
 - [AI-widget](https://magnoramarketing.dk/digital/ai-widget): AI-chatwidget til din hjemmeside – svarer kunder døgnet rundt.
