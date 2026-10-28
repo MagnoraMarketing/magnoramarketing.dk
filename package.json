@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && vite build --ssr src/entry-server.tsx --outDir dist/server && node generate-sitemap.js && node prerender.mjs && rm -rf dist/server && cp dist/sitemap.xml dist/robots.txt dist/llms.txt public/",
+    "build": "node scripts/check-i18n.mjs && tsc && vite build && vite build --ssr src/entry-server.tsx --outDir dist/server && node generate-sitemap.js && node prerender.mjs && rm -rf dist/server && cp dist/sitemap.xml dist/robots.txt dist/llms.txt public/",
     "lint": "eslint .",
+    "check:i18n": "node scripts/check-i18n.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

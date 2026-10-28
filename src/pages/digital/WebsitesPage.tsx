@@ -64,25 +64,25 @@ export default function WebsitesPage() {
   const showcaseSites = [
     {
       image: '/references/showcase-mtvagt.jpg',
-      name: 'MT Vagt',
+      name: 'MT Vagt', // i18n-ignore – brand name
       url: 'https://mtvagt.dk/',
       domain: 'mtvagt.dk'
     },
     {
       image: '/references/showcase-aibooking.jpg',
-      name: 'AI Booking',
+      name: 'AI Booking', // i18n-ignore – brand name
       url: 'https://aibooking.dk/',
       domain: 'aibooking.dk'
     },
     {
       image: '/references/showcase-nexusmarketing.jpg',
-      name: 'Nexus Marketing',
+      name: 'Nexus Marketing', // i18n-ignore – brand name
       url: 'https://nexusmarketing.dk/',
       domain: 'nexusmarketing.dk'
     },
     {
       image: '/references/showcase-somevideopost.jpg',
-      name: 'Some Video Post',
+      name: 'Some Video Post', // i18n-ignore – brand name
       url: 'https://www.somevideopost.com/',
       domain: 'somevideopost.com'
     }

@@ -7,8 +7,16 @@ import TrialWidget from './TrialWidget';
 import MobileBottomNav from './MobileBottomNav';
 
 const ScrollToTop: React.FC = () => {
-  const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  const { pathname, hash } = useLocation();
+  useEffect(() => {
+    // Links such as /blog#ai jump to that section (below the fixed header).
+    const target = hash ? document.getElementById(decodeURIComponent(hash.slice(1))) : null;
+    if (target) {
+      window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY - 80);
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, hash]);
   return null;
 };
 

@@ -17,8 +17,7 @@ interface Category {
   posts: Post[];
 }
 
-interface TranslatedPost { title: string; description: string; }
-interface TranslatedCategory { label: string; posts: TranslatedPost[]; }
+interface TranslatedCategory { label: string; }
 interface FAQItem { question: string; answer: string; }
 
 const categoryMeta: Array<{ id: string; icon: React.ReactNode; color: string; badgeColor: string; slugs: Array<{ slug: string; date: string }> }> = [
@@ -114,11 +113,11 @@ const BlogPage: React.FC = () => {
     color: meta.color,
     badgeColor: meta.badgeColor,
     label: translatedCategories[i].label,
-    posts: meta.slugs.map((s, j) => ({
+    posts: meta.slugs.map((s) => ({
       slug: s.slug,
       date: s.date,
-      title: translatedCategories[i].posts[j].title,
-      description: translatedCategories[i].posts[j].description,
+      title: t(`blogPostIndex.${s.slug}.title`),
+      description: t(`blogPostIndex.${s.slug}.description`),
     })),
   }));
 
@@ -130,7 +129,7 @@ const BlogPage: React.FC = () => {
         <p className="text-gray-600 mb-4 text-sm">{post.description}</p>
         <div className="flex items-center justify-between text-sm text-gray-400">
           <span className="flex items-center gap-1"><Calendar size={14} />{post.date}</span>
-          <span className="text-blue-600 font-medium flex items-center gap-1">Læs mere <ArrowRight size={14} /></span>
+          <span className="text-blue-600 font-medium flex items-center gap-1">{t('common.readMore')} <ArrowRight size={14} /></span>
         </div>
       </div>
     </Link>
@@ -147,9 +146,9 @@ const BlogPage: React.FC = () => {
 
       <section className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Magnora Marketing Blog</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t('blogPage.hero.title')}</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Praktisk viden og konkrete råd om B2B salg, mødebooking, webudvikling og AI-integration.
+            {t('blogPage.hero.subtitle')}
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-8">
             {categories.map(cat => (

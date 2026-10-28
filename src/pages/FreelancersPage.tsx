@@ -131,8 +131,8 @@ const FreelancersPage: React.FC = () => {
                   <Star className="text-blue-600 flex-shrink-0" size={24} />
                   <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded font-medium">{t('freelancers.jobs.badge')}</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{job.title}</h3>
-                <p className="text-gray-600 text-sm mb-4">{job.description}</p>
+                <h3 className="text-lg font-semibold mb-2">{t(`jobListings.${job.key}.title`)}</h3>
+                <p className="text-gray-600 text-sm mb-4">{t(`jobListings.${job.key}.description`)}</p>
                 <span className="text-blue-600 font-medium text-sm inline-flex items-center">
                   {t('freelancers.jobs.readMore')} <ArrowRight size={14} className="ml-1" />
                 </span>

@@ -338,7 +338,7 @@ export default function AiConsultantPage() {
                 className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-100 hover:border-violet-300 hover:shadow-md transition-all group"
               >
                 <job.icon className={`flex-shrink-0 ${job.color}`} size={20} />
-                <span className="text-slate-700 group-hover:text-violet-600 font-medium text-sm">{job.title}</span>
+                <span className="text-slate-700 group-hover:text-violet-600 font-medium text-sm">{t(`jobListings.${job.key}.title`)}</span>
                 <ArrowRight className="ml-auto text-slate-300 group-hover:text-violet-500" size={16} />
               </Link>
             ))}
