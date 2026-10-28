@@ -38,6 +38,7 @@ import notFound from './notFound';
 import faqSection from './faqSection';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
+import blogPostIndex from './blogPostIndex';
 import blogPostsGroup0 from './blogPosts-group0';
 import blogPostsGroup1 from './blogPosts-group1';
 import blogPostsGroup2 from './blogPosts-group2';
@@ -99,5 +100,6 @@ export default {
   ...faqSection,
   blogPage,
   blogPost,
+  blogPostIndex,
   blogPosts,
 };

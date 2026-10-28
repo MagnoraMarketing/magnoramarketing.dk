@@ -5,11 +5,28 @@ export default {
     digital: 'Digital',
     jobSeekers: 'Job Seekers',
     allJobs: 'View all positions →',
+    allServices: 'View all services →',
+    allArticles: 'View all articles →',
     collaboration: 'Partnership',
     about: 'About us',
     blog: 'Blog',
     contact: 'Contact',
     cta: 'Get started',
+    digitalServices: {
+      webDevelopment: 'Web Development',
+      apiSaas: 'API & SaaS',
+      websites: 'Websites',
+      aiIntegration: 'AI Integration',
+      aiWidget: '✦ AI Widget',
+      aiReception: '✦ AI Receptionist',
+    },
+    partnerOptions: {
+      becomePartner: 'Become a partner',
+      pricing: 'Pricing & Packages',
+      whyUs: 'Why Magnora Marketing?',
+      meetingBooking: 'Meeting Booking',
+      leadGeneration: 'Lead Generation',
+    },
   },
   bottomNav: {
     jobs: 'Jobs',
@@ -62,5 +79,51 @@ export default {
     da: 'Dansk',
     en: 'English',
     es: 'Español',
+  },
+  jobListings: {
+    remoteWork: {
+      title: 'Work from home',
+      description: 'Enjoy freedom and flexibility with a job as a freelance sales rep or meeting booker from home.',
+    },
+    insuranceBroker: {
+      title: 'Meeting Booker - Insurance (remote)',
+      description: 'Work 100% from home for Denmark\'s best insurance brokers. Attractive pay, uncapped commission and full freedom over your working day.',
+    },
+    aiConsultant: {
+      title: 'AI Consultant - Introduce AI to businesses',
+      description: 'Contact businesses and show them AI solutions that save time. A future-proof job, 100% from home, with attractive pay.',
+    },
+    webBureau: {
+      title: 'Sales Rep - Web Development & Digital Solutions',
+      description: 'Book qualified meetings for one of Denmark\'s leading digital agencies and help businesses find the right marketing solutions.',
+    },
+    ledLighting: {
+      title: 'Meeting Booker - LED Lighting',
+      description: 'Become a meeting booker for Denmark\'s most innovative LED company and help businesses with energy-efficient lighting solutions.',
+    },
+    energySales: {
+      title: 'Sales Rep - Electricity B2C/B2B',
+      description: 'Help households and businesses save energy through optimised electricity solutions and green alternatives.',
+    },
+    coffeeService: {
+      title: 'Meeting Booker - Coffee Service',
+      description: 'Help businesses find the perfect coffee solution for their employees and customers.',
+    },
+    solarEnergy: {
+      title: 'Meeting Booker - Renewable Energy',
+      description: 'Help drive the green transition as a meeting booker in solar power and renewable energy.',
+    },
+    matService: {
+      title: 'Meeting Booker - Mat Service',
+      description: 'Book meetings for professional mat service solutions and help businesses create a cleaner working environment.',
+    },
+    pension: {
+      title: 'Meeting Booker - Pension',
+      description: 'Help people secure their financial future through professional pension advice.',
+    },
+    debtCollection: {
+      title: 'Meeting Booker - Debt Collection',
+      description: 'Book meetings for professional debt collection solutions and help businesses with accounts receivable management.',
+    },
   },
 };

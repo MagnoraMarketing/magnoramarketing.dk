@@ -383,7 +383,7 @@ export default function InsuranceBrokerPage() {
                 className="flex items-center gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-300 hover:bg-white hover:shadow-md transition-all group"
               >
                 <job.icon className={`flex-shrink-0 ${job.color}`} size={20} />
-                <span className="text-slate-700 group-hover:text-blue-600 font-medium text-sm">{job.title}</span>
+                <span className="text-slate-700 group-hover:text-blue-600 font-medium text-sm">{t(`jobListings.${job.key}.title`)}</span>
                 <ArrowRight className="ml-auto text-slate-300 group-hover:text-blue-500" size={16} />
               </Link>
             ))}

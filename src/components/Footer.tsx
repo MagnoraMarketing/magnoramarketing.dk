@@ -90,6 +90,7 @@ const Footer: React.FC = () => {
                 <p className="text-xs font-semibold text-slate-500 mb-1">Magnora Marketing</p>
                 <div className="flex items-start gap-2">
                   <MapPin size={15} className="text-blue-500 mt-0.5 flex-shrink-0" />
+                  {/* i18n-ignore – postal address */}
                   <p className="text-slate-400 text-sm">Calle Purisima 5<br />46540 El Puig, Valencia</p>
                 </div>
               </div>

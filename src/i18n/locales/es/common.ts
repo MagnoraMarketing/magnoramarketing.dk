@@ -5,11 +5,28 @@ export default {
     digital: 'Digital',
     jobSeekers: 'Empleo',
     allJobs: 'Ver todas las vacantes →',
+    allServices: 'Ver todos los servicios →',
+    allArticles: 'Ver todos los artículos →',
     collaboration: 'Colaboración',
     about: 'Sobre nosotros',
     blog: 'Blog',
     contact: 'Contacto',
     cta: 'Empezar ahora',
+    digitalServices: {
+      webDevelopment: 'Desarrollo web',
+      apiSaas: 'API y SaaS',
+      websites: 'Páginas web',
+      aiIntegration: 'Integración de IA',
+      aiWidget: '✦ Widget de IA',
+      aiReception: '✦ Recepcionista IA',
+    },
+    partnerOptions: {
+      becomePartner: 'Hazte socio colaborador',
+      pricing: 'Precios y paquetes',
+      whyUs: '¿Por qué Magnora Marketing?',
+      meetingBooking: 'Concertación de reuniones',
+      leadGeneration: 'Generación de leads',
+    },
   },
   bottomNav: {
     jobs: 'Empleos',
@@ -62,5 +79,51 @@ export default {
     da: 'Dansk',
     en: 'English',
     es: 'Español',
+  },
+  jobListings: {
+    remoteWork: {
+      title: 'Trabaja desde casa',
+      description: 'Disfruta de libertad y flexibilidad con un trabajo como comercial freelance o concertador de reuniones desde casa.',
+    },
+    insuranceBroker: {
+      title: 'Concertador de reuniones - Seguros (remoto)',
+      description: 'Trabaja 100% desde casa para los mejores corredores de seguros de Dinamarca. Sueldo atractivo, comisiones sin límite y total libertad sobre tu jornada.',
+    },
+    aiConsultant: {
+      title: 'Consultor de IA - Presenta la IA a las empresas',
+      description: 'Contacta con empresas y muéstrales soluciones de IA que ahorran tiempo. Un trabajo con futuro, 100% desde casa y con un sueldo atractivo.',
+    },
+    webBureau: {
+      title: 'Comercial - Desarrollo web y soluciones digitales',
+      description: 'Concierta reuniones cualificadas para una de las agencias digitales líderes de Dinamarca y ayuda a las empresas a encontrar las soluciones de marketing adecuadas.',
+    },
+    ledLighting: {
+      title: 'Concertador de reuniones - Iluminación LED',
+      description: 'Conviértete en concertador de reuniones para la empresa LED más innovadora de Dinamarca y ayuda a las empresas con soluciones de iluminación eficientes.',
+    },
+    energySales: {
+      title: 'Comercial - Electricidad B2C/B2B',
+      description: 'Ayuda a particulares y empresas a ahorrar energía con soluciones eléctricas optimizadas y alternativas verdes.',
+    },
+    coffeeService: {
+      title: 'Concertador de reuniones - Servicio de café',
+      description: 'Ayuda a las empresas a encontrar la solución de café perfecta para sus empleados y clientes.',
+    },
+    solarEnergy: {
+      title: 'Concertador de reuniones - Energía renovable',
+      description: 'Impulsa la transición verde como concertador de reuniones en energía solar y renovable.',
+    },
+    matService: {
+      title: 'Concertador de reuniones - Servicio de alfombras',
+      description: 'Concierta reuniones para soluciones profesionales de alfombras y ayuda a las empresas a crear un entorno de trabajo más limpio.',
+    },
+    pension: {
+      title: 'Concertador de reuniones - Pensiones',
+      description: 'Ayuda a las personas a asegurar su futuro financiero mediante asesoramiento profesional en pensiones.',
+    },
+    debtCollection: {
+      title: 'Concertador de reuniones - Recobro',
+      description: 'Concierta reuniones para soluciones profesionales de recobro y ayuda a las empresas con la gestión de cobros.',
+    },
   },
 };

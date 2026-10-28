@@ -17,7 +17,7 @@ const JobApplicationSection: React.FC = () => {
           <p className="text-slate-600">{t('contactForm.jobApplication.text')}</p>
         </div>
         <div className="bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-10 shadow-sm">
-          <ContactForm presetTopic="Job henvendelse" sourceLabel={`Jobside: ${job?.title ?? pathname}`} />
+          <ContactForm presetTopic="Job henvendelse" sourceLabel={`Jobside: ${job ? t(`jobListings.${job.key}.title`, { lng: 'da' }) : pathname}`} />
         </div>
       </div>
     </section>

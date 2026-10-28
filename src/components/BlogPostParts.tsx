@@ -24,6 +24,15 @@ const useCategoryLabel = () => {
   return (post: BlogPostEntry) => categories[blogCategoryOrder.indexOf(post.category)]?.label ?? '';
 };
 
+/** Title + description of a post in the current language (src/i18n/locales/{da,en,es}/blogPostIndex.ts). */
+export const useBlogPostText = () => {
+  const { t } = useTranslation();
+  return (post: BlogPostEntry) => ({
+    title: t(`blogPostIndex.${post.slug}.title`),
+    description: t(`blogPostIndex.${post.slug}.description`),
+  });
+};
+
 const useFormatDate = () => {
   const { i18n } = useTranslation();
   const locale = i18n.language === 'en' ? 'en-GB' : i18n.language === 'es' ? 'es-ES' : 'da-DK';
@@ -36,6 +45,7 @@ export const BlogBreadcrumbs: React.FC = () => {
   const { t } = useTranslation();
   const post = useCurrentPost();
   const categoryLabel = useCategoryLabel();
+  const postText = useBlogPostText();
   if (!post) return null;
   return (
     <nav aria-label={t('blogArticle.breadcrumbLabel')} className="mb-5 text-sm text-blue-100/80">
@@ -46,7 +56,7 @@ export const BlogBreadcrumbs: React.FC = () => {
         <li aria-hidden="true"><ChevronRight size={14} /></li>
         <li><Link to={`/blog#${post.category}`} className="hover:text-white">{categoryLabel(post)}</Link></li>
         <li aria-hidden="true"><ChevronRight size={14} /></li>
-        <li aria-current="page" className="text-white/90 line-clamp-1">{post.title}</li>
+        <li aria-current="page" className="text-white/90 line-clamp-1">{postText(post).title}</li>
       </ol>
     </nav>
   );
@@ -77,11 +87,12 @@ export const BlogPostMeta: React.FC = () => {
 const PostLinkCard: React.FC<{ post: BlogPostEntry }> = ({ post }) => {
   const { t } = useTranslation();
   const categoryLabel = useCategoryLabel();
+  const { title, description } = useBlogPostText()(post);
   return (
     <Link to={`/blog/${post.slug}`} className="group block h-full bg-white border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
       <span className="text-xs font-semibold text-blue-700">{categoryLabel(post)}</span>
-      <h3 className="text-base font-bold text-slate-900 mt-2 mb-2 leading-snug group-hover:text-blue-700">{post.title}</h3>
-      <p className="text-sm text-gray-600 mb-3 line-clamp-3">{post.description}</p>
+      <h3 className="text-base font-bold text-slate-900 mt-2 mb-2 leading-snug group-hover:text-blue-700">{title}</h3>
+      <p className="text-sm text-gray-600 mb-3 line-clamp-3">{description}</p>
       <span className="text-sm text-blue-600 font-medium inline-flex items-center gap-1">
         {t('blogArticle.readArticle')} <ArrowRight size={14} />
       </span>

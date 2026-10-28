@@ -3,6 +3,7 @@ import { NavLink, Link, useLocation } from 'react-router-dom';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { jobListings } from '../data/jobListings';
+import { blogCategoryOrder } from '../data/blog';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar: React.FC = () => {
@@ -12,6 +13,7 @@ const Navbar: React.FC = () => {
   const [isJobsDropdownOpen, setIsJobsDropdownOpen] = useState(false);
   const [isDigitalDropdownOpen, setIsDigitalDropdownOpen] = useState(false);
   const [isPartnerDropdownOpen, setIsPartnerDropdownOpen] = useState(false);
+  const [openMobileSection, setOpenMobileSection] = useState<string | null>(null);
   const navRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
 
@@ -30,6 +32,7 @@ const Navbar: React.FC = () => {
   useEffect(() => {
     closeAllDropdowns();
     setIsMenuOpen(false);
+    setOpenMobileSection(null);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -43,6 +46,8 @@ const Navbar: React.FC = () => {
   }, []);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  // Opening one mobile section closes the others; tapping an open one closes it.
+  const toggleMobileSection = (id: string) => setOpenMobileSection(current => (current === id ? null : id));
   const toggleJobsDropdown = () => { setIsJobsDropdownOpen(v => !v); setIsDigitalDropdownOpen(false); setIsPartnerDropdownOpen(false); };
   const toggleDigitalDropdown = () => { setIsDigitalDropdownOpen(v => !v); setIsJobsDropdownOpen(false); setIsPartnerDropdownOpen(false); };
   const togglePartnerDropdown = () => { setIsPartnerDropdownOpen(v => !v); setIsJobsDropdownOpen(false); setIsDigitalDropdownOpen(false); };
@@ -57,20 +62,62 @@ const Navbar: React.FC = () => {
   const dropdownItemClass = 'block px-4 py-2.5 text-sm text-slate-600 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors';
 
   const digitalServices = [
-    { path: '/digital/webudvikling', title: 'Webudvikling' },
-    { path: '/digital/api-saas', title: 'API & SaaS' },
-    { path: '/digital/hjemmesider', title: 'Hjemmesider' },
-    { path: '/digital/ai-integration', title: 'AI Integration' },
-    { path: '/digital/ai-widget', title: '✦ AI Widget' },
-    { path: '/digital/ai-reception', title: '✦ AI Receptionist' }
+    { path: '/digital/webudvikling', title: t('nav.digitalServices.webDevelopment') },
+    { path: '/digital/api-saas', title: t('nav.digitalServices.apiSaas') },
+    { path: '/digital/hjemmesider', title: t('nav.digitalServices.websites') },
+    { path: '/digital/ai-integration', title: t('nav.digitalServices.aiIntegration') },
+    { path: '/digital/ai-widget', title: t('nav.digitalServices.aiWidget') },
+    { path: '/digital/ai-reception', title: t('nav.digitalServices.aiReception') }
   ];
 
   const partnerOptions = [
-    { path: '/samarbejdspartner', title: 'Bliv samarbejdspartner' },
-    { path: '/priser', title: 'Priser & Pakker' },
-    { path: '/hvorfor-os', title: 'Hvorfor Magnora Marketing?' },
-    { path: '/modebooking-priser', title: 'Mødebooking' },
-    { path: '/leadgenerering', title: 'Leadgenerering' }
+    { path: '/samarbejdspartner', title: t('nav.partnerOptions.becomePartner') },
+    { path: '/priser', title: t('nav.partnerOptions.pricing') },
+    { path: '/hvorfor-os', title: t('nav.partnerOptions.whyUs') },
+    { path: '/modebooking-priser', title: t('nav.partnerOptions.meetingBooking') },
+    { path: '/leadgenerering', title: t('nav.partnerOptions.leadGeneration') }
+  ];
+
+  const blogCategories = t('blogPage.categories', { returnObjects: true }) as Array<{ label: string }>;
+
+  type MobileLink = { to: string; title: string; highlight?: boolean };
+  const mobileSections: Array<{ id: string; title: string; links: MobileLink[] }> = [
+    {
+      id: 'services',
+      title: t('nav.services'),
+      links: [
+        { to: '/ydelser', title: t('nav.allServices'), highlight: true },
+        { to: '/modebooking-priser', title: t('footer.links.meetingBooking') },
+        { to: '/leadgenerering', title: t('footer.links.leadGeneration') },
+        { to: '/hvorfor-os', title: t('footer.links.salesOutsourcing') },
+      ],
+    },
+    {
+      id: 'digital',
+      title: t('nav.digital'),
+      links: digitalServices.map((s) => ({ to: s.path, title: s.title })),
+    },
+    {
+      id: 'jobs',
+      title: t('nav.jobSeekers'),
+      links: [
+        ...jobListings.map((job) => ({ to: job.path, title: t(`jobListings.${job.key}.title`) })),
+        { to: '/freelance-telemarketing', title: t('nav.allJobs'), highlight: true },
+      ],
+    },
+    {
+      id: 'partner',
+      title: t('nav.collaboration'),
+      links: partnerOptions.map((o) => ({ to: o.path, title: o.title })),
+    },
+    {
+      id: 'blog',
+      title: t('nav.blog'),
+      links: [
+        { to: '/blog', title: t('nav.allArticles'), highlight: true },
+        ...blogCategoryOrder.map((id, i) => ({ to: `/blog#${id}`, title: blogCategories[i]?.label ?? '' })),
+      ],
+    },
   ];
 
   const dropdownClass = 'absolute top-full left-0 mt-2 w-64 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 px-2 z-50';
@@ -127,7 +174,7 @@ const Navbar: React.FC = () => {
               {isJobsDropdownOpen && (
                 <div className={dropdownClass}>
                   {jobListings.map((job) => (
-                    <Link key={job.path} to={job.path} className={dropdownItemClass}>{job.title}</Link>
+                    <Link key={job.path} to={job.path} className={dropdownItemClass}>{t(`jobListings.${job.key}.title`)}</Link>
                   ))}
                   <div className="my-1 border-t border-slate-100" />
                   <Link to="/freelance-telemarketing" className={`${dropdownItemClass} font-semibold text-blue-600`}>{t('nav.allJobs')}</Link>
@@ -177,32 +224,46 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
-      <div className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}>
+      {/* Mobile menu – accordion: one section open at a time */}
+      <div className={`md:hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-[calc(100vh-4rem)] opacity-100 overflow-y-auto' : 'max-h-0 opacity-0 overflow-hidden'}`}>
         <nav className="bg-white border-t border-slate-100 flex flex-col px-4 py-4 gap-1">
           <NavLink to="/" className={navLinkClass} end onClick={toggleMenu}>{t('nav.home')}</NavLink>
-          <NavLink to="/ydelser" className={navLinkClass} onClick={toggleMenu}>{t('nav.services')}</NavLink>
-          <div className="py-2 px-3">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">{t('nav.digital')}</div>
-            {digitalServices.map((s) => (
-              <Link key={s.path} to={s.path} className="block py-2 px-2 text-sm text-slate-600 hover:text-blue-600 rounded-lg" onClick={toggleMenu}>{s.title}</Link>
-            ))}
-          </div>
-          <div className="py-2 px-3">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">{t('nav.jobSeekers')}</div>
-            {jobListings.map((job) => (
-              <Link key={job.path} to={job.path} className="block py-2 px-2 text-sm text-slate-600 hover:text-blue-600 rounded-lg" onClick={toggleMenu}>{job.title}</Link>
-            ))}
-            <Link to="/freelance-telemarketing" className="block py-2 px-2 text-sm font-semibold text-blue-600" onClick={toggleMenu}>{t('nav.allJobs')}</Link>
-          </div>
-          <div className="py-2 px-3">
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">{t('nav.collaboration')}</div>
-            {partnerOptions.map((o) => (
-              <Link key={o.path} to={o.path} className="block py-2 px-2 text-sm text-slate-600 hover:text-blue-600 rounded-lg" onClick={toggleMenu}>{o.title}</Link>
-            ))}
-          </div>
+          {mobileSections.map((section) => {
+            const isOpen = openMobileSection === section.id;
+            return (
+              <div key={section.id} className="border-b border-slate-100 last:border-b-0">
+                <button
+                  type="button"
+                  className={`w-full flex items-center justify-between px-3 py-3 rounded-lg text-sm font-medium transition-colors ${isOpen ? 'text-blue-600 bg-blue-50' : 'text-slate-700 hover:bg-slate-50'}`}
+                  onClick={() => toggleMobileSection(section.id)}
+                  aria-expanded={isOpen}
+                  aria-controls={`mobile-section-${section.id}`}
+                >
+                  {section.title}
+                  <ChevronDown size={16} className={`transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
+                </button>
+                <div
+                  id={`mobile-section-${section.id}`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}
+                >
+                  <div className="pl-4 pr-2 pb-2 pt-1 flex flex-col">
+                    {section.links.map((link) => (
+                      <Link
+                        key={link.to}
+                        to={link.to}
+                        className={`block py-2 px-2 text-sm rounded-lg hover:text-blue-600 hover:bg-slate-50 ${link.highlight ? 'font-semibold text-blue-600' : 'text-slate-600'}`}
+                        onClick={toggleMenu}
+                        tabIndex={isOpen ? 0 : -1}
+                      >
+                        {link.title}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
           <NavLink to="/om-os" className={navLinkClass} onClick={toggleMenu}>{t('nav.about')}</NavLink>
-          <NavLink to="/blog" className={navLinkClass} onClick={toggleMenu}>{t('nav.blog')}</NavLink>
           <NavLink to="/kontakt" className={navLinkClass} onClick={toggleMenu}>{t('nav.contact')}</NavLink>
           <Link to="/kontakt" className="mt-2 btn btn-primary text-center" onClick={toggleMenu}>{t('nav.cta')}</Link>
         </nav>

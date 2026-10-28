@@ -23,6 +23,10 @@ const HomePage: React.FC = () => {
 
   const industries = t('home.industriesSection.items', { returnObjects: true }) as { name: string; description: string }[];
 
+  const aiFeatures = t('home.aiSection.features', { returnObjects: true }) as { title: string; desc: string }[];
+
+  const seoChecklist = t('home.seoContent1.checklist', { returnObjects: true }) as string[];
+
   const faqs = t('home.faqs', { returnObjects: true }) as { question: string; answer: string }[];
 
   return (
@@ -61,38 +65,10 @@ const HomePage: React.FC = () => {
               <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-blue-100 hidden md:block" />
 
               {[
-                {
-                  step: '01',
-                  icon: <MessageSquare size={22} className="text-white" />,
-                  title: 'Indledende snak – helt uforpligtende',
-                  desc: 'Vi starter altid med en kort samtale om dit projekt. Hvad er idéen? Hvad er målet? Er det TM, webudvikling eller AI? Der er ingen faste pakker – kun en ærlig dialog om hvad der giver mening for dig.',
-                  tag: 'Startup · Veletableret · Alle brancher',
-                  color: 'bg-blue-600',
-                },
-                {
-                  step: '02',
-                  icon: <Target size={22} className="text-white" />,
-                  title: 'Vi kortlægger behovet og lægger en plan',
-                  desc: 'Uanset om du er i idefasen eller klar til at skalere, skræddersyr vi en konkret handlingsplan. Vi definerer målgruppe, budskab, kanal og tidshorisont – og præsenterer et tilbud inden for 24 timer.',
-                  tag: 'Idéfase · Vækstfase · Skalering',
-                  color: 'bg-indigo-600',
-                },
-                {
-                  step: '03',
-                  icon: <Zap size={22} className="text-white" />,
-                  title: 'Vi eksekverer – du følger med live',
-                  desc: 'Vores team går i gang: telemarketing-kampagner, webudvikling eller AI-løsninger. Du får løbende opdateringer, rapporter og adgang til live data. Ingen overraskelser.',
-                  tag: 'Telemarketing · Webudvikling · AI',
-                  color: 'bg-blue-700',
-                },
-                {
-                  step: '04',
-                  icon: <TrendingUp size={22} className="text-white" />,
-                  title: 'Fra idé til afsluttet salg',
-                  desc: 'Vi hjælper hele vejen – fra udvikling af produktet til de første kundemøder er booket og salget er lukket. Magnora Marketing er din partner fra start til slut.',
-                  tag: 'Leadgenerering · Mødebooking · Salgsafslutning',
-                  color: 'bg-green-600',
-                },
+                { step: '01', key: 'step1', icon: <MessageSquare size={22} className="text-white" />, color: 'bg-blue-600' },
+                { step: '02', key: 'step2', icon: <Target size={22} className="text-white" />, color: 'bg-indigo-600' },
+                { step: '03', key: 'step3', icon: <Zap size={22} className="text-white" />, color: 'bg-blue-700' },
+                { step: '04', key: 'step4', icon: <TrendingUp size={22} className="text-white" />, color: 'bg-green-600' },
               ].map((s, i) => (
                 <div key={i} className="relative flex gap-6 mb-8 last:mb-0">
                   <div className={`w-16 h-16 rounded-2xl ${s.color} flex items-center justify-center flex-shrink-0 shadow-lg z-10`}>
@@ -100,11 +76,11 @@ const HomePage: React.FC = () => {
                   </div>
                   <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 flex-1">
                     <div className="flex items-start justify-between gap-4 mb-2">
-                      <h3 className="font-bold text-slate-800 text-lg">{s.title}</h3>
+                      <h3 className="font-bold text-slate-800 text-lg">{t(`home.process.${s.key}.title`)}</h3>
                       <span className="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full whitespace-nowrap">{s.step}</span>
                     </div>
-                    <p className="text-gray-600 text-sm leading-relaxed mb-3">{s.desc}</p>
-                    <div className="text-xs text-slate-400 font-medium">{s.tag}</div>
+                    <p className="text-gray-600 text-sm leading-relaxed mb-3">{t(`home.process.${s.key}.desc`)}</p>
+                    <div className="text-xs text-slate-400 font-medium">{t(`home.process.${s.key}.tag`)}</div>
                   </div>
                 </div>
               ))}
@@ -112,14 +88,14 @@ const HomePage: React.FC = () => {
 
             {/* Bottom CTA */}
             <div className="mt-10 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white text-center">
-              <p className="text-lg font-semibold mb-1">Klar til at tage den første snak?</p>
-              <p className="text-white/80 text-sm mb-6">Vi hjælper startup, SMV og enterprise – alle starter med en gratis og uforpligtende samtale.</p>
+              <p className="text-lg font-semibold mb-1">{t('home.process.finalCta.title')}</p>
+              <p className="text-white/80 text-sm mb-6">{t('home.process.finalCta.subtitle')}</p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Link to="/kontakt" className="inline-flex items-center justify-center bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
-                  Book en gratis snak <ArrowRight size={16} className="ml-2" />
+                  {t('home.process.finalCta.primaryButton')} <ArrowRight size={16} className="ml-2" />
                 </Link>
                 <Link to="/ydelser" className="inline-flex items-center justify-center bg-white/10 border border-white/30 text-white px-6 py-3 rounded-xl font-semibold hover:bg-white/20 transition-colors">
-                  Se vores ydelser
+                  {t('home.process.finalCta.secondaryButton')}
                 </Link>
               </div>
             </div>
@@ -130,9 +106,9 @@ const HomePage: React.FC = () => {
       <section className="section bg-white">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Magnora Marketing er Specialister i B2B Salg, Mødebooking, Webudvikling, Leadgenerering og AI</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('home.specialists.heading')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Med et stærkt team af erfarne salgsprofessionelle og digitale specialister hjælper Magnora Marketing virksomheder med at nå deres vækstmål gennem effektive og målbare indsatser – nu også med skarpe AI-integrationer og AI-løsninger.
+              {t('home.specialists.subtitle')}
             </p>
           </div>
 
@@ -156,39 +132,23 @@ const HomePage: React.FC = () => {
           <div className="max-w-3xl mx-auto text-center mb-14">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-xs font-semibold uppercase tracking-widest backdrop-blur-sm mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-              AI-integrationer & AI-løsninger
+              {t('home.aiSection.badge')}
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
-              Vi er skarpe på AI – og vi ved, hvorfor det betaler sig
+              {t('home.aiSection.heading')}
             </h2>
             <p className="text-lg text-white/70">
-              AI er ikke længere fremtiden – det er konkurrencefordelen lige nu. Vi bygger og integrerer AI-løsninger, der automatiserer opgaver, besvarer kunder og skaber vækst. Her er hvorfor danske virksomheder vælger at komme i gang med det samme.
+              {t('home.aiSection.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
             {[
-              {
-                icon: <Bot size={28} className="text-blue-300" />,
-                title: 'Automatisér det gentagne',
-                desc: 'AI-chatbots og workflows overtager de tidskrævende opgaver – leadopfølgning, kundeservice og booking – døgnet rundt.'
-              },
-              {
-                icon: <Clock size={28} className="text-blue-300" />,
-                title: 'Op til 70% tidsbesparelse',
-                desc: 'Dine medarbejdere frigøres fra manuelt arbejde og kan fokusere på det, der reelt skaber værdi og vækst.'
-              },
-              {
-                icon: <TrendingUp size={28} className="text-blue-300" />,
-                title: 'Højere konvertering',
-                desc: 'AI-kvalificerede leads og personaliserede kundeflows løfter konverteringen markant sammenlignet med manuelle processer.'
-              },
-              {
-                icon: <Cpu size={28} className="text-blue-300" />,
-                title: 'Skræddersyet til dig',
-                desc: 'Fra simpel chatbot til avanceret AI-udvikling – vi bygger løsningen der passer præcist til din forretning og dine systemer.'
-              }
-            ].map((item, i) => (
+              <Bot size={28} className="text-blue-300" />,
+              <Clock size={28} className="text-blue-300" />,
+              <TrendingUp size={28} className="text-blue-300" />,
+              <Cpu size={28} className="text-blue-300" />,
+            ].map((icon, i) => ({ icon, ...aiFeatures[i] })).map((item, i) => (
               <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm hover:bg-white/10 transition-all">
                 <div className="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center mb-4">
                   {item.icon}
@@ -201,10 +161,10 @@ const HomePage: React.FC = () => {
 
           <div className="text-center flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/digital/ai-integration" className="btn btn-primary text-base px-8 py-4">
-              Se vores AI-løsninger <ArrowRight size={16} className="ml-2" />
+              {t('home.aiSection.primaryButton')} <ArrowRight size={16} className="ml-2" />
             </Link>
             <Link to="/kontakt" className="btn text-base px-8 py-4 bg-white/10 hover:bg-white/20 border border-white/30 text-white backdrop-blur-sm">
-              Book en AI-snak
+              {t('home.aiSection.secondaryButton')}
             </Link>
           </div>
         </div>
@@ -214,10 +174,9 @@ const HomePage: React.FC = () => {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Accelerér din virksomheds vækst med Magnora Marketing</h2>
+              <h2 className="text-3xl font-bold mb-6">{t('home.growth.heading')}</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Overlad dit salgsarbejde til erfarne specialister. Magnora Marketing hjælper B2B virksomheder med at generere
-                varme leads og booke kvalificerede møder – så din salgsstyrke kan fokusere på det, de er bedst til.
+                {t('home.growth.description')}
               </p>
               <div className="space-y-4">
                 {businessBenefits.map((benefit, index) => (
@@ -229,14 +188,14 @@ const HomePage: React.FC = () => {
               </div>
               <div className="mt-8">
                 <Link to="/kontakt" className="btn btn-primary inline-flex items-center">
-                  Få et uforpligtende tilbud <ArrowRight size={16} className="ml-2" />
+                  {t('home.growth.ctaButton')} <ArrowRight size={16} className="ml-2" />
                 </Link>
               </div>
             </div>
             <div className="relative">
               <img
                 src="/heroes/hero-home.jpg"
-                alt="Vækst og succes for B2B virksomheder med Magnora Marketing"
+                alt={t('home.growth.imageAlt')}
                 width={1600}
                 height={900}
                 loading="lazy"
@@ -244,8 +203,8 @@ const HomePage: React.FC = () => {
                 className="rounded-lg shadow-lg object-cover w-full h-[500px]"
               />
               <div className="absolute -bottom-6 -left-6 bg-blue-600 text-white p-6 rounded-lg shadow-lg max-w-xs">
-                <p className="text-xl font-semibold mb-2">Hjulpet +200 virksomheder med konkret vækst</p>
-                <p>I Danmark og internationalt</p>
+                <p className="text-xl font-semibold mb-2">{t('home.growth.statBadge.title')}</p>
+                <p>{t('home.growth.statBadge.subtitle')}</p>
               </div>
             </div>
           </div>
@@ -255,9 +214,9 @@ const HomePage: React.FC = () => {
       <section className="section bg-gray-50">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Magnora Marketing's Brancheerfaring inden for B2B Salg og Mødebooking</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('home.industriesSection.heading')}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Vi har dybdegående erfaring med B2B mødebooking og telemarketing på tværs af brancher og målgrupper.
+              {t('home.industriesSection.subtitle')}
             </p>
           </div>
 
@@ -277,22 +236,22 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-center p-8 border-b md:border-b-0 md:border-r border-gray-700">
               <Briefcase size={48} className="text-blue-400 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold mb-4">For Virksomheder</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('home.audience.forCompanies.heading')}</h3>
               <p className="mb-6">
-                Din vækstpartner inden for telesalg, mødebooking, webudvikling, leadgenerering og AI. Magnora Marketing leverer resultater – drevet af menneskelig ekspertise og moderne teknologi.
+                {t('home.audience.forCompanies.description')}
               </p>
               <Link to="/samarbejdspartner" className="btn bg-blue-600 text-white hover:bg-blue-700 inline-flex items-center">
-                Start samarbejde <ArrowRight size={16} className="ml-2" />
+                {t('home.audience.forCompanies.button')} <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
             <div className="text-center p-8">
               <BarChart3 size={48} className="text-blue-400 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold mb-4">For Sælgere</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('home.audience.forSellers.heading')}</h3>
               <p className="mb-6">
-                Tag styringen over din karriere. Bliv freelance sælger hos Magnora Marketing og tjene godt med fleksible arbejdstider og spændende projekter.
+                {t('home.audience.forSellers.description')}
               </p>
               <Link to="/freelance-telemarketing" className="btn bg-blue-600 text-white hover:bg-blue-700 inline-flex items-center">
-                Se muligheder <ArrowRight size={16} className="ml-2" />
+                {t('home.audience.forSellers.button')} <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
           </div>
@@ -301,18 +260,17 @@ const HomePage: React.FC = () => {
       <section className="section bg-white">
         <div className="container">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6">Professionelt B2B Telesalg og Mødebooking i Danmark</h2>
+            <h2 className="text-3xl font-bold mb-6">{t('home.seoContent1.heading')}</h2>
             <p className="text-gray-600 mb-4">
-              Magnora Marketing er Danmarks foretrukne vækstpartner for B2B virksomheder der ønsker at skalere deres salg uden at ansætte et stort internt salgsteam. Vi specialiserer os i professionelt telesalg, kvalificeret mødebooking og datadrevet leadgenerering – og leverer dokumenterede resultater på tværs af over 16 brancher. Vores erfarne salgskonsulenter arbejder målrettet med at identificere relevante beslutningstagere, kvalificere kundeemner og booke møder direkte i din kalender, så din salgsstyrke kan fokusere på det der skaber omsætning.
+              {t('home.seoContent1.paragraph1')}
             </p>
             <p className="text-gray-600 mb-6">
-              Magnora Marketing kombinerer menneskelig salgskraft med moderne digitale løsninger – herunder AI-integration, webudvikling og automatiseret leadgenerering. Vi tilbyder to fleksible prismodeller: No Cure No Pay, hvor du kun betaler for dokumenterede resultater, eller en fast pakkeløsning med garanteret minimumsantal salgsmøder. Uanset om du er en startup eller en etableret B2B virksomhed, skræddersyr Magnora Marketing en løsning der passer til dit budget og dine vækstmål.
+              {t('home.seoContent1.paragraph2')}
             </p>
             <ul className="space-y-2">
-              <li className="flex items-start gap-2 text-gray-700"><span className="text-blue-600 font-bold mt-1">✓</span> Direkte adgang til relevante beslutningstagere i din målgruppe</li>
-              <li className="flex items-start gap-2 text-gray-700"><span className="text-blue-600 font-bold mt-1">✓</span> Kvalificerede salgsmøder med reel forretningspotentiale</li>
-              <li className="flex items-start gap-2 text-gray-700"><span className="text-blue-600 font-bold mt-1">✓</span> Flerkanalsstrategi: telefon, email, LinkedIn og AI-automatisering</li>
-              <li className="flex items-start gap-2 text-gray-700"><span className="text-blue-600 font-bold mt-1">✓</span> Løbende ROI-rapportering og transparent performanceopfølgning</li>
+              {seoChecklist.map((item, i) => (
+                <li key={i} className="flex items-start gap-2 text-gray-700"><span className="text-blue-600 font-bold mt-1">✓</span> {item}</li>
+              ))}
             </ul>
           </div>
         </div>
@@ -321,12 +279,12 @@ const HomePage: React.FC = () => {
       <section className="section bg-sky-50">
         <div className="container">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6">Magnora Marketing – Din Salgspartner fra Første Opkald til Underskrevet Kontrakt</h2>
+            <h2 className="text-3xl font-bold mb-6">{t('home.seoContent2.heading')}</h2>
             <p className="text-gray-600 mb-4">
-              Hos Magnora Marketing tror vi på, at den bedste vej til vækst går gennem ægte relationer og præcis kommunikation. Vores tilgang til B2B salg og mødebooking er altid skræddersyet til din specifikke branche, målgruppe og salgsproces. Vi dykker ned i din virksomhed, forstår dine produkter og services og udvikler præcise salgsscripts og kommunikationsstrategier der resonerer med dine potentielle kunder – fra SaaS og IT-konsulenter til energi, finans og facility management.
+              {t('home.seoContent2.paragraph1')}
             </p>
             <p className="text-gray-600 mb-6">
-              Med base i Valencia og et stærkt netværk af erfarne freelance sælgere kan Magnora Marketing hurtigt skalere indsatsen og tilpasse sig din virksomheds behov. Kontakt os på mail@magnoramarketing.dk for en uforpligtende samtale om, hvordan Magnora Marketing kan hjælpe din virksomhed med at generere flere kvalificerede leads og booke flere salgsmøder.
+              {t('home.seoContent2.paragraph2')}
             </p>
           </div>
         </div>
@@ -334,29 +292,13 @@ const HomePage: React.FC = () => {
 
       <LatestArticles />
 
-      <FAQSection faqs={[
-        { question: 'Hvad gør Magnora Marketing?', answer: 'Magnora Marketing er en dansk vækstpartner specialiseret i B2B telemarketing, mødebooking, leadgenerering, webudvikling og AI-integration. Vi hjælper virksomheder med at fylde salgspipelinen med kvalificerede møder og leads.' },
-        { question: 'Hvilke brancher arbejder Magnora Marketing med?', answer: 'Vi har erfaring på tværs af over 16 brancher, herunder SaaS, IT-konsulenter, finans, energi, HR, transport, solenergi og servicevirksomheder.' },
-        { question: 'Hvad koster det at bruge Magnora Marketing?', answer: 'Vi tilbyder fleksible prismodeller tilpasset din virksomheds størrelse og behov. Kontakt os for et uforpligtende tilbud.' },
-        { question: 'Kan Magnora Marketing hjælpe med både telemarketing og digital markedsføring?', answer: 'Ja – Magnora Marketing kombinerer menneskelig salgskraft med digitale løsninger, herunder webudvikling, AI-integration og leadgenerering via flere kanaler.' },
-        { question: 'Hvor hurtigt kan vi komme i gang?', answer: 'Typisk kan vi opstart et samarbejde inden for 1-2 uger efter den første samtale.' },
-        { question: "Arbejder Magnora Marketing med hele Danmark?", answer: "Ja – Magnora Marketing servicerer virksomheder i hele Danmark samt internationalt, primært i Skandinavien og Sydeuropa." },
-        { question: "Kan jeg kombinere flere af Magnora Marketing's services?", answer: "Absolut. Mange kunder bruger en kombination af telemarketing, mødebooking og webudvikling for at skabe en helhedsorienteret vækststrategi." },
-        { question: "Hvad er No Cure No Pay?", answer: "No Cure No Pay betyder at du kun betaler for dokumenterede resultater – f.eks. gennemførte møder eller kvalificerede leads. Det minimerer din risiko som kunde." },
-        { question: "Tilbyder Magnora Marketing gratis rådgivning?", answer: "Ja – vi tilbyder en uforpligtende indledende samtale, hvor vi vurderer dine behov og anbefaler den bedste løsning." },
-        { question: "Hvad er en typisk kampagneperiode?", answer: "En typisk kampagneperiode er 3-6 måneder, men vi tilpasser varigheden til dine mål og dit budget." },
-        { question: "Kan Magnora Marketing hjælpe startups?", answer: "Ja – vi hjælper både etablerede virksomheder og startups med at skabe vækst fra dag ét." },
-        { question: "Hvad er ROI på Magnora Marketing's services?", answer: "ROI afhænger af branche og ydelse, men mange kunder ser positiv ROI allerede i første kvartal af samarbejdet." },
-        { question: "Kan jeg pause et samarbejde?", answer: "Ja – vores fleksible aftaler giver mulighed for at sætte samarbejdet på pause ved behov, f.eks. i feriesæsoner." },
-        { question: "Hvad sker der med mine data?", answer: "Alle kundedata behandles fortroligt og i overensstemmelse med GDPR og dansk lovgivning." },
-        { question: "Hvem kontakter jeg ved spørgsmål?", answer: "Du har altid en dedikeret kontaktperson hos Magnora Marketing som kender dit projekt og kan besvare spørgsmål hurtigt." },
-      ]} />
+      <FAQSection faqs={faqs} />
       <CTASection
-        title="Klar til at accelerere din vækst?"
-        subtitle="Magnora Marketing hjælper B2B virksomheder med at generere leads, booke møder og drive salg – med dokumenterede resultater."
-        primaryText="Bliv samarbejdspartner"
+        title={t('home.bottomCta.title')}
+        subtitle={t('home.bottomCta.subtitle')}
+        primaryText={t('home.bottomCta.primaryText')}
         primaryLink="/samarbejdspartner"
-        secondaryText="Se priser"
+        secondaryText={t('home.bottomCta.secondaryText')}
         secondaryLink="/priser"
       />
     </>

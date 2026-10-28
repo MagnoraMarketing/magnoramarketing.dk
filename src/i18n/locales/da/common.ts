@@ -5,11 +5,28 @@ export default {
     digital: 'Digital',
     jobSeekers: 'Job søgere',
     allJobs: 'Se alle stillinger →',
+    allServices: 'Se alle ydelser →',
+    allArticles: 'Se alle artikler →',
     collaboration: 'Samarbejde',
     about: 'Om os',
     blog: 'Blog',
     contact: 'Kontakt',
     cta: 'Kom i gang',
+    digitalServices: {
+      webDevelopment: 'Webudvikling',
+      apiSaas: 'API & SaaS',
+      websites: 'Hjemmesider',
+      aiIntegration: 'AI Integration',
+      aiWidget: '✦ AI Widget',
+      aiReception: '✦ AI Receptionist',
+    },
+    partnerOptions: {
+      becomePartner: 'Bliv samarbejdspartner',
+      pricing: 'Priser & Pakker',
+      whyUs: 'Hvorfor Magnora Marketing?',
+      meetingBooking: 'Mødebooking',
+      leadGeneration: 'Leadgenerering',
+    },
   },
   bottomNav: {
     jobs: 'Job',
@@ -62,5 +79,51 @@ export default {
     da: 'Dansk',
     en: 'English',
     es: 'Español',
+  },
+  jobListings: {
+    remoteWork: {
+      title: 'Arbejd hjemmefra',
+      description: 'Få frihed og fleksibilitet med et job som freelance sælger eller mødebooker hjemmefra.',
+    },
+    insuranceBroker: {
+      title: 'Mødebooker - Forsikring (hjemmefra)',
+      description: 'Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag.',
+    },
+    aiConsultant: {
+      title: 'AI-konsulent - Introducér AI til virksomheder',
+      description: 'Kontakt virksomheder og giv dem indblik i AI-løsninger, der sparer tid. Fremtidssikret job 100% hjemmefra med attraktiv løn.',
+    },
+    webBureau: {
+      title: 'Sælger - Webudvikling & Digitale Løsninger',
+      description: 'Book kvalificerede møder for et af Danmarks førende digitale bureauer og hjælp virksomheder med at finde de rigtige marketingløsninger.',
+    },
+    ledLighting: {
+      title: 'Mødebooker - LED Belysning',
+      description: 'Bliv mødebooker for Danmarks mest innovative LED-virksomhed og hjælp erhverv med energieffektive belysningsløsninger.',
+    },
+    energySales: {
+      title: 'Sælger - Strøm B2C/B2B',
+      description: 'Hjælp private og virksomheder med at spare på energien gennem optimerede strømløsninger og grønne alternativer.',
+    },
+    coffeeService: {
+      title: 'Mødebooker - Kaffeservice',
+      description: 'Hjælp virksomheder med at finde den perfekte kaffeløsning til deres medarbejdere og kunder.',
+    },
+    solarEnergy: {
+      title: 'Mødebooker - Vedvarende Energi',
+      description: 'Vær med til at drive den grønne omstilling som mødebooker inden for solceller og vedvarende energi.',
+    },
+    matService: {
+      title: 'Mødebooker - Måtteservice',
+      description: 'Book møder for professionelle måtteservice løsninger og hjælp virksomheder med at skabe et renere arbejdsmiljø.',
+    },
+    pension: {
+      title: 'Mødebooker - Pension',
+      description: 'Hjælp danskere med at sikre deres økonomiske fremtid gennem professionel pensionsrådgivning.',
+    },
+    debtCollection: {
+      title: 'Mødebooker - Inkasso',
+      description: 'Book møder for professionelle inkassoløsninger og hjælp virksomheder med debitorhåndtering.',
+    },
   },
 };

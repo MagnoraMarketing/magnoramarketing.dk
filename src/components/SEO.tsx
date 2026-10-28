@@ -55,7 +55,7 @@ const SEO: React.FC<SEOProps> = ({
   const breadcrumbs = breadcrumbsProp ?? (blogPost ? [
     { name: t('blogArticle.breadcrumbHome'), url: '/' },
     { name: t('blogArticle.breadcrumbBlog'), url: '/blog' },
-    { name: blogPost.title, url: canonical! },
+    { name: t(`blogPostIndex.${blogPost.slug}.title`), url: canonical! },
   ] : undefined);
 
   const organizationSchema = {
@@ -126,7 +126,7 @@ const SEO: React.FC<SEOProps> = ({
   const articleSchema = ogType === 'article' && articlePublishedTime ? {
     "@context": "https://schema.org",
     "@type": blogPost ? "BlogPosting" : "Article",
-    "headline": blogPost?.title ?? title,
+    "headline": blogPost ? t(`blogPostIndex.${blogPost.slug}.title`) : title,
     "description": description,
     "mainEntityOfPage": { "@type": "WebPage", "@id": fullCanonical },
     "inLanguage": "da-DK",
