@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Comercial Freelance de Asesoría en Pensiones | Magnora Marketing',
     description: 'Conviértete en comercial freelance de asesoría en pensiones en Magnora Marketing. Ayuda a particulares y empresas con la planificación de su jubilación – desde casa con buena comisión.',
-    keywords: 'comercial freelance pensiones, ventas asesoría en pensiones, empleo ventas pensiones, asesoría financiera freelance, puesto pensiones Magnora Marketing',
+    keywords: 'comercial freelance pensiones, ventas asesoría en pensiones, empleo ventas pensiones, asesoría financiera freelance, puesto pensiones Magnora Marketing, empleo de reserva de reuniones',
   },
   hero: {
     title: 'Comercial Freelance – Asesoría en Pensiones',

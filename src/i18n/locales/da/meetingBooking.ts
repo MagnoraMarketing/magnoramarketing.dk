@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Mødebooking for B2B – Kvalificerede Møder | Magnora',
     description: 'Professionel B2B mødebooking med erfarne konsulenter. Vi fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere.',
-    keywords: 'mødebooking priser, B2B salgsmøder, Magnora Marketing mødebooking, kvalificerede møder, mødebooking service',
+    keywords: 'mødebooking priser, B2B salgsmøder, Magnora Marketing mødebooking, kvalificerede møder, mødebooking service, hvad koster mødebooking, pris på mødebooking',
   },
   hero: {
     title: 'Professionel Mødebooking med Magnora Marketing',
@@ -80,6 +80,7 @@ export default {
       { question: 'Kan vi stille krav til mødetidspunkter?', answer: 'Ja – du kan angive præferencer for hvornår møder må bookes, f.eks. kun om morgenen eller bestemte ugedage.' },
       { question: 'Hvad er en pre-kvalificering?', answer: 'Pre-kvalificering betyder at vi screener potentielle kunder inden mødebooking for at sikre de opfylder dine kriterier for en god kunde.' },
       { question: 'Kan vi se en demo af processen?', answer: 'Ja – kontakt os for en gennemgang af vores mødebookingproces og eksempler på kampagner.' },
+      { question: 'Hvad koster mødebooking?', answer: 'Prisen på mødebooking afhænger af din branche, målgruppen og den valgte model. Med No Cure No Pay betaler du kun for gennemførte, kvalificerede møder, mens en fast pakkeløsning giver den laveste pris pr. møde. Se vores priser og modeller, eller kontakt os for et uforpligtende tilbud.' },
       { question: 'Hvad er den hurtigste måde at komme i gang?', answer: 'Udfyld kontaktformularen, og vi sætter et afklaringsmøde op inden for 2 hverdage.' },
     ],
   },

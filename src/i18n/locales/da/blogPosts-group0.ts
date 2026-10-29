@@ -173,7 +173,7 @@ export default {
   Telesalg2026: {
     seoTitle: 'Telesalg i 2026: Teknikker og strategier der virker',
     seoDescription: 'Telesalg har forandret sig. Lær de teknikker, der virker i moderne B2B-salg – fra salgsscripts og indvendingsbehandling til freelancekarriere.',
-    keywords: 'telesalg teknikker, B2B telesalg 2026, salgsscripts, indvendingsbehandling, freelance telesalg, telemarketing strategier',
+    keywords: 'telesalg teknikker, B2B telesalg 2026, salgsscripts, indvendingsbehandling, freelance telesalg, telemarketing strategier, mødebooking job',
     category: 'Telesalg & Salgsscripts',
     title: 'Telesalg i 2026: Teknikker og strategier for moderne sælgere',
     meta: 'Af Magnora Marketing-teamet · {{date}} · 9 minutters læsning',
@@ -209,7 +209,7 @@ export default {
   Modebooking2026: {
     seoTitle: 'Effektiv Mødebooking i 2026: Strategier der virker',
     seoDescription: 'De bedste metoder til B2B mødebooking i 2026 – fra BANT-kvalificering og salgsscripts til opfølgning og færre no-shows. Konkrete strategier.',
-    keywords: 'mødebooking strategi, B2B mødebooking, salgsscripts mødebooking, BANT kvalificering, no-show reduktion',
+    keywords: 'mødebooking strategi, B2B mødebooking, salgsscripts mødebooking, BANT kvalificering, no-show reduktion, hvad koster mødebooking, pris på mødebooking',
     category: 'Mødebooking',
     title: 'Effektiv Mødebooking i 2026: Strategier der virker',
     meta: 'Af Magnora Marketing-teamet · {{date}} · 9 minutters læsning',

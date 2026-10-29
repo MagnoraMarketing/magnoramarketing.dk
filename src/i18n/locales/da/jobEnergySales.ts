@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sælger – Strøm & Energi | Magnora Marketing',
     description: 'Bliv freelance sælger af strøm og energioptimering til B2B og B2C kunder hos Magnora Marketing. Arbejd hjemmefra med fleksible tider og attraktiv provision.',
-    keywords: 'freelance sælger strøm, energioptimering salg, strøm sælger job, energiaftalr B2B, Magnora Marketing energi stilling',
+    keywords: 'freelance sælger strøm, energioptimering salg, strøm sælger job, energiaftalr B2B, Magnora Marketing energi stilling, mødebooking job',
   },
   hero: {
     title: 'Freelance Sælger – Strøm & Energioptimering',

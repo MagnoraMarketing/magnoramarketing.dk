@@ -173,7 +173,7 @@ export default {
   Telesalg2026: {
     seoTitle: 'Telesales in 2026: Techniques and strategies for modern sales reps | Magnora Marketing Blog',
     seoDescription: 'Telesales has changed. Learn the techniques and strategies that work in the modern B2B sales landscape – from sales scripts and objection handling to a freelance career in telesales.',
-    keywords: 'telesales techniques, B2B telesales 2026, sales scripts, objection handling, freelance telesales, telemarketing strategies',
+    keywords: 'telesales techniques, B2B telesales 2026, sales scripts, objection handling, freelance telesales, telemarketing strategies, meeting booking job',
     category: 'Telesales & Sales Scripts',
     title: 'Telesales in 2026: Techniques and strategies for modern sales reps',
     meta: 'By the Magnora Marketing team · {{date}} · 9 min read',
@@ -209,7 +209,7 @@ export default {
   Modebooking2026: {
     seoTitle: 'Effective meeting booking in 2026: Strategies that work | Magnora Marketing Blog',
     seoDescription: 'Get the best methods for professional B2B meeting booking in 2026 – from BANT qualification and sales scripts to follow-up and no-show reduction. Concrete strategies from Magnora Marketing.',
-    keywords: 'meeting booking strategy, B2B meeting booking, sales scripts meeting booking, BANT qualification, no-show reduction',
+    keywords: 'meeting booking strategy, B2B meeting booking, sales scripts meeting booking, BANT qualification, no-show reduction, how much does meeting booking cost, meeting booking price',
     category: 'Meeting Booking',
     title: 'Effective meeting booking in 2026: Strategies that work',
     meta: 'By the Magnora Marketing team · {{date}} · 9 min read',

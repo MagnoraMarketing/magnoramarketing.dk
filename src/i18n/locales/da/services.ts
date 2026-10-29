@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Ydelser: Telesalg, Mødebooking, Web & AI | Magnora',
     description: 'Se vores B2B-ydelser: telesalg, mødebooking, leadgenerering, webudvikling og AI-løsninger. Én vækstpartner med dokumenterede resultater.',
-    keywords: 'Magnora Marketing ydelser, telemarketing, mødebooking, leadgenerering, kundeservice, B2B salg, salgsoutsourcing',
+    keywords: 'Magnora Marketing ydelser, telemarketing, mødebooking, leadgenerering, kundeservice, B2B salg, salgsoutsourcing, hvad koster mødebooking, pris på mødebooking',
   },
   hero: {
     title: 'Ydelser der Skaber Reel Vækst',

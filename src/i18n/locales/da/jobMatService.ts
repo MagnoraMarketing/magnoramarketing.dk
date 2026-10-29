@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sælger – Måtteservice | Magnora Marketing',
     description: 'Bliv freelance sælger af måtte- og rengøringsservice til erhverv. Arbejd hjemmefra med fleksible tider og stabil provision på abonnementer.',
-    keywords: 'freelance sælger rengøringsservice, måtteservice salg, rengøring erhverv sælger, Magnora Marketing rengøring stilling, facility service salg',
+    keywords: 'freelance sælger rengøringsservice, måtteservice salg, rengøring erhverv sælger, Magnora Marketing rengøring stilling, facility service salg, mødebooking job',
   },
   hero: {
     title: 'Freelance Sælger – Måtte- og Rengøringsservice',

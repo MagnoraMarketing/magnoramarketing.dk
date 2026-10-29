@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Blog | Magnora Marketing – Insights on B2B Sales, Meeting Booking and Growth',
     description: "Magnora Marketing's blog with practical guides, tips and trends within B2B sales, meeting booking, telemarketing, lead generation and digital growth for businesses.",
-    keywords: 'Magnora Marketing blog, B2B sales tips, meeting booking guide, telemarketing articles, sales strategy 2026',
+    keywords: 'Magnora Marketing blog, B2B sales tips, meeting booking guide, telemarketing articles, sales strategy 2026, how much does meeting booking cost, meeting booking price, meeting booking job, jobs in AI, affordable websites',
   },
   hero: {
     title: 'Magnora Marketing Blog',

@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Custom CMS website pricing – from DKK 155/mo. | Magnora',
     description: 'See packages and pricing for professional, custom websites with their own CMS, hosting, SSL and support. Perhaps Denmark’s most affordable CMS website system – from DKK 155/mo.',
-    keywords: 'website price, affordable website, CMS website, custom website, website subscription, Magnora Marketing',
+    keywords: 'website price, affordable website, CMS website, custom website, website subscription, Magnora Marketing, affordable websites',
   },
   hero: {
     title: 'Custom website pricing',
@@ -126,6 +126,7 @@ export default {
     { question: 'What is included in the monthly price?', answer: 'Hosting, SSL certificate, backup, security updates, CMS licence and free support. Pro Business and Pro Enterprise also include a number of hours of changes per month.' },
     { question: 'Can I change package later?', answer: 'Yes, you can always upgrade to a larger package as your business grows.' },
     { question: 'How do these differ from the ready-made industry designs?', answer: 'The ready-made industry designs are a one-off payment from DKK 1,500 for a finished design. The custom websites are designed from scratch for your business and include CMS, hosting, updates and support in a fixed monthly price.' },
+    { question: 'Do you offer affordable websites?', answer: 'Yes. Our ready-made industry designs are the most affordable route to a professional website – a one-off payment from DKK 1,500. If you need more, you get a tailor-made CMS website for a fixed monthly price with no setup fee.' },
   ],
   form: {
     heading: 'Order your custom website',

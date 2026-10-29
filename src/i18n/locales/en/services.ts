@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Services | Magnora Marketing – Telesales, Meeting Booking, Web Development and AI',
     description: "Magnora Marketing's services: professional telesales, meeting booking, lead generation, web development and AI development projects. Your growth partner with proven results.",
-    keywords: 'Magnora Marketing services, telemarketing, meeting booking, lead generation, customer service, B2B sales, sales outsourcing',
+    keywords: 'Magnora Marketing services, telemarketing, meeting booking, lead generation, customer service, B2B sales, sales outsourcing, how much does meeting booking cost, meeting booking price',
   },
   hero: {
     title: 'Services That Create Real Growth',

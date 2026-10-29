@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sales Rep – Pension Advisory | Magnora Marketing',
     description: 'Become a freelance sales rep within pension advisory at Magnora Marketing. Help private and business customers with retirement planning – from home with good commission.',
-    keywords: 'freelance pension sales rep, pension advisory sales, pension sales job, financial advisory freelance, Magnora Marketing pension position',
+    keywords: 'freelance pension sales rep, pension advisory sales, pension sales job, financial advisory freelance, Magnora Marketing pension position, meeting booking job',
   },
   hero: {
     title: 'Freelance Sales Rep – Pension Advisory',

@@ -2,7 +2,7 @@ export default {
   SaadanForegaarSamarbejdet: {
     seoTitle: 'Así se desarrolla una colaboración con Magnora Marketing – paso a paso',
     seoDescription: 'Desde la primera charla sin compromiso hasta las primeras reuniones cualificadas: descubre exactamente cómo transcurre una colaboración con Magnora Marketing – sencilla, rápida y transparente.',
-    keywords: 'proceso de colaboración Magnora, así funciona la colaboración de concertación de reuniones, onboarding de televenta, arranque con socio de crecimiento, empezar con Magnora Marketing',
+    keywords: 'proceso de colaboración Magnora, así funciona la colaboración de concertación de reuniones, onboarding de televenta, arranque con socio de crecimiento, empezar con Magnora Marketing, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
     category: 'Colaboración y Crecimiento',
     title: 'Así se desarrolla una colaboración con Magnora Marketing – paso a paso',
     displayDate: '9 de julio de 2026',
@@ -53,7 +53,7 @@ export default {
   OutsourceMoedebookingFordele: {
     seoTitle: 'Externaliza tu concertación de reuniones: 7 ventajas de colaborar con Magnora Marketing',
     seoDescription: '¿Deberías externalizar tu concertación de reuniones o contratar internamente? Descubre las 7 mayores ventajas de dejar que Magnora Marketing se ocupe de tu concertación de reuniones B2B: arranque más rápido, menor riesgo y más reuniones cualificadas.',
-    keywords: 'externalizar concertación de reuniones, concertación de reuniones externa, ventajas de la concertación de reuniones, outsourcing de concertación de reuniones B2B, concertación de reuniones frente a equipo interno',
+    keywords: 'externalizar concertación de reuniones, concertación de reuniones externa, ventajas de la concertación de reuniones, outsourcing de concertación de reuniones B2B, concertación de reuniones frente a equipo interno, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
     category: 'Concertación de Reuniones',
     title: 'Externaliza tu concertación de reuniones: 7 ventajas de colaborar con Magnora Marketing',
     displayDate: '5 de julio de 2026',
@@ -178,7 +178,7 @@ export default {
   HvorforMagnoraMoedebooking: {
     seoTitle: '¿Por qué elegir a Magnora Marketing para la concertación de reuniones? | Blog de Magnora Marketing',
     seoDescription: 'Magnora Marketing ofrece concertación de reuniones B2B cualificadas con consultores experimentados y métodos probados. Descubre qué diferencia nuestra concertación de reuniones de la de otros proveedores.',
-    keywords: 'concertación de reuniones Magnora Marketing, socio de concertación de reuniones B2B, outsourcing de concertación de reuniones, reuniones B2B concertadas, concertación de reuniones Dinamarca',
+    keywords: 'concertación de reuniones Magnora Marketing, socio de concertación de reuniones B2B, outsourcing de concertación de reuniones, reuniones B2B concertadas, concertación de reuniones Dinamarca, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
     category: 'Concertación de Reuniones',
     title: '¿Por qué elegir a Magnora Marketing para la concertación de reuniones?',
     metaAuthor: 'Por el equipo de Magnora Marketing',
@@ -211,7 +211,7 @@ export default {
   HvorforMagnoraWebudvikling: {
     seoTitle: '¿Por qué elegir a Magnora Marketing como socio de desarrollo web? | Blog de Magnora Marketing',
     seoDescription: 'Descubre qué diferencia a Magnora Marketing de otros desarrolladores web. Desarrollo web orientado al negocio que convierte visitantes en clientes, no solo sitios web bonitos.',
-    keywords: 'desarrollo web Magnora Marketing, desarrollador web B2B, sitio web que convierte, desarrollo web profesional Dinamarca, agencia web orientada al crecimiento',
+    keywords: 'desarrollo web Magnora Marketing, desarrollador web B2B, sitio web que convierte, desarrollo web profesional Dinamarca, agencia web orientada al crecimiento, páginas web baratas',
     category: 'Desarrollo Web',
     title: '¿Por qué elegir a Magnora Marketing como socio de desarrollo web?',
     metaAuthor: 'Por el equipo de Magnora Marketing',

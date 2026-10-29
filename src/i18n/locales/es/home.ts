@@ -16,7 +16,7 @@ export default {
   seo: {
     title: 'Magnora Marketing | Socio de Crecimiento en Televentas, Reserva de Reuniones, Desarrollo Web e IA',
     description: 'Magnora Marketing es tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads y proyectos de desarrollo de IA. Ofrecemos resultados documentados con modelos flexibles.',
-    keywords: 'Magnora Marketing, socio de crecimiento, televentas, reserva de reuniones, desarrollo web, generación de leads, IA, desarrollo de IA, socio de ventas Dinamarca',
+    keywords: 'Magnora Marketing, socio de crecimiento, televentas, reserva de reuniones, desarrollo web, generación de leads, IA, desarrollo de IA, socio de ventas Dinamarca, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones, páginas web baratas',
   },
   process: {
     label: 'Así trabajamos',

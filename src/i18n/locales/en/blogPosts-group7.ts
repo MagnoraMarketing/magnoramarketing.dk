@@ -4,7 +4,7 @@ export default {
     seoDescription:
       'Should you build an in-house sales team or outsource? See when it makes sense to outsource telesales and meeting booking to Magnora Marketing – and what benefits it brings to your growth.',
     keywords:
-      'outsource sales, outsource telesales, outsource meeting booking, sales outsourcing Denmark, in-house sales team vs outsourcing, B2B sales partner',
+      'outsource sales, outsource telesales, outsource meeting booking, sales outsourcing Denmark, in-house sales team vs outsourcing, B2B sales partner, how much does meeting booking cost, meeting booking price',
     category: 'Partnership & Growth',
     title: 'Why outsource your sales and meeting booking to Magnora Marketing?',
     displayDate: 'July 10, 2026',
@@ -190,7 +190,7 @@ export default {
     seoTitle: '10 tips to increase your website\'s conversion rate in 2026 | Magnora Marketing Blog',
     seoDescription:
       '10 concrete, proven tips to increase your B2B website\'s conversion rate in 2026. From value proposition and social proof to CTA optimization and page speed.',
-    keywords: 'conversion rate optimization website 2026, increase conversion rate B2B, CRO tips, website conversion, lead generation website',
+    keywords: 'conversion rate optimization website 2026, increase conversion rate B2B, CRO tips, website conversion, lead generation website, affordable websites',
     category: 'Web Development',
     title: '10 tips to increase your website\'s conversion rate in 2026',
     meta: 'By the Magnora Marketing team · March 19, 2026 · 9 minute read',

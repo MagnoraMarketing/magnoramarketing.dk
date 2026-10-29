@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sales Rep – LED & Energy Efficiency | Magnora Marketing',
     description: 'Become a freelance sales rep of LED lighting and energy efficiency for businesses at Magnora Marketing. Work from home with flexible hours and attractive commission.',
-    keywords: 'freelance LED sales rep, sell energy efficiency, LED lighting sales, commercial lighting sales rep, Magnora Marketing LED position',
+    keywords: 'freelance LED sales rep, sell energy efficiency, LED lighting sales, commercial lighting sales rep, Magnora Marketing LED position, meeting booking job',
   },
   hero: {
     title: 'Freelance Sales Rep – LED & Energy Efficiency for Businesses',

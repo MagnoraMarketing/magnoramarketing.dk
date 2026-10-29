@@ -4,7 +4,7 @@ export default {
     seoDescription:
       '¿Deberías crear un equipo de ventas interno o externalizar? Descubre cuándo tiene sentido externalizar la televenta y la concertación de reuniones a Magnora Marketing – y qué ventajas aporta a tu crecimiento.',
     keywords:
-      'externalizar ventas, externalizar televenta, externalizar concertación de reuniones, externalización de ventas Dinamarca, equipo de ventas interno vs externalización, socio de ventas B2B',
+      'externalizar ventas, externalizar televenta, externalizar concertación de reuniones, externalización de ventas Dinamarca, equipo de ventas interno vs externalización, socio de ventas B2B, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
     category: 'Colaboración y Crecimiento',
     title: '¿Por qué externalizar tus ventas y tu concertación de reuniones a Magnora Marketing?',
     displayDate: '10 de julio de 2026',
@@ -190,7 +190,7 @@ export default {
     seoTitle: '10 consejos para aumentar la tasa de conversión de tu sitio web en 2026 | Blog de Magnora Marketing',
     seoDescription:
       '10 consejos concretos y demostrados para aumentar la tasa de conversión de tu sitio web B2B en 2026. Desde la propuesta de valor y la prueba social hasta la optimización de los CTA y la velocidad de la página.',
-    keywords: 'optimización de conversión web 2026, aumentar la tasa de conversión B2B, consejos de CRO, conversión del sitio web, generación de leads sitio web',
+    keywords: 'optimización de conversión web 2026, aumentar la tasa de conversión B2B, consejos de CRO, conversión del sitio web, generación de leads sitio web, páginas web baratas',
     category: 'Desarrollo Web',
     title: '10 consejos para aumentar la tasa de conversión de tu sitio web en 2026',
     meta: 'Por el equipo de Magnora Marketing · 19 de marzo de 2026 · 9 minutos de lectura',

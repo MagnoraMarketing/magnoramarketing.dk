@@ -2,7 +2,7 @@ export default {
   MoedebookingPartnerMagnora: {
     seoTitle: 'Meeting Booking Partner: Why You Should Work with Magnora Marketing',
     seoDescription: 'Magnora Marketing fills your calendar with qualified sales meetings with the right decision-makers. See why we are the meeting booking partner that delivers consistently high meeting quality and proven results.',
-    keywords: 'meeting booking partner, professional meeting booking, B2B meeting booking, sales meetings decision-makers, outsource meeting booking, meeting booking Denmark',
+    keywords: 'meeting booking partner, professional meeting booking, B2B meeting booking, sales meetings decision-makers, outsource meeting booking, meeting booking Denmark, how much does meeting booking cost, meeting booking price',
     category: 'Meeting Booking',
     title: 'Meeting Booking Partner: Why You Should Work with Magnora Marketing',
     displayDate: 'July 4, 2026',
@@ -102,7 +102,7 @@ export default {
   HjemmesideTilVaekst2026: {
     seoTitle: 'A Professional Website Is Your Most Important Sales Tool in 2026 | Magnora Marketing Blog',
     seoDescription: 'Understand why your website is your most important sales asset in 2026, and what sets apart a website that generates leads from one that does not. Practical advice for B2B companies.',
-    keywords: 'professional website B2B 2026, lead-generating website, website sales tool, web development growth, converting website',
+    keywords: 'professional website B2B 2026, lead-generating website, website sales tool, web development growth, converting website, affordable websites',
     category: 'Web Development',
     title: 'A Professional Website Is Your Most Important Sales Tool in 2026',
     metaAuthor: 'By the Magnora Marketing team',

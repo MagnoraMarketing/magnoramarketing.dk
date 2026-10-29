@@ -147,7 +147,7 @@ export default {
     seoTitle: 'Become an AI Consultant: A Career at the Forefront of Future Technology | Magnora Marketing',
     seoDescription:
       'Dreaming of a future-proof job from home? Become an AI consultant and help companies understand the AI solutions of the future. See what the job involves and how to apply.',
-    keywords: 'become an AI consultant, AI consultant job, AI career, work from home AI, future-proof job, AI sales job Denmark',
+    keywords: 'become an AI consultant, AI consultant job, AI career, work from home AI, future-proof job, AI sales job Denmark, jobs in AI',
     category: 'AI Integration',
     title: 'Become an AI Consultant: A Career at the Forefront of Future Technology',
     displayDate: 'July 25, 2026',

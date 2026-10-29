@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Comercial Freelance LED y Eficiencia Energética | Magnora Marketing',
     description: 'Conviértete en comercial freelance de iluminación LED y eficiencia energética para empresas en Magnora Marketing. Trabaja desde casa con horarios flexibles y una comisión atractiva.',
-    keywords: 'comercial freelance LED, vender eficiencia energética, ventas iluminación LED, comercial iluminación empresarial, puesto LED Magnora Marketing',
+    keywords: 'comercial freelance LED, vender eficiencia energética, ventas iluminación LED, comercial iluminación empresarial, puesto LED Magnora Marketing, empleo de reserva de reuniones',
   },
   hero: {
     title: 'Comercial Freelance – LED y Eficiencia Energética para Empresas',

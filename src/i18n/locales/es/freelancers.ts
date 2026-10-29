@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Puestos de Comercial y Reservador de Reuniones Freelance | Magnora Marketing',
     description: 'Conviértete en comercial freelance o reservador de reuniones en Magnora Marketing. Trabaja desde casa, fija tus propios horarios y gana bien con comisiones atractivas. Consulta aquí todas las vacantes.',
-    keywords: 'comercial freelance, reservador de reuniones freelance, trabajar desde casa, empleo de telemarketing, vacantes Magnora Marketing, comercial B2B',
+    keywords: 'comercial freelance, reservador de reuniones freelance, trabajar desde casa, empleo de telemarketing, vacantes Magnora Marketing, comercial B2B, empleo de reserva de reuniones, empleo con IA',
   },
   hero: {
     title: 'Tu Carrera como Comercial Freelance Empieza Aquí',
@@ -86,6 +86,7 @@ export default {
       { question: '¿Cuándo recibo mi primer pago?', answer: 'Los pagos suelen realizarse mensualmente a mes vencido. Recibirás un resumen de las ventas y actividades verificadas.' },
       { question: '¿Hay un periodo de prueba?', answer: 'Las primeras 2-4 semanas suelen considerarse un periodo de prueba mutuo, para que ambas partes puedan evaluar la colaboración.' },
       { question: '¿Cuáles son los horarios de trabajo habituales?', answer: 'La mayoría de los freelance llaman dentro del horario de oficina habitual en Dinamarca (8:00-17:00), pero tú decides dentro de esa franja.' },
+      { question: '¿Tenéis empleo de reserva de reuniones y empleo con IA?', answer: 'Sí. Tenemos regularmente empleo de reserva de reuniones, en el que concertas reuniones B2B desde casa en sectores como energía, pensiones y seguros, además de empleo con IA como consultor de IA comercial. Consulta las vacantes y envía tu candidatura.' },
     ],
   },
   finalCta: {

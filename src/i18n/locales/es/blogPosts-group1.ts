@@ -147,7 +147,7 @@ export default {
     seoTitle: 'Conviértete en consultor de IA: La carrera a la vanguardia de la tecnología del futuro | Magnora Marketing',
     seoDescription:
       '¿Sueñas con un trabajo a prueba de futuro desde casa? Conviértete en consultor de IA y ayuda a las empresas a entender las soluciones de IA del futuro. Descubre lo que implica el puesto y cómo solicitarlo.',
-    keywords: 'conviértete en consultor de IA, empleo consultor de IA, carrera en IA, trabajo desde casa IA, trabajo a prueba de futuro, empleo de ventas de IA Dinamarca',
+    keywords: 'conviértete en consultor de IA, empleo consultor de IA, carrera en IA, trabajo desde casa IA, trabajo a prueba de futuro, empleo de ventas de IA Dinamarca, empleo con IA',
     category: 'Integración de IA',
     title: 'Conviértete en consultor de IA: La carrera a la vanguardia de la tecnología del futuro',
     displayDate: '25 de julio de 2026',

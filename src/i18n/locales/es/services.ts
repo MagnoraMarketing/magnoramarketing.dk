@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Servicios | Magnora Marketing – Televentas, Reserva de Reuniones, Desarrollo Web e IA',
     description: 'Servicios de Magnora Marketing: televentas profesionales, reserva de reuniones, generación de leads, desarrollo web y proyectos de desarrollo de IA. Tu socio de crecimiento con resultados demostrados.',
-    keywords: 'servicios Magnora Marketing, telemarketing, reserva de reuniones, generación de leads, atención al cliente, ventas B2B, externalización de ventas',
+    keywords: 'servicios Magnora Marketing, telemarketing, reserva de reuniones, generación de leads, atención al cliente, ventas B2B, externalización de ventas, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
   },
   hero: {
     title: 'Servicios que Generan Crecimiento Real',

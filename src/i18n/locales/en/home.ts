@@ -16,7 +16,7 @@ export default {
   seo: {
     title: 'Magnora Marketing | Growth Partner in Telesales, Meeting Booking, Web Development and AI',
     description: 'Magnora Marketing is your growth partner in telesales, meeting booking, web development, lead generation and AI development projects. We deliver documented results with flexible models.',
-    keywords: 'Magnora Marketing, growth partner, telesales, meeting booking, web development, lead generation, AI, AI development, sales partner Denmark',
+    keywords: 'Magnora Marketing, growth partner, telesales, meeting booking, web development, lead generation, AI, AI development, sales partner Denmark, how much does meeting booking cost, meeting booking price, affordable websites',
   },
   process: {
     label: 'How we work',

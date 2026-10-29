@@ -4,7 +4,7 @@ export default {
     seoDescription:
       'Internt salgsteam eller outsourcing? Se hvornår det giver mening at outsource telesalg og mødebooking – og hvilke fordele det giver din vækst.',
     keywords:
-      'outsource salg, outsource telesalg, outsource mødebooking, salgsoutsourcing Danmark, internt salgsteam vs outsourcing, B2B salg partner',
+      'outsource salg, outsource telesalg, outsource mødebooking, salgsoutsourcing Danmark, internt salgsteam vs outsourcing, B2B salg partner, hvad koster mødebooking, pris på mødebooking',
     category: 'Samarbejde & Vækst',
     title: 'Hvorfor outsource dit salg og din mødebooking til Magnora Marketing?',
     displayDate: '10. juli 2026',
@@ -190,7 +190,7 @@ export default {
     seoTitle: '10 tips til højere konverteringsrate i 2026 | Magnora',
     seoDescription:
       '10 dokumenterede tips til at øge din B2B-hjemmesides konverteringsrate i 2026 – fra value proposition og social proof til CTA og sidehastighed.',
-    keywords: 'konverteringsoptimering hjemmeside 2026, øge konverteringsrate B2B, CRO tips, hjemmeside konvertering, lead generering hjemmeside',
+    keywords: 'konverteringsoptimering hjemmeside 2026, øge konverteringsrate B2B, CRO tips, hjemmeside konvertering, lead generering hjemmeside, billige hjemmesider',
     category: 'Webudvikling',
     title: '10 tips til at øge din hjemmesides konverteringsrate i 2026',
     meta: 'Af Magnora Marketing-teamet · 19. marts 2026 · 9 minutters læsning',

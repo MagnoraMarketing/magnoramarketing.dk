@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Precios de sitios web CMS a medida – desde 155 DKK/mes | Magnora',
     description: 'Consulta paquetes y precios de sitios web profesionales a medida con CMS propio, alojamiento, SSL y soporte. Quizá el sistema CMS más económico de Dinamarca – desde 155 DKK/mes.',
-    keywords: 'precio sitio web, sitio web económico, sitio web CMS, sitio web a medida, suscripción sitio web, Magnora Marketing',
+    keywords: 'precio sitio web, sitio web económico, sitio web CMS, sitio web a medida, suscripción sitio web, Magnora Marketing, páginas web baratas',
   },
   hero: {
     title: 'Precios de sitios web a medida',
@@ -126,6 +126,7 @@ export default {
     { question: '¿Qué incluye la cuota mensual?', answer: 'Alojamiento, certificado SSL, copias de seguridad, actualizaciones de seguridad, licencia del CMS y soporte gratuito. Pro Business y Pro Enterprise incluyen además horas de cambios al mes.' },
     { question: '¿Puedo cambiar de paquete más adelante?', answer: 'Sí, siempre puedes pasar a un paquete superior a medida que tu empresa crece.' },
     { question: '¿En qué se diferencian de los diseños sectoriales listos?', answer: 'Los diseños sectoriales listos son un pago único desde 1.500 DKK por un diseño terminado. Los sitios web a medida se diseñan desde cero para tu empresa e incluyen CMS, alojamiento, actualizaciones y soporte en una cuota mensual fija.' },
+    { question: '¿Ofrecéis páginas web baratas?', answer: 'Sí. Nuestros diseños sectoriales listos son la opción más barata para tener una página web profesional: un pago único desde 1.500 DKK. Si necesitas más, obtienes una página web CMS a medida por una cuota mensual fija y sin coste de alta.' },
   ],
   form: {
     heading: 'Pide tu sitio web a medida',

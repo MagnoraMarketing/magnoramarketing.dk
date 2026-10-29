@@ -2,7 +2,7 @@ export default {
   MoedebookingPartnerMagnora: {
     seoTitle: 'Socio de reserva de reuniones: Por qué debes trabajar con Magnora Marketing',
     seoDescription: 'Magnora Marketing llena tu agenda de reuniones de venta cualificadas con los responsables de decisión adecuados. Descubre por qué somos el socio de reserva de reuniones que ofrece una calidad de reunión consistentemente alta y resultados demostrados.',
-    keywords: 'socio de reserva de reuniones, reserva de reuniones profesional, reserva de reuniones B2B, reuniones de venta con responsables de decisión, externalizar reserva de reuniones, reserva de reuniones Dinamarca',
+    keywords: 'socio de reserva de reuniones, reserva de reuniones profesional, reserva de reuniones B2B, reuniones de venta con responsables de decisión, externalizar reserva de reuniones, reserva de reuniones Dinamarca, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
     category: 'Reserva de Reuniones',
     title: 'Socio de reserva de reuniones: Por qué debes trabajar con Magnora Marketing',
     displayDate: '4 de julio de 2026',
@@ -102,7 +102,7 @@ export default {
   HjemmesideTilVaekst2026: {
     seoTitle: 'Un sitio web profesional es tu herramienta de venta más importante en 2026 | Blog de Magnora Marketing',
     seoDescription: 'Comprende por qué tu sitio web es tu activo de venta más importante en 2026, y qué diferencia a un sitio web que genera leads de uno que no lo hace. Consejos prácticos para empresas B2B.',
-    keywords: 'sitio web profesional B2B 2026, sitio web que genera leads, sitio web como herramienta de venta, desarrollo web crecimiento, sitio web que convierte',
+    keywords: 'sitio web profesional B2B 2026, sitio web que genera leads, sitio web como herramienta de venta, desarrollo web crecimiento, sitio web que convierte, páginas web baratas',
     category: 'Desarrollo Web',
     title: 'Un sitio web profesional es tu herramienta de venta más importante en 2026',
     metaAuthor: 'Por el equipo de Magnora Marketing',

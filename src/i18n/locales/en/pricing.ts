@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Pricing & Packages | Magnora Marketing – Meeting Booking and Telemarketing',
     description: "See Magnora Marketing's pricing models for professional B2B meeting booking and telemarketing. Choose between No Cure No Pay or a fixed package. Transparent pricing and proven results.",
-    keywords: 'Magnora Marketing pricing, meeting booking price, telemarketing price, No Cure No Pay, sales package',
+    keywords: 'Magnora Marketing pricing, meeting booking price, telemarketing price, No Cure No Pay, sales package, how much does meeting booking cost',
   },
   hero: {
     title: 'Pricing & Packages at Magnora Marketing',
