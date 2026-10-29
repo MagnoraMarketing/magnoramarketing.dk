@@ -64,6 +64,9 @@ import AiSalgMoedebookingFremtid from './pages/blog/AiSalgMoedebookingFremtid';
 import BedsteAiLoesningerSMV from './pages/blog/BedsteAiLoesningerSMV';
 import BlivAiKonsulentKarriere from './pages/blog/BlivAiKonsulentKarriere';
 import HundredeBudAiOpgaveloesning from './pages/blog/HundredeBudAiOpgaveloesning';
+import PrisPaaMoedebooking from './pages/blog/PrisPaaMoedebooking';
+import PrisPaaAiReception from './pages/blog/PrisPaaAiReception';
+import HvadTilbyderMagnora from './pages/blog/HvadTilbyderMagnora';
 
 // Job Landing Pages
 import RemoteWorkPage from './pages/jobs/RemoteWorkPage';
@@ -136,6 +139,9 @@ export function AppRoutes() {
           <Route path="/blog" element={<BlogPage />} />
 
           {/* Blog Posts */}
+          <Route path="/blog/pris-paa-moedebooking" element={<PrisPaaMoedebooking />} />
+          <Route path="/blog/pris-paa-ai-reception" element={<PrisPaaAiReception />} />
+          <Route path="/blog/hvad-tilbyder-magnora-marketing" element={<HvadTilbyderMagnora />} />
           <Route path="/blog/saas-loesninger-2026" element={<SaaSLoesninger2026 />} />
           <Route path="/blog/ai-automation-2026" element={<AIAutomation2026 />} />
           <Route path="/blog/modebooking-2026" element={<Modebooking2026 />} />

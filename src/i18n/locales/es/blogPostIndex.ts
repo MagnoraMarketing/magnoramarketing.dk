@@ -1,6 +1,18 @@
 // Translated title + description for every blog post, keyed by slug.
 // Must contain every slug in src/data/blogPosts.json (enforced by scripts/check-i18n.mjs).
 export default {
+  'pris-paa-moedebooking': {
+    title: "Precio de la reserva de reuniones: ¿Cuánto cuesta y por qué elegir Magnora Marketing?",
+    description: "¿Cuánto cuesta la reserva de reuniones? Los tres modelos de precio, precios orientativos por reunión, qué influye en el precio, un ejemplo de ROI y por qué Magnora Marketing.",
+  },
+  'pris-paa-ai-reception': {
+    title: "Precio de la recepción con IA: ¿Cuánto cuesta y por qué recomendamos AIbooking.dk?",
+    description: "¿Cuánto cuesta una recepción con IA? Precios desde 1.500 DKK/mes, comparación con un servicio de atención telefónica y una recepcionista contratada, y por qué recomendamos AIbooking.dk.",
+  },
+  'hvad-tilbyder-magnora-marketing': {
+    title: "Colaborar con Magnora Marketing: Lo que podemos ofrecer a tu empresa",
+    description: "Una visión general de todo lo que ofrece Magnora Marketing: reserva de reuniones, televenta, páginas web, desarrollo web e IA, y cómo funciona la colaboración.",
+  },
   'hvorfor-samarbejde-magnora': {
     title: '¿Por qué colaborar con Magnora Marketing? 8 razones para elegirnos',
     description: 'Las 8 razones más importantes para elegir a Magnora Marketing como socio de crecimiento en desarrollo de ideas, concertación de reuniones y televentas.',

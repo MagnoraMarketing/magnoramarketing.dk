@@ -1,5 +1,56 @@
 [
   {
+    "slug": "pris-paa-moedebooking",
+    "category": "telesalg",
+    "date": "2026-10-29",
+    "title": "Pris på mødebooking: Hvad koster det – og hvorfor vælge Magnora Marketing?",
+    "description": "Hvad koster mødebooking? Se de tre prismodeller, vejledende priser pr. møde, hvad der påvirker prisen, et ROI-regneeksempel – og hvorfor Magnora Marketing.",
+    "readMin": 7,
+    "related": [
+      "hvorfor-magnora-moedebooking",
+      "outsource-moedebooking-fordele",
+      "modebooking-2026"
+    ],
+    "services": [
+      "/modebooking-priser",
+      "/priser"
+    ]
+  },
+  {
+    "slug": "pris-paa-ai-reception",
+    "category": "ai",
+    "date": "2026-10-29",
+    "title": "Pris på AI-reception: Hvad koster det – og hvorfor anbefaler vi AIbooking.dk?",
+    "description": "Hvad koster en AI-reception? Se priser fra 1.500 kr./md., sammenligning med telefonpasning og ansat receptionist – og hvorfor vi anbefaler AIbooking.dk.",
+    "readMin": 6,
+    "related": [
+      "ai-reception-telefonassistent",
+      "ai-kundeservice-doegnet-rundt",
+      "bedste-ai-loesninger-smv"
+    ],
+    "services": [
+      "/digital/ai-reception",
+      "/digital/ai-integration"
+    ]
+  },
+  {
+    "slug": "hvad-tilbyder-magnora-marketing",
+    "category": "samarbejde",
+    "date": "2026-10-29",
+    "title": "Samarbejde med Magnora Marketing: Hvad vi kan tilbyde din virksomhed",
+    "description": "Overblik over alt, hvad Magnora Marketing kan tilbyde – mødebooking, telesalg, hjemmesider, webudvikling og AI – og hvordan et samarbejde foregår.",
+    "readMin": 6,
+    "related": [
+      "hvorfor-samarbejde-magnora",
+      "saadan-foregaar-samarbejdet",
+      "vaekstpartner-ide-moedebooking-telesalg"
+    ],
+    "services": [
+      "/ydelser",
+      "/hvorfor-os"
+    ]
+  },
+  {
     "slug": "100-bud-ai-opgaveloesning",
     "category": "ai",
     "date": "2026-07-26",
