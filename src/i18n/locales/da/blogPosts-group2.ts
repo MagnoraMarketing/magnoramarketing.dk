@@ -2,7 +2,7 @@ export default {
   MoedebookingPartnerMagnora: {
     seoTitle: 'Mødebooking-partner: Derfor skal du vælge Magnora',
     seoDescription: 'Vi fylder din kalender med kvalificerede salgsmøder hos de rette beslutningstagere. Se hvorfor vi er mødebooking-partneren med dokumenterede resultater.',
-    keywords: 'mødebooking partner, professionel mødebooking, B2B mødebooking, salgsmøder beslutningstagere, outsource mødebooking, mødebooking Danmark',
+    keywords: 'mødebooking partner, professionel mødebooking, B2B mødebooking, salgsmøder beslutningstagere, outsource mødebooking, mødebooking Danmark, hvad koster mødebooking, pris på mødebooking',
     category: 'Mødebooking',
     title: 'Mødebooking-partner: Derfor skal du samarbejde med Magnora Marketing',
     displayDate: '4. juli 2026',
@@ -102,7 +102,7 @@ export default {
   HjemmesideTilVaekst2026: {
     seoTitle: 'Hjemmesiden er dit vigtigste salgsværktøj i 2026',
     seoDescription: 'Derfor er hjemmesiden dit vigtigste salgsaktiv i 2026 – og hvad der adskiller en side, der skaber leads, fra en der ikke gør. Råd til B2B.',
-    keywords: 'professionel hjemmeside B2B 2026, hjemmeside der genererer leads, hjemmeside salgsværktøj, webudvikling vækst, konverterende hjemmeside',
+    keywords: 'professionel hjemmeside B2B 2026, hjemmeside der genererer leads, hjemmeside salgsværktøj, webudvikling vækst, konverterende hjemmeside, billige hjemmesider',
     category: 'Webudvikling',
     title: 'En professionel hjemmeside er dit vigtigste salgsværktøj i 2026',
     metaAuthor: 'Af Magnora Marketing-teamet',

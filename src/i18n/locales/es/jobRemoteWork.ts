@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Ventas Freelance en Remoto – Trabaja Desde Casa | Magnora Marketing',
     description: 'Conviértete en comercial freelance y trabaja 100% en remoto en Magnora Marketing. Elige tu propio producto, marca tus propios horarios y construye una carrera desde casa con una comisión atractiva.',
-    keywords: 'ventas freelance remoto, comercial trabajo desde casa, empleo remoto Dinamarca, ventas oficina en casa, puesto remoto Magnora Marketing',
+    keywords: 'ventas freelance remoto, comercial trabajo desde casa, empleo remoto Dinamarca, ventas oficina en casa, puesto remoto Magnora Marketing, empleo de reserva de reuniones',
   },
   hero: {
     title: 'Comercial Freelance – Trabaja 100% en Remoto',

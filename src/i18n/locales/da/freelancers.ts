@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sælger & Mødebooker Job | Magnora Marketing',
     description: 'Bliv freelance sælger eller mødebooker. Arbejd hjemmefra, sæt dine egne tider og tjen godt med attraktiv provision. Se alle ledige stillinger.',
-    keywords: 'freelance sælger, freelance mødebooker, arbejd hjemmefra, telemarketing job, Magnora Marketing stillinger, B2B sælger',
+    keywords: 'freelance sælger, freelance mødebooker, arbejd hjemmefra, telemarketing job, Magnora Marketing stillinger, B2B sælger, mødebooking job, job med AI',
   },
   hero: {
     title: 'Din Karriere som Freelance Sælger starter her',
@@ -86,6 +86,7 @@ export default {
       { question: 'Hvornår modtager jeg min første udbetaling?', answer: 'Udbetalinger sker typisk månedligt bagud. Du modtager en opgørelse over verificerede salg og aktiviteter.' },
       { question: 'Er der en prøveperiode?', answer: 'De første 2-4 uger betragtes typisk som en gensidig prøveperiode, så begge parter kan vurdere samarbejdet.' },
       { question: 'Hvad er de typiske arbejdstider?', answer: 'De fleste freelancere ringer inden for normal dansk kontortid (8-17), men du bestemmer selv inden for dette vindue.' },
+      { question: 'Har I mødebooking job og job med AI?', answer: 'Ja. Vi har løbende mødebooking job, hvor du booker B2B-møder hjemmefra inden for bl.a. energi, pension og forsikring, og job med AI som opsøgende AI-konsulent. Se de ledige stillinger og send en ansøgning.' },
     ],
   },
   finalCta: {

@@ -147,7 +147,7 @@ export default {
     seoTitle: 'Bliv AI-konsulent: Fremtidens karriere | Magnora',
     seoDescription:
       'Drømmer du om et fremtidssikret job hjemmefra? Bliv AI-konsulent og hjælp virksomheder med AI-løsninger. Se hvad jobbet indebærer, og hvordan du søger.',
-    keywords: 'bliv AI-konsulent, AI-konsulent job, AI karriere, job hjemmefra AI, fremtidssikret job, AI salg job Danmark',
+    keywords: 'bliv AI-konsulent, AI-konsulent job, AI karriere, job hjemmefra AI, fremtidssikret job, AI salg job Danmark, job med AI',
     category: 'AI Integration',
     title: 'Bliv AI-konsulent: Karrieren i front af fremtidens teknologi',
     displayDate: '25. juli 2026',

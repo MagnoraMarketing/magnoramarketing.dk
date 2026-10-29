@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Precios y Paquetes | Magnora Marketing – Reserva de Reuniones y Telemarketing',
     description: 'Descubre los modelos de precios de Magnora Marketing para reserva de reuniones B2B y telemarketing profesional. Elige entre No Cure No Pay o un paquete fijo. Precios transparentes y resultados demostrados.',
-    keywords: 'precios Magnora Marketing, precio reserva de reuniones, precio telemarketing, No Cure No Pay, paquete de ventas',
+    keywords: 'precios Magnora Marketing, precio reserva de reuniones, precio telemarketing, No Cure No Pay, paquete de ventas, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
   },
   hero: {
     title: 'Precios y Paquetes en Magnora Marketing',

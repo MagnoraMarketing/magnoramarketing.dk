@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Reserva de Reuniones | Magnora Marketing – Tu Socio de Crecimiento en Televentas e IA',
     description: 'La reserva de reuniones profesional de Magnora Marketing garantiza reuniones de venta cualificadas. Tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads e IA.',
-    keywords: 'precios reserva de reuniones, reuniones de venta B2B, reserva de reuniones Magnora Marketing, reuniones cualificadas, servicio de reserva de reuniones',
+    keywords: 'precios reserva de reuniones, reuniones de venta B2B, reserva de reuniones Magnora Marketing, reuniones cualificadas, servicio de reserva de reuniones, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
   },
   hero: {
     title: 'Reserva de Reuniones Profesional con Magnora Marketing',
@@ -80,6 +80,7 @@ export default {
       { question: '¿Podemos establecer requisitos para los horarios de las reuniones?', answer: 'Sí, puedes indicar preferencias sobre cuándo se pueden reservar las reuniones, por ejemplo, solo por las mañanas o días concretos de la semana.' },
       { question: '¿Qué es una precualificación?', answer: 'La precualificación significa que filtramos a los clientes potenciales antes de la reserva de reuniones para garantizar que cumplen tus criterios de buen cliente.' },
       { question: '¿Podemos ver una demostración del proceso?', answer: 'Sí, contáctanos para una explicación de nuestro proceso de reserva de reuniones y ejemplos de campañas.' },
+      { question: '¿Cuánto cuesta la reserva de reuniones?', answer: 'El precio de la reserva de reuniones depende de tu sector, tu público objetivo y el modelo que elijas. Con No Cure No Pay solo pagas por reuniones realizadas y cualificadas, mientras que un paquete fijo te ofrece el precio más bajo por reunión. Consulta nuestros precios y modelos, o contáctanos para un presupuesto sin compromiso.' },
       { question: '¿Cuál es la forma más rápida de empezar?', answer: 'Rellena el formulario de contacto y organizaremos una reunión inicial en un plazo de 2 días laborables.' },
     ],
   },

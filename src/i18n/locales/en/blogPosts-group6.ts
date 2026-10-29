@@ -110,7 +110,7 @@ export default {
     seoTitle: 'The Best Meeting Booking Scripts for B2B Sales in 2026 | Magnora Marketing Blog',
     seoDescription:
       'Concrete and effective meeting booking scripts for B2B cold calling in 2026. Learn the structure behind the best scripts and how to adapt them to your target audience and industry.',
-    keywords: 'meeting booking scripts 2026, cold calling script B2B, phone script meeting booking, sales script calls, B2B cold call guide',
+    keywords: 'meeting booking scripts 2026, cold calling script B2B, phone script meeting booking, sales script calls, B2B cold call guide, meeting booking job',
     category: 'Meeting Booking',
     title: 'The Best Meeting Booking Scripts for B2B Sales in 2026',
     meta: 'By the Magnora Marketing team · April 30, 2026 · 10 min read',

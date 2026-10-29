@@ -110,7 +110,7 @@ export default {
     seoTitle: 'Mødebooking-scripts til B2B salg i 2026 | Magnora',
     seoDescription:
       'Konkrete mødebooking-scripts til B2B cold calling i 2026. Lær strukturen bag de bedste scripts, og tilpas dem til din målgruppe og branche.',
-    keywords: 'mødebooking scripts 2026, cold calling script B2B, telefonscript mødebooking, salgscript opkald, B2B cold call guide',
+    keywords: 'mødebooking scripts 2026, cold calling script B2B, telefonscript mødebooking, salgscript opkald, B2B cold call guide, mødebooking job',
     category: 'Mødebooking',
     title: 'De bedste mødebooking-scripts til B2B salg i 2026',
     meta: 'Af Magnora Marketing-teamet · 30. april 2026 · 10 minutters læsning',

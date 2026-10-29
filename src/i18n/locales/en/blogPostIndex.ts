@@ -1,6 +1,18 @@
 // Translated title + description for every blog post, keyed by slug.
 // Must contain every slug in src/data/blogPosts.json (enforced by scripts/check-i18n.mjs).
 export default {
+  'pris-paa-moedebooking': {
+    title: "Meeting booking prices: What does it cost – and why choose Magnora Marketing?",
+    description: "How much does meeting booking cost? See the three pricing models, indicative prices per meeting, what affects the price, an ROI example – and why Magnora Marketing.",
+  },
+  'pris-paa-ai-reception': {
+    title: "AI reception prices: What does it cost – and why do we recommend AIbooking.dk?",
+    description: "How much does an AI reception cost? See prices from DKK 1,500/month, a comparison with answering services and an employed receptionist – and why we recommend AIbooking.dk.",
+  },
+  'hvad-tilbyder-magnora-marketing': {
+    title: "Working with Magnora Marketing: What we can offer your business",
+    description: "An overview of everything Magnora Marketing can offer – meeting booking, telesales, websites, web development and AI – and how a partnership works.",
+  },
   'hvorfor-samarbejde-magnora': {
     title: 'Why partner with Magnora Marketing? 8 reasons to choose us',
     description: 'The 8 most important reasons to choose Magnora Marketing as your growth partner in idea development, meeting booking and telesales.',

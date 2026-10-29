@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Priser på skræddersyede CMS-hjemmesider – fra 155 kr/md. | Magnora',
     description: 'Se pakker og priser på professionelle, skræddersyede hjemmesider med eget CMS, hosting, SSL og support. Danmarks måske billigste CMS-hjemmesidesystem – fra 155 kr/md.',
-    keywords: 'hjemmeside pris, billig hjemmeside, CMS hjemmeside, skræddersyet hjemmeside, hjemmeside abonnement, Magnora Marketing',
+    keywords: 'hjemmeside pris, billig hjemmeside, CMS hjemmeside, skræddersyet hjemmeside, hjemmeside abonnement, Magnora Marketing, billige hjemmesider',
   },
   hero: {
     title: 'Priser på skræddersyede hjemmesider',
@@ -126,6 +126,7 @@ export default {
     { question: 'Hvad er inkluderet i månedsprisen?', answer: 'Hosting, SSL-certifikat, backup, sikkerhedsopdateringer, CMS-licens og fri support. I Pro Business og Pro Enterprise er der desuden et antal timers ændringer pr. måned.' },
     { question: 'Kan jeg skifte pakke senere?', answer: 'Ja, du kan altid opgradere til en større pakke, når din virksomhed vokser.' },
     { question: 'Hvad er forskellen på disse og de færdige branche-designs?', answer: 'De færdige branche-designs er en engangsbetaling fra 1.500 kr for et færdigt design. De skræddersyede hjemmesider er designet fra bunden til din virksomhed og inkluderer CMS, hosting, opdateringer og support i en fast månedspris.' },
+    { question: 'Tilbyder I billige hjemmesider?', answer: 'Ja. Vores færdige branche-designs er den billigste vej til en professionel hjemmeside – en engangsbetaling fra 1.500 kr. Har du brug for mere, får du en skræddersyet CMS-hjemmeside til en fast månedspris uden oprettelsesgebyr.' },
   ],
   form: {
     heading: 'Bestil din skræddersyede hjemmeside',

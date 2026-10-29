@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Blog om B2B Salg, Mødebooking & AI | Magnora',
     description: 'Praktiske guides, tips og trends om B2B salg, mødebooking, telemarketing, leadgenerering, AI og digital vækst for danske virksomheder.',
-    keywords: 'Magnora Marketing blog, B2B salg tips, mødebooking guide, telemarketing artikler, salgsstrategi 2026',
+    keywords: 'Magnora Marketing blog, B2B salg tips, mødebooking guide, telemarketing artikler, salgsstrategi 2026, hvad koster mødebooking, pris på mødebooking, mødebooking job, job med AI, billige hjemmesider',
   },
   hero: {
     title: 'Magnora Marketing Blog',

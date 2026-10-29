@@ -34,6 +34,7 @@ const TRIAL_WIDGET_PATHS = [
   '/blog/vaekstpartner-ide-moedebooking-telesalg',
   '/blog/saadan-foregaar-samarbejdet',
   '/blog/hvorfor-outsource-salg-og-moedebooking',
+  '/blog/hvad-tilbyder-magnora-marketing',
 ];
 const showTrialWidgetOn = (pathname: string) => {
   const path = pathname.replace(/\/+$/, '') || '/';

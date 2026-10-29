@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sales & Meeting Booker Positions | Magnora Marketing',
     description: 'Become a freelance salesperson or meeting booker at Magnora Marketing. Work from home, set your own hours and earn well with attractive commission. See all open positions here.',
-    keywords: 'freelance salesperson, freelance meeting booker, work from home, telemarketing job, Magnora Marketing positions, B2B salesperson',
+    keywords: 'freelance salesperson, freelance meeting booker, work from home, telemarketing job, Magnora Marketing positions, B2B salesperson, meeting booking job, jobs in AI',
   },
   hero: {
     title: 'Your Career as a Freelance Salesperson Starts Here',
@@ -86,6 +86,7 @@ export default {
       { question: 'When do I receive my first payment?', answer: 'Payments are typically made monthly in arrears. You receive a statement of verified sales and activities.' },
       { question: 'Is there a trial period?', answer: 'The first 2-4 weeks are typically considered a mutual trial period, so both parties can evaluate the partnership.' },
       { question: 'What are the typical working hours?', answer: 'Most freelancers call within normal Danish office hours (8am-5pm), but you decide for yourself within that window.' },
+      { question: 'Do you have meeting booking jobs and jobs in AI?', answer: 'Yes. We regularly have meeting booking jobs where you book B2B meetings from home in areas such as energy, pensions and insurance, as well as jobs in AI as an outbound AI consultant. See the open positions and send an application.' },
     ],
   },
   finalCta: {

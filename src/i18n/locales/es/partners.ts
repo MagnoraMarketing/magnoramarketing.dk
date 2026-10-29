@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Conviértete en Socio | Magnora Marketing – Televentas, Reserva de Reuniones e IA',
     description: 'Inicia una colaboración con Magnora Marketing, tu socio de crecimiento en televentas, reserva de reuniones, desarrollo web, generación de leads y proyectos de desarrollo de IA. Resultados medibles.',
-    keywords: 'socio Magnora Marketing, externalizar ventas, socio de reserva de reuniones, ventas B2B, agencia de telemarketing',
+    keywords: 'socio Magnora Marketing, externalizar ventas, socio de reserva de reuniones, ventas B2B, agencia de telemarketing, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
   },
   hero: {
     title: 'Deja que Magnora Marketing Impulse tus Ventas',

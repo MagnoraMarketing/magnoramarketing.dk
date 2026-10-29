@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Se busca Consultor de IA – Presenta Soluciones de IA a Empresas | Magnora Marketing',
     description: 'Conviértete en consultor de IA en Magnora Marketing y ayuda a empresas danesas a entender y decidir sobre soluciones de IA que les ahorran tiempo. Trabajo flexible 100% remoto con salario atractivo. Envía tu solicitud hoy.',
-    keywords: 'empleo consultor de IA, se busca consultor de IA, empleo de ventas de IA, consultor de IA prospección, soluciones de IA para empresas, consultor de IA desde casa, empleo vendedor de IA Dinamarca, consultor de IA freelance, empleo asesor de IA, consultor de inteligencia artificial',
+    keywords: 'empleo consultor de IA, se busca consultor de IA, empleo de ventas de IA, consultor de IA prospección, soluciones de IA para empresas, consultor de IA desde casa, empleo vendedor de IA Dinamarca, consultor de IA freelance, empleo asesor de IA, consultor de inteligencia artificial, empleo con IA',
   },
   breadcrumbs: {
     home: 'Inicio',

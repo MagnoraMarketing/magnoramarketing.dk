@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Become a Partner | Magnora Marketing – Telesales, Meeting Booking and AI',
     description: 'Start a partnership with Magnora Marketing – your growth partner in telesales, meeting booking, web development, lead generation and AI development. Measurable results.',
-    keywords: 'Magnora Marketing partner, outsource sales, meeting booking partner, B2B sales, telemarketing agency',
+    keywords: 'Magnora Marketing partner, outsource sales, meeting booking partner, B2B sales, telemarketing agency, how much does meeting booking cost, meeting booking price',
   },
   hero: {
     title: 'Let Magnora Marketing Drive Your Sales',

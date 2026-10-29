@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Comercial Freelance de Energía Solar y Renovable | Magnora Marketing',
     description: 'Conviértete en comercial freelance de energía solar y soluciones de energía renovable en Magnora Marketing. Vende paneles solares a empresas y particulares – trabajo remoto flexible con una comisión atractiva.',
-    keywords: 'comercial freelance energía solar, vender paneles solares, empleo energía solar, ventas energía renovable, puesto paneles solares Magnora Marketing',
+    keywords: 'comercial freelance energía solar, vender paneles solares, empleo energía solar, ventas energía renovable, puesto paneles solares Magnora Marketing, empleo de reserva de reuniones',
   },
   hero: {
     title: 'Comercial Freelance – Energía Solar y Renovable',

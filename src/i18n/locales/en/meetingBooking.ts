@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Meeting Booking | Magnora Marketing – Your Growth Partner in Telesales and AI',
     description: "Magnora Marketing's professional meeting booking secures qualified sales meetings. Your growth partner in telesales, meeting booking, web development, lead generation and AI.",
-    keywords: 'meeting booking pricing, B2B sales meetings, Magnora Marketing meeting booking, qualified meetings, meeting booking service',
+    keywords: 'meeting booking pricing, B2B sales meetings, Magnora Marketing meeting booking, qualified meetings, meeting booking service, how much does meeting booking cost, meeting booking price',
   },
   hero: {
     title: 'Professional Meeting Booking with Magnora Marketing',
@@ -80,6 +80,7 @@ export default {
       { question: 'Can we set requirements for meeting times?', answer: 'Yes – you can specify preferences for when meetings may be booked, e.g. mornings only or specific weekdays.' },
       { question: 'What is pre-qualification?', answer: 'Pre-qualification means we screen potential customers before meeting booking to ensure they meet your criteria for a good customer.' },
       { question: 'Can we see a demo of the process?', answer: 'Yes – contact us for a walkthrough of our meeting booking process and examples of campaigns.' },
+      { question: 'How much does meeting booking cost?', answer: 'The price of meeting booking depends on your industry, your target audience and the model you choose. With No Cure No Pay you only pay for completed, qualified meetings, while a fixed package gives you the lowest price per meeting. See our prices and models, or contact us for a no-obligation quote.' },
       { question: 'What is the fastest way to get started?', answer: 'Fill in the contact form, and we will set up an introductory meeting within 2 business days.' },
     ],
   },

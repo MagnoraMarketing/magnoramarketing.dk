@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Blog | Magnora Marketing – Perspectivas sobre Ventas B2B, Concertación de Reuniones y Crecimiento',
     description: 'El blog de Magnora Marketing con guías prácticas, consejos y tendencias en ventas B2B, concertación de reuniones, telemarketing, generación de leads y crecimiento digital para empresas.',
-    keywords: 'blog Magnora Marketing, consejos de ventas B2B, guía de concertación de reuniones, artículos de telemarketing, estrategia de ventas 2026',
+    keywords: 'blog Magnora Marketing, consejos de ventas B2B, guía de concertación de reuniones, artículos de telemarketing, estrategia de ventas 2026, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones, empleo de reserva de reuniones, empleo con IA, páginas web baratas',
   },
   hero: {
     title: 'Blog de Magnora Marketing',

@@ -2,7 +2,7 @@ export default {
   SaadanForegaarSamarbejdet: {
     seoTitle: 'Sådan foregår samarbejdet – trin for trin | Magnora',
     seoDescription: 'Fra første uforpligtende snak til de første kvalificerede møder: Se præcis hvordan et samarbejde med Magnora forløber – enkelt, hurtigt og transparent.',
-    keywords: 'samarbejde proces Magnora, sådan foregår mødebooking samarbejde, onboarding telesalg, opstart vækstpartner, kom i gang Magnora Marketing',
+    keywords: 'samarbejde proces Magnora, sådan foregår mødebooking samarbejde, onboarding telesalg, opstart vækstpartner, kom i gang Magnora Marketing, hvad koster mødebooking, pris på mødebooking',
     category: 'Samarbejde & Vækst',
     title: 'Sådan foregår et samarbejde med Magnora Marketing – trin for trin',
     displayDate: '9. juli 2026',
@@ -53,7 +53,7 @@ export default {
   OutsourceMoedebookingFordele: {
     seoTitle: 'Outsource mødebooking: 7 fordele | Magnora Marketing',
     seoDescription: 'Outsource mødebookingen eller ansæt internt? Se 7 fordele ved at lade Magnora stå for din B2B mødebooking – hurtig opstart, lav risiko og flere møder.',
-    keywords: 'outsource mødebooking, ekstern mødebooking, fordele mødebooking, B2B mødebooking outsourcing, mødebooking vs internt team',
+    keywords: 'outsource mødebooking, ekstern mødebooking, fordele mødebooking, B2B mødebooking outsourcing, mødebooking vs internt team, hvad koster mødebooking, pris på mødebooking',
     category: 'Mødebooking',
     title: 'Outsource din mødebooking: 7 fordele ved at samarbejde med Magnora Marketing',
     displayDate: '5. juli 2026',
@@ -178,7 +178,7 @@ export default {
   HvorforMagnoraMoedebooking: {
     seoTitle: 'Hvorfor vælge Magnora Marketing til mødebooking?',
     seoDescription: 'Kvalificeret B2B mødebooking med erfarne konsulenter og gennemprøvede metoder. Se hvad der adskiller vores mødebooking fra andre udbydere.',
-    keywords: 'Magnora Marketing mødebooking, B2B mødebooking partner, outsourcing mødebooking, bookede møder B2B, mødebooking Danmark',
+    keywords: 'Magnora Marketing mødebooking, B2B mødebooking partner, outsourcing mødebooking, bookede møder B2B, mødebooking Danmark, hvad koster mødebooking, pris på mødebooking',
     category: 'Mødebooking',
     title: 'Hvorfor vælge Magnora Marketing til mødebooking?',
     metaAuthor: 'Af Magnora Marketing-teamet',
@@ -211,7 +211,7 @@ export default {
   HvorforMagnoraWebudvikling: {
     seoTitle: 'Hvorfor vælge Magnora til webudvikling?',
     seoDescription: 'Forretningsorienteret webudvikling, der gør besøgende til kunder – ikke blot smukke hjemmesider. Se hvad der adskiller Magnora fra andre webudviklere.',
-    keywords: 'Magnora Marketing webudvikling, webudvikler B2B, hjemmeside der konverterer, professionel webudvikling Danmark, webbureau vækst',
+    keywords: 'Magnora Marketing webudvikling, webudvikler B2B, hjemmeside der konverterer, professionel webudvikling Danmark, webbureau vækst, billige hjemmesider',
     category: 'Webudvikling',
     title: 'Hvorfor vælge Magnora Marketing som partner til webudvikling?',
     metaAuthor: 'Af Magnora Marketing-teamet',

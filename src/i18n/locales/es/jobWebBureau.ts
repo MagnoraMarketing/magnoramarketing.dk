@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Comercial Freelance para Agencia Web | Magnora Marketing – Vende Desarrollo Web y Soluciones Digitales',
     description: 'Conviértete en comercial freelance de servicios de agencia web en Magnora Marketing. Vende desarrollo web, SEO y soluciones digitales desde casa con horarios flexibles y una comisión atractiva.',
-    keywords: 'comercial freelance agencia web, vender desarrollo web, comercial agencia digital, ventas digitales freelance, puesto agencia web Magnora Marketing',
+    keywords: 'comercial freelance agencia web, vender desarrollo web, comercial agencia digital, ventas digitales freelance, puesto agencia web Magnora Marketing, empleo de reserva de reuniones',
   },
   hero: {
     title: 'Comercial Freelance para Agencia Web y Soluciones Digitales',

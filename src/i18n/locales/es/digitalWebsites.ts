@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Páginas Web | Magnora Marketing – Soluciones Web Profesionales que Convierten',
     description: 'Magnora Marketing diseña y desarrolla páginas web profesionales optimizadas para SEO, rápidas y orientadas a la conversión. Adaptadas a tu empresa y tus objetivos.',
-    keywords: 'página web, diseño web, SEO página web, optimización de conversión, Magnora Marketing digital, página web profesional',
+    keywords: 'página web, diseño web, SEO página web, optimización de conversión, Magnora Marketing digital, página web profesional, páginas web baratas',
   },
   hero: {
     title: 'Páginas Web que Generan Resultados',

@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'AI Consultant Wanted – Introduce Companies to AI Solutions | Magnora Marketing',
     description: 'Become an AI consultant at Magnora Marketing and help Danish companies understand and decide on AI solutions that save them time. Flexible job, 100% remote, with an attractive salary. Send your inquiry today.',
-    keywords: 'AI consultant job, AI consultant wanted, AI sales job, outbound AI consultant, AI solutions for companies, AI consultant work from home, AI sales job Denmark, freelance AI consultant, AI advisor job, artificial intelligence consultant',
+    keywords: 'AI consultant job, AI consultant wanted, AI sales job, outbound AI consultant, AI solutions for companies, AI consultant work from home, AI sales job Denmark, freelance AI consultant, AI advisor job, artificial intelligence consultant, jobs in AI',
   },
   breadcrumbs: {
     home: 'Home',

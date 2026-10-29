@@ -173,7 +173,7 @@ export default {
   Telesalg2026: {
     seoTitle: 'Televentas en 2026: Técnicas y estrategias para comerciales modernos | Blog de Magnora Marketing',
     seoDescription: 'Las televentas han cambiado. Aprende las técnicas y estrategias que funcionan en el panorama de ventas B2B moderno, desde los guiones de venta y el tratamiento de objeciones hasta la carrera freelance en televentas.',
-    keywords: 'técnicas de televentas, televentas B2B 2026, guiones de venta, tratamiento de objeciones, televentas freelance, estrategias de telemarketing',
+    keywords: 'técnicas de televentas, televentas B2B 2026, guiones de venta, tratamiento de objeciones, televentas freelance, estrategias de telemarketing, empleo de reserva de reuniones',
     category: 'Televentas y Guiones de Venta',
     title: 'Televentas en 2026: Técnicas y estrategias para comerciales modernos',
     meta: 'Por el equipo de Magnora Marketing · {{date}} · 9 minutos de lectura',
@@ -209,7 +209,7 @@ export default {
   Modebooking2026: {
     seoTitle: 'Concertación de reuniones eficaz en 2026: Estrategias que funcionan | Blog de Magnora Marketing',
     seoDescription: 'Descubre los mejores métodos para una concertación de reuniones B2B profesional en 2026: desde la cualificación BANT y los guiones de venta hasta el seguimiento y la reducción de ausencias. Estrategias concretas de Magnora Marketing.',
-    keywords: 'estrategia de concertación de reuniones, concertación de reuniones B2B, guiones de venta para reuniones, cualificación BANT, reducción de ausencias',
+    keywords: 'estrategia de concertación de reuniones, concertación de reuniones B2B, guiones de venta para reuniones, cualificación BANT, reducción de ausencias, cuánto cuesta la reserva de reuniones, precio de la reserva de reuniones',
     category: 'Concertación de Reuniones',
     title: 'Concertación de reuniones eficaz en 2026: Estrategias que funcionan',
     meta: 'Por el equipo de Magnora Marketing · {{date}} · 9 minutos de lectura',

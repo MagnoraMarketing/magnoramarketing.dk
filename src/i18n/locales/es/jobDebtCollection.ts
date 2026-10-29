@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Comercial Freelance – Gestión de Cobros y Créditos | Magnora Marketing',
     description: 'Conviértete en comercial freelance en gestión de cobros y créditos en Magnora Marketing. Vende recuperación profesional de deudas a clientes empresariales, desde casa y con buena comisión.',
-    keywords: 'comercial freelance gestión de cobros, venta gestión de créditos, empleo comercial de cobros, recuperación de deudas B2B, puesto de cobros Magnora Marketing',
+    keywords: 'comercial freelance gestión de cobros, venta gestión de créditos, empleo comercial de cobros, recuperación de deudas B2B, puesto de cobros Magnora Marketing, empleo de reserva de reuniones',
   },
   hero: {
     title: 'Comercial Freelance – Gestión de Cobros y Créditos',

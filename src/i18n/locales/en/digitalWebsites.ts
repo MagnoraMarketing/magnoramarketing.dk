@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Websites | Magnora Marketing – Professional Web Solutions That Convert',
     description: 'Magnora Marketing designs and develops professional websites that are SEO-optimised, fast and conversion-friendly. Tailored to your business and your goals.',
-    keywords: 'website, web design, SEO website, conversion optimisation, Magnora Marketing digital, professional website',
+    keywords: 'website, web design, SEO website, conversion optimisation, Magnora Marketing digital, professional website, affordable websites',
   },
   hero: {
     title: 'Websites That Deliver Results',

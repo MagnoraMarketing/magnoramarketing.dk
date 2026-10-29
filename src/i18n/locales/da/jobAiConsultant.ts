@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'AI-konsulent Job Hjemmefra | Magnora Marketing',
     description: 'Bliv AI-konsulent og hjælp danske virksomheder med AI-løsninger, der sparer tid. Fleksibelt job 100% hjemmefra med attraktiv løn. Søg i dag.',
-    keywords: 'AI-konsulent job, AI konsulent søges, AI salg job, opsøgende AI-konsulent, AI-løsninger til virksomheder, konsulent AI hjemmefra, AI sælger job Danmark, freelance AI-konsulent, AI rådgiver job, kunstig intelligens konsulent',
+    keywords: 'AI-konsulent job, AI konsulent søges, AI salg job, opsøgende AI-konsulent, AI-løsninger til virksomheder, konsulent AI hjemmefra, AI sælger job Danmark, freelance AI-konsulent, AI rådgiver job, kunstig intelligens konsulent, job med AI',
   },
   breadcrumbs: {
     home: 'Forside',

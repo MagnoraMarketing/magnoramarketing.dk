@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Unique Web Development & AI | Magnora Marketing – Custom Web Solutions for Growth',
     description: 'Magnora Marketing builds unique, AI-powered web applications and websites for Danish companies – regardless of scope. From landing pages to SaaS platforms. Modern technology, extreme performance and built-in AI. Start your project today.',
-    keywords: 'web development, unique web development, AI web development, custom website, web application, React, Next.js, TypeScript, AI integration website, webshop, SaaS development, Magnora Marketing digital',
+    keywords: 'web development, unique web development, AI web development, custom website, web application, React, Next.js, TypeScript, AI integration website, webshop, SaaS development, Magnora Marketing digital, affordable websites',
   },
   hero: {
     title: 'Unique Web Development & AI That Puts Your Business Ahead',

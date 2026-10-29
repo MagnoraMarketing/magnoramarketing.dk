@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sales Rep – Electricity & Energy Optimization | Magnora Marketing',
     description: 'Become a freelance sales rep for electricity and energy optimization to B2B and B2C customers at Magnora Marketing. Work from home with flexible hours and attractive commission.',
-    keywords: 'freelance electricity sales rep, energy optimization sales, electricity sales job, B2B energy contracts, Magnora Marketing energy position',
+    keywords: 'freelance electricity sales rep, energy optimization sales, electricity sales job, B2B energy contracts, Magnora Marketing energy position, meeting booking job',
   },
   hero: {
     title: 'Freelance Sales Rep – Electricity & Energy Optimization',

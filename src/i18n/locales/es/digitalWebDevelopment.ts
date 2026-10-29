@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Desarrollo Web Único y IA | Magnora Marketing – Soluciones Web a Medida para el Crecimiento',
     description: 'Magnora Marketing crea aplicaciones web y sitios web únicos e impulsados por IA para empresas danesas, sea cual sea el alcance. Desde landing pages hasta plataformas SaaS. Tecnología moderna, rendimiento extremo e IA integrada. Empieza tu proyecto hoy.',
-    keywords: 'desarrollo web, desarrollo web único, desarrollo web con IA, sitio web a medida, aplicación web, React, Next.js, TypeScript, integración de IA en sitios web, tienda online, desarrollo SaaS, Magnora Marketing digital',
+    keywords: 'desarrollo web, desarrollo web único, desarrollo web con IA, sitio web a medida, aplicación web, React, Next.js, TypeScript, integración de IA en sitios web, tienda online, desarrollo SaaS, Magnora Marketing digital, páginas web baratas',
   },
   hero: {
     title: 'Desarrollo Web Único e IA que Ponen tu Negocio por Delante',

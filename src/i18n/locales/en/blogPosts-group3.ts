@@ -2,7 +2,7 @@ export default {
   SaadanForegaarSamarbejdet: {
     seoTitle: 'How a partnership with Magnora Marketing works – step by step',
     seoDescription: 'From the first no-obligation chat to your first qualified meetings: see exactly how a partnership with Magnora Marketing unfolds – simple, fast and transparent.',
-    keywords: 'Magnora partnership process, how meeting-booking partnership works, telesales onboarding, growth partner kick-off, get started with Magnora Marketing',
+    keywords: 'Magnora partnership process, how meeting-booking partnership works, telesales onboarding, growth partner kick-off, get started with Magnora Marketing, how much does meeting booking cost, meeting booking price',
     category: 'Partnership & Growth',
     title: 'How a partnership with Magnora Marketing works – step by step',
     displayDate: 'July 9, 2026',
@@ -53,7 +53,7 @@ export default {
   OutsourceMoedebookingFordele: {
     seoTitle: 'Outsourcing your meeting booking: 7 benefits of partnering with Magnora Marketing',
     seoDescription: 'Should you outsource your meeting booking or hire in-house? See the 7 biggest benefits of letting Magnora Marketing handle your B2B meeting booking – faster start-up, lower risk and more qualified meetings.',
-    keywords: 'outsource meeting booking, external meeting booking, benefits of meeting booking, B2B meeting booking outsourcing, meeting booking vs in-house team',
+    keywords: 'outsource meeting booking, external meeting booking, benefits of meeting booking, B2B meeting booking outsourcing, meeting booking vs in-house team, how much does meeting booking cost, meeting booking price',
     category: 'Meeting Booking',
     title: 'Outsourcing your meeting booking: 7 benefits of partnering with Magnora Marketing',
     displayDate: 'July 5, 2026',
@@ -178,7 +178,7 @@ export default {
   HvorforMagnoraMoedebooking: {
     seoTitle: 'Why choose Magnora Marketing for meeting booking? | Magnora Marketing Blog',
     seoDescription: 'Magnora Marketing delivers qualified B2B meeting booking with experienced consultants and proven methods. Understand what sets our meeting booking apart from other providers.',
-    keywords: 'Magnora Marketing meeting booking, B2B meeting booking partner, meeting booking outsourcing, booked B2B meetings, meeting booking Denmark',
+    keywords: 'Magnora Marketing meeting booking, B2B meeting booking partner, meeting booking outsourcing, booked B2B meetings, meeting booking Denmark, how much does meeting booking cost, meeting booking price',
     category: 'Meeting Booking',
     title: 'Why choose Magnora Marketing for meeting booking?',
     metaAuthor: 'By the Magnora Marketing team',
@@ -211,7 +211,7 @@ export default {
   HvorforMagnoraWebudvikling: {
     seoTitle: 'Why choose Magnora Marketing as your web development partner? | Magnora Marketing Blog',
     seoDescription: 'Understand what sets Magnora Marketing apart from other web developers. Business-oriented web development that converts visitors into customers – not just beautiful websites.',
-    keywords: 'Magnora Marketing web development, B2B web developer, website that converts, professional web development Denmark, growth-focused web agency',
+    keywords: 'Magnora Marketing web development, B2B web developer, website that converts, professional web development Denmark, growth-focused web agency, affordable websites',
     category: 'Web Development',
     title: 'Why choose Magnora Marketing as your web development partner?',
     metaAuthor: 'By the Magnora Marketing team',

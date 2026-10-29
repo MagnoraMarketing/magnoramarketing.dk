@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Reserva de Reuniones desde Casa para los Mejores Corredores de Seguros de Dinamarca | Magnora Marketing',
     description: 'Conviértete en agente de reservas y agenda reuniones 100% desde casa para los corredores de seguros líderes del país. Salario atractivo, comisión sin límite y libertad total sobre tu jornada. Solicita el empleo de agente de reservas hoy.',
-    keywords: 'reserva de reuniones desde casa, agente de reservas seguros, empleo reserva de reuniones seguros, agente de reservas corredor de seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, reserva de reuniones freelance, empleo reserva de reuniones Dinamarca, salario atractivo trabajo remoto, reserva de reuniones remota seguros',
+    keywords: 'reserva de reuniones desde casa, agente de reservas seguros, empleo reserva de reuniones seguros, agente de reservas corredor de seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, reserva de reuniones freelance, empleo reserva de reuniones Dinamarca, salario atractivo trabajo remoto, reserva de reuniones remota seguros, empleo de reserva de reuniones',
   },
   breadcrumbs: {
     home: 'Inicio',

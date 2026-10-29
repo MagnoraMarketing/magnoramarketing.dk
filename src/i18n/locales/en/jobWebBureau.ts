@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Sales Rep for Web Agency Services | Magnora Marketing – Sell Web Development and Digital Solutions',
     description: 'Become a freelance sales rep for web agency services at Magnora Marketing. Sell web development, SEO and digital solutions from home with flexible hours and attractive commission.',
-    keywords: 'freelance sales rep web agency, sell web development, digital agency sales rep, freelance digital sales, Magnora Marketing web agency position',
+    keywords: 'freelance sales rep web agency, sell web development, digital agency sales rep, freelance digital sales, Magnora Marketing web agency position, meeting booking job',
   },
   hero: {
     title: 'Freelance Sales Rep for Web Agency & Digital Solutions',

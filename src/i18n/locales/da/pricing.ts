@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Priser på Mødebooking & Telemarketing | Magnora',
     description: 'Se priser på B2B mødebooking og telemarketing. Vælg No Cure No Pay eller fast pakkeløsning – gennemsigtige priser og dokumenterede resultater.',
-    keywords: 'Magnora Marketing priser, mødebooking pris, telemarketing pris, No Cure No Pay, pakkeløsning salg',
+    keywords: 'Magnora Marketing priser, mødebooking pris, telemarketing pris, No Cure No Pay, pakkeløsning salg, hvad koster mødebooking, pris på mødebooking',
   },
   hero: {
     title: 'Priser & Pakker hos Magnora Marketing',

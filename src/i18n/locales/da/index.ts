@@ -47,6 +47,7 @@ import blogPostsGroup4 from './blogPosts-group4';
 import blogPostsGroup5 from './blogPosts-group5';
 import blogPostsGroup6 from './blogPosts-group6';
 import blogPostsGroup7 from './blogPosts-group7';
+import blogPostsGroup8 from './blogPosts-group8';
 
 const blogPosts = {
   ...blogPostsGroup0,
@@ -57,6 +58,7 @@ const blogPosts = {
   ...blogPostsGroup5,
   ...blogPostsGroup6,
   ...blogPostsGroup7,
+  ...blogPostsGroup8,
 };
 
 export default {

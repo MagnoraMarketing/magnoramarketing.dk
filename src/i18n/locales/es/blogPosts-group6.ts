@@ -110,7 +110,7 @@ export default {
     seoTitle: 'Los Mejores Scripts de Concertación de Reuniones para Ventas B2B en 2026 | Blog Magnora',
     seoDescription:
       'Scripts concretos y efectivos de concertación de reuniones para llamadas en frío B2B en 2026. Aprende la estructura detrás de los mejores scripts y cómo adaptarlos a tu audiencia objetivo e industria.',
-    keywords: 'scripts concertación reuniones 2026, script llamada en frío B2B, script telefónico concertación, script ventas llamadas, guía llamada en frío B2B',
+    keywords: 'scripts concertación reuniones 2026, script llamada en frío B2B, script telefónico concertación, script ventas llamadas, guía llamada en frío B2B, empleo de reserva de reuniones',
     category: 'Concertación de Reuniones',
     title: 'Los Mejores Scripts de Concertación de Reuniones para Ventas B2B en 2026',
     meta: 'Por el equipo de Magnora Marketing · 30 de abril de 2026 · 10 minutos de lectura',

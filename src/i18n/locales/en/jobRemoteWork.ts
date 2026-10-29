@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Freelance Remote Sales – Work From Home | Magnora Marketing',
     description: 'Become a freelance sales rep and work 100% remote at Magnora Marketing. Choose your own product, set your own hours and build a career from home with strong commission.',
-    keywords: 'freelance remote sales, work from home sales rep, remote job Denmark, home office sales, Magnora Marketing remote position',
+    keywords: 'freelance remote sales, work from home sales rep, remote job Denmark, home office sales, Magnora Marketing remote position, meeting booking job',
   },
   hero: {
     title: 'Freelance Sales Rep – Work 100% Remote',
