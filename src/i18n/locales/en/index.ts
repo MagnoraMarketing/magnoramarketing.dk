@@ -16,6 +16,7 @@ import digitalWebsites from './digitalWebsites';
 import digitalWebsitePricing from './digitalWebsitePricing';
 import digitalAiReception from './digitalAiReception';
 import digitalAiWidget from './digitalAiWidget';
+import digitalGameDevelopment from './digitalGameDevelopment';
 import jobAiConsultant from './jobAiConsultant';
 import jobCoffeeService from './jobCoffeeService';
 import jobDebtCollection from './jobDebtCollection';
@@ -85,6 +86,7 @@ export default {
   digitalWebsitePricing,
   digitalAiReception,
   digitalAiWidget,
+  digitalGameDevelopment,
   jobAiConsultant,
   jobCoffeeService,
   jobDebtCollection,

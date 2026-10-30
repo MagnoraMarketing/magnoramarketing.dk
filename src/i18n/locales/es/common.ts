@@ -19,6 +19,7 @@ export default {
       aiIntegration: 'Integración de IA',
       aiWidget: '✦ Widget de IA',
       aiReception: '✦ Recepcionista IA',
+      gameDevelopment: 'Desarrollo de videojuegos',
     },
     partnerOptions: {
       becomePartner: 'Hazte socio colaborador',

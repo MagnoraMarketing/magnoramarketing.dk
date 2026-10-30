@@ -19,6 +19,7 @@ export default {
       aiIntegration: 'AI Integration',
       aiWidget: '✦ AI Widget',
       aiReception: '✦ AI Receptionist',
+      gameDevelopment: 'Spiludvikling',
     },
     partnerOptions: {
       becomePartner: 'Bliv samarbejdspartner',

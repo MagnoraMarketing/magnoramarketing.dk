@@ -1,18 +1,20 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Building2, Calculator, Check, CheckCircle2, Lock, Phone, Sparkles } from 'lucide-react';
+import { AlertCircle, ArrowRight, Building2, Calculator, Check, CheckCircle2, Loader2, Phone, Sparkles } from 'lucide-react';
 import {
   CalculatorStep,
   CalculatorValues,
   CalculatorVariant,
   calculatorSteps,
+  calculatorTopic,
   estimate,
   initialValues,
   isStepHidden,
   saveCalculatorLead,
   toSearchParams,
 } from '../data/priceCalculator';
+import { WEB3FORMS_ACCESS_KEY } from './ContactForm';
 
 const K = 'priceCalculator';
 // Steps whose texts are shared by several variants (priceCalculator.shared.<id>).
@@ -36,26 +38,34 @@ export const useCalculatorText = () => {
   return { stepKey, stepLabel, optionTitle, valueText };
 };
 
-/** Eases a number towards its new value so the (blurred) estimate visibly reacts to every change. */
-const useTweenedNumber = (target: number) => {
-  const [shown, setShown] = useState(target);
-  const fromRef = useRef(target);
-  useEffect(() => {
-    const from = fromRef.current;
-    const start = performance.now();
-    let frame = 0;
-    const tick = (now: number) => {
-      const p = Math.min(1, (now - start) / 450);
-      const value = from + (target - from) * (1 - Math.pow(1 - p, 3));
-      fromRef.current = value;
-      setShown(value);
-      if (p < 1) frame = requestAnimationFrame(tick);
-    };
-    frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
-  }, [target]);
-  return shown;
-};
+/**
+ * Sends a calculator lead (company, phone and choices) to mail@magnoramarketing.dk
+ * via our own /api/contact, falling back to Web3Forms like the contact form does.
+ */
+async function sendCalculatorLead(fields: { topic: string; company: string; phone: string; source: string; message: string }) {
+  const body = new FormData();
+  body.append('kind', 'lead');
+  Object.entries(fields).forEach(([k, v]) => body.append(k, v));
+  const viaApi = await fetch('/api/contact', { method: 'POST', headers: { Accept: 'application/json' }, body })
+    .then(async res => res.ok && Boolean((await res.json().catch(() => ({}))).success))
+    .catch(() => false);
+  if (viaApi) return true;
+  const res = await fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify({
+      access_key: WEB3FORMS_ACCESS_KEY,
+      subject: `Nyt lead fra prisberegneren – ${fields.company} (${fields.phone})`,
+      from_name: 'magnoramarketing.dk',
+      'Emne': fields.topic,
+      'Virksomhed': fields.company,
+      'Telefon': fields.phone,
+      'Sendt fra side': fields.source,
+      'Besked': fields.message,
+    }),
+  });
+  return Boolean((await res.json()).success);
+}
 
 interface PriceCalculatorProps {
   /** Calculators to offer; several are shown as tabs. */
@@ -67,23 +77,17 @@ interface PriceCalculatorProps {
 const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dark' }) => {
   const { t, i18n } = useTranslation();
   const { stepKey, stepLabel, valueText } = useCalculatorText();
-  const navigate = useNavigate();
-  const companyRef = useRef<HTMLInputElement>(null);
+  const { pathname } = useLocation();
   const [company, setCompany] = useState('');
   const [phone, setPhone] = useState('');
   const [phoneError, setPhoneError] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const [variant, setVariant] = useState<CalculatorVariant>(variants[0]);
   const [allValues, setAllValues] = useState(() =>
     Object.fromEntries(variants.map(v => [v, initialValues(v)])) as Record<CalculatorVariant, CalculatorValues>
   );
   const values = allValues[variant];
   const steps = calculatorSteps[variant].filter(s => !isStepHidden(variant, s.id, values));
-  const result = estimate(variant, values);
-  const main = useTweenedNumber(result.main);
-  const secondary = useTweenedNumber(result.secondary);
-
-  const locale = i18n.language === 'en' ? 'en-GB' : i18n.language === 'es' ? 'es-ES' : 'da-DK';
-  const money = (n: number) => t(`${K}.currency`, { value: new Intl.NumberFormat(locale, { maximumFractionDigits: 0 }).format(Math.round(n)) });
 
   const setValue = (id: string, value: CalculatorValues[string]) =>
     setAllValues(prev => ({ ...prev, [variant]: { ...prev[variant], [id]: value } }));
@@ -92,16 +96,46 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
     setValue(id, current.includes(option) ? current.filter(o => o !== option) : [...current, option]);
   };
 
-  // Company name and phone are asked for before the price is "unlocked"; they are
-  // carried to the contact form (sessionStorage, not the URL) and sent from there.
-  const getPrice = (e: React.FormEvent<HTMLFormElement>) => {
+  // "Få pris" sends the lead (company, phone, choices) straight to our inbox, so
+  // we can call back with the price. The e-mail is always written in Danish and
+  // includes the indicative estimate, which the visitor never sees.
+  const getPrice = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (phone.replace(/\D/g, '').length < 8) {
       setPhoneError(true);
       return;
     }
+    const da = i18n.getFixedT('da');
+    const daStepLabel = (id: string) => da(SHARED_STEPS.includes(id) ? `${K}.shared.${id}.label` : `${K}.variants.${variant}.steps.${id}.label`);
+    const daValue = (step: CalculatorStep) => {
+      const base = SHARED_STEPS.includes(step.id) ? `${K}.shared.${step.id}` : `${K}.variants.${variant}.steps.${step.id}`;
+      const value = values[step.id];
+      if (step.kind === 'slider') return da(`${base}.value`, { count: Number(value) });
+      if (step.kind === 'multi') return (Array.isArray(value) ? value : []).map(o => da(`${base}.options.${o}.title`)).join(', ') || da(`${K}.noneSelected`);
+      return da(`${base}.options.${String(value)}.title`);
+    };
+    const kr = (n: number) => da(`${K}.currency`, { value: new Intl.NumberFormat('da-DK').format(n) });
+    const result = estimate(variant, values);
+    const message = [
+      da(`${K}.lead.email.intro`, { calculator: da(`${K}.variants.${variant}.tab`) }),
+      '',
+      ...steps.map(step => `• ${daStepLabel(step.id)}: ${daValue(step)}`),
+      '',
+      da(`${K}.lead.email.estimate`),
+      `• ${da(`${K}.variants.${variant}.mainLabel`)}: ${kr(result.main)}`,
+      `• ${da(`${K}.variants.${variant}.secondaryLabel`)}: ${kr(result.secondary)}`,
+    ].join('\n');
+
     saveCalculatorLead({ company: company.trim(), phone: phone.trim() });
-    navigate(`/kontakt?${toSearchParams(variant, values)}#kontaktformular`);
+    setStatus('sending');
+    const ok = await sendCalculatorLead({
+      topic: calculatorTopic[variant],
+      company: company.trim(),
+      phone: phone.trim(),
+      source: `${da(`${K}.sourceLabel`)} – ${pathname}`,
+      message,
+    }).catch(() => false);
+    setStatus(ok ? 'sent' : 'error');
   };
 
   const dark = tone === 'dark';
@@ -233,7 +267,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
             ))}
           </div>
 
-          {/* Result: choices + locked estimate + CTA to the contact form */}
+          {/* Result: chosen options + company/phone form that sends the lead */}
           <div className="lg:col-span-2 lg:sticky lg:top-28 overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-700 p-6 md:p-7 text-white shadow-2xl shadow-indigo-900/30">
             <div className="flex items-center gap-2 text-sm font-semibold text-blue-100">
               <Sparkles size={16} /> {t(`${K}.resultHeading`)}
@@ -248,25 +282,23 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
               ))}
             </dl>
 
-            <div className="relative mt-5 rounded-2xl bg-slate-950/30 p-5 ring-1 ring-white/15">
-              <p className="text-xs font-semibold uppercase tracking-widest text-blue-100">{t(`${V}.mainLabel`)}</p>
-              <p aria-hidden="true" className="mt-1 select-none text-4xl font-extrabold tabular-nums blur-[7px]">{money(main)}</p>
-              <div className="mt-3 flex justify-between text-sm">
-                <span className="text-blue-100">{t(`${V}.secondaryLabel`)}</span>
-                <span aria-hidden="true" className="select-none font-bold tabular-nums blur-[5px]">{money(secondary)}</span>
-              </div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <button
-                  type="button"
-                  onClick={() => companyRef.current?.focus()}
-                  className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-indigo-700 shadow-lg transition-transform hover:scale-105"
+            {status === 'sent' ? (
+              <div className="mt-5 rounded-2xl bg-white p-6 text-center text-slate-800 shadow-xl" role="status">
+                <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100">
+                  <CheckCircle2 size={26} className="text-emerald-600" />
+                </span>
+                <p className="text-lg font-extrabold text-slate-900">{t(`${K}.lead.successTitle`)}</p>
+                <p className="mt-2 text-sm text-slate-600">{t(`${K}.lead.successText`, { company: company.trim(), phone: phone.trim() })}</p>
+                <Link
+                  to={`/kontakt?${toSearchParams(variant, values)}#kontaktformular`}
+                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-700 hover:text-indigo-800"
                 >
-                  <Lock size={15} /> {t(`${K}.locked`)}
-                </button>
+                  {t(`${K}.lead.moreDetails`)} <ArrowRight size={15} />
+                </Link>
               </div>
-            </div>
-
-            <p className="mt-4 text-sm leading-relaxed text-blue-50">{t(`${K}.lockedText`)}</p>
+            ) : (
+            <>
+            <p className="mt-5 text-sm leading-relaxed text-blue-50">{t(`${K}.lockedText`)}</p>
 
             <form onSubmit={getPrice} className="mt-5 space-y-3">
               <p className="text-sm font-bold">{t(`${K}.lead.heading`)}</p>
@@ -275,7 +307,6 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
                 <span className="flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-slate-800 ring-2 ring-transparent focus-within:ring-blue-300">
                   <Building2 size={17} className="flex-shrink-0 text-indigo-500" />
                   <input
-                    ref={companyRef}
                     name="company"
                     required
                     autoComplete="organization"
@@ -306,11 +337,24 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
               </label>
               <button
                 type="submit"
-                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-indigo-700 shadow-xl transition-all hover:-translate-y-0.5 hover:shadow-2xl"
+                disabled={status === 'sending'}
+                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-indigo-700 shadow-xl transition-all hover:-translate-y-0.5 hover:shadow-2xl disabled:opacity-70"
               >
-                {t(`${K}.cta`)} <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+                {status === 'sending' ? (
+                  <><Loader2 size={18} className="animate-spin" /> {t(`${K}.lead.sending`)}</>
+                ) : (
+                  <>{t(`${K}.cta`)} <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" /></>
+                )}
               </button>
+              {status === 'error' && (
+                <p className="flex items-start gap-2 rounded-xl bg-rose-50 px-3 py-2 text-xs font-medium text-rose-700">
+                  <AlertCircle size={15} className="mt-0.5 flex-shrink-0" />
+                  <span dangerouslySetInnerHTML={{ __html: t(`${K}.lead.error`) }} />
+                </p>
+              )}
             </form>
+            </>
+            )}
 
             <ul className="mt-5 grid gap-2 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
               {trust.map(item => (

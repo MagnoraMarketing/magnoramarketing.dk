@@ -76,8 +76,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://magnoramarketing.dk/digital/spiludvikling</loc>
+    <lastmod>2026-10-30T18:18:58.207Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://magnoramarketing.dk/digital/hjemmesider</loc>
-    <lastmod>2026-10-30T18:07:20.000Z</lastmod>
+    <lastmod>2026-10-30T18:09:39.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

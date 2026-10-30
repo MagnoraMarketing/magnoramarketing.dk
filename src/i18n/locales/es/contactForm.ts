@@ -5,6 +5,7 @@ export default {
       meetingBooking: 'Reserva de reuniones / Televentas',
       webDevelopment: 'Desarrollo web',
       aiSolutions: 'Soluciones de IA',
+      gameDevelopment: 'Desarrollo de videojuegos',
       other: 'Otro',
     },
     topicQuestion: '¿Sobre qué trata tu consulta? *',

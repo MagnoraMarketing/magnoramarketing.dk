@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Send, CheckCircle, AlertCircle, Briefcase, CalendarCheck, Code, Sparkles, MessageSquare, Loader2, Paperclip, X } from 'lucide-react';
+import { Send, CheckCircle, AlertCircle, Briefcase, CalendarCheck, Code, Gamepad2, Sparkles, MessageSquare, Loader2, Paperclip, X } from 'lucide-react';
 
-const WEB3FORMS_ACCESS_KEY = 'd8d905cb-7893-4172-85f2-bcc211e5bb97';
+export const WEB3FORMS_ACCESS_KEY = 'd8d905cb-7893-4172-85f2-bcc211e5bb97';
 
 // Enquiries go to our own Vercel Function (/api/contact), which emails them via
 // Resend with the optional CV / project description as a real attachment.
@@ -26,6 +26,7 @@ export const FORM_TOPICS = [
   { value: 'Pris på Mødebooking / Telesalg', labelKey: 'contactForm.topics.meetingBooking', icon: CalendarCheck },
   { value: 'Webudvikling', labelKey: 'contactForm.topics.webDevelopment', icon: Code },
   { value: 'AI-løsninger', labelKey: 'contactForm.topics.aiSolutions', icon: Sparkles },
+  { value: 'Spiludvikling', labelKey: 'contactForm.topics.gameDevelopment', icon: Gamepad2 },
   { value: 'Andet', labelKey: 'contactForm.topics.other', icon: MessageSquare },
 ] as const;
 

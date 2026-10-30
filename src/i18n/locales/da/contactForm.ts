@@ -5,6 +5,7 @@ export default {
       meetingBooking: 'Mødebooking / Telesalg',
       webDevelopment: 'Webudvikling',
       aiSolutions: 'AI-løsninger',
+      gameDevelopment: 'Spiludvikling',
       other: 'Andet',
     },
     topicQuestion: 'Hvad drejer din henvendelse sig om? *',

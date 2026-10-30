@@ -23,6 +23,7 @@
 
 ## Digitale løsninger
 - [Webudvikling](https://magnoramarketing.dk/digital/webudvikling): Skræddersyet webudvikling der kombinerer teknik og kommerciel indsigt.
+- [Spiludvikling](https://magnoramarketing.dk/digital/spiludvikling): Byg dit eget spil: mobilspil, browserspil, PC-spil og lærings- og firmaspil – se hvad det koster at udvikle et spil og få en gratis pris.
 - [Hjemmesider](https://magnoramarketing.dk/digital/hjemmesider): Prisvenlige, konverteringsstærke hjemmesider til danske virksomheder.
 - [Priser på hjemmesider](https://magnoramarketing.dk/digital/hjemmesider/priser): Pakker og priser på skræddersyede CMS-hjemmesider – fra 155 kr/md.
 - [API & SaaS](https://magnoramarketing.dk/digital/api-saas): Udvikling af API- og SaaS-løsninger til B2B.
