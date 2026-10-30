@@ -7,7 +7,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import PriceCalculator from '../../components/PriceCalculator';
-import { GameConcept, GameConceptArt, GameHeroVisual, ProcessArt, ProcessStep } from '../../components/GameVisuals';
+import { GameConcept, GameConceptArt, ProcessArt, ProcessStep } from '../../components/GameVisuals';
 
 type Item = { title: string; desc: string };
 type Example = { name: string; genre: string; platform: string; desc: string };
@@ -47,7 +47,7 @@ export default function GameDevelopmentPage() {
         ctaLink="/digital/spiludvikling#prisberegner"
         secondaryCtaText={t(`${K}.hero.secondaryCtaText`)}
         secondaryCtaLink="/digital/spiludvikling#pris"
-        visual={<GameHeroVisual />}
+        theme="game"
       />
 
       {/* Free price banner */}
@@ -177,7 +177,7 @@ export default function GameDevelopmentPage() {
       </section>
 
       {/* SEO: can you build it yourself + how to */}
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container mx-auto grid max-w-6xl gap-10 px-4 lg:grid-cols-2">
           <div>
             <div className="mb-4 flex items-center gap-3">

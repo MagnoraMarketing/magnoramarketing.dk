@@ -178,7 +178,7 @@ export const ServiceArticles: React.FC<{ servicePath: string; limit?: number }> 
   const posts = postsForService(servicePath, limit);
   if (posts.length === 0) return null;
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 surface-soft">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{t('blogArticle.serviceArticlesHeading')}</h2>

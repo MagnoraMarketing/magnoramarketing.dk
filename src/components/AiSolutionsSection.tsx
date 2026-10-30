@@ -30,7 +30,7 @@ const AiSolutionsSection: React.FC<AiSolutionsSectionProps> = ({ variant = 'ligh
     },
   ];
 
-  const bg = variant === 'dark' ? 'bg-slate-900' : 'bg-sky-50';
+  const bg = variant === 'dark' ? 'bg-slate-900' : 'surface-soft';
   const headingColor = variant === 'dark' ? 'text-white' : 'text-slate-900';
   const subColor = variant === 'dark' ? 'text-slate-400' : 'text-slate-500';
   const cardBg = variant === 'dark' ? 'bg-white/5 border-white/10' : 'bg-white border-blue-100';

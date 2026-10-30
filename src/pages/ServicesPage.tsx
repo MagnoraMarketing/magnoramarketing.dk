@@ -142,7 +142,7 @@ const ServicesPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-lg border border-gray-100">
+              <div key={index} className="bg-white p-8 rounded-2xl shadow-sm ring-1 ring-slate-200/70">
                 <div className="mb-4">{service.icon}</div>
                 <h3 className="text-2xl font-semibold mb-3">{service.title}</h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
@@ -162,7 +162,7 @@ const ServicesPage: React.FC = () => {
 
       <AiSolutionsSection />
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 surface-soft">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">{t('services.industries.title')}</h2>
@@ -173,7 +173,7 @@ const ServicesPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {industries.map((industry, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
+              <div key={index} className="bg-white p-8 rounded-2xl shadow-sm ring-1 ring-slate-200/70">
                 <div className="mb-4">{industry.icon}</div>
                 <h3 className="text-2xl font-semibold mb-3">{industry.title}</h3>
                 <p className="text-gray-600 mb-4">{industry.description}</p>
@@ -192,13 +192,13 @@ const ServicesPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-blue-600 text-white py-16">
+      <section className="surface-dark py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">{t('services.ctaBanner.title')}</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t('services.ctaBanner.subtitle')}
           </p>
-          <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors shadow-lg">
             {t('services.ctaBanner.buttonText')} <ArrowRight className="ml-2" />
           </Link>
         </div>
@@ -222,7 +222,7 @@ const ServicesPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('services.info2.title')}</h2>

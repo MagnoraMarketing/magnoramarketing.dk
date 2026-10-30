@@ -8,7 +8,7 @@ const NotFoundPage: React.FC = () => {
   return (
     <>
       <SEO title={t('notFound.seoTitle')} description={t('notFound.seoDescription')} noindex />
-      <section className="py-24 bg-gray-50">
+      <section className="py-24 surface-soft">
         <div className="container mx-auto px-4 max-w-2xl text-center">
           <p className="text-blue-600 font-semibold mb-2">404</p>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{t('notFound.title')}</h1>

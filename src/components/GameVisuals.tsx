@@ -299,17 +299,3 @@ export const ProcessArt: React.FC<{ step: ProcessStep }> = ({ step }) => (
     )}
   </svg>
 );
-
-/** Full-bleed hero backdrop: a dim montage of the concept scenes. */
-export const GameHeroVisual: React.FC = () => (
-  <div className="absolute inset-0 overflow-hidden bg-slate-950" aria-hidden="true">
-    <div className="absolute inset-0 grid grid-cols-2 opacity-60 md:grid-cols-4">
-      {(['runner', 'puzzle', 'tycoon', 'quiz'] as GameConcept[]).map((c) => (
-        <div key={c} className="h-full">
-          <GameConceptArt concept={c} />
-        </div>
-      ))}
-    </div>
-    <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-indigo-950/40" />
-  </div>
-);

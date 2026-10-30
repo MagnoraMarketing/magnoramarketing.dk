@@ -156,7 +156,7 @@ export default function WebsitePricingPage() {
 
       <PriceCalculator variants={['website']} />
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 surface-soft">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-10 text-center">{t('digitalWebsitePricing.compare.heading')}</h2>
           <div className="max-w-5xl mx-auto overflow-x-auto bg-white rounded-2xl shadow-sm border border-gray-100">
@@ -194,7 +194,7 @@ export default function WebsitePricingPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {addons.map((addon, i) => (
-              <div key={i} className="flex gap-4 bg-gray-50 rounded-xl p-6 border border-gray-100">
+              <div key={i} className="flex gap-4 bg-white rounded-2xl ring-1 ring-slate-200/70 shadow-sm p-6">
                 <span className="w-9 h-9 rounded-lg flex items-center justify-center bg-blue-50 text-blue-600 flex-shrink-0">
                   <Plus size={18} />
                 </span>

@@ -14,7 +14,7 @@ export default function HvorforMagnoraTelesalg() {
         canonical="/blog/hvorfor-magnora-telesalg"
         keywords={t('blogPosts.HvorforMagnoraTelesalg.keywords')}
       />
-      <div className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
+      <div className="pt-32 pb-16 surface-dark">
         <div className="container mx-auto px-4 max-w-4xl">
           <BlogBreadcrumbs />
           <span className="inline-block bg-blue-500 bg-opacity-40 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-4">{t('blogPosts.HvorforMagnoraTelesalg.category')}</span>

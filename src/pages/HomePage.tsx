@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
         visual={<HeroVisual />}
       />
 
-      <section className="section bg-gray-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="text-center mb-4">
             <span className="section-label">{t('home.process.label')}</span>
@@ -173,7 +173,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-gray-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -203,9 +203,9 @@ const HomePage: React.FC = () => {
                 height={900}
                 loading="lazy"
                 decoding="async"
-                className="rounded-lg shadow-lg object-cover w-full h-[500px]"
+                className="rounded-3xl shadow-2xl shadow-blue-950/20 object-cover w-full h-[500px]"
               />
-              <div className="absolute -bottom-6 -left-6 bg-blue-600 text-white p-6 rounded-lg shadow-lg max-w-xs">
+              <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-600 to-indigo-700 text-white p-6 rounded-2xl shadow-xl shadow-indigo-900/30 max-w-xs">
                 <p className="text-xl font-semibold mb-2">{t('home.growth.statBadge.title')}</p>
                 <p>{t('home.growth.statBadge.subtitle')}</p>
               </div>
@@ -214,7 +214,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-gray-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">{t('home.industriesSection.heading')}</h2>
@@ -225,7 +225,7 @@ const HomePage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {industries.map((industry, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md fade-in hover:shadow-lg transition-shadow" style={{ animationDelay: `${index * 0.1}s` }}>
+              <div key={index} className="bg-white p-6 rounded-2xl shadow-sm ring-1 ring-slate-200/70 fade-in hover:shadow-lg transition-shadow" style={{ animationDelay: `${index * 0.1}s` }}>
                 <h3 className="text-lg font-semibold mb-2 text-blue-600">{industry.name}</h3>
                 <p className="text-gray-600 text-sm">{industry.description}</p>
               </div>
@@ -243,7 +243,7 @@ const HomePage: React.FC = () => {
               <p className="mb-6">
                 {t('home.audience.forCompanies.description')}
               </p>
-              <Link to="/samarbejdspartner" className="btn bg-blue-600 text-white hover:bg-blue-700 inline-flex items-center">
+              <Link to="/samarbejdspartner" className="btn bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-500/25 hover:from-blue-700 hover:to-indigo-700 inline-flex items-center">
                 {t('home.audience.forCompanies.button')} <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
@@ -253,7 +253,7 @@ const HomePage: React.FC = () => {
               <p className="mb-6">
                 {t('home.audience.forSellers.description')}
               </p>
-              <Link to="/freelance-telemarketing" className="btn bg-blue-600 text-white hover:bg-blue-700 inline-flex items-center">
+              <Link to="/freelance-telemarketing" className="btn bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-500/25 hover:from-blue-700 hover:to-indigo-700 inline-flex items-center">
                 {t('home.audience.forSellers.button')} <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>
@@ -279,7 +279,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('home.seoContent2.heading')}</h2>

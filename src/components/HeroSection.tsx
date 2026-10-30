@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight } from 'lucide-react';
+import ThemedHeroVisual, { HeroTheme, themeForImage } from './ThemedHeroVisual';
 
 interface HeroSectionProps {
   title: string;
@@ -13,6 +14,8 @@ interface HeroSectionProps {
   backgroundImage?: string;
   /** Optional code-rendered background visual. When set, it replaces the photo/gradient background. */
   visual?: React.ReactNode;
+  /** Theme of the code-rendered dashboard background; defaults to one matching backgroundImage. */
+  theme?: HeroTheme;
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({
@@ -24,24 +27,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   secondaryCtaLink,
   backgroundImage,
   visual,
+  theme,
 }) => {
   const { t } = useTranslation();
   return (
     <section className="relative min-h-[88vh] flex items-center overflow-hidden">
-      {/* Background */}
-      {visual ? (
-        visual
-      ) : backgroundImage ? (
-        <>
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${backgroundImage})` }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/75 via-blue-800/55 to-indigo-900/60" />
-        </>
-      ) : (
-        <div className="absolute inset-0 bg-hero-gradient" />
-      )}
+      {/* Background: a custom visual, or the themed glass-dashboard backdrop (photos are no longer shown) */}
+      {visual ?? <ThemedHeroVisual theme={theme ?? themeForImage(backgroundImage)} />}
 
       {/* Dot pattern overlay */}
       <div className="absolute inset-0 bg-dot-pattern opacity-40" />

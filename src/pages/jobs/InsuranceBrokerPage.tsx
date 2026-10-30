@@ -205,7 +205,7 @@ export default function InsuranceBrokerPage() {
       </section>
 
       {/* Testimonial */}
-      <section className="py-16 bg-sky-50">
+      <section className="py-16 surface-soft">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <div className="flex justify-center gap-1 mb-5">
             {[...Array(5)].map((_, i) => (
@@ -248,7 +248,7 @@ export default function InsuranceBrokerPage() {
                   </li>
                 ))}
               </ol>
-              <Link to="/kontakt" className="mt-8 inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+              <Link to="/kontakt" className="mt-8 inline-flex items-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-500/25 px-6 py-3 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-colors">
                 {t('jobInsuranceBroker.process.cta')} <ArrowRight size={16} className="ml-2" />
               </Link>
             </div>

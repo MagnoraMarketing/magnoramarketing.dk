@@ -64,7 +64,7 @@ const ContactPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Contact Form */}
             <div className="lg:col-span-3">
-              <div id="kontaktformular" className="bg-white rounded-lg shadow-md p-8">
+              <div id="kontaktformular" className="bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70 p-8">
                 <h2 className="text-2xl font-semibold mb-2">{t('contact.form.title')}</h2>
                 <p className="text-gray-500 text-sm mb-7">{t('contact.form.subtitle')}</p>
                 {calculator && (
@@ -88,7 +88,7 @@ const ContactPage: React.FC = () => {
 
             {/* Contact Information */}
             <div className="lg:col-span-2">
-              <div className="bg-white rounded-lg shadow-md p-8 mb-8">
+              <div className="bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70 p-8 mb-8">
                 <h2 className="text-2xl font-semibold mb-6">{t('contact.info.title')}</h2>
 
                 <div className="space-y-8">
@@ -119,7 +119,7 @@ const ContactPage: React.FC = () => {
                 </div>
               </div>
 
-              <div className="bg-blue-600 text-white rounded-lg shadow-md p-8">
+              <div className="surface-dark rounded-2xl shadow-xl p-8">
                 <h2 className="text-2xl font-semibold mb-4">{t('contact.hours.title')}</h2>
                 <ul className="space-y-2">
                   <li className="flex justify-between">
@@ -145,7 +145,7 @@ const ContactPage: React.FC = () => {
           </div>
 
           {/* SEO Optimized Content */}
-          <div className="mt-16 bg-white rounded-lg shadow-md p-8">
+          <div className="mt-16 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70 p-8">
             <h2 className="text-2xl font-semibold mb-6">{t('contact.seoContent.title')}</h2>
             <div className="prose max-w-none">
               <p className="mb-4">
@@ -184,7 +184,7 @@ const ContactPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('contact.info2.title')}</h2>

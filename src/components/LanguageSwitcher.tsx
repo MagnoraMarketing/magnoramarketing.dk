@@ -58,7 +58,7 @@ const LanguageSwitcher: React.FC<Props> = ({ compact = false }) => {
         <ChevronDown size={14} className={`transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
       {open && (
-        <div className="absolute right-0 top-full mt-2 w-36 bg-white rounded-xl shadow-xl border border-slate-100 py-1.5 z-50">
+        <div className="absolute right-0 top-full mt-2 w-36 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70-xl border border-slate-100 py-1.5 z-50">
           {langs.map(l => (
             <button
               key={l}
