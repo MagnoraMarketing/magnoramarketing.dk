@@ -96,12 +96,12 @@ const PricingPage: React.FC = () => {
 
       <CallingSystemSection />
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 surface-soft">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl font-bold mb-8 text-center">{t('pricing.faq.title')}</h2>
           <div className="space-y-4">
             {faqItems.map((faq, index) => (
-              <div key={index} className="bg-white rounded-lg shadow overflow-hidden">
+              <div key={index} className="bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70 overflow-hidden">
                 <button
                   className="w-full text-left px-6 py-4 flex justify-between items-center font-medium"
                   onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
@@ -118,7 +118,7 @@ const PricingPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-blue-600 text-white py-16">
+      <section className="surface-dark py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-4">{t('pricing.quoteCta.title')}</h2>
@@ -153,7 +153,7 @@ const PricingPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('pricing.info.section2.title')}</h2>

@@ -10,7 +10,7 @@ interface CompanyReferenceProps {
 
 const CompanyReference: React.FC<CompanyReferenceProps> = ({ logo, name, quote, author, title }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 flex flex-col h-full">
+    <div className="bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70 p-6 flex flex-col h-full">
       <div className="flex items-center justify-center mb-6 h-16">
         <img 
           src={logo} 

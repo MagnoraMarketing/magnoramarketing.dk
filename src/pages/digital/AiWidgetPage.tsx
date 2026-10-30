@@ -131,7 +131,7 @@ export default function AiWidgetPage() {
       <BookingAudioDemo variant="aiWidget" />
 
       {/* How it works */}
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="text-center mb-14">
             <span className="section-label">{t('digitalAiWidget.howItWorks.label')}</span>
@@ -178,7 +178,7 @@ export default function AiWidgetPage() {
       <PriceCalculator variants={['ai']} />
 
       {/* Use cases */}
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="text-center mb-12">
             <span className="section-label">{t('digitalAiWidget.useCases.label')}</span>

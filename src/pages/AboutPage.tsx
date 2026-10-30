@@ -65,7 +65,7 @@ const AboutPage: React.FC = () => {
         keywords={t('about.seo.keywords')}
       />
 
-      <section className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
+      <section className="pt-32 pb-16 surface-dark">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
@@ -78,7 +78,7 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-sky-50">
+      <section className="py-16 surface-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <span className="section-label">{t('about.deliverables.label')}</span>
@@ -94,7 +94,7 @@ const AboutPage: React.FC = () => {
               <Link
                 key={index}
                 to={item.link}
-                className="group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col"
+                className="group bg-white p-8 rounded-2xl shadow-sm ring-1 ring-slate-200/70 hover:shadow-xl transition-shadow flex flex-col"
               >
                 <div className="mb-5">{item.icon}</div>
                 <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
@@ -127,7 +127,7 @@ const AboutPage: React.FC = () => {
               <img
                 src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt={t('about.story.imageAlt')}
-                className="rounded-lg shadow-lg"
+                className="rounded-3xl shadow-2xl shadow-blue-950/20"
               />
             </div>
           </div>
@@ -141,7 +141,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {values.map((value, index) => (
-                <div key={index} className="bg-white p-8 rounded-lg shadow-lg text-center">
+                <div key={index} className="bg-white p-8 rounded-2xl shadow-sm ring-1 ring-slate-200/70 text-center">
                   <div className="flex justify-center mb-6">{value.icon}</div>
                   <h3 className="text-xl font-semibold mb-4">{value.title}</h3>
                   <p className="text-gray-600">{value.description}</p>
@@ -176,7 +176,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {industries.map((industry, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md fade-in" style={{ animationDelay: `${index * 0.15}s` }}>
+                <div key={index} className="bg-white p-6 rounded-2xl shadow-sm ring-1 ring-slate-200/70 fade-in" style={{ animationDelay: `${index * 0.15}s` }}>
                   <Building className="w-12 h-12 text-blue-600 mb-4" />
                   <h3 className="text-xl font-semibold mb-3">{industry.name}</h3>
                   <p className="text-gray-600">{industry.description}</p>
@@ -187,13 +187,13 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-blue-600 text-white py-16">
+      <section className="surface-dark py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">{t('about.ctaBanner.title')}</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t('about.ctaBanner.subtitle')}
           </p>
-          <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors shadow-lg">
             {t('about.ctaBanner.buttonText')} <ArrowRight className="ml-2" />
           </Link>
         </div>
@@ -217,7 +217,7 @@ const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('about.info2.title')}</h2>

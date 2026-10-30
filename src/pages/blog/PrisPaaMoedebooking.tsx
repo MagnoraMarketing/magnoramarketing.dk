@@ -37,7 +37,7 @@ export default function PrisPaaMoedebooking() {
         keywords={t(`${K}.keywords`)}
       />
 
-      <div className="pt-32 pb-16 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
+      <div className="pt-32 pb-16 surface-dark">
         <div className="container mx-auto px-4 max-w-5xl">
           <BlogBreadcrumbs />
           <span className="inline-block bg-blue-500/30 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-4">{t(`${K}.category`)}</span>

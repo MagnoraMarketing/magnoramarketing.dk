@@ -144,7 +144,7 @@ const BlogPage: React.FC = () => {
         keywords={t('blogPage.seo.keywords')}
       />
 
-      <section className="pt-32 pb-16 bg-gradient-to-b from-gray-900 to-blue-900">
+      <section className="pt-32 pb-16 surface-dark">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t('blogPage.hero.title')}</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">

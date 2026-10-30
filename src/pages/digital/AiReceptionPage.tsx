@@ -98,7 +98,7 @@ export default function AiReceptionPage() {
       </section>
 
       {/* Features */}
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="text-center mb-14">
             <span className="section-label">{t('digitalAiReception.features.label')}</span>

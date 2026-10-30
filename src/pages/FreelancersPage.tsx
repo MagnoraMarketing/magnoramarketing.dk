@@ -79,7 +79,7 @@ const FreelancersPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 surface-soft">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -89,7 +89,7 @@ const FreelancersPage: React.FC = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 {workFromHomeBenefits.map((benefit, index) => (
-                  <div key={index} className="text-center p-4 bg-white rounded-lg shadow">
+                  <div key={index} className="text-center p-4 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/70">
                     <div className="flex justify-center mb-3">{workFromHomeIcons[index]}</div>
                     <h3 className="font-semibold mb-2">{benefit.title}</h3>
                     <p className="text-gray-600 text-sm">{benefit.description}</p>
@@ -109,7 +109,7 @@ const FreelancersPage: React.FC = () => {
               <img
                 src="/heroes/hero-jobs.jpg"
                 alt={t('freelancers.workFromHome.imageAlt')}
-                className="rounded-lg shadow-lg"
+                className="rounded-3xl shadow-2xl shadow-blue-950/20"
               />
             </div>
           </div>
@@ -142,13 +142,13 @@ const FreelancersPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-blue-600 text-white py-16">
+      <section className="surface-dark py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">{t('freelancers.midCta.title')}</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t('freelancers.midCta.subtitle')}
           </p>
-          <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          <Link to="/kontakt" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors shadow-lg">
             {t('freelancers.midCta.cta')} <ArrowRight className="ml-2" />
           </Link>
         </div>
@@ -172,7 +172,7 @@ const FreelancersPage: React.FC = () => {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('freelancers.info.section2.title')}</h2>

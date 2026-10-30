@@ -14,7 +14,8 @@
   }
 
   body {
-    @apply bg-sky-50 text-slate-600;
+    @apply text-slate-600;
+    background-color: #f5f7ff;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -49,6 +50,34 @@
 
   .container {
     @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  /* Dark navy surface with soft blue/violet glows – heroes, CTA bands, article headers */
+  .surface-dark {
+    @apply text-white;
+    background-color: #0b1430;
+    background-image:
+      radial-gradient(55% 60% at 12% 0%, rgba(37, 99, 235, 0.35), transparent 70%),
+      radial-gradient(45% 55% at 95% 100%, rgba(124, 58, 237, 0.28), transparent 70%),
+      linear-gradient(135deg, #0a1428 0%, #0f1f4d 50%, #1e1b4b 100%);
+  }
+  .surface-dark :is(h1, h2, h3, h4) {
+    @apply text-white;
+  }
+  /* White cards inside a dark surface keep dark headings */
+  .surface-dark :is(.bg-white, .bg-slate-50) :is(h1, h2, h3, h4) {
+    @apply text-slate-900;
+  }
+
+  /* Light alternating sections with a faint indigo glow */
+  .surface-soft {
+    background-color: #f5f7ff;
+    background-image: radial-gradient(60% 50% at 100% 0%, rgba(99, 102, 241, 0.07), transparent 70%);
+  }
+
+  /* Glass card for dark surfaces */
+  .card-glass {
+    @apply rounded-2xl border border-white/10 bg-white/[0.06] backdrop-blur-sm;
   }
 
   /* Cards */

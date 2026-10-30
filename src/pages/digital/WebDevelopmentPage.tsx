@@ -243,7 +243,7 @@ export default function WebDevelopmentPage() {
       <PriceCalculator variants={['website', 'ai']} />
 
       {/* Proces */}
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="text-center mb-14">
             <span className="section-label">{t('digitalWebDevelopment.process.label')}</span>
@@ -372,7 +372,7 @@ export default function WebDevelopmentPage() {
         </div>
       </section>
 
-      <section className="section bg-sky-50">
+      <section className="section surface-soft">
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{t('digitalWebDevelopment.seoSection2.title')}</h2>
