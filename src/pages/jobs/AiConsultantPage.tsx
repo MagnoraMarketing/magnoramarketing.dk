@@ -12,6 +12,7 @@ import FAQSection from '../../components/FAQSection';
 import ContactForm from '../../components/ContactForm';
 import { jobListings } from '../../data/jobListings';
 import { ServiceArticles } from '../../components/BlogPostParts';
+import BookingCta from '../../components/BookingCta';
 
 export default function AiConsultantPage() {
   const { t } = useTranslation();
@@ -83,6 +84,8 @@ export default function AiConsultantPage() {
         secondaryCtaLink="/freelance-telemarketing"
         backgroundImage="/heroes/hero-ai.jpg"
       />
+
+      <BookingCta kind="job" inPage={false} />
 
       {/* Stat band */}
       <section className="relative -mt-8 z-20">

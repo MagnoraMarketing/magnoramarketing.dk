@@ -3,8 +3,9 @@ import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ContactForm from './ContactForm';
 import { jobListings } from '../data/jobListings';
+import BookingCalendar from './BookingCalendar';
 
-/** Application form (with CV upload) shown on every job page. */
+/** Application form (with CV upload) and a booking calendar, shown on every job page. */
 const JobApplicationSection: React.FC = () => {
   const { t } = useTranslation();
   const { pathname } = useLocation();
@@ -18,6 +19,11 @@ const JobApplicationSection: React.FC = () => {
         </div>
         <div className="bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-10 shadow-sm">
           <ContactForm presetTopic="Job henvendelse" sourceLabel={`Jobside: ${job ? t(`jobListings.${job.key}.title`, { lng: 'da' }) : pathname}`} />
+        </div>
+
+        {/* Booking calendar: for candidates who would rather talk first */}
+        <div className="mt-14">
+          <BookingCalendar kind="job" />
         </div>
       </div>
     </section>

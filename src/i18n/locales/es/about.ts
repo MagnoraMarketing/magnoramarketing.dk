@@ -59,13 +59,13 @@ export default {
   },
   info1: {
     title: 'Sobre Magnora Marketing – Agencia de Crecimiento Orientada a Resultados y Especializada en Ventas B2B y Soluciones Digitales',
-    p1: 'Magnora Marketing es una agencia de crecimiento orientada a resultados fundada por profesionales de ventas experimentados con un objetivo claro: ayudar a las empresas B2B en Dinamarca y a nivel internacional a ganar más clientes y generar un crecimiento sostenible. Combinamos la fuerza de ventas humana con soluciones digitales modernas, incluyendo integración de IA, desarrollo web y generación de leads automatizada, y ofrecemos resultados consistentes y de alta calidad independientemente del sector o el público objetivo. Magnora Marketing ha ayudado a más de 200 empresas a lograr un crecimiento concreto y cuenta con una amplia experiencia en más de 16 sectores.',
+    p1: 'Magnora Marketing es una agencia de crecimiento orientada a resultados fundada por profesionales de ventas experimentados con un objetivo claro: ayudar a las empresas B2B en Dinamarca y a nivel internacional a ganar más clientes y generar un crecimiento sostenible. Combinamos la fuerza de ventas humana con soluciones digitales modernas, incluyendo integración de IA, desarrollo web y generación de leads automatizada, y ofrecemos resultados consistentes y de alta calidad independientemente del sector o el público objetivo. Magnora Marketing tiene más de 20 años de amplia experiencia en muchos sectores, de las ventas y la concertación de reuniones al marketing, el concepto y el desarrollo web, de la fase de idea a empresa gacela, y sabemos en qué somos mejores.',
     p2: 'En Magnora Marketing creemos que el mejor camino hacia el crecimiento pasa por relaciones genuinas y una comunicación precisa. Tratamos el negocio de nuestros clientes como si fuera propio e invertimos en relaciones de colaboración a largo plazo basadas en la confianza mutua y la transparencia. Nuestros tres valores fundamentales (Resultados, Transparencia y Colaboración) nos guían en todo lo que hacemos, desde las primeras llamadas hasta las discusiones continuas de optimización con nuestros socios.',
     list: [
-      'Hemos ayudado a más de 200 empresas a lograr un crecimiento demostrado',
+      'Más de 20 años de experiencia, de la fase de idea a empresa gacela',
       'Oficinas en Aarhus, Dinamarca, y Valencia, España',
       'Colaboración conforme al RGPD y totalmente transparente',
-      'Amplia experiencia en más de 16 sectores',
+      'Amplia experiencia en muchos sectores: ventas, concertación de reuniones, marketing, concepto y desarrollo web',
     ],
   },
   info2: {
@@ -75,7 +75,7 @@ export default {
   },
   faqs: [
     { question: '¿Qué servicios ofrece Magnora Marketing?', answer: 'Magnora Marketing ofrece páginas web, reserva de reuniones, televentas y soluciones de IA a medida. Combinamos la fuerza de ventas humana con soluciones digitales personalizadas, para que obtengas televentas, reserva de reuniones cualificada, páginas web optimizadas para la conversión e integraciones de IA bajo un mismo techo.' },
-    { question: '¿Cuándo se fundó Magnora Marketing?', answer: 'Magnora Marketing tiene sus raíces en el telemarketing profesional y las ventas B2B, y ha ayudado a más de 200 empresas a crecer.' },
+    { question: '¿Cuándo se fundó Magnora Marketing?', answer: 'Magnora Marketing tiene sus raíces en el telemarketing profesional y las ventas B2B, y se apoya en más de 20 años de experiencia en muchos sectores, de las ventas y la concertación de reuniones al marketing, el concepto y el desarrollo web.' },
     { question: '¿Dónde está ubicada Magnora Marketing?', answer: 'Magnora Marketing tiene oficinas en Dinamarca (Aarhus) y España (Valencia), y da servicio a clientes en toda Escandinavia y a nivel internacional.' },
     { question: '¿Qué diferencia a Magnora Marketing de otras agencias de telemarketing?', answer: 'Magnora Marketing combina la fuerza de ventas humana con métodos basados en datos y soluciones digitales, todo bajo un mismo techo. Siempre nos centramos en el ROI y en resultados documentados.' },
     { question: '¿Trabajáis con empresas grandes y pequeñas?', answer: 'Sí, colaboramos con empresas de todos los tamaños, desde startups hasta empresas B2B consolidadas.' },

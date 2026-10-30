@@ -280,9 +280,9 @@ export default {
         ],
       },
       {
-        heading: '2. Resultados demostrados en más de 16 sectores',
+        heading: '2. Amplia experiencia en muchos sectores durante más de 20 años',
         body: [
-          'Magnora Marketing ha ayudado a más de 200 empresas a crecer de forma concreta y cuenta con experiencia profunda en más de 16 sectores, desde SaaS y tecnología hasta energía, servicios de consultoría y producción. Conocemos los procesos de venta, las objeciones y las vías de decisión que caracterizan la venta B2B en distintos sectores.',
+          'Magnora Marketing tiene más de 20 años de amplia experiencia en muchos sectores, de las ventas y la concertación de reuniones al marketing, el concepto y el desarrollo web, de la fase de idea a empresa gacela. Hemos trabajado con todo, desde SaaS y tecnología hasta energía, consultoría y producción. Conocemos los procesos de venta, las objeciones y las vías de decisión que caracterizan la venta B2B en distintos sectores.',
         ],
       },
       {

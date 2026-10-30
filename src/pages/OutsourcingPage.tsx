@@ -9,6 +9,8 @@ import CTASection from '../components/CTASection';
 import CallingSystemSection from '../components/CallingSystemSection';
 import ContactForm from '../components/ContactForm';
 import { ServiceArticles } from '../components/BlogPostParts';
+import BookingCalendar from '../components/BookingCalendar';
+import BookingCta from '../components/BookingCta';
 
 interface TextItem {
   title: string;
@@ -78,6 +80,8 @@ const OutsourcingPage: React.FC = () => {
         secondaryCtaLink="/priser"
         backgroundImage="/heroes/hero-partner.jpg"
       />
+
+      <BookingCta kind="business" />
 
       {/* Langsigtet samarbejde – kernebudskab */}
       <section className="relative overflow-hidden py-20 bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white">
@@ -188,6 +192,9 @@ const OutsourcingPage: React.FC = () => {
                 <ContactForm presetTopic="Pris på Mødebooking / Telesalg" sourceLabel="Hvorfor Magnora-siden" />
               </div>
             </div>
+          </div>
+          <div className="mx-auto mt-12 max-w-3xl text-left">
+            <BookingCalendar kind="business" />
           </div>
         </div>
       </section>

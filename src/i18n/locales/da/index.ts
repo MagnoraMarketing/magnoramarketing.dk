@@ -40,6 +40,7 @@ import faqSection from './faqSection';
 import callingSystem from './callingSystem';
 import priceCalculator from './priceCalculator';
 import jobMatcher from './jobMatcher';
+import booking from './booking';
 import priceCalculatorPage from './priceCalculatorPage';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
@@ -111,6 +112,7 @@ export default {
   ...callingSystem,
   priceCalculator,
   jobMatcher,
+  booking,
   priceCalculatorPage,
   blogPage,
   blogPost,

@@ -23,7 +23,7 @@ export default {
     faq2Question: '¿Reserváis reuniones directamente en nuestra agenda?',
     faq2Answer: 'Sí: las reuniones se entregan documentadas con notas e información de contexto directamente en vuestro CRM/agenda, y enviamos confirmaciones y recordatorios automáticos para reducir las ausencias.',
     faq3Question: '¿En qué sectores tenéis experiencia?',
-    faq3Answer: 'Tenemos experiencia profunda en más de 16 sectores, desde SaaS y tecnología hasta energía, servicios de consultoría y fabricación.',
+    faq3Answer: 'Tenemos más de 20 años de amplia experiencia en muchos sectores, desde SaaS y tecnología hasta energía, consultoría y fabricación, y de la fase de idea a empresa gacela.',
     faq4Question: '¿Cómo garantizáis la calidad de las reuniones?',
     faq4Answer: 'Mediante una precalificación exhaustiva, gestores de reuniones experimentados, guiones a medida y control de calidad continuo de las conversaciones y los resultados.',
     faq5Question: '¿Cómo empezamos?',

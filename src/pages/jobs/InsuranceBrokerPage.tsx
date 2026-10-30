@@ -11,6 +11,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import { jobListings } from '../../data/jobListings';
 import JobApplicationSection from '../../components/JobApplicationSection';
+import BookingCta from '../../components/BookingCta';
 
 export default function InsuranceBrokerPage() {
   const { t } = useTranslation();
@@ -86,6 +87,8 @@ export default function InsuranceBrokerPage() {
         secondaryCtaLink="/freelance-telemarketing"
         backgroundImage="/heroes/hero-home.jpg"
       />
+
+      <BookingCta kind="job" />
 
       {/* Stat band */}
       <section className="relative -mt-8 z-20">

@@ -118,8 +118,8 @@ export default {
     ctaButton: 'Solicita un presupuesto sin compromiso',
     imageAlt: 'Crecimiento y éxito para empresas B2B con Magnora Marketing',
     statBadge: {
-      title: 'Hemos ayudado a más de 200 empresas a lograr un crecimiento real',
-      subtitle: 'En Dinamarca y a nivel internacional',
+      title: 'Más de 20 años de experiencia en muchos sectores',
+      subtitle: 'De las ventas y la concertación de reuniones al marketing, el concepto y el desarrollo web',
     },
   },
   freelanceBenefits: {
@@ -168,7 +168,7 @@ export default {
   },
   seoContent1: {
     heading: 'Televentas B2B Profesionales y Reserva de Reuniones en Dinamarca',
-    paragraph1: 'Magnora Marketing es el socio de crecimiento preferido en Dinamarca para empresas B2B que quieren escalar sus ventas sin contratar un gran equipo de ventas interno. Nos especializamos en televentas profesionales, reserva de reuniones cualificada y generación de leads basada en datos – y ofrecemos resultados documentados en más de 16 sectores. Nuestros consultores de ventas experimentados trabajan de forma decidida para identificar a los responsables de decisión relevantes, cualificar prospectos y reservar reuniones directamente en tu agenda, para que tu equipo de ventas pueda centrarse en lo que genera ingresos.',
+    paragraph1: 'Magnora Marketing es el socio de crecimiento preferido en Dinamarca para empresas B2B que quieren escalar sus ventas sin contratar un gran equipo de ventas interno. Nos especializamos en televentas profesionales, reserva de reuniones cualificada y generación de leads basada en datos – con más de 20 años de amplia experiencia en muchos sectores, de la fase de idea a empresa gacela. Nuestros consultores de ventas experimentados trabajan de forma decidida para identificar a los responsables de decisión relevantes, cualificar prospectos y reservar reuniones directamente en tu agenda, para que tu equipo de ventas pueda centrarse en lo que genera ingresos.',
     paragraph2: 'Magnora Marketing combina la fuerza de ventas humana con soluciones digitales modernas – incluyendo integración de IA, desarrollo web y generación automatizada de leads. Ofrecemos dos modelos de precios flexibles: No Cure No Pay, donde solo pagas por resultados documentados, o una solución de paquete fijo con un número mínimo garantizado de reuniones de ventas. Ya seas una startup o una empresa B2B consolidada, Magnora Marketing adapta una solución a tu presupuesto y tus objetivos de crecimiento.',
     checklist: [
       'Acceso directo a los responsables de decisión relevantes de tu público objetivo',
@@ -184,7 +184,7 @@ export default {
   },
   faqs: [
     { question: '¿Qué hace Magnora Marketing?', answer: 'Magnora Marketing es un socio de crecimiento danés especializado en telemarketing B2B, reserva de reuniones, generación de leads, desarrollo web e integración de IA. Ayudamos a las empresas a llenar el pipeline de ventas con reuniones y leads cualificados.' },
-    { question: '¿Con qué sectores trabaja Magnora Marketing?', answer: 'Tenemos experiencia en más de 16 sectores, incluyendo SaaS, consultoras de TI, finanzas, energía, RRHH, transporte, energía solar y empresas de servicios.' },
+    { question: '¿Con qué sectores trabaja Magnora Marketing?', answer: 'Con muchísimos. Tenemos más de 20 años de amplia experiencia: de las ventas y la concertación de reuniones al marketing, el concepto y el desarrollo web, y de la fase de idea a empresa gacela. Entre otros, SaaS, consultoras de TI, finanzas, energía, RRHH, transporte, energía solar y empresas de servicios.' },
     { question: '¿Cuánto cuesta trabajar con Magnora Marketing?', answer: 'Ofrecemos modelos de precios flexibles adaptados al tamaño y las necesidades de tu empresa. Contáctanos para un presupuesto sin compromiso.' },
     { question: '¿Puede Magnora Marketing ayudar tanto con telemarketing como con marketing digital?', answer: 'Sí – Magnora Marketing combina la fuerza de ventas humana con soluciones digitales, incluyendo desarrollo web, integración de IA y generación de leads a través de varios canales.' },
     { question: '¿Con qué rapidez podemos empezar?', answer: 'Normalmente podemos iniciar una colaboración en un plazo de 1-2 semanas tras la primera conversación.' },

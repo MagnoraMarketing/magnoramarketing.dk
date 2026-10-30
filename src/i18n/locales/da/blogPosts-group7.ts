@@ -25,7 +25,7 @@ export default {
       s3: {
         heading: 'Adgang til erfaring og metoder fra dag ét',
         body1:
-          'Du får med det samme adgang til erfarne B2B-sælgere, dokumenterede processer og datadrevne metoder på tværs af mere end 16 brancher. Du behøver ikke opbygge kompetencen internt – den er der fra første uge.',
+          'Du får med det samme adgang til erfarne B2B-sælgere, dokumenterede processer og datadrevne metoder fra over 20 års erfaring i mange brancher. Du behøver ikke opbygge kompetencen internt – den er der fra første uge.',
       },
       s4: {
         heading: 'Forudsigelige omkostninger og lavere risiko',

@@ -68,13 +68,13 @@ export default {
       {
         title: 'Tech & SaaS',
         description: 'Deep experience selling software solutions, cloud platforms and technology products to the business market.',
-        successStory: 'Helped 50+ tech companies significantly increase their sales pipeline',
+        successStory: 'Broad experience growing the sales pipeline for tech companies – from startup to high-growth company',
         expertise: ['SaaS and cloud solutions', 'Enterprise software', 'IT security', 'Digital transformation'],
       },
       {
         title: 'Consulting industry',
         description: 'Specialised experience booking qualified meetings for consulting firms and advisors.',
-        successStory: 'Over 200 campaigns completed for consulting firms',
+        successStory: 'Many years of experience running campaigns for consulting firms and advisers',
         expertise: ['Management consulting', 'Financial advisory', 'HR and recruitment', 'Legal services'],
       },
       {
@@ -117,7 +117,7 @@ export default {
     { question: 'What is the difference between telemarketing and meeting booking?', answer: 'Telemarketing covers all forms of telephone-based B2B sales and customer contact. Meeting booking is specifically focused on booking qualified sales meetings with decision-makers in your target audience.' },
     { question: 'Can you integrate with our CRM system?', answer: 'Yes, Magnora Marketing works with most CRM systems and can deliver leads and meetings directly into your existing sales flow.' },
     { question: 'Do you offer reporting and statistics?', answer: 'Yes – you receive ongoing reports with activity data, meeting statistics and ROI calculation.' },
-    { question: 'Can you help us in specific industries?', answer: 'We have in-depth experience across more than 16 industries and always tailor our approach to your specific industry and target audience.' },
+    { question: 'Can you help us in specific industries?', answer: 'Yes. We have more than 20 years of broad experience across many industries and know what we do best – and we always tailor our approach to your specific industry and target audience.' },
     { question: 'Can Magnora Marketing help us with both B2B and B2C sales?', answer: 'We primarily focus on B2B, but we also have experience with B2C sales within energy, pensions and similar products.' },
     { question: 'What is a typical meeting frequency with Magnora Marketing?', answer: 'We typically hold weekly status meetings with the client and send ongoing reports on activity and results.' },
     { question: 'Do you offer recording of sales calls?', answer: 'Yes – we can offer recording and review of sales calls for training and quality assurance, if you wish.' },

@@ -280,9 +280,9 @@ export default {
         ],
       },
       {
-        heading: '2. Dokumenterede resultater på tværs af 16+ brancher',
+        heading: '2. Bred erfaring i mange brancher gennem over 20 år',
         body: [
-          'Magnora Marketing har hjulpet over 200 virksomheder med konkret vækst og har dybdegående erfaring på tværs af mere end 16 brancher – fra SaaS og tech til energi, konsulentydelser og produktion. Vi kender de salgsprocesser, indvendinger og beslutningsveje, der kendetegner B2B-salg i forskellige sektorer.',
+          'Magnora Marketing har over 20 års bred erfaring i mange brancher – fra salg og mødebooking til marketing, koncept og webudvikling, fra idéfase til gazelle. Vi har arbejdet med alt fra SaaS og tech til energi, konsulentydelser og produktion. Vi kender de salgsprocesser, indvendinger og beslutningsveje, der kendetegner B2B-salg i forskellige sektorer.',
         ],
       },
       {

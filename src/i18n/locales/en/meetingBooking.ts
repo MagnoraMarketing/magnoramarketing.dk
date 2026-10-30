@@ -69,7 +69,7 @@ export default {
       { question: 'What is meeting booking?', answer: 'Meeting booking is the process of identifying and contacting potential customers and booking qualified sales meetings directly in your calendar – so your sales team can focus on closing deals.' },
       { question: 'Who books the meetings?', answer: "Magnora Marketing's experienced meeting bookers contact decision-makers within your target audience, present your solution and book meetings directly in your calendar." },
       { question: 'What happens if a meeting is cancelled?', answer: 'We handle cancellations and rebookings and ensure your calendar is always filled with qualified meetings.' },
-      { question: 'Can you book meetings within specific industries?', answer: 'Yes – we have experience with meeting booking in more than 16 industries and tailor our approach to your target audience.' },
+      { question: 'Can you book meetings within specific industries?', answer: 'Yes – we have more than 20 years of experience with sales and meeting booking across many different industries and tailor our approach to your target audience.' },
       { question: 'What is a typical success rate for meeting booking?', answer: 'It depends on the industry and target audience, but our clients typically experience a meeting rate of 10-20% of qualified contacts.' },
       { question: 'What is a decision-maker?', answer: 'A decision-maker is the person within a company who has the authority to approve a purchase – typically a director, manager or executive.' },
       { question: 'Can you book meetings across all of Scandinavia?', answer: 'We focus primarily on the Danish market, but can also support meeting booking in Sweden and Norway.' },

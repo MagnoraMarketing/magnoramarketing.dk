@@ -126,7 +126,7 @@ export default {
     h1: 'Outbound Sales 2026: Byg en salgsmaskine der skalerer',
     meta: 'Af Magnora Marketing-teamet · 20. januar 2026 · 10 minutters læsning',
     intro:
-      'Outbound salg er stadig en af de mest effektive vækststrategier for B2B virksomheder – men kun når det gøres rigtigt. I 2026 handler det om at kombinere datadrevet targeting med autentisk, menneskelig kommunikation og smarte AI-tools der frigiver sælgernes tid til de aktiviteter der skaber reel værdi. Hos Magnora Marketing arbejder vi dagligt med at optimere outbound salgsprocesser for over 200 virksomheder, og i denne artikel deler vi de strategier og teknikker der virker bedst.',
+      'Outbound salg er stadig en af de mest effektive vækststrategier for B2B virksomheder – men kun når det gøres rigtigt. I 2026 handler det om at kombinere datadrevet targeting med autentisk, menneskelig kommunikation og smarte AI-tools der frigiver sælgernes tid til de aktiviteter der skaber reel værdi. Hos Magnora Marketing har vi over 20 års erfaring med at optimere outbound-salgsprocesser i mange brancher, og i denne artikel deler vi de strategier og teknikker der virker bedst.',
     intro1Heading: 'Hvad er outbound salg – og hvad har ændret sig?',
     intro1Body: [
       'Outbound salg er den proaktive tilgang til at skabe kontakt med potentielle kunder – i modsætning til inbound, hvor kunderne finder dig selv. Traditionelt outbound salg bestod primært af kolde telefonopkald til generiske lister. Moderne outbound salg i 2026 er fundamentalt anderledes: det er datadrevet, præcist målrettet og kombinerer multiple kanaler – telefon, email og LinkedIn – i en koordineret og personaliseret outreach-strategi.',

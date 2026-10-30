@@ -179,7 +179,7 @@ export default {
     meta: 'Af Magnora Marketing-teamet · {{date}} · 9 minutters læsning',
     intro: 'Telesalg er ikke død – men det har ændret sig fundamentalt. I 2026 kræver succesfuldt telesalg en kombination af research, personalisering og ægte konversationskompetencer. Standardscripts og masseopkald er fortid. Det der virker i dag er et solidt fundament af produktviden og brancheindsigt kombineret med evnen til at lytte aktivt, skabe ægte forbindelse og navigere i komplekse B2B salgsprocesser.',
     h2_1: 'Hvad adskiller de bedste telesælgere i 2026?',
-    p1: 'De bedste telesælgere i 2026 er ikke dem der ringer flest op eller følger scriptet mest trofast. De er dem der kombinerer research med autenticitet, og som formår at skabe ægte dialog frem for at levere en salgstale. Hos Magnora Marketing har vi trænet og coachnet hundredvis af telesælgere, og vi ser konsistent de samme karakteristika hos topperformerne:',
+    p1: 'De bedste telesælgere i 2026 er ikke dem der ringer flest op eller følger scriptet mest trofast. De er dem der kombinerer research med autenticitet, og som formår at skabe ægte dialog frem for at levere en salgstale. Hos Magnora Marketing har vi gennem over 20 år trænet og coachet mange telesælgere, og vi ser konsistent de samme karakteristika hos topperformerne:',
     list1: [
       'Grundig research inden opkaldet – de kender virksomheden og kontaktpersonen',
       'Klar og præcis value proposition tilpasset den specifikke modtager',
@@ -213,7 +213,7 @@ export default {
     category: 'Mødebooking',
     title: 'Effektiv Mødebooking i 2026: Strategier der virker',
     meta: 'Af Magnora Marketing-teamet · {{date}} · 9 minutters læsning',
-    intro: 'Mødebooking i 2026 handler ikke om at ringe flest muligt op. Det handler om at ringe til de rigtige, med det rigtige budskab, på det rigtige tidspunkt. Kvalitet slår kvantitet i moderne B2B salg, og de virksomheder der forstår dette, opnår markant bedre resultater med færre ressourcer. I denne artikel gennemgår vi de strategier og metoder der skaber flest kvalificerede salgsmøder – baseret på Magnora Marketing\'s daglige arbejde med B2B mødebooking for over 200 virksomheder.',
+    intro: 'Mødebooking i 2026 handler ikke om at ringe flest muligt op. Det handler om at ringe til de rigtige, med det rigtige budskab, på det rigtige tidspunkt. Kvalitet slår kvantitet i moderne B2B salg, og de virksomheder der forstår dette, opnår markant bedre resultater med færre ressourcer. I denne artikel gennemgår vi de strategier og metoder der skaber flest kvalificerede salgsmøder – baseret på Magnora Marketing\'s daglige arbejde med B2B mødebooking og over 20 års erfaring i mange brancher.',
     h2_1: 'Definér din ideelle kundeprofil (ICP) præcist',
     p1: 'Det vigtigste fundament for effektiv mødebooking er en skarp og præcis definition af din ideelle kundeprofil. Mange virksomheder gør den fejl at definere målgruppen for bredt, hvilket medfører lav hitrate og spildt tid. En god ICP specificerer branche, virksomhedsstørrelse (antal ansatte eller omsætning), geografi, beslutningsrolle og typiske forretningsudfordringer.',
     p2: 'Hos Magnora Marketing starter vi altid med en grundig briefing-session for at forstå kundens ideelle kundeprofil. Vi analyserer eksisterende kunder, identificerer mønstre og definerer de karakteristika der kendetegner de bedste aftaler. Denne indsigt er fundamentet for al efterfølgende lead-research og mødebooking.',

@@ -6,6 +6,7 @@ import SEO from '../components/SEO';
 import CTASection from '../components/CTASection';
 import FAQSection from '../components/FAQSection';
 import ContactForm from '../components/ContactForm';
+import BookingCalendar from '../components/BookingCalendar';
 import { useCalculatorText } from '../components/PriceCalculator';
 import { CalculatorLead, calculatorSteps, calculatorTopic, fromSearchParams, isStepHidden, readCalculatorLead } from '../data/priceCalculator';
 
@@ -136,6 +137,11 @@ const ContactPage: React.FC = () => {
                 </ul>
               </div>
             </div>
+          </div>
+
+          {/* Book a meeting directly */}
+          <div className="mx-auto mt-16 max-w-3xl">
+            <BookingCalendar kind="business" />
           </div>
 
           {/* SEO Optimized Content */}

@@ -68,13 +68,13 @@ export default {
       {
         title: 'Tecnología y SaaS',
         description: 'Amplia experiencia en la venta de soluciones de software, plataformas en la nube y productos tecnológicos al mercado empresarial.',
-        successStory: 'Hemos ayudado a más de 50 empresas tecnológicas a aumentar significativamente su pipeline de ventas',
+        successStory: 'Amplia experiencia aumentando el pipeline de ventas de empresas tecnológicas, de startup a empresa gacela',
         expertise: ['Soluciones SaaS y en la nube', 'Software empresarial', 'Seguridad TI', 'Transformación digital'],
       },
       {
         title: 'Sector de consultoría',
         description: 'Experiencia especializada en reservar reuniones cualificadas para empresas de consultoría y asesores.',
-        successStory: 'Más de 200 campañas realizadas para empresas de consultoría',
+        successStory: 'Muchos años de experiencia en campañas para consultoras y asesores',
         expertise: ['Consultoría de gestión', 'Asesoramiento financiero', 'RRHH y selección de personal', 'Servicios jurídicos'],
       },
       {
@@ -117,7 +117,7 @@ export default {
     { question: '¿Cuál es la diferencia entre telemarketing y reserva de reuniones?', answer: 'El telemarketing abarca todas las formas de venta B2B telefónica y contacto con clientes. La reserva de reuniones se centra específicamente en reservar reuniones de venta cualificadas con responsables de decisión de tu público objetivo.' },
     { question: '¿Podéis integraros con nuestro sistema CRM?', answer: 'Sí, Magnora Marketing trabaja con la mayoría de los sistemas CRM y puede entregar leads y reuniones directamente en tu flujo de ventas existente.' },
     { question: '¿Ofrecéis informes y estadísticas?', answer: 'Sí, recibirás informes continuos con datos de actividad, estadísticas de reuniones y cálculo de ROI.' },
-    { question: '¿Podéis ayudarnos en sectores específicos?', answer: 'Contamos con una amplia experiencia en más de 16 sectores y siempre adaptamos nuestro enfoque a tu sector y público objetivo específicos.' },
+    { question: '¿Podéis ayudarnos en sectores específicos?', answer: 'Sí. Tenemos más de 20 años de amplia experiencia en muchos sectores y sabemos en qué somos mejores, y siempre adaptamos nuestro enfoque a tu sector y público objetivo.' },
     { question: '¿Puede Magnora Marketing ayudarnos tanto con ventas B2B como B2C?', answer: 'Nos centramos principalmente en B2B, pero también tenemos experiencia con ventas B2C en energía, pensiones y productos similares.' },
     { question: '¿Cuál es la frecuencia de reuniones habitual con Magnora Marketing?', answer: 'Normalmente celebramos reuniones semanales de seguimiento con el cliente y enviamos informes continuos sobre actividad y resultados.' },
     { question: '¿Ofrecéis grabación de las llamadas de venta?', answer: 'Sí, podemos ofrecer la grabación y revisión de las llamadas de venta para formación y control de calidad, si lo deseas.' },

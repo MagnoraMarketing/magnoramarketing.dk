@@ -68,13 +68,13 @@ export default {
       {
         title: 'Tech & SaaS',
         description: 'Dyb erfaring med salg af softwareløsninger, cloud-platforme og teknologiprodukter til erhvervsmarkedet.',
-        successStory: 'Hjulpet 50+ tech-virksomheder med at øge salgspipelinen markant',
+        successStory: 'Bred erfaring med at øge salgspipelinen for tech-virksomheder – fra startup til gazelle',
         expertise: ['SaaS og cloud-løsninger', 'Enterprise software', 'IT-sikkerhed', 'Digital transformation'],
       },
       {
         title: 'Konsulentbranchen',
         description: 'Specialiseret erfaring med at booke kvalificerede møder for konsulentvirksomheder og rådgivere.',
-        successStory: 'Over 200 kampagner gennemført for konsulentvirksomheder',
+        successStory: 'Mange års erfaring med kampagner for konsulentvirksomheder og rådgivere',
         expertise: ['Management consulting', 'Finansiel rådgivning', 'HR og rekruttering', 'Juridiske ydelser'],
       },
       {
@@ -117,7 +117,7 @@ export default {
     { question: 'Hvad er forskellen på telemarketing og mødebooking?', answer: 'Telemarketing dækker alle former for telefonisk B2B-salg og kundekontakt. Mødebooking er specifikt fokuseret på at booke kvalificerede salgsmøder hos beslutningstagere i din målgruppe.' },
     { question: 'Kan I integrere med vores CRM-system?', answer: 'Ja, Magnora Marketing arbejder med de fleste CRM-systemer og kan levere leads og møder direkte ind i jeres eksisterende salgsflow.' },
     { question: 'Tilbyder I rapportering og statistik?', answer: 'Ja – du modtager løbende rapporter med aktivitetsdata, mødestatistik og ROI-beregning.' },
-    { question: 'Kan I hjælpe os i specifikke brancher?', answer: 'Vi har dybdegående erfaring med over 16 brancher og tilpasser altid vores tilgang til din specifikke branche og målgruppe.' },
+    { question: 'Kan I hjælpe os i specifikke brancher?', answer: 'Ja. Vi har over 20 års bred erfaring i mange brancher og ved, hvad vi er bedst til – og vi tilpasser altid vores tilgang til din specifikke branche og målgruppe.' },
     { question: 'Kan Magnora Marketing hjælpe os med både B2B og B2C salg?', answer: 'Primært fokuserer vi på B2B, men vi har også erfaring med B2C salg inden for energi, pension og lignende produkter.' },
     { question: 'Hvad er en typisk mødefrekvens med Magnora Marketing?', answer: 'Vi holder typisk ugentlige statusmøder med kunden og sender løbende rapporter på aktivitet og resultater.' },
     { question: 'Tilbyder I optagelse af salgssamtaler?', answer: 'Ja – vi kan tilbyde optagelse og gennemgang af salgssamtaler til træning og kvalitetssikring, hvis du ønsker det.' },

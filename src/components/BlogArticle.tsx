@@ -5,7 +5,7 @@ import { ArrowRight, Mail, Sparkles } from 'lucide-react';
 import SEO from './SEO';
 import FAQSection from './FAQSection';
 import CTASection from './CTASection';
-import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta } from './BlogPostParts';
+import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta, PostBookingCta } from './BlogPostParts';
 
 export interface ArticleSection {
   heading?: string;
@@ -80,6 +80,8 @@ const BlogArticle: React.FC<BlogArticleProps> = ({
           <BlogPostMeta />
         </div>
       </div>
+
+      <PostBookingCta />
 
       {/* Body */}
       <article className="max-w-4xl mx-auto px-4 py-16">

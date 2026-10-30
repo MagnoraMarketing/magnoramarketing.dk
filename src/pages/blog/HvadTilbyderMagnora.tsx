@@ -7,7 +7,7 @@ import {
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
-import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta } from '../../components/BlogPostParts';
+import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta, PostBookingCta } from '../../components/BlogPostParts';
 
 type Stat = { value: string; label: string };
 type Service = { name: string; desc: string; link: string };
@@ -63,6 +63,8 @@ export default function HvadTilbyderMagnora() {
           ))}
         </div>
       </div>
+
+      <PostBookingCta />
 
       <article className="max-w-5xl mx-auto px-4 py-16">
         <p className="text-xl text-gray-700 mb-16 leading-relaxed max-w-4xl">{t(`${K}.intro`)}</p>
