@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import JobApplicationSection from '../../components/JobApplicationSection';
+import JobMatcher from '../../components/JobMatcher';
 
 export default function RemoteWorkPage() {
   const { t } = useTranslation();
@@ -75,6 +76,8 @@ export default function RemoteWorkPage() {
           </div>
         </div>
       </section>
+
+      <JobMatcher />
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-5xl">

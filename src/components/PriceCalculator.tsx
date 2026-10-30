@@ -14,7 +14,7 @@ import {
   saveCalculatorLead,
   toSearchParams,
 } from '../data/priceCalculator';
-import { WEB3FORMS_ACCESS_KEY } from './ContactForm';
+import { sendEnquiry } from '../data/sendEnquiry';
 
 const K = 'priceCalculator';
 // Steps whose texts are shared by several variants (priceCalculator.shared.<id>).
@@ -37,35 +37,6 @@ export const useCalculatorText = () => {
   };
   return { stepKey, stepLabel, optionTitle, valueText };
 };
-
-/**
- * Sends a calculator lead (company, phone and choices) to mail@magnoramarketing.dk
- * via our own /api/contact, falling back to Web3Forms like the contact form does.
- */
-async function sendCalculatorLead(fields: { topic: string; company: string; phone: string; source: string; message: string }) {
-  const body = new FormData();
-  body.append('kind', 'lead');
-  Object.entries(fields).forEach(([k, v]) => body.append(k, v));
-  const viaApi = await fetch('/api/contact', { method: 'POST', headers: { Accept: 'application/json' }, body })
-    .then(async res => res.ok && Boolean((await res.json().catch(() => ({}))).success))
-    .catch(() => false);
-  if (viaApi) return true;
-  const res = await fetch('https://api.web3forms.com/submit', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-    body: JSON.stringify({
-      access_key: WEB3FORMS_ACCESS_KEY,
-      subject: `Nyt lead fra prisberegneren – ${fields.company} (${fields.phone})`,
-      from_name: 'magnoramarketing.dk',
-      'Emne': fields.topic,
-      'Virksomhed': fields.company,
-      'Telefon': fields.phone,
-      'Sendt fra side': fields.source,
-      'Besked': fields.message,
-    }),
-  });
-  return Boolean((await res.json()).success);
-}
 
 interface PriceCalculatorProps {
   /** Calculators to offer; several are shown as tabs. */
@@ -128,7 +99,9 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
 
     saveCalculatorLead({ company: company.trim(), phone: phone.trim() });
     setStatus('sending');
-    const ok = await sendCalculatorLead({
+    const ok = await sendEnquiry({
+      kind: 'lead',
+      subject: `Nyt lead fra prisberegneren – ${company.trim()} (${phone.trim()})`,
       topic: calculatorTopic[variant],
       company: company.trim(),
       phone: phone.trim(),
