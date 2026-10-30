@@ -23,6 +23,7 @@ export default {
     partnerOptions: {
       becomePartner: 'Hazte socio colaborador',
       pricing: 'Precios y paquetes',
+      priceCalculator: 'Calculadora de precios',
       whyUs: '¿Por qué Magnora Marketing?',
       meetingBooking: 'Concertación de reuniones',
       leadGeneration: 'Generación de leads',

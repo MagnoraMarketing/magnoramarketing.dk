@@ -7,6 +7,7 @@ import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
 import { ServiceArticles } from '../components/BlogPostParts';
+import PriceCalculator from '../components/PriceCalculator';
 
 interface ProcessItem {
   title: string;
@@ -71,6 +72,8 @@ const LeadGenerationPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['telemarketing', 'meetings']} />
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">

@@ -7,6 +7,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import { ServiceArticles } from '../../components/BlogPostParts';
+import PriceCalculator from '../../components/PriceCalculator';
 
 export default function WebsitesPage() {
   const { t } = useTranslation();
@@ -166,6 +167,8 @@ export default function WebsitesPage() {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['website']} />
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">

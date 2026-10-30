@@ -7,6 +7,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import { ServiceArticles } from '../../components/BlogPostParts';
+import PriceCalculator from '../../components/PriceCalculator';
 
 export default function AiReceptionPage() {
   const { t } = useTranslation();
@@ -115,6 +116,8 @@ export default function AiReceptionPage() {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['ai']} />
 
       {/* Comparison */}
       <section className="section bg-white">

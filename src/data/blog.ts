@@ -3,6 +3,7 @@
 // links, BlogPosting structured data, the pre-render route list and sitemap.xml.
 // To publish a new post: add its route in src/App.tsx and one entry to blogPosts.json.
 import posts from './blogPosts.json';
+import type { CalculatorVariant } from './priceCalculator';
 
 export type BlogCategoryId = 'samarbejde' | 'telesalg' | 'webudvikling' | 'ai';
 
@@ -62,4 +63,58 @@ export const latestPosts = (limit = 6) => {
     for (const q of queues) if (q.length && picked.length < limit) picked.push(q.shift()!);
   }
   return picked;
+};
+
+/**
+ * Price calculator shown at the end of an article (see BlogPostFooter), by slug.
+ * pris-paa-moedebooking embeds it inline instead.
+ */
+const salesCalculator: CalculatorVariant[] = ['meetings', 'telemarketing'];
+const telemarketingCalculator: CalculatorVariant[] = ['telemarketing', 'meetings'];
+export const blogCalculators: Record<string, CalculatorVariant[]> = {
+  // Mødebooking
+  'modebooking-2026': salesCalculator,
+  'moedebooking-scripts-2026': salesCalculator,
+  'hvorfor-magnora-moedebooking': salesCalculator,
+  'moedebooking-partner-magnora': salesCalculator,
+  'outsource-moedebooking-fordele': salesCalculator,
+  'hvorfor-outsource-salg-og-moedebooking': salesCalculator,
+  'hvad-er-bant-2026': salesCalculator,
+  'saadan-foregaar-samarbejdet': salesCalculator,
+  'vaekstpartner-ide-moedebooking-telesalg': salesCalculator,
+  'hvad-tilbyder-magnora-marketing': salesCalculator,
+  'hvorfor-samarbejde-magnora': salesCalculator,
+  // Telemarketing / telesalg
+  'telesalg-2026': telemarketingCalculator,
+  'outsourcing-telesalg-2026': telemarketingCalculator,
+  'hvorfor-magnora-telesalg': telemarketingCalculator,
+  'telesalg-partner-magnora': telemarketingCalculator,
+  'b2b-telesalg-samarbejde': telemarketingCalculator,
+  'cold-calling-vs-inbound': telemarketingCalculator,
+  'outbound-sales-2026': telemarketingCalculator,
+  'b2b-salg-strategi-2026': telemarketingCalculator,
+  'leadgenerering-strategier-2026': telemarketingCalculator,
+  'startup-til-vaekst-2026': telemarketingCalculator,
+  'vaekst-partner-guide': telemarketingCalculator,
+  'fra-ide-til-salg': telemarketingCalculator,
+  // Hjemmesider
+  'hjemmeside-til-vaekst-2026': ['website'],
+  'websitekonvertering-tips': ['website'],
+  'hvorfor-magnora-webudvikling': ['website'],
+  'ideudvikling-med-magnora': ['website', 'ai'],
+  // AI
+  'pris-paa-ai-reception': ['ai'],
+  'ai-reception-telefonassistent': ['ai'],
+  'ai-kundeservice-doegnet-rundt': ['ai'],
+  'ai-integration-roi-2026': ['ai'],
+  'hvorfor-magnora-ai-integration': ['ai'],
+  'ai-automation-2026': ['ai'],
+  'ai-agenter-automatisering-2026': ['ai'],
+  'ai-sparer-tid-virksomhed': ['ai'],
+  'generativ-ai-forretningsvaerdi': ['ai'],
+  'hvorfor-ai-nu-2026': ['ai'],
+  'bedste-ai-loesninger-smv': ['ai'],
+  'fremtidens-ai-loesninger-2026': ['ai'],
+  'ai-salg-moedebooking-fremtid': ['ai', 'meetings'],
+  '100-bud-ai-opgaveloesning': ['ai'],
 };

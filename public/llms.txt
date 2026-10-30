@@ -16,6 +16,7 @@
 ## Ydelser & priser
 - [Ydelser](https://magnoramarketing.dk/ydelser): Overblik over vores B2B-ydelser: telesalg, mødebooking, leadgenerering og digitale løsninger.
 - [Priser](https://magnoramarketing.dk/priser): Priser og pakker for telesalg, mødebooking og leadgenerering.
+- [Prisberegner](https://magnoramarketing.dk/prisberegner): Beregn prisen på mødebooking, telemarketing, hjemmeside eller AI-løsning og få en skræddersyet pris tilsendt.
 - [Mødebooking – priser](https://magnoramarketing.dk/modebooking-priser): Priser og modeller for professionel B2B-mødebooking.
 - [Leadgenerering](https://magnoramarketing.dk/leadgenerering): Kvalificerede B2B-leads via outbound, SEO, LinkedIn og ABM.
 - [Samarbejdspartner](https://magnoramarketing.dk/samarbejdspartner): Bliv samarbejdspartner og få en dedikeret vækstpartner til salg og digitale løsninger.

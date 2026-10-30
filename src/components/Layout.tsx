@@ -22,7 +22,7 @@ const ScrollToTop: React.FC = () => {
 
 // Pilot-period widget targets businesses looking to collaborate, not job seekers or the contact page
 const TRIAL_WIDGET_PATHS = [
-  '/', '/samarbejdspartner', '/ydelser', '/priser', '/hvorfor-os', '/modebooking-priser', '/leadgenerering',
+  '/', '/samarbejdspartner', '/ydelser', '/priser', '/prisberegner', '/hvorfor-os', '/modebooking-priser', '/leadgenerering',
   // Blog posts in the "Samarbejde & Vækst" category
   '/blog/hvorfor-samarbejde-magnora',
   '/blog/ideudvikling-med-magnora',

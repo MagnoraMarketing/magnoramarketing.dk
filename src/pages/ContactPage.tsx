@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Mail, MapPin } from 'lucide-react';
+import { Calculator, Mail, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
 import CTASection from '../components/CTASection';
 import FAQSection from '../components/FAQSection';
 import ContactForm from '../components/ContactForm';
+import { useCalculatorText } from '../components/PriceCalculator';
+import { calculatorSteps, calculatorTopic, fromSearchParams, isStepHidden } from '../data/priceCalculator';
 
 interface FaqItem {
   question: string;
@@ -15,6 +18,23 @@ const ContactPage: React.FC = () => {
   const { t } = useTranslation();
   const faqs = t('contact.faqs', { returnObjects: true }) as FaqItem[];
   const seoContentList = t('contact.seoContent.list', { returnObjects: true }) as string[];
+  const { search } = useLocation();
+  const { stepLabel, valueText } = useCalculatorText();
+
+  // Visitors arriving from a price calculator ("Få pris") get their choices
+  // pre-filled in the message. Read after mount so the pre-rendered page matches.
+  const [calculator, setCalculator] = useState<ReturnType<typeof fromSearchParams>>(null);
+  useEffect(() => setCalculator(fromSearchParams(new URLSearchParams(search))), [search]);
+  const calculatorMessage = calculator && [
+    t('priceCalculator.message.intro', { calculator: t(`priceCalculator.variants.${calculator.variant}.tab`) }),
+    '',
+    ...calculatorSteps[calculator.variant]
+      .filter(step => !isStepHidden(calculator.variant, step.id, calculator.values))
+      .map(step => `• ${stepLabel(calculator.variant, step.id)}: ${valueText(calculator.variant, step, calculator.values[step.id])}`),
+    '',
+    t('priceCalculator.message.outro'),
+    '',
+  ].join('\n');
 
   return (
     <>
@@ -38,10 +58,23 @@ const ContactPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Contact Form */}
             <div className="lg:col-span-3">
-              <div className="bg-white rounded-lg shadow-md p-8">
+              <div id="kontaktformular" className="bg-white rounded-lg shadow-md p-8">
                 <h2 className="text-2xl font-semibold mb-2">{t('contact.form.title')}</h2>
                 <p className="text-gray-500 text-sm mb-7">{t('contact.form.subtitle')}</p>
-                <ContactForm sourceLabel={t('contact.form.sourceLabel')} />
+                {calculator && (
+                  <div className="mb-7 flex gap-3 rounded-xl border border-blue-100 bg-blue-50 p-4">
+                    <Calculator size={20} className="mt-0.5 flex-shrink-0 text-blue-600" />
+                    <div>
+                      <p className="font-semibold text-slate-900">{t('priceCalculator.contactBanner.title')}</p>
+                      <p className="text-sm text-slate-600">{t('priceCalculator.contactBanner.text')}</p>
+                    </div>
+                  </div>
+                )}
+                <ContactForm
+                  sourceLabel={calculator ? `${t('contact.form.sourceLabel')} – ${t('priceCalculator.sourceLabel')}` : t('contact.form.sourceLabel')}
+                  initialTopic={calculator ? calculatorTopic[calculator.variant] : undefined}
+                  initialMessage={calculatorMessage || undefined}
+                />
               </div>
             </div>
 

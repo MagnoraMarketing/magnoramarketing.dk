@@ -23,6 +23,7 @@ export default {
     partnerOptions: {
       becomePartner: 'Bliv samarbejdspartner',
       pricing: 'Priser & Pakker',
+      priceCalculator: 'Prisberegner',
       whyUs: 'Hvorfor Magnora Marketing?',
       meetingBooking: 'Mødebooking',
       leadGeneration: 'Leadgenerering',

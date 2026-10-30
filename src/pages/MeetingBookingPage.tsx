@@ -8,6 +8,7 @@ import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
 import CallingSystemSection from '../components/CallingSystemSection';
 import { ServiceArticles } from '../components/BlogPostParts';
+import PriceCalculator from '../components/PriceCalculator';
 
 interface FeatureItem {
   title: string;
@@ -78,6 +79,8 @@ const MeetingBookingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['meetings', 'telemarketing']} />
 
       <CallingSystemSection />
 

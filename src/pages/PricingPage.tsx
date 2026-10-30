@@ -9,6 +9,7 @@ import CTASection from '../components/CTASection';
 import CallingSystemSection from '../components/CallingSystemSection';
 import ContactForm from '../components/ContactForm';
 import { ServiceArticles } from '../components/BlogPostParts';
+import PriceCalculator from '../components/PriceCalculator';
 
 interface PricingModel {
   title: string;
@@ -86,6 +87,8 @@ const PricingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['meetings', 'telemarketing']} />
 
       <CallingSystemSection />
 
