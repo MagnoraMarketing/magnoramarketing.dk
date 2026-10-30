@@ -2,9 +2,16 @@
 // "business" for companies interested in a collaboration.
 export type BookingKind = 'job' | 'business';
 
+/** Cal.com "calLink" (user/event) for the inline embed. */
+export const CAL_LINKS: Record<BookingKind, string> = {
+  job: 'magnora-marketing-30zqdm/book-møde-omkring-job-magnoramarketing.dk',
+  business: 'magnora-marketing-30zqdm/book-møde-magnoramarketing.dk',
+};
+
+/** Public booking page, for the "open in a new window" link and pages without the embed. */
 export const BOOKING_URLS: Record<BookingKind, string> = {
-  job: 'https://cal.com/magnora-marketing-30zqdm/book-m%C3%B8de-omkring-job-magnoramarketing.dk',
-  business: 'https://cal.com/magnora-marketing-30zqdm/book-m%C3%B8de-magnoramarketing.dk',
+  job: `https://cal.com/${encodeURI(CAL_LINKS.job)}`,
+  business: `https://cal.com/${encodeURI(CAL_LINKS.business)}`,
 };
 
 /** Anchor of the embedded calendar (BookingCalendar), used by BookingCta to scroll to it. */
