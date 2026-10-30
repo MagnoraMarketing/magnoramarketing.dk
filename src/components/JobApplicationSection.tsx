@@ -4,10 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { CalendarDays, CheckCircle2, ExternalLink, MousePointerClick } from 'lucide-react';
 import ContactForm from './ContactForm';
 import { jobListings } from '../data/jobListings';
-
-// Cal.com event for a short call about the job (team: Magnora Marketing).
-const CAL_LINK = 'magnora-marketing-30zqdm/book-m%C3%B8de-omkring-job-magnoramarketing.dk';
-const CAL_URL = `https://cal.com/${CAL_LINK}`;
+import { JOB_BOOKING_URL as CAL_URL } from '../data/jobBooking';
 
 /** Application form (with CV upload) and a booking calendar, shown on every job page. */
 const JobApplicationSection: React.FC = () => {

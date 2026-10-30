@@ -7,6 +7,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import JobApplicationSection from '../../components/JobApplicationSection';
 import JobMatcher from '../../components/JobMatcher';
+import JobBookingCta from '../../components/JobBookingCta';
 
 export default function RemoteWorkPage() {
   const { t } = useTranslation();
@@ -56,6 +57,8 @@ export default function RemoteWorkPage() {
         secondaryCtaLink="/kontakt"
         backgroundImage="/heroes/hero-jobs.jpg"
       />
+
+      <JobBookingCta />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">

@@ -6,6 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import JobApplicationSection from '../../components/JobApplicationSection';
+import JobBookingCta from '../../components/JobBookingCta';
 
 export default function PensionPage() {
   const { t } = useTranslation();
@@ -46,6 +47,8 @@ export default function PensionPage() {
         secondaryCtaLink="/freelance-telemarketing"
         backgroundImage="/heroes/hero-moedebooking.jpg"
       />
+
+      <JobBookingCta />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
