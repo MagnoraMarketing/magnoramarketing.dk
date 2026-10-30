@@ -12,6 +12,8 @@ import {
   postsForService,
 } from '../data/blog';
 import PriceCalculator from './PriceCalculator';
+import BookingCalendar from './BookingCalendar';
+import BookingCta from './BookingCta';
 
 // Shared building blocks for every blog article (both the BlogArticle template and
 // the older hand-built article pages). They look the post up from the current URL
@@ -105,7 +107,8 @@ const PostLinkCard: React.FC<{ post: BlogPostEntry }> = ({ post }) => {
 /**
  * End-of-article block: author box (E-E-A-T), related articles and the service
  * pages the article supports, preceded by the matching price calculator
- * (blogCalculators). Rendered before the closing CTA on every post.
+ * (blogCalculators) and, on collaboration articles, a booking calendar.
+ * Rendered before the closing CTA on every post.
  */
 export const BlogPostFooter: React.FC = () => {
   const { t } = useTranslation();
@@ -119,6 +122,12 @@ export const BlogPostFooter: React.FC = () => {
     <>
       {calculator && <div className="mb-16"><PriceCalculator variants={calculator} /></div>}
       <aside className="max-w-4xl mx-auto px-4 pb-16">
+        {/* Collaboration articles: book a meeting with us directly */}
+        {post.category === 'samarbejde' && (
+          <div className="mb-12">
+            <BookingCalendar kind="business" />
+          </div>
+        )}
         <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 mb-10">
           <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-2">{t('blogArticle.authorHeading')}</p>
           <p className="text-lg font-bold text-slate-900 mb-2">{t('blogArticle.authorName')}</p>
@@ -155,6 +164,12 @@ export const BlogPostFooter: React.FC = () => {
       </aside>
     </>
   );
+};
+
+/** "Book a meeting" banner below the header of collaboration articles; scrolls to the calendar in BlogPostFooter. */
+export const PostBookingCta: React.FC = () => {
+  const post = useCurrentPost();
+  return post?.category === 'samarbejde' ? <BookingCta kind="business" /> : null;
 };
 
 /** Blog articles supporting a service page ("Artikler om emnet"). */

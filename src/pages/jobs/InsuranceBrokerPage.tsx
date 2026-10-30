@@ -11,7 +11,7 @@ import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import { jobListings } from '../../data/jobListings';
 import JobApplicationSection from '../../components/JobApplicationSection';
-import JobBookingCta from '../../components/JobBookingCta';
+import BookingCta from '../../components/BookingCta';
 
 export default function InsuranceBrokerPage() {
   const { t } = useTranslation();
@@ -88,7 +88,7 @@ export default function InsuranceBrokerPage() {
         backgroundImage="/heroes/hero-home.jpg"
       />
 
-      <JobBookingCta />
+      <BookingCta kind="job" />
 
       {/* Stat band */}
       <section className="relative -mt-8 z-20">

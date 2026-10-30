@@ -33,19 +33,6 @@ export default {
     },
     error: 'Something went wrong – your message was not sent. Please try again, or email us directly at <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
     jobApplication: {
-      cta: {
-        heading: 'Interested in job opportunities, a possible collaboration or just want to hear more about what Magnora Marketing can offer you?',
-        text: 'Book a short, no-obligation meeting in the calendar – and we will have a chat about your options.',
-        button: 'Book a meeting',
-      },
-      calendar: {
-        heading: 'Rather have a chat first?',
-        text: 'Book a short, no-obligation meeting about the job. Pick a time that suits you, and we will tell you about the tasks, the pay and how to get started.',
-        free: 'Free and no obligation',
-        pickTime: 'Pick your own time',
-        iframeTitle: 'Book a meeting about a job at Magnora Marketing',
-        openNewWindow: 'Open the calendar in a new window',
-      },
       heading: 'Apply for the job here',
       text: 'Fill in the form and attach your CV. We will get back to you within one business day.',
     },

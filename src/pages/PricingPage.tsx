@@ -10,6 +10,8 @@ import CallingSystemSection from '../components/CallingSystemSection';
 import ContactForm from '../components/ContactForm';
 import { ServiceArticles } from '../components/BlogPostParts';
 import PriceCalculator from '../components/PriceCalculator';
+import BookingCalendar from '../components/BookingCalendar';
+import BookingCta from '../components/BookingCta';
 
 interface PricingModel {
   title: string;
@@ -52,6 +54,8 @@ const PricingPage: React.FC = () => {
         ctaLink="/kontakt"
         backgroundImage="/heroes/hero-partner.jpg"
       />
+
+      <BookingCta kind="business" />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -124,6 +128,9 @@ const PricingPage: React.FC = () => {
           </div>
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl p-8 text-left">
             <ContactForm presetTopic="Pris på Mødebooking / Telesalg" sourceLabel="Prissiden" />
+          </div>
+          <div className="mx-auto mt-12 max-w-3xl text-left">
+            <BookingCalendar kind="business" />
           </div>
         </div>
       </section>

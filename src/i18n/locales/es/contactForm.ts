@@ -33,19 +33,6 @@ export default {
     },
     error: 'Algo salió mal – tu mensaje no se ha enviado. Inténtalo de nuevo o escríbenos directamente a <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
     jobApplication: {
-      cta: {
-        heading: '¿Te interesan las oportunidades de empleo, una posible colaboración o simplemente quieres saber más sobre lo que Magnora Marketing puede ofrecerte?',
-        text: 'Reserva una reunión breve y sin compromiso en el calendario y hablamos de tus opciones.',
-        button: 'Reservar una reunión',
-      },
-      calendar: {
-        heading: '¿Prefieres hablar primero?',
-        text: 'Reserva una reunión breve y sin compromiso sobre el puesto. Elige el momento que mejor te venga y te contaremos las tareas, el sueldo y cómo empezar.',
-        free: 'Gratis y sin compromiso',
-        pickTime: 'Elige tú el momento',
-        iframeTitle: 'Reservar una reunión sobre un empleo en Magnora Marketing',
-        openNewWindow: 'Abrir el calendario en una ventana nueva',
-      },
       heading: 'Solicita el puesto aquí',
       text: 'Rellena el formulario y adjunta tu CV. Te responderemos en un día laborable.',
     },

@@ -10,6 +10,8 @@ import CallingSystemSection from '../components/CallingSystemSection';
 import AiSolutionsSection from '../components/AiSolutionsSection';
 import ContactForm from '../components/ContactForm';
 import PriceCalculator from '../components/PriceCalculator';
+import BookingCalendar from '../components/BookingCalendar';
+import BookingCta from '../components/BookingCta';
 
 interface BenefitItem {
   title: string;
@@ -64,6 +66,8 @@ const PartnersPage: React.FC = () => {
         backgroundImage="/heroes/hero-partner.jpg"
       />
 
+      <BookingCta kind="business" />
+
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -113,6 +117,9 @@ const PartnersPage: React.FC = () => {
           </div>
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg border border-slate-100 p-8">
             <ContactForm presetTopic="Pris på Mødebooking / Telesalg" sourceLabel="Samarbejdspartner-siden" />
+          </div>
+          <div className="mx-auto mt-12 max-w-3xl text-left">
+            <BookingCalendar kind="business" />
           </div>
         </div>
       </section>

@@ -6,7 +6,7 @@ import HeroSection from '../../components/HeroSection';
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import JobApplicationSection from '../../components/JobApplicationSection';
-import JobBookingCta from '../../components/JobBookingCta';
+import BookingCta from '../../components/BookingCta';
 
 export default function PensionPage() {
   const { t } = useTranslation();
@@ -48,7 +48,7 @@ export default function PensionPage() {
         backgroundImage="/heroes/hero-moedebooking.jpg"
       />
 
-      <JobBookingCta />
+      <BookingCta kind="job" />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
