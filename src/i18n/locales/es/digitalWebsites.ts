@@ -108,6 +108,7 @@ export default {
     visitLabel: 'Visitar sitio',
     altTemplate: 'Página web que hemos creado: {{name}}',
     items: [
+      { desc: 'Web para una arquitecta especializada en ciudad y salud – multilingüe, con blog y páginas de proyectos.' },
       { desc: 'Página web para una empresa de vigilancia y seguridad.' },
       { desc: 'Plataforma para widget de voz con IA y reserva automática de reuniones.' },
       { desc: 'Página web para telemarketing B2B y reserva de reuniones.' },

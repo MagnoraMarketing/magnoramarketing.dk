@@ -108,6 +108,7 @@ export default {
     visitLabel: 'Besøg side',
     altTemplate: 'Hjemmeside vi har bygget: {{name}}',
     items: [
+      { desc: 'Hjemmeside for arkitekt med fokus på byer og sundhed – flersproget med blog og projektsider.' },
       { desc: 'Hjemmeside til vagt- og sikkerhedsvirksomhed.' },
       { desc: 'Platform for AI voice widget & automatisk mødebooking.' },
       { desc: 'Hjemmeside for B2B telemarketing & mødebooking.' },

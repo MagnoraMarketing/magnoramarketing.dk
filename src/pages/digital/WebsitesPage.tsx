@@ -64,6 +64,12 @@ export default function WebsitesPage() {
 
   const showcaseSites = [
     {
+      image: '/references/showcase-lilianasalaverry.jpg',
+      name: 'Liliana Salaverry', // i18n-ignore – brand name
+      url: 'https://www.lilianasalaverry.com/en',
+      domain: 'lilianasalaverry.com'
+    },
+    {
       image: '/references/showcase-mtvagt.jpg',
       name: 'MT Vagt', // i18n-ignore – brand name
       url: 'https://mtvagt.dk/',
@@ -332,7 +338,7 @@ export default function WebsitesPage() {
                 href={site.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                className="group block bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 md:last:odd:col-span-2 md:last:odd:w-[calc(50%-1rem)] md:last:odd:justify-self-center"
               >
                 <div className="relative overflow-hidden">
                   <img
