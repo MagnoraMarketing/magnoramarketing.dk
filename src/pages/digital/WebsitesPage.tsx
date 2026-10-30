@@ -70,6 +70,12 @@ export default function WebsitesPage() {
       domain: 'lilianasalaverry.com'
     },
     {
+      image: '/references/showcase-bookgardinbussen.jpg',
+      name: 'Book Gardinbussen', // i18n-ignore – brand name
+      url: 'https://www.bookgardinbussen.online/',
+      domain: 'bookgardinbussen.online'
+    },
+    {
       image: '/references/showcase-mtvagt.jpg',
       name: 'MT Vagt', // i18n-ignore – brand name
       url: 'https://mtvagt.dk/',

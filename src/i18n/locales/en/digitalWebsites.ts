@@ -109,6 +109,7 @@ export default {
     altTemplate: 'Website we have built: {{name}}',
     items: [
       { desc: 'Website for an architect focused on cities and health – multilingual with a blog and project pages.' },
+      { desc: 'Guide and booking site about curtains and sun protection, with city guides and a lead flow for free home visits.' },
       { desc: 'Website for a security and guard services company.' },
       { desc: 'Platform for an AI voice widget & automatic meeting booking.' },
       { desc: 'Website for B2B telemarketing & meeting booking.' },
