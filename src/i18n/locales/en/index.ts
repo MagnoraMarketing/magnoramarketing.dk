@@ -36,6 +36,7 @@ import trialWidget from './trialWidget';
 import bookingAudio from './bookingAudio';
 import notFound from './notFound';
 import faqSection from './faqSection';
+import callingSystem from './callingSystem';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
 import blogPostIndex from './blogPostIndex';
@@ -100,6 +101,7 @@ export default {
   ...bookingAudio,
   ...notFound,
   ...faqSection,
+  ...callingSystem,
   blogPage,
   blogPost,
   blogPostIndex,

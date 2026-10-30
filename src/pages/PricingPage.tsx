@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import CallingSystemSection from '../components/CallingSystemSection';
 import ContactForm from '../components/ContactForm';
 import { ServiceArticles } from '../components/BlogPostParts';
 
@@ -85,6 +86,8 @@ const PricingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <CallingSystemSection />
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-3xl">

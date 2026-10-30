@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import CallingSystemSection from '../components/CallingSystemSection';
 import ContactForm from '../components/ContactForm';
 import { ServiceArticles } from '../components/BlogPostParts';
 
@@ -108,6 +109,8 @@ const OutsourcingPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <CallingSystemSection />
 
       {/* Vores kompetencer */}
       <section className="section bg-white">
