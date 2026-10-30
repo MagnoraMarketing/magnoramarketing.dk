@@ -59,13 +59,13 @@ export default {
   },
   info1: {
     title: 'Om Magnora Marketing – Resultatdrevet Vækstbureau med Speciale i B2B Salg og Digitale Løsninger',
-    p1: 'Magnora Marketing er et resultatdrevet vækstbureau grundlagt af erfarne salgsprofessionelle med ét klart mål: at hjælpe B2B virksomheder i Danmark og internationalt med at vinde flere kunder og skabe bæredygtig vækst. Vi kombinerer menneskelig salgskraft med moderne digitale løsninger – herunder AI-integration, webudvikling og automatiseret leadgenerering – og leverer konsistente, høje resultater uanset branche og målgruppe. Magnora Marketing har hjulpet over 200 virksomheder med konkret vækst og har dybdegående erfaring på tværs af over 16 brancher.',
+    p1: 'Magnora Marketing er et resultatdrevet vækstbureau grundlagt af erfarne salgsprofessionelle med ét klart mål: at hjælpe B2B virksomheder i Danmark og internationalt med at vinde flere kunder og skabe bæredygtig vækst. Vi kombinerer menneskelig salgskraft med moderne digitale løsninger – herunder AI-integration, webudvikling og automatiseret leadgenerering – og leverer konsistente, høje resultater uanset branche og målgruppe. Magnora Marketing har over 20 års bred erfaring i mange brancher – fra salg og mødebooking til marketing, koncept og webudvikling, fra idéfase til gazelle – og vi ved, hvad vi er bedst til.',
     p2: 'Hos Magnora Marketing tror vi på, at den bedste vej til vækst går gennem ægte relationer og præcis kommunikation. Vi behandler vores kunders forretning som vores egen og investerer i langvarige samarbejdsrelationer baseret på gensidig tillid og transparens. Vores tre kerneværdier – Resultater, Transparens og Partnerskab – guider os i alt hvad vi gør, fra de første opkald til de løbende optimeringsdiskussioner med vores samarbejdspartnere.',
     list: [
-      'Hjulpet over 200 virksomheder med dokumenteret vækst',
+      'Over 20 års erfaring – fra idéfase til gazelle',
       'Kontorer i Aarhus, Danmark og Valencia, Spanien',
       'GDPR-compliant og fuldt transparent samarbejde',
-      'Dybdegående erfaring på tværs af 16+ brancher',
+      'Bred erfaring i mange brancher – salg, mødebooking, marketing, koncept og webudvikling',
     ],
   },
   info2: {
@@ -75,7 +75,7 @@ export default {
   },
   faqs: [
     { question: 'Hvilke ydelser leverer Magnora Marketing?', answer: 'Magnora Marketing leverer hjemmesider, mødebooking, telesalg og AI-løsninger efter ønske. Vi kombinerer menneskelig salgskraft med skræddersyede digitale løsninger, så du får telesalg, kvalificeret mødebooking, konverteringsoptimerede hjemmesider og AI-integrationer under ét tag.' },
-    { question: 'Hvornår blev Magnora Marketing grundlagt?', answer: 'Magnora Marketing har rødder i professionel telemarketing og B2B salg og har hjulpet over 200 virksomheder med at vækste.' },
+    { question: 'Hvornår blev Magnora Marketing grundlagt?', answer: 'Magnora Marketing har rødder i professionel telemarketing og B2B salg og bygger på over 20 års erfaring i mange brancher – fra salg og mødebooking til marketing, koncept og webudvikling.' },
     { question: 'Hvor er Magnora Marketing baseret?', answer: 'Magnora Marketing har kontorer i Danmark (Aarhus) og Spanien (Valencia), og betjener kunder i hele Skandinavien og internationalt.' },
     { question: 'Hvad adskiller Magnora Marketing fra andre telemarketingbureauer?', answer: 'Magnora Marketing kombinerer menneskelig salgskraft med datadrevne metoder og digitale løsninger – alt under ét tag. Vi fokuserer altid på ROI og dokumenterede resultater.' },
     { question: 'Arbejder I med store og små virksomheder?', answer: 'Ja – vi samarbejder med virksomheder i alle størrelser, fra iværksættere til etablerede B2B virksomheder.' },

@@ -23,7 +23,7 @@ export default {
     faq2Question: 'Booker I møder direkte i vores kalender?',
     faq2Answer: 'Ja – møder leveres dokumenteret med noter og baggrund direkte i jeres CRM/kalender, og vi sender automatiske bekræftelser og påmindelser for at reducere no-shows.',
     faq3Question: 'Hvilke brancher har I erfaring med?',
-    faq3Answer: 'Vi har dybdegående erfaring på tværs af mere end 16 brancher, fra SaaS og tech til energi, konsulentydelser og produktion.',
+    faq3Answer: 'Vi har over 20 års bred erfaring i mange brancher – fra SaaS og tech til energi, konsulentydelser og produktion, og fra idéfase til gazelle.',
     faq4Question: 'Hvordan sikrer I mødekvaliteten?',
     faq4Answer: 'Gennem grundig forhåndskvalificering, erfarne mødebookere, skræddersyede scripts og løbende QA af samtaler og resultater.',
     faq5Question: 'Hvordan kommer vi i gang?',

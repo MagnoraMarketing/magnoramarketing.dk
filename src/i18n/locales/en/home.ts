@@ -118,8 +118,8 @@ export default {
     ctaButton: 'Get a no-obligation quote',
     imageAlt: 'Growth and success for B2B companies with Magnora Marketing',
     statBadge: {
-      title: 'Helped +200 companies achieve real growth',
-      subtitle: 'In Denmark and internationally',
+      title: 'More than 20 years of experience across many industries',
+      subtitle: 'From sales and meeting booking to marketing, concept and web development',
     },
   },
   freelanceBenefits: {
@@ -168,7 +168,7 @@ export default {
   },
   seoContent1: {
     heading: 'Professional B2B Telesales and Meeting Booking in Denmark',
-    paragraph1: 'Magnora Marketing is Denmark\'s preferred growth partner for B2B companies looking to scale their sales without hiring a large in-house sales team. We specialise in professional telesales, qualified meeting booking and data-driven lead generation – delivering documented results across more than 16 industries. Our experienced sales consultants work purposefully to identify relevant decision-makers, qualify prospects and book meetings directly in your calendar, so your sales force can focus on what generates revenue.',
+    paragraph1: 'Magnora Marketing is Denmark\'s preferred growth partner for B2B companies looking to scale their sales without hiring a large in-house sales team. We specialise in professional telesales, qualified meeting booking and data-driven lead generation – backed by more than 20 years of broad experience across many industries, from idea stage to high-growth company. Our experienced sales consultants work purposefully to identify relevant decision-makers, qualify prospects and book meetings directly in your calendar, so your sales force can focus on what generates revenue.',
     paragraph2: 'Magnora Marketing combines human sales power with modern digital solutions – including AI integration, web development and automated lead generation. We offer two flexible pricing models: No Cure No Pay, where you only pay for documented results, or a fixed package solution with a guaranteed minimum number of sales meetings. Whether you\'re a startup or an established B2B company, Magnora Marketing tailors a solution that fits your budget and your growth goals.',
     checklist: [
       'Direct access to relevant decision-makers in your target audience',
@@ -184,7 +184,7 @@ export default {
   },
   faqs: [
     { question: 'What does Magnora Marketing do?', answer: 'Magnora Marketing is a Danish growth partner specialising in B2B telemarketing, meeting booking, lead generation, web development and AI integration. We help businesses fill the sales pipeline with qualified meetings and leads.' },
-    { question: 'Which industries does Magnora Marketing work with?', answer: 'We have experience across more than 16 industries, including SaaS, IT consulting, finance, energy, HR, transport, solar energy and service companies.' },
+    { question: 'Which industries does Magnora Marketing work with?', answer: 'Many, many industries. We have more than 20 years of broad experience – from sales and meeting booking to marketing, concept and web development, and from idea stage to high-growth company. Including SaaS, IT consulting, finance, energy, HR, transport, solar energy and service companies.' },
     { question: 'What does it cost to use Magnora Marketing?', answer: 'We offer flexible pricing models tailored to your company\'s size and needs. Contact us for a no-obligation quote.' },
     { question: 'Can Magnora Marketing help with both telemarketing and digital marketing?', answer: 'Yes – Magnora Marketing combines human sales power with digital solutions, including web development, AI integration and lead generation across multiple channels.' },
     { question: 'How quickly can we get started?', answer: 'Typically, we can start a partnership within 1-2 weeks after the first conversation.' },

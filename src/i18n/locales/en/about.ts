@@ -59,13 +59,13 @@ export default {
   },
   info1: {
     title: 'About Magnora Marketing – Results-Driven Growth Agency Specialising in B2B Sales and Digital Solutions',
-    p1: 'Magnora Marketing is a results-driven growth agency founded by experienced sales professionals with one clear goal: to help B2B businesses in Denmark and internationally win more customers and create sustainable growth. We combine human sales power with modern digital solutions – including AI integration, web development and automated lead generation – and deliver consistent, high-quality results regardless of industry or target audience. Magnora Marketing has helped more than 200 businesses achieve concrete growth and has in-depth experience across more than 16 industries.',
+    p1: 'Magnora Marketing is a results-driven growth agency founded by experienced sales professionals with one clear goal: to help B2B businesses in Denmark and internationally win more customers and create sustainable growth. We combine human sales power with modern digital solutions – including AI integration, web development and automated lead generation – and deliver consistent, high-quality results regardless of industry or target audience. Magnora Marketing has more than 20 years of broad experience across many industries – from sales and meeting booking to marketing, concept and web development, from idea stage to high-growth company – and we know what we do best.',
     p2: 'At Magnora Marketing, we believe the best path to growth runs through genuine relationships and precise communication. We treat our clients\' business as our own and invest in long-term partnerships built on mutual trust and transparency. Our three core values – Results, Transparency and Partnership – guide us in everything we do, from the first calls to ongoing optimisation discussions with our partners.',
     list: [
-      'Helped more than 200 businesses achieve documented growth',
+      'More than 20 years of experience – from idea stage to high-growth company',
       'Offices in Aarhus, Denmark and Valencia, Spain',
       'GDPR-compliant and fully transparent partnership',
-      'In-depth experience across 16+ industries',
+      'Broad experience across many industries – sales, meeting booking, marketing, concept and web development',
     ],
   },
   info2: {
@@ -75,7 +75,7 @@ export default {
   },
   faqs: [
     { question: 'What services does Magnora Marketing provide?', answer: 'Magnora Marketing delivers websites, meeting booking, telesales and bespoke AI solutions. We combine human sales power with tailored digital solutions, so you get telesales, qualified meeting booking, conversion-optimised websites and AI integrations under one roof.' },
-    { question: 'When was Magnora Marketing founded?', answer: 'Magnora Marketing has roots in professional telemarketing and B2B sales and has helped more than 200 businesses grow.' },
+    { question: 'When was Magnora Marketing founded?', answer: 'Magnora Marketing has roots in professional telemarketing and B2B sales and builds on more than 20 years of experience across many industries – from sales and meeting booking to marketing, concept and web development.' },
     { question: 'Where is Magnora Marketing based?', answer: 'Magnora Marketing has offices in Denmark (Aarhus) and Spain (Valencia), and serves clients throughout Scandinavia and internationally.' },
     { question: 'What sets Magnora Marketing apart from other telemarketing agencies?', answer: 'Magnora Marketing combines human sales power with data-driven methods and digital solutions – all under one roof. We always focus on ROI and documented results.' },
     { question: 'Do you work with both large and small businesses?', answer: 'Yes – we work with businesses of all sizes, from startups to established B2B companies.' },

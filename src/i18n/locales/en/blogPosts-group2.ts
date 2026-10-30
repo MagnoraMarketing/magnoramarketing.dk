@@ -23,7 +23,7 @@ export default {
     faq2Question: 'Do you book meetings directly in our calendar?',
     faq2Answer: 'Yes – meetings are delivered documented with notes and background directly in your CRM/calendar, and we send automatic confirmations and reminders to reduce no-shows.',
     faq3Question: 'Which industries do you have experience with?',
-    faq3Answer: 'We have in-depth experience across more than 16 industries, from SaaS and tech to energy, consulting services and manufacturing.',
+    faq3Answer: 'We have more than 20 years of broad experience across many industries – from SaaS and tech to energy, consulting services and manufacturing, and from idea stage to high-growth company.',
     faq4Question: 'How do you ensure meeting quality?',
     faq4Answer: 'Through thorough pre-qualification, experienced meeting bookers, tailored scripts and ongoing QA of conversations and results.',
     faq5Question: 'How do we get started?',

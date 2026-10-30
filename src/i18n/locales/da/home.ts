@@ -118,8 +118,8 @@ export default {
     ctaButton: 'Få et uforpligtende tilbud',
     imageAlt: 'Vækst og succes for B2B virksomheder med Magnora Marketing',
     statBadge: {
-      title: 'Hjulpet +200 virksomheder med konkret vækst',
-      subtitle: 'I Danmark og internationalt',
+      title: 'Over 20 års erfaring i mange brancher',
+      subtitle: 'Fra salg og mødebooking til marketing, koncept og webudvikling',
     },
   },
   freelanceBenefits: {
@@ -168,7 +168,7 @@ export default {
   },
   seoContent1: {
     heading: 'Professionelt B2B Telesalg og Mødebooking i Danmark',
-    paragraph1: 'Magnora Marketing er Danmarks foretrukne vækstpartner for B2B virksomheder der ønsker at skalere deres salg uden at ansætte et stort internt salgsteam. Vi specialiserer os i professionelt telesalg, kvalificeret mødebooking og datadrevet leadgenerering – og leverer dokumenterede resultater på tværs af over 16 brancher. Vores erfarne salgskonsulenter arbejder målrettet med at identificere relevante beslutningstagere, kvalificere kundeemner og booke møder direkte i din kalender, så din salgsstyrke kan fokusere på det der skaber omsætning.',
+    paragraph1: 'Magnora Marketing er Danmarks foretrukne vækstpartner for B2B virksomheder der ønsker at skalere deres salg uden at ansætte et stort internt salgsteam. Vi specialiserer os i professionelt telesalg, kvalificeret mødebooking og datadrevet leadgenerering – med over 20 års bred erfaring i mange brancher, fra idéfase til gazelle. Vores erfarne salgskonsulenter arbejder målrettet med at identificere relevante beslutningstagere, kvalificere kundeemner og booke møder direkte i din kalender, så din salgsstyrke kan fokusere på det der skaber omsætning.',
     paragraph2: 'Magnora Marketing kombinerer menneskelig salgskraft med moderne digitale løsninger – herunder AI-integration, webudvikling og automatiseret leadgenerering. Vi tilbyder to fleksible prismodeller: No Cure No Pay, hvor du kun betaler for dokumenterede resultater, eller en fast pakkeløsning med garanteret minimumsantal salgsmøder. Uanset om du er en startup eller en etableret B2B virksomhed, skræddersyr Magnora Marketing en løsning der passer til dit budget og dine vækstmål.',
     checklist: [
       'Direkte adgang til relevante beslutningstagere i din målgruppe',
@@ -184,7 +184,7 @@ export default {
   },
   faqs: [
     { question: 'Hvad gør Magnora Marketing?', answer: 'Magnora Marketing er en dansk vækstpartner specialiseret i B2B telemarketing, mødebooking, leadgenerering, webudvikling og AI-integration. Vi hjælper virksomheder med at fylde salgspipelinen med kvalificerede møder og leads.' },
-    { question: 'Hvilke brancher arbejder Magnora Marketing med?', answer: 'Vi har erfaring på tværs af over 16 brancher, herunder SaaS, IT-konsulenter, finans, energi, HR, transport, solenergi og servicevirksomheder.' },
+    { question: 'Hvilke brancher arbejder Magnora Marketing med?', answer: 'Mange og mange. Vi har over 20 års bred erfaring – fra salg og mødebooking til marketing, koncept og webudvikling, og fra idéfase til gazelle. Blandt andet SaaS, IT-konsulenter, finans, energi, HR, transport, solenergi og servicevirksomheder.' },
     { question: 'Hvad koster det at bruge Magnora Marketing?', answer: 'Vi tilbyder fleksible prismodeller tilpasset din virksomheds størrelse og behov. Kontakt os for et uforpligtende tilbud.' },
     { question: 'Kan Magnora Marketing hjælpe med både telemarketing og digital markedsføring?', answer: 'Ja – Magnora Marketing kombinerer menneskelig salgskraft med digitale løsninger, herunder webudvikling, AI-integration og leadgenerering via flere kanaler.' },
     { question: 'Hvor hurtigt kan vi komme i gang?', answer: 'Typisk kan vi opstart et samarbejde inden for 1-2 uger efter den første samtale.' },

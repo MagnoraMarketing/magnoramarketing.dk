@@ -98,7 +98,7 @@ export default {
       reasons: [
         { title: 'Du betaler for resultater', text: 'Med No Cure No Pay betaler du kun for møder, der lever op til de kriterier, vi har aftalt sammen. Aflyste og useriøse møder koster dig intet.' },
         { title: 'Fuld gennemsigtighed', text: 'Du kan altid se, hvem vi har kontaktet, hvad der er sagt, og hvordan kampagnen performer. Ingen skjulte gebyrer eller uklare timer.' },
-        { title: 'Erfaring fra over 16 brancher', text: 'Vi har booket møder inden for blandt andet IT, energi, finans, facility og rådgivning – og ved, hvad der virker hos beslutningstagerne.' },
+        { title: 'Over 20 års erfaring i mange brancher', text: 'Vi har booket møder inden for blandt andet IT, energi, finans, facility og rådgivning – og ved, hvad der virker hos beslutningstagerne.' },
         { title: 'Hurtig opstart', text: 'Efter en grundig briefing leverer vi typisk de første kvalificerede møder inden for 2-3 uger.' },
         { title: 'Fleksible aftaler', text: 'Start småt, test markedet, og skalér op, når det virker. Pakker kan opsiges med 30 dages varsel.' },
       ],
@@ -229,7 +229,7 @@ export default {
     intro:
       'Magnora Marketing er en vækstpartner, der samler salg, digitale løsninger og AI under ét tag. I stedet for at koordinere et telemarketingbureau, et webbureau og en AI-leverandør får du én partner, der ser hele kunderejsen. Her er et samlet overblik over, hvad vi kan tilbyde – og hvorfor flere og flere virksomheder vælger at samarbejde med os.',
     stats: [
-      { value: '16+', label: 'brancher med erfaring' },
+      { value: '20+', label: 'års erfaring i mange brancher' },
       { value: '2-3 uger', label: 'til de første kvalificerede møder' },
       { value: '5 dage', label: 'til en AI-reception er i drift' },
       { value: '1', label: 'fast kontaktperson' },

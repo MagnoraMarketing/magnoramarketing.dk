@@ -126,7 +126,7 @@ export default {
     h1: 'Outbound Sales 2026: Build a sales machine that scales',
     meta: 'By the Magnora Marketing team · January 20, 2026 · 10 min read',
     intro:
-      "Outbound sales is still one of the most effective growth strategies for B2B companies – but only when it's done right. In 2026 it is about combining data-driven targeting with authentic, human communication and smart AI tools that free up sales reps' time for the activities that create real value. At Magnora Marketing we work every day on optimizing outbound sales processes for more than 200 companies, and in this article we share the strategies and techniques that work best.",
+      "Outbound sales is still one of the most effective growth strategies for B2B companies – but only when it's done right. In 2026 it is about combining data-driven targeting with authentic, human communication and smart AI tools that free up sales reps' time for the activities that create real value. At Magnora Marketing we have more than 20 years of experience optimizing outbound sales processes across many industries, and in this article we share the strategies and techniques that work best.",
     intro1Heading: 'What is outbound sales – and what has changed?',
     intro1Body: [
       "Outbound sales is the proactive approach to making contact with potential customers – as opposed to inbound, where customers find you on their own. Traditional outbound sales consisted mainly of cold calls to generic lists. Modern outbound sales in 2026 is fundamentally different: it's data-driven, precisely targeted and combines multiple channels – phone, email and LinkedIn – in one coordinated and personalized outreach strategy.",

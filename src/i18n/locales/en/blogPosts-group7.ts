@@ -25,7 +25,7 @@ export default {
       s3: {
         heading: 'Access to experience and methods from day one',
         body1:
-          'You get immediate access to experienced B2B salespeople, proven processes and data-driven methods across more than 16 industries. You don\'t need to build the capability in-house – it\'s there from the first week.',
+          'You get immediate access to experienced B2B salespeople, proven processes and data-driven methods built on more than 20 years of experience across many industries. You don\'t need to build the capability in-house – it\'s there from the first week.',
       },
       s4: {
         heading: 'Predictable costs and lower risk',

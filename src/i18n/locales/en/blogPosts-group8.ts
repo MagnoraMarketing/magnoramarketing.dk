@@ -98,7 +98,7 @@ export default {
       reasons: [
         { title: 'You pay for results', text: 'With No Cure No Pay you only pay for meetings that meet the criteria we agreed on together. Cancelled and unserious meetings cost you nothing.' },
         { title: 'Full transparency', text: 'You can always see who we have contacted, what was said and how the campaign is performing. No hidden fees or unclear hours.' },
-        { title: 'Experience from more than 16 industries', text: 'We have booked meetings in IT, energy, finance, facility services and consulting, among others – and know what works with decision-makers.' },
+        { title: 'More than 20 years across many industries', text: 'We have booked meetings in IT, energy, finance, facility services and consulting, among others – and know what works with decision-makers.' },
         { title: 'Fast start', text: 'After a thorough briefing we usually deliver the first qualified meetings within 2-3 weeks.' },
         { title: 'Flexible agreements', text: 'Start small, test the market and scale up when it works. Packages can be cancelled with 30 days\' notice.' },
       ],
@@ -229,7 +229,7 @@ export default {
     intro:
       'Magnora Marketing is a growth partner that brings sales, digital solutions and AI together under one roof. Instead of coordinating a telemarketing agency, a web agency and an AI vendor, you get one partner who sees the whole customer journey. Here is a complete overview of what we can offer – and why more and more companies choose to work with us.',
     stats: [
-      { value: '16+', label: 'industries of experience' },
+      { value: '20+', label: 'years of experience across many industries' },
       { value: '2-3 weeks', label: 'to the first qualified meetings' },
       { value: '5 days', label: 'until an AI reception is live' },
       { value: '1', label: 'dedicated contact person' },

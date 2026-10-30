@@ -280,9 +280,9 @@ export default {
         ],
       },
       {
-        heading: '2. Documented results across 16+ industries',
+        heading: '2. Broad experience across many industries for more than 20 years',
         body: [
-          'Magnora Marketing has helped more than 200 companies achieve concrete growth and has in-depth experience across more than 16 industries – from SaaS and tech to energy, consulting services and manufacturing. We know the sales processes, objections and decision paths that characterize B2B sales in different sectors.',
+          'Magnora Marketing has more than 20 years of broad experience across many industries – from sales and meeting booking to marketing, concept and web development, from idea stage to high-growth company. We have worked with everything from SaaS and tech to energy, consulting services and manufacturing. We know the sales processes, objections and decision paths that characterize B2B sales in different sectors.',
         ],
       },
       {

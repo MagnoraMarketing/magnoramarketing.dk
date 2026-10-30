@@ -25,7 +25,7 @@ export default {
       s3: {
         heading: 'Acceso a experiencia y métodos desde el primer día',
         body1:
-          'Obtienes acceso inmediato a comerciales B2B experimentados, procesos demostrados y métodos basados en datos en más de 16 sectores. No necesitas desarrollar esa competencia internamente – está disponible desde la primera semana.',
+          'Obtienes acceso inmediato a comerciales B2B experimentados, procesos demostrados y métodos basados en datos fruto de más de 20 años de experiencia en muchos sectores. No necesitas desarrollar esa competencia internamente – está disponible desde la primera semana.',
       },
       s4: {
         heading: 'Costes previsibles y menor riesgo',

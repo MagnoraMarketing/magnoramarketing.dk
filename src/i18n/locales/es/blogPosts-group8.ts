@@ -98,7 +98,7 @@ export default {
       reasons: [
         { title: 'Pagas por resultados', text: 'Con No Cure No Pay solo pagas por reuniones que cumplen los criterios que hemos acordado juntos. Las reuniones canceladas o poco serias no te cuestan nada.' },
         { title: 'Total transparencia', text: 'Siempre puedes ver a quién hemos contactado, qué se ha dicho y cómo va la campaña. Sin tarifas ocultas ni horas poco claras.' },
-        { title: 'Experiencia en más de 16 sectores', text: 'Hemos reservado reuniones en TI, energía, finanzas, servicios de instalaciones y consultoría, entre otros, y sabemos lo que funciona con los responsables de decisiones.' },
+        { title: 'Más de 20 años en muchos sectores', text: 'Hemos reservado reuniones en TI, energía, finanzas, servicios de instalaciones y consultoría, entre otros, y sabemos lo que funciona con los responsables de decisiones.' },
         { title: 'Inicio rápido', text: 'Tras un briefing a fondo, normalmente entregamos las primeras reuniones cualificadas en 2-3 semanas.' },
         { title: 'Acuerdos flexibles', text: 'Empieza poco a poco, prueba el mercado y amplía cuando funcione. Los paquetes se pueden cancelar con 30 días de preaviso.' },
       ],
@@ -229,7 +229,7 @@ export default {
     intro:
       'Magnora Marketing es un socio de crecimiento que reúne ventas, soluciones digitales e IA bajo un mismo techo. En lugar de coordinar una agencia de telemarketing, una agencia web y un proveedor de IA, tienes un único socio que ve todo el recorrido del cliente. Aquí tienes una visión completa de lo que podemos ofrecer y de por qué cada vez más empresas eligen colaborar con nosotros.',
     stats: [
-      { value: '16+', label: 'sectores de experiencia' },
+      { value: '20+', label: 'años de experiencia en muchos sectores' },
       { value: '2-3 semanas', label: 'hasta las primeras reuniones cualificadas' },
       { value: '5 días', label: 'hasta que la recepción con IA está activa' },
       { value: '1', label: 'persona de contacto fija' },

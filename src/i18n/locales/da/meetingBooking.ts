@@ -69,7 +69,7 @@ export default {
       { question: 'Hvad er mødebooking?', answer: 'Mødebooking er processen med at identificere og kontakte potentielle kunder og booke kvalificerede salgsmøder direkte i din kalender – så dit salgsteam kan fokusere på at lukke aftaler.' },
       { question: 'Hvem booker møderne?', answer: "Magnora Marketing's erfarne mødebookere kontakter beslutningstagere i din målgruppe, præsenterer din løsning og booker møder direkte i din kalender." },
       { question: 'Hvad sker der, hvis et møde aflyses?', answer: 'Vi håndterer afbud og ombookinger og sikrer at din kalender altid er fyldt med kvalificerede møder.' },
-      { question: 'Kan I booke møder inden for specifikke brancher?', answer: 'Ja – vi har erfaring med mødebooking i over 16 brancher og tilpasser vores tilgang til din målgruppe.' },
+      { question: 'Kan I booke møder inden for specifikke brancher?', answer: 'Ja – vi har over 20 års erfaring med salg og mødebooking i mange forskellige brancher og tilpasser vores tilgang til din målgruppe.' },
       { question: 'Hvad er en typisk succesrate for mødebooking?', answer: 'Det afhænger af branche og målgruppe, men vores kunder oplever typisk en møderate på 10-20% af kvalificerede kontakter.' },
       { question: 'Hvad er en beslutningstager?', answer: 'En beslutningstager er den person i en virksomhed der har myndighed til at godkende et køb – typisk en direktør, chef eller manager.' },
       { question: 'Kan I booke møder i hele Skandinavien?', answer: 'Vi fokuserer primært på det danske marked, men kan også understøtte mødebooking i Sverige og Norge.' },
