@@ -2,6 +2,7 @@ export default {
   free: 'Gratis y sin compromiso',
   pickTime: 'Elige tú el momento',
   openNewWindow: 'Abrir el calendario en una ventana nueva',
+  loading: 'Cargando calendario…',
   button: 'Reservar una reunión',
   job: {
     heading: '¿Prefieres hablar primero?',

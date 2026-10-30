@@ -2,6 +2,7 @@ export default {
   free: 'Gratis og uforpligtende',
   pickTime: 'Vælg selv tidspunkt',
   openNewWindow: 'Åbn kalenderen i et nyt vindue',
+  loading: 'Indlæser kalender …',
   button: 'Book et møde',
   job: {
     heading: 'Hellere tage en snak først?',

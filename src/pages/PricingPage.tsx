@@ -129,7 +129,7 @@ const PricingPage: React.FC = () => {
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl p-8 text-left">
             <ContactForm presetTopic="Pris på Mødebooking / Telesalg" sourceLabel="Prissiden" />
           </div>
-          <div className="mx-auto mt-12 max-w-3xl text-left">
+          <div className="mx-auto mt-12 max-w-4xl text-left">
             <BookingCalendar kind="business" />
           </div>
         </div>

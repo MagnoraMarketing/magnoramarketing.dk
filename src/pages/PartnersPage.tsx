@@ -118,7 +118,7 @@ const PartnersPage: React.FC = () => {
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg border border-slate-100 p-8">
             <ContactForm presetTopic="Pris på Mødebooking / Telesalg" sourceLabel="Samarbejdspartner-siden" />
           </div>
-          <div className="mx-auto mt-12 max-w-3xl text-left">
+          <div className="mx-auto mt-12 max-w-4xl text-left">
             <BookingCalendar kind="business" />
           </div>
         </div>
