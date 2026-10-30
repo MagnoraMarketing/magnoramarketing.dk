@@ -33,6 +33,14 @@ export default {
     },
     error: 'Noget gik galt – din besked blev ikke sendt. Prøv igen, eller skriv direkte til <a href="mailto:mail@magnoramarketing.dk" class="underline font-semibold">mail@magnoramarketing.dk</a>.',
     jobApplication: {
+      calendar: {
+        heading: 'Hellere tage en snak først?',
+        text: 'Book et kort, uforpligtende møde om jobbet. Vælg et tidspunkt, der passer dig, så fortæller vi om opgaverne, lønnen og hvordan du kommer i gang.',
+        free: 'Gratis og uforpligtende',
+        pickTime: 'Vælg selv tidspunkt',
+        iframeTitle: 'Book møde om job hos Magnora Marketing',
+        openNewWindow: 'Åbn kalenderen i et nyt vindue',
+      },
       heading: 'Søg jobbet her',
       text: 'Udfyld formularen og vedhæft dit CV. Vi vender tilbage inden for én hverdag.',
     },
