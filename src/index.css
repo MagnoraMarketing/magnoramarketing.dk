@@ -138,3 +138,34 @@
     animation: hvDraw 2.4s cubic-bezier(0.22, 1, 0.36, 1) 0.4s both;
   }
 }
+
+/* Price calculator slider: filled track up to the thumb (--fill set inline). */
+.calc-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #2563eb 0%, #7c3aed var(--fill, 50%), #e2e8f0 var(--fill, 50%));
+  cursor: pointer;
+}
+.calc-range:focus-visible { outline: 2px solid #93c5fd; outline-offset: 4px; }
+.calc-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 6px solid #2563eb;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+  transition: transform 0.15s;
+}
+.calc-range::-webkit-slider-thumb:hover { transform: scale(1.1); }
+.calc-range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 6px solid #2563eb;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}

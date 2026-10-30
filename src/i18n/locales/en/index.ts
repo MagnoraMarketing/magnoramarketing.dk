@@ -37,6 +37,8 @@ import bookingAudio from './bookingAudio';
 import notFound from './notFound';
 import faqSection from './faqSection';
 import callingSystem from './callingSystem';
+import priceCalculator from './priceCalculator';
+import priceCalculatorPage from './priceCalculatorPage';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
 import blogPostIndex from './blogPostIndex';
@@ -102,6 +104,8 @@ export default {
   ...notFound,
   ...faqSection,
   ...callingSystem,
+  priceCalculator,
+  priceCalculatorPage,
   blogPage,
   blogPost,
   blogPostIndex,

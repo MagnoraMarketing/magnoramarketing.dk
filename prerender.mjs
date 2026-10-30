@@ -15,6 +15,7 @@ const routes = [
   '/freelance-telemarketing',
   '/samarbejdspartner',
   '/priser',
+  '/prisberegner',
   '/hvorfor-os',
   '/om-os',
   '/kontakt',

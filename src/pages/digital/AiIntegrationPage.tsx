@@ -8,6 +8,7 @@ import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import AiSolutionsSection from '../../components/AiSolutionsSection';
 import { ServiceArticles } from '../../components/BlogPostParts';
+import PriceCalculator from '../../components/PriceCalculator';
 
 interface TextItem {
   title: string;
@@ -151,6 +152,8 @@ export default function AiIntegrationPage() {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['ai']} tone="light" />
 
       {/* Fordele ved AI integration */}
       <section className="py-16 bg-white">

@@ -5,6 +5,7 @@ import ServicesPage from './pages/ServicesPage';
 import FreelancersPage from './pages/FreelancersPage';
 import PartnersPage from './pages/PartnersPage';
 import PricingPage from './pages/PricingPage';
+import PriceCalculatorPage from './pages/PriceCalculatorPage';
 import OutsourcingPage from './pages/OutsourcingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -132,6 +133,7 @@ export function AppRoutes() {
           <Route path="/freelance-telemarketing" element={<FreelancersPage />} />
           <Route path="/samarbejdspartner" element={<PartnersPage />} />
           <Route path="/priser" element={<PricingPage />} />
+          <Route path="/prisberegner" element={<PriceCalculatorPage />} />
           <Route path="/hvorfor-os" element={<OutsourcingPage />} />
           <Route path="/hvorfor-nexusmarketing" element={<Navigate to="/hvorfor-os" replace />} />
           <Route path="/om-os" element={<AboutPage />} />

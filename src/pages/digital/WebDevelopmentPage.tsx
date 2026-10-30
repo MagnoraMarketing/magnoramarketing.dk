@@ -12,6 +12,7 @@ import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import ContactForm from '../../components/ContactForm';
 import { ServiceArticles } from '../../components/BlogPostParts';
+import PriceCalculator from '../../components/PriceCalculator';
 
 export default function WebDevelopmentPage() {
   const { t } = useTranslation();
@@ -238,6 +239,8 @@ export default function WebDevelopmentPage() {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['website', 'ai']} />
 
       {/* Proces */}
       <section className="section bg-sky-50">

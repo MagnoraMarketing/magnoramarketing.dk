@@ -9,6 +9,7 @@ import CTASection from '../components/CTASection';
 import CallingSystemSection from '../components/CallingSystemSection';
 import AiSolutionsSection from '../components/AiSolutionsSection';
 import ContactForm from '../components/ContactForm';
+import PriceCalculator from '../components/PriceCalculator';
 
 interface BenefitItem {
   title: string;
@@ -82,6 +83,8 @@ const PartnersPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['meetings', 'telemarketing', 'website', 'ai']} />
 
       <CallingSystemSection />
 

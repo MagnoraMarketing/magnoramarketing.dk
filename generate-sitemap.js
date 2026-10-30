@@ -62,6 +62,7 @@ const contentPages = [
   { path: '/', priority: '1.0', changefreq: 'daily', group: 'Hovedsider', title: 'Forside', desc: 'Magnora Marketing – vækstpartner inden for telesalg, mødebooking, leadgenerering, webudvikling og AI.' },
   { path: '/ydelser', priority: '0.9', changefreq: 'weekly', group: 'Ydelser & priser', title: 'Ydelser', desc: 'Overblik over vores B2B-ydelser: telesalg, mødebooking, leadgenerering og digitale løsninger.' },
   { path: '/priser', priority: '0.9', changefreq: 'weekly', group: 'Ydelser & priser', title: 'Priser', desc: 'Priser og pakker for telesalg, mødebooking og leadgenerering.' },
+  { path: '/prisberegner', priority: '0.9', changefreq: 'weekly', group: 'Ydelser & priser', title: 'Prisberegner', desc: 'Beregn prisen på mødebooking, telemarketing, hjemmeside eller AI-løsning og få en skræddersyet pris tilsendt.' },
   { path: '/modebooking-priser', priority: '0.9', changefreq: 'weekly', group: 'Ydelser & priser', title: 'Mødebooking – priser', desc: 'Priser og modeller for professionel B2B-mødebooking.' },
   { path: '/leadgenerering', priority: '0.9', changefreq: 'weekly', group: 'Ydelser & priser', title: 'Leadgenerering', desc: 'Kvalificerede B2B-leads via outbound, SEO, LinkedIn og ABM.' },
   { path: '/samarbejdspartner', priority: '0.9', changefreq: 'weekly', group: 'Ydelser & priser', title: 'Samarbejdspartner', desc: 'Bliv samarbejdspartner og få en dedikeret vækstpartner til salg og digitale løsninger.' },

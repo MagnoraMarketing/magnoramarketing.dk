@@ -73,6 +73,7 @@ const Navbar: React.FC = () => {
   const partnerOptions = [
     { path: '/samarbejdspartner', title: t('nav.partnerOptions.becomePartner') },
     { path: '/priser', title: t('nav.partnerOptions.pricing') },
+    { path: '/prisberegner', title: t('nav.partnerOptions.priceCalculator') },
     { path: '/hvorfor-os', title: t('nav.partnerOptions.whyUs') },
     { path: '/modebooking-priser', title: t('nav.partnerOptions.meetingBooking') },
     { path: '/leadgenerering', title: t('nav.partnerOptions.leadGeneration') }

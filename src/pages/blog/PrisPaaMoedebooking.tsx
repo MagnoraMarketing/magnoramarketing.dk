@@ -5,6 +5,7 @@ import { ArrowRight, Calculator, CheckCircle2, ClipboardCheck, Lightbulb, XCircl
 import SEO from '../../components/SEO';
 import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
+import PriceCalculator from '../../components/PriceCalculator';
 import { BlogBreadcrumbs, BlogPostFooter, BlogPostMeta } from '../../components/BlogPostParts';
 
 type PriceModel = { name: string; price: string; unit: string; best: string; pros: string[]; cons: string[] };
@@ -84,6 +85,11 @@ export default function PrisPaaMoedebooking() {
             ))}
           </div>
         </section>
+
+        {/* Interactive calculator right after the price models – the visitor gets the price sent */}
+        <div className="-mx-4 mb-16 overflow-hidden md:mx-0 md:rounded-3xl">
+          <PriceCalculator variants={['meetings', 'telemarketing']} />
+        </div>
 
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-3">{t(`${K}.factors.heading`)}</h2>

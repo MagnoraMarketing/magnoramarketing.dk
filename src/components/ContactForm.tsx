@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Send, CheckCircle, AlertCircle, Briefcase, CalendarCheck, Code, Sparkles, MessageSquare, Loader2, Paperclip, X } from 'lucide-react';
 
@@ -36,6 +36,10 @@ interface ContactFormProps {
   presetTopic?: FormTopic;
   /** Extra context appended to the email subject, e.g. the page the form was submitted from. */
   sourceLabel?: string;
+  /** Topic to select initially while still letting the visitor change it (e.g. from the price calculator). */
+  initialTopic?: FormTopic;
+  /** Text to pre-fill the message with, e.g. the visitor's price calculator choices. */
+  initialMessage?: string;
 }
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
@@ -45,7 +49,7 @@ const ATTACHMENT_TYPE_LABEL: Record<AttachmentType, string> = { cv: 'CV / ansøg
 const inputClass =
   'w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-800 bg-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:border-blue-400 transition-colors';
 
-const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) => {
+const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel, initialTopic, initialMessage }) => {
   const { t } = useTranslation();
   const [topic, setTopic] = useState<FormTopic>(presetTopic ?? 'Pris på Mødebooking / Telesalg');
   const [status, setStatus] = useState<Status>('idle');
@@ -53,6 +57,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
   const [fileError, setFileError] = useState<'tooLarge' | 'wrongType' | null>(null);
   const [fileNotAttached, setFileNotAttached] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
 
   const isJob = topic === 'Job henvendelse';
   // Job pages always take a CV; other scoped forms a project description. The
@@ -62,6 +67,15 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
     setTopic(value);
     setAttachmentType(value === 'Job henvendelse' ? 'cv' : 'project');
   };
+
+  // Pre-fill after mount: the pre-rendered page has an empty form, so setting
+  // these during the first render would not match the static HTML.
+  useEffect(() => {
+    if (initialTopic) chooseTopic(initialTopic);
+  }, [initialTopic]);
+  useEffect(() => {
+    if (initialMessage && messageRef.current) messageRef.current.value = initialMessage;
+  }, [initialMessage]);
 
   const clearFile = () => {
     if (fileInputRef.current) fileInputRef.current.value = '';
@@ -259,6 +273,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel }) =
       <div>
         <label htmlFor="cf-message" className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.fields.message')}</label>
         <textarea
+          ref={messageRef}
           id="cf-message"
           name="message"
           required

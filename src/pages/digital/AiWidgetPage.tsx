@@ -8,6 +8,7 @@ import FAQSection from '../../components/FAQSection';
 import CTASection from '../../components/CTASection';
 import BookingAudioDemo from '../../components/BookingAudioDemo';
 import { ServiceArticles } from '../../components/BlogPostParts';
+import PriceCalculator from '../../components/PriceCalculator';
 
 export default function AiWidgetPage() {
   const { t } = useTranslation();
@@ -173,6 +174,8 @@ export default function AiWidgetPage() {
           </div>
         </div>
       </section>
+
+      <PriceCalculator variants={['ai']} />
 
       {/* Use cases */}
       <section className="section bg-sky-50">

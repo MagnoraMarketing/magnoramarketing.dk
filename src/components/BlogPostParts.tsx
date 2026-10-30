@@ -4,12 +4,14 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, Calendar, ChevronRight, Clock, RefreshCw } from 'lucide-react';
 import {
   BlogPostEntry,
+  blogCalculators,
   blogCategoryOrder,
   getBlogPost,
   getBlogPostByPath,
   latestPosts,
   postsForService,
 } from '../data/blog';
+import PriceCalculator from './PriceCalculator';
 
 // Shared building blocks for every blog article (both the BlogArticle template and
 // the older hand-built article pages). They look the post up from the current URL
@@ -102,7 +104,8 @@ const PostLinkCard: React.FC<{ post: BlogPostEntry }> = ({ post }) => {
 
 /**
  * End-of-article block: author box (E-E-A-T), related articles and the service
- * pages the article supports. Rendered before the closing CTA on every post.
+ * pages the article supports, preceded by the matching price calculator
+ * (blogCalculators). Rendered before the closing CTA on every post.
  */
 export const BlogPostFooter: React.FC = () => {
   const { t } = useTranslation();
@@ -110,43 +113,47 @@ export const BlogPostFooter: React.FC = () => {
   if (!post) return null;
   const related = post.related.map(getBlogPost).filter((p): p is BlogPostEntry => Boolean(p));
   const serviceLabels = t('blogArticle.services', { returnObjects: true }) as Record<string, string>;
+  const calculator = blogCalculators[post.slug];
 
   return (
-    <aside className="max-w-4xl mx-auto px-4 pb-16">
-      <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 mb-10">
-        <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-2">{t('blogArticle.authorHeading')}</p>
-        <p className="text-lg font-bold text-slate-900 mb-2">{t('blogArticle.authorName')}</p>
-        <p className="text-gray-600 text-sm leading-relaxed mb-4">{t('blogArticle.authorBio')}</p>
-        <div className="flex flex-wrap gap-4 text-sm font-medium">
-          <Link to="/om-os" className="text-blue-600 hover:underline">{t('blogArticle.authorAbout')}</Link>
-          <Link to="/kontakt" className="text-blue-600 hover:underline">{t('blogArticle.authorContact')}</Link>
-        </div>
-      </div>
-
-      {post.services.length > 0 && (
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-slate-900 mb-4">{t('blogArticle.servicesHeading')}</h2>
-          <ul className="flex flex-wrap gap-3">
-            {post.services.map(path => (
-              <li key={path}>
-                <Link to={path} className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-700 hover:bg-blue-100">
-                  {serviceLabels[path] ?? path} <ArrowRight size={14} />
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {related.length > 0 && (
-        <div>
-          <h2 className="text-xl font-bold text-slate-900 mb-4">{t('blogArticle.relatedHeading')}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {related.map(p => <PostLinkCard key={p.slug} post={p} />)}
+    <>
+      {calculator && <div className="mb-16"><PriceCalculator variants={calculator} /></div>}
+      <aside className="max-w-4xl mx-auto px-4 pb-16">
+        <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 mb-10">
+          <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-2">{t('blogArticle.authorHeading')}</p>
+          <p className="text-lg font-bold text-slate-900 mb-2">{t('blogArticle.authorName')}</p>
+          <p className="text-gray-600 text-sm leading-relaxed mb-4">{t('blogArticle.authorBio')}</p>
+          <div className="flex flex-wrap gap-4 text-sm font-medium">
+            <Link to="/om-os" className="text-blue-600 hover:underline">{t('blogArticle.authorAbout')}</Link>
+            <Link to="/kontakt" className="text-blue-600 hover:underline">{t('blogArticle.authorContact')}</Link>
           </div>
         </div>
-      )}
-    </aside>
+
+        {post.services.length > 0 && (
+          <div className="mb-10">
+            <h2 className="text-xl font-bold text-slate-900 mb-4">{t('blogArticle.servicesHeading')}</h2>
+            <ul className="flex flex-wrap gap-3">
+              {post.services.map(path => (
+                <li key={path}>
+                  <Link to={path} className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-700 hover:bg-blue-100">
+                    {serviceLabels[path] ?? path} <ArrowRight size={14} />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {related.length > 0 && (
+          <div>
+            <h2 className="text-xl font-bold text-slate-900 mb-4">{t('blogArticle.relatedHeading')}</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {related.map(p => <PostLinkCard key={p.slug} post={p} />)}
+            </div>
+          </div>
+        )}
+      </aside>
+    </>
   );
 };
 
