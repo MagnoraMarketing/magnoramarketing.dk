@@ -1,6 +1,14 @@
 // Translated title + description for every blog post, keyed by slug.
 // Must contain every slug in src/data/blogPosts.json (enforced by scripts/check-i18n.mjs).
 export default {
+  'hvad-koster-telemarketing': {
+    title: 'How much does telemarketing cost? Prices, pricing models and examples',
+    description: 'How much does telemarketing cost in 2026? See hourly rates, commission and packages, what affects the price, in-house seller vs. outsourcing and three concrete budget examples.',
+  },
+  'hvad-koster-moedebooking': {
+    title: 'How much does meeting booking cost? Prices, budget examples and the maths behind them',
+    description: 'How much does meeting booking cost in 2026? See prices per meeting and per month, what an in-house meeting booker really costs, three budget examples and the hidden costs.',
+  },
   'pris-paa-moedebooking': {
     title: "Meeting booking prices: What does it cost – and why choose Magnora Marketing?",
     description: "How much does meeting booking cost? See the three pricing models, indicative prices per meeting, what affects the price, an ROI example – and why Magnora Marketing.",

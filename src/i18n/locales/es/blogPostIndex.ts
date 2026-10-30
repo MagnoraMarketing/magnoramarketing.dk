@@ -1,6 +1,14 @@
 // Translated title + description for every blog post, keyed by slug.
 // Must contain every slug in src/data/blogPosts.json (enforced by scripts/check-i18n.mjs).
 export default {
+  'hvad-koster-telemarketing': {
+    title: '¿Cuánto cuesta el telemarketing? Precios, modelos de precio y ejemplos',
+    description: '¿Cuánto cuesta el telemarketing en 2026? Precios por hora, comisiones y paquetes, qué influye en el precio, comercial interno frente a externalización y tres ejemplos de presupuesto.',
+  },
+  'hvad-koster-moedebooking': {
+    title: '¿Cuánto cuesta la concertación de reuniones? Precios, ejemplos de presupuesto y las cuentas detrás',
+    description: '¿Cuánto cuesta la concertación de reuniones en 2026? Precios por reunión y al mes, lo que cuesta un concertador interno, tres ejemplos de presupuesto y los costes ocultos.',
+  },
   'pris-paa-moedebooking': {
     title: "Precio de la reserva de reuniones: ¿Cuánto cuesta y por qué elegir Magnora Marketing?",
     description: "¿Cuánto cuesta la reserva de reuniones? Los tres modelos de precio, precios orientativos por reunión, qué influye en el precio, un ejemplo de ROI y por qué Magnora Marketing.",
