@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
+import DmSystemSection from '../components/DmSystemSection';
 import AiSolutionsSection from '../components/AiSolutionsSection';
 import ContactForm from '../components/ContactForm';
 
@@ -81,6 +82,8 @@ const PartnersPage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <DmSystemSection />
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
