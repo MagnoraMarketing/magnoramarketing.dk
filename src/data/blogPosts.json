@@ -1,5 +1,39 @@
 [
   {
+    "slug": "hvad-koster-telemarketing",
+    "category": "telesalg",
+    "date": "2026-10-30",
+    "title": "Hvad koster telemarketing? Priser, prismodeller og regneeksempler",
+    "description": "Hvad koster telemarketing i 2026? Se timepriser, provision og pakker, hvad der påvirker prisen, intern sælger vs. outsourcing og tre konkrete budgeteksempler.",
+    "readMin": 7,
+    "related": [
+      "hvad-koster-moedebooking",
+      "outsourcing-telesalg-2026",
+      "hvorfor-magnora-telesalg"
+    ],
+    "services": [
+      "/priser",
+      "/leadgenerering"
+    ]
+  },
+  {
+    "slug": "hvad-koster-moedebooking",
+    "category": "telesalg",
+    "date": "2026-10-30",
+    "title": "Hvad koster mødebooking? Priser, budgeteksempler og regnestykket bag",
+    "description": "Hvad koster mødebooking i 2026? Se priser pr. møde og pr. måned, hvad en intern mødebooker reelt koster, tre budgeteksempler og de skjulte omkostninger.",
+    "readMin": 7,
+    "related": [
+      "pris-paa-moedebooking",
+      "hvad-koster-telemarketing",
+      "outsource-moedebooking-fordele"
+    ],
+    "services": [
+      "/modebooking-priser",
+      "/priser"
+    ]
+  },
+  {
     "slug": "pris-paa-moedebooking",
     "category": "telesalg",
     "date": "2026-10-29",
@@ -7,9 +41,9 @@
     "description": "Hvad koster mødebooking? Se de tre prismodeller, vejledende priser pr. møde, hvad der påvirker prisen, et ROI-regneeksempel – og hvorfor Magnora Marketing.",
     "readMin": 7,
     "related": [
-      "hvorfor-magnora-moedebooking",
-      "outsource-moedebooking-fordele",
-      "modebooking-2026"
+      "hvad-koster-moedebooking",
+      "hvad-koster-telemarketing",
+      "hvorfor-magnora-moedebooking"
     ],
     "services": [
       "/modebooking-priser",
