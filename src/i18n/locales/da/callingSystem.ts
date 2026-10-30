@@ -1,9 +1,9 @@
 export default {
-  dmSystem: {
-    badge: 'Vores eget DM-ringesystem',
+  callingSystem: {
+    badge: 'Vores eget ringesystem og egen app',
     title: 'Vi ringer fra vores eget system – og I kan følge med i alt',
     subtitle:
-      'Magnora Marketing har udviklet sit helt eget DM-ringesystem. Når vi booker et møde eller lukker et salg, ryger det direkte ind i jeres virksomhedskalender eller den enkelte sælgers kalender – og I har adgang til en app, hvor alle møder, samtaler og resultater fremgår.',
+      'Magnora Marketing har sit helt eget ringesystem og sin egen app. Vi ringer ud fra vores eget system, og når vi booker et møde eller lukker et salg, ryger det direkte ind i jeres virksomhedskalender eller den enkelte sælgers kalender – og I får adgang til vores app, hvor I kan følge med i alt, hvad der sker: møder, samtaler og resultater.',
     features: [
       {
         title: 'Møder direkte i kalenderen',
@@ -29,7 +29,7 @@ export default {
     ],
     cta: 'Hør hvordan systemet virker',
     mock: {
-      appName: 'Magnora DM · Kundeportal',
+      appName: 'Magnora · Kundeapp',
       tabs: ['Møder', 'Samtaler', 'Feedback'],
       synced: 'Synkroniseret med jeres kalender',
       rows: [
@@ -43,11 +43,11 @@ export default {
         { value: '100 %', label: 'Synligt for jer' },
       ],
     },
-    screenshotsNote: 'Udsnit fra vores DM-ringesystem',
+    screenshotsNote: 'Udsnit fra vores ringesystem og app',
     screenshots: [
-      'Kalenderoversigt med bookede møder i Magnoras DM-ringesystem',
-      'Oversigt over samtaler og noter i Magnoras DM-ringesystem',
-      'Feedback fra kundens sælgere i Magnoras DM-ringesystem',
+      'Kalenderoversigt med bookede møder i Magnoras app',
+      'Oversigt over samtaler og noter i Magnoras app',
+      'Feedback fra kundens sælgere i Magnoras app',
     ],
   },
 };

@@ -7,7 +7,7 @@ import HeroVisual from '../components/HeroVisual';
 import SEO from '../components/SEO';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
-import DmSystemSection from '../components/DmSystemSection';
+import CallingSystemSection from '../components/CallingSystemSection';
 import { LatestArticles } from '../components/BlogPostParts';
 
 const HomePage: React.FC = () => {
@@ -104,7 +104,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <DmSystemSection />
+      <CallingSystemSection />
 
       <section className="section bg-white">
         <div className="container">

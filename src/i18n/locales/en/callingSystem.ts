@@ -1,9 +1,9 @@
 export default {
-  dmSystem: {
-    badge: 'Our own outbound calling system',
+  callingSystem: {
+    badge: 'Our own calling system and app',
     title: 'We call from our own system – and you can follow everything',
     subtitle:
-      'Magnora Marketing has built its very own outbound calling system. When we book a meeting or close a sale, it goes straight into your company calendar or the individual salesperson’s calendar – and you get access to an app where every meeting, call and result is visible.',
+      'Magnora Marketing has its very own calling system and its own app. We call from our own system, and when we book a meeting or close a sale, it goes straight into your company calendar or the individual salesperson’s calendar – and you get access to our app, where you can follow everything that happens: meetings, calls and results.',
     features: [
       {
         title: 'Meetings straight into the calendar',
@@ -29,7 +29,7 @@ export default {
     ],
     cta: 'Hear how the system works',
     mock: {
-      appName: 'Magnora DM · Client portal',
+      appName: 'Magnora · Client app',
       tabs: ['Meetings', 'Calls', 'Feedback'],
       synced: 'Synced with your calendar',
       rows: [
@@ -43,11 +43,11 @@ export default {
         { value: '100%', label: 'Visible to you' },
       ],
     },
-    screenshotsNote: 'Screens from our outbound calling system',
+    screenshotsNote: 'Screens from our calling system and app',
     screenshots: [
-      'Calendar overview with booked meetings in Magnora’s calling system',
-      'Overview of calls and notes in Magnora’s calling system',
-      'Feedback from the client’s salespeople in Magnora’s calling system',
+      'Calendar overview with booked meetings in Magnora’s app',
+      'Overview of calls and notes in Magnora’s app',
+      'Feedback from the client’s salespeople in Magnora’s app',
     ],
   },
 };

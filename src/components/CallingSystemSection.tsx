@@ -19,8 +19,8 @@ interface MockStat {
   label: string;
 }
 
-// Skærmbilleder af DM-ringesystemet. Læg billederne i public/dm-system/ og tilføj
-// stien her – rækkefølgen matcher alt-teksterne i dmSystem.screenshots (da/en/es).
+// Skærmbilleder af ringesystemet og appen. Læg billederne i public/ringesystem/ og tilføj
+// stien her – rækkefølgen matcher alt-teksterne i callingSystem.screenshots (da/en/es).
 // Så længe listen er tom, vises en illustration af appen i stedet.
 const SCREENSHOTS: string[] = [];
 
@@ -40,9 +40,9 @@ const statusColors = [
 
 const AppMock: React.FC = () => {
   const { t } = useTranslation();
-  const tabs = t('dmSystem.mock.tabs', { returnObjects: true }) as string[];
-  const rows = t('dmSystem.mock.rows', { returnObjects: true }) as MockRow[];
-  const stats = t('dmSystem.mock.stats', { returnObjects: true }) as MockStat[];
+  const tabs = t('callingSystem.mock.tabs', { returnObjects: true }) as string[];
+  const rows = t('callingSystem.mock.rows', { returnObjects: true }) as MockRow[];
+  const stats = t('callingSystem.mock.stats', { returnObjects: true }) as MockStat[];
 
   return (
     <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden" aria-hidden="true">
@@ -50,7 +50,7 @@ const AppMock: React.FC = () => {
         <span className="w-2.5 h-2.5 rounded-full bg-red-400" />
         <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
         <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-        <span className="ml-3 text-xs font-semibold tracking-wide text-white/80 truncate">{t('dmSystem.mock.appName')}</span>
+        <span className="ml-3 text-xs font-semibold tracking-wide text-white/80 truncate">{t('callingSystem.mock.appName')}</span>
       </div>
       <div className="flex gap-1 px-4 pt-4 border-b border-slate-100">
         {tabs.map((tab, i) => (
@@ -84,7 +84,7 @@ const AppMock: React.FC = () => {
         ))}
       </div>
       <div className="flex items-center gap-2 px-4 py-3 bg-emerald-50 border-t border-emerald-100 text-emerald-700 text-xs font-semibold">
-        <CalendarCheck size={14} /> {t('dmSystem.mock.synced')}
+        <CalendarCheck size={14} /> {t('callingSystem.mock.synced')}
       </div>
     </div>
   );
@@ -92,7 +92,7 @@ const AppMock: React.FC = () => {
 
 const Screenshots: React.FC = () => {
   const { t } = useTranslation();
-  const alts = t('dmSystem.screenshots', { returnObjects: true }) as string[];
+  const alts = t('callingSystem.screenshots', { returnObjects: true }) as string[];
 
   return (
     <div>
@@ -107,25 +107,25 @@ const Screenshots: React.FC = () => {
           />
         ))}
       </div>
-      <p className="mt-3 text-center text-xs text-slate-500">{t('dmSystem.screenshotsNote')}</p>
+      <p className="mt-3 text-center text-xs text-slate-500">{t('callingSystem.screenshotsNote')}</p>
     </div>
   );
 };
 
-const DmSystemSection: React.FC = () => {
+const CallingSystemSection: React.FC = () => {
   const { t } = useTranslation();
-  const features = t('dmSystem.features', { returnObjects: true }) as TextItem[];
-  const usps = t('dmSystem.usps', { returnObjects: true }) as string[];
+  const features = t('callingSystem.features', { returnObjects: true }) as TextItem[];
+  const usps = t('callingSystem.usps', { returnObjects: true }) as string[];
 
   return (
-    <section id="dm-system" className="section bg-gradient-to-b from-white to-blue-50/60">
+    <section id="ringesystem" className="section bg-gradient-to-b from-white to-blue-50/60">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <span className="section-label inline-flex items-center gap-2">
-            <Phone size={14} /> {t('dmSystem.badge')}
+            <Phone size={14} /> {t('callingSystem.badge')}
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('dmSystem.title')}</h2>
-          <p className="text-lg text-slate-600">{t('dmSystem.subtitle')}</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('callingSystem.title')}</h2>
+          <p className="text-lg text-slate-600">{t('callingSystem.subtitle')}</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center max-w-6xl mx-auto">
@@ -149,7 +149,7 @@ const DmSystemSection: React.FC = () => {
               ))}
             </ul>
             <Link to="/kontakt" className="btn btn-primary inline-flex items-center">
-              {t('dmSystem.cta')} <ArrowRight size={16} className="ml-2" />
+              {t('callingSystem.cta')} <ArrowRight size={16} className="ml-2" />
             </Link>
           </div>
 
@@ -160,4 +160,4 @@ const DmSystemSection: React.FC = () => {
   );
 };
 
-export default DmSystemSection;
+export default CallingSystemSection;

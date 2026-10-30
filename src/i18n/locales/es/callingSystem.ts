@@ -1,9 +1,9 @@
 export default {
-  dmSystem: {
-    badge: 'Nuestro propio sistema de llamadas',
+  callingSystem: {
+    badge: 'Nuestro propio sistema de llamadas y nuestra app',
     title: 'Llamamos desde nuestro propio sistema – y ustedes pueden seguirlo todo',
     subtitle:
-      'Magnora Marketing ha desarrollado su propio sistema de llamadas comerciales. Cuando reservamos una reunión o cerramos una venta, entra directamente en el calendario de su empresa o en el de cada comercial – y ustedes tienen acceso a una app donde aparecen todas las reuniones, conversaciones y resultados.',
+      'Magnora Marketing tiene su propio sistema de llamadas y su propia app. Llamamos desde nuestro propio sistema, y cuando reservamos una reunión o cerramos una venta, entra directamente en el calendario de su empresa o en el de cada comercial – y ustedes tienen acceso a nuestra app, donde pueden seguir todo lo que ocurre: reuniones, conversaciones y resultados.',
     features: [
       {
         title: 'Reuniones directas en el calendario',
@@ -29,7 +29,7 @@ export default {
     ],
     cta: 'Descubra cómo funciona el sistema',
     mock: {
-      appName: 'Magnora DM · Portal de clientes',
+      appName: 'Magnora · App de clientes',
       tabs: ['Reuniones', 'Llamadas', 'Feedback'],
       synced: 'Sincronizado con su calendario',
       rows: [
@@ -43,11 +43,11 @@ export default {
         { value: '100 %', label: 'Visible para ustedes' },
       ],
     },
-    screenshotsNote: 'Capturas de nuestro sistema de llamadas',
+    screenshotsNote: 'Capturas de nuestro sistema de llamadas y nuestra app',
     screenshots: [
-      'Vista de calendario con reuniones reservadas en el sistema de llamadas de Magnora',
-      'Resumen de conversaciones y notas en el sistema de llamadas de Magnora',
-      'Feedback de los comerciales del cliente en el sistema de llamadas de Magnora',
+      'Vista de calendario con reuniones reservadas en la app de Magnora',
+      'Resumen de conversaciones y notas en la app de Magnora',
+      'Feedback de los comerciales del cliente en la app de Magnora',
     ],
   },
 };
