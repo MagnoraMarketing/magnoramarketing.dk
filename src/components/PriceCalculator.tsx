@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Calculator, Check, CheckCircle2, Lock, Sparkles } from 'lucide-react';
+import { ArrowRight, Building2, Calculator, Check, CheckCircle2, Lock, Phone, Sparkles } from 'lucide-react';
 import {
   CalculatorStep,
   CalculatorValues,
@@ -10,6 +10,7 @@ import {
   estimate,
   initialValues,
   isStepHidden,
+  saveCalculatorLead,
   toSearchParams,
 } from '../data/priceCalculator';
 
@@ -66,6 +67,11 @@ interface PriceCalculatorProps {
 const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dark' }) => {
   const { t, i18n } = useTranslation();
   const { stepKey, stepLabel, valueText } = useCalculatorText();
+  const navigate = useNavigate();
+  const companyRef = useRef<HTMLInputElement>(null);
+  const [company, setCompany] = useState('');
+  const [phone, setPhone] = useState('');
+  const [phoneError, setPhoneError] = useState(false);
   const [variant, setVariant] = useState<CalculatorVariant>(variants[0]);
   const [allValues, setAllValues] = useState(() =>
     Object.fromEntries(variants.map(v => [v, initialValues(v)])) as Record<CalculatorVariant, CalculatorValues>
@@ -84,6 +90,18 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
   const toggleMulti = (id: string, option: string) => {
     const current = Array.isArray(values[id]) ? (values[id] as string[]) : [];
     setValue(id, current.includes(option) ? current.filter(o => o !== option) : [...current, option]);
+  };
+
+  // Company name and phone are asked for before the price is "unlocked"; they are
+  // carried to the contact form (sessionStorage, not the URL) and sent from there.
+  const getPrice = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (phone.replace(/\D/g, '').length < 8) {
+      setPhoneError(true);
+      return;
+    }
+    saveCalculatorLead({ company: company.trim(), phone: phone.trim() });
+    navigate(`/kontakt?${toSearchParams(variant, values)}#kontaktformular`);
   };
 
   const dark = tone === 'dark';
@@ -238,20 +256,61 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ variants, tone = 'dar
                 <span aria-hidden="true" className="select-none font-bold tabular-nums blur-[5px]">{money(secondary)}</span>
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-indigo-700 shadow-lg">
+                <button
+                  type="button"
+                  onClick={() => companyRef.current?.focus()}
+                  className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-indigo-700 shadow-lg transition-transform hover:scale-105"
+                >
                   <Lock size={15} /> {t(`${K}.locked`)}
-                </span>
+                </button>
               </div>
             </div>
 
             <p className="mt-4 text-sm leading-relaxed text-blue-50">{t(`${K}.lockedText`)}</p>
 
-            <Link
-              to={`/kontakt?${toSearchParams(variant, values)}#kontaktformular`}
-              className="group mt-5 flex w-full items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-indigo-700 shadow-xl transition-all hover:-translate-y-0.5 hover:shadow-2xl"
-            >
-              {t(`${K}.cta`)} <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
-            </Link>
+            <form onSubmit={getPrice} className="mt-5 space-y-3">
+              <p className="text-sm font-bold">{t(`${K}.lead.heading`)}</p>
+              <label className="block">
+                <span className="sr-only">{t(`${K}.lead.company`)}</span>
+                <span className="flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-slate-800 ring-2 ring-transparent focus-within:ring-blue-300">
+                  <Building2 size={17} className="flex-shrink-0 text-indigo-500" />
+                  <input
+                    ref={companyRef}
+                    name="company"
+                    required
+                    autoComplete="organization"
+                    value={company}
+                    onChange={e => setCompany(e.target.value)}
+                    placeholder={t(`${K}.lead.company`)}
+                    className="w-full bg-transparent text-sm placeholder:text-slate-400 focus:outline-none"
+                  />
+                </span>
+              </label>
+              <label className="block">
+                <span className="sr-only">{t(`${K}.lead.phone`)}</span>
+                <span className={`flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-slate-800 ring-2 focus-within:ring-blue-300 ${phoneError ? 'ring-rose-400' : 'ring-transparent'}`}>
+                  <Phone size={17} className="flex-shrink-0 text-indigo-500" />
+                  <input
+                    name="phone"
+                    type="tel"
+                    required
+                    autoComplete="tel"
+                    value={phone}
+                    onChange={e => { setPhone(e.target.value); setPhoneError(false); }}
+                    placeholder={t(`${K}.lead.phone`)}
+                    aria-invalid={phoneError}
+                    className="w-full bg-transparent text-sm placeholder:text-slate-400 focus:outline-none"
+                  />
+                </span>
+                {phoneError && <span className="mt-1 block text-xs font-semibold text-rose-100">{t(`${K}.lead.phoneInvalid`)}</span>}
+              </label>
+              <button
+                type="submit"
+                className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-indigo-700 shadow-xl transition-all hover:-translate-y-0.5 hover:shadow-2xl"
+              >
+                {t(`${K}.cta`)} <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+              </button>
+            </form>
 
             <ul className="mt-5 grid gap-2 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
               {trust.map(item => (

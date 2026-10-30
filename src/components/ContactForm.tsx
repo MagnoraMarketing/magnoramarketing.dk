@@ -40,6 +40,9 @@ interface ContactFormProps {
   initialTopic?: FormTopic;
   /** Text to pre-fill the message with, e.g. the visitor's price calculator choices. */
   initialMessage?: string;
+  /** Company name and phone to pre-fill, e.g. typed into the price calculator. */
+  initialCompany?: string;
+  initialPhone?: string;
 }
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
@@ -49,7 +52,7 @@ const ATTACHMENT_TYPE_LABEL: Record<AttachmentType, string> = { cv: 'CV / ansøg
 const inputClass =
   'w-full border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-800 bg-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:border-blue-400 transition-colors';
 
-const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel, initialTopic, initialMessage }) => {
+const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel, initialTopic, initialMessage, initialCompany, initialPhone }) => {
   const { t } = useTranslation();
   const [topic, setTopic] = useState<FormTopic>(presetTopic ?? 'Pris på Mødebooking / Telesalg');
   const [status, setStatus] = useState<Status>('idle');
@@ -58,6 +61,8 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel, ini
   const [fileNotAttached, setFileNotAttached] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
+  const companyRef = useRef<HTMLInputElement>(null);
+  const phoneRef = useRef<HTMLInputElement>(null);
 
   const isJob = topic === 'Job henvendelse';
   // Job pages always take a CV; other scoped forms a project description. The
@@ -76,6 +81,10 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel, ini
   useEffect(() => {
     if (initialMessage && messageRef.current) messageRef.current.value = initialMessage;
   }, [initialMessage]);
+  useEffect(() => {
+    if (initialCompany && companyRef.current) companyRef.current.value = initialCompany;
+    if (initialPhone && phoneRef.current) phoneRef.current.value = initialPhone;
+  }, [initialCompany, initialPhone]);
 
   const clearFile = () => {
     if (fileInputRef.current) fileInputRef.current.value = '';
@@ -260,13 +269,13 @@ const ContactForm: React.FC<ContactFormProps> = ({ presetTopic, sourceLabel, ini
         </div>
         <div>
           <label htmlFor="cf-phone" className="block text-sm font-semibold text-slate-700 mb-1.5">{t('contactForm.fields.phone')}</label>
-          <input id="cf-phone" name="phone" type="tel" placeholder={t('contactForm.placeholders.phone')} className={inputClass} />
+          <input ref={phoneRef} id="cf-phone" name="phone" type="tel" placeholder={t('contactForm.placeholders.phone')} className={inputClass} />
         </div>
         <div>
           <label htmlFor="cf-company" className="block text-sm font-semibold text-slate-700 mb-1.5">
             {isJob ? t('contactForm.fields.companyOptional') : t('contactForm.fields.companyRequired')}
           </label>
-          <input id="cf-company" name="company" type="text" required={!isJob} placeholder={isJob ? t('contactForm.placeholders.companyOptional') : t('contactForm.placeholders.companyRequired')} className={inputClass} />
+          <input ref={companyRef} id="cf-company" name="company" type="text" required={!isJob} placeholder={isJob ? t('contactForm.placeholders.companyOptional') : t('contactForm.placeholders.companyRequired')} className={inputClass} />
         </div>
       </div>
 

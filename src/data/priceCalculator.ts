@@ -142,3 +142,30 @@ export function fromSearchParams(search: URLSearchParams): { variant: Calculator
   }
   return { variant, values };
 }
+
+/** Company name and phone typed into the calculator, handed to the contact form. */
+export interface CalculatorLead {
+  company: string;
+  phone: string;
+}
+
+const LEAD_KEY = 'magnora.calculatorLead';
+
+// sessionStorage keeps the phone number out of the URL; it can be unavailable
+// (private mode, blocked storage), in which case the visitor simply types it again.
+export function saveCalculatorLead(lead: CalculatorLead) {
+  try {
+    sessionStorage.setItem(LEAD_KEY, JSON.stringify(lead));
+  } catch {
+    /* storage unavailable */
+  }
+}
+
+export function readCalculatorLead(): CalculatorLead | null {
+  try {
+    const lead = JSON.parse(sessionStorage.getItem(LEAD_KEY) ?? 'null');
+    return lead && typeof lead.company === 'string' && typeof lead.phone === 'string' ? lead : null;
+  } catch {
+    return null;
+  }
+}
