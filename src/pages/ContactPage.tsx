@@ -7,7 +7,7 @@ import CTASection from '../components/CTASection';
 import FAQSection from '../components/FAQSection';
 import ContactForm from '../components/ContactForm';
 import { useCalculatorText } from '../components/PriceCalculator';
-import { calculatorSteps, calculatorTopic, fromSearchParams, isStepHidden } from '../data/priceCalculator';
+import { CalculatorLead, calculatorSteps, calculatorTopic, fromSearchParams, isStepHidden, readCalculatorLead } from '../data/priceCalculator';
 
 interface FaqItem {
   question: string;
@@ -24,7 +24,12 @@ const ContactPage: React.FC = () => {
   // Visitors arriving from a price calculator ("Få pris") get their choices
   // pre-filled in the message. Read after mount so the pre-rendered page matches.
   const [calculator, setCalculator] = useState<ReturnType<typeof fromSearchParams>>(null);
-  useEffect(() => setCalculator(fromSearchParams(new URLSearchParams(search))), [search]);
+  const [lead, setLead] = useState<CalculatorLead | null>(null);
+  useEffect(() => {
+    const fromCalculator = fromSearchParams(new URLSearchParams(search));
+    setCalculator(fromCalculator);
+    setLead(fromCalculator ? readCalculatorLead() : null);
+  }, [search]);
   const calculatorMessage = calculator && [
     t('priceCalculator.message.intro', { calculator: t(`priceCalculator.variants.${calculator.variant}.tab`) }),
     '',
@@ -74,6 +79,8 @@ const ContactPage: React.FC = () => {
                   sourceLabel={calculator ? `${t('contact.form.sourceLabel')} – ${t('priceCalculator.sourceLabel')}` : t('contact.form.sourceLabel')}
                   initialTopic={calculator ? calculatorTopic[calculator.variant] : undefined}
                   initialMessage={calculatorMessage || undefined}
+                  initialCompany={lead?.company}
+                  initialPhone={lead?.phone}
                 />
               </div>
             </div>
