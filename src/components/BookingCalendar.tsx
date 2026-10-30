@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { CalendarDays, CheckCircle2, ExternalLink, MousePointerClick } from 'lucide-react';
+import { CalendarDays, CheckCircle2, ExternalLink, Loader2, MousePointerClick } from 'lucide-react';
 import { BOOKING_ANCHOR, BOOKING_URLS, BookingKind, CAL_LINKS } from '../data/booking';
+
+const BRAND = '#4f46e5'; // indigo-600
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type CalApi = ((...args: unknown[]) => void) & { ns: Record<string, (...args: unknown[]) => void>; q?: unknown[]; loaded?: boolean };
@@ -59,7 +61,14 @@ const BookingCalendar: React.FC<{ kind: BookingKind }> = ({ kind }) => {
       const Cal = loadCal();
       Cal('init', kind, { origin: 'https://cal.com' });
       Cal.ns[kind]('inline', { elementOrSelector: `#${elementId}`, calLink: CAL_LINKS[kind], config: { layout: 'month_view', theme: 'light' } });
-      Cal.ns[kind]('ui', { theme: 'light', hideEventTypeDetails: false, layout: 'month_view' });
+      // Match the site: indigo brand colour, no Cal.com event details (our own header explains it).
+      Cal.ns[kind]('ui', {
+        theme: 'light',
+        hideEventTypeDetails: true,
+        layout: 'month_view',
+        styles: { branding: { brandColor: BRAND } },
+        cssVarsPerTheme: { light: { 'cal-brand': BRAND, 'cal-brand-emphasis': '#4338ca', 'cal-brand-text': '#ffffff' } },
+      });
     };
     if (!('IntersectionObserver' in window)) return mount();
     const io = new IntersectionObserver(entries => entries.some(e => e.isIntersecting) && (mount(), io.disconnect()), { rootMargin: '400px' });
@@ -68,22 +77,35 @@ const BookingCalendar: React.FC<{ kind: BookingKind }> = ({ kind }) => {
   }, [kind, elementId]);
 
   return (
-    <div id={BOOKING_ANCHOR} className="scroll-mt-24 overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-700 p-1.5 shadow-xl shadow-indigo-900/20">
-      <div className="px-5 pb-5 pt-6 text-center text-white md:px-8">
-        <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/15"><CalendarDays size={24} /></span>
-        <h3 className="text-2xl font-bold text-white">{t(`booking.${kind}.heading`)}</h3>
-        <p className="mx-auto mt-2 max-w-xl text-blue-50">{t(`booking.${kind}.text`)}</p>
-        <div className="mt-4 flex flex-wrap justify-center gap-2 text-xs font-semibold">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5"><CheckCircle2 size={13} /> {t('booking.free')}</span>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5"><MousePointerClick size={13} /> {t('booking.pickTime')}</span>
+    <div id={BOOKING_ANCHOR} className="scroll-mt-24 overflow-hidden rounded-3xl bg-white shadow-2xl shadow-indigo-950/10 ring-1 ring-slate-200/70">
+      {/* Header in the site's dark navy style */}
+      <div className="surface-dark flex flex-col gap-4 px-6 py-6 md:flex-row md:items-center md:justify-between md:px-8">
+        <div className="flex items-start gap-4">
+          <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/15"><CalendarDays size={22} /></span>
+          <div>
+            <h3 className="text-xl font-bold text-white">{t(`booking.${kind}.heading`)}</h3>
+            <p className="mt-1 max-w-lg text-sm text-blue-100/90">{t(`booking.${kind}.text`)}</p>
+          </div>
         </div>
+        <ul className="flex flex-shrink-0 flex-wrap gap-2 text-xs font-semibold md:flex-col">
+          <li className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5 ring-1 ring-white/10"><CheckCircle2 size={13} className="text-emerald-300" /> {t('booking.free')}</li>
+          <li className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5 ring-1 ring-white/10"><MousePointerClick size={13} className="text-blue-200" /> {t('booking.pickTime')}</li>
+        </ul>
       </div>
-      <div className="overflow-hidden rounded-[1.25rem] bg-white">
-        <div ref={inlineRef} id={elementId} role="region" aria-label={t(`booking.${kind}.iframeTitle`)} className="min-h-[640px] w-full overflow-auto" />
+
+      {/* Calendar: Cal.com renders over the loading hint once it is ready */}
+      <div className="relative min-h-[520px] p-2 md:p-4">
+        <div className="absolute inset-0 flex items-center justify-center gap-2 text-sm text-slate-400">
+          <Loader2 size={16} className="animate-spin" /> {t('booking.loading')}
+        </div>
+        <div ref={inlineRef} id={elementId} role="region" aria-label={t(`booking.${kind}.iframeTitle`)} className="relative z-10 w-full" />
       </div>
-      <a href={url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1.5 py-3 text-sm font-semibold text-white/90 hover:text-white">
-        {t('booking.openNewWindow')} <ExternalLink size={14} />
-      </a>
+
+      <div className="flex justify-center border-t border-slate-100 bg-slate-50/70 px-6 py-3">
+        <a href={url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 hover:text-indigo-700">
+          {t('booking.openNewWindow')} <ExternalLink size={14} />
+        </a>
+      </div>
     </div>
   );
 };

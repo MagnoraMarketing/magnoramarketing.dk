@@ -2,6 +2,7 @@ export default {
   free: 'Free and no obligation',
   pickTime: 'Pick your own time',
   openNewWindow: 'Open the calendar in a new window',
+  loading: 'Loading calendar …',
   button: 'Book a meeting',
   job: {
     heading: 'Rather have a chat first?',

@@ -140,7 +140,7 @@ const ContactPage: React.FC = () => {
           </div>
 
           {/* Book a meeting directly */}
-          <div className="mx-auto mt-16 max-w-3xl">
+          <div className="mx-auto mt-16 max-w-4xl">
             <BookingCalendar kind="business" />
           </div>
 

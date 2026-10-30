@@ -193,7 +193,7 @@ const OutsourcingPage: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="mx-auto mt-12 max-w-3xl text-left">
+          <div className="mx-auto mt-12 max-w-4xl text-left">
             <BookingCalendar kind="business" />
           </div>
         </div>
