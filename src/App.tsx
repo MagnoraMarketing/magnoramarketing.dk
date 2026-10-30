@@ -92,6 +92,7 @@ import WebsitePricingPage from './pages/digital/WebsitePricingPage';
 import AiIntegrationPage from './pages/digital/AiIntegrationPage';
 import AiWidgetPage from './pages/digital/AiWidgetPage';
 import AiReceptionPage from './pages/digital/AiReceptionPage';
+import GameDevelopmentPage from './pages/digital/GameDevelopmentPage';
 
 // Meeting Booking Page
 import MeetingBookingPage from './pages/MeetingBookingPage';
@@ -224,6 +225,7 @@ export function AppRoutes() {
           <Route path="/digital/ai-integration" element={<AiIntegrationPage />} />
           <Route path="/digital/ai-widget" element={<AiWidgetPage />} />
           <Route path="/digital/ai-reception" element={<AiReceptionPage />} />
+          <Route path="/digital/spiludvikling" element={<GameDevelopmentPage />} />
 
           {/* Meeting Booking Page */}
           <Route path="/modebooking-priser" element={<MeetingBookingPage />} />

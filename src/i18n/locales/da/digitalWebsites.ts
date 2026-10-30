@@ -109,6 +109,7 @@ export default {
     altTemplate: 'Hjemmeside vi har bygget: {{name}}',
     items: [
       { desc: 'Hjemmeside for arkitekt med fokus på byer og sundhed – flersproget med blog og projektsider.' },
+      { desc: 'Guide- og bookingside om gardiner og solafskærmning med byguides og leadflow til gratis hjemmebesøg.' },
       { desc: 'Hjemmeside til vagt- og sikkerhedsvirksomhed.' },
       { desc: 'Platform for AI voice widget & automatisk mødebooking.' },
       { desc: 'Hjemmeside for B2B telemarketing & mødebooking.' },

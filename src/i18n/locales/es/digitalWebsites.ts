@@ -109,6 +109,7 @@ export default {
     altTemplate: 'Página web que hemos creado: {{name}}',
     items: [
       { desc: 'Web para una arquitecta especializada en ciudad y salud – multilingüe, con blog y páginas de proyectos.' },
+      { desc: 'Web de guías y reservas sobre cortinas y protección solar, con guías por ciudad y captación de clientes para visitas gratuitas a domicilio.' },
       { desc: 'Página web para una empresa de vigilancia y seguridad.' },
       { desc: 'Plataforma para widget de voz con IA y reserva automática de reuniones.' },
       { desc: 'Página web para telemarketing B2B y reserva de reuniones.' },

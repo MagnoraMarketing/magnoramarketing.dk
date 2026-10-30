@@ -41,6 +41,7 @@ const routes = [
   '/digital/ai-integration',
   '/digital/ai-widget',
   '/digital/ai-reception',
+  '/digital/spiludvikling',
   // Standalone pages
   '/modebooking-priser',
   '/leadgenerering',

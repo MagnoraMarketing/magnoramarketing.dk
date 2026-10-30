@@ -6,7 +6,7 @@
 // locked (blurred) estimate and gets the actual price sent after submitting the
 // contact form, which is pre-filled with their choices (see ContactPage).
 
-export type CalculatorVariant = 'meetings' | 'telemarketing' | 'website' | 'ai';
+export type CalculatorVariant = 'meetings' | 'telemarketing' | 'website' | 'ai' | 'game';
 
 export type CalculatorStep =
   | { id: string; kind: 'choice'; options: string[]; initial: string }
@@ -21,6 +21,7 @@ export const calculatorTopic = {
   telemarketing: 'Pris på Mødebooking / Telesalg',
   website: 'Webudvikling',
   ai: 'AI-løsninger',
+  game: 'Spiludvikling',
 } as const;
 
 const audience: CalculatorStep = { id: 'audience', kind: 'choice', options: ['smb', 'manager', 'csuite'], initial: 'manager' };
@@ -50,6 +51,12 @@ export const calculatorSteps: Record<CalculatorVariant, CalculatorStep[]> = {
     { id: 'volume', kind: 'slider', min: 100, max: 10000, step: 100, initial: 1000 },
     { id: 'integrations', kind: 'multi', options: ['crm', 'calendar', 'email', 'website', 'erp'], initial: ['website'] },
     { id: 'languages', kind: 'choice', options: ['one', 'two', 'many'], initial: 'two' },
+  ],
+  game: [
+    { id: 'platform', kind: 'choice', options: ['web', 'mobile', 'pc', 'learning'], initial: 'mobile' },
+    { id: 'volume', kind: 'slider', min: 1, max: 50, step: 1, initial: 10 },
+    { id: 'graphics', kind: 'choice', options: ['simple2d', 'rich2d', 'threeD'], initial: 'rich2d' },
+    { id: 'features', kind: 'multi', options: ['multiplayer', 'leaderboard', 'payments', 'analytics', 'backend'], initial: ['leaderboard'] },
   ],
 };
 
@@ -108,6 +115,12 @@ export function estimate(variant: CalculatorVariant, v: CalculatorValues): Calcu
         main: roundTo((setup + list('integrations').length * 4000) * languages, 500),
         secondary: roundTo((monthly + (volume / 1000) * 250) * languages, 50),
       };
+    }
+    case 'game': {
+      const base = { web: 25000, mobile: 45000, pc: 80000, learning: 30000 }[String(v.platform)] ?? 45000;
+      const graphics = { simple2d: 1, rich2d: 1.3, threeD: 1.8 }[String(v.graphics)] ?? 1.3;
+      const total = (base + volume * 2000) * graphics + list('features').length * 12000;
+      return { main: roundTo(total, 1000), secondary: roundTo(total / 24, 100) };
     }
   }
 }

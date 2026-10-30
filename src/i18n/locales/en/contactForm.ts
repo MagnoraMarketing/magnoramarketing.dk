@@ -5,6 +5,7 @@ export default {
       meetingBooking: 'Meeting Booking / Telesales',
       webDevelopment: 'Web Development',
       aiSolutions: 'AI Solutions',
+      gameDevelopment: 'Game development',
       other: 'Other',
     },
     topicQuestion: 'What is your inquiry about? *',

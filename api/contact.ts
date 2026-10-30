@@ -51,9 +51,13 @@ export async function POST(request: Request): Promise<Response> {
 
   const values: Record<string, string> = {};
   for (const [key] of FIELDS) values[key] = str(form.get(key), key === 'message' ? 10000 : 300);
-  if (!values.name || !values.message || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) {
-    return json(400, { success: false, reason: 'missing_fields' });
-  }
+  // Price calculator leads carry only company + phone (we call them back);
+  // regular enquiries need a name and a valid e-mail.
+  const isLead = str(form.get('kind')) === 'lead';
+  const valid = isLead
+    ? values.company && values.phone.replace(/\D/g, '').length >= 8 && values.message
+    : values.name && values.message && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email);
+  if (!valid) return json(400, { success: false, reason: 'missing_fields' });
 
   const attachments: Array<{ filename: string; content: string }> = [];
   const file = form.get('attachment');
@@ -86,8 +90,10 @@ export async function POST(request: Request): Promise<Response> {
     body: JSON.stringify({
       from: process.env.CONTACT_FROM || 'Magnora Marketing <onboarding@resend.dev>',
       to: [process.env.CONTACT_TO || 'mail@magnoramarketing.dk'],
-      reply_to: values.email,
-      subject: `${values.topic || 'Henvendelse'} – ${values.name}${values.source ? ` (${values.source})` : ''}`,
+      ...(values.email ? { reply_to: values.email } : {}),
+      subject: isLead
+        ? `Nyt lead fra prisberegneren – ${values.company} (${values.phone})`
+        : `${values.topic || 'Henvendelse'} – ${values.name}${values.source ? ` (${values.source})` : ''}`,
       html,
       text,
       attachments,

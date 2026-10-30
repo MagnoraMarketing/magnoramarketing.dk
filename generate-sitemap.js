@@ -73,6 +73,7 @@ const contentPages = [
 
   // Digital services
   { path: '/digital/webudvikling', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'Webudvikling', desc: 'Skræddersyet webudvikling der kombinerer teknik og kommerciel indsigt.' },
+  { path: '/digital/spiludvikling', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'Spiludvikling', desc: 'Byg dit eget spil: mobilspil, browserspil, PC-spil og lærings- og firmaspil – se hvad det koster at udvikle et spil og få en gratis pris.' },
   { path: '/digital/hjemmesider', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'Hjemmesider', desc: 'Prisvenlige, konverteringsstærke hjemmesider til danske virksomheder.' },
   { path: '/digital/hjemmesider/priser', priority: '0.7', changefreq: 'monthly', group: 'Digitale løsninger', title: 'Priser på hjemmesider', desc: 'Pakker og priser på skræddersyede CMS-hjemmesider – fra 155 kr/md.' },
   { path: '/digital/api-saas', priority: '0.8', changefreq: 'weekly', group: 'Digitale løsninger', title: 'API & SaaS', desc: 'Udvikling af API- og SaaS-løsninger til B2B.' },

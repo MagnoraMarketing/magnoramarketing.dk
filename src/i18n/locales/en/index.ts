@@ -16,6 +16,7 @@ import digitalWebsites from './digitalWebsites';
 import digitalWebsitePricing from './digitalWebsitePricing';
 import digitalAiReception from './digitalAiReception';
 import digitalAiWidget from './digitalAiWidget';
+import digitalGameDevelopment from './digitalGameDevelopment';
 import jobAiConsultant from './jobAiConsultant';
 import jobCoffeeService from './jobCoffeeService';
 import jobDebtCollection from './jobDebtCollection';
@@ -38,6 +39,7 @@ import notFound from './notFound';
 import faqSection from './faqSection';
 import callingSystem from './callingSystem';
 import priceCalculator from './priceCalculator';
+import jobMatcher from './jobMatcher';
 import priceCalculatorPage from './priceCalculatorPage';
 import blogPage from './blogPage';
 import blogPost from './blogPost';
@@ -85,6 +87,7 @@ export default {
   digitalWebsitePricing,
   digitalAiReception,
   digitalAiWidget,
+  digitalGameDevelopment,
   jobAiConsultant,
   jobCoffeeService,
   jobDebtCollection,
@@ -107,6 +110,7 @@ export default {
   ...faqSection,
   ...callingSystem,
   priceCalculator,
+  jobMatcher,
   priceCalculatorPage,
   blogPage,
   blogPost,

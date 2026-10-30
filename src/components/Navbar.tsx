@@ -67,7 +67,8 @@ const Navbar: React.FC = () => {
     { path: '/digital/hjemmesider', title: t('nav.digitalServices.websites') },
     { path: '/digital/ai-integration', title: t('nav.digitalServices.aiIntegration') },
     { path: '/digital/ai-widget', title: t('nav.digitalServices.aiWidget') },
-    { path: '/digital/ai-reception', title: t('nav.digitalServices.aiReception') }
+    { path: '/digital/ai-reception', title: t('nav.digitalServices.aiReception') },
+    { path: '/digital/spiludvikling', title: t('nav.digitalServices.gameDevelopment') }
   ];
 
   const partnerOptions = [
