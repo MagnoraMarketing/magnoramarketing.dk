@@ -56,7 +56,11 @@ export const postsForService = (servicePath: string, limit = 6) =>
 /** Newest posts, taken round-robin across categories so every topic hub is represented. */
 export const latestPosts = (limit = 6) => {
   const queues = blogCategoryOrder.map(c =>
-    blogPosts.filter(p => p.category === c).sort((a, b) => b.date.localeCompare(a.date))
+    blogPosts
+      // Career posts (they support a job page) are for job seekers, not the business
+      // audience of the homepage, so they stay out of this list.
+      .filter(p => p.category === c && !p.services.some(s => s.startsWith('/jobs/')))
+      .sort((a, b) => b.date.localeCompare(a.date))
   );
   const picked: BlogPostEntry[] = [];
   while (picked.length < limit && queues.some(q => q.length)) {

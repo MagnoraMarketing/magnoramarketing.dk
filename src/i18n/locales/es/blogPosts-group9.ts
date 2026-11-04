@@ -202,4 +202,185 @@ export default {
     ctaPrimaryText: 'Pide una oferta',
     ctaSecondaryText: 'Ver todos los precios',
   },
+  ArbejdeMedForsikringHjemmefra: {
+    "seoTitle": "Trabajar en seguros desde casa: guía del empleo | Magnora",
+    "seoDescription": "¿Quieres trabajar en seguros desde casa? Descubre qué hace un concertador de reuniones para corredores de seguros, sueldo, requisitos y cómo postularte en Magnora.",
+    "keywords": "trabajar en seguros, empleo seguros desde casa, concertador de reuniones seguros, empleo sector seguros, trabajo en seguros sin experiencia, cómo ser concertador de reuniones, corredor de seguros reuniones, empleo seguros y pensiones, teletrabajo seguros",
+    "category": "Concertación de Reuniones",
+    "title": "Trabajar en seguros desde casa: cómo ser concertador de reuniones en Magnora Marketing",
+    "displayDate": "4 de noviembre de 2026",
+    "readTime": "7 minutos de lectura",
+    "intro": "¿Sueñas con trabajar en el sector de los seguros, pero sin desplazamientos, horarios de oficina ni una titulación en seguros? Entonces te interesa conocer el puesto de concertador de reuniones para corredores de seguros. En Magnora Marketing buscamos ahora más concertadores para seguros y pensiones. En esta guía te contamos con honestidad en qué consiste el trabajo, cómo es el día a día, cuánto puedes ganar y cómo postularte.",
+    "sections": [
+      {
+        "heading": "¿Qué significa trabajar en seguros como concertador de reuniones?",
+        "body": [
+          "Como concertador de reuniones de seguros, eres el enlace entre un cliente y un corredor de seguros profesional. Llamas a empresas y particulares, mantienes una conversación breve y creíble sobre sus seguros actuales y les ofreces una reunión sin compromiso con un corredor que puede revisar su cobertura y su precio.",
+          "Es decir, no vendes seguros ni asesoras. Tu tarea es despertar el interés y concertar la reunión cualificada. Eso hace que el trabajo sea sencillo, aunque nunca hayas trabajado en el sector."
+        ]
+      },
+      {
+        "heading": "Por qué los seguros son un buen sector para concertar reuniones",
+        "body": [
+          "Casi todas las empresas y hogares tienen seguros, y muchos no los han revisado en años. Un corredor independiente suele encontrar una mejor cobertura o un precio más bajo, por eso una revisión gratuita es una oferta que muchos aceptan."
+        ],
+        "bullets": [
+          "Un producto que todos necesitan: demanda grande y estable",
+          "Una oferta concreta para el cliente: una revisión gratuita y sin compromiso",
+          "Las reuniones cualificadas tienen mucho valor para los corredores, y para ti",
+          "Seguros y pensiones van de la mano, así que puedes trabajar en ambos"
+        ]
+      },
+      {
+        "heading": "Así es un día de trabajo desde casa",
+        "level": 3,
+        "body": [
+          "Te conectas desde casa, abres tus listas de llamadas en el CRM y planificas tu día. Normalmente obtienes los mejores resultados en horario de oficina danés, cuando es más fácil contactar con las empresas. Llamas, sigues un guion probado, anotas las respuestas y concertas las reuniones directamente en la agenda de los corredores.",
+          "Entre medias hay sesiones online con tus compañeros y responsables de ventas, en las que compartís buenas frases y resolvéis juntos las objeciones difíciles. Trabajas solo en casa, pero nunca estás solo."
+        ]
+      },
+      {
+        "heading": "¿Cuánto puedes ganar como concertador de reuniones de seguros?",
+        "body": [
+          "En Magnora Marketing recibes un sueldo base fijo combinado con comisión sin límite por reunión cualificada. Acordamos contigo el modelo exacto antes de empezar, pero el principio es sencillo: cuantas más reuniones buenas concertes, más ganas. La comisión se paga mensualmente y se basa en tus reuniones verificadas."
+        ]
+      },
+      {
+        "heading": "¿Qué requisitos hay?",
+        "bullets": [
+          "Eres extrovertido y te gusta hablar con la gente por teléfono",
+          "Hablas y escribes danés con fluidez",
+          "Eres disciplinado y puedes trabajar de forma autónoma desde casa",
+          "Tienes teléfono, ordenador y una conexión a internet estable",
+          "La experiencia en ventas o atención al cliente es un plus, pero no un requisito"
+        ]
+      },
+      {
+        "heading": "¿Seguros o pensiones, o ambos?",
+        "body": [
+          "Seguros y pensiones son dos caras de la misma moneda: la seguridad económica. Muchos de nuestros concertadores empiezan en un sector y después amplían al otro. Si concertas reuniones para corredores de seguros, también puedes concertar revisiones de pensiones sin compromiso para asesores con experiencia, y al revés. Ambos empleos están en nuestras páginas de empleo y puedes postularte con la misma solicitud breve."
+        ]
+      },
+      {
+        "heading": "Cómo postularte en Magnora Marketing",
+        "body": [
+          "La solicitud es breve y sin compromiso. Rellenas el formulario de la página del empleo en seguros, nos cuentas brevemente quién eres y te respondemos en un plazo de 2 días laborables para una charla inicial. Después recibes formación de producto, guiones y acceso a los sistemas, y en pocos días estás listo para concertar tus primeras reuniones. Ahora mismo buscamos sobre todo personas para seguros y pensiones, así que envía tu solicitud hoy."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Se puede trabajar en seguros sin titulación?",
+        "answer": "Sí. Como concertador no asesoras ni vendes seguros: concertas reuniones para corredores de seguros. En Magnora Marketing recibes una formación completa para estar listo desde el principio."
+      },
+      {
+        "question": "¿Puedo trabajar en seguros 100% desde casa?",
+        "answer": "Sí. El trabajo se hace desde casa y por teléfono. Solo necesitas teléfono, ordenador y una conexión estable, y puedes vivir en cualquier lugar de Dinamarca."
+      },
+      {
+        "question": "¿Cuál es el sueldo de un concertador de reuniones de seguros?",
+        "answer": "Recibes un sueldo base fijo más comisión sin límite por reunión cualificada. El modelo exacto se acuerda antes de empezar."
+      },
+      {
+        "question": "¿Puedo trabajar con seguros y pensiones a la vez?",
+        "answer": "Sí. En Magnora Marketing puedes concertar reuniones tanto para corredores de seguros como para asesores de pensiones. Consulta ambos empleos en nuestras páginas de empleo."
+      }
+    ],
+    "jobCta": {
+      "heading": "Buscamos concertadores de reuniones de seguros ahora",
+      "body": "Trabaja 100% desde casa para los mejores corredores de seguros de Dinamarca con sueldo base fijo, comisión sin límite y horario flexible. La solicitud lleva pocos minutos y no implica ningún compromiso.",
+      "linkText": "Ver el empleo en seguros y postularme"
+    },
+    "ctaTitle": "¿Listo para trabajar en seguros y pensiones desde casa?",
+    "ctaSubtitle": "Magnora Marketing busca concertadores de reuniones para seguros y pensiones. Elige el sector que más te guste, o ambos, y envía hoy una solicitud breve.",
+    "ctaPrimaryText": "Empleo en seguros desde casa",
+    "ctaSecondaryText": "Empleo en pensiones desde casa"
+  },
+  ArbejdeMedPensionHjemmefra: {
+    "seoTitle": "Trabajar en pensiones sin titulación: guía | Magnora",
+    "seoDescription": "¿Quieres trabajar en pensiones sin formación financiera? Descubre cómo ser concertador de reuniones de pensiones desde casa: sueldo, requisitos y solicitud.",
+    "keywords": "trabajar en pensiones, empleo pensiones, empleo en el sector de pensiones, trabajo pensiones sin titulación, concertador de reuniones pensiones, empleo revisión de pensiones, empleo seguros y pensiones, empleo pensiones desde casa",
+    "category": "Concertación de Reuniones",
+    "title": "Trabajar en pensiones sin formación financiera: cómo ser concertador de reuniones de pensiones",
+    "displayDate": "4 de noviembre de 2026",
+    "readTime": "7 minutos de lectura",
+    "intro": "A muchas personas el sector de las pensiones les parece un mundo cerrado en el que hay que ser economista o asesor de pensiones para entrar. Pero hay otro camino: como concertador de reuniones de pensiones trabajas con uno de los temas más importantes de las finanzas personales, sin tener que asesorar tú. En Magnora Marketing buscamos ahora más concertadores para pensiones y seguros, y aquí te contamos en qué consiste el trabajo.",
+    "sections": [
+      {
+        "heading": "¿Por qué se necesitan concertadores de reuniones de pensiones?",
+        "body": [
+          "Muchos daneses nunca han revisado su pensión. No saben si ahorran lo suficiente, si las comisiones son demasiado altas o si están cubiertos en caso de enfermedad o fallecimiento. Los asesores de pensiones pueden ayudar, pero deben dedicar su tiempo a asesorar, no a llamar para buscar clientes.",
+          "Ahí entras tú. Como concertador, creas el contacto y llenas la agenda de los asesores con revisiones de pensiones cualificadas y sin compromiso."
+        ]
+      },
+      {
+        "heading": "¿Qué haces exactamente?",
+        "bullets": [
+          "Llamas a particulares y empresas de nuestras listas",
+          "Explicas brevemente el valor de una revisión de pensiones gratuita",
+          "Averiguas si el cliente tiene una visión clara de su pensión",
+          "Concertas la reunión directamente en la agenda del asesor",
+          "Registras el resultado en el CRM, donde la comisión se calcula automáticamente"
+        ]
+      },
+      {
+        "heading": "No necesitas formación financiera",
+        "body": [
+          "El asesoramiento profesional corre a cargo del asesor de pensiones. Tu papel es transmitir confianza, escuchar y explicar la oferta de forma sencilla. Recibes formación de producto sobre los conceptos clave (ahorro, costes y cobertura de seguros) y un guion probado para llevar la conversación con seguridad desde el primer día. La experiencia en banca, seguros, atención al cliente o ventas es un plus, pero no un requisito."
+        ]
+      },
+      {
+        "heading": "¿Es difícil llamar para hablar de pensiones?",
+        "level": 3,
+        "body": [
+          "Las pensiones tienen que ver con grandes decisiones vitales, así que requieren un tono tranquilo y respetuoso. A cambio, la oferta es fácil de aceptar: una revisión gratuita sin compromiso. La mayoría agradece que le recuerden algo que llevaba tiempo queriendo revisar. Con el coaching continuo de nuestros responsables de ventas, enseguida dominarás la conversación."
+        ]
+      },
+      {
+        "heading": "Sueldo y condiciones en un empleo de pensiones",
+        "body": [
+          "Recibes un honorario fijo más comisión por reuniones concertadas y acuerdos cerrados. Como las pensiones son un producto de alto valor, cada reunión cualificada vale mucho. La comisión se paga mensualmente, la colaboración se formaliza en un contrato freelance por escrito y las primeras 2–4 semanas son un periodo de prueba mutuo."
+        ]
+      },
+      {
+        "heading": "Pensiones y seguros van de la mano",
+        "body": [
+          "Pensiones y seguros tratan de la seguridad económica, y muchos clientes necesitan ambos. Por eso, en Magnora Marketing también puedes concertar reuniones para corredores de seguros si quieres más variedad o más horas. Muchos empiezan en un sector y después amplían al otro."
+        ]
+      },
+      {
+        "heading": "Cómo empezar",
+        "body": [
+          "Entra en la página del empleo en pensiones y rellena el breve formulario de solicitud. Te respondemos en un plazo de 2 días laborables para una charla sin compromiso. Después vienen la formación, los guiones y el acceso a las listas de llamadas y al CRM, y ya estarás listo para concertar tus primeras reuniones de pensiones desde casa. Ahora mismo necesitamos personas para pensiones y seguros, así que envía tu solicitud hoy."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Se puede trabajar en pensiones sin titulación?",
+        "answer": "Sí. Como concertador no asesoras: concertas revisiones de pensiones sin compromiso para asesores con experiencia. En Magnora Marketing recibes una formación completa."
+      },
+      {
+        "question": "¿Puedo trabajar con pensiones desde casa?",
+        "answer": "Sí. Todo el trabajo se hace desde casa y por teléfono con horario flexible: jornada completa, parcial o como trabajo extra."
+      },
+      {
+        "question": "¿Cuánto gana un concertador de reuniones de pensiones?",
+        "answer": "Recibes un honorario fijo más comisión por reuniones concertadas y acuerdos cerrados. El modelo exacto se acuerda antes de empezar."
+      },
+      {
+        "question": "¿También puedo concertar reuniones sobre seguros?",
+        "answer": "Sí. Magnora Marketing también busca concertadores para corredores de seguros, y puedes trabajar en ambos sectores."
+      }
+    ],
+    "jobCta": {
+      "heading": "Buscamos concertadores de reuniones de pensiones ahora",
+      "body": "Concierta reuniones de pensiones para asesores con experiencia 100% desde casa, con honorario fijo, comisión y horario flexible. Sin formación financiera: la solicitud es breve y sin compromiso.",
+      "linkText": "Ver el empleo en pensiones y postularme"
+    },
+    "ctaTitle": "¿Listo para trabajar en pensiones y seguros desde casa?",
+    "ctaSubtitle": "Magnora Marketing busca concertadores de reuniones para pensiones y seguros. Elige el sector que más te guste, o ambos, y envía hoy una solicitud breve.",
+    "ctaPrimaryText": "Empleo en pensiones desde casa",
+    "ctaSecondaryText": "Empleo en seguros desde casa"
+  },
 };

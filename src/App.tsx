@@ -64,6 +64,8 @@ import HvorforAiNu2026 from './pages/blog/HvorforAiNu2026';
 import AiSalgMoedebookingFremtid from './pages/blog/AiSalgMoedebookingFremtid';
 import BedsteAiLoesningerSMV from './pages/blog/BedsteAiLoesningerSMV';
 import BlivAiKonsulentKarriere from './pages/blog/BlivAiKonsulentKarriere';
+import ArbejdeMedForsikringHjemmefra from './pages/blog/ArbejdeMedForsikringHjemmefra';
+import ArbejdeMedPensionHjemmefra from './pages/blog/ArbejdeMedPensionHjemmefra';
 import HundredeBudAiOpgaveloesning from './pages/blog/HundredeBudAiOpgaveloesning';
 import PrisPaaMoedebooking from './pages/blog/PrisPaaMoedebooking';
 import HvadKosterMoedebooking from './pages/blog/HvadKosterMoedebooking';
@@ -198,6 +200,8 @@ export function AppRoutes() {
           <Route path="/blog/ai-salg-moedebooking-fremtid" element={<AiSalgMoedebookingFremtid />} />
           <Route path="/blog/bedste-ai-loesninger-smv" element={<BedsteAiLoesningerSMV />} />
           <Route path="/blog/bliv-ai-konsulent-karriere" element={<BlivAiKonsulentKarriere />} />
+          <Route path="/blog/arbejde-med-forsikring-hjemmefra" element={<ArbejdeMedForsikringHjemmefra />} />
+          <Route path="/blog/arbejde-med-pension-hjemmefra" element={<ArbejdeMedPensionHjemmefra />} />
           <Route path="/blog/100-bud-ai-opgaveloesning" element={<HundredeBudAiOpgaveloesning />} />
           
           {/* Admin Routes */}

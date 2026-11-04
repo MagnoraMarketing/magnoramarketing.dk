@@ -1,6 +1,14 @@
 // Translated title + description for every blog post, keyed by slug.
 // Must contain every slug in src/data/blogPosts.json (enforced by scripts/check-i18n.mjs).
 export default {
+  'arbejde-med-forsikring-hjemmefra': {
+    title: "Trabajar en seguros desde casa: cómo ser concertador de reuniones en Magnora Marketing",
+    description: "¿Quieres trabajar en seguros desde casa? Descubre qué hace un concertador de reuniones para corredores de seguros, sueldo, requisitos y cómo postularte en Magnora.",
+  },
+  'arbejde-med-pension-hjemmefra': {
+    title: "Trabajar en pensiones sin formación financiera: cómo ser concertador de reuniones de pensiones",
+    description: "¿Quieres trabajar en pensiones sin formación financiera? Descubre cómo ser concertador de reuniones de pensiones desde casa: sueldo, requisitos y solicitud.",
+  },
   'hvad-koster-telemarketing': {
     title: '¿Cuánto cuesta el telemarketing? Precios, modelos de precio y ejemplos',
     description: '¿Cuánto cuesta el telemarketing en 2026? Precios por hora, comisiones y paquetes, qué influye en el precio, comercial interno frente a externalización y tres ejemplos de presupuesto.',

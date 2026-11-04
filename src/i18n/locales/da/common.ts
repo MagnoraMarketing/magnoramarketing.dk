@@ -128,4 +128,18 @@ export default {
       description: 'Book møder for professionelle inkassoløsninger og hjælp virksomheder med debitorhåndtering.',
     },
   },
+  jobSchema: {
+    breadcrumbHome: 'Forside',
+    breadcrumbJobs: 'Ledige job',
+    body: 'Du arbejder som freelance mødebooker for Magnora Marketing, 100% hjemmefra og med fleksible arbejdstider. Du ringer til relevante kontakter fra vores ringelister og booker kvalificerede møder for vores samarbejdspartnere – du skal ikke selv sælge eller rådgive.',
+    benefits: [
+      'Arbejd 100% hjemmefra – i hele Danmark',
+      'Fleksible arbejdstider – fuldtid eller deltid',
+      'Fast grundhonorar plus provision pr. kvalificeret møde',
+      'Ringelister, scripts og CRM leveres',
+      'Grundig oplæring og løbende sparring',
+    ],
+    workHours: 'Fleksible arbejdstider – du planlægger selv din dag',
+    apply: 'Søg direkte via formularen på siden – ingen lang ansøgning nødvendig. Vi svarer inden for 2 hverdage.',
+  },
 };

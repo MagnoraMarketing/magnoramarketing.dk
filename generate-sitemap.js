@@ -92,7 +92,7 @@ const contentPages = [
   { path: '/jobs/kaffe-service', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Kaffe-service', desc: 'Mødebooking- og salgsopgaver inden for kaffeservice.' },
   { path: '/jobs/solenergi', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Solenergi', desc: 'Mødebooking inden for solceller og vedvarende energi.' },
   { path: '/jobs/matte-service', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Måtte-service', desc: 'Mødebooking- og salgsopgaver inden for måtteservice.' },
-  { path: '/jobs/pensionsordning', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Pensionsordning', desc: 'Freelance mødebooking inden for pension.' },
+  { path: '/jobs/pensionsordning', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Job inden for pension hjemmefra – mødebooker', desc: 'Job inden for pension 100% hjemmefra: book pensionsgennemgange for erfarne pensionsrådgivere. Ingen finansiel baggrund krævet.' },
   { path: '/jobs/inkasso', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Inkasso', desc: 'Freelanceopgaver inden for inkasso.' },
 ];
 

@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Mødebooker Hjemmefra – Forsikring | Magnora Marketing',
     description: 'Bliv mødebooker 100% hjemmefra for landets førende forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag.',
-    keywords: 'mødebooking hjemmefra, mødebooker forsikring, mødebooking forsikring job, mødebooker forsikringsmægler, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, freelance mødebooking, mødebooking job Danmark, attraktiv løn hjemmearbejde, remote mødebooking forsikring',
+    keywords: 'mødebooking hjemmefra, mødebooker forsikring, mødebooking forsikring job, mødebooker forsikringsmægler, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, freelance mødebooking, mødebooking job Danmark, attraktiv løn hjemmearbejde, remote mødebooking forsikring, job forsikring, job i forsikring hjemmefra, forsikringsjob, job i forsikringsbranchen, job forsikring og pension, freelance mødebooker, deltidsjob hjemmefra, bijob hjemmefra',
   },
   breadcrumbs: {
     home: 'Forside',
@@ -153,6 +153,7 @@ export default {
       { question: 'Hvilke arbejdstider er der?', answer: 'Du planlægger selv din dag. Bedste resultater opnås typisk inden for normal dansk kontortid (kl. 8-17), hvor kunderne er lettest at få fat i.' },
       { question: 'Hvornår udbetales provisionen?', answer: 'Provision udbetales månedligt og er baseret på dine verificerede, kvalificerede møder.' },
       { question: 'Hvor hurtigt kan jeg komme i gang?', answer: 'Efter en kort afklaringssnak og onboarding kan de fleste være klar til at booke møder inden for få dage.' },
+      { question: 'Kan jeg arbejde med både forsikring og pension?', answer: 'Ja. Forsikring og pension hænger tæt sammen, og du kan også booke uforpligtende pensionsgennemgange for erfarne pensionsrådgivere hos Magnora Marketing. Se vores job inden for pension.' },
       { question: 'Hvordan søger jeg?', answer: 'Send os en kort besked via kontaktsiden – ingen lang ansøgning nødvendig. Vi vender tilbage inden for 2 hverdage.' },
     ],
   },

@@ -1,5 +1,41 @@
 [
   {
+    "slug": "arbejde-med-forsikring-hjemmefra",
+    "category": "telesalg",
+    "date": "2026-11-04",
+    "title": "Arbejde med forsikring hjemmefra: Sådan bliver du mødebooker hos Magnora Marketing",
+    "description": "Vil du arbejde med forsikring hjemmefra? Se hvad en mødebooker for forsikringsmæglere laver, løn, krav og hverdag – og hvordan du søger jobbet hos Magnora.",
+    "readMin": 7,
+    "related": [
+      "arbejde-med-pension-hjemmefra",
+      "modebooking-2026",
+      "moedebooking-scripts-2026"
+    ],
+    "services": [
+      "/jobs/forsikring-hjemmefra",
+      "/jobs/pensionsordning",
+      "/freelance-telemarketing"
+    ]
+  },
+  {
+    "slug": "arbejde-med-pension-hjemmefra",
+    "category": "telesalg",
+    "date": "2026-11-04",
+    "title": "Arbejde med pension uden finansiel uddannelse: Sådan bliver du mødebooker inden for pension",
+    "description": "Vil du arbejde med pension, men har ingen finansiel uddannelse? Se hvordan du bliver mødebooker inden for pension hjemmefra – løn, krav, hverdag og ansøgning.",
+    "readMin": 7,
+    "related": [
+      "arbejde-med-forsikring-hjemmefra",
+      "modebooking-2026",
+      "moedebooking-scripts-2026"
+    ],
+    "services": [
+      "/jobs/pensionsordning",
+      "/jobs/forsikring-hjemmefra",
+      "/freelance-telemarketing"
+    ]
+  },
+  {
     "slug": "hvad-koster-telemarketing",
     "category": "telesalg",
     "date": "2026-10-30",

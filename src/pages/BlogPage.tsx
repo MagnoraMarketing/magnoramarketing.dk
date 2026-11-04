@@ -45,6 +45,8 @@ const categoryMeta: Array<{ id: string; icon: React.ReactNode; color: string; ba
     color: 'from-blue-700 to-blue-900',
     badgeColor: 'bg-blue-100 text-blue-700',
     slugs: [
+      { slug: 'arbejde-med-forsikring-hjemmefra', date: '2026-11-04' },
+      { slug: 'arbejde-med-pension-hjemmefra', date: '2026-11-04' },
       { slug: 'telesalg-2026', date: '2026-03-05' },
       { slug: 'modebooking-2026', date: '2026-02-20' },
       { slug: 'outbound-sales-2026', date: '2026-03-20' },

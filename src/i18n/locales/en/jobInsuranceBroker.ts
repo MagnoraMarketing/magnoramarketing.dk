@@ -2,7 +2,7 @@ export default {
   seo: {
     title: 'Remote Meeting Booking for Denmark\'s Best Insurance Brokers | Magnora Marketing',
     description: 'Become a meeting booker and book meetings 100% remotely for the country\'s leading insurance brokers. Attractive salary, uncapped commission, and full freedom over your workday. Apply for the meeting booking job today.',
-    keywords: 'meeting booking from home, meeting booker insurance, meeting booking insurance job, meeting booker insurance broker, insurance broker job remote, work from home insurance, freelance meeting booking, meeting booking job Denmark, attractive remote work salary, remote meeting booking insurance',
+    keywords: 'meeting booking from home, meeting booker insurance, meeting booking insurance job, meeting booker insurance broker, insurance broker job remote, work from home insurance, freelance meeting booking, meeting booking job Denmark, attractive remote work salary, remote meeting booking insurance, insurance job, remote insurance job, job in insurance, insurance industry job, insurance and pension jobs, freelance meeting booker, remote meeting booking, part-time job from home, side job from home',
   },
   breadcrumbs: {
     home: 'Home',
@@ -153,6 +153,7 @@ export default {
       { question: 'What working hours are there?', answer: 'You plan your own day. The best results are typically achieved within normal Danish office hours (8 am–5 pm), when customers are easiest to reach.' },
       { question: 'When is commission paid out?', answer: 'Commission is paid out monthly and is based on your verified, qualified meetings.' },
       { question: 'How quickly can I get started?', answer: 'After a short introductory chat and onboarding, most people are ready to book meetings within a few days.' },
+      { question: 'Can I work with both insurance and pensions?', answer: 'Yes. Insurance and pensions are closely linked, and you can also book no-obligation pension reviews for experienced pension advisers at Magnora Marketing. See our pension job.' },
       { question: 'How do I apply?', answer: 'Send us a short message via the contact page – no lengthy application needed. We get back to you within 2 business days.' },
     ],
   },
