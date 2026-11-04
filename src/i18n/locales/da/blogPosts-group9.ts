@@ -202,4 +202,185 @@ export default {
     ctaPrimaryText: 'Få et tilbud',
     ctaSecondaryText: 'Se alle priser',
   },
+  ArbejdeMedForsikringHjemmefra: {
+    "seoTitle": "Arbejde med forsikring hjemmefra: Guide til jobbet | Magnora",
+    "seoDescription": "Vil du arbejde med forsikring hjemmefra? Se hvad en mødebooker for forsikringsmæglere laver, løn, krav og hverdag – og hvordan du søger jobbet hos Magnora.",
+    "keywords": "arbejde med forsikring, job forsikring hjemmefra, mødebooker forsikring, job i forsikringsbranchen, forsikringsjob uden erfaring, hvordan bliver man mødebooker, forsikringsmægler mødebooking, job forsikring og pension, hjemmearbejde forsikring",
+    "category": "Mødebooking",
+    "title": "Arbejde med forsikring hjemmefra: Sådan bliver du mødebooker hos Magnora Marketing",
+    "displayDate": "4. november 2026",
+    "readTime": "7 minutters læsning",
+    "intro": "Drømmer du om at arbejde med forsikring, men uden pendling, faste kontortider og krav om en forsikringsuddannelse? Så er jobbet som mødebooker for forsikringsmæglere værd at kende. Hos Magnora Marketing søger vi lige nu flere mødebookere til forsikring og pension. I denne guide får du et ærligt billede af, hvad jobbet går ud på, hvordan hverdagen ser ud, hvad du kan tjene – og hvordan du søger.",
+    "sections": [
+      {
+        "heading": "Hvad vil det sige at arbejde med forsikring som mødebooker?",
+        "body": [
+          "Som mødebooker inden for forsikring er du bindeleddet mellem en kunde og en professionel forsikringsmægler. Du ringer til virksomheder og privatpersoner, tager en kort og troværdig samtale om deres nuværende forsikringer og tilbyder et uforpligtende møde med en mægler, som kan gennemgå deres dækning og pris.",
+          "Du sælger altså ikke selv forsikringer og giver ikke rådgivning. Din opgave er at skabe interessen og booke det kvalificerede møde. Det gør jobbet overskueligt, også selvom du aldrig har arbejdet i forsikringsbranchen før."
+        ]
+      },
+      {
+        "heading": "Derfor er forsikring et godt område at booke møder inden for",
+        "body": [
+          "Næsten alle virksomheder og husstande har forsikringer – og mange har ikke fået dem gennemgået i årevis. En uafhængig forsikringsmægler kan ofte finde bedre dækning eller en lavere pris, og derfor er et gratis tjek et tilbud, som mange siger ja til."
+        ],
+        "bullets": [
+          "Et produkt alle har brug for – stor og stabil efterspørgsel",
+          "Et konkret tilbud til kunden: en gratis og uforpligtende gennemgang",
+          "Kvalificerede møder har høj værdi for mæglerne – og for dig",
+          "Forsikring og pension hænger sammen, så du kan udvide til begge områder"
+        ]
+      },
+      {
+        "heading": "Sådan ser en arbejdsdag ud hjemmefra",
+        "level": 3,
+        "body": [
+          "Du logger ind fra hjemmet, åbner dine ringelister i CRM-systemet og planlægger din dag. De bedste resultater får du typisk i dansk kontortid, hvor virksomhederne er lettest at fange. Du ringer op, følger et gennemprøvet script, noterer svarene og booker møderne direkte i mæglernes kalender.",
+          "Ind imellem er der online sparring med dine kolleger og salgsledere, hvor I deler gode formuleringer og løser svære indvendinger sammen. Du arbejder alene hjemme, men du står aldrig alene."
+        ]
+      },
+      {
+        "heading": "Hvad kan du tjene som mødebooker for forsikring?",
+        "body": [
+          "Hos Magnora Marketing får du en fast grundløn kombineret med provision pr. kvalificeret møde – uden loft. Den præcise model aftaler vi med dig inden opstart, men princippet er enkelt: Jo flere gode møder du booker, jo mere tjener du. Provisionen udbetales månedligt og er baseret på dine verificerede møder."
+        ]
+      },
+      {
+        "heading": "Hvilke krav er der til dig?",
+        "bullets": [
+          "Du er udadvendt og kan lide at tale med mennesker i telefonen",
+          "Du taler og skriver flydende dansk",
+          "Du er selvdisciplineret og kan arbejde selvstændigt hjemmefra",
+          "Du har telefon, computer og stabilt internet",
+          "Erfaring med salg eller kundeservice er en fordel – men ikke et krav"
+        ]
+      },
+      {
+        "heading": "Forsikring eller pension – eller begge dele?",
+        "body": [
+          "Forsikring og pension er to sider af samme sag: økonomisk tryghed. Mange af vores mødebookere starter med det ene område og udvider senere til det andet. Booker du møder for forsikringsmæglere, kan du også booke uforpligtende pensionsgennemgange for erfarne pensionsrådgivere – og omvendt. Begge job findes på vores jobsider, og du kan søge dem med samme korte ansøgning."
+        ]
+      },
+      {
+        "heading": "Sådan søger du jobbet hos Magnora Marketing",
+        "body": [
+          "Ansøgningen er kort og uforpligtende. Du udfylder formularen på jobsiden for forsikring, fortæller kort om dig selv, og vi vender tilbage inden for 2 hverdage for en afklarende snak. Derefter får du produkttræning, scripts og adgang til systemerne – og på få dage er du klar til at booke dine første møder. Lige nu søger vi især folk til forsikring og pension, så send gerne din ansøgning i dag."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kan man arbejde med forsikring uden uddannelse?",
+        "answer": "Ja. Som mødebooker skal du ikke rådgive eller sælge forsikringer – du booker møder for forsikringsmæglere. Du får grundig produkttræning hos Magnora Marketing, så du er klar fra start."
+      },
+      {
+        "question": "Kan jeg arbejde med forsikring 100% hjemmefra?",
+        "answer": "Ja. Jobbet foregår hjemmefra og over telefon. Du behøver kun telefon, computer og stabilt internet, og du kan bo hvor som helst i Danmark."
+      },
+      {
+        "question": "Hvad er lønnen som mødebooker for forsikring?",
+        "answer": "Du får en fast grundløn plus provision pr. kvalificeret møde uden loft. Den præcise model aftales inden opstart."
+      },
+      {
+        "question": "Kan jeg arbejde med både forsikring og pension?",
+        "answer": "Ja. Hos Magnora Marketing kan du booke møder for både forsikringsmæglere og pensionsrådgivere. Se begge job på vores jobsider."
+      }
+    ],
+    "jobCta": {
+      "heading": "Vi søger mødebookere til forsikring lige nu",
+      "body": "Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere med fast grundløn, provision uden loft og fleksible tider. Ansøgningen tager få minutter og er helt uforpligtende.",
+      "linkText": "Se jobbet i forsikring og søg"
+    },
+    "ctaTitle": "Klar til at arbejde med forsikring og pension hjemmefra?",
+    "ctaSubtitle": "Magnora Marketing søger mødebookere til både forsikring og pension. Vælg det område, der passer dig – eller begge – og send en kort ansøgning i dag.",
+    "ctaPrimaryText": "Job i forsikring hjemmefra",
+    "ctaSecondaryText": "Job inden for pension hjemmefra"
+  },
+  ArbejdeMedPensionHjemmefra: {
+    "seoTitle": "Arbejde med pension uden uddannelse: Guide | Magnora",
+    "seoDescription": "Vil du arbejde med pension, men har ingen finansiel uddannelse? Se hvordan du bliver mødebooker inden for pension hjemmefra – løn, krav, hverdag og ansøgning.",
+    "keywords": "arbejde med pension, job pension, job inden for pension, job i pensionsbranchen, pension job uden uddannelse, mødebooker pension, pensionsgennemgang job, job forsikring og pension, pension job hjemmefra",
+    "category": "Mødebooking",
+    "title": "Arbejde med pension uden finansiel uddannelse: Sådan bliver du mødebooker inden for pension",
+    "displayDate": "4. november 2026",
+    "readTime": "7 minutters læsning",
+    "intro": "Pensionsbranchen virker for mange som et lukket land, hvor man skal være uddannet finansøkonom eller pensionsrådgiver for at komme ind. Men der findes en anden vej: Som mødebooker inden for pension arbejder du med et af de vigtigste emner i danskernes økonomi – uden selv at skulle rådgive. Hos Magnora Marketing søger vi lige nu flere mødebookere til pension og forsikring, og her kan du læse, hvad jobbet indebærer.",
+    "sections": [
+      {
+        "heading": "Hvorfor er der brug for mødebookere inden for pension?",
+        "body": [
+          "Mange danskere har aldrig fået gennemgået deres pension. De ved ikke, om de sparer nok op, om omkostningerne er for høje, eller om de er dækket ved sygdom og død. Pensionsrådgiverne kan hjælpe – men de skal bruge deres tid på rådgivning, ikke på at ringe rundt og finde kunderne.",
+          "Det er her, du kommer ind. Som mødebooker skaber du kontakten og fylder rådgivernes kalender med kvalificerede, uforpligtende pensionsgennemgange."
+        ]
+      },
+      {
+        "heading": "Hvad laver du konkret?",
+        "bullets": [
+          "Ringer til private og virksomheder fra vores ringelister",
+          "Forklarer kort værdien af en gratis pensionsgennemgang",
+          "Afdækker, om kunden har overblik over sin pension",
+          "Booker mødet direkte i pensionsrådgiverens kalender",
+          "Registrerer resultatet i CRM, hvor provisionen beregnes automatisk"
+        ]
+      },
+      {
+        "heading": "Du behøver ikke en finansiel baggrund",
+        "body": [
+          "Den faglige rådgivning står pensionsrådgiveren for. Din rolle er at være troværdig, lytte og forklare tilbuddet enkelt. Du får produkttræning i de vigtigste begreber – opsparing, omkostninger og forsikringsdækning – og et gennemprøvet script, så du kan føre samtalen trygt fra første dag. Har du erfaring fra bank, forsikring, kundeservice eller salg, er det en fordel, men det er ikke et krav."
+        ]
+      },
+      {
+        "heading": "Er pension et svært emne at ringe om?",
+        "level": 3,
+        "body": [
+          "Pension handler om store livsvalg, så det kræver en rolig og respektfuld tone. Til gengæld er tilbuddet let at sige ja til: en gratis gennemgang uden forpligtelser. De fleste sætter pris på at blive mindet om noget, de længe har tænkt, at de burde se på. Med løbende coaching fra vores salgsledere bliver du hurtigt god til samtalen."
+        ]
+      },
+      {
+        "heading": "Løn og vilkår i et job inden for pension",
+        "body": [
+          "Du får et fast grundhonorar plus provision på bookede møder og lukkede aftaler. Fordi pension er et højværdiprodukt, er hvert kvalificeret møde meget værd. Provisionen udbetales månedligt, samarbejdet formaliseres i en skriftlig freelanceaftale, og de første 2–4 uger er en gensidig prøveperiode."
+        ]
+      },
+      {
+        "heading": "Pension og forsikring går hånd i hånd",
+        "body": [
+          "Pension og forsikring handler begge om økonomisk tryghed – og mange af de samme kunder har brug for begge dele. Derfor kan du hos Magnora Marketing også booke møder for forsikringsmæglere, hvis du ønsker mere variation eller flere timer. Mange starter med det ene område og udvider senere til det andet."
+        ]
+      },
+      {
+        "heading": "Sådan kommer du i gang",
+        "body": [
+          "Gå ind på jobsiden for pension, og udfyld den korte ansøgningsformular. Vi vender tilbage inden for 2 hverdage for en uforpligtende snak. Derefter følger oplæring, scripts og adgang til ringelister og CRM – og så er du klar til at booke dine første pensionsmøder hjemmefra. Vi mangler folk til pension og forsikring lige nu, så send din ansøgning i dag."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kan man arbejde med pension uden uddannelse?",
+        "answer": "Ja. Som mødebooker rådgiver du ikke selv – du booker uforpligtende pensionsgennemgange for erfarne rådgivere. Du får grundig oplæring hos Magnora Marketing."
+      },
+      {
+        "question": "Kan jeg arbejde med pension hjemmefra?",
+        "answer": "Ja. Hele jobbet foregår hjemmefra og over telefon med fleksible arbejdstider – fuldtid, deltid eller som bijob."
+      },
+      {
+        "question": "Hvad tjener man som mødebooker inden for pension?",
+        "answer": "Du får et fast grundhonorar plus provision på bookede møder og lukkede aftaler. Den præcise model aftales inden opstart."
+      },
+      {
+        "question": "Kan jeg også booke møder om forsikring?",
+        "answer": "Ja. Magnora Marketing søger også mødebookere til forsikringsmæglere, og du kan arbejde med begge områder."
+      }
+    ],
+    "jobCta": {
+      "heading": "Vi søger mødebookere til pension lige nu",
+      "body": "Book pensionsmøder for erfarne pensionsrådgivere 100% hjemmefra med fast grundhonorar, provision og fleksible tider. Ingen finansiel baggrund krævet – ansøgningen er kort og uforpligtende.",
+      "linkText": "Se jobbet inden for pension og søg"
+    },
+    "ctaTitle": "Klar til at arbejde med pension og forsikring hjemmefra?",
+    "ctaSubtitle": "Magnora Marketing søger mødebookere til både pension og forsikring. Vælg det område, der passer dig – eller begge – og send en kort ansøgning i dag.",
+    "ctaPrimaryText": "Job inden for pension hjemmefra",
+    "ctaSecondaryText": "Job i forsikring hjemmefra"
+  },
 };

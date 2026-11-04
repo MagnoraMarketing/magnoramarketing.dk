@@ -202,4 +202,185 @@ export default {
     ctaPrimaryText: 'Get a quote',
     ctaSecondaryText: 'See all prices',
   },
+  ArbejdeMedForsikringHjemmefra: {
+    "seoTitle": "Working in Insurance from Home: Job Guide | Magnora",
+    "seoDescription": "Want to work in insurance from home? See what a meeting booker for insurance brokers does, the pay, requirements and daily work – and how to apply at Magnora.",
+    "keywords": "working in insurance, remote insurance job, insurance meeting booker, insurance industry job, insurance job without experience, how to become a meeting booker, insurance broker meeting booking, insurance and pension jobs, work from home insurance",
+    "category": "Meeting Booking",
+    "title": "Working in insurance from home: How to become a meeting booker at Magnora Marketing",
+    "displayDate": "4 November 2026",
+    "readTime": "7 min read",
+    "intro": "Dreaming of working in insurance, but without the commute, fixed office hours or an insurance qualification? Then the job as a meeting booker for insurance brokers is worth knowing about. At Magnora Marketing we are currently looking for more meeting bookers for insurance and pensions. In this guide you get an honest picture of what the job involves, what a working day looks like, what you can earn – and how to apply.",
+    "sections": [
+      {
+        "heading": "What does working in insurance as a meeting booker mean?",
+        "body": [
+          "As an insurance meeting booker, you are the link between a customer and a professional insurance broker. You call businesses and private individuals, have a short and credible conversation about their current insurance and offer a no-obligation meeting with a broker who can review their cover and price.",
+          "In other words, you do not sell insurance or give advice yourself. Your job is to create interest and book the qualified meeting. That keeps the job manageable, even if you have never worked in the insurance industry before."
+        ]
+      },
+      {
+        "heading": "Why insurance is a great area to book meetings in",
+        "body": [
+          "Almost every business and household has insurance – and many have not had it reviewed for years. An independent insurance broker can often find better cover or a lower price, which is why a free check is an offer many people say yes to."
+        ],
+        "bullets": [
+          "A product everyone needs – large and stable demand",
+          "A concrete offer for the customer: a free, no-obligation review",
+          "Qualified meetings are highly valuable to brokers – and to you",
+          "Insurance and pensions go together, so you can expand into both"
+        ]
+      },
+      {
+        "heading": "What a working day from home looks like",
+        "level": 3,
+        "body": [
+          "You log in from home, open your call lists in the CRM and plan your day. You typically get the best results during Danish office hours, when businesses are easiest to reach. You make your calls, follow a proven script, note the answers and book the meetings directly in the brokers’ calendars.",
+          "In between, there are online sessions with your colleagues and sales leads, where you share good phrasing and tackle difficult objections together. You work alone at home, but you are never on your own."
+        ]
+      },
+      {
+        "heading": "What can you earn as an insurance meeting booker?",
+        "body": [
+          "At Magnora Marketing you get a fixed base salary combined with uncapped commission per qualified meeting. We agree on the exact model with you before you start, but the principle is simple: the more good meetings you book, the more you earn. Commission is paid monthly and based on your verified meetings."
+        ]
+      },
+      {
+        "heading": "What are the requirements?",
+        "bullets": [
+          "You are outgoing and enjoy talking to people on the phone",
+          "You speak and write fluent Danish",
+          "You are self-disciplined and can work independently from home",
+          "You have a phone, a computer and a stable internet connection",
+          "Experience in sales or customer service is a plus – but not a requirement"
+        ]
+      },
+      {
+        "heading": "Insurance or pensions – or both?",
+        "body": [
+          "Insurance and pensions are two sides of the same coin: financial security. Many of our meeting bookers start in one area and later expand into the other. If you book meetings for insurance brokers, you can also book no-obligation pension reviews for experienced pension advisers – and vice versa. Both jobs are on our job pages, and you can apply for them with the same short application."
+        ]
+      },
+      {
+        "heading": "How to apply at Magnora Marketing",
+        "body": [
+          "The application is short and non-binding. You fill in the form on the insurance job page, tell us briefly about yourself, and we get back to you within 2 working days for an introductory chat. Then you get product training, scripts and access to the systems – and within a few days you are ready to book your first meetings. Right now we are especially looking for people for insurance and pensions, so feel free to apply today."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you work in insurance without a qualification?",
+        "answer": "Yes. As a meeting booker you do not advise on or sell insurance – you book meetings for insurance brokers. You get thorough product training at Magnora Marketing, so you are ready from the start."
+      },
+      {
+        "question": "Can I work in insurance 100% from home?",
+        "answer": "Yes. The job is done from home and by phone. All you need is a phone, a computer and a stable internet connection, and you can live anywhere in Denmark."
+      },
+      {
+        "question": "What is the pay for an insurance meeting booker?",
+        "answer": "You get a fixed base salary plus uncapped commission per qualified meeting. The exact model is agreed before you start."
+      },
+      {
+        "question": "Can I work with both insurance and pensions?",
+        "answer": "Yes. At Magnora Marketing you can book meetings for both insurance brokers and pension advisers. See both jobs on our job pages."
+      }
+    ],
+    "jobCta": {
+      "heading": "We are hiring insurance meeting bookers right now",
+      "body": "Work 100% from home for Denmark’s best insurance brokers with a fixed base salary, uncapped commission and flexible hours. The application takes a few minutes and is completely non-binding.",
+      "linkText": "See the insurance job and apply"
+    },
+    "ctaTitle": "Ready to work in insurance and pensions from home?",
+    "ctaSubtitle": "Magnora Marketing is looking for meeting bookers for both insurance and pensions. Choose the area that suits you – or both – and send a short application today.",
+    "ctaPrimaryText": "Remote insurance job",
+    "ctaSecondaryText": "Remote pension job"
+  },
+  ArbejdeMedPensionHjemmefra: {
+    "seoTitle": "Working in Pensions Without a Degree: Guide | Magnora",
+    "seoDescription": "Want to work in pensions but have no financial degree? See how to become a remote pension meeting booker – pay, requirements, daily work and how to apply.",
+    "keywords": "working in pensions, pension job, job in pensions, pension industry job, pension job without a degree, pension meeting booker, pension review job, insurance and pension jobs, remote pension job",
+    "category": "Meeting Booking",
+    "title": "Working in pensions without a financial degree: How to become a pension meeting booker",
+    "displayDate": "4 November 2026",
+    "readTime": "7 min read",
+    "intro": "To many people, the pension industry seems like a closed world where you need to be a trained economist or pension adviser to get in. But there is another way: as a pension meeting booker, you work with one of the most important topics in people’s finances – without having to give advice yourself. At Magnora Marketing we are currently looking for more meeting bookers for pensions and insurance, and here you can read what the job involves.",
+    "sections": [
+      {
+        "heading": "Why are pension meeting bookers needed?",
+        "body": [
+          "Many Danes have never had their pension reviewed. They do not know whether they are saving enough, whether the fees are too high or whether they are covered in case of illness and death. Pension advisers can help – but they need to spend their time advising, not calling around to find customers.",
+          "That is where you come in. As a meeting booker, you create the contact and fill the advisers’ calendars with qualified, no-obligation pension reviews."
+        ]
+      },
+      {
+        "heading": "What do you actually do?",
+        "bullets": [
+          "Call private individuals and businesses from our call lists",
+          "Briefly explain the value of a free pension review",
+          "Find out whether the customer has an overview of their pension",
+          "Book the meeting directly in the pension adviser’s calendar",
+          "Record the result in the CRM, where commission is calculated automatically"
+        ]
+      },
+      {
+        "heading": "You do not need a financial background",
+        "body": [
+          "The professional advice is handled by the pension adviser. Your role is to be trustworthy, listen and explain the offer simply. You get product training in the key concepts – savings, fees and insurance cover – and a proven script, so you can lead the conversation with confidence from day one. Experience from banking, insurance, customer service or sales is a plus, but not a requirement."
+        ]
+      },
+      {
+        "heading": "Is pension a difficult topic to call about?",
+        "level": 3,
+        "body": [
+          "Pensions concern big life choices, so they call for a calm and respectful tone. On the other hand, the offer is easy to say yes to: a free review with no obligations. Most people appreciate being reminded of something they have long thought they should look into. With ongoing coaching from our sales leads, you quickly get good at the conversation."
+        ]
+      },
+      {
+        "heading": "Pay and terms in a pension job",
+        "body": [
+          "You get a fixed base fee plus commission on booked meetings and closed deals. Because pensions are a high-value product, every qualified meeting is worth a lot. Commission is paid monthly, the collaboration is formalised in a written freelance agreement, and the first 2–4 weeks are a mutual trial period."
+        ]
+      },
+      {
+        "heading": "Pensions and insurance go hand in hand",
+        "body": [
+          "Pensions and insurance are both about financial security – and many of the same customers need both. That is why, at Magnora Marketing, you can also book meetings for insurance brokers if you want more variety or more hours. Many start in one area and later expand into the other."
+        ]
+      },
+      {
+        "heading": "How to get started",
+        "body": [
+          "Go to the pension job page and fill in the short application form. We get back to you within 2 working days for a no-obligation chat. Then come training, scripts and access to call lists and CRM – and you are ready to book your first pension meetings from home. We need people for pensions and insurance right now, so send your application today."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you work in pensions without a degree?",
+        "answer": "Yes. As a meeting booker you do not give advice – you book no-obligation pension reviews for experienced advisers. You get thorough training at Magnora Marketing."
+      },
+      {
+        "question": "Can I work with pensions from home?",
+        "answer": "Yes. The whole job is done from home and by phone with flexible hours – full-time, part-time or as a side job."
+      },
+      {
+        "question": "What does a pension meeting booker earn?",
+        "answer": "You get a fixed base fee plus commission on booked meetings and closed deals. The exact model is agreed before you start."
+      },
+      {
+        "question": "Can I also book insurance meetings?",
+        "answer": "Yes. Magnora Marketing is also looking for meeting bookers for insurance brokers, and you can work in both areas."
+      }
+    ],
+    "jobCta": {
+      "heading": "We are hiring pension meeting bookers right now",
+      "body": "Book pension meetings for experienced pension advisers 100% from home with a fixed base fee, commission and flexible hours. No financial background required – the application is short and non-binding.",
+      "linkText": "See the pension job and apply"
+    },
+    "ctaTitle": "Ready to work in pensions and insurance from home?",
+    "ctaSubtitle": "Magnora Marketing is looking for meeting bookers for both pensions and insurance. Choose the area that suits you – or both – and send a short application today.",
+    "ctaPrimaryText": "Remote pension job",
+    "ctaSecondaryText": "Remote insurance job"
+  },
 };

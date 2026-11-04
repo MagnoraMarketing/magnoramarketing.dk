@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { blogCategoryImage, blogCategoryOrder, getBlogPostByPath } from '../data/blog';
+import { jobListings } from '../data/jobListings';
 
 interface SEOProps {
   title: string;
@@ -52,10 +53,17 @@ const SEO: React.FC<SEOProps> = ({
   const articlePublishedTime = publishedProp ?? (blogPost ? blogPost.date : undefined);
   const articleModifiedTime = modifiedProp ?? (blogPost ? blogPost.modified ?? blogPost.date : undefined);
   const blogCategories = t('blogPage.categories', { returnObjects: true }) as Array<{ label: string }>;
+  // Job pages are recognised the same way from src/data/jobListings.ts: they get
+  // breadcrumbs and (when the listing has a datePosted) JobPosting data for Google for Jobs.
+  const job = canonical ? jobListings.find(j => j.path === canonical) : undefined;
   const breadcrumbs = breadcrumbsProp ?? (blogPost ? [
     { name: t('blogArticle.breadcrumbHome'), url: '/' },
     { name: t('blogArticle.breadcrumbBlog'), url: '/blog' },
     { name: t(`blogPostIndex.${blogPost.slug}.title`), url: canonical! },
+  ] : job ? [
+    { name: t('jobSchema.breadcrumbHome'), url: '/' },
+    { name: t('jobSchema.breadcrumbJobs'), url: '/freelance-telemarketing' },
+    { name: t(`jobListings.${job.key}.title`), url: canonical! },
   ] : undefined);
 
   const organizationSchema = {
@@ -156,6 +164,37 @@ const SEO: React.FC<SEOProps> = ({
     }
   } : null;
 
+  const escapeHtml = (text: string) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const jobBenefits = job ? (t('jobSchema.benefits', { returnObjects: true }) as string[]) : [];
+  const jobPostingSchema = job?.datePosted ? {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": t(`jobListings.${job.key}.title`),
+    "description": [
+      `<p>${escapeHtml(t(`jobListings.${job.key}.description`))}</p>`,
+      `<p>${escapeHtml(t('jobSchema.body'))}</p>`,
+      `<ul>${jobBenefits.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>`,
+      `<p>${escapeHtml(t('jobSchema.apply'))}</p>`,
+    ].join(''),
+    "identifier": { "@type": "PropertyValue", "name": "Magnora Marketing", "value": job.key },
+    "datePosted": job.datePosted,
+    "employmentType": ["CONTRACTOR", "PART_TIME", "FULL_TIME"],
+    "hiringOrganization": {
+      "@type": "Organization",
+      "@id": `${domain}/#organization`,
+      "name": "Magnora Marketing",
+      "sameAs": domain,
+      "logo": `${domain}/logo.png`
+    },
+    "jobLocationType": "TELECOMMUTE",
+    "applicantLocationRequirements": { "@type": "Country", "name": "Denmark" },
+    "occupationalCategory": "41-9041.00 Telemarketers",
+    "jobBenefits": jobBenefits.join(', '),
+    "workHours": t('jobSchema.workHours'),
+    "directApply": true,
+    "url": fullCanonical
+  } : null;
+
   return (
     <Helmet>
       {/* Basic Meta Tags */}
@@ -220,6 +259,11 @@ const SEO: React.FC<SEOProps> = ({
       {breadcrumbSchema && (
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
+        </script>
+      )}
+      {jobPostingSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(jobPostingSchema)}
         </script>
       )}
       {articleSchema && (

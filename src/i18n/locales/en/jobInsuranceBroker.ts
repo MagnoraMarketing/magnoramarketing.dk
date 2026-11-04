@@ -1,16 +1,16 @@
 export default {
   seo: {
-    title: 'Remote Meeting Booking for Denmark\'s Best Insurance Brokers | Magnora Marketing',
-    description: 'Become a meeting booker and book meetings 100% remotely for the country\'s leading insurance brokers. Attractive salary, uncapped commission, and full freedom over your workday. Apply for the meeting booking job today.',
-    keywords: 'meeting booking from home, meeting booker insurance, meeting booking insurance job, meeting booker insurance broker, insurance broker job remote, work from home insurance, freelance meeting booking, meeting booking job Denmark, attractive remote work salary, remote meeting booking insurance',
+    title: 'Remote Insurance Job – Become a Meeting Booker | Magnora',
+    description: 'Looking for a job in insurance? Become a meeting booker 100% from home for Denmark’s leading insurance brokers. Fixed base pay + uncapped commission. Apply now.',
+    keywords: 'insurance job, remote insurance job, job in insurance, insurance industry job, meeting booker insurance, meeting booking insurance job, insurance broker job remote, work from home insurance, insurance and pension jobs, freelance meeting booker, remote meeting booking, part-time job from home, side job from home',
   },
   breadcrumbs: {
     home: 'Home',
-    jobSeekers: 'Job seekers',
+    jobSeekers: 'Open jobs',
     current: 'Insurance – work from home',
   },
   hero: {
-    title: 'Remote meeting booking for Denmark\'s best insurance brokers',
+    title: 'A remote job in insurance – book meetings for Denmark’s best insurance brokers',
     subtitle: 'Book meetings for the country\'s leading insurance brokers – 100% remote, with an attractive salary, uncapped commission, and full freedom over your own workday.',
     cta: 'Apply – completely non-binding',
     secondaryCta: 'View all open positions',
@@ -136,7 +136,7 @@ export default {
   },
   relatedJobs: {
     title: 'Other meeting booking & sales jobs from home',
-    text: 'Insurance is just one of many industries you can book meetings for at Magnora Marketing. See more open remote jobs.',
+    text: 'Insurance is one of many areas you can work in at Magnora Marketing. Be sure to see our pension job – the two areas are closely linked – and the other open remote jobs.',
     seeAll: 'View all open positions',
   },
   faq: {
@@ -153,6 +153,7 @@ export default {
       { question: 'What working hours are there?', answer: 'You plan your own day. The best results are typically achieved within normal Danish office hours (8 am–5 pm), when customers are easiest to reach.' },
       { question: 'When is commission paid out?', answer: 'Commission is paid out monthly and is based on your verified, qualified meetings.' },
       { question: 'How quickly can I get started?', answer: 'After a short introductory chat and onboarding, most people are ready to book meetings within a few days.' },
+      { question: 'Can I work with both insurance and pensions?', answer: 'Yes. Insurance and pensions are closely linked, and you can also book no-obligation pension reviews for experienced pension advisers at Magnora Marketing. See our pension job.' },
       { question: 'How do I apply?', answer: 'Send us a short message via the contact page – no lengthy application needed. We get back to you within 2 business days.' },
     ],
   },

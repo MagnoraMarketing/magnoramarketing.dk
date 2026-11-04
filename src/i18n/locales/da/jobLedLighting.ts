@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Freelance Sælger – LED-belysning | Magnora Marketing',
+    title: 'Job hjemmefra: Sælger af LED-belysning | Magnora',
     description: 'Bliv freelance sælger af LED-belysning og energieffektivisering til erhverv hos Magnora Marketing. Arbejd hjemmefra med fleksible tider og attraktiv provision.',
     keywords: 'freelance sælger LED, sælg energieffektivisering, LED belysning salg, erhvervsbelysning sælger, Magnora Marketing LED stilling, mødebooking job',
   },

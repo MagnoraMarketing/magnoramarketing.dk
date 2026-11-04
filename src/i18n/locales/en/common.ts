@@ -120,12 +120,26 @@ export default {
       description: 'Book meetings for professional mat service solutions and help businesses create a cleaner working environment.',
     },
     pension: {
-      title: 'Meeting Booker - Pension',
-      description: 'Help people secure their financial future through professional pension advice.',
+      title: 'Meeting Booker - Pension (remote)',
+      description: 'Book pension meetings 100% from home for experienced pension advisers. No financial background required – a fixed base fee plus commission and full flexibility.',
     },
     debtCollection: {
       title: 'Meeting Booker - Debt Collection',
       description: 'Book meetings for professional debt collection solutions and help businesses with accounts receivable management.',
     },
+  },
+  jobSchema: {
+    breadcrumbHome: 'Home',
+    breadcrumbJobs: 'Open jobs',
+    body: 'You work as a freelance meeting booker for Magnora Marketing, 100% from home and with flexible hours. You call relevant contacts from our call lists and book qualified meetings for our partners – you do not have to sell or give advice yourself.',
+    benefits: [
+      'Work 100% from home – anywhere in Denmark',
+      'Flexible hours – full-time or part-time',
+      'Fixed base fee plus commission per qualified meeting',
+      'Call lists, scripts and CRM provided',
+      'Thorough training and ongoing coaching',
+    ],
+    workHours: 'Flexible hours – you plan your own day',
+    apply: 'Apply directly through the form on this page – no long application needed. We reply within 2 working days.',
   },
 };

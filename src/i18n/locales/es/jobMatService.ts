@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Comercial Freelance de Servicio de Alfombras y Limpieza | Magnora Marketing',
+    title: 'Empleo desde casa: comercial de alfombras y limpieza | Magnora',
     description: 'Conviértete en comercial freelance de servicio de alfombras y limpieza para empresas en Magnora Marketing. Trabaja desde casa con horarios flexibles y comisión estable sobre contratos de suscripción.',
     keywords: 'comercial freelance servicio de limpieza, ventas servicio de alfombras, comercial limpieza empresarial, puesto limpieza Magnora Marketing, ventas facility service, empleo de reserva de reuniones',
   },

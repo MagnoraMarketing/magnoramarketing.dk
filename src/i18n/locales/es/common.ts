@@ -120,12 +120,26 @@ export default {
       description: 'Concierta reuniones para soluciones profesionales de alfombras y ayuda a las empresas a crear un entorno de trabajo más limpio.',
     },
     pension: {
-      title: 'Concertador de reuniones - Pensiones',
-      description: 'Ayuda a las personas a asegurar su futuro financiero mediante asesoramiento profesional en pensiones.',
+      title: 'Concertador de reuniones - Pensiones (remoto)',
+      description: 'Concierta reuniones de pensiones 100% desde casa para asesores de pensiones con experiencia. Sin formación financiera – honorario fijo más comisión y total flexibilidad.',
     },
     debtCollection: {
       title: 'Concertador de reuniones - Recobro',
       description: 'Concierta reuniones para soluciones profesionales de recobro y ayuda a las empresas con la gestión de cobros.',
     },
+  },
+  jobSchema: {
+    breadcrumbHome: 'Inicio',
+    breadcrumbJobs: 'Empleos disponibles',
+    body: 'Trabajas como concertador de reuniones freelance para Magnora Marketing, 100% desde casa y con horario flexible. Llamas a contactos relevantes de nuestras listas y conciertas reuniones cualificadas para nuestros socios: no tienes que vender ni asesorar tú mismo.',
+    benefits: [
+      'Trabaja 100% desde casa – desde cualquier lugar de Dinamarca',
+      'Horario flexible – jornada completa o parcial',
+      'Honorario fijo más comisión por reunión cualificada',
+      'Listas de llamadas, guiones y CRM incluidos',
+      'Formación completa y acompañamiento continuo',
+    ],
+    workHours: 'Horario flexible – tú planificas tu día',
+    apply: 'Solicita directamente mediante el formulario de esta página, sin una solicitud larga. Respondemos en un plazo de 2 días laborables.',
   },
 };

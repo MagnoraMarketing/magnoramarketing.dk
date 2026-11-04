@@ -1,16 +1,16 @@
 export default {
   seo: {
-    title: 'Reserva de Reuniones desde Casa para los Mejores Corredores de Seguros de Dinamarca | Magnora Marketing',
-    description: 'Conviértete en agente de reservas y agenda reuniones 100% desde casa para los corredores de seguros líderes del país. Salario atractivo, comisión sin límite y libertad total sobre tu jornada. Solicita el empleo de agente de reservas hoy.',
-    keywords: 'reserva de reuniones desde casa, agente de reservas seguros, empleo reserva de reuniones seguros, agente de reservas corredor de seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, reserva de reuniones freelance, empleo reserva de reuniones Dinamarca, salario atractivo trabajo remoto, reserva de reuniones remota seguros, empleo de reserva de reuniones',
+    title: 'Empleo en seguros desde casa – concertador | Magnora',
+    description: '¿Buscas empleo en el sector de seguros? Concierta reuniones 100% desde casa para los principales corredores de seguros de Dinamarca. Base fija + comisión sin límite.',
+    keywords: 'empleo seguros, empleo en seguros desde casa, trabajo en seguros, empleo sector seguros, concertador de reuniones seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, empleo seguros y pensiones, concertador de reuniones freelance, trabajo a tiempo parcial desde casa, trabajo extra desde casa',
   },
   breadcrumbs: {
     home: 'Inicio',
-    jobSeekers: 'Empleo',
+    jobSeekers: 'Empleos disponibles',
     current: 'Seguros – trabajo desde casa',
   },
   hero: {
-    title: 'Reserva de reuniones desde casa para los mejores corredores de seguros de Dinamarca',
+    title: 'Empleo en seguros desde casa: concierta reuniones para los mejores corredores de seguros de Dinamarca',
     subtitle: 'Agenda reuniones para los corredores de seguros líderes del país: 100% desde casa, con salario atractivo, comisión sin límite y libertad total sobre tu propia jornada.',
     cta: 'Solicita ahora – sin compromiso',
     secondaryCta: 'Ver todas las vacantes',
@@ -136,7 +136,7 @@ export default {
   },
   relatedJobs: {
     title: 'Otros empleos de reserva de reuniones y ventas desde casa',
-    text: 'Los seguros son solo uno de los muchos sectores en los que puedes agendar reuniones en Magnora Marketing. Descubre más empleos remotos disponibles.',
+    text: 'Los seguros son uno de los muchos sectores en los que puedes trabajar en Magnora Marketing. No te pierdas nuestro empleo en pensiones, un sector muy relacionado, ni las demás vacantes desde casa.',
     seeAll: 'Ver todas las vacantes',
   },
   faq: {
@@ -153,6 +153,7 @@ export default {
       { question: '¿Qué horario hay?', answer: 'Tú planificas tu propio día. Los mejores resultados suelen obtenerse dentro del horario laboral danés habitual (de 8:00 a 17:00), cuando es más fácil contactar con los clientes.' },
       { question: '¿Cuándo se paga la comisión?', answer: 'La comisión se paga mensualmente y se basa en tus reuniones cualificadas verificadas.' },
       { question: '¿Qué tan rápido puedo empezar?', answer: 'Tras una breve charla inicial y la incorporación, la mayoría está lista para agendar reuniones en pocos días.' },
+      { question: '¿Puedo trabajar con seguros y pensiones a la vez?', answer: 'Sí. Seguros y pensiones están muy relacionados, y en Magnora Marketing también puedes concertar revisiones de pensiones sin compromiso para asesores con experiencia. Consulta nuestro empleo en pensiones.' },
       { question: '¿Cómo me postulo?', answer: 'Envíanos un breve mensaje a través de la página de contacto, sin necesidad de una solicitud extensa. Te respondemos en un plazo de 2 días laborables.' },
     ],
   },

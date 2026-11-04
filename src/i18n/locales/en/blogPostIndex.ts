@@ -1,6 +1,14 @@
 // Translated title + description for every blog post, keyed by slug.
 // Must contain every slug in src/data/blogPosts.json (enforced by scripts/check-i18n.mjs).
 export default {
+  'arbejde-med-forsikring-hjemmefra': {
+    title: "Working in insurance from home: How to become a meeting booker at Magnora Marketing",
+    description: "Want to work in insurance from home? See what a meeting booker for insurance brokers does, the pay, requirements and daily work – and how to apply at Magnora.",
+  },
+  'arbejde-med-pension-hjemmefra': {
+    title: "Working in pensions without a financial degree: How to become a pension meeting booker",
+    description: "Want to work in pensions but have no financial degree? See how to become a remote pension meeting booker – pay, requirements, daily work and how to apply.",
+  },
   'hvad-koster-telemarketing': {
     title: 'How much does telemarketing cost? Prices, pricing models and examples',
     description: 'How much does telemarketing cost in 2026? See hourly rates, commission and packages, what affects the price, in-house seller vs. outsourcing and three concrete budget examples.',

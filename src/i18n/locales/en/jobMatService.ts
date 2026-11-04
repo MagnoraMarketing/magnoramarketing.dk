@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Freelance Sales Rep – Mat & Cleaning Service | Magnora Marketing',
+    title: 'Remote Job: Mat & Cleaning Service Sales Rep | Magnora',
     description: 'Become a freelance sales rep of mat and cleaning services for businesses at Magnora Marketing. Work from home with flexible hours and stable commission on subscription agreements.',
     keywords: 'freelance cleaning service sales rep, mat service sales, commercial cleaning sales rep, Magnora Marketing cleaning position, facility service sales, meeting booking job',
   },
