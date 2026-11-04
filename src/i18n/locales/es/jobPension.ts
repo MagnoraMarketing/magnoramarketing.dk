@@ -11,14 +11,14 @@ export default {
   },
   hero: {
     title: 'Comercial freelance de pensiones: concierta reuniones de pensiones desde casa',
-    subtitle: 'Ayuda a las personas a poner en orden su pensión. Concertas revisiones de pensiones gratuitas y sin compromiso para asesores con experiencia, desde casa, con horario flexible, honorario fijo y comisión. Sin formación financiera.',
+    subtitle: 'Ayuda a las personas a poner en orden su pensión. Concertas revisiones de pensiones gratuitas y sin compromiso para asesores con experiencia, desde casa, con horario flexible y comisión: trabajas como freelance y cobras según resultados. Sin formación financiera.',
     cta: 'Solicita el empleo, sin compromiso',
     secondaryCta: 'Ver todas las vacantes',
   },
   statBand: {
     items: [
       { stat: '100%', label: 'Desde casa' },
-      { stat: 'Honorario fijo', label: '+ comisión' },
+      { stat: 'Comisión', label: 'Cobro según resultados' },
       { stat: 'Flexible', label: 'Horario' },
       { stat: '2 días', label: 'Para responder a tu solicitud' },
     ],
@@ -28,7 +28,7 @@ export default {
     title: 'Un empleo con sentido en pensiones, sin ser asesor de pensiones',
     text: 'Muchos daneses nunca han revisado su pensión y no saben si ahorran bien, si pagan comisiones demasiado altas o si están cubiertos en caso de enfermedad. Como concertador de reuniones de pensiones en Magnora Marketing, contactas con particulares y empresas y concertas una revisión de pensiones sin compromiso con un asesor con experiencia. No asesoras tú: abres la puerta al asesoramiento.',
     cards: [
-      { title: 'Honorario fijo + comisión', desc: 'Honorario fijo más comisión por reuniones concertadas y acuerdos cerrados. Las pensiones son un producto de alto valor, y se nota en la comisión.' },
+      { title: 'Comisión según resultados', desc: 'Trabajas como freelance y cobras comisión por reuniones concertadas y acuerdos cerrados. Las pensiones son un producto de alto valor, y se nota en la comisión.' },
       { title: '100% desde casa', desc: 'Trabaja desde casa, tu casa de verano o el extranjero. Sin desplazamientos ni horarios fijos: tú organizas tu día.' },
       { title: 'Sin formación financiera', desc: 'Tú concertas las reuniones; el asesor de pensiones se encarga de la parte técnica. Te damos formación de producto y guiones probados desde el primer día.' },
     ],
@@ -36,20 +36,20 @@ export default {
   salary: {
     badge: 'Sueldo y comisión',
     title: 'Sueldo en un empleo de pensiones: seguridad y alto valor por reunión',
-    text: 'Los contratos de pensiones tienen un valor medio alto para nuestros socios, por eso una reunión de pensiones cualificada también vale mucho para ti. Recibes un honorario fijo como base y comisión adicional, de modo que gran parte de tus ingresos depende de tu propio esfuerzo.',
+    text: 'Los contratos de pensiones tienen un valor medio alto para nuestros socios, por eso una reunión de pensiones cualificada también vale mucho para ti. Como freelance cobras según resultados con comisión, de modo que tus ingresos dependen de tu propio esfuerzo.',
     list: [
-      'Honorario fijo desde el inicio',
+      'Freelance: cobras según resultados',
       'Comisión por reuniones concertadas y acuerdos cerrados',
       'Alto valor por reunión, porque las pensiones son un producto de alto valor',
       'Pagos mensuales y transparentes',
     ],
     earnings: {
       label: 'Tus ingresos',
-      value: 'Honorario + comisión',
+      value: 'Comisión',
       sub: 'Cuantas más reuniones de pensiones cualificadas, más ganas',
       rows: [
         'La comisión se calcula automáticamente en nuestro sistema',
-        'Un honorario fijo y seguro como base',
+        'Cobro según resultados, sin límite',
         'Contrato freelance por escrito con condiciones claras',
       ],
       cta: 'Más información sobre el sueldo',
@@ -89,10 +89,10 @@ export default {
   seoBlock1: {
     title: 'Empleo en pensiones desde casa: un trabajo con sentido y buenos ingresos',
     p1: '¿Buscas un empleo en el sector de las pensiones pero no tienes formación como asesor? Entonces el puesto de concertador de reuniones en Magnora Marketing es una vía de entrada ideal. Trabajas 100% desde casa y contactas con particulares y empresas para ofrecerles una revisión gratuita y sin compromiso de su plan de pensiones. Cuando el cliente acepta, concertas la reunión en la agenda de un asesor de pensiones con experiencia, que se encarga del asesoramiento profesional.',
-    p2: 'La pensión es uno de los temas económicos más importantes en la vida de una persona y, aun así, muchos daneses nunca han tenido una visión clara de su ahorro, sus costes y su cobertura. Eso hace que tu trabajo sea solicitado y tenga sentido. Recibes un honorario fijo más comisión, horario flexible y todo lo que necesitas: listas de llamadas, guiones, CRM y coaching continuo. Es uno de los empleos en pensiones desde casa más atractivos de Dinamarca, tanto a jornada completa como parcial o como trabajo extra.',
+    p2: 'La pensión es uno de los temas económicos más importantes en la vida de una persona y, aun así, muchos daneses nunca han tenido una visión clara de su ahorro, sus costes y su cobertura. Eso hace que tu trabajo sea solicitado y tenga sentido. Trabajas como freelance, cobras según resultados con comisión y tienes horario flexible y todo lo que necesitas: listas de llamadas, guiones, CRM y coaching continuo. Es uno de los empleos en pensiones desde casa más atractivos de Dinamarca, tanto a jornada completa como parcial o como trabajo extra.',
     list: [
       'Empleo en pensiones, 100% desde casa en toda Dinamarca',
-      'Honorario fijo + comisión por reuniones y acuerdos',
+      'Freelance: comisión por reuniones y acuerdos, cobro según resultados',
       'Sin formación financiera: recibes una formación completa',
       'Listas de llamadas, guiones y CRM desde el primer día',
       'Horario flexible: jornada completa, parcial o trabajo extra',
@@ -124,7 +124,7 @@ export default {
     text: 'Como concertador de reuniones de pensiones aprendes cómo funcionan en la práctica las pensiones, el ahorro y la cobertura de seguros, y desarrollas sólidas habilidades de comunicación y ventas. Es una buena puerta de entrada al sector de pensiones y finanzas, y un trabajo en el que ayudas a las personas con una de las decisiones más importantes de su vida.',
     cards: [
       { title: 'Conocimiento de pensiones', desc: 'Conoces los conceptos y productos del sector gracias a la formación de producto y a las conversaciones diarias.' },
-      { title: 'Ingresos según tu esfuerzo', desc: 'Un honorario fijo más comisión significa que tus resultados se ven directamente en tu pago.' },
+      { title: 'Ingresos según tu esfuerzo', desc: 'Cobras según resultados, así que tus resultados se ven directamente en tu pago.' },
       { title: 'Un trabajo con sentido', desc: 'Ayudas a las personas a entender sus finanzas y a tener una jubilación más segura.' },
       { title: 'Pensiones y seguros', desc: 'Si quieres más, también puedes concertar reuniones para corredores de seguros: dos sectores que van de la mano.' },
     ],
@@ -140,7 +140,7 @@ export default {
       { question: '¿En qué consiste el empleo de concertador de reuniones de pensiones?', answer: 'Contactas con particulares y empresas y concertas revisiones de pensiones sin compromiso con un asesor con experiencia. Trabajas con listas de llamadas y guiones que te proporcionamos.' },
       { question: '¿Necesito formación financiera para trabajar en pensiones?', answer: 'No. Concertas reuniones, no asesoras. El asesor de pensiones se encarga de la parte técnica y tú recibes formación de producto para hablar de pensiones con seguridad.' },
       { question: '¿Puedo trabajar con pensiones 100% desde casa?', answer: 'Sí. Todo el trabajo se hace desde casa y por teléfono. Solo necesitas un teléfono, un ordenador y una conexión estable, y puedes vivir en cualquier lugar de Dinamarca.' },
-      { question: '¿Cuál es el sueldo?', answer: 'Recibes un honorario fijo más comisión por reuniones concertadas y acuerdos cerrados. Las pensiones son un producto de alto valor, lo que se refleja en la comisión. Acordamos contigo el modelo exacto antes de empezar.' },
+      { question: '¿Cuál es el sueldo?', answer: 'Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay sueldo fijo ni honorario base. Las pensiones son un producto de alto valor, lo que se refleja en la comisión. Acordamos contigo el modelo exacto antes de empezar.' },
       { question: '¿Es la pensión un tema delicado para llamar?', answer: 'Las pensiones tienen que ver con decisiones vitales importantes, pero la mayoría agradece la oferta de una revisión gratuita. Recibes guiones probados y coaching para que la conversación sea segura y profesional.' },
       { question: '¿Tengo que buscar los clientes yo mismo?', answer: 'No. Magnora Marketing te proporciona listas de llamadas, material de campaña, guiones y acceso al CRM para que empieces enseguida.' },
       { question: '¿Puedo hacerlo como trabajo extra o a tiempo parcial?', answer: 'Sí. Tú decides tu horario, y muchos lo usan como un ingreso extra flexible junto a sus estudios, su familia u otro empleo.' },
@@ -153,7 +153,7 @@ export default {
   },
   finalCta: {
     title: '¿Listo para un empleo con sentido en pensiones?',
-    text: 'Concierta reuniones de pensiones para asesores con experiencia 100% desde casa, fija tu propio horario y recibe honorario fijo y comisión. La solicitud es breve y sin ningún compromiso.',
+    text: 'Concierta reuniones de pensiones para asesores con experiencia 100% desde casa, fija tu propio horario y cobra según resultados con comisión. La solicitud es breve y sin ningún compromiso.',
     cta: 'Solicita ahora',
     secondaryCta: 'Ver todas las vacantes',
   },

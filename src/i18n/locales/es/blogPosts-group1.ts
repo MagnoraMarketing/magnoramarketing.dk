@@ -181,7 +181,7 @@ export default {
       {
         heading: 'Libertad, flexibilidad y un salario atractivo',
         body: [
-          'El trabajo como consultor de IA se realiza 100% desde casa con un horario flexible. Recibes un salario base fijo y seguro combinado con una comisión sin límite, de modo que tu esfuerzo determina tus ingresos. Eso lo convierte en uno de los trabajos desde casa más atractivos y a prueba de futuro de Dinamarca en este momento, tanto si buscas jornada completa como un ingreso complementario.',
+          'El trabajo como consultor de IA se realiza 100% desde casa con un horario flexible. Trabajas como freelance y cobras según resultados con una comisión sin límite, de modo que tu esfuerzo determina tus ingresos. Eso lo convierte en uno de los trabajos desde casa más atractivos y a prueba de futuro de Dinamarca en este momento, tanto si buscas jornada completa como un ingreso complementario.',
         ],
       },
       {
@@ -202,7 +202,7 @@ export default {
       },
       {
         question: '¿Cómo es el salario como consultor de IA?',
-        answer: 'Recibes un salario base fijo combinado con una comisión sin límite por cada reunión reservada. Tu esfuerzo determina cuánto puedes ganar.',
+        answer: 'Trabajas como freelance y cobras según resultados, con una comisión sin límite por cada reunión cualificada. Tu esfuerzo determina cuánto puedes ganar.',
       },
       {
         question: '¿Cómo solicito el puesto de consultor de IA?',

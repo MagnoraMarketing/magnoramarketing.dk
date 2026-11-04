@@ -37,7 +37,7 @@ export default {
   benefits: {
     heading: 'What you get at Magnora Marketing',
     items: [
-      { title: 'Competitive commission', desc: 'Fixed base pay plus commission on your sales. The more you sell, the more you earn – no cap.' },
+      { title: 'Competitive commission', desc: 'Commission on your sales – you work freelance and are paid on results. The more you sell, the more you earn – no cap.' },
       { title: 'Strong support network', desc: "You're never alone. Magnora Marketing's sales managers are ready for coaching, guidance and support throughout the process." },
       { title: 'Your own hours', desc: 'Full flexibility over your working day. Perfect as a full-time job, side income or a supplement to studies.' },
       { title: 'Digital work tools', desc: 'Access to CRM, scripts, campaign materials and leads. You have everything you need from day one.' },

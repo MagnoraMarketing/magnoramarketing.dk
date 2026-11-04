@@ -46,7 +46,7 @@ export default {
     heading: 'Hvad du får hos Magnora Marketing',
     items: [
       { title: 'Arbejd hjemmefra', desc: 'Alt hvad du behøver er en telefon og computer. Du arbejder trygt hjemmefra med fuld fleksibilitet.' },
-      { title: 'Attraktiv provision', desc: 'Grundhonorar plus provision. Solceller er et højværdiprodukt – og din provision afspejler det.' },
+      { title: 'Attraktiv provision', desc: 'Provision efter resultat – du er freelancer. Solceller er et højværdiprodukt – og din provision afspejler det.' },
       { title: 'Fleksible tider', desc: 'Tilrettelæg din salgsdag som det passer dig. Ideelt for studerende, forældre og dem med andet ved siden af.' },
     ],
   },

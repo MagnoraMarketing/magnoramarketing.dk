@@ -46,7 +46,7 @@ export default {
     heading: 'What you get at Magnora Marketing',
     items: [
       { title: 'Work from home', desc: 'All you need is a phone and a computer. You work securely from home with full flexibility.' },
-      { title: 'Attractive commission', desc: 'Base pay plus commission. Solar panels are a high-value product – and your commission reflects that.' },
+      { title: 'Attractive commission', desc: 'Commission on results – you work freelance. Solar panels are a high-value product – and your commission reflects that.' },
       { title: 'Flexible hours', desc: 'Organize your sales day however suits you. Ideal for students, parents and anyone with other commitments.' },
     ],
   },

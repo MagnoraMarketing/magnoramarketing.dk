@@ -37,7 +37,7 @@ export default {
   benefits: {
     heading: 'Hvad du får hos Magnora Marketing',
     items: [
-      { title: 'Konkurrencedygtig provision', desc: 'Fast grundhonorar plus provision på dine salg. Jo mere du sælger, jo mere tjener du – ingen loft.' },
+      { title: 'Konkurrencedygtig provision', desc: 'Provision på dine salg – du er freelancer og afregnes efter resultat. Jo mere du sælger, jo mere tjener du – ingen loft.' },
       { title: 'Stærkt supportnetværk', desc: "Du er aldrig alene. Magnora Marketing's salgsledere er klar til sparring, coaching og support gennem hele forløbet." },
       { title: 'Dine egne tider', desc: 'Fuld fleksibilitet over din arbejdsdag. Perfekt som fuldtidsjob, biindtægt eller supplement til studie.' },
       { title: 'Digitale arbejdsværktøjer', desc: 'Adgang til CRM, scripts, kampagnematerialer og leads. Du har alt hvad du skal bruge fra dag ét.' },

@@ -74,7 +74,7 @@ export default {
       },
       {
         title: 'Attractive commission',
-        desc: 'Fixed base pay plus commission on all sales. The more you sell, the more you earn – no cap.',
+        desc: 'Commission on all sales – you work freelance and are paid on results. The more you sell, the more you earn – no cap.',
       },
       {
         title: 'Training and support',

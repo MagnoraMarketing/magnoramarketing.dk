@@ -46,7 +46,7 @@ export default {
     heading: 'Lo que obtienes en Magnora Marketing',
     items: [
       { title: 'Trabaja desde casa', desc: 'Vende desde tu propia casa con total libertad. Sin desplazamientos, sin horarios fijos de oficina.' },
-      { title: 'Comisión atractiva', desc: 'Honorario base más comisión por reunión concertada y acuerdo cerrado. La gestión de cobros B2B ofrece alta comisión por contrato.' },
+      { title: 'Comisión atractiva', desc: 'Comisión por reunión concertada y acuerdo cerrado: trabajas como freelance y cobras según resultados. La gestión de cobros B2B ofrece alta comisión por contrato.' },
       { title: 'Horarios flexibles', desc: 'Tú decides tu propia jornada de ventas. Los clientes empresariales suelen contactarse durante el día; el resto del tiempo es tuyo.' },
     ],
   },

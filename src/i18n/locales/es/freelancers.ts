@@ -15,7 +15,7 @@ export default {
     subtitle: 'Magnora Marketing ofrece algo poco habitual: la libertad de ser freelance combinada con una sólida base profesional.',
     items: [
       { title: 'Día a día flexible', description: 'Tú decides cuándo trabajas. Adapta tu jornada laboral a tu vida, no al revés.' },
-      { title: 'Ingresos sólidos', description: 'Retribución base competitiva combinada con atractivas bonificaciones por resultados. Cuanto mejor rindas, más ganarás.' },
+      { title: 'Ingresos sólidos', description: 'Comisión atractiva y bonificaciones por resultados: cobras según resultados. Cuanto mejor rindas, más ganarás.' },
       { title: 'Comunidad sólida', description: 'Incluso como freelance nunca estás solo. Formas parte de una sólida red de Magnora Marketing con apoyo mutuo e impulso compartido.' },
       { title: 'Desarrollo profesional', description: 'Formación estructurada, coaching continuo y la posibilidad de asumir más responsabilidad y avanzar en el puesto.' },
     ],
@@ -27,13 +27,13 @@ export default {
     benefits: [
       { title: 'Oficina en casa', description: 'Trabaja de forma eficiente desde tu propia casa con todas las herramientas digitales necesarias. Sin tiempo de desplazamiento, sin comidas caras.' },
       { title: 'Tus propios horarios', description: 'Organiza tu día como más te convenga: ideal para estudiantes, padres y madres, y cualquiera con una vida activa fuera del trabajo.' },
-      { title: 'Salario orientado a resultados', description: 'Salario base fijo más comisión. Tus resultados se reflejan directamente en tu nómina.' },
+      { title: 'Salario orientado a resultados', description: 'Trabajas como freelance y cobras según resultados con comisión. Tus resultados se reflejan directamente en tu pago.' },
     ],
     checklist: [
       'Sin transporte ni desplazamientos',
       'Mejor equilibrio entre trabajo y vida personal',
       'Total flexibilidad en la organización del trabajo',
-      'Comisión y bonificación además del salario base',
+      'Comisión y bonificación: cobro según resultados',
       'Parte de la sólida comunidad de ventas de Magnora Marketing',
       'Incorporación exhaustiva y apoyo continuo',
       'Desarrollo profesional y personal',
@@ -59,7 +59,7 @@ export default {
       list: [
         'Trabaja desde casa con total flexibilidad sobre tu jornada laboral',
         'Incorporación exhaustiva y apoyo profesional continuo',
-        'Retribución base competitiva más bonificación por resultados',
+        'Comisión atractiva más bonificación por resultados',
         'Amplia variedad de productos y sectores entre los que elegir',
       ],
     },
@@ -71,7 +71,7 @@ export default {
   },
   faq: {
     items: [
-      { question: '¿Cuánto gana un comercial freelance en Magnora Marketing?', answer: 'La retribución consiste en unos honorarios base fijos más comisión sobre tus resultados. Cuanto más vendas, más ganarás; no hay límite.' },
+      { question: '¿Cuánto gana un comercial freelance en Magnora Marketing?', answer: 'Como freelance cobras según resultados con comisión; no hay sueldo fijo ni honorario base. Cuanto más vendas, más ganarás; no hay límite.' },
       { question: '¿Necesito experiencia para solicitarlo?', answer: 'La experiencia es una ventaja, pero no un requisito. Magnora Marketing te forma a fondo y te ofrece apoyo y coaching continuos.' },
       { question: '¿Puedo trabajar a tiempo parcial?', answer: 'Sí, tú decides tus propios horarios y puedes trabajar desde unas pocas horas a la semana hasta a tiempo completo.' },
       { question: '¿Qué ocurre si tengo dudas durante el trabajo?', answer: 'Siempre tienes acceso al apoyo de los responsables de ventas experimentados de Magnora Marketing, que pueden ayudarte con orientación, guiones y dudas sobre productos.' },

@@ -74,7 +74,7 @@ export default {
       },
       {
         title: 'Comisión atractiva',
-        desc: 'Retribución base fija más comisión por todas las ventas. Cuanto más vendas, más ganas – sin límite.',
+        desc: 'Comisión por todas las ventas: trabajas como freelance y cobras según resultados. Cuanto más vendas, más ganas – sin límite.',
       },
       {
         title: 'Formación y apoyo',

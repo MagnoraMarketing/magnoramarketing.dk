@@ -46,7 +46,7 @@ export default {
     heading: 'What you get at Magnora Marketing',
     items: [
       { title: 'Work from home', desc: 'Sell from your own home with full freedom. No commuting, no fixed office hours.' },
-      { title: 'Attractive commission', desc: 'Base fee plus commission per booked meeting and closed deal. B2B debt collection delivers high commission per contract.' },
+      { title: 'Attractive commission', desc: 'Commission per booked meeting and closed deal – you work freelance and are paid on results. B2B debt collection delivers high commission per contract.' },
       { title: 'Flexible hours', desc: 'You decide your own sales day. Business clients are typically contacted during the day – the rest of the time is yours.' },
     ],
   },

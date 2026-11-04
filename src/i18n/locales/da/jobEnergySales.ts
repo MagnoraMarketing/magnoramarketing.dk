@@ -46,7 +46,7 @@ export default {
     heading: 'Hvad du får hos Magnora Marketing',
     items: [
       { title: 'Arbejd hjemmefra', desc: 'Sælg fra dit eget hjem uden transport og faste mødetider. Alt du skal bruge er en telefon og computer.' },
-      { title: 'Provision på hvert salg', desc: 'Grundhonorar plus provision per lukket aftale. Energisalg giver hyppige salg og stabil indkomst.' },
+      { title: 'Provision på hvert salg', desc: 'Provision pr. lukket aftale – du er freelancer og afregnes efter resultat. Energisalg giver hyppige salg og løbende provision.' },
       { title: 'Fleksible tider', desc: 'Tilrettelæg din salgsdag som du vil. Perfekt ved siden af studie, familie eller andet arbejde.' },
     ],
   },

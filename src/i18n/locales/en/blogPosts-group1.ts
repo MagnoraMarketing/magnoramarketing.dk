@@ -181,7 +181,7 @@ export default {
       {
         heading: 'Freedom, flexibility and attractive pay',
         body: [
-          "The job as an AI consultant is 100% remote with flexible working hours. You get a secure fixed base salary combined with uncapped commission, so your effort determines your earnings. That makes it one of the most attractive and future-proof work-from-home jobs in Denmark right now – whether you're looking for full-time work or a side income.",
+          "The job as an AI consultant is 100% remote with flexible working hours. You work freelance and are paid on results with uncapped commission, so your effort determines your earnings. That makes it one of the most attractive and future-proof work-from-home jobs in Denmark right now – whether you're looking for full-time work or a side income.",
         ],
       },
       {
@@ -202,7 +202,7 @@ export default {
       },
       {
         question: 'What is the pay like as an AI consultant?',
-        answer: "You get a fixed base salary combined with uncapped commission per booked meeting. Your effort determines how much you can earn.",
+        answer: "You work freelance and are paid on results, with uncapped commission per qualified meeting. Your effort determines how much you can earn.",
       },
       {
         question: 'How do I apply for the AI consultant job?',

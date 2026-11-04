@@ -242,7 +242,7 @@ export default {
       {
         "heading": "¿Cuánto puedes ganar como concertador de reuniones de seguros?",
         "body": [
-          "En Magnora Marketing recibes un sueldo base fijo combinado con comisión sin límite por reunión cualificada. Acordamos contigo el modelo exacto antes de empezar, pero el principio es sencillo: cuantas más reuniones buenas concertes, más ganas. La comisión se paga mensualmente y se basa en tus reuniones verificadas."
+          "En Magnora Marketing trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada. No hay sueldo fijo. Acordamos contigo el modelo exacto antes de empezar, pero el principio es sencillo: cuantas más reuniones buenas concertes, más ganas. La comisión se paga mensualmente y se basa en tus reuniones verificadas."
         ]
       },
       {
@@ -279,7 +279,7 @@ export default {
       },
       {
         "question": "¿Cuál es el sueldo de un concertador de reuniones de seguros?",
-        "answer": "Recibes un sueldo base fijo más comisión sin límite por reunión cualificada. El modelo exacto se acuerda antes de empezar."
+        "answer": "Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay sueldo fijo. El modelo exacto se acuerda antes de empezar."
       },
       {
         "question": "¿Puedo trabajar con seguros y pensiones a la vez?",
@@ -288,7 +288,7 @@ export default {
     ],
     "jobCta": {
       "heading": "Buscamos concertadores de reuniones de seguros ahora",
-      "body": "Trabaja 100% desde casa para los mejores corredores de seguros de Dinamarca con sueldo base fijo, comisión sin límite y horario flexible. La solicitud lleva pocos minutos y no implica ningún compromiso.",
+      "body": "Trabaja 100% desde casa para los mejores corredores de seguros de Dinamarca como freelance, con comisión sin límite, cobro según resultados y horario flexible. La solicitud lleva pocos minutos y no implica ningún compromiso.",
       "linkText": "Ver el empleo en seguros y postularme"
     },
     "ctaTitle": "¿Listo para trabajar en seguros y pensiones desde casa?",
@@ -339,7 +339,7 @@ export default {
       {
         "heading": "Sueldo y condiciones en un empleo de pensiones",
         "body": [
-          "Recibes un honorario fijo más comisión por reuniones concertadas y acuerdos cerrados. Como las pensiones son un producto de alto valor, cada reunión cualificada vale mucho. La comisión se paga mensualmente, la colaboración se formaliza en un contrato freelance por escrito y las primeras 2–4 semanas son un periodo de prueba mutuo."
+          "Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay sueldo fijo. Como las pensiones son un producto de alto valor, cada reunión cualificada vale mucho. La comisión se paga mensualmente, la colaboración se formaliza en un contrato freelance por escrito y las primeras 2–4 semanas son un periodo de prueba mutuo."
         ]
       },
       {
@@ -366,7 +366,7 @@ export default {
       },
       {
         "question": "¿Cuánto gana un concertador de reuniones de pensiones?",
-        "answer": "Recibes un honorario fijo más comisión por reuniones concertadas y acuerdos cerrados. El modelo exacto se acuerda antes de empezar."
+        "answer": "Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay sueldo fijo. El modelo exacto se acuerda antes de empezar."
       },
       {
         "question": "¿También puedo concertar reuniones sobre seguros?",
@@ -375,7 +375,7 @@ export default {
     ],
     "jobCta": {
       "heading": "Buscamos concertadores de reuniones de pensiones ahora",
-      "body": "Concierta reuniones de pensiones para asesores con experiencia 100% desde casa, con honorario fijo, comisión y horario flexible. Sin formación financiera: la solicitud es breve y sin compromiso.",
+      "body": "Concierta reuniones de pensiones para asesores con experiencia 100% desde casa como freelance, con comisión, cobro según resultados y horario flexible. Sin formación financiera: la solicitud es breve y sin compromiso.",
       "linkText": "Ver el empleo en pensiones y postularme"
     },
     "ctaTitle": "¿Listo para trabajar en pensiones y seguros desde casa?",

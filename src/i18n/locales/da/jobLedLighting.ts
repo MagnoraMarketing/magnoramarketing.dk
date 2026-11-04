@@ -47,7 +47,7 @@ export default {
     heading: 'Hvad du får hos Magnora Marketing',
     items: [
       { title: 'Arbejd hjemmefra', desc: 'Fuld frihed til at arbejde fra dit eget hjem. Ingen transport – bare telefon, computer og drive.' },
-      { title: 'Stærk provision', desc: 'Fast grundhonorar plus provision på hvert salg. Jo flere aftaler du lukker, jo mere tjener du.' },
+      { title: 'Stærk provision', desc: 'Provision på hvert salg – du er freelancer og afregnes efter resultat. Jo flere aftaler du lukker, jo mere tjener du.' },
       { title: 'Oplæring og materialer', desc: 'Vi oplærer dig i produkterne og besparelsesargumenterne. Du får scripts, tilbudsskabeloner og løbende sparring.' },
     ],
   },
@@ -71,7 +71,7 @@ export default {
     { question: 'Hvad sælger jeg som mødebooker inden for LED?', answer: 'Du kontakter erhvervskunder og booker møder med energieffektive belysningsløsninger fra en anerkendt LED-leverandør.' },
     { question: 'Behøver jeg viden om LED-teknik?', answer: 'Nej – Magnora Marketing giver dig al den produktviden du har brug for. Det vigtigste er dine salgskompetencer og din motivation.' },
     { question: 'Hvem er målgruppen?', answer: 'Primært erhvervskunder som kontorer, produktionsvirksomheder og detail – alle der kan spare betydeligt på energiregningen med LED-belysning.' },
-    { question: 'Hvad er provisionsniveauet?', answer: 'Du modtager fast grundhonorar plus provision pr. booket møde der gennemføres.' },
+    { question: 'Hvad er provisionsniveauet?', answer: 'Du er freelancer og modtager provision pr. booket møde, der gennemføres – du afregnes efter resultat.' },
     { question: 'Er der opkaldslister klar fra dag ét?', answer: 'Ja – Magnora Marketing leverer opkaldslister og kampagnematerialer, så du kan starte med det samme.' },
     { question: 'Kan jeg se et eksempel på et script?', answer: 'Ja – du modtager et gennemprøvet salgsskript ved opstart som du kan tilpasse din stil.' },
     { question: 'Hvad sker der ved et succes-salg eller booket møde?', answer: 'Du registrerer resultatet i vores system, og provisionen beregnes automatisk og udbetales månedligt.' },

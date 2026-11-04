@@ -28,7 +28,7 @@ export default {
     title: 'Et af Danmarks mest attraktive hjemmejob',
     text: 'Som mødebooker for forsikring hjælper du landets bedste forsikringsmæglere med at komme i kontakt med virksomheder og privatkunder, der ønsker en bedre og billigere forsikringsløsning. Du arbejder 100% hjemmefra, sætter selv dine rammer – og belønnes for dine resultater med markedets mest attraktive løn.',
     cards: [
-      { title: 'Attraktiv løn', desc: 'Fast grundhonorar plus provision uden loft. Jo flere kvalificerede møder du booker, jo mere tjener du – din indsats afgør din indtjening.' },
+      { title: 'Attraktiv løn', desc: 'Du er freelancer og afregnes efter resultat med provision uden loft. Jo flere kvalificerede møder du booker, jo mere tjener du – din indsats afgør din indtjening.' },
       { title: 'Fuld frihed', desc: 'Arbejd fra din sofa, dit sommerhus eller et andet land. Ingen pendling, ingen faste mødetider – du strukturerer selv din dag.' },
       { title: 'Danmarks bedste mæglere', desc: 'Du repræsenterer nogle af landets mest anerkendte forsikringsmæglere. Et stærkt produkt, du kan være stolt af at booke møder for.' },
     ],
@@ -36,9 +36,9 @@ export default {
   salary: {
     badge: 'Løn & provision',
     title: 'En løn der matcher din indsats',
-    text: 'Vi tror på, at dygtige mødebookere skal belønnes derefter. Derfor kombinerer vi en tryg grundløn med en af markedets mest konkurrencedygtige provisionsmodeller – helt uden loft. Der er ingen grænse for, hvor meget du kan tjene.',
+    text: 'Vi tror på, at dygtige mødebookere skal belønnes derefter. Som freelancer afregnes du efter resultat med en af markedets mest konkurrencedygtige provisionsmodeller – helt uden loft. Der er ingen grænse for, hvor meget du kan tjene.',
     list: [
-      'Fast grundhonorar fra dag ét',
+      'Freelance – du afregnes efter resultat',
       'Provision på hvert kvalificeret møde – uden loft',
       'Bonusprogrammer og konkurrencer for topbookere',
       'Månedlig, transparent udbetaling',
@@ -46,10 +46,10 @@ export default {
     earnings: {
       label: 'Din indtjening',
       value: 'Uden loft',
-      sub: 'Grundløn + provision pr. booket møde',
+      sub: 'Provision pr. kvalificeret møde – afregning efter resultat',
       rows: [
         'Jo flere møder, jo højere løn',
-        'Tryg fast grundløn i bunden',
+        'Freelance med fuld frihed over din tid',
         'Ekstra bonus til topbookere',
       ],
       cta: 'Hør mere om lønnen',
@@ -94,10 +94,10 @@ export default {
   seoBlock1: {
     title: 'Arbejd hjemmefra som mødebooker for forsikringsmæglere – frihed og attraktiv løn',
     p1: 'Drømmer du om et fleksibelt hjemmejob med en løn, der matcher din indsats? Som freelance mødebooker for forsikring hos Magnora Marketing arbejder du 100% hjemmefra og booker kvalificerede møder for nogle af Danmarks bedste og mest anerkendte forsikringsmæglere. Du hjælper virksomheder og privatkunder med at komme i kontakt med de rette rådgivere, så de kan få en bedre, billigere og mere gennemsigtig forsikringsløsning – og du belønnes for hvert eneste kvalificerede møde, du booker.',
-    p2: 'Jobbet som mødebooker inden for forsikring er ideelt for dig, der ønsker frihed og fleksibilitet i hverdagen. Du bestemmer selv, hvornår og hvorfra du arbejder, og du får en tryg fast grundløn kombineret med provision uden loft. Der er ingen pendling, ingen faste kontortider og intet loft over din indtjening – kun dine egne mål og ambitioner sætter grænsen. Magnora Marketing leverer leads, ringelister, scripts og CRM-adgang, så du kan fokusere på det, du er god til: at skabe gode samtaler og booke værdifulde møder.',
+    p2: 'Jobbet som mødebooker inden for forsikring er ideelt for dig, der ønsker frihed og fleksibilitet i hverdagen. Du bestemmer selv, hvornår og hvorfra du arbejder, og som freelancer afregnes du efter resultat med provision uden loft. Der er ingen pendling, ingen faste kontortider og intet loft over din indtjening – kun dine egne mål og ambitioner sætter grænsen. Magnora Marketing leverer leads, ringelister, scripts og CRM-adgang, så du kan fokusere på det, du er god til: at skabe gode samtaler og booke værdifulde møder.',
     list: [
       '100% hjemmefra – arbejd hvornår og hvorfra du vil',
-      'Attraktiv løn: fast grundhonorar + provision uden loft',
+      'Freelance: afregning efter resultat med provision uden loft',
       'Repræsenter Danmarks bedste forsikringsmæglere',
       'Leads, scripts og CRM leveret fra dag ét',
       'Fleksible arbejdstider – fuldtid eller som biindtægt',
@@ -146,7 +146,7 @@ export default {
       { question: 'Hvad er forskellen på mødebooking og salg?', answer: 'Som mødebooker sælger du ikke selv forsikringen – du booker mødet mellem kunden og forsikringsmægleren. Selve rådgivningen og salget står mægleren for. Dit fokus er alene at skabe kvalificerede møder.' },
       { question: 'Kan jeg lave mødebooking hjemmefra, uanset hvor i Danmark jeg bor?', answer: 'Ja. Jobbet foregår 100% hjemmefra og over telefon, så du kan bo hvor som helst i Danmark – fra København og Aarhus til de mindste byer. Du behøver kun telefon, computer og stabilt internet.' },
       { question: 'Kan jeg virkelig arbejde 100% hjemmefra?', answer: 'Ja – hele rollen udføres hjemmefra. Du behøver kun en telefon, en computer og stabilt internet. Ingen pendling og ingen fast fremmøde.' },
-      { question: 'Hvad er lønnen?', answer: 'Du får en fast grundløn kombineret med provision uden loft pr. booket møde. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
+      { question: 'Hvad er lønnen?', answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde – der er ingen fast løn eller grundhonorar. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
       { question: 'Skal jeg selv finde kunderne?', answer: 'Nej. Vi leverer ringelister, leads, scripts og CRM-adgang. Du fokuserer på samtalerne og på at booke møderne.' },
       { question: 'Kræver det erfaring med forsikring eller salg?', answer: 'Nej. Erfaring med salg, mødebooking eller kundeservice er en fordel, men ikke et krav. Vi giver dig grundig produkttræning, så du er klar fra start.' },
       { question: 'Kan jeg have det som bijob ved siden af studie eller andet arbejde?', answer: 'Ja – mange af vores mødebookere arbejder fleksibelt og bruger det som en attraktiv biindtægt ved siden af studie, familie eller andet arbejde.' },

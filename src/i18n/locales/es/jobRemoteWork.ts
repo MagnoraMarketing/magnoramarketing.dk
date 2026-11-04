@@ -37,7 +37,7 @@ export default {
   benefits: {
     heading: 'Lo que obtienes en Magnora Marketing',
     items: [
-      { title: 'Comisión competitiva', desc: 'Retribución base fija más comisión por tus ventas. Cuanto más vendas, más ganas – sin límite.' },
+      { title: 'Comisión competitiva', desc: 'Comisión por tus ventas: trabajas como freelance y cobras según resultados. Cuanto más vendas, más ganas – sin límite.' },
       { title: 'Sólida red de apoyo', desc: 'Nunca estás solo. Los responsables comerciales de Magnora Marketing están listos para acompañarte, formarte y apoyarte durante todo el proceso.' },
       { title: 'Tus propios horarios', desc: 'Total flexibilidad sobre tu jornada laboral. Perfecto como trabajo a tiempo completo, ingreso complementario o combinado con estudios.' },
       { title: 'Herramientas de trabajo digitales', desc: 'Acceso a CRM, guiones, materiales de campaña y leads. Tienes todo lo que necesitas desde el primer día.' },

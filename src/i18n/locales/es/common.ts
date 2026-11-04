@@ -131,11 +131,11 @@ export default {
   jobSchema: {
     breadcrumbHome: 'Inicio',
     breadcrumbJobs: 'Empleos disponibles',
-    body: 'Trabajas como concertador de reuniones freelance para Magnora Marketing, 100% desde casa y con horario flexible. Llamas a contactos relevantes de nuestras listas y conciertas reuniones cualificadas para nuestros socios: no tienes que vender ni asesorar tú mismo.',
+    body: 'Trabajas como concertador de reuniones freelance para Magnora Marketing, 100% desde casa y con horario flexible. Llamas a contactos relevantes de nuestras listas y conciertas reuniones cualificadas para nuestros socios: no tienes que vender ni asesorar tú mismo. Trabajas como freelance y cobras según resultados; no hay sueldo fijo ni honorario base.',
     benefits: [
       'Trabaja 100% desde casa – desde cualquier lugar de Dinamarca',
       'Horario flexible – jornada completa o parcial',
-      'Honorario fijo más comisión por reunión cualificada',
+      'Comisión por reunión cualificada: cobro según resultados',
       'Listas de llamadas, guiones y CRM incluidos',
       'Formación completa y acompañamiento continuo',
     ],

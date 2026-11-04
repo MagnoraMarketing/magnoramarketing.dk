@@ -131,11 +131,11 @@ export default {
   jobSchema: {
     breadcrumbHome: 'Home',
     breadcrumbJobs: 'Open jobs',
-    body: 'You work as a freelance meeting booker for Magnora Marketing, 100% from home and with flexible hours. You call relevant contacts from our call lists and book qualified meetings for our partners – you do not have to sell or give advice yourself.',
+    body: 'You work as a freelance meeting booker for Magnora Marketing, 100% from home and with flexible hours. You call relevant contacts from our call lists and book qualified meetings for our partners – you do not have to sell or give advice yourself. You work freelance and are paid on results – there is no fixed salary or base fee.',
     benefits: [
       'Work 100% from home – anywhere in Denmark',
       'Flexible hours – full-time or part-time',
-      'Fixed base fee plus commission per qualified meeting',
+      'Commission per qualified meeting – paid on results',
       'Call lists, scripts and CRM provided',
       'Thorough training and ongoing coaching',
     ],

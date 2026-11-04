@@ -178,7 +178,7 @@ const SEO: React.FC<SEOProps> = ({
     ].join(''),
     "identifier": { "@type": "PropertyValue", "name": "Magnora Marketing", "value": job.key },
     "datePosted": job.datePosted,
-    "employmentType": ["CONTRACTOR", "PART_TIME", "FULL_TIME"],
+    "employmentType": "CONTRACTOR",
     "hiringOrganization": {
       "@type": "Organization",
       "@id": `${domain}/#organization`,

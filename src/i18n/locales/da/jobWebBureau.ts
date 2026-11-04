@@ -74,7 +74,7 @@ export default {
       },
       {
         title: 'Attraktiv provision',
-        desc: 'Fast grundhonorar plus provision på alle salg. Jo mere du sælger, jo mere tjener du – ingen loft.',
+        desc: 'Provision på alle salg – du er freelancer og afregnes efter resultat. Jo mere du sælger, jo mere tjener du – ingen loft.',
       },
       {
         title: 'Oplæring og support',

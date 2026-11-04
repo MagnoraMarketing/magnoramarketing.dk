@@ -125,7 +125,7 @@ export default {
   freelanceBenefits: {
     items: [
       'Horario flexible y trabajo desde casa',
-      'Salario base competitivo y bonificación por resultados',
+      'Comisión atractiva y bonificación: cobro según resultados',
       'Formación sólida y acompañamiento profesional continuo',
       'Apoyo cercano de responsables de ventas experimentados',
       'Herramientas de trabajo digitales modernas',
