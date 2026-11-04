@@ -1,8 +1,8 @@
 export default {
   seo: {
-    title: 'Empleo en pensiones desde casa – concertador | Magnora',
-    description: '¿Buscas empleo en el sector de las pensiones? Concierta reuniones 100% desde casa para asesores de pensiones. Sin formación financiera. Honorario + comisión.',
-    keywords: 'empleo pensiones, trabajo pensiones desde casa, empleo en el sector de pensiones, concertador de reuniones pensiones, trabajo asesoría de pensiones, empleo seguros y pensiones, trabajar desde casa pensiones, freelance pensiones, trabajo a tiempo parcial desde casa, trabajo extra desde casa, empleo finanzas remoto',
+    title: 'Comercial freelance de pensiones desde casa | Magnora',
+    description: 'Conviértete en comercial freelance de asesoría en pensiones: concierta reuniones 100% desde casa para asesores con experiencia. Sin formación financiera. Buena comisión.',
+    keywords: 'comercial freelance pensiones, ventas asesoría en pensiones, empleo ventas pensiones, asesoría financiera freelance, puesto pensiones Magnora Marketing, empleo de reserva de reuniones, empleo pensiones, trabajo pensiones desde casa, empleo en el sector de pensiones, concertador de reuniones pensiones, trabajo asesoría de pensiones, empleo seguros y pensiones, trabajar desde casa pensiones, freelance pensiones, trabajo a tiempo parcial desde casa, trabajo extra desde casa, empleo finanzas remoto',
   },
   breadcrumbs: {
     home: 'Inicio',
@@ -10,7 +10,7 @@ export default {
     current: 'Pensiones – trabaja desde casa',
   },
   hero: {
-    title: 'Empleo en pensiones – concierta reuniones de pensiones 100% desde casa',
+    title: 'Comercial freelance de pensiones: concierta reuniones de pensiones desde casa',
     subtitle: 'Ayuda a las personas a poner en orden su pensión. Concertas revisiones de pensiones gratuitas y sin compromiso para asesores con experiencia, desde casa, con horario flexible, honorario fijo y comisión. Sin formación financiera.',
     cta: 'Solicita el empleo, sin compromiso',
     secondaryCta: 'Ver todas las vacantes',

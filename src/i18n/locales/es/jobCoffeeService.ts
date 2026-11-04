@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Empleo desde casa: comercial de café para empresas | Magnora',
+    title: 'Comercial Freelance – Servicio de Café para Empresas | Magnora Marketing',
     description: 'Conviértete en comercial freelance de servicio de café y máquinas de café para empresas en Magnora Marketing. Trabaja desde casa vendiendo un producto que todos los empleados de oficina adoran.',
     keywords: 'comercial freelance servicio de café, venta máquinas de café empresas, vendedor de café B2B, puesto de café Magnora Marketing, empleo venta de café, empleo de reserva de reuniones',
   },

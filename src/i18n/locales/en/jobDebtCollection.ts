@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Remote Job: Debt Collection Sales Rep | Magnora',
+    title: 'Freelance Sales Rep – Debt Collection & Credit Management | Magnora Marketing',
     description: 'Become a freelance sales rep in debt collection and credit management at Magnora Marketing. Sell professional debt recovery services to business clients – from home with good commission.',
     keywords: 'freelance debt collection sales rep, credit management sales, debt collection sales job, B2B debt recovery, Magnora Marketing debt collection position, meeting booking job',
   },

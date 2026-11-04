@@ -1,8 +1,8 @@
 export default {
   seo: {
-    title: 'Job inden for pension hjemmefra – bliv mødebooker | Magnora',
-    description: 'Søger du job inden for pension? Book pensionsmøder 100% hjemmefra for erfarne pensionsrådgivere. Ingen finansiel baggrund krævet. Grundhonorar + provision.',
-    keywords: 'job pension, pension job hjemmefra, job inden for pension, mødebooker pension, job i pensionsbranchen, pensionsrådgivning job, job forsikring og pension, arbejd hjemmefra pension, freelance mødebooker pension, deltidsjob hjemmefra, bijob hjemmefra, job finans hjemmefra',
+    title: 'Freelance sælger & job inden for pension hjemmefra | Magnora',
+    description: 'Bliv freelance sælger inden for pensionsrådgivning: book pensionsmøder 100% hjemmefra for erfarne rådgivere. Ingen finansiel baggrund krævet. God provision.',
+    keywords: 'freelance sælger pension, pensionsrådgivning salg, pension sælger job, finansiel rådgivning freelance, Magnora Marketing pension stilling, mødebooking job, job pension, pension job hjemmefra, job inden for pension, mødebooker pension, job i pensionsbranchen, pensionsrådgivning job, job forsikring og pension, arbejd hjemmefra pension, freelance mødebooker pension, deltidsjob hjemmefra, bijob hjemmefra, job finans hjemmefra',
   },
   breadcrumbs: {
     home: 'Forside',
@@ -10,7 +10,7 @@ export default {
     current: 'Pension – arbejd hjemmefra',
   },
   hero: {
-    title: 'Job inden for pension – book pensionsmøder 100% hjemmefra',
+    title: 'Freelance sælger inden for pension – book pensionsmøder hjemmefra',
     subtitle: 'Hjælp danskere med at få styr på deres pension. Du booker uforpligtende pensionsgennemgange for erfarne pensionsrådgivere – hjemmefra, med fleksible tider, fast grundhonorar og provision. Ingen finansiel baggrund krævet.',
     cta: 'Søg jobbet – helt uforpligtende',
     secondaryCta: 'Se alle ledige stillinger',

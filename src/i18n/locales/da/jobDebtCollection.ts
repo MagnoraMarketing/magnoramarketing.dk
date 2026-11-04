@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Job hjemmefra: Sælger inden for inkasso | Magnora',
+    title: 'Freelance Sælger – Inkasso | Magnora Marketing',
     description: 'Bliv freelance sælger inden for inkasso og kreditorstyring. Sælg professionel gældsinddrivelse til erhvervskunder – hjemmefra med god provision.',
     keywords: 'freelance sælger inkasso, kreditorstyring salg, inkasso sælger job, gældinddrivelse B2B, Magnora Marketing inkasso stilling, mødebooking job',
   },

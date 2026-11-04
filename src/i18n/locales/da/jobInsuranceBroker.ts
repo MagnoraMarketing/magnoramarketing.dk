@@ -1,16 +1,16 @@
 export default {
   seo: {
-    title: 'Job i forsikring hjemmefra – bliv mødebooker | Magnora',
-    description: 'Søger du job i forsikringsbranchen? Bliv mødebooker 100% hjemmefra for Danmarks førende forsikringsmæglere. Fast grundløn + provision uden loft. Søg nu.',
-    keywords: 'job forsikring, job i forsikring hjemmefra, forsikringsjob, job i forsikringsbranchen, mødebooker forsikring, mødebooking forsikring job, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, job forsikring og pension, freelance mødebooker, mødebooking hjemmefra, deltidsjob hjemmefra, bijob hjemmefra',
+    title: 'Mødebooker Hjemmefra – Forsikring | Magnora Marketing',
+    description: 'Bliv mødebooker 100% hjemmefra for landets førende forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag.',
+    keywords: 'mødebooking hjemmefra, mødebooker forsikring, mødebooking forsikring job, mødebooker forsikringsmægler, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, freelance mødebooking, mødebooking job Danmark, attraktiv løn hjemmearbejde, remote mødebooking forsikring, job forsikring, job i forsikring hjemmefra, forsikringsjob, job i forsikringsbranchen, job forsikring og pension, freelance mødebooker, deltidsjob hjemmefra, bijob hjemmefra',
   },
   breadcrumbs: {
     home: 'Forside',
-    jobSeekers: 'Ledige job',
+    jobSeekers: 'Job søgere',
     current: 'Forsikring – arbejd hjemmefra',
   },
   hero: {
-    title: 'Job i forsikring hjemmefra – book møder for Danmarks bedste forsikringsmæglere',
+    title: 'Mødebooking hjemmefra for Danmarks bedste forsikringsmæglere',
     subtitle: 'Lav mødebooking for landets førende forsikringsmæglere – 100% hjemmefra, med attraktiv løn, provision uden loft og fuld frihed over din egen arbejdsdag.',
     cta: 'Ansøg – helt uforpligtende',
     secondaryCta: 'Se alle ledige stillinger',
@@ -136,7 +136,7 @@ export default {
   },
   relatedJobs: {
     title: 'Andre mødebooking- & salgsjob hjemmefra',
-    text: 'Forsikring er ét af mange områder, du kan arbejde med hos Magnora Marketing. Se især vores job inden for pension – de to områder hænger tæt sammen – og de øvrige ledige hjemmejob.',
+    text: 'Forsikring er kun én af mange brancher, du kan lave mødebooking indenfor hos Magnora Marketing. Se flere ledige hjemmejob.',
     seeAll: 'Se alle ledige stillinger',
   },
   faq: {

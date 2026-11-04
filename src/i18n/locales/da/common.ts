@@ -120,8 +120,8 @@ export default {
       description: 'Book møder for professionelle måtteservice løsninger og hjælp virksomheder med at skabe et renere arbejdsmiljø.',
     },
     pension: {
-      title: 'Mødebooker - Pension (hjemmefra)',
-      description: 'Book pensionsmøder 100% hjemmefra for erfarne pensionsrådgivere. Ingen finansiel baggrund krævet – fast grundhonorar plus provision og fuld fleksibilitet.',
+      title: 'Mødebooker - Pension',
+      description: 'Hjælp danskere med at sikre deres økonomiske fremtid gennem professionel pensionsrådgivning.',
     },
     debtCollection: {
       title: 'Mødebooker - Inkasso',

@@ -1,8 +1,8 @@
 export default {
   seo: {
-    title: 'Remote Pension Job – Become a Meeting Booker | Magnora',
-    description: 'Looking for a job in pensions? Book pension meetings 100% from home for experienced pension advisers. No financial background needed. Base fee + commission.',
-    keywords: 'pension job, remote pension job, job in pensions, pension meeting booker, pension industry job, pension advice job, insurance and pension jobs, work from home pension, freelance meeting booker pension, part-time job from home, side job from home, finance job from home',
+    title: 'Freelance Pension Sales Rep – Remote Pension Job | Magnora',
+    description: 'Become a freelance sales rep in pension advisory: book pension meetings 100% from home for experienced advisers. No financial background needed. Good commission.',
+    keywords: 'freelance pension sales rep, pension advisory sales, pension sales job, financial advisory freelance, Magnora Marketing pension position, meeting booking job, pension job, remote pension job, job in pensions, pension meeting booker, pension industry job, pension advice job, insurance and pension jobs, work from home pension, freelance meeting booker pension, part-time job from home, side job from home, finance job from home',
   },
   breadcrumbs: {
     home: 'Home',
@@ -10,7 +10,7 @@ export default {
     current: 'Pension – work from home',
   },
   hero: {
-    title: 'A job in pensions – book pension meetings 100% from home',
+    title: 'Freelance sales rep in pensions – book pension meetings from home',
     subtitle: 'Help people get their pension in order. You book free, no-obligation pension reviews for experienced pension advisers – from home, with flexible hours, a fixed base fee and commission. No financial background required.',
     cta: 'Apply – no obligation',
     secondaryCta: 'See all open positions',

@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Empleo desde casa: comercial de energía | Magnora',
+    title: 'Comercial Freelance – Electricidad y Optimización Energética | Magnora Marketing',
     description: 'Conviértete en comercial freelance de electricidad y optimización energética para clientes B2B y B2C en Magnora Marketing. Trabaja desde casa con horarios flexibles y comisión atractiva.',
     keywords: 'comercial freelance electricidad, venta optimización energética, empleo vendedor de electricidad, contratos de energía B2B, puesto de energía Magnora Marketing, empleo de reserva de reuniones',
   },

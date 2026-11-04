@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Remote Job: Solar Energy Sales Rep | Magnora',
+    title: 'Freelance Sales Rep – Solar Energy & Renewable Energy | Magnora Marketing',
     description: 'Become a freelance sales rep of solar energy and renewable energy solutions at Magnora Marketing. Sell solar panels to businesses and private customers – flexible remote work with strong commission.',
     keywords: 'freelance solar energy sales rep, sell solar panels, solar energy job, renewable energy sales, Magnora Marketing solar panel position, meeting booking job',
   },

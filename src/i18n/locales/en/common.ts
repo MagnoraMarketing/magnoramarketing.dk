@@ -120,8 +120,8 @@ export default {
       description: 'Book meetings for professional mat service solutions and help businesses create a cleaner working environment.',
     },
     pension: {
-      title: 'Meeting Booker - Pension (remote)',
-      description: 'Book pension meetings 100% from home for experienced pension advisers. No financial background required – a fixed base fee plus commission and full flexibility.',
+      title: 'Meeting Booker - Pension',
+      description: 'Help people secure their financial future through professional pension advice.',
     },
     debtCollection: {
       title: 'Meeting Booker - Debt Collection',

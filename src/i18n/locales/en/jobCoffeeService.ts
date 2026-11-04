@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Remote Job: B2B Coffee Service Sales Rep | Magnora',
+    title: 'Freelance Sales Rep – B2B Coffee Service | Magnora Marketing',
     description: 'Become a freelance sales rep for B2B coffee service and coffee machines at Magnora Marketing. Work from home selling a product every office worker loves.',
     keywords: 'freelance coffee service sales rep, coffee machine B2B sales, coffee sales job, Magnora Marketing coffee position, coffee sales job Denmark, meeting booking job',
   },

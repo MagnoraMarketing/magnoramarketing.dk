@@ -1,16 +1,16 @@
 export default {
   seo: {
-    title: 'Remote Insurance Job – Become a Meeting Booker | Magnora',
-    description: 'Looking for a job in insurance? Become a meeting booker 100% from home for Denmark’s leading insurance brokers. Fixed base pay + uncapped commission. Apply now.',
-    keywords: 'insurance job, remote insurance job, job in insurance, insurance industry job, meeting booker insurance, meeting booking insurance job, insurance broker job remote, work from home insurance, insurance and pension jobs, freelance meeting booker, remote meeting booking, part-time job from home, side job from home',
+    title: 'Remote Meeting Booking for Denmark\'s Best Insurance Brokers | Magnora Marketing',
+    description: 'Become a meeting booker and book meetings 100% remotely for the country\'s leading insurance brokers. Attractive salary, uncapped commission, and full freedom over your workday. Apply for the meeting booking job today.',
+    keywords: 'meeting booking from home, meeting booker insurance, meeting booking insurance job, meeting booker insurance broker, insurance broker job remote, work from home insurance, freelance meeting booking, meeting booking job Denmark, attractive remote work salary, remote meeting booking insurance, insurance job, remote insurance job, job in insurance, insurance industry job, insurance and pension jobs, freelance meeting booker, remote meeting booking, part-time job from home, side job from home',
   },
   breadcrumbs: {
     home: 'Home',
-    jobSeekers: 'Open jobs',
+    jobSeekers: 'Job seekers',
     current: 'Insurance – work from home',
   },
   hero: {
-    title: 'A remote job in insurance – book meetings for Denmark’s best insurance brokers',
+    title: 'Remote meeting booking for Denmark\'s best insurance brokers',
     subtitle: 'Book meetings for the country\'s leading insurance brokers – 100% remote, with an attractive salary, uncapped commission, and full freedom over your own workday.',
     cta: 'Apply – completely non-binding',
     secondaryCta: 'View all open positions',
@@ -136,7 +136,7 @@ export default {
   },
   relatedJobs: {
     title: 'Other meeting booking & sales jobs from home',
-    text: 'Insurance is one of many areas you can work in at Magnora Marketing. Be sure to see our pension job – the two areas are closely linked – and the other open remote jobs.',
+    text: 'Insurance is just one of many industries you can book meetings for at Magnora Marketing. See more open remote jobs.',
     seeAll: 'View all open positions',
   },
   faq: {

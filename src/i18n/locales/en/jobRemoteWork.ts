@@ -1,6 +1,6 @@
 export default {
   seo: {
-    title: 'Work From Home Jobs: Freelance Meeting Booker | Magnora',
+    title: 'Freelance Remote Sales – Work From Home | Magnora Marketing',
     description: 'Become a freelance sales rep and work 100% remote at Magnora Marketing. Choose your own product, set your own hours and build a career from home with strong commission.',
     keywords: 'freelance remote sales, work from home sales rep, remote job Denmark, home office sales, Magnora Marketing remote position, meeting booking job',
   },

@@ -120,8 +120,8 @@ export default {
       description: 'Concierta reuniones para soluciones profesionales de alfombras y ayuda a las empresas a crear un entorno de trabajo más limpio.',
     },
     pension: {
-      title: 'Concertador de reuniones - Pensiones (remoto)',
-      description: 'Concierta reuniones de pensiones 100% desde casa para asesores de pensiones con experiencia. Sin formación financiera – honorario fijo más comisión y total flexibilidad.',
+      title: 'Concertador de reuniones - Pensiones',
+      description: 'Ayuda a las personas a asegurar su futuro financiero mediante asesoramiento profesional en pensiones.',
     },
     debtCollection: {
       title: 'Concertador de reuniones - Recobro',
