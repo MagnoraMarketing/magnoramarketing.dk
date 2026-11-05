@@ -15,7 +15,7 @@ export default {
     subtitle: 'Magnora Marketing tilbyder noget sjældent: friheden som freelancer kombineret med et stærkt professionelt fundament.',
     items: [
       { title: 'Fleksibel hverdag', description: 'Du bestemmer selv hvornår du arbejder. Tilpas din arbejdsdag til dit liv – ikke omvendt.' },
-      { title: 'Stærk indtjening', description: 'Konkurrencedygtig grundaflønning kombineret med attraktive resultatbonusser. Jo bedre du performer, jo mere tjener du.' },
+      { title: 'Stærk indtjening', description: 'Attraktiv provision og resultatbonusser – du afregnes efter resultat. Jo bedre du performer, jo mere tjener du.' },
       { title: 'Stærkt fællesskab', description: 'Selv som freelancer er du aldrig alene. Du er en del af et stærkt Magnora Marketing-netværk med sparring og fælles drive.' },
       { title: 'Faglig udvikling', description: 'Struktureret oplæring, løbende coaching og mulighed for at tage mere ansvar og avancere i rollen.' },
     ],
@@ -27,13 +27,13 @@ export default {
     benefits: [
       { title: 'Hjemmekontor', description: 'Arbejd effektivt fra dit eget hjem med alle nødvendige digitale redskaber. Ingen transporttid, ingen dyre frokoster.' },
       { title: 'Egne arbejdstider', description: 'Tilrettelæg din dag som det passer dig – ideelt for studerende, forældre og alle med et aktivt liv ved siden af arbejdet.' },
-      { title: 'Resultatdrevet løn', description: 'Fast grundløn plus provision. Dine resultater afspejler sig direkte i din lønseddel.' },
+      { title: 'Resultatdrevet løn', description: 'Du er freelancer og afregnes efter resultat med provision. Dine resultater afspejler sig direkte i din udbetaling.' },
     ],
     checklist: [
       'Ingen transport og pendling',
       'Bedre balance mellem arbejde og privatliv',
       'Fuld fleksibilitet i arbejdstilrettelæggelsen',
-      'Provision og bonus oveni grundlønnen',
+      'Provision og bonus – afregning efter resultat',
       "Del af Magnora Marketing's stærke salgsfællesskab",
       'Grundig onboarding og løbende support',
       'Professionel og personlig udvikling',
@@ -59,7 +59,7 @@ export default {
       list: [
         'Arbejd hjemmefra med fuld fleksibilitet over din arbejdsdag',
         'Grundig onboarding og løbende faglig sparring',
-        'Konkurrencedygtig grundaflønning plus resultatbonus',
+        'Attraktiv provision plus resultatbonus',
         'Bredt udvalg af produkter og brancher at vælge imellem',
       ],
     },
@@ -71,7 +71,7 @@ export default {
   },
   faq: {
     items: [
-      { question: 'Hvad tjener man som freelance sælger hos Magnora Marketing?', answer: 'Lønnen består af et fast grundhonorar plus provision på dine resultater. Jo mere du sælger, jo mere tjener du – der er intet loft.' },
+      { question: 'Hvad tjener man som freelance sælger hos Magnora Marketing?', answer: 'Som freelancer afregnes du efter resultat med provision – der er ingen fast løn eller grundhonorar. Jo mere du sælger, jo mere tjener du – der er intet loft.' },
       { question: 'Skal jeg have erfaring for at søge?', answer: 'Erfaring er en fordel, men ikke et krav. Magnora Marketing oplærer dig grundigt og giver dig løbende sparring og support.' },
       { question: 'Kan jeg arbejde deltid?', answer: 'Ja – du bestemmer selv dine arbejdstider og kan arbejde alt fra få timer om ugen til fuld tid.' },
       { question: 'Hvad sker der, hvis jeg har spørgsmål under arbejdet?', answer: "Du har altid adgang til support fra Magnora Marketing's erfarne salgsledere, der kan hjælpe med sparring, scripts og produktspørgsmål." },

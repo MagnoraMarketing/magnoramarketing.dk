@@ -11,14 +11,14 @@ export default {
   },
   hero: {
     title: 'Freelance sælger inden for pension – book pensionsmøder hjemmefra',
-    subtitle: 'Hjælp danskere med at få styr på deres pension. Du booker uforpligtende pensionsgennemgange for erfarne pensionsrådgivere – hjemmefra, med fleksible tider, fast grundhonorar og provision. Ingen finansiel baggrund krævet.',
+    subtitle: 'Hjælp danskere med at få styr på deres pension. Du booker uforpligtende pensionsgennemgange for erfarne pensionsrådgivere – hjemmefra, med fleksible tider og provision – du er freelancer og afregnes efter resultat. Ingen finansiel baggrund krævet.',
     cta: 'Søg jobbet – helt uforpligtende',
     secondaryCta: 'Se alle ledige stillinger',
   },
   statBand: {
     items: [
       { stat: '100%', label: 'Hjemmefra' },
-      { stat: 'Grundhonorar', label: '+ provision' },
+      { stat: 'Provision', label: 'Afregnes efter resultat' },
       { stat: 'Fleksible', label: 'Arbejdstider' },
       { stat: '2 hverdage', label: 'Til svar på ansøgning' },
     ],
@@ -28,28 +28,28 @@ export default {
     title: 'Et meningsfuldt job inden for pension – uden at være pensionsrådgiver',
     text: 'Mange danskere har aldrig fået gennemgået deres pension – og ved ikke, om de sparer rigtigt op, betaler for høje omkostninger eller er dækket ved sygdom. Som mødebooker inden for pension hos Magnora Marketing kontakter du private og virksomheder og booker en uforpligtende pensionsgennemgang med en erfaren pensionsrådgiver. Du rådgiver ikke selv – du åbner døren til rådgivningen.',
     cards: [
-      { title: 'Grundhonorar + provision', desc: 'Fast grundhonorar plus provision på bookede møder og lukkede aftaler. Pension er et højværdiprodukt, og det kan mærkes på provisionen.' },
+      { title: 'Provision efter resultat', desc: 'Du er freelancer og får provision på bookede møder og lukkede aftaler. Pension er et højværdiprodukt, og det kan mærkes på provisionen.' },
       { title: '100% hjemmefra', desc: 'Arbejd fra hjemmet, sommerhuset eller udlandet. Ingen pendling og ingen faste mødetider – du strukturerer selv din dag.' },
       { title: 'Ingen finansiel baggrund', desc: 'Du booker møder – pensionsrådgiveren står for det faglige. Vi giver dig produkttræning og gennemprøvede scripts fra dag ét.' },
     ],
   },
   salary: {
     badge: 'Løn & provision',
-    title: 'Løn i et job inden for pension: tryghed og høj værdi pr. møde',
-    text: 'Pensionsaftaler har en høj gennemsnitsværdi for vores samarbejdspartnere – derfor er et kvalificeret pensionsmøde også meget værd for dig. Du får et fast grundhonorar i bunden og provision oven i, så en stor del af din indtjening afhænger af din egen indsats.',
+    title: 'Løn i et job inden for pension: høj værdi pr. møde',
+    text: 'Pensionsaftaler har en høj gennemsnitsværdi for vores samarbejdspartnere – derfor er et kvalificeret pensionsmøde også meget værd for dig. Som freelancer afregnes du efter resultat med provision, så din indtjening afhænger af din egen indsats.',
     list: [
-      'Fast grundhonorar fra start',
+      'Freelance – du afregnes efter resultat',
       'Provision på bookede møder og lukkede aftaler',
       'Høj værdi pr. møde, fordi pension er et højværdiprodukt',
       'Månedlig, gennemsigtig udbetaling',
     ],
     earnings: {
       label: 'Din indtjening',
-      value: 'Grundhonorar + provision',
+      value: 'Provision',
       sub: 'Jo flere kvalificerede pensionsmøder, jo mere tjener du',
       rows: [
         'Provisionen beregnes automatisk i vores system',
-        'Tryg fast grundhonorar i bunden',
+        'Afregning efter resultat – ingen loft',
         'Skriftlig freelanceaftale med klare vilkår',
       ],
       cta: 'Hør mere om lønnen',
@@ -89,10 +89,10 @@ export default {
   seoBlock1: {
     title: 'Job inden for pension hjemmefra – meningsfuldt arbejde med god indtjening',
     p1: 'Søger du et job inden for pension, men har du ikke en uddannelse som pensionsrådgiver? Så er jobbet som mødebooker hos Magnora Marketing en oplagt vej ind i pensionsbranchen. Du arbejder 100% hjemmefra og kontakter private og erhvervskunder med tilbud om en gratis og uforpligtende gennemgang af deres pensionsordning. Når kunden siger ja, booker du mødet i kalenderen hos en erfaren pensionsrådgiver, som tager den faglige rådgivning.',
-    p2: 'Pension er et af de vigtigste økonomiske emner i et menneskes liv, og alligevel har mange danskere aldrig fået et overblik over deres opsparing, omkostninger og forsikringsdækning. Det gør dit arbejde både efterspurgt og meningsfuldt. Du får et fast grundhonorar plus provision, fleksible arbejdstider og alt, hvad du skal bruge: ringelister, scripts, CRM og løbende coaching. Det er et af de mest attraktive pensionsjob hjemmefra i Danmark – uanset om du søger fuldtid, deltid eller et bijob.',
+    p2: 'Pension er et af de vigtigste økonomiske emner i et menneskes liv, og alligevel har mange danskere aldrig fået et overblik over deres opsparing, omkostninger og forsikringsdækning. Det gør dit arbejde både efterspurgt og meningsfuldt. Du arbejder som freelancer, afregnes efter resultat med provision og får fleksible arbejdstider og alt, hvad du skal bruge: ringelister, scripts, CRM og løbende coaching. Det er et af de mest attraktive pensionsjob hjemmefra i Danmark – uanset om du søger fuldtid, deltid eller et bijob.',
     list: [
       'Job inden for pension – 100% hjemmefra i hele Danmark',
-      'Fast grundhonorar + provision på møder og aftaler',
+      'Freelance: provision på møder og aftaler – afregning efter resultat',
       'Ingen finansiel baggrund krævet – du får grundig oplæring',
       'Ringelister, scripts og CRM leveret fra dag ét',
       'Fleksible tider – fuldtid, deltid eller bijob',
@@ -124,7 +124,7 @@ export default {
     text: 'Som mødebooker inden for pension lærer du, hvordan pension, opsparing og forsikringsdækning fungerer i praksis – og du opbygger stærke kommunikations- og salgsevner. Det er en solid indgang til pensions- og finansbranchen og et job, hvor du hjælper mennesker med en af de vigtigste beslutninger i deres liv.',
     cards: [
       { title: 'Viden om pension', desc: 'Du lærer pensionsbranchens begreber og produkter at kende gennem produkttræning og daglige samtaler.' },
-      { title: 'Indtjening efter indsats', desc: 'Grundhonorar plus provision betyder, at dine resultater kan ses direkte på din udbetaling.' },
+      { title: 'Indtjening efter indsats', desc: 'Du afregnes efter resultat, så dine resultater kan ses direkte på din udbetaling.' },
       { title: 'Meningsfuldt arbejde', desc: 'Du hjælper danskere med at få overblik over deres økonomi og en tryggere alderdom.' },
       { title: 'Både pension og forsikring', desc: 'Vil du mere, kan du også booke møder for forsikringsmæglere – to områder, der naturligt hænger sammen.' },
     ],
@@ -140,7 +140,7 @@ export default {
       { question: 'Hvad går jobbet som mødebooker inden for pension ud på?', answer: 'Du kontakter private og erhvervskunder og booker uforpligtende pensionsgennemgange med en erfaren pensionsrådgiver. Du arbejder ud fra ringelister og scripts, som vi leverer.' },
       { question: 'Skal jeg have en finansiel baggrund for at få et job inden for pension?', answer: 'Nej. Du skal booke møder, ikke rådgive. Pensionsrådgiveren tager det faglige, og du får produkttræning, så du trygt kan tale om pension.' },
       { question: 'Kan jeg arbejde med pension 100% hjemmefra?', answer: 'Ja. Hele jobbet foregår hjemmefra og over telefon. Du behøver kun en telefon, en computer og stabilt internet – og du kan bo hvor som helst i Danmark.' },
-      { question: 'Hvordan er lønnen?', answer: 'Du får et fast grundhonorar plus provision på bookede møder og lukkede aftaler. Pension er et højværdiprodukt, hvilket afspejles i provisionen. Den præcise model aftaler vi med dig inden opstart.' },
+      { question: 'Hvordan er lønnen?', answer: 'Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast løn eller grundhonorar. Pension er et højværdiprodukt, hvilket afspejles i provisionen. Den præcise model aftaler vi med dig inden opstart.' },
       { question: 'Er pension et følsomt emne at ringe om?', answer: 'Pension handler om vigtige livsvalg, men de fleste sætter pris på tilbuddet om en gratis gennemgang. Du får gennemprøvede scripts og coaching, så samtalen bliver tryg og professionel.' },
       { question: 'Skal jeg selv finde kunderne?', answer: 'Nej. Magnora Marketing leverer ringelister, kampagnemateriale, scripts og CRM-adgang, så du kan starte med det samme.' },
       { question: 'Kan jeg have jobbet som bijob eller deltidsjob?', answer: 'Ja. Du bestemmer selv dine arbejdstider, og mange bruger jobbet som en fleksibel biindtægt ved siden af studie, familie eller andet arbejde.' },
@@ -153,7 +153,7 @@ export default {
   },
   finalCta: {
     title: 'Klar til et meningsfuldt job inden for pension?',
-    text: 'Book pensionsmøder for erfarne rådgivere 100% hjemmefra, sæt dine egne tider og bliv belønnet med grundhonorar og provision. Ansøgningen er kort og helt uforpligtende.',
+    text: 'Book pensionsmøder for erfarne rådgivere 100% hjemmefra, sæt dine egne tider og bliv afregnet efter resultat med provision. Ansøgningen er kort og helt uforpligtende.',
     cta: 'Søg nu',
     secondaryCta: 'Se alle ledige stillinger',
   },

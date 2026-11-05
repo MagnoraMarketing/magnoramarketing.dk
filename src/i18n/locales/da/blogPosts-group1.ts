@@ -181,7 +181,7 @@ export default {
       {
         heading: 'Frihed, fleksibilitet og attraktiv løn',
         body: [
-          'Jobbet som AI-konsulent foregår 100% hjemmefra med fleksible arbejdstider. Du får en tryg fast grundløn kombineret med provision uden loft, så din indsats afgør din indtjening. Det gør det til et af de mest attraktive og fremtidssikrede hjemmejob i Danmark lige nu – uanset om du søger fuldtid eller en biindtægt.',
+          'Jobbet som AI-konsulent foregår 100% hjemmefra med fleksible arbejdstider. Du er freelancer og afregnes efter resultat med provision uden loft, så din indsats afgør din indtjening. Det gør det til et af de mest attraktive og fremtidssikrede hjemmejob i Danmark lige nu – uanset om du søger fuldtid eller en biindtægt.',
         ],
       },
       {
@@ -202,7 +202,7 @@ export default {
       },
       {
         question: 'Hvordan er lønnen som AI-konsulent?',
-        answer: 'Du får en fast grundløn kombineret med provision uden loft pr. booket møde. Din indsats afgør, hvor meget du kan tjene.',
+        answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde. Din indsats afgør, hvor meget du kan tjene.',
       },
       {
         question: 'Hvordan søger jeg jobbet som AI-konsulent?',

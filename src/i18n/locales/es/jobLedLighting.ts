@@ -47,7 +47,7 @@ export default {
     heading: 'Lo que obtienes en Magnora Marketing',
     items: [
       { title: 'Trabaja desde casa', desc: 'Total libertad para trabajar desde tu propia casa. Sin desplazamientos – solo teléfono, ordenador y determinación.' },
-      { title: 'Comisión atractiva', desc: 'Retribución base fija más comisión por cada venta. Cuantos más acuerdos cierres, más ganas.' },
+      { title: 'Comisión atractiva', desc: 'Comisión por cada venta: trabajas como freelance y cobras según resultados. Cuantos más acuerdos cierres, más ganas.' },
       { title: 'Formación y materiales', desc: 'Te formamos en los productos y en los argumentos de ahorro. Recibes guiones, plantillas de presupuesto y acompañamiento continuo.' },
     ],
   },
@@ -71,7 +71,7 @@ export default {
     { question: '¿Qué vendo como reservador de reuniones en LED?', answer: 'Contactas con clientes empresariales y reservas reuniones sobre soluciones de iluminación energéticamente eficientes de un proveedor de LED reconocido.' },
     { question: '¿Necesito conocimientos técnicos sobre LED?', answer: 'No – Magnora Marketing te da todo el conocimiento del producto que necesitas. Lo más importante son tus habilidades de venta y tu motivación.' },
     { question: '¿Cuál es el público objetivo?', answer: 'Principalmente clientes empresariales como oficinas, empresas de producción y comercio minorista – cualquiera que pueda ahorrar significativamente en su factura energética con iluminación LED.' },
-    { question: '¿Cuál es el nivel de comisión?', answer: 'Recibes una retribución base fija más comisión por cada reunión reservada que se lleve a cabo.' },
+    { question: '¿Cuál es el nivel de comisión?', answer: 'Trabajas como freelance y recibes comisión por cada reunión reservada que se lleve a cabo: cobras según resultados.' },
     { question: '¿Hay listas de contactos listas desde el primer día?', answer: 'Sí – Magnora Marketing proporciona listas de contactos y materiales de campaña para que puedas empezar de inmediato.' },
     { question: '¿Puedo ver un ejemplo de guion?', answer: 'Sí – recibes un guion de ventas probado al empezar, que puedes adaptar a tu propio estilo.' },
     { question: '¿Qué ocurre tras una venta o una reunión reservada con éxito?', answer: 'Registras el resultado en nuestro sistema y la comisión se calcula automáticamente y se paga mensualmente.' },

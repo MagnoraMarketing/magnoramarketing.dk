@@ -30,7 +30,7 @@ export default {
     cards: [
       { title: 'Future-proof industry', desc: 'AI is the fastest-growing technology ever. As an AI consultant, you stand at the forefront of an industry that only keeps growing.' },
       { title: 'Full freedom', desc: 'Work 100% from home and set your own terms. No commuting, no fixed meeting times – only results.' },
-      { title: 'Attractive salary', desc: 'A fixed base fee plus uncapped commission. Your effort and results determine your earnings.' },
+      { title: 'Attractive salary', desc: 'You work freelance and are paid on results, with uncapped commission. Your effort and results determine your earnings.' },
     ],
   },
   whatDoes: {
@@ -56,10 +56,10 @@ export default {
     earnings: {
       label: 'Your earnings',
       value: 'No cap',
-      sub: 'Base salary + commission per booked meeting',
+      sub: 'Commission per qualified meeting – paid on results',
       rows: [
         'Growing market with high demand',
-        'Secure fixed base salary as your foundation',
+        'Freelance with full freedom over your time',
         'Bonus for the top-performing consultants',
       ],
       cta: 'Send your inquiry',
@@ -105,10 +105,10 @@ export default {
   seoBlock1: {
     title: 'AI consultant job – help companies decide on AI solutions',
     p1: 'Artificial intelligence has become a permanent part of the modern business world, and Danish companies face an important choice: use AI to streamline their work – or risk being overtaken by competitors? As an AI consultant at Magnora Marketing, you play a central role. You contact companies, give them concrete insight into what AI solutions can do for them, and help them decide on a technology they can\'t ignore. At the same time, you help them save time by automating time-consuming, manual tasks.',
-    p2: 'The AI consultant role is ideal for someone who is curious about technology, good with people, and motivated to deliver results. You work 100% from home with flexible hours, a secure fixed base salary, and uncapped commission. You need no prior AI experience – we give you all the training you need to understand the solutions and communicate their value. All you need is a phone, a computer, and the drive to be at the forefront of one of the biggest technological revolutions of our time.',
+    p2: 'The AI consultant role is ideal for someone who is curious about technology, good with people, and motivated to deliver results. You work 100% from home with flexible hours and, as a freelancer, are paid on results with uncapped commission. You need no prior AI experience – we give you all the training you need to understand the solutions and communicate their value. All you need is a phone, a computer, and the drive to be at the forefront of one of the biggest technological revolutions of our time.',
     list: [
       '100% remote – work whenever and wherever you want',
-      'Attractive salary: fixed base fee + uncapped commission',
+      'Freelance: paid on results with uncapped commission',
       'Future-proof industry with enormous demand',
       'Thorough training in AI solutions and sales – no prior knowledge required',
       'Meaningful work: you help companies save time',
@@ -132,7 +132,7 @@ export default {
       { question: 'Do I need to be an AI expert to apply?', answer: 'No. You need no technical background or prior knowledge of AI. We give you thorough training in both the AI solutions and the sales process, so you\'re ready to deliver results. Curiosity and good communication skills matter more than technical knowledge.' },
       { question: 'Can I work as an AI consultant from home?', answer: 'Yes – the job is 100% remote. All you need is a phone, a computer, and a stable internet connection. No commuting and no fixed attendance.' },
       { question: 'Which AI solutions will I represent?', answer: 'You represent Magnora Marketing\'s AI solutions, including AI integration, AI chat widget, and AI reception, which help companies automate customer service, booking, and other time-consuming tasks.' },
-      { question: 'What is the salary for an AI consultant?', answer: 'You receive a fixed base salary combined with uncapped commission per booked meeting. We agree on the exact model with you before you start – but your effort determines how much you can earn.' },
+      { question: 'What is the salary for an AI consultant?', answer: 'You work freelance and are paid on results, with uncapped commission per qualified meeting – there is no fixed salary or base fee. We agree on the exact model with you before you start – but your effort determines how much you can earn.' },
       { question: 'Can I do the job alongside studies or other work?', answer: 'Yes – many of our consultants work flexibly and use the job as an attractive side income alongside studies, family, or other work.' },
       { question: 'How quickly can I get started?', answer: 'After a short introductory chat and onboarding with AI and sales training, most people are ready to contact companies within a few days.' },
       { question: 'How do I apply for the AI consultant job?', answer: 'Fill out the inquiry form here on the page – no lengthy application needed. We get back to you within one business day.' },

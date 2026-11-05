@@ -30,7 +30,7 @@ export default {
     cards: [
       { title: 'Fremtidssikret branche', desc: 'AI er den hurtigst voksende teknologi nogensinde. Som AI-konsulent står du forrest i en branche, der kun bliver større.' },
       { title: 'Fuld frihed', desc: 'Arbejd 100% hjemmefra og sæt selv dine rammer. Ingen pendling, ingen faste mødetider – kun resultater.' },
-      { title: 'Attraktiv løn', desc: 'Fast grundhonorar plus provision uden loft. Din indsats og dine resultater afgør din indtjening.' },
+      { title: 'Attraktiv løn', desc: 'Du er freelancer og afregnes efter resultat med provision uden loft. Din indsats og dine resultater afgør din indtjening.' },
     ],
   },
   whatDoes: {
@@ -56,10 +56,10 @@ export default {
     earnings: {
       label: 'Din indtjening',
       value: 'Uden loft',
-      sub: 'Grundløn + provision pr. booket møde',
+      sub: 'Provision pr. kvalificeret møde – afregning efter resultat',
       rows: [
         'Voksende marked med høj efterspørgsel',
-        'Tryg fast grundløn i bunden',
+        'Freelance med fuld frihed over din tid',
         'Bonus til de dygtigste konsulenter',
       ],
       cta: 'Send din henvendelse',
@@ -105,10 +105,10 @@ export default {
   seoBlock1: {
     title: 'AI-konsulent job – hjælp virksomheder med at tage stilling til AI-løsninger',
     p1: 'Kunstig intelligens er blevet en fast del af den moderne forretningsverden, og danske virksomheder står over for et vigtigt valg: Skal de udnytte AI til at effektivisere deres arbejde – eller risikere at blive overhalet af konkurrenterne? Som AI-konsulent hos Magnora Marketing spiller du en central rolle. Du kontakter virksomheder, giver dem et konkret indblik i, hvad AI-løsninger kan gøre for dem, og hjælper dem med at tage stilling til en teknologi, de ikke kan ignorere. Samtidig hjælper du dem med at spare tid ved at automatisere tidskrævende og manuelle opgaver.',
-    p2: 'Jobbet som AI-konsulent er ideelt for dig, der er nysgerrig på teknologi, god til mennesker og motiveret af at skabe resultater. Du arbejder 100% hjemmefra med fleksible arbejdstider, en tryg fast grundløn og provision uden loft. Du behøver ingen forudgående erfaring med AI – vi giver dig al den træning, du skal bruge for at forstå løsningerne og formidle deres værdi. Alt du skal bruge er en telefon, en computer og lysten til at være med i front af en af tidens største teknologiske revolutioner.',
+    p2: 'Jobbet som AI-konsulent er ideelt for dig, der er nysgerrig på teknologi, god til mennesker og motiveret af at skabe resultater. Du arbejder 100% hjemmefra med fleksible arbejdstider og afregnes som freelancer efter resultat med provision uden loft. Du behøver ingen forudgående erfaring med AI – vi giver dig al den træning, du skal bruge for at forstå løsningerne og formidle deres værdi. Alt du skal bruge er en telefon, en computer og lysten til at være med i front af en af tidens største teknologiske revolutioner.',
     list: [
       '100% hjemmefra – arbejd hvornår og hvorfra du vil',
-      'Attraktiv løn: fast grundhonorar + provision uden loft',
+      'Freelance: afregning efter resultat med provision uden loft',
       'Fremtidssikret branche med enorm efterspørgsel',
       'Grundig oplæring i AI-løsninger og salg – ingen forhåndsviden krævet',
       'Meningsfuldt arbejde: du hjælper virksomheder med at spare tid',
@@ -132,7 +132,7 @@ export default {
       { question: 'Skal jeg være AI-ekspert for at søge?', answer: 'Nej. Du behøver ingen teknisk baggrund eller forhåndsviden om AI. Vi giver dig grundig træning i både AI-løsningerne og salgsprocessen, så du er klar til at skabe resultater. Nysgerrighed og gode kommunikationsevner er vigtigere end teknisk viden.' },
       { question: 'Kan jeg arbejde som AI-konsulent hjemmefra?', answer: 'Ja – jobbet foregår 100% hjemmefra. Du skal blot bruge en telefon, en computer og stabilt internet. Ingen pendling og ingen fast fremmøde.' },
       { question: 'Hvilke AI-løsninger kommer jeg til at repræsentere?', answer: 'Du repræsenterer Magnora Marketings AI-løsninger, herunder AI-integration, AI-chatwidget og AI-reception, der hjælper virksomheder med at automatisere kundeservice, booking og andre tidskrævende opgaver.' },
-      { question: 'Hvad er lønnen som AI-konsulent?', answer: 'Du får en fast grundløn kombineret med provision uden loft pr. booket møde. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
+      { question: 'Hvad er lønnen som AI-konsulent?', answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde – der er ingen fast løn eller grundhonorar. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
       { question: 'Kan jeg have jobbet ved siden af studie eller andet arbejde?', answer: 'Ja – mange af vores konsulenter arbejder fleksibelt og bruger jobbet som en attraktiv biindtægt ved siden af studie, familie eller andet arbejde.' },
       { question: 'Hvor hurtigt kan jeg komme i gang?', answer: 'Efter en kort afklaringssnak og onboarding med AI- og salgstræning kan de fleste være klar til at kontakte virksomheder inden for få dage.' },
       { question: 'Hvordan søger jeg jobbet som AI-konsulent?', answer: 'Udfyld henvendelsesformularen her på siden – ingen lang ansøgning nødvendig. Vi vender tilbage inden for én hverdag.' },

@@ -125,7 +125,7 @@ export default {
   freelanceBenefits: {
     items: [
       'Selvbestemte arbejdstider og hjemmekontor',
-      'Konkurrencedygtig grundløn og resultatbonus',
+      'Attraktiv provision og resultatbonus – afregning efter resultat',
       'Solid oplæring og løbende faglig sparring',
       'Tæt support fra erfarne salgsledere',
       'Moderne digitale arbejdsværktøjer',

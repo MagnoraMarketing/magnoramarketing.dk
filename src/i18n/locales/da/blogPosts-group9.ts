@@ -242,7 +242,7 @@ export default {
       {
         "heading": "Hvad kan du tjene som mødebooker for forsikring?",
         "body": [
-          "Hos Magnora Marketing får du en fast grundløn kombineret med provision pr. kvalificeret møde – uden loft. Den præcise model aftaler vi med dig inden opstart, men princippet er enkelt: Jo flere gode møder du booker, jo mere tjener du. Provisionen udbetales månedligt og er baseret på dine verificerede møder."
+          "Hos Magnora Marketing er du freelancer og afregnes efter resultat med provision pr. kvalificeret møde – uden loft. Der er ingen fast løn. Den præcise model aftaler vi med dig inden opstart, men princippet er enkelt: Jo flere gode møder du booker, jo mere tjener du. Provisionen udbetales månedligt og er baseret på dine verificerede møder."
         ]
       },
       {
@@ -279,7 +279,7 @@ export default {
       },
       {
         "question": "Hvad er lønnen som mødebooker for forsikring?",
-        "answer": "Du får en fast grundløn plus provision pr. kvalificeret møde uden loft. Den præcise model aftales inden opstart."
+        "answer": "Du er freelancer og afregnes efter resultat med provision pr. kvalificeret møde uden loft – der er ingen fast løn. Den præcise model aftales inden opstart."
       },
       {
         "question": "Kan jeg arbejde med både forsikring og pension?",
@@ -288,7 +288,7 @@ export default {
     ],
     "jobCta": {
       "heading": "Vi søger mødebookere til forsikring lige nu",
-      "body": "Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere med fast grundløn, provision uden loft og fleksible tider. Ansøgningen tager få minutter og er helt uforpligtende.",
+      "body": "Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere som freelancer med provision uden loft, afregning efter resultat og fleksible tider. Ansøgningen tager få minutter og er helt uforpligtende.",
       "linkText": "Se jobbet i forsikring og søg"
     },
     "ctaTitle": "Klar til at arbejde med forsikring og pension hjemmefra?",
@@ -339,7 +339,7 @@ export default {
       {
         "heading": "Løn og vilkår i et job inden for pension",
         "body": [
-          "Du får et fast grundhonorar plus provision på bookede møder og lukkede aftaler. Fordi pension er et højværdiprodukt, er hvert kvalificeret møde meget værd. Provisionen udbetales månedligt, samarbejdet formaliseres i en skriftlig freelanceaftale, og de første 2–4 uger er en gensidig prøveperiode."
+          "Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast løn. Fordi pension er et højværdiprodukt, er hvert kvalificeret møde meget værd. Provisionen udbetales månedligt, samarbejdet formaliseres i en skriftlig freelanceaftale, og de første 2–4 uger er en gensidig prøveperiode."
         ]
       },
       {
@@ -366,7 +366,7 @@ export default {
       },
       {
         "question": "Hvad tjener man som mødebooker inden for pension?",
-        "answer": "Du får et fast grundhonorar plus provision på bookede møder og lukkede aftaler. Den præcise model aftales inden opstart."
+        "answer": "Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast løn. Den præcise model aftales inden opstart."
       },
       {
         "question": "Kan jeg også booke møder om forsikring?",
@@ -375,7 +375,7 @@ export default {
     ],
     "jobCta": {
       "heading": "Vi søger mødebookere til pension lige nu",
-      "body": "Book pensionsmøder for erfarne pensionsrådgivere 100% hjemmefra med fast grundhonorar, provision og fleksible tider. Ingen finansiel baggrund krævet – ansøgningen er kort og uforpligtende.",
+      "body": "Book pensionsmøder for erfarne pensionsrådgivere 100% hjemmefra som freelancer med provision, afregning efter resultat og fleksible tider. Ingen finansiel baggrund krævet – ansøgningen er kort og uforpligtende.",
       "linkText": "Se jobbet inden for pension og søg"
     },
     "ctaTitle": "Klar til at arbejde med pension og forsikring hjemmefra?",

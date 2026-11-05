@@ -15,7 +15,7 @@ export default {
     subtitle: 'Magnora Marketing offers something rare: the freedom of freelancing combined with a strong professional foundation.',
     items: [
       { title: 'Flexible everyday life', description: 'You decide when you work. Fit your working day around your life – not the other way around.' },
-      { title: 'Strong earnings', description: 'Competitive base pay combined with attractive performance bonuses. The better you perform, the more you earn.' },
+      { title: 'Strong earnings', description: 'Attractive commission and performance bonuses – you are paid on results. The better you perform, the more you earn.' },
       { title: 'Strong community', description: "Even as a freelancer you're never alone. You're part of a strong Magnora Marketing network with support and shared drive." },
       { title: 'Professional development', description: 'Structured training, ongoing coaching and the opportunity to take on more responsibility and advance in the role.' },
     ],
@@ -27,13 +27,13 @@ export default {
     benefits: [
       { title: 'Home office', description: 'Work efficiently from your own home with all the necessary digital tools. No commute time, no expensive lunches.' },
       { title: 'Your own hours', description: 'Arrange your day the way that suits you – ideal for students, parents and anyone with an active life alongside work.' },
-      { title: 'Performance-driven pay', description: 'Fixed base salary plus commission. Your results are reflected directly in your paycheck.' },
+      { title: 'Performance-driven pay', description: 'You work freelance and are paid on results with commission. Your results are reflected directly in your payout.' },
     ],
     checklist: [
       'No transport or commuting',
       'Better work-life balance',
       'Full flexibility in organising your work',
-      'Commission and bonus on top of the base salary',
+      'Commission and bonus – paid on results',
       "Part of Magnora Marketing's strong sales community",
       'Thorough onboarding and ongoing support',
       'Professional and personal development',
@@ -59,7 +59,7 @@ export default {
       list: [
         'Work from home with full flexibility over your working day',
         'Thorough onboarding and ongoing professional support',
-        'Competitive base pay plus performance bonus',
+        'Attractive commission plus performance bonus',
         'A wide range of products and industries to choose from',
       ],
     },
@@ -71,7 +71,7 @@ export default {
   },
   faq: {
     items: [
-      { question: 'What does a freelance salesperson earn at Magnora Marketing?', answer: 'Pay consists of a fixed base fee plus commission on your results. The more you sell, the more you earn – there is no cap.' },
+      { question: 'What does a freelance salesperson earn at Magnora Marketing?', answer: 'As a freelancer you are paid on results with commission – there is no fixed salary or base fee. The more you sell, the more you earn – there is no cap.' },
       { question: 'Do I need experience to apply?', answer: 'Experience is an advantage but not a requirement. Magnora Marketing trains you thoroughly and provides ongoing support and coaching.' },
       { question: 'Can I work part-time?', answer: 'Yes – you decide your own working hours and can work anywhere from a few hours a week to full-time.' },
       { question: 'What happens if I have questions while working?', answer: "You always have access to support from Magnora Marketing's experienced sales managers, who can help with coaching, scripts and product questions." },

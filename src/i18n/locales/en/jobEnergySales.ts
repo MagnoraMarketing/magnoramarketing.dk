@@ -46,7 +46,7 @@ export default {
     heading: 'What you get at Magnora Marketing',
     items: [
       { title: 'Work from home', desc: 'Sell from your own home with no commuting or fixed meeting times. All you need is a phone and a computer.' },
-      { title: 'Commission on every sale', desc: 'Base fee plus commission per closed deal. Energy sales deliver frequent sales and stable income.' },
+      { title: 'Commission on every sale', desc: 'Commission per closed deal – you work freelance and are paid on results. Energy sales deliver frequent sales and ongoing commission.' },
       { title: 'Flexible hours', desc: 'Arrange your sales day however you like. Perfect alongside studies, family or other work.' },
     ],
   },

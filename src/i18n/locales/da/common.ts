@@ -131,11 +131,11 @@ export default {
   jobSchema: {
     breadcrumbHome: 'Forside',
     breadcrumbJobs: 'Ledige job',
-    body: 'Du arbejder som freelance mødebooker for Magnora Marketing, 100% hjemmefra og med fleksible arbejdstider. Du ringer til relevante kontakter fra vores ringelister og booker kvalificerede møder for vores samarbejdspartnere – du skal ikke selv sælge eller rådgive.',
+    body: 'Du arbejder som freelance mødebooker for Magnora Marketing, 100% hjemmefra og med fleksible arbejdstider. Du ringer til relevante kontakter fra vores ringelister og booker kvalificerede møder for vores samarbejdspartnere – du skal ikke selv sælge eller rådgive. Du er freelancer og afregnes efter resultat – der er ingen fast løn eller grundhonorar.',
     benefits: [
       'Arbejd 100% hjemmefra – i hele Danmark',
       'Fleksible arbejdstider – fuldtid eller deltid',
-      'Fast grundhonorar plus provision pr. kvalificeret møde',
+      'Provision pr. kvalificeret møde – afregning efter resultat',
       'Ringelister, scripts og CRM leveres',
       'Grundig oplæring og løbende sparring',
     ],

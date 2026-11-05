@@ -47,7 +47,7 @@ export default {
     heading: 'What you get at Magnora Marketing',
     items: [
       { title: 'Work from home', desc: 'Full freedom to work from your own home. No commuting – just a phone, a computer and drive.' },
-      { title: 'Strong commission', desc: 'Fixed base pay plus commission on every sale. The more deals you close, the more you earn.' },
+      { title: 'Strong commission', desc: 'Commission on every sale – you work freelance and are paid on results. The more deals you close, the more you earn.' },
       { title: 'Training and materials', desc: 'We train you in the products and the savings arguments. You get scripts, quote templates and ongoing coaching.' },
     ],
   },
@@ -71,7 +71,7 @@ export default {
     { question: 'What do I sell as a meeting booker within LED?', answer: 'You contact business customers and book meetings about energy-efficient lighting solutions from a recognized LED supplier.' },
     { question: 'Do I need knowledge of LED technology?', answer: "No – Magnora Marketing gives you all the product knowledge you need. What matters most is your sales skills and motivation." },
     { question: 'Who is the target audience?', answer: 'Primarily business customers such as offices, manufacturing companies and retail – anyone who can save significantly on their energy bill with LED lighting.' },
-    { question: 'What is the commission level?', answer: 'You receive a fixed base pay plus commission per booked meeting that takes place.' },
+    { question: 'What is the commission level?', answer: 'You work freelance and receive commission per booked meeting that takes place – you are paid on results.' },
     { question: 'Are call lists ready from day one?', answer: 'Yes – Magnora Marketing provides call lists and campaign materials so you can start right away.' },
     { question: 'Can I see an example of a script?', answer: 'Yes – you receive a proven sales script at the start, which you can adapt to your own style.' },
     { question: 'What happens after a successful sale or booked meeting?', answer: 'You log the result in our system, and the commission is calculated automatically and paid out monthly.' },

@@ -11,14 +11,14 @@ export default {
   },
   hero: {
     title: 'Freelance sales rep in pensions – book pension meetings from home',
-    subtitle: 'Help people get their pension in order. You book free, no-obligation pension reviews for experienced pension advisers – from home, with flexible hours, a fixed base fee and commission. No financial background required.',
+    subtitle: 'Help people get their pension in order. You book free, no-obligation pension reviews for experienced pension advisers – from home, with flexible hours and commission – you work freelance and are paid on results. No financial background required.',
     cta: 'Apply – no obligation',
     secondaryCta: 'See all open positions',
   },
   statBand: {
     items: [
       { stat: '100%', label: 'From home' },
-      { stat: 'Base fee', label: '+ commission' },
+      { stat: 'Commission', label: 'Paid on results' },
       { stat: 'Flexible', label: 'Working hours' },
       { stat: '2 days', label: 'To hear back on your application' },
     ],
@@ -28,7 +28,7 @@ export default {
     title: 'A meaningful job in pensions – without being a pension adviser',
     text: 'Many Danes have never had their pension reviewed – and do not know whether they are saving the right way, paying too much in fees or are covered in case of illness. As a pension meeting booker at Magnora Marketing, you contact private individuals and businesses and book a no-obligation pension review with an experienced pension adviser. You do not give advice yourself – you open the door to it.',
     cards: [
-      { title: 'Base fee + commission', desc: 'A fixed base fee plus commission on booked meetings and closed deals. Pensions are a high-value product, and you will notice it in your commission.' },
+      { title: 'Commission on results', desc: 'You work freelance and earn commission on booked meetings and closed deals. Pensions are a high-value product, and you will notice it in your commission.' },
       { title: '100% from home', desc: 'Work from home, a summer house or abroad. No commute and no fixed meeting times – you structure your own day.' },
       { title: 'No financial background', desc: 'You book the meetings – the pension adviser handles the expertise. We give you product training and proven scripts from day one.' },
     ],
@@ -36,20 +36,20 @@ export default {
   salary: {
     badge: 'Pay & commission',
     title: 'Pay in a pension job: security and high value per meeting',
-    text: 'Pension agreements have a high average value for our partners – which is why a qualified pension meeting is also worth a lot to you. You get a fixed base fee plus commission on top, so a large part of your earnings depends on your own effort.',
+    text: 'Pension agreements have a high average value for our partners – which is why a qualified pension meeting is also worth a lot to you. As a freelancer you are paid on results with commission, so your earnings depend on your own effort.',
     list: [
-      'Fixed base fee from the start',
+      'Freelance – you are paid on results',
       'Commission on booked meetings and closed deals',
       'High value per meeting, because pensions are a high-value product',
       'Monthly, transparent payouts',
     ],
     earnings: {
       label: 'Your earnings',
-      value: 'Base fee + commission',
+      value: 'Commission',
       sub: 'The more qualified pension meetings, the more you earn',
       rows: [
         'Commission is calculated automatically in our system',
-        'A secure fixed base fee underneath',
+        'Paid on results – no cap',
         'Written freelance agreement with clear terms',
       ],
       cta: 'Learn more about the pay',
@@ -89,10 +89,10 @@ export default {
   seoBlock1: {
     title: 'A remote job in pensions – meaningful work with good earnings',
     p1: 'Looking for a job in pensions but not trained as a pension adviser? Then the meeting booker job at Magnora Marketing is an obvious way into the pension industry. You work 100% from home and contact private and business customers with an offer of a free, no-obligation review of their pension scheme. When the customer says yes, you book the meeting in the calendar of an experienced pension adviser, who takes care of the professional advice.',
-    p2: 'Pensions are among the most important financial topics in a person’s life, and yet many Danes have never had an overview of their savings, fees and insurance cover. That makes your work both in demand and meaningful. You get a fixed base fee plus commission, flexible hours and everything you need: call lists, scripts, CRM and ongoing coaching. It is one of the most attractive remote pension jobs in Denmark – whether you are looking for full-time work, part-time work or a side job.',
+    p2: 'Pensions are among the most important financial topics in a person’s life, and yet many Danes have never had an overview of their savings, fees and insurance cover. That makes your work both in demand and meaningful. You work freelance, are paid on results with commission and get flexible hours and everything you need: call lists, scripts, CRM and ongoing coaching. It is one of the most attractive remote pension jobs in Denmark – whether you are looking for full-time work, part-time work or a side job.',
     list: [
       'A job in pensions – 100% from home anywhere in Denmark',
-      'Fixed base fee + commission on meetings and deals',
+      'Freelance: commission on meetings and deals – paid on results',
       'No financial background needed – you get thorough training',
       'Call lists, scripts and CRM provided from day one',
       'Flexible hours – full-time, part-time or a side job',
@@ -124,7 +124,7 @@ export default {
     text: 'As a pension meeting booker, you learn how pensions, savings and insurance cover work in practice – and you build strong communication and sales skills. It is a solid entry into the pension and finance industry and a job where you help people with one of the most important decisions of their lives.',
     cards: [
       { title: 'Pension know-how', desc: 'You get to know the pension industry’s terms and products through product training and daily conversations.' },
-      { title: 'Earnings based on effort', desc: 'A base fee plus commission means your results show directly in your payout.' },
+      { title: 'Earnings based on effort', desc: 'You are paid on results, so your results show directly in your payout.' },
       { title: 'Meaningful work', desc: 'You help people get an overview of their finances and a more secure retirement.' },
       { title: 'Both pensions and insurance', desc: 'If you want more, you can also book meetings for insurance brokers – two areas that naturally go together.' },
     ],
@@ -140,7 +140,7 @@ export default {
       { question: 'What does the pension meeting booker job involve?', answer: 'You contact private and business customers and book no-obligation pension reviews with an experienced pension adviser. You work from call lists and scripts that we provide.' },
       { question: 'Do I need a financial background to get a job in pensions?', answer: 'No. You book meetings, you do not give advice. The pension adviser handles the expertise, and you get product training so you can talk about pensions with confidence.' },
       { question: 'Can I work with pensions 100% from home?', answer: 'Yes. The whole job is done from home and by phone. All you need is a phone, a computer and a stable internet connection – and you can live anywhere in Denmark.' },
-      { question: 'What is the pay?', answer: 'You get a fixed base fee plus commission on booked meetings and closed deals. Pensions are a high-value product, which is reflected in the commission. We agree on the exact model with you before you start.' },
+      { question: 'What is the pay?', answer: 'You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed salary or base fee. Pensions are a high-value product, which is reflected in the commission. We agree on the exact model with you before you start.' },
       { question: 'Is pension a sensitive topic to call about?', answer: 'Pensions concern important life choices, but most people appreciate the offer of a free review. You get proven scripts and coaching, so the conversation feels safe and professional.' },
       { question: 'Do I have to find the customers myself?', answer: 'No. Magnora Marketing provides call lists, campaign material, scripts and CRM access, so you can start right away.' },
       { question: 'Can I do the job as a side job or part-time?', answer: 'Yes. You set your own hours, and many use the job as a flexible extra income alongside studies, family or another job.' },
@@ -153,7 +153,7 @@ export default {
   },
   finalCta: {
     title: 'Ready for a meaningful job in pensions?',
-    text: 'Book pension meetings for experienced advisers 100% from home, set your own hours and be rewarded with a base fee and commission. The application is short and completely non-binding.',
+    text: 'Book pension meetings for experienced advisers 100% from home, set your own hours and be paid on results with commission. The application is short and completely non-binding.',
     cta: 'Apply now',
     secondaryCta: 'See all open positions',
   },

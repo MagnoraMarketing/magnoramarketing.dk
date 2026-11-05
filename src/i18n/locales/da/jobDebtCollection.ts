@@ -46,7 +46,7 @@ export default {
     heading: 'Hvad du får hos Magnora Marketing',
     items: [
       { title: 'Arbejd hjemmefra', desc: 'Sælg fra dit eget hjem med fuld frihed. Ingen pendling, ingen faste kontortider.' },
-      { title: 'Attraktiv provision', desc: 'Grundhonorar plus provision per bookede møde og lukket aftale. B2B-inkasso giver høj provision pr. kontrakt.' },
+      { title: 'Attraktiv provision', desc: 'Provision pr. booket møde og lukket aftale – du er freelancer og afregnes efter resultat. B2B-inkasso giver høj provision pr. kontrakt.' },
       { title: 'Fleksible tider', desc: 'Du bestemmer selv din salgsdag. Erhvervskunder kontaktes typisk i dagtimerne – resten af tiden er din.' },
     ],
   },

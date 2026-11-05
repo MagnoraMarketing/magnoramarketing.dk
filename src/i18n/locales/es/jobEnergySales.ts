@@ -46,7 +46,7 @@ export default {
     heading: 'Lo que obtienes en Magnora Marketing',
     items: [
       { title: 'Trabaja desde casa', desc: 'Vende desde tu propia casa sin desplazamientos ni horarios fijos de reuniones. Solo necesitas un teléfono y un ordenador.' },
-      { title: 'Comisión en cada venta', desc: 'Honorario base más comisión por acuerdo cerrado. La venta de energía genera ventas frecuentes e ingresos estables.' },
+      { title: 'Comisión en cada venta', desc: 'Comisión por acuerdo cerrado: trabajas como freelance y cobras según resultados. La venta de energía genera ventas frecuentes y comisiones continuas.' },
       { title: 'Horarios flexibles', desc: 'Organiza tu jornada de ventas como prefieras. Ideal para compaginar con estudios, familia u otro trabajo.' },
     ],
   },

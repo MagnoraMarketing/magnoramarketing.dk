@@ -46,7 +46,7 @@ export default {
     heading: 'Lo que obtienes en Magnora Marketing',
     items: [
       { title: 'Trabaja desde casa', desc: 'Todo lo que necesitas es un teléfono y un ordenador. Trabajas con tranquilidad desde casa con total flexibilidad.' },
-      { title: 'Comisión atractiva', desc: 'Retribución base más comisión. Los paneles solares son un producto de alto valor, y tu comisión lo refleja.' },
+      { title: 'Comisión atractiva', desc: 'Comisión según resultados: trabajas como freelance. Los paneles solares son un producto de alto valor, y tu comisión lo refleja.' },
       { title: 'Horario flexible', desc: 'Organiza tu jornada de ventas como mejor te convenga. Ideal para estudiantes, padres y quienes compaginan otras actividades.' },
     ],
   },

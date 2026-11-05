@@ -125,7 +125,7 @@ export default {
   freelanceBenefits: {
     items: [
       'Flexible working hours and a home office',
-      'Competitive base pay and performance bonus',
+      'Attractive commission and performance bonus – paid on results',
       'Solid training and ongoing professional support',
       'Close support from experienced sales managers',
       'Modern digital work tools',

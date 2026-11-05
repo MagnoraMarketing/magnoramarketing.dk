@@ -242,7 +242,7 @@ export default {
       {
         "heading": "What can you earn as an insurance meeting booker?",
         "body": [
-          "At Magnora Marketing you get a fixed base salary combined with uncapped commission per qualified meeting. We agree on the exact model with you before you start, but the principle is simple: the more good meetings you book, the more you earn. Commission is paid monthly and based on your verified meetings."
+          "At Magnora Marketing you work freelance and are paid on results, with uncapped commission per qualified meeting. There is no fixed salary. We agree on the exact model with you before you start, but the principle is simple: the more good meetings you book, the more you earn. Commission is paid monthly and based on your verified meetings."
         ]
       },
       {
@@ -279,7 +279,7 @@ export default {
       },
       {
         "question": "What is the pay for an insurance meeting booker?",
-        "answer": "You get a fixed base salary plus uncapped commission per qualified meeting. The exact model is agreed before you start."
+        "answer": "You work freelance and are paid on results, with uncapped commission per qualified meeting – there is no fixed salary. The exact model is agreed before you start."
       },
       {
         "question": "Can I work with both insurance and pensions?",
@@ -288,7 +288,7 @@ export default {
     ],
     "jobCta": {
       "heading": "We are hiring insurance meeting bookers right now",
-      "body": "Work 100% from home for Denmark’s best insurance brokers with a fixed base salary, uncapped commission and flexible hours. The application takes a few minutes and is completely non-binding.",
+      "body": "Work 100% from home for Denmark’s best insurance brokers as a freelancer with uncapped commission, payment on results and flexible hours. The application takes a few minutes and is completely non-binding.",
       "linkText": "See the insurance job and apply"
     },
     "ctaTitle": "Ready to work in insurance and pensions from home?",
@@ -339,7 +339,7 @@ export default {
       {
         "heading": "Pay and terms in a pension job",
         "body": [
-          "You get a fixed base fee plus commission on booked meetings and closed deals. Because pensions are a high-value product, every qualified meeting is worth a lot. Commission is paid monthly, the collaboration is formalised in a written freelance agreement, and the first 2–4 weeks are a mutual trial period."
+          "You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed salary. Because pensions are a high-value product, every qualified meeting is worth a lot. Commission is paid monthly, the collaboration is formalised in a written freelance agreement, and the first 2–4 weeks are a mutual trial period."
         ]
       },
       {
@@ -366,7 +366,7 @@ export default {
       },
       {
         "question": "What does a pension meeting booker earn?",
-        "answer": "You get a fixed base fee plus commission on booked meetings and closed deals. The exact model is agreed before you start."
+        "answer": "You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed salary. The exact model is agreed before you start."
       },
       {
         "question": "Can I also book insurance meetings?",
@@ -375,7 +375,7 @@ export default {
     ],
     "jobCta": {
       "heading": "We are hiring pension meeting bookers right now",
-      "body": "Book pension meetings for experienced pension advisers 100% from home with a fixed base fee, commission and flexible hours. No financial background required – the application is short and non-binding.",
+      "body": "Book pension meetings for experienced pension advisers 100% from home as a freelancer with commission, payment on results and flexible hours. No financial background required – the application is short and non-binding.",
       "linkText": "See the pension job and apply"
     },
     "ctaTitle": "Ready to work in pensions and insurance from home?",
