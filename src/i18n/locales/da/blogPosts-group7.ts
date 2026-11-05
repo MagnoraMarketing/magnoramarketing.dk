@@ -143,7 +143,7 @@ export default {
     },
     jobCta: {
       heading: 'Brænder du for automatisering og AI?',
-      body: 'Vi søger AI-konsulenter, der kan kontakte virksomheder og vise dem, hvordan AI-agenter og automatisering sparer dem tid. 100% hjemmefra, attraktiv løn og fuld frihed.',
+      body: 'Vi søger AI-konsulenter, der kan kontakte virksomheder og vise dem, hvordan AI-agenter og automatisering sparer dem tid. 100% hjemmefra, attraktiv indtjening og fuld frihed.',
       linkText: 'Se AI-konsulent jobbet',
     },
     ctaTitle: 'Vil du automatisere med AI-agenter?',

@@ -104,7 +104,7 @@ export default {
     ],
     jobCtaHeading: 'Vil du introducere virksomheder for AI-kundeservice?',
     jobCtaBody:
-      'Vi søger AI-konsulenter, der kontakter virksomheder og viser dem værdien af AI-chat og AI-reception. 100% hjemmefra, attraktiv løn og fuld frihed over din arbejdsdag.',
+      'Vi søger AI-konsulenter, der kontakter virksomheder og viser dem værdien af AI-chat og AI-reception. 100% hjemmefra, attraktiv indtjening og fuld frihed over din arbejdsdag.',
     jobCtaLinkText: 'Se AI-konsulent jobbet',
     ctaTitle: 'Klar til kundeservice, der aldrig sover?',
     ctaSubtitle: 'Magnora Marketing hjælper din virksomhed med AI-chat og AI-reception, der svarer kunderne døgnet rundt. Book en uforpligtende snak.',
@@ -182,7 +182,7 @@ export default {
     ],
     jobCtaHeading: 'Vis virksomheder værdien af generativ AI',
     jobCtaBody:
-      'Vi søger AI-konsulenter, der kontakter virksomheder og åbner deres øjne for, hvordan generativ AI skaber forretningsværdi. Arbejd hjemmefra med attraktiv løn og fuld frihed.',
+      'Vi søger AI-konsulenter, der kontakter virksomheder og åbner deres øjne for, hvordan generativ AI skaber forretningsværdi. Arbejd hjemmefra med attraktiv indtjening og fuld frihed.',
     jobCtaLinkText: 'Se AI-konsulent jobbet',
     ctaTitle: 'Vil du skabe reel værdi med generativ AI?',
     ctaSubtitle: 'Magnora Marketing hjælper din virksomhed fra tilfældig AI-brug til struktureret værdiskabelse. Book en uforpligtende snak i dag.',

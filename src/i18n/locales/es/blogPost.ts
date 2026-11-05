@@ -18,7 +18,7 @@ export default {
   },
   freelancer: {
     title: 'Conviértete en comercial freelance',
-    body: '¿Eres un buen comercial o concertador de reuniones? Únete a nuestro equipo y disfruta de horarios flexibles y una remuneración atractiva.',
+    body: '¿Eres un buen comercial o concertador de reuniones? Únete a nuestro equipo y disfruta de horarios flexibles y unos ingresos atractivos.',
     workFromHome: 'Trabaja desde casa',
     allPositions: 'Ver todas las vacantes',
   },

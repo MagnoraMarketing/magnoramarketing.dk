@@ -27,7 +27,7 @@ export default {
     benefits: [
       { title: 'Oficina en casa', description: 'Trabaja de forma eficiente desde tu propia casa con todas las herramientas digitales necesarias. Sin tiempo de desplazamiento, sin comidas caras.' },
       { title: 'Tus propios horarios', description: 'Organiza tu día como más te convenga: ideal para estudiantes, padres y madres, y cualquiera con una vida activa fuera del trabajo.' },
-      { title: 'Salario orientado a resultados', description: 'Trabajas como freelance y cobras según resultados con comisión. Tus resultados se reflejan directamente en tu pago.' },
+      { title: 'Ingresos orientados a resultados', description: 'Trabajas como freelance y cobras según resultados con comisión. Tus resultados se reflejan directamente en tu pago.' },
     ],
     checklist: [
       'Sin transporte ni desplazamientos',
@@ -71,7 +71,7 @@ export default {
   },
   faq: {
     items: [
-      { question: '¿Cuánto gana un comercial freelance en Magnora Marketing?', answer: 'Como freelance cobras según resultados con comisión; no hay sueldo fijo ni honorario base. Cuanto más vendas, más ganarás; no hay límite.' },
+      { question: '¿Cuánto gana un comercial freelance en Magnora Marketing?', answer: 'Como freelance cobras según resultados con comisión; no hay ingresos fijos ni honorario base. Cuanto más vendas, más ganarás; no hay límite.' },
       { question: '¿Necesito experiencia para solicitarlo?', answer: 'La experiencia es una ventaja, pero no un requisito. Magnora Marketing te forma a fondo y te ofrece apoyo y coaching continuos.' },
       { question: '¿Puedo trabajar a tiempo parcial?', answer: 'Sí, tú decides tus propios horarios y puedes trabajar desde unas pocas horas a la semana hasta a tiempo completo.' },
       { question: '¿Qué ocurre si tengo dudas durante el trabajo?', answer: 'Siempre tienes acceso al apoyo de los responsables de ventas experimentados de Magnora Marketing, que pueden ayudarte con orientación, guiones y dudas sobre productos.' },
@@ -79,7 +79,7 @@ export default {
       { question: '¿Existe la posibilidad de contratación fija?', answer: 'La colaboración empieza en modalidad freelance. Los freelance con buen desempeño pueden, con el tiempo, hablar con Magnora Marketing sobre otras formas de colaboración.' },
       { question: '¿Qué ocurre durante el periodo de formación?', answer: 'Pasas por un proceso de incorporación con formación de producto, técnica de ventas y revisión de guiones. Suele durar entre 1 y 3 días.' },
       { question: '¿Puedo vender varios productos a la vez?', answer: 'Normalmente empiezas con un producto. Una vez que adquieras práctica, puedes incorporar más productos si lo deseas.' },
-      { question: '¿Cuál es el mínimo que puedo ganar?', answer: 'Depende del nivel de actividad y del producto. Establecemos expectativas realistas al inicio y somos transparentes sobre la retribución.' },
+      { question: '¿Cuál es el mínimo que puedo ganar?', answer: 'Depende del nivel de actividad y del producto. Establecemos expectativas realistas al inicio y somos transparentes sobre los ingresos.' },
       { question: '¿Tenéis una comunidad para freelance?', answer: 'Sí, pasas a formar parte de la red de freelance de Magnora Marketing con acceso a intercambio de experiencias y actividades conjuntas de motivación.' },
       { question: '¿Puedo trabajar desde el extranjero?', answer: 'Sí, siempre que tengas una conexión a internet estable y puedas comunicarte profesionalmente en danés, puedes trabajar desde cualquier parte del mundo.' },
       { question: '¿Qué es lo más importante para tener éxito como freelance en Magnora Marketing?', answer: 'Perseverancia, estructura y una mentalidad positiva. El telemarketing exige saber gestionar los rechazos y mantener la motivación.' },

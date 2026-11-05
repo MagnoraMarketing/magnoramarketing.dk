@@ -18,7 +18,7 @@ export default {
   },
   freelancer: {
     title: 'Bliv freelance sælger',
-    body: 'Er du en dygtig sælger eller mødebooker? Bliv en del af vores team og få fleksible arbejdstider og attraktiv aflønning.',
+    body: 'Er du en dygtig sælger eller mødebooker? Bliv en del af vores team og få fleksible arbejdstider og attraktiv indtjening.',
     workFromHome: 'Arbejd hjemmefra',
     allPositions: 'Se alle stillinger',
   },

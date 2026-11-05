@@ -110,7 +110,7 @@ export default {
     ],
     jobCta: {
       heading: 'Vil du arbejde i krydsfeltet mellem AI og salg?',
-      body: 'Vi søger AI-konsulenter, der kontakter virksomheder og viser dem, hvordan AI løfter salg og mødebooking. Arbejd 100% hjemmefra med attraktiv løn og fuld frihed.',
+      body: 'Vi søger AI-konsulenter, der kontakter virksomheder og viser dem, hvordan AI løfter salg og mødebooking. Arbejd 100% hjemmefra med attraktiv indtjening og fuld frihed.',
       linkText: 'Se AI-konsulent jobbet',
     },
     ctaTitle: 'Byg fremtidens salgsmotor med AI og mødebooking',
@@ -455,7 +455,7 @@ export default {
     ],
     jobCta: {
       heading: 'Vil du hjælpe virksomheder med at opdage AI’s muligheder?',
-      body: 'Vi søger AI-konsulenter, der kontakter virksomheder og giver dem indblik i, hvordan AI kan hjælpe i opgaveløsningen. Arbejd 100% hjemmefra med attraktiv løn og fuld frihed – ingen forhåndsviden om AI kræves.',
+      body: 'Vi søger AI-konsulenter, der kontakter virksomheder og giver dem indblik i, hvordan AI kan hjælpe i opgaveløsningen. Arbejd 100% hjemmefra med attraktiv indtjening og fuld frihed – ingen forhåndsviden om AI kræves.',
       linkText: 'Se AI-konsulent jobbet',
     },
     ctaTitle: 'Vil I have hjælp til at komme i gang med AI?',

@@ -1,7 +1,7 @@
 export default {
   badge: "Find dit job",
   title: "Find det remote job, der passer til dig",
-  subtitle: "Vælg job, antal timer og din erfaring – så sender vi dig dine muligheder og din forventede løn. Eller søg med det samme.",
+  subtitle: "Vælg job, antal timer og din erfaring – så sender vi dig dine muligheder og din forventede indtjening. Eller søg med det samme.",
   openJob: "Ved ikke endnu – foreslå et job",
   job: { label: "Hvilket job er du interesseret i?" },
   hours: {
@@ -20,7 +20,7 @@ export default {
     },
   },
   resultHeading: "Dit jobmatch",
-  formIntro: "Udfyld dine oplysninger, og vælg om du vil se dine muligheder og løn, eller søge med det samme.",
+  formIntro: "Udfyld dine oplysninger, og vælg om du vil se dine muligheder og indtjening, eller søge med det samme.",
   fields: {
     name: "Fulde navn",
     phone: "Telefonnummer",
@@ -28,11 +28,11 @@ export default {
   },
   phoneInvalid: "Indtast et gyldigt telefonnummer (mindst 8 cifre).",
   actions: {
-    salary: "Se muligheder og løn",
+    salary: "Se muligheder og indtjening",
     apply: "Søg nu",
   },
   success: {
-    salary: { title: "Tak! Dine muligheder er på vej", text: "Vi finder de job og den løn, der passer til dig, og ringer til dig på {{phone}} inden for 24 timer, {{name}}." },
+    salary: { title: "Tak! Dine muligheder er på vej", text: "Vi finder de job og den indtjening, der passer til dig, og ringer til dig på {{phone}} inden for 24 timer, {{name}}." },
     apply: { title: "Tak for din ansøgning!", text: "Vi har modtaget din ansøgning, {{name}}, og ringer til dig på {{phone}} inden for 24 timer for at tage en snak." },
   },
   error: "Noget gik galt. Prøv igen, eller skriv til <a href=\"mailto:mail@magnoramarketing.dk\" class=\"underline\">mail@magnoramarketing.dk</a>.",

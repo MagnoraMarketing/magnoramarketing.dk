@@ -169,7 +169,7 @@ export default {
       { question: 'Hvordan kommer min virksomhed i gang med AI?', answer: 'Start med at kortlægge jeres mest tidskrævende opgaver, og vurder hvilke der kan automatiseres. Magnora Marketing tilbyder en uforpligtende AI-potentialeanalyse, der giver jer et konkret udgangspunkt.' },
     ],
     jobCtaHeading: 'Vil du være med til at formidle fremtidens AI-løsninger?',
-    jobCtaBody: 'Vi søger AI-konsulenter, der kontakter virksomheder og giver dem indblik i AI-løsninger, der sparer tid. Arbejd 100% hjemmefra med attraktiv løn og fuld frihed – ingen forhåndsviden om AI kræves.',
+    jobCtaBody: 'Vi søger AI-konsulenter, der kontakter virksomheder og giver dem indblik i AI-løsninger, der sparer tid. Arbejd 100% hjemmefra med attraktiv indtjening og fuld frihed – ingen forhåndsviden om AI kræves.',
     jobCtaLinkText: 'Se AI-konsulent jobbet',
     ctaTitle: 'Klar til at udnytte fremtidens AI-løsninger?',
     ctaSubtitle: 'Magnora Marketing hjælper din virksomhed med at forstå og implementere de AI-løsninger, der giver mest værdi. Book en uforpligtende snak i dag.',

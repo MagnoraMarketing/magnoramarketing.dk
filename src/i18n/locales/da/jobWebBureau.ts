@@ -28,7 +28,7 @@ export default {
       { label: 'Ansættelsesform', value: 'Freelance / selvstændig' },
       { label: 'Arbejdssted', value: 'Hjemmefra – hele Danmark' },
       { label: 'Arbejdstid', value: 'Fleksibel – du bestemmer selv' },
-      { label: 'Løn', value: 'Attraktiv provisionsløn' },
+      { label: 'Indtjening', value: 'Attraktiv provision' },
       { label: 'Produkt', value: 'Webudvikling, SEO, digitale løsninger' },
       { label: 'Opstart', value: 'Hurtigst muligt' },
     ],

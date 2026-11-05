@@ -143,7 +143,7 @@ export default {
     },
     jobCta: {
       heading: '¿Te apasionan la automatización y la IA?',
-      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo los agentes de IA y la automatización les ahorran tiempo. 100% desde casa, salario atractivo y total libertad.',
+      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo los agentes de IA y la automatización les ahorran tiempo. 100% desde casa, ingresos atractivos y total libertad.',
       linkText: 'Ver el puesto de consultor de IA',
     },
     ctaTitle: '¿Quieres automatizar con agentes de IA?',

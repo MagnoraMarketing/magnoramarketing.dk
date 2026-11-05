@@ -27,7 +27,7 @@ export default {
     benefits: [
       { title: 'Hjemmekontor', description: 'Arbejd effektivt fra dit eget hjem med alle nødvendige digitale redskaber. Ingen transporttid, ingen dyre frokoster.' },
       { title: 'Egne arbejdstider', description: 'Tilrettelæg din dag som det passer dig – ideelt for studerende, forældre og alle med et aktivt liv ved siden af arbejdet.' },
-      { title: 'Resultatdrevet løn', description: 'Du er freelancer og afregnes efter resultat med provision. Dine resultater afspejler sig direkte i din udbetaling.' },
+      { title: 'Resultatdrevet indtjening', description: 'Du er freelancer og afregnes efter resultat med provision. Dine resultater afspejler sig direkte i din udbetaling.' },
     ],
     checklist: [
       'Ingen transport og pendling',
@@ -71,7 +71,7 @@ export default {
   },
   faq: {
     items: [
-      { question: 'Hvad tjener man som freelance sælger hos Magnora Marketing?', answer: 'Som freelancer afregnes du efter resultat med provision – der er ingen fast løn eller grundhonorar. Jo mere du sælger, jo mere tjener du – der er intet loft.' },
+      { question: 'Hvad tjener man som freelance sælger hos Magnora Marketing?', answer: 'Som freelancer afregnes du efter resultat med provision – der er ingen fast indtjening eller grundhonorar. Jo mere du sælger, jo mere tjener du – der er intet loft.' },
       { question: 'Skal jeg have erfaring for at søge?', answer: 'Erfaring er en fordel, men ikke et krav. Magnora Marketing oplærer dig grundigt og giver dig løbende sparring og support.' },
       { question: 'Kan jeg arbejde deltid?', answer: 'Ja – du bestemmer selv dine arbejdstider og kan arbejde alt fra få timer om ugen til fuld tid.' },
       { question: 'Hvad sker der, hvis jeg har spørgsmål under arbejdet?', answer: "Du har altid adgang til support fra Magnora Marketing's erfarne salgsledere, der kan hjælpe med sparring, scripts og produktspørgsmål." },
@@ -79,7 +79,7 @@ export default {
       { question: 'Er der mulighed for fast ansættelse?', answer: 'Samarbejdet starter som freelance. Dygtige freelancere kan på sigt diskutere andre samarbejdsformer med Magnora Marketing.' },
       { question: 'Hvad sker der i oplæringsperioden?', answer: 'Du gennemgår et onboarding-forløb med produkttræning, salgsteknik og gennemgang af scripts. Typisk tager det 1-3 dage.' },
       { question: 'Kan jeg sælge flere produkter på én gang?', answer: 'Normalt starter du med ét produkt. Når du har opnået rutine, kan du eventuelt tage flere produkter ind.' },
-      { question: 'Hvad er det laveste jeg kan tjene?', answer: 'Det afhænger af aktivitetsniveau og produkt. Vi sætter realistiske forventninger ved opstart og er transparente om løn.' },
+      { question: 'Hvad er det laveste jeg kan tjene?', answer: 'Det afhænger af aktivitetsniveau og produkt. Vi sætter realistiske forventninger ved opstart og er transparente om indtjening.' },
       { question: 'Har I et fællesskab for freelancere?', answer: "Ja – du bliver en del af Magnora Marketing's netværk af freelancere og har adgang til erfaringsudveksling og fælles motivationsaktiviteter." },
       { question: 'Kan jeg arbejde fra udlandet?', answer: 'Ja – så længe du har stabilt internet og kan kommunikere professionelt på dansk, kan du arbejde fra hele verden.' },
       { question: 'Hvad er det vigtigste for at lykkes som freelancer hos Magnora Marketing?', answer: 'Vedholdenhed, struktur og positivt mindset. Telemarketing kræver at man kan håndtere afvisninger og bevare motivationen.' },

@@ -110,7 +110,7 @@ export default {
     ],
     jobCta: {
       heading: '¿Quieres trabajar en el cruce entre la IA y las ventas?',
-      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo la IA impulsa las ventas y la concertación de reuniones. Trabaja 100% desde casa con un salario atractivo y total libertad.',
+      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo la IA impulsa las ventas y la concertación de reuniones. Trabaja 100% desde casa con unos ingresos atractivos y total libertad.',
       linkText: 'Ver el puesto de consultor de IA',
     },
     ctaTitle: 'Construye el motor de ventas del futuro con IA y concertación de reuniones',
@@ -455,7 +455,7 @@ export default {
     ],
     jobCta: {
       heading: '¿Quieres ayudar a las empresas a descubrir las posibilidades de la IA?',
-      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo la IA puede ayudar en su trabajo diario. Trabaja 100% desde casa con un salario atractivo y total libertad: no se requieren conocimientos previos de IA.',
+      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo la IA puede ayudar en su trabajo diario. Trabaja 100% desde casa con unos ingresos atractivos y total libertad: no se requieren conocimientos previos de IA.',
       linkText: 'Ver el puesto de consultor de IA',
     },
     ctaTitle: '¿Queréis ayuda para empezar con la IA?',

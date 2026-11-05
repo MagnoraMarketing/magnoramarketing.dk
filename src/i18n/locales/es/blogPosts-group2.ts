@@ -63,7 +63,7 @@ export default {
     faq4Question: '¿Qué arriesgamos si esperamos?',
     faq4Answer: 'Costes más altos, un servicio más lento y una brecha de competencias cada vez mayor frente a los competidores que ya han adoptado la IA.',
     jobCtaHeading: 'Ayuda a las empresas a tomar posición sobre la IA',
-    jobCtaBody: 'Buscamos consultores de IA que contacten con empresas y les den una visión de las soluciones de IA que necesitan abordar. Trabaja desde casa con un salario atractivo y total libertad.',
+    jobCtaBody: 'Buscamos consultores de IA que contacten con empresas y les den una visión de las soluciones de IA que necesitan abordar. Trabaja desde casa con unos ingresos atractivos y total libertad.',
     jobCtaLinkText: 'Ver el puesto de consultor de IA',
     ctaTitle: 'Toma posición sobre la IA antes de que lo haga tu competencia',
     ctaSubtitle: 'Magnora Marketing te ofrece una imagen clara y honesta de dónde puede la IA generar valor en tu empresa. Reserva una charla sin compromiso hoy mismo.',

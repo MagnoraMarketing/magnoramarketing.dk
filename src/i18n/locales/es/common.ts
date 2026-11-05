@@ -89,11 +89,11 @@ export default {
     },
     insuranceBroker: {
       title: 'Concertador de reuniones - Seguros (remoto)',
-      description: 'Trabaja 100% desde casa para los mejores corredores de seguros de Dinamarca. Sueldo atractivo, comisiones sin límite y total libertad sobre tu jornada.',
+      description: 'Trabaja 100% desde casa para los mejores corredores de seguros de Dinamarca. Ingresos atractivos, comisiones sin límite y total libertad sobre tu jornada.',
     },
     aiConsultant: {
       title: 'Consultor de IA - Presenta la IA a las empresas',
-      description: 'Contacta con empresas y muéstrales soluciones de IA que ahorran tiempo. Un trabajo con futuro, 100% desde casa y con un sueldo atractivo.',
+      description: 'Contacta con empresas y muéstrales soluciones de IA que ahorran tiempo. Un trabajo con futuro, 100% desde casa y con unos ingresos atractivos.',
     },
     webBureau: {
       title: 'Comercial - Desarrollo web y soluciones digitales',
@@ -131,7 +131,7 @@ export default {
   jobSchema: {
     breadcrumbHome: 'Inicio',
     breadcrumbJobs: 'Empleos disponibles',
-    body: 'Trabajas como concertador de reuniones freelance para Magnora Marketing, 100% desde casa y con horario flexible. Llamas a contactos relevantes de nuestras listas y conciertas reuniones cualificadas para nuestros socios: no tienes que vender ni asesorar tú mismo. Trabajas como freelance y cobras según resultados; no hay sueldo fijo ni honorario base.',
+    body: 'Trabajas como concertador de reuniones freelance para Magnora Marketing, 100% desde casa y con horario flexible. Llamas a contactos relevantes de nuestras listas y conciertas reuniones cualificadas para nuestros socios: no tienes que vender ni asesorar tú mismo. Trabajas como freelance y cobras según resultados; no hay ingresos fijos ni honorario base.',
     benefits: [
       'Trabaja 100% desde casa – desde cualquier lugar de Dinamarca',
       'Horario flexible – jornada completa o parcial',

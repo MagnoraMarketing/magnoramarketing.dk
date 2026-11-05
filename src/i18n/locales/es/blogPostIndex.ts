@@ -3,11 +3,11 @@
 export default {
   'arbejde-med-forsikring-hjemmefra': {
     title: "Trabajar en seguros desde casa: cómo ser concertador de reuniones en Magnora Marketing",
-    description: "¿Quieres trabajar en seguros desde casa? Descubre qué hace un concertador de reuniones para corredores de seguros, sueldo, requisitos y cómo postularte en Magnora.",
+    description: "¿Quieres trabajar en seguros desde casa? Descubre qué hace un concertador de reuniones para corredores de seguros, ingresos, requisitos y cómo postularte en Magnora.",
   },
   'arbejde-med-pension-hjemmefra': {
     title: "Trabajar en pensiones sin formación financiera: cómo ser concertador de reuniones de pensiones",
-    description: "¿Quieres trabajar en pensiones sin formación financiera? Descubre cómo ser concertador de reuniones de pensiones desde casa: sueldo, requisitos y solicitud.",
+    description: "¿Quieres trabajar en pensiones sin formación financiera? Descubre cómo ser concertador de reuniones de pensiones desde casa: ingresos, requisitos y solicitud.",
   },
   'hvad-koster-telemarketing': {
     title: '¿Cuánto cuesta el telemarketing? Precios, modelos de precio y ejemplos',

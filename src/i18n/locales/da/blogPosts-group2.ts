@@ -63,7 +63,7 @@ export default {
     faq4Question: 'Hvad risikerer vi ved at vente?',
     faq4Answer: 'Højere omkostninger, langsommere service og et voksende kompetencegab i forhold til konkurrenterne, der har taget AI til sig.',
     jobCtaHeading: 'Hjælp virksomheder med at tage stilling til AI',
-    jobCtaBody: 'Vi søger AI-konsulenter, der kontakter virksomheder og giver dem indblik i de AI-løsninger, de er nødt til at forholde sig til. Arbejd hjemmefra med attraktiv løn og fuld frihed.',
+    jobCtaBody: 'Vi søger AI-konsulenter, der kontakter virksomheder og giver dem indblik i de AI-løsninger, de er nødt til at forholde sig til. Arbejd hjemmefra med attraktiv indtjening og fuld frihed.',
     jobCtaLinkText: 'Se AI-konsulent jobbet',
     ctaTitle: 'Tag stilling til AI, før konkurrenterne gør det',
     ctaSubtitle: 'Magnora Marketing giver dig et klart, ærligt billede af, hvor AI kan skabe værdi i din virksomhed. Book en uforpligtende snak i dag.',

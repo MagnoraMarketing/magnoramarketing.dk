@@ -204,7 +204,7 @@ export default {
   },
   ArbejdeMedForsikringHjemmefra: {
     "seoTitle": "Arbejde med forsikring hjemmefra: Guide til jobbet | Magnora",
-    "seoDescription": "Vil du arbejde med forsikring hjemmefra? Se hvad en mødebooker for forsikringsmæglere laver, løn, krav og hverdag – og hvordan du søger jobbet hos Magnora.",
+    "seoDescription": "Vil du arbejde med forsikring hjemmefra? Se hvad en mødebooker for forsikringsmæglere laver, indtjening, krav og hverdag – og hvordan du søger jobbet hos Magnora.",
     "keywords": "arbejde med forsikring, job forsikring hjemmefra, mødebooker forsikring, job i forsikringsbranchen, forsikringsjob uden erfaring, hvordan bliver man mødebooker, forsikringsmægler mødebooking, job forsikring og pension, hjemmearbejde forsikring",
     "category": "Mødebooking",
     "title": "Arbejde med forsikring hjemmefra: Sådan bliver du mødebooker hos Magnora Marketing",
@@ -242,7 +242,7 @@ export default {
       {
         "heading": "Hvad kan du tjene som mødebooker for forsikring?",
         "body": [
-          "Hos Magnora Marketing er du freelancer og afregnes efter resultat med provision pr. kvalificeret møde – uden loft. Der er ingen fast løn. Den præcise model aftaler vi med dig inden opstart, men princippet er enkelt: Jo flere gode møder du booker, jo mere tjener du. Provisionen udbetales månedligt og er baseret på dine verificerede møder."
+          "Hos Magnora Marketing er du freelancer og afregnes efter resultat med provision pr. kvalificeret møde – uden loft. Der er ingen fast indtjening. Den præcise model aftaler vi med dig inden opstart, men princippet er enkelt: Jo flere gode møder du booker, jo mere tjener du. Provisionen udbetales månedligt og er baseret på dine verificerede møder."
         ]
       },
       {
@@ -278,8 +278,8 @@ export default {
         "answer": "Ja. Jobbet foregår hjemmefra og over telefon. Du behøver kun telefon, computer og stabilt internet, og du kan bo hvor som helst i Danmark."
       },
       {
-        "question": "Hvad er lønnen som mødebooker for forsikring?",
-        "answer": "Du er freelancer og afregnes efter resultat med provision pr. kvalificeret møde uden loft – der er ingen fast løn. Den præcise model aftales inden opstart."
+        "question": "Hvad er indtjeningen som mødebooker for forsikring?",
+        "answer": "Du er freelancer og afregnes efter resultat med provision pr. kvalificeret møde uden loft – der er ingen fast indtjening. Den præcise model aftales inden opstart."
       },
       {
         "question": "Kan jeg arbejde med både forsikring og pension?",
@@ -298,7 +298,7 @@ export default {
   },
   ArbejdeMedPensionHjemmefra: {
     "seoTitle": "Arbejde med pension uden uddannelse: Guide | Magnora",
-    "seoDescription": "Vil du arbejde med pension, men har ingen finansiel uddannelse? Se hvordan du bliver mødebooker inden for pension hjemmefra – løn, krav, hverdag og ansøgning.",
+    "seoDescription": "Vil du arbejde med pension, men har ingen finansiel uddannelse? Se hvordan du bliver mødebooker inden for pension hjemmefra – indtjening, krav, hverdag og ansøgning.",
     "keywords": "arbejde med pension, job pension, job inden for pension, job i pensionsbranchen, pension job uden uddannelse, mødebooker pension, pensionsgennemgang job, job forsikring og pension, pension job hjemmefra",
     "category": "Mødebooking",
     "title": "Arbejde med pension uden finansiel uddannelse: Sådan bliver du mødebooker inden for pension",
@@ -337,9 +337,9 @@ export default {
         ]
       },
       {
-        "heading": "Løn og vilkår i et job inden for pension",
+        "heading": "Indtjening og vilkår i et job inden for pension",
         "body": [
-          "Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast løn. Fordi pension er et højværdiprodukt, er hvert kvalificeret møde meget værd. Provisionen udbetales månedligt, samarbejdet formaliseres i en skriftlig freelanceaftale, og de første 2–4 uger er en gensidig prøveperiode."
+          "Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast indtjening. Fordi pension er et højværdiprodukt, er hvert kvalificeret møde meget værd. Provisionen udbetales månedligt, samarbejdet formaliseres i en skriftlig freelanceaftale, og de første 2–4 uger er en gensidig prøveperiode."
         ]
       },
       {
@@ -366,7 +366,7 @@ export default {
       },
       {
         "question": "Hvad tjener man som mødebooker inden for pension?",
-        "answer": "Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast løn. Den præcise model aftales inden opstart."
+        "answer": "Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast indtjening. Den præcise model aftales inden opstart."
       },
       {
         "question": "Kan jeg også booke møder om forsikring?",

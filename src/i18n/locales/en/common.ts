@@ -89,11 +89,11 @@ export default {
     },
     insuranceBroker: {
       title: 'Meeting Booker - Insurance (remote)',
-      description: 'Work 100% from home for Denmark\'s best insurance brokers. Attractive pay, uncapped commission and full freedom over your working day.',
+      description: 'Work 100% from home for Denmark\'s best insurance brokers. Attractive earnings, uncapped commission and full freedom over your working day.',
     },
     aiConsultant: {
       title: 'AI Consultant - Introduce AI to businesses',
-      description: 'Contact businesses and show them AI solutions that save time. A future-proof job, 100% from home, with attractive pay.',
+      description: 'Contact businesses and show them AI solutions that save time. A future-proof job, 100% from home, with attractive earnings.',
     },
     webBureau: {
       title: 'Sales Rep - Web Development & Digital Solutions',
@@ -131,7 +131,7 @@ export default {
   jobSchema: {
     breadcrumbHome: 'Home',
     breadcrumbJobs: 'Open jobs',
-    body: 'You work as a freelance meeting booker for Magnora Marketing, 100% from home and with flexible hours. You call relevant contacts from our call lists and book qualified meetings for our partners – you do not have to sell or give advice yourself. You work freelance and are paid on results – there is no fixed salary or base fee.',
+    body: 'You work as a freelance meeting booker for Magnora Marketing, 100% from home and with flexible hours. You call relevant contacts from our call lists and book qualified meetings for our partners – you do not have to sell or give advice yourself. You work freelance and are paid on results – there is no fixed income or base fee.',
     benefits: [
       'Work 100% from home – anywhere in Denmark',
       'Flexible hours – full-time or part-time',

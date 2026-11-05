@@ -169,7 +169,7 @@ export default {
       { question: 'How does my business get started with AI?', answer: 'Start by mapping your most time-consuming tasks, and assess which ones can be automated. Magnora Marketing offers a no-obligation AI potential analysis that gives you a concrete starting point.' },
     ],
     jobCtaHeading: 'Want to help introduce the future of AI solutions?',
-    jobCtaBody: 'We are looking for AI consultants who contact businesses and give them insight into AI solutions that save time. Work 100% from home with an attractive salary and full freedom – no prior AI knowledge required.',
+    jobCtaBody: 'We are looking for AI consultants who contact businesses and give them insight into AI solutions that save time. Work 100% from home with attractive earnings and full freedom – no prior AI knowledge required.',
     jobCtaLinkText: 'See the AI consultant job',
     ctaTitle: 'Ready to make the most of the future of AI solutions?',
     ctaSubtitle: 'Magnora Marketing helps your business understand and implement the AI solutions that create the most value. Book a no-obligation conversation today.',

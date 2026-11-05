@@ -136,7 +136,7 @@ export default {
     ],
     jobCta: {
       heading: 'Ayuda a las empresas a ahorrar tiempo con la IA',
-      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo las soluciones de IA liberan horas cada semana. Trabaja desde casa con un salario atractivo, sin necesidad de formación técnica.',
+      body: 'Buscamos consultores de IA que contacten con empresas y les muestren cómo las soluciones de IA liberan horas cada semana. Trabaja desde casa con unos ingresos atractivos, sin necesidad de formación técnica.',
       linkText: 'Ver el puesto de consultor de IA',
     },
     ctaTitle: '¿Cuánto tiempo puede ahorrar tu empresa con la IA?',
@@ -179,7 +179,7 @@ export default {
         ],
       },
       {
-        heading: 'Libertad, flexibilidad y un salario atractivo',
+        heading: 'Libertad, flexibilidad y unos ingresos atractivos',
         body: [
           'El trabajo como consultor de IA se realiza 100% desde casa con un horario flexible. Trabajas como freelance y cobras según resultados con una comisión sin límite, de modo que tu esfuerzo determina tus ingresos. Eso lo convierte en uno de los trabajos desde casa más atractivos y a prueba de futuro de Dinamarca en este momento, tanto si buscas jornada completa como un ingreso complementario.',
         ],
@@ -201,7 +201,7 @@ export default {
         answer: 'Sí, el trabajo se realiza 100% desde casa con un horario flexible. Solo necesitas teléfono, ordenador y una conexión a internet estable.',
       },
       {
-        question: '¿Cómo es el salario como consultor de IA?',
+        question: '¿Cómo son los ingresos como consultor de IA?',
         answer: 'Trabajas como freelance y cobras según resultados, con una comisión sin límite por cada reunión cualificada. Tu esfuerzo determina cuánto puedes ganar.',
       },
       {
@@ -211,7 +211,7 @@ export default {
     ],
     jobCta: {
       heading: '¿Listo para convertirte en consultor de IA?',
-      body: 'Envía una breve solicitud sin compromiso a través de nuestra página de empleo. Trabaja 100% desde casa, sitúate a la vanguardia de la revolución de la IA y recibe una recompensa con un salario atractivo y una comisión sin límite.',
+      body: 'Envía una breve solicitud sin compromiso a través de nuestra página de empleo. Trabaja 100% desde casa, sitúate a la vanguardia de la revolución de la IA y recibe una recompensa con unos ingresos atractivos y una comisión sin límite.',
       linkText: 'Ver el puesto de consultor de IA y solicitarlo',
     },
     ctaTitle: 'Sitúate a la vanguardia de la revolución de la IA',

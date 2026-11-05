@@ -34,8 +34,8 @@ export default {
     ],
   },
   salary: {
-    badge: 'Pay & commission',
-    title: 'Pay in a pension job: security and high value per meeting',
+    badge: 'Earnings & commission',
+    title: 'Earnings in a pension job: high value per meeting',
     text: 'Pension agreements have a high average value for our partners – which is why a qualified pension meeting is also worth a lot to you. As a freelancer you are paid on results with commission, so your earnings depend on your own effort.',
     list: [
       'Freelance – you are paid on results',
@@ -52,7 +52,7 @@ export default {
         'Paid on results – no cap',
         'Written freelance agreement with clear terms',
       ],
-      cta: 'Learn more about the pay',
+      cta: 'Learn more about the earnings',
     },
   },
   freedom: {
@@ -140,7 +140,7 @@ export default {
       { question: 'What does the pension meeting booker job involve?', answer: 'You contact private and business customers and book no-obligation pension reviews with an experienced pension adviser. You work from call lists and scripts that we provide.' },
       { question: 'Do I need a financial background to get a job in pensions?', answer: 'No. You book meetings, you do not give advice. The pension adviser handles the expertise, and you get product training so you can talk about pensions with confidence.' },
       { question: 'Can I work with pensions 100% from home?', answer: 'Yes. The whole job is done from home and by phone. All you need is a phone, a computer and a stable internet connection – and you can live anywhere in Denmark.' },
-      { question: 'What is the pay?', answer: 'You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed salary or base fee. Pensions are a high-value product, which is reflected in the commission. We agree on the exact model with you before you start.' },
+      { question: 'What are the earnings?', answer: 'You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed income or base fee. Pensions are a high-value product, which is reflected in the commission. We agree on the exact model with you before you start.' },
       { question: 'Is pension a sensitive topic to call about?', answer: 'Pensions concern important life choices, but most people appreciate the offer of a free review. You get proven scripts and coaching, so the conversation feels safe and professional.' },
       { question: 'Do I have to find the customers myself?', answer: 'No. Magnora Marketing provides call lists, campaign material, scripts and CRM access, so you can start right away.' },
       { question: 'Can I do the job as a side job or part-time?', answer: 'Yes. You set your own hours, and many use the job as a flexible extra income alongside studies, family or another job.' },

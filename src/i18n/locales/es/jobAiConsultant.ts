@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'Se busca Consultor de IA – Presenta Soluciones de IA a Empresas | Magnora Marketing',
-    description: 'Conviértete en consultor de IA en Magnora Marketing y ayuda a empresas danesas a entender y decidir sobre soluciones de IA que les ahorran tiempo. Trabajo flexible 100% remoto con salario atractivo. Envía tu solicitud hoy.',
+    description: 'Conviértete en consultor de IA en Magnora Marketing y ayuda a empresas danesas a entender y decidir sobre soluciones de IA que les ahorran tiempo. Trabajo flexible 100% remoto con ingresos atractivos. Envía tu solicitud hoy.',
     keywords: 'empleo consultor de IA, se busca consultor de IA, empleo de ventas de IA, consultor de IA prospección, soluciones de IA para empresas, consultor de IA desde casa, empleo vendedor de IA Dinamarca, consultor de IA freelance, empleo asesor de IA, consultor de inteligencia artificial, empleo con IA',
   },
   breadcrumbs: {
@@ -11,7 +11,7 @@ export default {
   },
   hero: {
     title: 'Conviértete en consultor de IA y muestra a las empresas el futuro',
-    subtitle: 'Buscamos consultores que contacten a empresas danesas y les den una visión de las soluciones de IA que deben considerar, soluciones que les ahorran tiempo y dinero. Flexible, 100% remoto y con salario atractivo.',
+    subtitle: 'Buscamos consultores que contacten a empresas danesas y les den una visión de las soluciones de IA que deben considerar, soluciones que les ahorran tiempo y dinero. Flexible, 100% remoto y con ingresos atractivos.',
     cta: 'Envía tu solicitud',
     secondaryCta: 'Ver todas las vacantes',
   },
@@ -30,7 +30,7 @@ export default {
     cards: [
       { title: 'Sector a prueba de futuro', desc: 'La IA es la tecnología de mayor crecimiento de la historia. Como consultor de IA, estás en primera línea de un sector que no deja de crecer.' },
       { title: 'Libertad total', desc: 'Trabaja 100% desde casa y establece tus propias condiciones. Sin desplazamientos, sin horarios fijos de reuniones, solo resultados.' },
-      { title: 'Salario atractivo', desc: 'Trabajas como freelance y cobras según resultados, con comisión sin límite. Tu esfuerzo y tus resultados determinan tus ingresos.' },
+      { title: 'Ingresos atractivos', desc: 'Trabajas como freelance y cobras según resultados, con comisión sin límite. Tu esfuerzo y tus resultados determinan tus ingresos.' },
     ],
   },
   whatDoes: {
@@ -132,7 +132,7 @@ export default {
       { question: '¿Necesito ser experto en IA para postularme?', answer: 'No. No necesitas formación técnica ni conocimientos previos de IA. Te damos una formación completa tanto en las soluciones de IA como en el proceso de ventas, para que estés listo para obtener resultados. La curiosidad y las buenas habilidades de comunicación importan más que el conocimiento técnico.' },
       { question: '¿Puedo trabajar como consultor de IA desde casa?', answer: 'Sí, el trabajo es 100% remoto. Solo necesitas un teléfono, un ordenador y una conexión a internet estable. Sin desplazamientos ni asistencia presencial.' },
       { question: '¿Qué soluciones de IA voy a representar?', answer: 'Representas las soluciones de IA de Magnora Marketing, incluyendo integración de IA, widget de chat con IA y recepción con IA, que ayudan a las empresas a automatizar la atención al cliente, las reservas y otras tareas que consumen mucho tiempo.' },
-      { question: '¿Cuál es el salario como consultor de IA?', answer: 'Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay sueldo fijo ni honorario base. Acordamos el modelo exacto contigo antes de empezar, pero tu esfuerzo determina cuánto puedes ganar.' },
+      { question: '¿Cuáles son los ingresos como consultor de IA?', answer: 'Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay ingresos fijos ni honorario base. Acordamos el modelo exacto contigo antes de empezar, pero tu esfuerzo determina cuánto puedes ganar.' },
       { question: '¿Puedo tener este trabajo junto con estudios u otro empleo?', answer: 'Sí, muchos de nuestros consultores trabajan de forma flexible y usan el empleo como un atractivo ingreso adicional junto con estudios, familia u otro trabajo.' },
       { question: '¿Qué tan rápido puedo empezar?', answer: 'Tras una breve charla inicial y una incorporación con formación en IA y ventas, la mayoría está lista para contactar empresas en pocos días.' },
       { question: '¿Cómo me postulo al empleo de consultor de IA?', answer: 'Rellena el formulario de contacto aquí en la página, sin necesidad de una solicitud extensa. Te respondemos en el plazo de un día laborable.' },

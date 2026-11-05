@@ -6,7 +6,7 @@ export default {
   button: 'Book a meeting',
   job: {
     heading: 'Rather have a chat first?',
-    text: 'Book a short, no-obligation meeting about the job. Pick a time that suits you, and we will tell you about the tasks, the pay and how to get started.',
+    text: 'Book a short, no-obligation meeting about the job. Pick a time that suits you, and we will tell you about the tasks, the earnings and how to get started.',
     iframeTitle: 'Book a meeting about a job at Magnora Marketing',
     cta: {
       heading: 'Interested in job opportunities, a possible collaboration or just want to hear more about what Magnora Marketing can offer you?',

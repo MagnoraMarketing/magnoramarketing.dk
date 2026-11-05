@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'AI Consultant Wanted – Introduce Companies to AI Solutions | Magnora Marketing',
-    description: 'Become an AI consultant at Magnora Marketing and help Danish companies understand and decide on AI solutions that save them time. Flexible job, 100% remote, with an attractive salary. Send your inquiry today.',
+    description: 'Become an AI consultant at Magnora Marketing and help Danish companies understand and decide on AI solutions that save them time. Flexible job, 100% remote, with attractive earnings. Send your inquiry today.',
     keywords: 'AI consultant job, AI consultant wanted, AI sales job, outbound AI consultant, AI solutions for companies, AI consultant work from home, AI sales job Denmark, freelance AI consultant, AI advisor job, artificial intelligence consultant, jobs in AI',
   },
   breadcrumbs: {
@@ -11,7 +11,7 @@ export default {
   },
   hero: {
     title: 'Become an AI consultant and show companies the future',
-    subtitle: 'We are looking for consultants to contact Danish companies and give them insight into the AI solutions they need to consider – solutions that save them time and money. Flexible, 100% remote, and with an attractive salary.',
+    subtitle: 'We are looking for consultants to contact Danish companies and give them insight into the AI solutions they need to consider – solutions that save them time and money. Flexible, 100% remote, and with attractive earnings.',
     cta: 'Send your inquiry',
     secondaryCta: 'View all open positions',
   },
@@ -30,7 +30,7 @@ export default {
     cards: [
       { title: 'Future-proof industry', desc: 'AI is the fastest-growing technology ever. As an AI consultant, you stand at the forefront of an industry that only keeps growing.' },
       { title: 'Full freedom', desc: 'Work 100% from home and set your own terms. No commuting, no fixed meeting times – only results.' },
-      { title: 'Attractive salary', desc: 'You work freelance and are paid on results, with uncapped commission. Your effort and results determine your earnings.' },
+      { title: 'Attractive earnings', desc: 'You work freelance and are paid on results, with uncapped commission. Your effort and results determine your earnings.' },
     ],
   },
   whatDoes: {
@@ -132,7 +132,7 @@ export default {
       { question: 'Do I need to be an AI expert to apply?', answer: 'No. You need no technical background or prior knowledge of AI. We give you thorough training in both the AI solutions and the sales process, so you\'re ready to deliver results. Curiosity and good communication skills matter more than technical knowledge.' },
       { question: 'Can I work as an AI consultant from home?', answer: 'Yes – the job is 100% remote. All you need is a phone, a computer, and a stable internet connection. No commuting and no fixed attendance.' },
       { question: 'Which AI solutions will I represent?', answer: 'You represent Magnora Marketing\'s AI solutions, including AI integration, AI chat widget, and AI reception, which help companies automate customer service, booking, and other time-consuming tasks.' },
-      { question: 'What is the salary for an AI consultant?', answer: 'You work freelance and are paid on results, with uncapped commission per qualified meeting – there is no fixed salary or base fee. We agree on the exact model with you before you start – but your effort determines how much you can earn.' },
+      { question: 'What are the earnings for an AI consultant?', answer: 'You work freelance and are paid on results, with uncapped commission per qualified meeting – there is no fixed income or base fee. We agree on the exact model with you before you start – but your effort determines how much you can earn.' },
       { question: 'Can I do the job alongside studies or other work?', answer: 'Yes – many of our consultants work flexibly and use the job as an attractive side income alongside studies, family, or other work.' },
       { question: 'How quickly can I get started?', answer: 'After a short introductory chat and onboarding with AI and sales training, most people are ready to contact companies within a few days.' },
       { question: 'How do I apply for the AI consultant job?', answer: 'Fill out the inquiry form here on the page – no lengthy application needed. We get back to you within one business day.' },

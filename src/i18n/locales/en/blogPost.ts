@@ -18,7 +18,7 @@ export default {
   },
   freelancer: {
     title: 'Become a freelance sales rep',
-    body: 'Are you a skilled sales rep or meeting booker? Join our team and get flexible working hours and attractive pay.',
+    body: 'Are you a skilled sales rep or meeting booker? Join our team and get flexible working hours and attractive earnings.',
     workFromHome: 'Work from home',
     allPositions: 'View all positions',
   },

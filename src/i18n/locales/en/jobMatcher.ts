@@ -1,7 +1,7 @@
 export default {
   badge: "Find your job",
   title: "Find the remote job that suits you",
-  subtitle: "Choose a job, hours and your experience – and we will send you your options and expected pay. Or apply right away.",
+  subtitle: "Choose a job, hours and your experience – and we will send you your options and expected earnings. Or apply right away.",
   openJob: "Not sure yet – suggest a job",
   job: { label: "Which job are you interested in?" },
   hours: {
@@ -20,7 +20,7 @@ export default {
     },
   },
   resultHeading: "Your job match",
-  formIntro: "Enter your details and choose whether to see your options and pay, or apply right away.",
+  formIntro: "Enter your details and choose whether to see your options and earnings, or apply right away.",
   fields: {
     name: "Full name",
     phone: "Phone number",
@@ -28,11 +28,11 @@ export default {
   },
   phoneInvalid: "Enter a valid phone number (at least 8 digits).",
   actions: {
-    salary: "See options and pay",
+    salary: "See options and earnings",
     apply: "Apply now",
   },
   success: {
-    salary: { title: "Thank you! Your options are on their way", text: "We will find the jobs and pay that suit you and call you on {{phone}} within 24 hours, {{name}}." },
+    salary: { title: "Thank you! Your options are on their way", text: "We will find the jobs and earnings that suit you and call you on {{phone}} within 24 hours, {{name}}." },
     apply: { title: "Thank you for applying!", text: "We have received your application, {{name}}, and will call you on {{phone}} within 24 hours for a chat." },
   },
   error: "Something went wrong. Please try again or write to <a href=\"mailto:mail@magnoramarketing.dk\" class=\"underline\">mail@magnoramarketing.dk</a>.",

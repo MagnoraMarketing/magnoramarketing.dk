@@ -79,7 +79,7 @@ export default {
   },
   faqs: [
     { question: 'Can I work remotely as a sales rep at Magnora Marketing?', answer: "Yes – all of Magnora Marketing's freelance sales positions can be carried out 100% from home. You only need a phone, a computer and a stable internet connection." },
-    { question: 'What is the commission rate?', answer: 'The commission varies depending on the product and campaign. You always get a clear agreement on pay and commission before you start.' },
+    { question: 'What is the commission rate?', answer: 'The commission varies depending on the product and campaign. You always get a clear agreement on earnings and commission before you start.' },
     { question: 'Do I need to find my own customers?', answer: 'No – Magnora Marketing provides leads, scripts and campaign materials. You call the contacts we give you and work according to our sales process.' },
     { question: 'When is commission paid out?', answer: 'Commission is paid out monthly based on verified sales and results.' },
     { question: 'Can I work for Magnora Marketing alongside another job?', answer: 'Yes – many of our freelancers work for Magnora Marketing as a side income or a supplement to their studies.' },

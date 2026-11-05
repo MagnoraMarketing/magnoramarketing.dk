@@ -89,11 +89,11 @@ export default {
     },
     insuranceBroker: {
       title: 'Mødebooker - Forsikring (hjemmefra)',
-      description: 'Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag.',
+      description: 'Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere. Attraktiv indtjening, provision uden loft og fuld frihed over din arbejdsdag.',
     },
     aiConsultant: {
       title: 'AI-konsulent - Introducér AI til virksomheder',
-      description: 'Kontakt virksomheder og giv dem indblik i AI-løsninger, der sparer tid. Fremtidssikret job 100% hjemmefra med attraktiv løn.',
+      description: 'Kontakt virksomheder og giv dem indblik i AI-løsninger, der sparer tid. Fremtidssikret job 100% hjemmefra med attraktiv indtjening.',
     },
     webBureau: {
       title: 'Sælger - Webudvikling & Digitale Løsninger',
@@ -131,7 +131,7 @@ export default {
   jobSchema: {
     breadcrumbHome: 'Forside',
     breadcrumbJobs: 'Ledige job',
-    body: 'Du arbejder som freelance mødebooker for Magnora Marketing, 100% hjemmefra og med fleksible arbejdstider. Du ringer til relevante kontakter fra vores ringelister og booker kvalificerede møder for vores samarbejdspartnere – du skal ikke selv sælge eller rådgive. Du er freelancer og afregnes efter resultat – der er ingen fast løn eller grundhonorar.',
+    body: 'Du arbejder som freelance mødebooker for Magnora Marketing, 100% hjemmefra og med fleksible arbejdstider. Du ringer til relevante kontakter fra vores ringelister og booker kvalificerede møder for vores samarbejdspartnere – du skal ikke selv sælge eller rådgive. Du er freelancer og afregnes efter resultat – der er ingen fast indtjening eller grundhonorar.',
     benefits: [
       'Arbejd 100% hjemmefra – i hele Danmark',
       'Fleksible arbejdstider – fuldtid eller deltid',

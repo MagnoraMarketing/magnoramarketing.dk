@@ -28,7 +28,7 @@ export default {
       { label: 'Tipo de contrato', value: 'Freelance / autónomo' },
       { label: 'Lugar de trabajo', value: 'Desde casa – toda Dinamarca' },
       { label: 'Horario', value: 'Flexible – tú decides' },
-      { label: 'Retribución', value: 'Comisión atractiva' },
+      { label: 'Ingresos', value: 'Comisión atractiva' },
       { label: 'Producto', value: 'Servicio de café y máquinas de café para empresas' },
       { label: 'Incorporación', value: 'Lo antes posible' },
     ],

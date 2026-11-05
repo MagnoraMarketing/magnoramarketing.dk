@@ -104,7 +104,7 @@ export default {
     ],
     jobCtaHeading: 'Want to introduce companies to AI customer service?',
     jobCtaBody:
-      'We are looking for AI consultants who contact companies and show them the value of AI chat and AI reception. 100% from home, attractive pay and full freedom over your working day.',
+      'We are looking for AI consultants who contact companies and show them the value of AI chat and AI reception. 100% from home, attractive earnings and full freedom over your working day.',
     jobCtaLinkText: 'See the AI consultant role',
     ctaTitle: 'Ready for customer service that never sleeps?',
     ctaSubtitle: 'Magnora Marketing helps your company with AI chat and AI reception that answers customers around the clock. Book a no-obligation chat.',
@@ -182,7 +182,7 @@ export default {
     ],
     jobCtaHeading: 'Show companies the value of generative AI',
     jobCtaBody:
-      'We are looking for AI consultants who contact companies and open their eyes to how generative AI creates business value. Work from home with attractive pay and full freedom.',
+      'We are looking for AI consultants who contact companies and open their eyes to how generative AI creates business value. Work from home with attractive earnings and full freedom.',
     jobCtaLinkText: 'See the AI consultant role',
     ctaTitle: 'Want to create real value with generative AI?',
     ctaSubtitle: 'Magnora Marketing takes your company from random AI use to structured value creation. Book a no-obligation chat today.',

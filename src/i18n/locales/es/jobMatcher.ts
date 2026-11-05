@@ -1,7 +1,7 @@
 export default {
   badge: "Encuentra tu trabajo",
   title: "Encuentra el trabajo en remoto que mejor te encaja",
-  subtitle: "Elige trabajo, horas y tu experiencia, y te enviaremos tus opciones y el sueldo esperado. O solicita ahora mismo.",
+  subtitle: "Elige trabajo, horas y tu experiencia, y te enviaremos tus opciones y los ingresos esperados. O solicita ahora mismo.",
   openJob: "Aún no lo sé, sugeridme uno",
   job: { label: "¿Qué trabajo te interesa?" },
   hours: {
@@ -20,7 +20,7 @@ export default {
     },
   },
   resultHeading: "Tu trabajo ideal",
-  formIntro: "Rellena tus datos y elige si quieres ver tus opciones y el sueldo o solicitar ahora mismo.",
+  formIntro: "Rellena tus datos y elige si quieres ver tus opciones y los ingresos o solicitar ahora mismo.",
   fields: {
     name: "Nombre completo",
     phone: "Teléfono",
@@ -28,11 +28,11 @@ export default {
   },
   phoneInvalid: "Introduce un teléfono válido (al menos 8 dígitos).",
   actions: {
-    salary: "Ver opciones y sueldo",
+    salary: "Ver opciones e ingresos",
     apply: "Solicitar ahora",
   },
   success: {
-    salary: { title: "¡Gracias! Tus opciones están en camino", text: "Buscaremos los trabajos y el sueldo que mejor te encajan y te llamaremos al {{phone}} en menos de 24 horas, {{name}}." },
+    salary: { title: "¡Gracias! Tus opciones están en camino", text: "Buscaremos los trabajos y los ingresos que mejor te encajan y te llamaremos al {{phone}} en menos de 24 horas, {{name}}." },
     apply: { title: "¡Gracias por tu solicitud!", text: "Hemos recibido tu solicitud, {{name}}, y te llamaremos al {{phone}} en menos de 24 horas para hablar." },
   },
   error: "Algo ha fallado. Inténtalo de nuevo o escribe a <a href=\"mailto:mail@magnoramarketing.dk\" class=\"underline\">mail@magnoramarketing.dk</a>.",
