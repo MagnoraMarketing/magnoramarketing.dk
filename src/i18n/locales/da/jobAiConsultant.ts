@@ -1,7 +1,7 @@
 export default {
   seo: {
     title: 'AI-konsulent Job Hjemmefra | Magnora Marketing',
-    description: 'Bliv AI-konsulent og hjælp danske virksomheder med AI-løsninger, der sparer tid. Fleksibelt job 100% hjemmefra med attraktiv løn. Søg i dag.',
+    description: 'Bliv AI-konsulent og hjælp danske virksomheder med AI-løsninger, der sparer tid. Fleksibelt job 100% hjemmefra med attraktiv indtjening. Søg i dag.',
     keywords: 'AI-konsulent job, AI konsulent søges, AI salg job, opsøgende AI-konsulent, AI-løsninger til virksomheder, konsulent AI hjemmefra, AI sælger job Danmark, freelance AI-konsulent, AI rådgiver job, kunstig intelligens konsulent, job med AI',
   },
   breadcrumbs: {
@@ -11,7 +11,7 @@ export default {
   },
   hero: {
     title: 'Bliv AI-konsulent og vis virksomheder fremtiden',
-    subtitle: 'Vi søger konsulenter, der kontakter danske virksomheder og giver dem indblik i de AI-løsninger, de er nødt til at tage stilling til – løsninger, der sparer dem tid og penge. Fleksibelt, 100% hjemmefra og med attraktiv løn.',
+    subtitle: 'Vi søger konsulenter, der kontakter danske virksomheder og giver dem indblik i de AI-løsninger, de er nødt til at tage stilling til – løsninger, der sparer dem tid og penge. Fleksibelt, 100% hjemmefra og med attraktiv indtjening.',
     cta: 'Send din henvendelse',
     secondaryCta: 'Se alle ledige stillinger',
   },
@@ -30,7 +30,7 @@ export default {
     cards: [
       { title: 'Fremtidssikret branche', desc: 'AI er den hurtigst voksende teknologi nogensinde. Som AI-konsulent står du forrest i en branche, der kun bliver større.' },
       { title: 'Fuld frihed', desc: 'Arbejd 100% hjemmefra og sæt selv dine rammer. Ingen pendling, ingen faste mødetider – kun resultater.' },
-      { title: 'Attraktiv løn', desc: 'Du er freelancer og afregnes efter resultat med provision uden loft. Din indsats og dine resultater afgør din indtjening.' },
+      { title: 'Attraktiv indtjening', desc: 'Du er freelancer og afregnes efter resultat med provision uden loft. Din indsats og dine resultater afgør din indtjening.' },
     ],
   },
   whatDoes: {
@@ -132,7 +132,7 @@ export default {
       { question: 'Skal jeg være AI-ekspert for at søge?', answer: 'Nej. Du behøver ingen teknisk baggrund eller forhåndsviden om AI. Vi giver dig grundig træning i både AI-løsningerne og salgsprocessen, så du er klar til at skabe resultater. Nysgerrighed og gode kommunikationsevner er vigtigere end teknisk viden.' },
       { question: 'Kan jeg arbejde som AI-konsulent hjemmefra?', answer: 'Ja – jobbet foregår 100% hjemmefra. Du skal blot bruge en telefon, en computer og stabilt internet. Ingen pendling og ingen fast fremmøde.' },
       { question: 'Hvilke AI-løsninger kommer jeg til at repræsentere?', answer: 'Du repræsenterer Magnora Marketings AI-løsninger, herunder AI-integration, AI-chatwidget og AI-reception, der hjælper virksomheder med at automatisere kundeservice, booking og andre tidskrævende opgaver.' },
-      { question: 'Hvad er lønnen som AI-konsulent?', answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde – der er ingen fast løn eller grundhonorar. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
+      { question: 'Hvad er indtjeningen som AI-konsulent?', answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde – der er ingen fast indtjening eller grundhonorar. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
       { question: 'Kan jeg have jobbet ved siden af studie eller andet arbejde?', answer: 'Ja – mange af vores konsulenter arbejder fleksibelt og bruger jobbet som en attraktiv biindtægt ved siden af studie, familie eller andet arbejde.' },
       { question: 'Hvor hurtigt kan jeg komme i gang?', answer: 'Efter en kort afklaringssnak og onboarding med AI- og salgstræning kan de fleste være klar til at kontakte virksomheder inden for få dage.' },
       { question: 'Hvordan søger jeg jobbet som AI-konsulent?', answer: 'Udfyld henvendelsesformularen her på siden – ingen lang ansøgning nødvendig. Vi vender tilbage inden for én hverdag.' },

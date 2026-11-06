@@ -204,7 +204,7 @@ export default {
   },
   ArbejdeMedForsikringHjemmefra: {
     "seoTitle": "Trabajar en seguros desde casa: guía del empleo | Magnora",
-    "seoDescription": "¿Quieres trabajar en seguros desde casa? Descubre qué hace un concertador de reuniones para corredores de seguros, sueldo, requisitos y cómo postularte en Magnora.",
+    "seoDescription": "¿Quieres trabajar en seguros desde casa? Descubre qué hace un concertador de reuniones para corredores de seguros, ingresos, requisitos y cómo postularte en Magnora.",
     "keywords": "trabajar en seguros, empleo seguros desde casa, concertador de reuniones seguros, empleo sector seguros, trabajo en seguros sin experiencia, cómo ser concertador de reuniones, corredor de seguros reuniones, empleo seguros y pensiones, teletrabajo seguros",
     "category": "Concertación de Reuniones",
     "title": "Trabajar en seguros desde casa: cómo ser concertador de reuniones en Magnora Marketing",
@@ -242,7 +242,7 @@ export default {
       {
         "heading": "¿Cuánto puedes ganar como concertador de reuniones de seguros?",
         "body": [
-          "En Magnora Marketing trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada. No hay sueldo fijo. Acordamos contigo el modelo exacto antes de empezar, pero el principio es sencillo: cuantas más reuniones buenas concertes, más ganas. La comisión se paga mensualmente y se basa en tus reuniones verificadas."
+          "En Magnora Marketing trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada. No hay ingresos fijos. Acordamos contigo el modelo exacto antes de empezar, pero el principio es sencillo: cuantas más reuniones buenas concertes, más ganas. La comisión se paga mensualmente y se basa en tus reuniones verificadas."
         ]
       },
       {
@@ -278,8 +278,8 @@ export default {
         "answer": "Sí. El trabajo se hace desde casa y por teléfono. Solo necesitas teléfono, ordenador y una conexión estable, y puedes vivir en cualquier lugar de Dinamarca."
       },
       {
-        "question": "¿Cuál es el sueldo de un concertador de reuniones de seguros?",
-        "answer": "Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay sueldo fijo. El modelo exacto se acuerda antes de empezar."
+        "question": "¿Cuáles son los ingresos de un concertador de reuniones de seguros?",
+        "answer": "Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay ingresos fijos. El modelo exacto se acuerda antes de empezar."
       },
       {
         "question": "¿Puedo trabajar con seguros y pensiones a la vez?",
@@ -298,7 +298,7 @@ export default {
   },
   ArbejdeMedPensionHjemmefra: {
     "seoTitle": "Trabajar en pensiones sin titulación: guía | Magnora",
-    "seoDescription": "¿Quieres trabajar en pensiones sin formación financiera? Descubre cómo ser concertador de reuniones de pensiones desde casa: sueldo, requisitos y solicitud.",
+    "seoDescription": "¿Quieres trabajar en pensiones sin formación financiera? Descubre cómo ser concertador de reuniones de pensiones desde casa: ingresos, requisitos y solicitud.",
     "keywords": "trabajar en pensiones, empleo pensiones, empleo en el sector de pensiones, trabajo pensiones sin titulación, concertador de reuniones pensiones, empleo revisión de pensiones, empleo seguros y pensiones, empleo pensiones desde casa",
     "category": "Concertación de Reuniones",
     "title": "Trabajar en pensiones sin formación financiera: cómo ser concertador de reuniones de pensiones",
@@ -337,9 +337,9 @@ export default {
         ]
       },
       {
-        "heading": "Sueldo y condiciones en un empleo de pensiones",
+        "heading": "Ingresos y condiciones en un empleo de pensiones",
         "body": [
-          "Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay sueldo fijo. Como las pensiones son un producto de alto valor, cada reunión cualificada vale mucho. La comisión se paga mensualmente, la colaboración se formaliza en un contrato freelance por escrito y las primeras 2–4 semanas son un periodo de prueba mutuo."
+          "Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay ingresos fijos. Como las pensiones son un producto de alto valor, cada reunión cualificada vale mucho. La comisión se paga mensualmente, la colaboración se formaliza en un contrato freelance por escrito y las primeras 2–4 semanas son un periodo de prueba mutuo."
         ]
       },
       {
@@ -366,7 +366,7 @@ export default {
       },
       {
         "question": "¿Cuánto gana un concertador de reuniones de pensiones?",
-        "answer": "Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay sueldo fijo. El modelo exacto se acuerda antes de empezar."
+        "answer": "Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay ingresos fijos. El modelo exacto se acuerda antes de empezar."
       },
       {
         "question": "¿También puedo concertar reuniones sobre seguros?",

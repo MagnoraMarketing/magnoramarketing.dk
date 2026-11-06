@@ -34,8 +34,8 @@ export default {
     ],
   },
   salary: {
-    badge: 'Løn & provision',
-    title: 'Løn i et job inden for pension: høj værdi pr. møde',
+    badge: 'Indtjening & provision',
+    title: 'Indtjening i et job inden for pension: høj værdi pr. møde',
     text: 'Pensionsaftaler har en høj gennemsnitsværdi for vores samarbejdspartnere – derfor er et kvalificeret pensionsmøde også meget værd for dig. Som freelancer afregnes du efter resultat med provision, så din indtjening afhænger af din egen indsats.',
     list: [
       'Freelance – du afregnes efter resultat',
@@ -52,7 +52,7 @@ export default {
         'Afregning efter resultat – ingen loft',
         'Skriftlig freelanceaftale med klare vilkår',
       ],
-      cta: 'Hør mere om lønnen',
+      cta: 'Hør mere om indtjeningen',
     },
   },
   freedom: {
@@ -140,7 +140,7 @@ export default {
       { question: 'Hvad går jobbet som mødebooker inden for pension ud på?', answer: 'Du kontakter private og erhvervskunder og booker uforpligtende pensionsgennemgange med en erfaren pensionsrådgiver. Du arbejder ud fra ringelister og scripts, som vi leverer.' },
       { question: 'Skal jeg have en finansiel baggrund for at få et job inden for pension?', answer: 'Nej. Du skal booke møder, ikke rådgive. Pensionsrådgiveren tager det faglige, og du får produkttræning, så du trygt kan tale om pension.' },
       { question: 'Kan jeg arbejde med pension 100% hjemmefra?', answer: 'Ja. Hele jobbet foregår hjemmefra og over telefon. Du behøver kun en telefon, en computer og stabilt internet – og du kan bo hvor som helst i Danmark.' },
-      { question: 'Hvordan er lønnen?', answer: 'Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast løn eller grundhonorar. Pension er et højværdiprodukt, hvilket afspejles i provisionen. Den præcise model aftaler vi med dig inden opstart.' },
+      { question: 'Hvordan er indtjeningen?', answer: 'Du er freelancer og afregnes efter resultat med provision på bookede møder og lukkede aftaler – der er ingen fast indtjening eller grundhonorar. Pension er et højværdiprodukt, hvilket afspejles i provisionen. Den præcise model aftaler vi med dig inden opstart.' },
       { question: 'Er pension et følsomt emne at ringe om?', answer: 'Pension handler om vigtige livsvalg, men de fleste sætter pris på tilbuddet om en gratis gennemgang. Du får gennemprøvede scripts og coaching, så samtalen bliver tryg og professionel.' },
       { question: 'Skal jeg selv finde kunderne?', answer: 'Nej. Magnora Marketing leverer ringelister, kampagnemateriale, scripts og CRM-adgang, så du kan starte med det samme.' },
       { question: 'Kan jeg have jobbet som bijob eller deltidsjob?', answer: 'Ja. Du bestemmer selv dine arbejdstider, og mange bruger jobbet som en fleksibel biindtægt ved siden af studie, familie eller andet arbejde.' },

@@ -84,8 +84,8 @@ const contentPages = [
   // Job / career landing pages
   { path: '/freelance-telemarketing', priority: '0.9', changefreq: 'weekly', group: 'Job & karriere', title: 'Freelance telemarketing', desc: 'Freelanceopgaver inden for telemarketing og mødebooking.' },
   { path: '/jobs/arbejd-hjemmefra', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Arbejd hjemmefra', desc: 'Fleksible hjemmearbejdspladser som freelance mødebooker.' },
-  { path: '/jobs/forsikring-hjemmefra', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Mødebooker – forsikring (hjemmefra)', desc: 'Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere – attraktiv løn, provision uden loft og fuld frihed.' },
-  { path: '/jobs/ai-konsulent', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'AI-konsulent (hjemmefra)', desc: 'Bliv AI-konsulent og kontakt virksomheder om AI-løsninger, der sparer tid. Fremtidssikret job 100% hjemmefra med attraktiv løn og henvendelsesformular.' },
+  { path: '/jobs/forsikring-hjemmefra', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Mødebooker – forsikring (hjemmefra)', desc: 'Arbejd 100% hjemmefra for Danmarks bedste forsikringsmæglere – attraktiv indtjening, provision uden loft og fuld frihed.' },
+  { path: '/jobs/ai-konsulent', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'AI-konsulent (hjemmefra)', desc: 'Bliv AI-konsulent og kontakt virksomheder om AI-løsninger, der sparer tid. Fremtidssikret job 100% hjemmefra med attraktiv indtjening og henvendelsesformular.' },
   { path: '/jobs/webudvikling-salg', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Webudvikling & salg', desc: 'Salgsopgaver inden for hjemmesider, SEO og marketing.' },
   { path: '/jobs/led-belysning', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'LED-belysning', desc: 'Mødebooking- og salgsopgaver inden for LED-belysning.' },
   { path: '/jobs/energi-salg', priority: '0.8', changefreq: 'weekly', group: 'Job & karriere', title: 'Energi-salg', desc: 'Salgsopgaver inden for privat strøm og energi.' },

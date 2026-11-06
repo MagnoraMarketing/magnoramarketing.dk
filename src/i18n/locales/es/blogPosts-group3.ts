@@ -169,7 +169,7 @@ export default {
       { question: '¿Cómo empieza mi empresa con la IA?', answer: 'Empezad por identificar vuestras tareas que más tiempo consumen y valorad cuáles se pueden automatizar. Magnora Marketing ofrece un análisis del potencial de la IA sin compromiso que os da un punto de partida concreto.' },
     ],
     jobCtaHeading: '¿Quieres contribuir a dar a conocer las soluciones de IA del futuro?',
-    jobCtaBody: 'Buscamos consultores de IA que contacten con empresas y les muestren soluciones de IA que ahorran tiempo. Trabaja 100% desde casa con un salario atractivo y total libertad: no se requieren conocimientos previos de IA.',
+    jobCtaBody: 'Buscamos consultores de IA que contacten con empresas y les muestren soluciones de IA que ahorran tiempo. Trabaja 100% desde casa con unos ingresos atractivos y total libertad: no se requieren conocimientos previos de IA.',
     jobCtaLinkText: 'Ver el puesto de consultor de IA',
     ctaTitle: '¿Listo para aprovechar las soluciones de IA del futuro?',
     ctaSubtitle: 'Magnora Marketing ayuda a tu empresa a entender e implementar las soluciones de IA que más valor aportan. Reserva una charla sin compromiso hoy mismo.',

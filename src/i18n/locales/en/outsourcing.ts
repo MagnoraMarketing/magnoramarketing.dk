@@ -40,7 +40,7 @@ export default {
     items: [
       { title: 'Faster scaling', description: 'Scale your sales effort up or down quickly, without hiring and training costs.' },
       { title: 'Free up your team', description: 'Let your own salespeople focus on closing and customer care – we take on the time-consuming prospecting.' },
-      { title: 'Low risk', description: 'With the No Cure No Pay model you only pay for delivered results. No fixed salary costs.' },
+      { title: 'Low risk', description: 'With the No Cure No Pay model you only pay for delivered results. No fixed income costs.' },
       { title: 'Experienced sales force', description: 'Get access to an experienced team of sales professionals with proven results from day one.' },
       { title: 'Full transparency', description: 'Ongoing reporting and data insight give you full visibility into the effort and its results.' },
       { title: 'Get started fast', description: 'Magnora Marketing can typically start active sales and meeting booking within 1-2 weeks of signing the agreement.' },
@@ -54,7 +54,7 @@ export default {
       'No recruitment costs',
       'No 3-6 month training period',
       'No sick leave or severance risk',
-      'No fixed salary costs with No Cure No Pay',
+      'No fixed income costs with No Cure No Pay',
       'Flexible scaling up and down',
       'Experienced team from day one',
     ],

@@ -6,7 +6,7 @@ export default {
   button: 'Book et møde',
   job: {
     heading: 'Hellere tage en snak først?',
-    text: 'Book et kort, uforpligtende møde om jobbet. Vælg et tidspunkt, der passer dig, så fortæller vi om opgaverne, lønnen og hvordan du kommer i gang.',
+    text: 'Book et kort, uforpligtende møde om jobbet. Vælg et tidspunkt, der passer dig, så fortæller vi om opgaverne, indtjeningen og hvordan du kommer i gang.',
     iframeTitle: 'Book møde om job hos Magnora Marketing',
     cta: {
       heading: 'Har du interesse i jobmuligheder, et muligt samarbejde eller vil du bare gerne høre mere om, hvad Magnora Marketing kan tilbyde dig?',

@@ -63,7 +63,7 @@ export default {
     faq4Question: 'What do we risk by waiting?',
     faq4Answer: 'Higher costs, slower service and a growing skills gap compared to competitors who have embraced AI.',
     jobCtaHeading: 'Help businesses take a stance on AI',
-    jobCtaBody: 'We are looking for AI consultants who contact businesses and give them insight into the AI solutions they need to address. Work from home with an attractive salary and full freedom.',
+    jobCtaBody: 'We are looking for AI consultants who contact businesses and give them insight into the AI solutions they need to address. Work from home with attractive earnings and full freedom.',
     jobCtaLinkText: 'See the AI consultant job',
     ctaTitle: 'Take a stance on AI before your competitors do',
     ctaSubtitle: 'Magnora Marketing gives you a clear, honest picture of where AI can create value in your business. Book a no-obligation chat today.',

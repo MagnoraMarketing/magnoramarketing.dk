@@ -136,7 +136,7 @@ export default {
     ],
     jobCta: {
       heading: 'Help companies save time with AI',
-      body: "We're looking for AI consultants who contact companies and show them how AI solutions free up hours every week. Work from home with attractive pay – no technical background required.",
+      body: "We're looking for AI consultants who contact companies and show them how AI solutions free up hours every week. Work from home with attractive earnings – no technical background required.",
       linkText: 'See the AI consultant job',
     },
     ctaTitle: 'How much time can your company save with AI?',
@@ -179,7 +179,7 @@ export default {
         ],
       },
       {
-        heading: 'Freedom, flexibility and attractive pay',
+        heading: 'Freedom, flexibility and attractive earnings',
         body: [
           "The job as an AI consultant is 100% remote with flexible working hours. You work freelance and are paid on results with uncapped commission, so your effort determines your earnings. That makes it one of the most attractive and future-proof work-from-home jobs in Denmark right now – whether you're looking for full-time work or a side income.",
         ],
@@ -201,7 +201,7 @@ export default {
         answer: "Yes – the job is 100% remote with flexible working hours. You just need a phone, a computer and a stable internet connection.",
       },
       {
-        question: 'What is the pay like as an AI consultant?',
+        question: 'What are the earnings like as an AI consultant?',
         answer: "You work freelance and are paid on results, with uncapped commission per qualified meeting. Your effort determines how much you can earn.",
       },
       {
@@ -211,7 +211,7 @@ export default {
     ],
     jobCta: {
       heading: 'Ready to become an AI consultant?',
-      body: '100% work from home, be at the forefront of the AI revolution and get rewarded with attractive pay and uncapped commission.',
+      body: '100% work from home, be at the forefront of the AI revolution and get rewarded with attractive earnings and uncapped commission.',
       linkText: 'See the AI consultant job and apply',
     },
     ctaTitle: 'Be at the forefront of the AI revolution',

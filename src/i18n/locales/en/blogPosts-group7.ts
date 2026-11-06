@@ -143,7 +143,7 @@ export default {
     },
     jobCta: {
       heading: 'Passionate about automation and AI?',
-      body: 'We\'re looking for AI consultants who can reach out to companies and show them how AI agents and automation save them time. 100% remote, attractive pay and full flexibility.',
+      body: 'We\'re looking for AI consultants who can reach out to companies and show them how AI agents and automation save them time. 100% remote, attractive earnings and full flexibility.',
       linkText: 'See the AI consultant job',
     },
     ctaTitle: 'Want to automate with AI agents?',

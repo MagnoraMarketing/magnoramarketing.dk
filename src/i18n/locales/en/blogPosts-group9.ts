@@ -204,7 +204,7 @@ export default {
   },
   ArbejdeMedForsikringHjemmefra: {
     "seoTitle": "Working in Insurance from Home: Job Guide | Magnora",
-    "seoDescription": "Want to work in insurance from home? See what a meeting booker for insurance brokers does, the pay, requirements and daily work – and how to apply at Magnora.",
+    "seoDescription": "Want to work in insurance from home? See what a meeting booker for insurance brokers does, the earnings, requirements and daily work – and how to apply at Magnora.",
     "keywords": "working in insurance, remote insurance job, insurance meeting booker, insurance industry job, insurance job without experience, how to become a meeting booker, insurance broker meeting booking, insurance and pension jobs, work from home insurance",
     "category": "Meeting Booking",
     "title": "Working in insurance from home: How to become a meeting booker at Magnora Marketing",
@@ -242,7 +242,7 @@ export default {
       {
         "heading": "What can you earn as an insurance meeting booker?",
         "body": [
-          "At Magnora Marketing you work freelance and are paid on results, with uncapped commission per qualified meeting. There is no fixed salary. We agree on the exact model with you before you start, but the principle is simple: the more good meetings you book, the more you earn. Commission is paid monthly and based on your verified meetings."
+          "At Magnora Marketing you work freelance and are paid on results, with uncapped commission per qualified meeting. There is no fixed income. We agree on the exact model with you before you start, but the principle is simple: the more good meetings you book, the more you earn. Commission is paid monthly and based on your verified meetings."
         ]
       },
       {
@@ -279,7 +279,7 @@ export default {
       },
       {
         "question": "What is the pay for an insurance meeting booker?",
-        "answer": "You work freelance and are paid on results, with uncapped commission per qualified meeting – there is no fixed salary. The exact model is agreed before you start."
+        "answer": "You work freelance and are paid on results, with uncapped commission per qualified meeting – there is no fixed income. The exact model is agreed before you start."
       },
       {
         "question": "Can I work with both insurance and pensions?",
@@ -298,7 +298,7 @@ export default {
   },
   ArbejdeMedPensionHjemmefra: {
     "seoTitle": "Working in Pensions Without a Degree: Guide | Magnora",
-    "seoDescription": "Want to work in pensions but have no financial degree? See how to become a remote pension meeting booker – pay, requirements, daily work and how to apply.",
+    "seoDescription": "Want to work in pensions but have no financial degree? See how to become a remote pension meeting booker – earnings, requirements, daily work and how to apply.",
     "keywords": "working in pensions, pension job, job in pensions, pension industry job, pension job without a degree, pension meeting booker, pension review job, insurance and pension jobs, remote pension job",
     "category": "Meeting Booking",
     "title": "Working in pensions without a financial degree: How to become a pension meeting booker",
@@ -337,9 +337,9 @@ export default {
         ]
       },
       {
-        "heading": "Pay and terms in a pension job",
+        "heading": "Earnings and terms in a pension job",
         "body": [
-          "You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed salary. Because pensions are a high-value product, every qualified meeting is worth a lot. Commission is paid monthly, the collaboration is formalised in a written freelance agreement, and the first 2–4 weeks are a mutual trial period."
+          "You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed income. Because pensions are a high-value product, every qualified meeting is worth a lot. Commission is paid monthly, the collaboration is formalised in a written freelance agreement, and the first 2–4 weeks are a mutual trial period."
         ]
       },
       {
@@ -366,7 +366,7 @@ export default {
       },
       {
         "question": "What does a pension meeting booker earn?",
-        "answer": "You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed salary. The exact model is agreed before you start."
+        "answer": "You work freelance and are paid on results, with commission on booked meetings and closed deals – there is no fixed income. The exact model is agreed before you start."
       },
       {
         "question": "Can I also book insurance meetings?",

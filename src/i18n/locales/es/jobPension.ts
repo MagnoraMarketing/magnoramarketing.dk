@@ -34,8 +34,8 @@ export default {
     ],
   },
   salary: {
-    badge: 'Sueldo y comisión',
-    title: 'Sueldo en un empleo de pensiones: seguridad y alto valor por reunión',
+    badge: 'Ingresos y comisión',
+    title: 'Ingresos en un empleo de pensiones: alto valor por reunión',
     text: 'Los contratos de pensiones tienen un valor medio alto para nuestros socios, por eso una reunión de pensiones cualificada también vale mucho para ti. Como freelance cobras según resultados con comisión, de modo que tus ingresos dependen de tu propio esfuerzo.',
     list: [
       'Freelance: cobras según resultados',
@@ -52,7 +52,7 @@ export default {
         'Cobro según resultados, sin límite',
         'Contrato freelance por escrito con condiciones claras',
       ],
-      cta: 'Más información sobre el sueldo',
+      cta: 'Más información sobre los ingresos',
     },
   },
   freedom: {
@@ -140,7 +140,7 @@ export default {
       { question: '¿En qué consiste el empleo de concertador de reuniones de pensiones?', answer: 'Contactas con particulares y empresas y concertas revisiones de pensiones sin compromiso con un asesor con experiencia. Trabajas con listas de llamadas y guiones que te proporcionamos.' },
       { question: '¿Necesito formación financiera para trabajar en pensiones?', answer: 'No. Concertas reuniones, no asesoras. El asesor de pensiones se encarga de la parte técnica y tú recibes formación de producto para hablar de pensiones con seguridad.' },
       { question: '¿Puedo trabajar con pensiones 100% desde casa?', answer: 'Sí. Todo el trabajo se hace desde casa y por teléfono. Solo necesitas un teléfono, un ordenador y una conexión estable, y puedes vivir en cualquier lugar de Dinamarca.' },
-      { question: '¿Cuál es el sueldo?', answer: 'Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay sueldo fijo ni honorario base. Las pensiones son un producto de alto valor, lo que se refleja en la comisión. Acordamos contigo el modelo exacto antes de empezar.' },
+      { question: '¿Cuáles son los ingresos?', answer: 'Trabajas como freelance y cobras según resultados, con comisión por reuniones concertadas y acuerdos cerrados; no hay ingresos fijos ni honorario base. Las pensiones son un producto de alto valor, lo que se refleja en la comisión. Acordamos contigo el modelo exacto antes de empezar.' },
       { question: '¿Es la pensión un tema delicado para llamar?', answer: 'Las pensiones tienen que ver con decisiones vitales importantes, pero la mayoría agradece la oferta de una revisión gratuita. Recibes guiones probados y coaching para que la conversación sea segura y profesional.' },
       { question: '¿Tengo que buscar los clientes yo mismo?', answer: 'No. Magnora Marketing te proporciona listas de llamadas, material de campaña, guiones y acceso al CRM para que empieces enseguida.' },
       { question: '¿Puedo hacerlo como trabajo extra o a tiempo parcial?', answer: 'Sí. Tú decides tu horario, y muchos lo usan como un ingreso extra flexible junto a sus estudios, su familia u otro empleo.' },

@@ -1,8 +1,8 @@
 export default {
   seo: {
     title: 'Reserva de Reuniones desde Casa para los Mejores Corredores de Seguros de Dinamarca | Magnora Marketing',
-    description: 'Conviértete en agente de reservas y agenda reuniones 100% desde casa para los corredores de seguros líderes del país. Salario atractivo, comisión sin límite y libertad total sobre tu jornada. Solicita el empleo de agente de reservas hoy.',
-    keywords: 'reserva de reuniones desde casa, agente de reservas seguros, empleo reserva de reuniones seguros, agente de reservas corredor de seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, reserva de reuniones freelance, empleo reserva de reuniones Dinamarca, salario atractivo trabajo remoto, reserva de reuniones remota seguros, empleo de reserva de reuniones, empleo seguros, empleo en seguros desde casa, trabajo en seguros, empleo sector seguros, concertador de reuniones seguros, empleo seguros y pensiones, concertador de reuniones freelance, trabajo a tiempo parcial desde casa, trabajo extra desde casa',
+    description: 'Conviértete en agente de reservas y agenda reuniones 100% desde casa para los corredores de seguros líderes del país. Ingresos atractivos, comisión sin límite y libertad total sobre tu jornada. Solicita el empleo de agente de reservas hoy.',
+    keywords: 'reserva de reuniones desde casa, agente de reservas seguros, empleo reserva de reuniones seguros, agente de reservas corredor de seguros, empleo corredor de seguros remoto, trabajar desde casa seguros, reserva de reuniones freelance, empleo reserva de reuniones Dinamarca, ingresos atractivos trabajo remoto, reserva de reuniones remota seguros, empleo de reserva de reuniones, empleo seguros, empleo en seguros desde casa, trabajo en seguros, empleo sector seguros, concertador de reuniones seguros, empleo seguros y pensiones, concertador de reuniones freelance, trabajo a tiempo parcial desde casa, trabajo extra desde casa',
   },
   breadcrumbs: {
     home: 'Inicio',
@@ -11,7 +11,7 @@ export default {
   },
   hero: {
     title: 'Reserva de reuniones desde casa para los mejores corredores de seguros de Dinamarca',
-    subtitle: 'Agenda reuniones para los corredores de seguros líderes del país: 100% desde casa, con salario atractivo, comisión sin límite y libertad total sobre tu propia jornada.',
+    subtitle: 'Agenda reuniones para los corredores de seguros líderes del país: 100% desde casa, con ingresos atractivos, comisión sin límite y libertad total sobre tu propia jornada.',
     cta: 'Solicita ahora – sin compromiso',
     secondaryCta: 'Ver todas las vacantes',
   },
@@ -26,16 +26,16 @@ export default {
   intro: {
     badge: 'Agente de reservas · Seguros',
     title: 'Uno de los empleos remotos más atractivos de Dinamarca',
-    text: 'Como agente de reservas para seguros, ayudas a los mejores corredores de seguros del país a conectar con empresas y clientes particulares que buscan una solución de seguro mejor y más económica. Trabajas 100% desde casa, estableces tus propias condiciones y se te recompensa por tus resultados con uno de los salarios más atractivos del mercado.',
+    text: 'Como agente de reservas para seguros, ayudas a los mejores corredores de seguros del país a conectar con empresas y clientes particulares que buscan una solución de seguro mejor y más económica. Trabajas 100% desde casa, estableces tus propias condiciones y se te recompensa por tus resultados con algunos de los ingresos más atractivos del mercado.',
     cards: [
-      { title: 'Salario atractivo', desc: 'Trabajas como freelance y cobras según resultados, con comisión sin límite. Cuantas más reuniones cualificadas agendes, más ganas: tu esfuerzo determina tus ingresos.' },
+      { title: 'Ingresos atractivos', desc: 'Trabajas como freelance y cobras según resultados, con comisión sin límite. Cuantas más reuniones cualificadas agendes, más ganas: tu esfuerzo determina tus ingresos.' },
       { title: 'Libertad total', desc: 'Trabaja desde tu sofá, tu casa de vacaciones o incluso desde otro país. Sin desplazamientos, sin horarios fijos de reuniones: tú organizas tu día.' },
       { title: 'Los mejores corredores de Dinamarca', desc: 'Representas a algunos de los corredores de seguros más reconocidos del país. Un producto sólido del que puedes estar orgulloso al agendar reuniones.' },
     ],
   },
   salary: {
-    badge: 'Salario y comisión',
-    title: 'Un salario que está a la altura de tu esfuerzo',
+    badge: 'Ingresos y comisión',
+    title: 'Unos ingresos a la altura de tu esfuerzo',
     text: 'Creemos que los buenos agentes de reservas deben ser recompensados en consecuencia. Como freelance cobras según resultados, con uno de los modelos de comisión más competitivos del mercado, completamente sin límite. No hay tope para lo que puedes ganar.',
     list: [
       'Freelance: cobras según resultados',
@@ -48,11 +48,11 @@ export default {
       value: 'Sin límite',
       sub: 'Comisión por reunión cualificada – cobro según resultados',
       rows: [
-        'Cuantas más reuniones, mayor salario',
+        'Cuantas más reuniones, mayores ingresos',
         'Freelance con total libertad sobre tu tiempo',
         'Bonificación extra para los mejores agentes',
       ],
-      cta: 'Más información sobre el salario',
+      cta: 'Más información sobre los ingresos',
     },
   },
   freedom: {
@@ -66,7 +66,7 @@ export default {
     ],
   },
   testimonial: {
-    quote: '«Agendo reuniones para corredores de seguros desde la mesa de mi cocina, recojo a mis hijos a las 15:00 y gano más de lo que ganaba en mi antiguo trabajo de oficina. La libertad y el salario son sencillamente difíciles de superar.»',
+    quote: '«Agendo reuniones para corredores de seguros desde la mesa de mi cocina, recojo a mis hijos a las 15:00 y gano más de lo que ganaba en mi antiguo trabajo de oficina. La libertad y los ingresos son sencillamente difíciles de superar.»',
     author: 'Agente de reservas freelance en Magnora Marketing',
     role: 'Trabaja desde casa · Seguros',
   },
@@ -92,8 +92,8 @@ export default {
     cta: 'Solicita ahora – sin compromiso',
   },
   seoBlock1: {
-    title: 'Trabaja desde casa como agente de reservas para corredores de seguros: libertad y salario atractivo',
-    p1: '¿Sueñas con un empleo remoto flexible con un salario que esté a la altura de tu esfuerzo? Como agente de reservas freelance para seguros en Magnora Marketing, trabajas 100% desde casa y agendas reuniones cualificadas para algunos de los corredores de seguros más reconocidos de Dinamarca. Ayudas a empresas y clientes particulares a conectar con los asesores adecuados para conseguir una solución de seguro mejor, más económica y más transparente, y se te recompensa por cada reunión cualificada que agendes.',
+    title: 'Trabaja desde casa como agente de reservas para corredores de seguros: libertad e ingresos atractivos',
+    p1: '¿Sueñas con un empleo remoto flexible con unos ingresos que estén a la altura de tu esfuerzo? Como agente de reservas freelance para seguros en Magnora Marketing, trabajas 100% desde casa y agendas reuniones cualificadas para algunos de los corredores de seguros más reconocidos de Dinamarca. Ayudas a empresas y clientes particulares a conectar con los asesores adecuados para conseguir una solución de seguro mejor, más económica y más transparente, y se te recompensa por cada reunión cualificada que agendes.',
     p2: 'El puesto de agente de reservas en el sector de seguros es ideal para quien busca libertad y flexibilidad en su día a día. Decides tú mismo cuándo y desde dónde trabajas, y como freelance cobras según resultados, con comisión sin límite. No hay desplazamientos, ni horarios de oficina fijos, ni tope en tus ingresos: solo tus propias metas y ambiciones marcan el límite. Magnora Marketing te proporciona leads, listas de llamadas, guiones y acceso al CRM, para que puedas centrarte en lo que mejor sabes hacer: crear buenas conversaciones y agendar reuniones valiosas.',
     list: [
       '100% remoto: trabaja cuándo y desde dónde quieras',
@@ -146,7 +146,7 @@ export default {
       { question: '¿Cuál es la diferencia entre reserva de reuniones y ventas?', answer: 'Como agente de reservas, no vendes el seguro directamente: agendas la reunión entre el cliente y el corredor de seguros. El asesoramiento y la venta en sí corren a cargo del corredor. Tu único objetivo es crear reuniones cualificadas.' },
       { question: '¿Puedo hacer reserva de reuniones desde casa sin importar en qué parte de Dinamarca viva?', answer: 'Sí. El trabajo es 100% remoto y por teléfono, así que puedes vivir en cualquier lugar de Dinamarca, desde Copenhague y Aarhus hasta las ciudades más pequeñas. Solo necesitas un teléfono, un ordenador y una conexión a internet estable.' },
       { question: '¿De verdad puedo trabajar 100% desde casa?', answer: 'Sí, todo el puesto se realiza en remoto. Solo necesitas un teléfono, un ordenador y una conexión a internet estable. Sin desplazamientos ni asistencia presencial.' },
-      { question: '¿Cuál es el salario?', answer: 'Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay sueldo fijo ni honorario base. Acordamos el modelo exacto contigo antes de empezar, pero tu esfuerzo determina cuánto puedes ganar.' },
+      { question: '¿Cuáles son los ingresos?', answer: 'Trabajas como freelance y cobras según resultados, con comisión sin límite por reunión cualificada; no hay ingresos fijos ni honorario base. Acordamos el modelo exacto contigo antes de empezar, pero tu esfuerzo determina cuánto puedes ganar.' },
       { question: '¿Tengo que buscar yo mismo a los clientes?', answer: 'No. Te proporcionamos listas de llamadas, leads, guiones y acceso al CRM. Tú te centras en las conversaciones y en agendar las reuniones.' },
       { question: '¿Requiere experiencia en seguros o ventas?', answer: 'No. La experiencia en ventas, reserva de reuniones o atención al cliente es una ventaja, pero no un requisito. Te damos una formación completa sobre el producto para que estés listo desde el principio.' },
       { question: '¿Puedo tenerlo como trabajo adicional junto con estudios u otro empleo?', answer: 'Sí, muchos de nuestros agentes de reservas trabajan de forma flexible y lo usan como un atractivo ingreso adicional junto con estudios, familia u otro trabajo.' },
@@ -158,7 +158,7 @@ export default {
     ],
   },
   finalCta: {
-    title: '¿Listo para la libertad y un salario que esté a la altura de tu esfuerzo?',
+    title: '¿Listo para la libertad y unos ingresos que estén a la altura de tu esfuerzo?',
     text: 'Conviértete en agente de reservas para los mejores corredores de seguros de Dinamarca: trabaja desde casa, establece tus propias condiciones y gana sin límite. La solicitud es breve y completamente sin compromiso.',
     cta: 'Solicita ahora',
     secondaryCta: 'Ver todas las vacantes',

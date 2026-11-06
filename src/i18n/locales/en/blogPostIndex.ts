@@ -3,11 +3,11 @@
 export default {
   'arbejde-med-forsikring-hjemmefra': {
     title: "Working in insurance from home: How to become a meeting booker at Magnora Marketing",
-    description: "Want to work in insurance from home? See what a meeting booker for insurance brokers does, the pay, requirements and daily work – and how to apply at Magnora.",
+    description: "Want to work in insurance from home? See what a meeting booker for insurance brokers does, the earnings, requirements and daily work – and how to apply at Magnora.",
   },
   'arbejde-med-pension-hjemmefra': {
     title: "Working in pensions without a financial degree: How to become a pension meeting booker",
-    description: "Want to work in pensions but have no financial degree? See how to become a remote pension meeting booker – pay, requirements, daily work and how to apply.",
+    description: "Want to work in pensions but have no financial degree? See how to become a remote pension meeting booker – earnings, requirements, daily work and how to apply.",
   },
   'hvad-koster-telemarketing': {
     title: 'How much does telemarketing cost? Prices, pricing models and examples',

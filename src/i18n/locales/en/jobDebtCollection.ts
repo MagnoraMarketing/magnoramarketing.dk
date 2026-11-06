@@ -28,7 +28,7 @@ export default {
       { label: 'Employment type', value: 'Freelance / self-employed' },
       { label: 'Workplace', value: 'From home – all of Denmark' },
       { label: 'Working hours', value: 'Flexible – you decide' },
-      { label: 'Pay', value: 'Attractive commission-based pay' },
+      { label: 'Earnings', value: 'Attractive commission-based earnings' },
       { label: 'Product', value: 'B2B debt collection & credit management' },
       { label: 'Start date', value: 'As soon as possible' },
     ],

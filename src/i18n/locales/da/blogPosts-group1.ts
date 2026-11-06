@@ -136,7 +136,7 @@ export default {
     ],
     jobCta: {
       heading: 'Hjælp virksomheder med at spare tid med AI',
-      body: 'Vi søger AI-konsulenter, der kontakter virksomheder og viser dem, hvordan AI-løsninger frigør timer hver uge. Arbejd hjemmefra med attraktiv løn – ingen teknisk baggrund kræves.',
+      body: 'Vi søger AI-konsulenter, der kontakter virksomheder og viser dem, hvordan AI-løsninger frigør timer hver uge. Arbejd hjemmefra med attraktiv indtjening – ingen teknisk baggrund kræves.',
       linkText: 'Se AI-konsulent jobbet',
     },
     ctaTitle: 'Hvor meget tid kan din virksomhed spare med AI?',
@@ -179,7 +179,7 @@ export default {
         ],
       },
       {
-        heading: 'Frihed, fleksibilitet og attraktiv løn',
+        heading: 'Frihed, fleksibilitet og attraktiv indtjening',
         body: [
           'Jobbet som AI-konsulent foregår 100% hjemmefra med fleksible arbejdstider. Du er freelancer og afregnes efter resultat med provision uden loft, så din indsats afgør din indtjening. Det gør det til et af de mest attraktive og fremtidssikrede hjemmejob i Danmark lige nu – uanset om du søger fuldtid eller en biindtægt.',
         ],
@@ -201,7 +201,7 @@ export default {
         answer: 'Ja – jobbet foregår 100% hjemmefra med fleksible arbejdstider. Du skal blot bruge telefon, computer og stabilt internet.',
       },
       {
-        question: 'Hvordan er lønnen som AI-konsulent?',
+        question: 'Hvordan er indtjeningen som AI-konsulent?',
         answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde. Din indsats afgør, hvor meget du kan tjene.',
       },
       {
@@ -211,7 +211,7 @@ export default {
     ],
     jobCta: {
       heading: 'Klar til at blive AI-konsulent?',
-      body: 'Send en kort, uforpligtende henvendelse via vores jobside. Arbejd 100% hjemmefra, vær med i front af AI-revolutionen og bliv belønnet med attraktiv løn og provision uden loft.',
+      body: 'Send en kort, uforpligtende henvendelse via vores jobside. Arbejd 100% hjemmefra, vær med i front af AI-revolutionen og bliv belønnet med attraktiv indtjening og provision uden loft.',
       linkText: 'Se AI-konsulent jobbet og ansøg',
     },
     ctaTitle: 'Vær med i front af AI-revolutionen',

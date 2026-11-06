@@ -6,7 +6,7 @@ export default {
   button: 'Reservar una reunión',
   job: {
     heading: '¿Prefieres hablar primero?',
-    text: 'Reserva una reunión breve y sin compromiso sobre el puesto. Elige el momento que mejor te venga y te contaremos las tareas, el sueldo y cómo empezar.',
+    text: 'Reserva una reunión breve y sin compromiso sobre el puesto. Elige el momento que mejor te venga y te contaremos las tareas, los ingresos y cómo empezar.',
     iframeTitle: 'Reservar una reunión sobre un empleo en Magnora Marketing',
     cta: {
       heading: '¿Te interesan las oportunidades de empleo, una posible colaboración o simplemente quieres saber más sobre lo que Magnora Marketing puede ofrecerte?',

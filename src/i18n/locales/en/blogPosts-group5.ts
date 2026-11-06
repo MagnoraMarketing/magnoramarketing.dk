@@ -110,7 +110,7 @@ export default {
     ],
     jobCta: {
       heading: 'Want to work where AI and sales meet?',
-      body: 'We are looking for AI consultants who contact companies and show them how AI lifts sales and meeting booking. Work 100% from home with attractive pay and full freedom.',
+      body: 'We are looking for AI consultants who contact companies and show them how AI lifts sales and meeting booking. Work 100% from home with attractive earnings and full freedom.',
       linkText: 'See the AI consultant job',
     },
     ctaTitle: 'Build the sales engine of the future with AI and meeting booking',
@@ -455,7 +455,7 @@ export default {
     ],
     jobCta: {
       heading: 'Want to help companies discover what AI can do?',
-      body: 'We are looking for AI consultants who contact companies and give them insight into how AI can help in their day-to-day work. Work 100% from home with attractive pay and full freedom – no prior AI knowledge required.',
+      body: 'We are looking for AI consultants who contact companies and give them insight into how AI can help in their day-to-day work. Work 100% from home with attractive earnings and full freedom – no prior AI knowledge required.',
       linkText: 'See the AI consultant job',
     },
     ctaTitle: 'Want help getting started with AI?',

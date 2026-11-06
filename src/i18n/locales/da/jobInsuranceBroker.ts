@@ -1,8 +1,8 @@
 export default {
   seo: {
     title: 'Mødebooker Hjemmefra – Forsikring | Magnora Marketing',
-    description: 'Bliv mødebooker 100% hjemmefra for landets førende forsikringsmæglere. Attraktiv løn, provision uden loft og fuld frihed over din arbejdsdag.',
-    keywords: 'mødebooking hjemmefra, mødebooker forsikring, mødebooking forsikring job, mødebooker forsikringsmægler, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, freelance mødebooking, mødebooking job Danmark, attraktiv løn hjemmearbejde, remote mødebooking forsikring, job forsikring, job i forsikring hjemmefra, forsikringsjob, job i forsikringsbranchen, job forsikring og pension, freelance mødebooker, deltidsjob hjemmefra, bijob hjemmefra',
+    description: 'Bliv mødebooker 100% hjemmefra for landets førende forsikringsmæglere. Attraktiv indtjening, provision uden loft og fuld frihed over din arbejdsdag.',
+    keywords: 'mødebooking hjemmefra, mødebooker forsikring, mødebooking forsikring job, mødebooker forsikringsmægler, forsikringsmægler job hjemmefra, arbejd hjemmefra forsikring, freelance mødebooking, mødebooking job Danmark, attraktiv indtjening hjemmearbejde, remote mødebooking forsikring, job forsikring, job i forsikring hjemmefra, forsikringsjob, job i forsikringsbranchen, job forsikring og pension, freelance mødebooker, deltidsjob hjemmefra, bijob hjemmefra',
   },
   breadcrumbs: {
     home: 'Forside',
@@ -11,7 +11,7 @@ export default {
   },
   hero: {
     title: 'Mødebooking hjemmefra for Danmarks bedste forsikringsmæglere',
-    subtitle: 'Lav mødebooking for landets førende forsikringsmæglere – 100% hjemmefra, med attraktiv løn, provision uden loft og fuld frihed over din egen arbejdsdag.',
+    subtitle: 'Lav mødebooking for landets førende forsikringsmæglere – 100% hjemmefra, med attraktiv indtjening, provision uden loft og fuld frihed over din egen arbejdsdag.',
     cta: 'Ansøg – helt uforpligtende',
     secondaryCta: 'Se alle ledige stillinger',
   },
@@ -26,16 +26,16 @@ export default {
   intro: {
     badge: 'Mødebooker · Forsikring',
     title: 'Et af Danmarks mest attraktive hjemmejob',
-    text: 'Som mødebooker for forsikring hjælper du landets bedste forsikringsmæglere med at komme i kontakt med virksomheder og privatkunder, der ønsker en bedre og billigere forsikringsløsning. Du arbejder 100% hjemmefra, sætter selv dine rammer – og belønnes for dine resultater med markedets mest attraktive løn.',
+    text: 'Som mødebooker for forsikring hjælper du landets bedste forsikringsmæglere med at komme i kontakt med virksomheder og privatkunder, der ønsker en bedre og billigere forsikringsløsning. Du arbejder 100% hjemmefra, sætter selv dine rammer – og belønnes for dine resultater med markedets mest attraktive indtjening.',
     cards: [
-      { title: 'Attraktiv løn', desc: 'Du er freelancer og afregnes efter resultat med provision uden loft. Jo flere kvalificerede møder du booker, jo mere tjener du – din indsats afgør din indtjening.' },
+      { title: 'Attraktiv indtjening', desc: 'Du er freelancer og afregnes efter resultat med provision uden loft. Jo flere kvalificerede møder du booker, jo mere tjener du – din indsats afgør din indtjening.' },
       { title: 'Fuld frihed', desc: 'Arbejd fra din sofa, dit sommerhus eller et andet land. Ingen pendling, ingen faste mødetider – du strukturerer selv din dag.' },
       { title: 'Danmarks bedste mæglere', desc: 'Du repræsenterer nogle af landets mest anerkendte forsikringsmæglere. Et stærkt produkt, du kan være stolt af at booke møder for.' },
     ],
   },
   salary: {
-    badge: 'Løn & provision',
-    title: 'En løn der matcher din indsats',
+    badge: 'Indtjening & provision',
+    title: 'En indtjening der matcher din indsats',
     text: 'Vi tror på, at dygtige mødebookere skal belønnes derefter. Som freelancer afregnes du efter resultat med en af markedets mest konkurrencedygtige provisionsmodeller – helt uden loft. Der er ingen grænse for, hvor meget du kan tjene.',
     list: [
       'Freelance – du afregnes efter resultat',
@@ -48,11 +48,11 @@ export default {
       value: 'Uden loft',
       sub: 'Provision pr. kvalificeret møde – afregning efter resultat',
       rows: [
-        'Jo flere møder, jo højere løn',
+        'Jo flere møder, jo højere indtjening',
         'Freelance med fuld frihed over din tid',
         'Ekstra bonus til topbookere',
       ],
-      cta: 'Hør mere om lønnen',
+      cta: 'Hør mere om indtjeningen',
     },
   },
   freedom: {
@@ -66,7 +66,7 @@ export default {
     ],
   },
   testimonial: {
-    quote: '«Jeg booker møder for forsikringsmæglere fra mit køkkenbord, henter mine børn kl. 15 – og tjener mere, end jeg gjorde på mit gamle kontorjob. Friheden og lønnen er simpelthen svær at slå.»',
+    quote: '«Jeg booker møder for forsikringsmæglere fra mit køkkenbord, henter mine børn kl. 15 – og tjener mere, end jeg gjorde på mit gamle kontorjob. Friheden og indtjeningen er simpelthen svær at slå.»',
     author: 'Freelance mødebooker hos Magnora Marketing',
     role: 'Arbejder hjemmefra · Forsikring',
   },
@@ -92,8 +92,8 @@ export default {
     cta: 'Ansøg nu – uforpligtende',
   },
   seoBlock1: {
-    title: 'Arbejd hjemmefra som mødebooker for forsikringsmæglere – frihed og attraktiv løn',
-    p1: 'Drømmer du om et fleksibelt hjemmejob med en løn, der matcher din indsats? Som freelance mødebooker for forsikring hos Magnora Marketing arbejder du 100% hjemmefra og booker kvalificerede møder for nogle af Danmarks bedste og mest anerkendte forsikringsmæglere. Du hjælper virksomheder og privatkunder med at komme i kontakt med de rette rådgivere, så de kan få en bedre, billigere og mere gennemsigtig forsikringsløsning – og du belønnes for hvert eneste kvalificerede møde, du booker.',
+    title: 'Arbejd hjemmefra som mødebooker for forsikringsmæglere – frihed og attraktiv indtjening',
+    p1: 'Drømmer du om et fleksibelt hjemmejob med en indtjening, der matcher din indsats? Som freelance mødebooker for forsikring hos Magnora Marketing arbejder du 100% hjemmefra og booker kvalificerede møder for nogle af Danmarks bedste og mest anerkendte forsikringsmæglere. Du hjælper virksomheder og privatkunder med at komme i kontakt med de rette rådgivere, så de kan få en bedre, billigere og mere gennemsigtig forsikringsløsning – og du belønnes for hvert eneste kvalificerede møde, du booker.',
     p2: 'Jobbet som mødebooker inden for forsikring er ideelt for dig, der ønsker frihed og fleksibilitet i hverdagen. Du bestemmer selv, hvornår og hvorfra du arbejder, og som freelancer afregnes du efter resultat med provision uden loft. Der er ingen pendling, ingen faste kontortider og intet loft over din indtjening – kun dine egne mål og ambitioner sætter grænsen. Magnora Marketing leverer leads, ringelister, scripts og CRM-adgang, så du kan fokusere på det, du er god til: at skabe gode samtaler og booke værdifulde møder.',
     list: [
       '100% hjemmefra – arbejd hvornår og hvorfra du vil',
@@ -146,7 +146,7 @@ export default {
       { question: 'Hvad er forskellen på mødebooking og salg?', answer: 'Som mødebooker sælger du ikke selv forsikringen – du booker mødet mellem kunden og forsikringsmægleren. Selve rådgivningen og salget står mægleren for. Dit fokus er alene at skabe kvalificerede møder.' },
       { question: 'Kan jeg lave mødebooking hjemmefra, uanset hvor i Danmark jeg bor?', answer: 'Ja. Jobbet foregår 100% hjemmefra og over telefon, så du kan bo hvor som helst i Danmark – fra København og Aarhus til de mindste byer. Du behøver kun telefon, computer og stabilt internet.' },
       { question: 'Kan jeg virkelig arbejde 100% hjemmefra?', answer: 'Ja – hele rollen udføres hjemmefra. Du behøver kun en telefon, en computer og stabilt internet. Ingen pendling og ingen fast fremmøde.' },
-      { question: 'Hvad er lønnen?', answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde – der er ingen fast løn eller grundhonorar. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
+      { question: 'Hvad er indtjeningen?', answer: 'Du er freelancer og afregnes efter resultat med provision uden loft pr. kvalificeret møde – der er ingen fast indtjening eller grundhonorar. Den præcise model aftaler vi med dig inden opstart – men din indsats afgør, hvor meget du kan tjene.' },
       { question: 'Skal jeg selv finde kunderne?', answer: 'Nej. Vi leverer ringelister, leads, scripts og CRM-adgang. Du fokuserer på samtalerne og på at booke møderne.' },
       { question: 'Kræver det erfaring med forsikring eller salg?', answer: 'Nej. Erfaring med salg, mødebooking eller kundeservice er en fordel, men ikke et krav. Vi giver dig grundig produkttræning, så du er klar fra start.' },
       { question: 'Kan jeg have det som bijob ved siden af studie eller andet arbejde?', answer: 'Ja – mange af vores mødebookere arbejder fleksibelt og bruger det som en attraktiv biindtægt ved siden af studie, familie eller andet arbejde.' },
@@ -158,7 +158,7 @@ export default {
     ],
   },
   finalCta: {
-    title: 'Klar til frihed og en løn, der matcher din indsats?',
+    title: 'Klar til frihed og en indtjening, der matcher din indsats?',
     text: 'Bliv mødebooker for Danmarks bedste forsikringsmæglere – arbejd hjemmefra, sæt dine egne rammer og tjen uden loft. Ansøgningen er kort og helt uforpligtende.',
     cta: 'Ansøg nu',
     secondaryCta: 'Se alle ledige stillinger',

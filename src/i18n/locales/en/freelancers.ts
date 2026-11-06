@@ -27,7 +27,7 @@ export default {
     benefits: [
       { title: 'Home office', description: 'Work efficiently from your own home with all the necessary digital tools. No commute time, no expensive lunches.' },
       { title: 'Your own hours', description: 'Arrange your day the way that suits you – ideal for students, parents and anyone with an active life alongside work.' },
-      { title: 'Performance-driven pay', description: 'You work freelance and are paid on results with commission. Your results are reflected directly in your payout.' },
+      { title: 'Performance-driven earnings', description: 'You work freelance and are paid on results with commission. Your results are reflected directly in your payout.' },
     ],
     checklist: [
       'No transport or commuting',
@@ -71,7 +71,7 @@ export default {
   },
   faq: {
     items: [
-      { question: 'What does a freelance salesperson earn at Magnora Marketing?', answer: 'As a freelancer you are paid on results with commission – there is no fixed salary or base fee. The more you sell, the more you earn – there is no cap.' },
+      { question: 'What does a freelance salesperson earn at Magnora Marketing?', answer: 'As a freelancer you are paid on results with commission – there is no fixed income or base fee. The more you sell, the more you earn – there is no cap.' },
       { question: 'Do I need experience to apply?', answer: 'Experience is an advantage but not a requirement. Magnora Marketing trains you thoroughly and provides ongoing support and coaching.' },
       { question: 'Can I work part-time?', answer: 'Yes – you decide your own working hours and can work anywhere from a few hours a week to full-time.' },
       { question: 'What happens if I have questions while working?', answer: "You always have access to support from Magnora Marketing's experienced sales managers, who can help with coaching, scripts and product questions." },
@@ -79,7 +79,7 @@ export default {
       { question: 'Is there an opportunity for permanent employment?', answer: 'The partnership starts as freelance. Skilled freelancers may eventually discuss other forms of collaboration with Magnora Marketing.' },
       { question: 'What happens during the training period?', answer: 'You go through an onboarding process with product training, sales technique and a review of scripts. This typically takes 1-3 days.' },
       { question: 'Can I sell several products at once?', answer: 'You normally start with one product. Once you have gained experience, you can potentially take on additional products.' },
-      { question: 'What is the minimum I can earn?', answer: 'It depends on activity level and product. We set realistic expectations at the start and are transparent about pay.' },
+      { question: 'What is the minimum I can earn?', answer: 'It depends on activity level and product. We set realistic expectations at the start and are transparent about earnings.' },
       { question: 'Do you have a community for freelancers?', answer: "Yes – you become part of Magnora Marketing's network of freelancers with access to shared experiences and joint motivational activities." },
       { question: 'Can I work from abroad?', answer: 'Yes – as long as you have a stable internet connection and can communicate professionally in Danish, you can work from anywhere in the world.' },
       { question: 'What is most important for succeeding as a freelancer at Magnora Marketing?', answer: 'Persistence, structure and a positive mindset. Telemarketing requires being able to handle rejection and stay motivated.' },

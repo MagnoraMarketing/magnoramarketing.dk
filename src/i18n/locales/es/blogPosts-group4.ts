@@ -104,7 +104,7 @@ export default {
     ],
     jobCtaHeading: '¿Quieres dar a conocer la atención al cliente con IA?',
     jobCtaBody:
-      'Buscamos consultores de IA que contacten con empresas y les muestren el valor del chat y la recepción con IA. 100% desde casa, salario atractivo y total libertad sobre tu jornada.',
+      'Buscamos consultores de IA que contacten con empresas y les muestren el valor del chat y la recepción con IA. 100% desde casa, ingresos atractivos y total libertad sobre tu jornada.',
     jobCtaLinkText: 'Ver el puesto de consultor de IA',
     ctaTitle: '¿Listo para una atención al cliente que nunca duerme?',
     ctaSubtitle: 'Magnora Marketing ayuda a tu empresa con chat y recepción con IA que responden a los clientes las 24 horas. Reserva una conversación sin compromiso.',
@@ -182,7 +182,7 @@ export default {
     ],
     jobCtaHeading: 'Muestra a las empresas el valor de la IA generativa',
     jobCtaBody:
-      'Buscamos consultores de IA que contacten con empresas y les abran los ojos sobre cómo la IA generativa genera valor de negocio. Trabaja desde casa con un salario atractivo y total libertad.',
+      'Buscamos consultores de IA que contacten con empresas y les abran los ojos sobre cómo la IA generativa genera valor de negocio. Trabaja desde casa con unos ingresos atractivos y total libertad.',
     jobCtaLinkText: 'Ver el puesto de consultor de IA',
     ctaTitle: '¿Quieres generar valor real con la IA generativa?',
     ctaSubtitle: 'Magnora Marketing lleva a tu empresa del uso aleatorio de la IA a la creación estructurada de valor. Reserva hoy una conversación sin compromiso.',

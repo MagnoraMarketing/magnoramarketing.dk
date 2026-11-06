@@ -79,7 +79,7 @@ export default {
   },
   faqs: [
     { question: 'Kan jeg arbejde remote som sælger hos Magnora Marketing?', answer: "Ja – alle Magnora Marketing's freelance salgsstillinger kan udføres 100% hjemmefra. Du behøver kun en telefon, computer og stabilt internet." },
-    { question: 'Hvad er provisionssatsen?', answer: 'Provisionen varierer afhængigt af produkt og kampagne. Du får altid en klar aftale om løn og provision inden opstart.' },
+    { question: 'Hvad er provisionssatsen?', answer: 'Provisionen varierer afhængigt af produkt og kampagne. Du får altid en klar aftale om indtjening og provision inden opstart.' },
     { question: 'Skal jeg selv finde kunder?', answer: 'Nej – Magnora Marketing leverer leads, scripts og kampagnematerialer. Du ringer til de kontakter vi giver dig og arbejder efter vores salgsproces.' },
     { question: 'Hvornår udbetales provision?', answer: 'Provision udbetales månedligt baseret på verificerede salg og resultater.' },
     { question: 'Kan jeg arbejde for Magnora Marketing ved siden af et andet job?', answer: 'Ja – mange af vores freelancere arbejder for Magnora Marketing som biindtægt eller supplement til studier.' },

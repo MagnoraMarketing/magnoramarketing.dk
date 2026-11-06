@@ -79,7 +79,7 @@ export default {
   },
   faqs: [
     { question: '¿Puedo trabajar en remoto como comercial en Magnora Marketing?', answer: 'Sí – todos los puestos comerciales freelance de Magnora Marketing pueden realizarse 100% desde casa. Solo necesitas un teléfono, un ordenador y una conexión a internet estable.' },
-    { question: '¿Cuál es la tasa de comisión?', answer: 'La comisión varía según el producto y la campaña. Siempre recibes un acuerdo claro sobre retribución y comisión antes de empezar.' },
+    { question: '¿Cuál es la tasa de comisión?', answer: 'La comisión varía según el producto y la campaña. Siempre recibes un acuerdo claro sobre ingresos y comisión antes de empezar.' },
     { question: '¿Tengo que buscar yo mismo a los clientes?', answer: 'No – Magnora Marketing proporciona leads, guiones y materiales de campaña. Llamas a los contactos que te damos y trabajas según nuestro proceso de venta.' },
     { question: '¿Cuándo se paga la comisión?', answer: 'La comisión se paga mensualmente en función de las ventas y los resultados verificados.' },
     { question: '¿Puedo trabajar para Magnora Marketing junto con otro empleo?', answer: 'Sí – muchos de nuestros freelance trabajan para Magnora Marketing como ingreso complementario o combinado con sus estudios.' },
